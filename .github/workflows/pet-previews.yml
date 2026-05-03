@@ -36,7 +36,6 @@ jobs:
       - name: Generate pet assets and README files
         run: |
           npm run previews
-          npm run cover
           npm run readmes
 
       - name: Validate repository
@@ -49,7 +48,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add README.md docs/zh-CN/README.md assets/previews assets/cover
+          git add README.md docs/zh-CN/README.md assets/previews
           git diff --cached --quiet || git commit -m "chore: update generated previews and readmes"
           git push
 

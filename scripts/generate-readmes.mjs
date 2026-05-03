@@ -6,19 +6,28 @@ const repoRoot = fileURLToPath(new URL("..", import.meta.url));
 const petsDir = join(repoRoot, "pets");
 
 const categories = [
-  "Anime and Game Fan Art",
+  "Anime Characters",
   "Original Characters",
-  "Animals and Creatures",
-  "Robots and Mascots",
-  "Memes and Internet Icons",
+  "Memes",
+  "Animals",
+  "Robots",
+  "Others",
 ];
 
 const categoryZh = {
-  "Anime and Game Fan Art": "动漫与游戏二创",
+  "Anime Characters": "动漫人物",
   "Original Characters": "原创角色",
-  "Animals and Creatures": "动物与奇幻生物",
-  "Robots and Mascots": "机器人与吉祥物",
-  "Memes and Internet Icons": "梗图与互联网形象",
+  Memes: "表情包",
+  Animals: "动物",
+  Robots: "机器人",
+  Others: "其他",
+};
+
+const categoryAliases = {
+  "Anime and Game Fan Art": "Anime Characters",
+  "Animals and Creatures": "Animals",
+  "Robots and Mascots": "Robots",
+  "Memes and Internet Icons": "Memes",
 };
 
 const previewStates = [
@@ -55,6 +64,8 @@ function badges(pets) {
     badge("pets", String(pets.length), "2ea44f"),
     badge("categories", String(categories.length), "0969da"),
     badge("languages", "en | zh--CN", "8250df"),
+    badge("code", "MIT", "111111"),
+    badge("assets", "CC BY--NC 4.0", "f97316"),
     badge("install", "one command", "111111"),
     "[![Pet previews](https://github.com/legeling/awesome-codex-pet/actions/workflows/pet-previews.yml/badge.svg)](https://github.com/legeling/awesome-codex-pet/actions/workflows/pet-previews.yml)",
   ].join(" ");
@@ -68,32 +79,37 @@ function authorLink(pet) {
 
 function petBlock(pet, lang) {
   const rootPrefix = lang === "zh" ? "../.." : ".";
-  const labels = lang === "zh" ? ["元数据", "安装", "动作", "预览"] : ["Metadata", "Install", "Action", "Preview"];
+  const labels = lang === "zh" ? ["名称", "安装", "动作", "预览"] : ["Name", "Install", "Action", "Preview"];
   const by = lang === "zh" ? "作者" : "by";
-  const category = lang === "zh" ? categoryZh[pet.primary_category] || pet.primary_category : pet.primary_category;
+  const category = normalizeCategory(pet.primary_category);
+  const categoryName = lang === "zh" ? categoryZh[category] || category : category;
   const stateNames = previewStates.map((state) => (lang === "zh" ? state[2] : state[1]));
   const gifs = previewStates.map(([state]) => {
     const path = `${rootPrefix}/assets/previews/${pet.slug}/gifs/${state}.gif`;
-    return `<img src="${path}" alt="${pet.name} ${state}" width="120">`;
+    return `<img src="${path}" alt="${pet.name} ${state}" width="120" height="130">`;
   });
 
   return [
     `<table>`,
-    `<tr><th colspan="5"><a href="${rootPrefix}/pets/${pet.slug}">${pet.name}</a> · ${by} ${authorLink(pet)} · ${category}</th></tr>`,
-    `<tr><td colspan="5"><code>npm run install:pet -- ${pet.slug}</code></td></tr>`,
-    `<tr>${stateNames.map((name) => `<td><strong>${name}</strong></td>`).join("")}</tr>`,
-    `<tr>${gifs.map((gif) => `<td>${gif}</td>`).join("")}</tr>`,
+    `<tr><th>${labels[0]}</th><td colspan="5"><a href="${rootPrefix}/pets/${pet.slug}">${pet.name}</a> · ${by} ${authorLink(pet)} · ${categoryName}</td></tr>`,
+    `<tr><th>${labels[1]}</th><td colspan="5"><code>npm run install:pet -- ${pet.slug}</code></td></tr>`,
+    `<tr><th>${labels[2]}</th>${stateNames.map((name) => `<td><strong>${name}</strong></td>`).join("")}</tr>`,
+    `<tr><th>${labels[3]}</th>${gifs.map((gif) => `<td>${gif}</td>`).join("")}</tr>`,
     `</table>`,
   ].join("\n");
 }
 
+function normalizeCategory(category) {
+  return categoryAliases[category] || category;
+}
+
 function categorySections(pets, lang) {
   return categories
-    .map((category) => {
-      const items = pets.filter((pet) => pet.primary_category === category);
+    .flatMap((category) => {
+      const items = pets.filter((pet) => normalizeCategory(pet.primary_category) === category);
+      if (items.length === 0) return [];
       const title = lang === "zh" ? categoryZh[category] || category : category;
-      const empty = lang === "zh" ? "暂无收录。" : "No pets yet.";
-      return [`### ${title}`, "", items.length ? items.map((pet) => petBlock(pet, lang)).join("\n\n") : empty].join("\n");
+      return [[`### ${title}`, "", items.map((pet) => petBlock(pet, lang)).join("\n\n")].join("\n")];
     })
     .join("\n\n");
 }
@@ -172,9 +188,8 @@ npm run lint
 
 ## License
 
-Unless otherwise noted, documentation in this repository may be shared under the repository license you choose later.
-
-Individual pet assets may use their own licenses. Contributors should clearly state asset licensing inside each pet folder.
+- Code and scripts: [MIT](./LICENSE)
+- Pet assets and generated previews: [CC BY-NC 4.0](./ASSETS-LICENSE.md), unless a pet folder says otherwise
 `;
 }
 
@@ -252,9 +267,8 @@ npm run lint
 
 ## 许可说明
 
-如果后续你为仓库补充统一许可证，文档部分可以跟随仓库许可证发布。
-
-每个 pet 资源本身可以有自己的许可证，贡献者需要在各自目录里明确说明。
+- 代码和脚本：[MIT](../../LICENSE)
+- pet 资产和自动生成预览：[CC BY-NC 4.0](../../ASSETS-LICENSE.md)，除非具体 pet 目录另有说明
 `;
 }
 

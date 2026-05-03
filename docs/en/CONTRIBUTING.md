@@ -40,7 +40,7 @@ Use this repository-level schema:
   "author_slug": "lingxiaotian",
   "name": "Mikoto",
   "author": "your-name-or-handle",
-  "primary_category": "Anime and Game Fan Art",
+  "primary_category": "Anime Characters",
   "tags": ["anime", "electric", "schoolgirl"],
   "source_type": "fan-art",
   "source_url": "https://example.com/original-post",
@@ -79,10 +79,11 @@ Maintainers may decline a submission if:
 
 Current primary categories:
 
+- Anime Characters
 - Original Characters
-- Anime and Game Fan Art
-- Animals and Creatures
-- Robots and Mascots
-- Memes and Internet Icons
+- Memes
+- Animals
+- Robots
+- Others
 
 More detail is available in [categories.md](./categories.md).

@@ -64,6 +64,7 @@ assets/previews/<pet-id>/gifs/<state>.gif
 ```
 
 CI runs the same command and checks that generated previews are committed.
+All generated action GIFs use the same pixel size: `384x416`.
 
 ## Quick install check
 

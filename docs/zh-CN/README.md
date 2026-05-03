@@ -2,7 +2,7 @@
 
 简体中文 | [English](../../README.md)
 
-![pets: 1](https://img.shields.io/badge/pets-1-2ea44f) ![categories: 5](https://img.shields.io/badge/categories-5-0969da) ![languages: en | zh--CN](https://img.shields.io/badge/languages-en%20%7C%20zh--CN-8250df) ![install: one command](https://img.shields.io/badge/install-one%20command-111111) [![Pet previews](https://github.com/legeling/awesome-codex-pet/actions/workflows/pet-previews.yml/badge.svg)](https://github.com/legeling/awesome-codex-pet/actions/workflows/pet-previews.yml)
+![pets: 1](https://img.shields.io/badge/pets-1-2ea44f) ![categories: 6](https://img.shields.io/badge/categories-6-0969da) ![languages: en | zh--CN](https://img.shields.io/badge/languages-en%20%7C%20zh--CN-8250df) ![code: MIT](https://img.shields.io/badge/code-MIT-111111) ![assets: CC BY--NC 4.0](https://img.shields.io/badge/assets-CC%20BY--NC%204.0-f97316) ![install: one command](https://img.shields.io/badge/install-one%20command-111111) [![Pet previews](https://github.com/legeling/awesome-codex-pet/actions/workflows/pet-previews.yml/badge.svg)](https://github.com/legeling/awesome-codex-pet/actions/workflows/pet-previews.yml)
 
 ![Awesome Codex Pet 封面](../../assets/cover/awesome-codex-pet-cover.png)
 
@@ -34,30 +34,14 @@ npm run install:pet -- mikoto--lingxiaotian
 
 ## Pet 收录
 
-### 动漫与游戏二创
+### 动漫人物
 
 <table>
-<tr><th colspan="5"><a href="../../pets/mikoto--lingxiaotian">Mikoto</a> · 作者 <a href="https://github.com/legeling">@legeling</a> · 动漫与游戏二创</th></tr>
-<tr><td colspan="5"><code>npm run install:pet -- mikoto--lingxiaotian</code></td></tr>
-<tr><td><strong>待机</strong></td><td><strong>挥手</strong></td><td><strong>奔跑</strong></td><td><strong>跳跃</strong></td><td><strong>审阅</strong></td></tr>
-<tr><td><img src="../../assets/previews/mikoto--lingxiaotian/gifs/idle.gif" alt="Mikoto idle" width="120"></td><td><img src="../../assets/previews/mikoto--lingxiaotian/gifs/waving.gif" alt="Mikoto waving" width="120"></td><td><img src="../../assets/previews/mikoto--lingxiaotian/gifs/running.gif" alt="Mikoto running" width="120"></td><td><img src="../../assets/previews/mikoto--lingxiaotian/gifs/jumping.gif" alt="Mikoto jumping" width="120"></td><td><img src="../../assets/previews/mikoto--lingxiaotian/gifs/review.gif" alt="Mikoto review" width="120"></td></tr>
+<tr><th>名称</th><td colspan="5"><a href="../../pets/mikoto--lingxiaotian">Mikoto</a> · 作者 <a href="https://github.com/legeling">@legeling</a> · 动漫人物</td></tr>
+<tr><th>安装</th><td colspan="5"><code>npm run install:pet -- mikoto--lingxiaotian</code></td></tr>
+<tr><th>动作</th><td><strong>待机</strong></td><td><strong>挥手</strong></td><td><strong>奔跑</strong></td><td><strong>跳跃</strong></td><td><strong>审阅</strong></td></tr>
+<tr><th>预览</th><td><img src="../../assets/previews/mikoto--lingxiaotian/gifs/idle.gif" alt="Mikoto idle" width="120" height="130"></td><td><img src="../../assets/previews/mikoto--lingxiaotian/gifs/waving.gif" alt="Mikoto waving" width="120" height="130"></td><td><img src="../../assets/previews/mikoto--lingxiaotian/gifs/running.gif" alt="Mikoto running" width="120" height="130"></td><td><img src="../../assets/previews/mikoto--lingxiaotian/gifs/jumping.gif" alt="Mikoto jumping" width="120" height="130"></td><td><img src="../../assets/previews/mikoto--lingxiaotian/gifs/review.gif" alt="Mikoto review" width="120" height="130"></td></tr>
 </table>
-
-### 原创角色
-
-暂无收录。
-
-### 动物与奇幻生物
-
-暂无收录。
-
-### 机器人与吉祥物
-
-暂无收录。
-
-### 梗图与互联网形象
-
-暂无收录。
 
 ## 投稿
 
@@ -93,6 +77,5 @@ npm run lint
 
 ## 许可说明
 
-如果后续你为仓库补充统一许可证，文档部分可以跟随仓库许可证发布。
-
-每个 pet 资源本身可以有自己的许可证，贡献者需要在各自目录里明确说明。
+- 代码和脚本：[MIT](../../LICENSE)
+- pet 资产和自动生成预览：[CC BY-NC 4.0](../../ASSETS-LICENSE.md)，除非具体 pet 目录另有说明

@@ -6,6 +6,7 @@ const repoRoot = fileURLToPath(new URL("..", import.meta.url));
 const petsDir = join(repoRoot, "pets");
 
 const slugPattern = /^[a-z0-9]+(?:-[a-z0-9]+)*--[a-z0-9]+(?:-[a-z0-9]+)*$/;
+const previewStates = ["idle", "waving", "running", "jumping", "review"];
 const errors = [];
 
 function readJson(path) {
@@ -67,6 +68,13 @@ for (const entry of readdirSync(petsDir)) {
 
     if (pet.spritesheetPath !== "spritesheet.webp") {
       errors.push(`${entry}: pet.json spritesheetPath should be spritesheet.webp`);
+    }
+  }
+
+  for (const state of previewStates) {
+    const previewPath = join(repoRoot, "assets", "previews", entry, "gifs", `${state}.gif`);
+    if (!existsSync(previewPath)) {
+      errors.push(`${entry}: missing generated preview ${previewPath.replace(`${repoRoot}/`, "")}`);
     }
   }
 }

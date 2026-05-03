@@ -64,6 +64,7 @@ assets/previews/<pet-id>/gifs/<state>.gif
 ```
 
 CI 会运行同一条命令，并检查生成的预览是否已经提交。
+所有动作 GIF 都会使用相同像素尺寸：`384x416`。
 
 ## 快速安装检查
 

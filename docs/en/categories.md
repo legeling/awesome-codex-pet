@@ -4,22 +4,26 @@
 
 This repository uses a small set of primary categories to keep browsing simple.
 
+## Anime Characters
+
+Pets inspired by anime, manga, game, or light novel characters.
+
 ## Original Characters
 
 Pets based on a creator's own character or mascot.
 
-## Anime and Game Fan Art
+## Memes
 
-Pets inspired by existing anime, manga, game, or light novel characters.
+Pets inspired by meme culture, viral icons, and internet-native characters.
 
-## Animals and Creatures
+## Animals
 
 Pets based on real animals, fantasy creatures, or monster-like companions.
 
-## Robots and Mascots
+## Robots
 
 Mechanical companions, bots, brand-style mascots, and tool-themed characters.
 
-## Memes and Internet Icons
+## Others
 
-Pets inspired by meme culture, viral icons, and internet-native characters.
+Pets that do not fit the categories above yet.

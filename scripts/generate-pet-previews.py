@@ -11,6 +11,8 @@ COLUMNS = 8
 ROWS = 9
 CELL_WIDTH = 192
 CELL_HEIGHT = 208
+GIF_SCALE = 2
+GIF_SIZE = (CELL_WIDTH * GIF_SCALE, CELL_HEIGHT * GIF_SCALE)
 LABEL_HEIGHT = 22
 
 STATES = [
@@ -83,7 +85,7 @@ def make_contact_sheet(atlas: Image.Image, output: Path, scale: float = 0.5) -> 
 
 def make_gif(atlas: Image.Image, state: str, row: int, durations: list[int], output: Path) -> None:
     frames = [frame_with_background(atlas, row, column) for column in range(len(durations))]
-    frames = [frame.resize((CELL_WIDTH * 2, CELL_HEIGHT * 2), Image.Resampling.NEAREST) for frame in frames]
+    frames = [frame.resize(GIF_SIZE, Image.Resampling.NEAREST) for frame in frames]
     output.parent.mkdir(parents=True, exist_ok=True)
     frames[0].save(
         output,
@@ -94,6 +96,9 @@ def make_gif(atlas: Image.Image, state: str, row: int, durations: list[int], out
         optimize=False,
         disposal=2,
     )
+    with Image.open(output) as generated:
+        if generated.size != GIF_SIZE:
+            raise ValueError(f"{output} must be {GIF_SIZE[0]}x{GIF_SIZE[1]}, got {generated.size[0]}x{generated.size[1]}")
 
 
 def generate_for_pet(pet_dir: Path) -> None:

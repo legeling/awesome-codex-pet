@@ -24,11 +24,12 @@ body:
     attributes:
       label: Primary category
       options:
+        - Anime Characters
         - Original Characters
-        - Anime and Game Fan Art
-        - Animals and Creatures
-        - Robots and Mascots
-        - Memes and Internet Icons
+        - Memes
+        - Animals
+        - Robots
+        - Others
     validations:
       required: true
   - type: dropdown
