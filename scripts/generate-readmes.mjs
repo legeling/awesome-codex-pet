@@ -125,13 +125,17 @@ function categorySections(pets, lang) {
 
 function englishReadme(pets) {
   const sampleSlug = pets[0]?.slug || "pet-slug--author-slug";
-  return `# Awesome Codex Pet
+  return `<div align="center">
+
+# Awesome Codex Pet
 
 [简体中文](./docs/zh-CN/README.md) | English
 
 ${badges(pets)}
 
 ![Awesome Codex Pet cover](./assets/cover/awesome-codex-pet-cover.png)
+
+</div>
 
 A curated gallery of community-made Codex pets, with generated action previews and one-command installation.
 
@@ -216,13 +220,17 @@ npm run lint
 
 function chineseReadme(pets) {
   const sampleSlug = pets[0]?.slug || "pet-slug--author-slug";
-  return `# Awesome Codex Pet
+  return `<div align="center">
+
+# Awesome Codex Pet
 
 简体中文 | [English](../../README.md)
 
 ${badges(pets)}
 
 ![Awesome Codex Pet 封面](../../assets/cover/awesome-codex-pet-cover.png)
+
+</div>
 
 一个收集社区 Codex 小宠物的精选画廊，自动生成动作预览，并支持一条命令快速安装。
 

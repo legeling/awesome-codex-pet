@@ -1,0 +1,23 @@
+{
+  "slug": "bocchi--lingxiaotian",
+  "pet_slug": "bocchi",
+  "author_slug": "lingxiaotian",
+  "name": "Bocchi",
+  "author": "Lingxiaotian",
+  "author_handle": "legeling",
+  "author_url": "https://github.com/legeling",
+  "primary_category": "Anime Characters",
+  "tags": ["anime", "music", "guitar", "bocchi-the-rock", "pink-hair"],
+  "source_type": "fan-art",
+  "source_url": "",
+  "license": "CC BY-NC 4.0",
+  "preview_image": "../../assets/previews/bocchi--lingxiaotian/gifs/idle.gif",
+  "codex_install": {
+    "pet_json": "pet.json",
+    "spritesheet": "spritesheet.webp"
+  },
+  "preview_assets": {
+    "contact_sheet": "../../assets/previews/bocchi--lingxiaotian/contact-sheet.png",
+    "gifs_dir": "../../assets/previews/bocchi--lingxiaotian/gifs"
+  }
+}
