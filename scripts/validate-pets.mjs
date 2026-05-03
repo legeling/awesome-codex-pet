@@ -32,9 +32,11 @@ for (const entry of readdirSync(petsDir)) {
   const petJsonPath = join(petDir, "pet.json");
   const spritesheetPath = join(petDir, "spritesheet.webp");
   const allowedEntries = new Set(["submission.json", "pet.json", "spritesheet.webp"]);
+  const localOnlyEntries = new Set(["qa"]);
 
   for (const child of readdirSync(petDir)) {
     if (child.startsWith(".")) continue;
+    if (localOnlyEntries.has(child)) continue;
     if (!allowedEntries.has(child)) {
       errors.push(`${entry}: unexpected pet package file ${child}`);
     }

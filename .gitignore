@@ -8,6 +8,7 @@ node_modules
 dist
 coverage
 output/
+pets/*/qa/
 .pytest_cache
 __pycache__
 *.pyc

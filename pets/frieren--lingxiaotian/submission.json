@@ -1,0 +1,23 @@
+{
+  "slug": "frieren--lingxiaotian",
+  "pet_slug": "frieren",
+  "author_slug": "lingxiaotian",
+  "name": "Frieren",
+  "author": "Lingxiaotian",
+  "author_handle": "legeling",
+  "author_url": "https://github.com/legeling",
+  "primary_category": "Anime Characters",
+  "tags": ["anime", "elf", "mage", "fantasy", "frieren"],
+  "source_type": "fan-art",
+  "source_url": "",
+  "license": "CC BY-NC 4.0",
+  "preview_image": "../../assets/previews/frieren--lingxiaotian/gifs/idle.gif",
+  "codex_install": {
+    "pet_json": "pet.json",
+    "spritesheet": "spritesheet.webp"
+  },
+  "preview_assets": {
+    "contact_sheet": "../../assets/previews/frieren--lingxiaotian/contact-sheet.png",
+    "gifs_dir": "../../assets/previews/frieren--lingxiaotian/gifs"
+  }
+}
