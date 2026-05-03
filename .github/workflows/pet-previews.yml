@@ -1,5 +1,8 @@
 name: Pet previews
 
+permissions:
+  contents: write
+
 on:
   pull_request:
   push:
@@ -30,15 +33,28 @@ jobs:
           python -m pip install --upgrade pip
           python -m pip install -r requirements.txt
 
-      - name: Generate pet previews
-        run: npm run previews
+      - name: Generate pet assets and README files
+        run: |
+          npm run previews
+          npm run cover
+          npm run readmes
 
       - name: Validate repository
         run: |
           npm run validate
           npm run lint
 
-      - name: Check generated previews are committed
+      - name: Commit generated files on main
+        if: github.event_name == 'push'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md docs/zh-CN/README.md assets/previews assets/cover
+          git diff --cached --quiet || git commit -m "chore: update generated previews and readmes"
+          git push
+
+      - name: Check generated files are committed on pull requests
+        if: github.event_name == 'pull_request'
         run: git diff --exit-code
 
       - name: Upload generated previews

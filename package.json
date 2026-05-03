@@ -7,10 +7,12 @@
     "awesome-codex-pet": "scripts/install-pet.mjs"
   },
   "scripts": {
+    "cover": "python3 scripts/generate-cover.py",
     "format": "prettier --write \"**/*.{md,json}\"",
     "install:pet": "node scripts/install-pet.mjs",
     "lint": "prettier --check \"**/*.{md,json}\"",
     "previews": "python3 scripts/generate-pet-previews.py",
+    "readmes": "node scripts/generate-readmes.mjs",
     "validate": "node scripts/validate-pets.mjs"
   },
   "devDependencies": {

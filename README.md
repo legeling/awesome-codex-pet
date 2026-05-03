@@ -2,39 +2,30 @@
 
 [简体中文](./docs/zh-CN/README.md) | English
 
-A curated list of community-made Codex pets, with quick install commands, generated previews, and lightweight installable pet packages.
+![pets: 1](https://img.shields.io/badge/pets-1-2ea44f) ![categories: 5](https://img.shields.io/badge/categories-5-0969da) ![languages: en | zh--CN](https://img.shields.io/badge/languages-en%20%7C%20zh--CN-8250df) ![install: one command](https://img.shields.io/badge/install-one%20command-111111) [![Pet previews](https://github.com/legeling/awesome-codex-pet/actions/workflows/pet-previews.yml/badge.svg)](https://github.com/legeling/awesome-codex-pet/actions/workflows/pet-previews.yml)
 
-Each pet is stored as a small shareable package:
+![Awesome Codex Pet cover](./assets/cover/awesome-codex-pet-cover.png)
+
+A curated gallery of community-made Codex pets, with generated action previews and one-command installation.
+
+Each pet is a small shareable package:
 
 ```text
 pets/<pet-slug>--<author-slug>/
+├── submission.json
 ├── pet.json
 └── spritesheet.webp
 ```
 
-Pet folders should only contain final submission files. Preview images are generated into `assets/previews/<pet-id>/`.
+Pet folders only contain final submission files. Preview images are generated into `assets/previews/<pet-id>/`.
 
 ## Quick Install
 
-Install dependencies once:
-
 ```bash
 npm install
-```
-
-List available pets:
-
-```bash
 npm run install:pet -- --list
-```
-
-Install a pet:
-
-```bash
 npm run install:pet -- mikoto--lingxiaotian
 ```
-
-By default, pets are installed into `~/.codex/pets/<pet-id>/`. You can override the target with `CODEX_HOME` or `--codex-home`.
 
 Default install locations:
 
@@ -45,9 +36,12 @@ Default install locations:
 
 ### Anime and Game Fan Art
 
-| Preview                                                                                                                                                                                                                  | Pet                                   | Author       | Install                                       |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------- | ------------ | --------------------------------------------- |
-| ![Mikoto idle](./assets/previews/mikoto--lingxiaotian/gifs/idle.gif) ![Mikoto waving](./assets/previews/mikoto--lingxiaotian/gifs/waving.gif) ![Mikoto running](./assets/previews/mikoto--lingxiaotian/gifs/running.gif) | [Mikoto](./pets/mikoto--lingxiaotian) | Lingxiaotian | `npm run install:pet -- mikoto--lingxiaotian` |
+<table>
+<tr><th colspan="5"><a href="./pets/mikoto--lingxiaotian">Mikoto</a> · by <a href="https://github.com/legeling">@legeling</a> · Anime and Game Fan Art</th></tr>
+<tr><td colspan="5"><code>npm run install:pet -- mikoto--lingxiaotian</code></td></tr>
+<tr><td><strong>Idle</strong></td><td><strong>Waving</strong></td><td><strong>Running</strong></td><td><strong>Jumping</strong></td><td><strong>Review</strong></td></tr>
+<tr><td><img src="./assets/previews/mikoto--lingxiaotian/gifs/idle.gif" alt="Mikoto idle" width="120"></td><td><img src="./assets/previews/mikoto--lingxiaotian/gifs/waving.gif" alt="Mikoto waving" width="120"></td><td><img src="./assets/previews/mikoto--lingxiaotian/gifs/running.gif" alt="Mikoto running" width="120"></td><td><img src="./assets/previews/mikoto--lingxiaotian/gifs/jumping.gif" alt="Mikoto jumping" width="120"></td><td><img src="./assets/previews/mikoto--lingxiaotian/gifs/review.gif" alt="Mikoto review" width="120"></td></tr>
+</table>
 
 ### Original Characters
 
@@ -67,7 +61,7 @@ No pets yet.
 
 ## Submit a Pet
 
-Use the folder name format `pet-slug--author-slug`, so multiple versions of the same character can coexist.
+Use `pet-slug--author-slug` so multiple versions of the same character can coexist.
 
 ```text
 pets/
@@ -77,28 +71,19 @@ pets/
     ├── spritesheet.webp
 ```
 
-Generated previews are produced outside `pets/`:
+Generated previews and README listings are automated:
 
 ```bash
 python -m pip install -r requirements.txt
 npm run previews
-```
-
-Before opening a pull request:
-
-```bash
-npm run previews
+npm run readmes
 npm run validate
 npm run lint
 ```
 
 ## Make a Pet
 
-This repository includes the creation skill used to produce Codex-compatible pets:
-
 - [skills/hatch-pet](./skills/hatch-pet)
-
-It documents the atlas layout, animation states, generation workflow, QA rubric, and packaging scripts.
 
 ## Documentation
 
