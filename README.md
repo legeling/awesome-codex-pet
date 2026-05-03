@@ -2,7 +2,7 @@
 
 [简体中文](./docs/zh-CN/README.md) | English
 
-A curated list of community-made Codex pets, with quick install commands and lightweight installable pet packages.
+A curated list of community-made Codex pets, with quick install commands, generated previews, and lightweight installable pet packages.
 
 Each pet is stored as a small shareable package:
 
@@ -12,7 +12,7 @@ pets/<pet-slug>--<author-slug>/
 └── spritesheet.webp
 ```
 
-Repository metadata, previews, references, and QA files may live alongside the package, but only `pet.json` and `spritesheet.webp` are required to install a pet.
+Pet folders should only contain final submission files. Preview images are generated into `assets/previews/<pet-id>/`.
 
 ## Quick Install
 
@@ -20,7 +20,6 @@ Install dependencies once:
 
 ```bash
 npm install
-python -m pip install -r requirements.txt
 ```
 
 List available pets:
@@ -36,6 +35,11 @@ npm run install:pet -- mikoto--lingxiaotian
 ```
 
 By default, pets are installed into `~/.codex/pets/<pet-id>/`. You can override the target with `CODEX_HOME` or `--codex-home`.
+
+Default install locations:
+
+- macOS/Linux: `~/.codex/pets/<pet-id>/`
+- Windows: `%USERPROFILE%\.codex\pets\<pet-id>\`
 
 ## Pets
 
@@ -71,6 +75,13 @@ pets/
     ├── submission.json
     ├── pet.json
     ├── spritesheet.webp
+```
+
+Generated previews are produced outside `pets/`:
+
+```bash
+python -m pip install -r requirements.txt
+npm run previews
 ```
 
 Before opening a pull request:

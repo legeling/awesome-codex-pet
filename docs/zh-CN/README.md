@@ -20,7 +20,6 @@ pets/<pet-slug>--<author-slug>/
 
 ```bash
 npm install
-python -m pip install -r requirements.txt
 ```
 
 查看当前仓库里的 pet：
@@ -36,6 +35,11 @@ npm run install:pet -- mikoto--lingxiaotian
 ```
 
 默认安装位置是 `~/.codex/pets/<pet-id>/`。如果需要改位置，可以使用 `CODEX_HOME` 或 `--codex-home`。
+
+默认安装位置：
+
+- macOS/Linux：`~/.codex/pets/<pet-id>/`
+- Windows：`%USERPROFILE%\.codex\pets\<pet-id>\`
 
 ## Pet 收录
 
@@ -76,6 +80,7 @@ pets/
 提交 PR 前请运行：
 
 ```bash
+python -m pip install -r requirements.txt
 npm run previews
 npm run validate
 npm run lint

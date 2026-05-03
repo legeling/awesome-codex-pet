@@ -9,7 +9,6 @@ This repository is curated, which means maintainers may edit titles, categories,
 ## Before you submit
 
 - Check whether a similar pet already exists
-- Prepare one clear preview image
 - Make sure the pet can actually be installed in Codex
 - Make sure authorship and licensing are clear
 
@@ -18,7 +17,7 @@ This repository is curated, which means maintainers may edit titles, categories,
 1. Open a pet submission issue first if you want feedback on fit or category.
 2. Prepare a single pet folder under `pets/<pet-slug>--<author-slug>/`.
 3. Open one pull request for one pet whenever possible.
-4. Include the required metadata and QA files.
+4. Include only the final submission files.
 
 ## Folder standard
 
@@ -27,8 +26,8 @@ Each pet submission should include:
 - `submission.json` for repository metadata
 - `pet.json` for Codex runtime metadata
 - `spritesheet.webp` for installation
-- `README.md` for human-readable notes
-- `qa/` for review assets
+
+Do not put generated previews, QA output, references, or README files inside the pet folder. Generated previews belong under `assets/previews/<pet-id>/`.
 
 ## `submission.json` schema
 
@@ -58,10 +57,9 @@ Use this repository-level schema:
 
 - One pet per pull request
 - Clear `pet-slug--author-slug` folder name and readable title
-- `pet.json` and `spritesheet.webp` included together
+- Pet folder contains only `submission.json`, `pet.json`, and `spritesheet.webp`
 - `pet.json` `id` matches the folder name
 - `submission.json` filled in
-- Preview image included
 - Author and license included
 - `npm run previews` has been run if `spritesheet.webp` changed
 - `npm run validate` passes
@@ -73,7 +71,6 @@ Use this repository-level schema:
 Maintainers may decline a submission if:
 
 - The licensing is unclear
-- The preview is missing
 - The files are not installable
 - The categorization is misleading
 - The submission duplicates an existing pet too closely

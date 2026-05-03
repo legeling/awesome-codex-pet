@@ -13,4 +13,5 @@ Quick checklist:
 - Include `pet.json` and `spritesheet.webp`
 - Keep `pet.json` `id` equal to the folder name
 - Fill in `submission.json`
+- Do not place previews, QA files, references, or README files inside the pet folder
 - Run `npm run validate` and `npm run lint`

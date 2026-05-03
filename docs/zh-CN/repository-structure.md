@@ -15,8 +15,7 @@ Codex 运行时需要的包很小：
 
 - 作者和许可证信息
 - 分类和来源信息
-- 预览与 QA 材料
-- 给人看的说明
+- 自动生成的预览材料
 
 ## 标准 pet 目录
 
@@ -43,6 +42,8 @@ pets/
 - `pet.json`：Codex 运行时使用的元数据
 - `spritesheet.webp`：可安装的 spritesheet
 - `assets/previews/<pet-id>/`：自动生成的联系表和动作 GIF 预览
+
+pet 目录里不应该包含自动生成的预览图、QA 输出、参考图或 README 文件。
 
 ## 目录命名
 
@@ -73,5 +74,10 @@ npm run install:pet -- pet-slug--author-slug
 ```text
 ~/.codex/pets/<pet-id>/
 ```
+
+默认安装位置：
+
+- macOS/Linux：`~/.codex/pets/<pet-id>/`
+- Windows：`%USERPROFILE%\.codex\pets\<pet-id>\`
 
 如果要安装到其他 Codex 目录，可以使用 `CODEX_HOME` 或 `--codex-home`。

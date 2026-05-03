@@ -1,7 +1,7 @@
 {
   "name": "awesome-codex-pet",
   "version": "0.1.0",
-  "description": "A curated repository for collecting and showcasing Codex pets.",
+  "description": "A curated gallery of community-made Codex pets with one-command install and generated previews.",
   "type": "module",
   "bin": {
     "awesome-codex-pet": "scripts/install-pet.mjs"

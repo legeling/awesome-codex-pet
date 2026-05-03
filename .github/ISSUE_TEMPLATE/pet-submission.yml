@@ -70,7 +70,7 @@ body:
     id: assets
     attributes:
       label: Included assets
-      description: Mention whether you have pet.json, spritesheet.webp, preview image, and QA files ready.
-      placeholder: pet.json, spritesheet.webp, contact-sheet.png, README.md
+      description: The pet folder should only include final submission files.
+      placeholder: submission.json, pet.json, spritesheet.webp
     validations:
       required: true

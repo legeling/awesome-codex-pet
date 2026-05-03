@@ -23,6 +23,8 @@ pets/
     ├── spritesheet.webp
 ```
 
+The pet folder should contain only these three files.
+
 ## Required information
 
 Please include:
@@ -42,6 +44,7 @@ Please include:
 - `spritesheet.webp` should be included for Codex runtime use
 - Repository-only metadata should go into `submission.json`, not `pet.json`
 - Generated preview assets should be kept under `assets/previews/<pet-id>/`
+- Generated previews, QA output, references, and README files should not be placed in `pets/<pet-id>/`
 - One pet per pull request is strongly preferred
 
 ## Preview generation

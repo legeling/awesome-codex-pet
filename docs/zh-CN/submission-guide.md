@@ -23,6 +23,8 @@ pets/
     ├── spritesheet.webp
 ```
 
+pet 目录只应该包含这三个文件。
+
 ## 必填信息
 
 请提供：
@@ -42,6 +44,7 @@ pets/
 - `spritesheet.webp` 应作为 Codex 运行时资源一起提交
 - 仓库侧元数据放在 `submission.json`，不要塞进 `pet.json`
 - 自动生成的预览材料放在 `assets/previews/<pet-id>/`
+- 自动生成的预览图、QA 输出、参考图和 README 文件不要放进 `pets/<pet-id>/`
 - 强烈建议一个 PR 只提交一个 pet
 
 ## 预览图生成

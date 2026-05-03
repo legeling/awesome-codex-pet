@@ -15,8 +15,7 @@ But a community curation repository needs more context:
 
 - author and license metadata
 - category and source information
-- preview and QA materials
-- human-readable notes
+- generated preview materials
 
 ## Standard pet layout
 
@@ -43,6 +42,8 @@ pets/
 - `pet.json`: runtime metadata used by Codex
 - `spritesheet.webp`: installable spritesheet package
 - `assets/previews/<pet-id>/`: generated contact sheet and action GIF previews
+
+Pet folders should not contain generated previews, QA output, reference images, or README files.
 
 ## Folder naming
 
@@ -73,5 +74,10 @@ It copies `pet.json` and `spritesheet.webp` into:
 ```text
 ~/.codex/pets/<pet-id>/
 ```
+
+Default install locations:
+
+- macOS/Linux: `~/.codex/pets/<pet-id>/`
+- Windows: `%USERPROFILE%\.codex\pets\<pet-id>\`
 
 Use `CODEX_HOME` or `--codex-home` to install into another Codex home directory.

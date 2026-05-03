@@ -9,7 +9,6 @@
 ## 投稿前
 
 - 检查仓库里是否已经有相似 pet
-- 准备一张清晰的预览图
 - 确认这个 pet 可以被 Codex 正常安装
 - 确认作者信息和许可证信息清楚
 
@@ -18,7 +17,7 @@
 1. 如果想先确认是否适合收录或该放哪个分类，可以先开一个 pet submission issue。
 2. 准备一个独立目录：`pets/<pet-slug>--<author-slug>/`。
 3. 尽量一个 PR 只提交一个 pet。
-4. 补齐必要的元数据和 QA 文件。
+4. 只提交最终成品文件。
 
 ## 目录标准
 
@@ -27,8 +26,8 @@
 - `submission.json`：仓库侧元数据
 - `pet.json`：Codex 运行时元数据
 - `spritesheet.webp`：安装用 spritesheet
-- `README.md`：给人看的说明
-- `qa/`：审核和预览材料
+
+不要把自动生成的预览图、QA 输出、参考图或 README 文件放进 pet 目录。生成的预览统一放在 `assets/previews/<pet-id>/`。
 
 ## `submission.json` 结构
 
@@ -58,10 +57,9 @@
 
 - 一个 PR 只提交一个 pet
 - 目录名使用清晰的 `pet-slug--author-slug`
-- 同时包含 `pet.json` 和 `spritesheet.webp`
+- pet 目录只包含 `submission.json`、`pet.json` 和 `spritesheet.webp`
 - `pet.json` 里的 `id` 与目录名一致
 - `submission.json` 已填写
-- 包含预览图
 - 作者信息和许可证信息清楚
 - 如果修改了 `spritesheet.webp`，已经运行 `npm run previews`
 - `npm run validate` 通过
@@ -73,7 +71,6 @@
 维护者可能会拒绝以下投稿：
 
 - 许可证不清楚
-- 缺少预览图
 - 文件无法安装
 - 分类有明显误导
 - 与现有 pet 过于重复
