@@ -35,7 +35,7 @@ const previewStates = [
   ["idle", "Idle", "待机"],
   ["waving", "Waving", "挥手"],
   ["running", "Running", "奔跑"],
-  ["jumping", "Jumping", "跳跃"],
+  ["waiting", "Waiting", "等待"],
   ["review", "Review", "审阅"],
 ];
 
