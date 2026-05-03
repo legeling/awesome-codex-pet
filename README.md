@@ -21,10 +21,22 @@ Pet folders only contain final submission files. Preview images are generated in
 
 ## Quick Install
 
+No clone required. Install a pet directly from GitHub:
+
 ```bash
-npm install
-npm run install:pet -- --list
-npm run install:pet -- mikoto--lingxiaotian
+curl -fsSL https://raw.githubusercontent.com/legeling/awesome-codex-pet/main/scripts/install-pet.sh | bash -s -- mikoto--lingxiaotian
+```
+
+List available pets:
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/legeling/awesome-codex-pet/main/scripts/install-pet.sh | bash -s -- --list
+```
+
+Windows PowerShell:
+
+```powershell
+powershell -NoProfile -ExecutionPolicy Bypass -Command "iwr -UseB https://raw.githubusercontent.com/legeling/awesome-codex-pet/main/scripts/install-pet.ps1 | iex; Install-CodexPet mikoto--lingxiaotian"
 ```
 
 Default install locations:
@@ -38,7 +50,7 @@ Default install locations:
 
 <table>
 <tr><th>Name</th><td colspan="5"><a href="./pets/mikoto--lingxiaotian">Mikoto</a> · by <a href="https://github.com/legeling">@legeling</a> · Anime Characters</td></tr>
-<tr><th>Install</th><td colspan="5"><code>npm run install:pet -- mikoto--lingxiaotian</code></td></tr>
+<tr><th>Install</th><td colspan="5"><code>curl -fsSL https://raw.githubusercontent.com/legeling/awesome-codex-pet/main/scripts/install-pet.sh | bash -s -- mikoto--lingxiaotian</code></td></tr>
 <tr><th>Action</th><td><strong>Idle</strong></td><td><strong>Waving</strong></td><td><strong>Running</strong></td><td><strong>Jumping</strong></td><td><strong>Review</strong></td></tr>
 <tr><th>Preview</th><td><img src="./assets/previews/mikoto--lingxiaotian/gifs/idle.gif" alt="Mikoto idle" width="120" height="130"></td><td><img src="./assets/previews/mikoto--lingxiaotian/gifs/waving.gif" alt="Mikoto waving" width="120" height="130"></td><td><img src="./assets/previews/mikoto--lingxiaotian/gifs/running.gif" alt="Mikoto running" width="120" height="130"></td><td><img src="./assets/previews/mikoto--lingxiaotian/gifs/jumping.gif" alt="Mikoto jumping" width="120" height="130"></td><td><img src="./assets/previews/mikoto--lingxiaotian/gifs/review.gif" alt="Mikoto review" width="120" height="130"></td></tr>
 </table>

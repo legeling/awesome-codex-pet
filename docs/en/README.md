@@ -13,6 +13,20 @@ English documentation for Awesome Codex Pet.
 
 ## Common Commands
 
+Install a pet without cloning this repository:
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/legeling/awesome-codex-pet/main/scripts/install-pet.sh | bash -s -- mikoto--lingxiaotian
+```
+
+List available pets:
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/legeling/awesome-codex-pet/main/scripts/install-pet.sh | bash -s -- --list
+```
+
+Repository maintenance commands:
+
 ```bash
 npm install
 python -m pip install -r requirements.txt

@@ -4,6 +4,7 @@ import { join } from "node:path";
 
 const repoRoot = fileURLToPath(new URL("..", import.meta.url));
 const petsDir = join(repoRoot, "pets");
+const rawBase = "https://raw.githubusercontent.com/legeling/awesome-codex-pet/main";
 
 const categories = [
   "Anime Characters",
@@ -77,6 +78,14 @@ function authorLink(pet) {
   return `@${handle}`;
 }
 
+function bashInstallCommand(slug) {
+  return `curl -fsSL ${rawBase}/scripts/install-pet.sh | bash -s -- ${slug}`;
+}
+
+function powershellInstallCommand(slug) {
+  return `powershell -NoProfile -ExecutionPolicy Bypass -Command "iwr -UseB ${rawBase}/scripts/install-pet.ps1 | iex; Install-CodexPet ${slug}"`;
+}
+
 function petBlock(pet, lang) {
   const rootPrefix = lang === "zh" ? "../.." : ".";
   const labels = lang === "zh" ? ["名称", "安装", "动作", "预览"] : ["Name", "Install", "Action", "Preview"];
@@ -92,7 +101,7 @@ function petBlock(pet, lang) {
   return [
     `<table>`,
     `<tr><th>${labels[0]}</th><td colspan="5"><a href="${rootPrefix}/pets/${pet.slug}">${pet.name}</a> · ${by} ${authorLink(pet)} · ${categoryName}</td></tr>`,
-    `<tr><th>${labels[1]}</th><td colspan="5"><code>npm run install:pet -- ${pet.slug}</code></td></tr>`,
+    `<tr><th>${labels[1]}</th><td colspan="5"><code>${bashInstallCommand(pet.slug)}</code></td></tr>`,
     `<tr><th>${labels[2]}</th>${stateNames.map((name) => `<td><strong>${name}</strong></td>`).join("")}</tr>`,
     `<tr><th>${labels[3]}</th>${gifs.map((gif) => `<td>${gif}</td>`).join("")}</tr>`,
     `</table>`,
@@ -115,7 +124,7 @@ function categorySections(pets, lang) {
 }
 
 function englishReadme(pets) {
-  const sampleInstall = pets[0] ? `npm run install:pet -- ${pets[0].slug}` : "npm run install:pet -- <pet-slug--author-slug>";
+  const sampleSlug = pets[0]?.slug || "pet-slug--author-slug";
   return `# Awesome Codex Pet
 
 [简体中文](./docs/zh-CN/README.md) | English
@@ -139,10 +148,22 @@ Pet folders only contain final submission files. Preview images are generated in
 
 ## Quick Install
 
+No clone required. Install a pet directly from GitHub:
+
 \`\`\`bash
-npm install
-npm run install:pet -- --list
-${sampleInstall}
+${bashInstallCommand(sampleSlug)}
+\`\`\`
+
+List available pets:
+
+\`\`\`bash
+curl -fsSL ${rawBase}/scripts/install-pet.sh | bash -s -- --list
+\`\`\`
+
+Windows PowerShell:
+
+\`\`\`powershell
+${powershellInstallCommand(sampleSlug)}
 \`\`\`
 
 Default install locations:
@@ -194,7 +215,7 @@ npm run lint
 }
 
 function chineseReadme(pets) {
-  const sampleInstall = pets[0] ? `npm run install:pet -- ${pets[0].slug}` : "npm run install:pet -- <pet-slug--author-slug>";
+  const sampleSlug = pets[0]?.slug || "pet-slug--author-slug";
   return `# Awesome Codex Pet
 
 简体中文 | [English](../../README.md)
@@ -218,10 +239,22 @@ pet 目录只放最终成品文件。预览图会自动生成到 \`assets/previe
 
 ## 快速安装
 
+不需要 clone 仓库，直接从 GitHub 安装：
+
 \`\`\`bash
-npm install
-npm run install:pet -- --list
-${sampleInstall}
+${bashInstallCommand(sampleSlug)}
+\`\`\`
+
+查看可安装的 pet：
+
+\`\`\`bash
+curl -fsSL ${rawBase}/scripts/install-pet.sh | bash -s -- --list
+\`\`\`
+
+Windows PowerShell：
+
+\`\`\`powershell
+${powershellInstallCommand(sampleSlug)}
 \`\`\`
 
 默认安装位置：
@@ -277,5 +310,23 @@ const pets = loadPets();
 writeFileSync(join(repoRoot, "README.md"), englishReadme(pets), "utf8");
 mkdirSync(join(repoRoot, "docs", "zh-CN"), { recursive: true });
 writeFileSync(join(repoRoot, "docs", "zh-CN", "README.md"), chineseReadme(pets), "utf8");
+writeFileSync(
+  join(repoRoot, "pets.json"),
+  `${JSON.stringify(
+    pets.map((pet) => ({
+      slug: pet.slug,
+      name: pet.name,
+      author: pet.author,
+      author_handle: pet.author_handle,
+      author_url: pet.author_url,
+      primary_category: normalizeCategory(pet.primary_category),
+      license: pet.license,
+      description: pet.description,
+    })),
+    null,
+    2,
+  )}\n`,
+  "utf8",
+);
 
 console.log(`generated README files for ${pets.length} pet(s)`);

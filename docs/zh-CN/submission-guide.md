@@ -82,6 +82,12 @@ npm run install:pet -- pet-slug--author-slug --codex-home /tmp/codex-pet-test
 └── spritesheet.webp
 ```
 
+PR 合并后，用户不需要 clone 仓库，也可以直接安装：
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/legeling/awesome-codex-pet/main/scripts/install-pet.sh | bash -s -- pet-slug--author-slug
+```
+
 ## 资源建议
 
 - 使用清晰的文件名

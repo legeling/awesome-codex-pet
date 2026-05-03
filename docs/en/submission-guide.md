@@ -82,6 +82,12 @@ This should create:
 └── spritesheet.webp
 ```
 
+After the pull request is merged, users can install the pet without cloning the repository:
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/legeling/awesome-codex-pet/main/scripts/install-pet.sh | bash -s -- pet-slug--author-slug
+```
+
 ## Asset recommendations
 
 - Use clear filenames

@@ -21,10 +21,22 @@ pet 目录只放最终成品文件。预览图会自动生成到 `assets/preview
 
 ## 快速安装
 
+不需要 clone 仓库，直接从 GitHub 安装：
+
 ```bash
-npm install
-npm run install:pet -- --list
-npm run install:pet -- mikoto--lingxiaotian
+curl -fsSL https://raw.githubusercontent.com/legeling/awesome-codex-pet/main/scripts/install-pet.sh | bash -s -- mikoto--lingxiaotian
+```
+
+查看可安装的 pet：
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/legeling/awesome-codex-pet/main/scripts/install-pet.sh | bash -s -- --list
+```
+
+Windows PowerShell：
+
+```powershell
+powershell -NoProfile -ExecutionPolicy Bypass -Command "iwr -UseB https://raw.githubusercontent.com/legeling/awesome-codex-pet/main/scripts/install-pet.ps1 | iex; Install-CodexPet mikoto--lingxiaotian"
 ```
 
 默认安装位置：
@@ -38,7 +50,7 @@ npm run install:pet -- mikoto--lingxiaotian
 
 <table>
 <tr><th>名称</th><td colspan="5"><a href="../../pets/mikoto--lingxiaotian">Mikoto</a> · 作者 <a href="https://github.com/legeling">@legeling</a> · 动漫人物</td></tr>
-<tr><th>安装</th><td colspan="5"><code>npm run install:pet -- mikoto--lingxiaotian</code></td></tr>
+<tr><th>安装</th><td colspan="5"><code>curl -fsSL https://raw.githubusercontent.com/legeling/awesome-codex-pet/main/scripts/install-pet.sh | bash -s -- mikoto--lingxiaotian</code></td></tr>
 <tr><th>动作</th><td><strong>待机</strong></td><td><strong>挥手</strong></td><td><strong>奔跑</strong></td><td><strong>跳跃</strong></td><td><strong>审阅</strong></td></tr>
 <tr><th>预览</th><td><img src="../../assets/previews/mikoto--lingxiaotian/gifs/idle.gif" alt="Mikoto idle" width="120" height="130"></td><td><img src="../../assets/previews/mikoto--lingxiaotian/gifs/waving.gif" alt="Mikoto waving" width="120" height="130"></td><td><img src="../../assets/previews/mikoto--lingxiaotian/gifs/running.gif" alt="Mikoto running" width="120" height="130"></td><td><img src="../../assets/previews/mikoto--lingxiaotian/gifs/jumping.gif" alt="Mikoto jumping" width="120" height="130"></td><td><img src="../../assets/previews/mikoto--lingxiaotian/gifs/review.gif" alt="Mikoto review" width="120" height="130"></td></tr>
 </table>
