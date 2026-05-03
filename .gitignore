@@ -1,0 +1,12 @@
+node_modules
+.npm-cache
+.DS_Store
+**/.DS_Store
+.env
+.env.*
+*.log
+dist
+coverage
+.pytest_cache
+__pycache__
+*.pyc

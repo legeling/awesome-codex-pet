@@ -1,0 +1,76 @@
+name: Pet submission
+description: Propose a new Codex pet for inclusion
+title: "[Pet]: "
+labels:
+  - submission
+body:
+  - type: input
+    id: folder_slug
+    attributes:
+      label: Suggested folder slug
+      description: Use pet-slug--author-slug so same-character variants can coexist.
+      placeholder: mikoto--lingxiaotian
+    validations:
+      required: true
+  - type: input
+    id: pet_name
+    attributes:
+      label: Pet name
+      placeholder: Mikoto
+    validations:
+      required: true
+  - type: dropdown
+    id: primary_category
+    attributes:
+      label: Primary category
+      options:
+        - Original Characters
+        - Anime and Game Fan Art
+        - Animals and Creatures
+        - Robots and Mascots
+        - Memes and Internet Icons
+    validations:
+      required: true
+  - type: dropdown
+    id: source_type
+    attributes:
+      label: Source type
+      options:
+        - original
+        - fan-art
+        - mascot
+        - meme
+  - type: input
+    id: author
+    attributes:
+      label: Author or handle
+      placeholder: your-name
+    validations:
+      required: true
+  - type: input
+    id: source_url
+    attributes:
+      label: Source URL
+      placeholder: https://example.com/original-post
+  - type: textarea
+    id: description
+    attributes:
+      label: Short description
+      placeholder: A chibi electric schoolgirl Codex pet inspired by Misaka Mikoto.
+    validations:
+      required: true
+  - type: textarea
+    id: license
+    attributes:
+      label: License or permission notes
+      placeholder: State the license or permission status clearly.
+    validations:
+      required: true
+  - type: textarea
+    id: assets
+    attributes:
+      label: Included assets
+      description: Mention whether you have pet.json, spritesheet.webp, preview image, and QA files ready.
+      placeholder: pet.json, spritesheet.webp, contact-sheet.png, README.md
+    validations:
+      required: true

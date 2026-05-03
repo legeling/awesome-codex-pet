@@ -1,0 +1,22 @@
+{
+  "name": "awesome-codex-pet",
+  "version": "0.1.0",
+  "description": "A curated repository for collecting and showcasing Codex pets.",
+  "type": "module",
+  "bin": {
+    "awesome-codex-pet": "scripts/install-pet.mjs"
+  },
+  "scripts": {
+    "format": "prettier --write \"**/*.{md,json}\"",
+    "install:pet": "node scripts/install-pet.mjs",
+    "lint": "prettier --check \"**/*.{md,json}\"",
+    "previews": "python3 scripts/generate-pet-previews.py",
+    "validate": "node scripts/validate-pets.mjs"
+  },
+  "devDependencies": {
+    "prettier": "^3.5.3"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
