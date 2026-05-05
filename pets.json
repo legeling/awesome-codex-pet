@@ -18,6 +18,15 @@
     "license": "CC BY-NC 4.0"
   },
   {
+    "slug": "mahiro--lingxiaotian",
+    "name": "Mahiro",
+    "author": "Lingxiaotian",
+    "author_handle": "legeling",
+    "author_url": "https://github.com/legeling",
+    "primary_category": "Anime Characters",
+    "license": "CC BY-NC 4.0"
+  },
+  {
     "slug": "mikoto--lingxiaotian",
     "name": "Mikoto",
     "author": "Lingxiaotian",
@@ -29,6 +38,15 @@
   {
     "slug": "miku--lingxiaotian",
     "name": "Miku",
+    "author": "Lingxiaotian",
+    "author_handle": "legeling",
+    "author_url": "https://github.com/legeling",
+    "primary_category": "Anime Characters",
+    "license": "CC BY-NC 4.0"
+  },
+  {
+    "slug": "reimu--lingxiaotian",
+    "name": "Reimu",
     "author": "Lingxiaotian",
     "author_handle": "legeling",
     "author_url": "https://github.com/legeling",

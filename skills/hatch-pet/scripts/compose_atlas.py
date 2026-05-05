@@ -112,7 +112,16 @@ def save_outputs(atlas: Image.Image, output: Path, webp_output: Path | None) -> 
     atlas.save(output)
     if webp_output is not None:
         webp_output.parent.mkdir(parents=True, exist_ok=True)
-        atlas.save(webp_output, format="WEBP", lossless=True, quality=100, method=6)
+        # Preserve exact RGBA values so transparent pixels do not pick up
+        # visible artifacts in Preview or README downscaling.
+        atlas.save(
+            webp_output,
+            format="WEBP",
+            lossless=True,
+            quality=100,
+            method=6,
+            exact=True,
+        )
 
 
 def main() -> None:
