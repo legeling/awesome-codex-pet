@@ -39,6 +39,11 @@ const previewStates = [
   ["review", "Review", "审阅"],
 ];
 
+const featuredSlugs = ["firefly--lingxiaotian"];
+const featuredRank = new Map(featuredSlugs.map((slug, index) => [slug, index]));
+const trailingSlugs = ["bocchi--lingxiaotian"];
+const trailingRank = new Map(trailingSlugs.map((slug, index) => [slug, index]));
+
 function readJson(path) {
   return JSON.parse(readFileSync(path, "utf8"));
 }
@@ -51,7 +56,19 @@ function loadPets() {
       const metadata = readJson(join(petsDir, slug, "submission.json"));
       return { ...metadata, slug };
     })
-    .sort((a, b) => a.name.localeCompare(b.name));
+    .sort((a, b) => {
+      const rankA = featuredRank.get(a.slug) ?? Number.MAX_SAFE_INTEGER;
+      const rankB = featuredRank.get(b.slug) ?? Number.MAX_SAFE_INTEGER;
+      if (rankA !== rankB) return rankA - rankB;
+      const trailingA = trailingRank.get(a.slug) ?? -1;
+      const trailingB = trailingRank.get(b.slug) ?? -1;
+      if (trailingA !== trailingB) {
+        if (trailingA === -1) return -1;
+        if (trailingB === -1) return 1;
+        return trailingA - trailingB;
+      }
+      return a.name.localeCompare(b.name);
+    });
 }
 
 function badge(label, message, color) {
@@ -203,7 +220,7 @@ npm run lint
 
 ## Make a Pet
 
-- [skills/hatch-pet](./skills/hatch-pet)
+- [.agents/skills/hatch-pet](./.agents/skills/hatch-pet)
 
 ## Documentation
 
@@ -298,7 +315,7 @@ npm run lint
 
 ## 制作 Pet
 
-- [skills/hatch-pet](../../skills/hatch-pet)
+- [.agents/skills/hatch-pet](../../.agents/skills/hatch-pet)
 
 ## 文档
 

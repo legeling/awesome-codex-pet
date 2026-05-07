@@ -1,0 +1,29 @@
+{
+  "slug": "paimon--lingxiaotian",
+  "pet_slug": "paimon",
+  "author_slug": "lingxiaotian",
+  "name": "Paimon",
+  "author": "Lingxiaotian",
+  "author_handle": "legeling",
+  "author_url": "https://github.com/legeling",
+  "primary_category": "Anime Characters",
+  "tags": [
+    "anime",
+    "genshin-impact",
+    "paimon",
+    "floating-companion",
+    "white-hair"
+  ],
+  "source_type": "fan-art",
+  "source_url": "",
+  "license": "CC BY-NC 4.0",
+  "preview_image": "../../assets/previews/paimon--lingxiaotian/gifs/idle.gif",
+  "codex_install": {
+    "pet_json": "pet.json",
+    "spritesheet": "spritesheet.webp"
+  },
+  "preview_assets": {
+    "contact_sheet": "../../assets/previews/paimon--lingxiaotian/contact-sheet.png",
+    "gifs_dir": "../../assets/previews/paimon--lingxiaotian/gifs"
+  }
+}

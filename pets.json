@@ -1,12 +1,13 @@
 [
   {
-    "slug": "bocchi--lingxiaotian",
-    "name": "Bocchi",
+    "slug": "firefly--lingxiaotian",
+    "name": "Firefly",
     "author": "Lingxiaotian",
     "author_handle": "legeling",
     "author_url": "https://github.com/legeling",
     "primary_category": "Anime Characters",
-    "license": "CC BY-NC 4.0"
+    "license": "CC BY-NC 4.0",
+    "description": "A pre-transformation Firefly fan-art Codex pet with a soft white, mint, and gold palette."
   },
   {
     "slug": "frieren--lingxiaotian",
@@ -45,8 +46,26 @@
     "license": "CC BY-NC 4.0"
   },
   {
+    "slug": "paimon--lingxiaotian",
+    "name": "Paimon",
+    "author": "Lingxiaotian",
+    "author_handle": "legeling",
+    "author_url": "https://github.com/legeling",
+    "primary_category": "Anime Characters",
+    "license": "CC BY-NC 4.0"
+  },
+  {
     "slug": "reimu--lingxiaotian",
     "name": "Reimu",
+    "author": "Lingxiaotian",
+    "author_handle": "legeling",
+    "author_url": "https://github.com/legeling",
+    "primary_category": "Anime Characters",
+    "license": "CC BY-NC 4.0"
+  },
+  {
+    "slug": "bocchi--lingxiaotian",
+    "name": "Bocchi",
     "author": "Lingxiaotian",
     "author_handle": "legeling",
     "author_url": "https://github.com/legeling",

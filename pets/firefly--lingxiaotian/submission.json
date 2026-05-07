@@ -1,0 +1,24 @@
+{
+  "slug": "firefly--lingxiaotian",
+  "pet_slug": "firefly",
+  "author_slug": "lingxiaotian",
+  "name": "Firefly",
+  "author": "Lingxiaotian",
+  "author_handle": "legeling",
+  "author_url": "https://github.com/legeling",
+  "primary_category": "Anime Characters",
+  "tags": ["anime", "honkai-star-rail", "firefly", "white-hair", "mint-green"],
+  "source_type": "fan-art",
+  "source_url": "",
+  "license": "CC BY-NC 4.0",
+  "description": "A pre-transformation Firefly fan-art Codex pet with a soft white, mint, and gold palette.",
+  "preview_image": "../../assets/previews/firefly--lingxiaotian/gifs/idle.gif",
+  "codex_install": {
+    "pet_json": "pet.json",
+    "spritesheet": "spritesheet.webp"
+  },
+  "preview_assets": {
+    "contact_sheet": "../../assets/previews/firefly--lingxiaotian/contact-sheet.png",
+    "gifs_dir": "../../assets/previews/firefly--lingxiaotian/gifs"
+  }
+}

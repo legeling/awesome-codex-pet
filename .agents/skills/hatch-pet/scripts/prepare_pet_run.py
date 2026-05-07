@@ -108,6 +108,16 @@ def slugify(value: str) -> str:
     return value.strip("-")
 
 
+def normalize_pet_id(value: str) -> str:
+    value = value.strip().lower()
+    if "--" not in value:
+        return slugify(value)
+    parts = [slugify(part) for part in re.split(r"\s*--\s*", value) if part.strip()]
+    if len(parts) >= 2 and all(parts):
+        return "--".join(parts)
+    return slugify(value)
+
+
 def display_from_slug(value: str) -> str:
     words = [word for word in re.split(r"[^a-zA-Z0-9]+", value.strip()) if word]
     return " ".join(word.capitalize() for word in words)
@@ -569,7 +579,7 @@ def main() -> None:
     args.pet_name = (args.pet_name or args.display_name).strip()
     args.description = infer_description(args, raw_reference_paths)
     args.pet_notes = infer_pet_notes(args, raw_reference_paths)
-    args.pet_id = slugify(args.pet_id or args.pet_name or args.display_name)
+    args.pet_id = normalize_pet_id(args.pet_id or args.pet_name or args.display_name)
     if not args.pet_id:
         raise SystemExit("pet id must contain at least one letter or digit")
 

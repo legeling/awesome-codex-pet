@@ -26,6 +26,16 @@ def slugify(value: str) -> str:
     return value.strip("-")
 
 
+def normalize_pet_id(value: str) -> str:
+    value = value.strip().lower()
+    if "--" not in value:
+        return slugify(value)
+    parts = [slugify(part) for part in re.split(r"\s*--\s*", value) if part.strip()]
+    if len(parts) >= 2 and all(parts):
+        return "--".join(parts)
+    return slugify(value)
+
+
 def validate_spritesheet(path: Path) -> str:
     with Image.open(path) as image:
         if image.size != ATLAS_SIZE:
@@ -69,7 +79,7 @@ def main() -> None:
     raw_pet_name = (args.pet_name or args.display_name).strip()
     if not raw_pet_name:
         raise SystemExit("pet name is required")
-    pet_id = slugify(raw_pet_name)
+    pet_id = normalize_pet_id(raw_pet_name)
     if not pet_id:
         raise SystemExit("pet name must contain at least one letter or digit")
     display_name = (args.display_name or raw_pet_name).strip()
