@@ -1,0 +1,23 @@
+{
+  "slug": "night-neko--netizenxuan",
+  "pet_slug": "night-neko",
+  "author_slug": "netizenxuan",
+  "name": "Night Neko",
+  "author": "netizenXuan",
+  "author_handle": "netizenXuan",
+  "author_url": "https://github.com/netizenXuan",
+  "primary_category": "Original Characters",
+  "tags": ["cat", "demon", "gothic", "night", "coding", "cyberpunk", "chibi"],
+  "source_type": "original-character",
+  "source_url": "https://github.com/netizenXuan/night-neko-codex-pet",
+  "license": "CC BY-NC 4.0",
+  "preview_image": "../../assets/previews/night-neko--netizenxuan/gifs/idle.gif",
+  "codex_install": {
+    "pet_json": "pet.json",
+    "spritesheet": "spritesheet.webp"
+  },
+  "preview_assets": {
+    "contact_sheet": "../../assets/previews/night-neko--netizenxuan/contact-sheet.png",
+    "gifs_dir": "../../assets/previews/night-neko--netizenxuan/gifs"
+  }
+}
