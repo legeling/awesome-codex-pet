@@ -1,0 +1,23 @@
+{
+  "slug": "fleta--natewanggg",
+  "pet_slug": "fleta",
+  "author_slug": "natewanggg",
+  "name": "Fleta",
+  "author": "NateWanggg",
+  "author_handle": "NateWanggg",
+  "author_url": "https://github.com/NateWanggg",
+  "primary_category": "Animals",
+  "tags": ["cat", "silver-white", "fleta", "original-pet", "soft"],
+  "source_type": "original",
+  "source_url": "",
+  "license": "CC BY-NC 4.0",
+  "preview_image": "../../assets/previews/fleta--natewanggg/gifs/idle.gif",
+  "codex_install": {
+    "pet_json": "pet.json",
+    "spritesheet": "spritesheet.webp"
+  },
+  "preview_assets": {
+    "contact_sheet": "../../assets/previews/fleta--natewanggg/contact-sheet.png",
+    "gifs_dir": "../../assets/previews/fleta--natewanggg/gifs"
+  }
+}
