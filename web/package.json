@@ -1,0 +1,27 @@
+{
+  "name": "awesome-codex-pet-web",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "prepare-site": "node scripts/prepare-site.mjs",
+    "dev": "npm run prepare-site && next dev",
+    "build": "npm run prepare-site && next build",
+    "start": "next start",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "next": "15.1.8",
+    "react": "19.0.0",
+    "react-dom": "19.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^9.25.1",
+    "eslint-config-next": "15.1.8",
+    "@typescript-eslint/parser": "^8.32.1",
+    "typescript": "^5.8.3",
+    "@types/node": "^22.15.17",
+    "@types/react": "^19.0.10",
+    "@types/react-dom": "^19.0.4"
+  }
+}

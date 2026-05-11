@@ -1,0 +1,5 @@
+node_modules/
+.next/
+public/assets/
+.generated/
+out/
