@@ -33,12 +33,22 @@ jobs:
           python -m pip install --upgrade pip
           python -m pip install -r requirements.txt
 
-      - name: Generate pet assets and README files
+      - name: Generate repository listings
         run: |
-          npm run previews
           npm run readmes
 
-      - name: Validate repository
+      - name: Validate pull request payload
+        if: github.event_name == 'pull_request'
+        run: |
+          npm run validate:pr
+          npm run lint
+
+      - name: Generate pet previews on main
+        if: github.event_name == 'push'
+        run: npm run previews
+
+      - name: Validate repository on main
+        if: github.event_name == 'push'
         run: |
           npm run validate
           npm run lint
@@ -52,12 +62,8 @@ jobs:
           git diff --cached --quiet || git commit -m "chore: update generated previews and readmes"
           git push
 
-      - name: Check generated files are committed on pull requests
-        if: github.event_name == 'pull_request'
-        run: git diff --exit-code
-
       - name: Upload generated previews
-        if: always()
+        if: always() && github.event_name == 'push'
         uses: actions/upload-artifact@v4
         with:
           name: pet-previews

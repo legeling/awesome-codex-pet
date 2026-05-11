@@ -17,7 +17,8 @@
 1. 如果想先确认是否适合收录或该放哪个分类，可以先开一个 pet submission issue。
 2. 准备一个独立目录：`pets/<pet-slug>--<author-slug>/`。
 3. 尽量一个 PR 只提交一个 pet。
-4. 只提交最终成品文件。
+4. 只提交 `pets/<pet-id>/` 下的最终三件套。
+5. 不要在贡献者 PR 里提交 README、`pets.json` 或预览生成物。
 
 ## 目录标准
 
@@ -27,7 +28,7 @@
 - `pet.json`：Codex 运行时元数据
 - `spritesheet.webp`：安装用 spritesheet
 
-不要把自动生成的预览图、QA 输出、参考图或 README 文件放进 pet 目录。生成的预览统一放在 `assets/previews/<pet-id>/`。
+不要把自动生成的预览图、QA 输出、参考图或 README 文件放进 pet 目录。生成的预览统一放在 `assets/previews/<pet-id>/`，并由维护者或 CI 在合并后更新。
 
 ## `submission.json` 结构
 
@@ -61,10 +62,20 @@
 - `pet.json` 里的 `id` 与目录名一致
 - `submission.json` 已填写
 - 作者信息和许可证信息清楚
-- 如果修改了 `spritesheet.webp`，已经运行 `npm run previews`
-- `npm run validate` 通过
+- 贡献者 PR 不包含 `README.md`、`docs/zh-CN/README.md`、`pets.json` 或 `assets/previews/<pet-id>/`
+- `npm run validate:pr` 通过
 - 快速安装命令可用：`npm run install:pet -- <slug> --codex-home /tmp/codex-pet-test`
 - 不包含无关文件
+
+维护者在合并后统一重新生成预览和仓库索引：
+
+```bash
+python -m pip install -r requirements.txt
+npm run previews
+npm run readmes
+npm run validate
+npm run lint
+```
 
 ## 收录规则
 

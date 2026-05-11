@@ -4,9 +4,15 @@ import { join } from "node:path";
 
 const repoRoot = fileURLToPath(new URL("..", import.meta.url));
 const petsDir = join(repoRoot, "pets");
+const requireGeneratedAssets = process.argv.includes("--require-generated-assets");
 
 const slugPattern = /^[a-z0-9]+(?:-[a-z0-9]+)*--[a-z0-9]+(?:-[a-z0-9]+)*$/;
 const previewStates = ["idle", "waving", "running", "jumping", "review"];
+const requiredGeneratedPaths = [
+  join(repoRoot, "README.md"),
+  join(repoRoot, "docs", "zh-CN", "README.md"),
+  join(repoRoot, "pets.json"),
+];
 const errors = [];
 
 function readJson(path) {
@@ -73,10 +79,26 @@ for (const entry of readdirSync(petsDir)) {
     }
   }
 
-  for (const state of previewStates) {
-    const previewPath = join(repoRoot, "assets", "previews", entry, "gifs", `${state}.gif`);
-    if (!existsSync(previewPath)) {
-      errors.push(`${entry}: missing generated preview ${previewPath.replace(`${repoRoot}/`, "")}`);
+}
+
+for (const generatedPath of requiredGeneratedPaths) {
+  if (!existsSync(generatedPath)) {
+    errors.push(`missing generated repository file ${generatedPath.replace(`${repoRoot}/`, "")}`);
+  }
+}
+
+if (requireGeneratedAssets) {
+  for (const entry of readdirSync(petsDir)) {
+    if (entry.startsWith(".")) continue;
+
+    const petDir = join(petsDir, entry);
+    if (!statSync(petDir).isDirectory()) continue;
+
+    for (const state of previewStates) {
+      const previewPath = join(repoRoot, "assets", "previews", entry, "gifs", `${state}.gif`);
+      if (!existsSync(previewPath)) {
+        errors.push(`${entry}: missing generated preview ${previewPath.replace(`${repoRoot}/`, "")}`);
+      }
     }
   }
 }

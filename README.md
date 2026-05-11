@@ -149,11 +149,11 @@ Generated previews and README listings are automated:
 
 ```bash
 python -m pip install -r requirements.txt
-npm run previews
-npm run readmes
-npm run validate
+npm run validate:pr
 npm run lint
 ```
+
+Contributor PRs should only include `submission.json`, `pet.json`, and `spritesheet.webp`. Maintainers or CI regenerate previews, README listings, and `pets.json` after merge.
 
 ## Make a Pet
 

@@ -149,11 +149,11 @@ pets/
 
 ```bash
 python -m pip install -r requirements.txt
-npm run previews
-npm run readmes
-npm run validate
+npm run validate:pr
 npm run lint
 ```
+
+贡献者 PR 只需要提交 `submission.json`、`pet.json` 和 `spritesheet.webp`。预览图、README 收录表和 `pets.json` 由维护者或 CI 在合并后统一生成。
 
 ## 制作 Pet
 

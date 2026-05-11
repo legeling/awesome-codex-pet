@@ -13,7 +13,8 @@
     "lint": "prettier --check \"**/*.{md,json}\"",
     "previews": "python3 scripts/generate-pet-previews.py",
     "readmes": "node scripts/generate-readmes.mjs",
-    "validate": "node scripts/validate-pets.mjs"
+    "validate": "node scripts/validate-pets.mjs --require-generated-assets",
+    "validate:pr": "node scripts/validate-pets.mjs"
   },
   "devDependencies": {
     "prettier": "^3.5.3"
