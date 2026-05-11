@@ -10,6 +10,15 @@
     "description": "A pre-transformation Firefly fan-art Codex pet with a soft white, mint, and gold palette."
   },
   {
+    "slug": "becky--natewanggg",
+    "name": "Becky",
+    "author": "NateWanggg",
+    "author_handle": "NateWanggg",
+    "author_url": "https://github.com/NateWanggg",
+    "primary_category": "Animals",
+    "license": "CC BY-NC 4.0"
+  },
+  {
     "slug": "fleta--natewanggg",
     "name": "Fleta",
     "author": "NateWanggg",
