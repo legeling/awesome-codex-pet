@@ -1,9 +1,7 @@
 import { readFileSync } from "node:fs";
 import { join } from "node:path";
 
-const previewActions = ["idle", "waving", "running", "waiting", "review"] as const;
-
-export type PreviewAction = (typeof previewActions)[number];
+export type PreviewAction = string;
 
 type CatalogPet = {
   slug: string;
@@ -25,6 +23,7 @@ export type Pet = CatalogPet & {
   sourceUrl: string;
   previewImage: string;
   contactSheet: string;
+  actions: PreviewAction[];
   gifs: Record<PreviewAction, string>;
   installCommand: string;
   installCommandPowerShell: string;
@@ -52,10 +51,17 @@ export function getFeaturedPets(pets: Pet[]) {
   return pets.slice(0, 4);
 }
 
+function titleCase(input: string) {
+  return input
+    .split("-")
+    .map((part) => (part.length === 0 ? part : part[0].toUpperCase() + part.slice(1)))
+    .join(" ");
+}
+
 export function getActionEntries(pet: Pet) {
-  return previewActions.map((action) => ({
+  return pet.actions.map((action) => ({
     action,
-    title: action[0].toUpperCase() + action.slice(1),
-    image: pet.gifs[action],
+    title: titleCase(action),
+    image: pet.gifs[action] ?? `/assets/previews/${pet.slug}/gifs/${action}.gif`,
   }));
 }

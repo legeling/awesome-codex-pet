@@ -5,6 +5,7 @@ import { useEffect } from "react";
 import { useLocale } from "@/components/locale-provider";
 import { CopyCommandButton } from "@/components/copy-command-button";
 import { trackView } from "@/lib/stats";
+import { translations, type TranslationKey } from "@/lib/i18n";
 import type { Pet, PreviewAction } from "@/lib/pets";
 
 type ActionEntry = {
@@ -17,6 +18,8 @@ type PetDetailContentProps = {
   pet: Pet;
   actions: ActionEntry[];
 };
+
+const knownActionKeys = new Set(Object.keys(translations.en));
 
 export function PetDetailContent({ pet, actions }: PetDetailContentProps) {
   const { t } = useLocale();
@@ -94,22 +97,29 @@ export function PetDetailContent({ pet, actions }: PetDetailContentProps) {
               {t("actionPreviewsDesc")}
             </p>
 
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-              {actions.map((item) => (
-                <div
-                  className="rounded-xl border border-border bg-bg-secondary p-4 hover:border-border-hover transition-colors"
-                  key={item.action}
-                >
-                  <span className="text-xs font-medium text-muted uppercase tracking-wide mb-3 block">
-                    {t(item.action as "idle" | "waving" | "running" | "waiting" | "review")}
-                  </span>
-                  <img
-                    className="w-full rounded-lg [image-rendering:pixelated]"
-                    src={item.image}
-                    alt={`${pet.name} ${item.title}`}
-                  />
-                </div>
-              ))}
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+              {actions.map((item) => {
+                const known = knownActionKeys.has(item.action);
+                const label = known
+                  ? t(item.action as TranslationKey)
+                  : item.title;
+                return (
+                  <div
+                    className="rounded-xl border border-border bg-bg-secondary p-4 hover:border-border-hover transition-colors"
+                    key={item.action}
+                  >
+                    <span className="text-xs font-medium text-muted uppercase tracking-wide mb-3 block">
+                      {label}
+                    </span>
+                    <img
+                      className="w-full rounded-lg [image-rendering:pixelated]"
+                      src={item.image}
+                      alt={`${pet.name} ${item.title}`}
+                      loading="lazy"
+                    />
+                  </div>
+                );
+              })}
             </div>
           </section>
         </div>

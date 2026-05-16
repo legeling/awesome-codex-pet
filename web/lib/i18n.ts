@@ -43,7 +43,8 @@ export const translations = {
     // Detail
     backToGallery: "Back to gallery",
     actionPreviews: "Action Previews",
-    actionPreviewsDesc: "Core animation states rendered from the spritesheet.",
+    actionPreviewsDesc:
+      "Every animation state rendered from the spritesheet — what you'll actually see in Codex.",
     metadata: "Metadata",
     author: "Author",
     license: "License",
@@ -131,8 +132,12 @@ export const translations = {
     idle: "Idle",
     waving: "Waving",
     running: "Running",
+    "running-left": "Running left",
+    "running-right": "Running right",
     waiting: "Waiting",
     review: "Review",
+    jumping: "Jumping",
+    failed: "Failed",
   },
   zh: {
     // Header
@@ -176,7 +181,7 @@ export const translations = {
     // Detail
     backToGallery: "返回画廊",
     actionPreviews: "动作预览",
-    actionPreviewsDesc: "从 spritesheet 渲染的核心动画状态。",
+    actionPreviewsDesc: "Codex 中实际呈现的全部动作动画。",
     metadata: "元数据",
     author: "作者",
     license: "许可证",
@@ -259,8 +264,12 @@ export const translations = {
     idle: "待机",
     waving: "挥手",
     running: "奔跑",
+    "running-left": "向左跑",
+    "running-right": "向右跑",
     waiting: "等待",
     review: "审查",
+    jumping: "跳跃",
+    failed: "失败",
   },
 } as const;
 
