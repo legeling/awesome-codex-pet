@@ -1,0 +1,23 @@
+{
+  "slug": "dnf-female-ammo--qunboo",
+  "pet_slug": "dnf-female-ammo",
+  "author_slug": "qunboo",
+  "name": "女弹药Q",
+  "author": "QunBoo",
+  "author_handle": "QunBoo",
+  "author_url": "https://github.com/QunBoo",
+  "primary_category": "Anime Characters",
+  "tags": ["dnf", "dungeon-fighter", "female-ammo", "game", "chibi"],
+  "source_type": "fan-art",
+  "source_url": "",
+  "license": "CC BY-NC 4.0",
+  "preview_image": "../../assets/previews/dnf-female-ammo--qunboo/gifs/idle.gif",
+  "codex_install": {
+    "pet_json": "pet.json",
+    "spritesheet": "spritesheet.webp"
+  },
+  "preview_assets": {
+    "contact_sheet": "../../assets/previews/dnf-female-ammo--qunboo/contact-sheet.png",
+    "gifs_dir": "../../assets/previews/dnf-female-ammo--qunboo/gifs"
+  }
+}
