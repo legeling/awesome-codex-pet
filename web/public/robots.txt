@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://awesome-codex-pet.pages.dev/sitemap.xml

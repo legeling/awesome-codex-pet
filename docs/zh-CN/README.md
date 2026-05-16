@@ -6,13 +6,22 @@
 
 ![pets: 11](https://img.shields.io/badge/pets-11-2ea44f) ![categories: 6](https://img.shields.io/badge/categories-6-0969da) ![languages: en | zh--CN](https://img.shields.io/badge/languages-en%20%7C%20zh--CN-8250df) ![code: MIT](https://img.shields.io/badge/code-MIT-111111) ![assets: CC BY--NC 4.0](https://img.shields.io/badge/assets-CC%20BY--NC%204.0-f97316) ![install: one command](https://img.shields.io/badge/install-one%20command-111111) [![Pet previews](https://github.com/legeling/awesome-codex-pet/actions/workflows/pet-previews.yml/badge.svg)](https://github.com/legeling/awesome-codex-pet/actions/workflows/pet-previews.yml)
 
+[**🌐 在线画廊**](https://awesome-codex-pet.pages.dev) · [**⚡ 安装指南**](https://awesome-codex-pet.pages.dev/install) · [**📖 投稿指南**](https://awesome-codex-pet.pages.dev/guide)
+
 ![Awesome Codex Pet 封面](../../assets/cover/awesome-codex-pet-cover.png)
 
 </div>
 
-一个收集社区 Codex 小宠物的精选画廊，自动生成动作预览，并支持一条命令快速安装。
+社区精选的 Codex 小宠物画廊。在[在线画廊](https://awesome-codex-pet.pages.dev)里浏览动画，一条命令完成安装，通过 GitHub 提交你自己的宠物。
 
-每个 pet 都是一个很小的可分享包：
+## 亮点
+
+- **一条命令安装** — 不需要克隆仓库，macOS / Linux / Windows 全平台支持
+- **在线画廊** — [awesome-codex-pet.pages.dev](https://awesome-codex-pet.pages.dev) 提供动画预览、筛选、浏览/安装统计
+- **GitHub 原生投稿** — 提 issue 或 PR，剩下的全自动
+- **明确许可** — 代码 MIT，宠物资源 CC BY-NC 4.0
+
+每只宠物都是一个很小的可分享包：
 
 ```text
 pets/<pet-slug>--<author-slug>/
@@ -21,34 +30,41 @@ pets/<pet-slug>--<author-slug>/
 └── spritesheet.webp
 ```
 
-pet 目录只放最终成品文件。预览图会自动生成到 `assets/previews/<pet-id>/`。
+预览图自动生成到 `assets/previews/<pet-id>/`，不会塞进宠物目录。
 
 ## 快速安装
 
-不需要 clone 仓库，直接从 GitHub 安装：
+无需 clone，按你的系统选一条命令：
 
 ```bash
+# macOS / Linux
 curl -fsSL https://raw.githubusercontent.com/legeling/awesome-codex-pet/main/scripts/install-pet.sh | bash -s -- firefly--lingxiaotian
 ```
 
-查看可安装的 pet：
+```powershell
+# Windows PowerShell
+powershell -NoProfile -ExecutionPolicy Bypass -Command "iwr -UseB https://raw.githubusercontent.com/legeling/awesome-codex-pet/main/scripts/install-pet.ps1 | iex; Install-CodexPet firefly--lingxiaotian"
+```
+
+```bash
+# 任何能跑 Node.js 的环境
+npx awesome-codex-pet firefly--lingxiaotian
+```
+
+列出可安装的宠物：
 
 ```bash
 curl -fsSL https://raw.githubusercontent.com/legeling/awesome-codex-pet/main/scripts/install-pet.sh | bash -s -- --list
 ```
 
-Windows PowerShell：
-
-```powershell
-powershell -NoProfile -ExecutionPolicy Bypass -Command "iwr -UseB https://raw.githubusercontent.com/legeling/awesome-codex-pet/main/scripts/install-pet.ps1 | iex; Install-CodexPet firefly--lingxiaotian"
-```
-
 默认安装位置：
 
-- macOS/Linux：`~/.codex/pets/<pet-id>/`
+- macOS / Linux：`~/.codex/pets/<pet-id>/`
 - Windows：`%USERPROFILE%\.codex\pets\<pet-id>\`
 
-## Pet 收录
+可通过 `CODEX_HOME` 自定义安装路径，或者设置 `AWESOME_CODEX_PET_NO_STATS=1` 关闭匿名安装计数。
+
+## 宠物收录
 
 ### 动漫人物
 
@@ -135,17 +151,19 @@ powershell -NoProfile -ExecutionPolicy Bypass -Command "iwr -UseB https://raw.gi
 
 ## 投稿
 
-目录名使用 `pet-slug--author-slug`，这样同一个角色的不同作者版本可以并存。
+最快的方式是看[网站上的投稿指南](https://awesome-codex-pet.pages.dev/guide)，里面有分类、目录结构和审核清单。
+
+也可以直接基于仓库工作：
 
 ```text
 pets/
 └── pet-slug--author-slug/
     ├── submission.json
     ├── pet.json
-    ├── spritesheet.webp
+    └── spritesheet.webp
 ```
 
-预览和 README 收录表都是自动生成的：
+目录名使用 `pet-slug--author-slug`，这样同一个角色的不同作者版本可以并存。预览图和 README 收录表都由 CI 自动生成：
 
 ```bash
 python -m pip install -r requirements.txt
@@ -153,19 +171,21 @@ npm run validate:pr
 npm run lint
 ```
 
-贡献者 PR 只需要提交 `submission.json`、`pet.json` 和 `spritesheet.webp`。预览图、README 收录表和 `pets.json` 由维护者或 CI 在合并后统一生成。
+贡献者 PR 只需提交 `submission.json`、`pet.json` 和 `spritesheet.webp`。预览图、README 收录和 `pets.json` 由维护者或 CI 在合并后统一生成。
 
 ## 制作 Pet
 
-- [.agents/skills/hatch-pet](../../.agents/skills/hatch-pet)
+- [.agents/skills/hatch-pet](../../.agents/skills/hatch-pet) — 设计、生成、QA、打包的端到端流水线
 
 ## 文档
 
 - English: [docs/en](../en)
 - 简体中文: [docs/zh-CN](./)
+- 在线画廊源码: [web/](../../web)
+- 统计 Worker: [worker/](../../worker)
 - 贡献指南: [CONTRIBUTING.md](./CONTRIBUTING.md)
 
 ## 许可说明
 
 - 代码和脚本：[MIT](../../LICENSE)
-- pet 资产和自动生成预览：[CC BY-NC 4.0](../../ASSETS-LICENSE.md)，除非具体 pet 目录另有说明
+- 宠物资产和自动生成预览：[CC BY-NC 4.0](../../ASSETS-LICENSE.md)，除非具体宠物目录另有说明

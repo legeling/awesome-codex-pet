@@ -13,7 +13,7 @@ function readJson(relativePath) {
 }
 
 function toWebPath(relativePath) {
-  return `/${relativePath.replace(/^\.\.\//g, "").replace(/^\/+/, "")}`;
+  return `/${relativePath.replace(/^(\.\.\/)+/, "").replace(/^\/+/, "")}`;
 }
 
 const pets = readJson("pets.json").map((pet) => {

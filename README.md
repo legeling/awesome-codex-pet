@@ -6,11 +6,20 @@
 
 ![pets: 11](https://img.shields.io/badge/pets-11-2ea44f) ![categories: 6](https://img.shields.io/badge/categories-6-0969da) ![languages: en | zh--CN](https://img.shields.io/badge/languages-en%20%7C%20zh--CN-8250df) ![code: MIT](https://img.shields.io/badge/code-MIT-111111) ![assets: CC BY--NC 4.0](https://img.shields.io/badge/assets-CC%20BY--NC%204.0-f97316) ![install: one command](https://img.shields.io/badge/install-one%20command-111111) [![Pet previews](https://github.com/legeling/awesome-codex-pet/actions/workflows/pet-previews.yml/badge.svg)](https://github.com/legeling/awesome-codex-pet/actions/workflows/pet-previews.yml)
 
+[**🌐 Live gallery**](https://awesome-codex-pet.pages.dev) · [**⚡ Install guide**](https://awesome-codex-pet.pages.dev/install) · [**📖 Submit a pet**](https://awesome-codex-pet.pages.dev/guide)
+
 ![Awesome Codex Pet cover](./assets/cover/awesome-codex-pet-cover.png)
 
 </div>
 
-A curated gallery of community-made Codex pets, with generated action previews and one-command installation.
+A curated gallery of community-made Codex pets. Browse animations on the [website](https://awesome-codex-pet.pages.dev), install with one command, and submit your own pet through GitHub.
+
+## Highlights
+
+- **One-command install** — no clone, no manual setup, works on macOS / Linux / Windows
+- **Live gallery** — animated previews, filtering, and view/install counters at [awesome-codex-pet.pages.dev](https://awesome-codex-pet.pages.dev)
+- **GitHub-native submissions** — open an issue or PR, the rest is automated
+- **Open licensing** — code under MIT, pet assets under CC BY-NC 4.0
 
 Each pet is a small shareable package:
 
@@ -21,14 +30,25 @@ pets/<pet-slug>--<author-slug>/
 └── spritesheet.webp
 ```
 
-Pet folders only contain final submission files. Preview images are generated into `assets/previews/<pet-id>/`.
+Preview images are generated into `assets/previews/<pet-id>/`, never inside the pet folder.
 
 ## Quick Install
 
-No clone required. Install a pet directly from GitHub:
+No clone required. Pick the script for your shell:
 
 ```bash
+# macOS / Linux
 curl -fsSL https://raw.githubusercontent.com/legeling/awesome-codex-pet/main/scripts/install-pet.sh | bash -s -- firefly--lingxiaotian
+```
+
+```powershell
+# Windows PowerShell
+powershell -NoProfile -ExecutionPolicy Bypass -Command "iwr -UseB https://raw.githubusercontent.com/legeling/awesome-codex-pet/main/scripts/install-pet.ps1 | iex; Install-CodexPet firefly--lingxiaotian"
+```
+
+```bash
+# Anywhere with Node.js
+npx awesome-codex-pet firefly--lingxiaotian
 ```
 
 List available pets:
@@ -37,16 +57,12 @@ List available pets:
 curl -fsSL https://raw.githubusercontent.com/legeling/awesome-codex-pet/main/scripts/install-pet.sh | bash -s -- --list
 ```
 
-Windows PowerShell:
-
-```powershell
-powershell -NoProfile -ExecutionPolicy Bypass -Command "iwr -UseB https://raw.githubusercontent.com/legeling/awesome-codex-pet/main/scripts/install-pet.ps1 | iex; Install-CodexPet firefly--lingxiaotian"
-```
-
 Default install locations:
 
-- macOS/Linux: `~/.codex/pets/<pet-id>/`
+- macOS / Linux: `~/.codex/pets/<pet-id>/`
 - Windows: `%USERPROFILE%\.codex\pets\<pet-id>\`
+
+Set `CODEX_HOME` to override, or `AWESOME_CODEX_PET_NO_STATS=1` to opt out of anonymous install counters.
 
 ## Pets
 
@@ -135,17 +151,19 @@ Default install locations:
 
 ## Submit a Pet
 
-Use `pet-slug--author-slug` so multiple versions of the same character can coexist.
+The fastest path is the [submission guide on the website](https://awesome-codex-pet.pages.dev/guide). It walks through categories, the folder layout, and the reviewer checklist.
+
+If you prefer working from the repo:
 
 ```text
 pets/
 └── pet-slug--author-slug/
     ├── submission.json
     ├── pet.json
-    ├── spritesheet.webp
+    └── spritesheet.webp
 ```
 
-Generated previews and README listings are automated:
+Use `pet-slug--author-slug` so multiple authors can ship variants of the same character. Generated previews and README listings are produced by CI:
 
 ```bash
 python -m pip install -r requirements.txt
@@ -157,12 +175,14 @@ Contributor PRs should only include `submission.json`, `pet.json`, and `spritesh
 
 ## Make a Pet
 
-- [.agents/skills/hatch-pet](./.agents/skills/hatch-pet)
+- [.agents/skills/hatch-pet](./.agents/skills/hatch-pet) — end-to-end pipeline for designing, generating, QAing, and packaging a pet
 
 ## Documentation
 
 - English: [docs/en](./docs/en)
 - 简体中文: [docs/zh-CN](./docs/zh-CN)
+- Web gallery source: [web/](./web)
+- Stats worker: [worker/](./worker)
 - Contribution guide: [CONTRIBUTING.md](./CONTRIBUTING.md)
 
 ## License

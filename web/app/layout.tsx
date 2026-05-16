@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { Inter, Fira_Code } from "next/font/google";
 
 import "./globals.css";
@@ -13,11 +13,46 @@ const firaCode = Fira_Code({ subsets: ["latin"], variable: "--font-fira-code" })
 const siteUrl =
   process.env.NEXT_PUBLIC_SITE_URL ?? "https://awesome-codex-pet.pages.dev";
 
+const description =
+  "A curated gallery of community-made Codex pets with animated previews, one-command install, and GitHub-native submissions.";
+
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
-  title: "Awesome Codex Pet",
-  description:
-    "A curated gallery of community-made Codex pets with previews, install commands, and GitHub-native submissions.",
+  title: {
+    default: "Awesome Codex Pet",
+    template: "%s · Awesome Codex Pet",
+  },
+  description,
+  applicationName: "Awesome Codex Pet",
+  keywords: [
+    "Codex",
+    "Codex pet",
+    "pixel art",
+    "open source",
+    "community",
+    "gallery",
+  ],
+  openGraph: {
+    title: "Awesome Codex Pet",
+    description,
+    url: siteUrl,
+    siteName: "Awesome Codex Pet",
+    images: ["/assets/cover/awesome-codex-pet-cover.png"],
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Awesome Codex Pet",
+    description,
+    images: ["/assets/cover/awesome-codex-pet-cover.png"],
+  },
+};
+
+export const viewport: Viewport = {
+  themeColor: [
+    { media: "(prefers-color-scheme: light)", color: "#ffffff" },
+    { media: "(prefers-color-scheme: dark)", color: "#0d0d0d" },
+  ],
 };
 
 export default function RootLayout({
