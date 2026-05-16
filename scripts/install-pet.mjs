@@ -95,3 +95,19 @@ copyFileSync(petJsonPath, join(targetDir, "pet.json"));
 copyFileSync(spritesheetPath, join(targetDir, "spritesheet.webp"));
 
 console.log(`Installed ${installId} to ${targetDir}`);
+
+if (process.env.AWESOME_CODEX_PET_NO_STATS !== "1") {
+  const statsApi =
+    process.env.AWESOME_CODEX_PET_STATS_API ||
+    "https://awesome-codex-pet-stats.legeling.workers.dev";
+  try {
+    const controller = new AbortController();
+    const timeout = setTimeout(() => controller.abort(), 3000);
+    await fetch(`${statsApi}/track/install?slug=${encodeURIComponent(installId)}`, {
+      method: "POST",
+      signal: controller.signal,
+    }).finally(() => clearTimeout(timeout));
+  } catch {
+    // stats are best-effort; never fail installs
+  }
+}

@@ -12,3 +12,10 @@ pets/*/qa/
 .pytest_cache
 __pycache__
 *.pyc
+
+# Editor
+.vscode/
+
+# Cloudflare Worker local state
+worker/.wrangler
+worker/.dev.vars

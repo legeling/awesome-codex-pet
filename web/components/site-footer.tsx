@@ -2,34 +2,100 @@
 
 import Link from "next/link";
 import { useLocale } from "@/components/locale-provider";
+import { SiteLogo } from "@/components/site-logo";
 
 export function SiteFooter() {
   const { t } = useLocale();
+  const year = new Date().getFullYear();
 
   return (
-    <footer className="border-t border-border mt-20">
-      <div className="max-w-[1200px] mx-auto px-6 py-10">
-        <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-6">
-          <div className="flex items-center gap-2">
-            <span className="size-5 rounded bg-accent flex items-center justify-center">
-              <svg className="size-3 text-white" viewBox="0 0 24 24" fill="currentColor">
-                <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
-              </svg>
-            </span>
-            <span className="text-sm font-medium text-text">Awesome Codex Pet</span>
+    <footer className="border-t border-border mt-24 bg-bg-secondary/40">
+      <div className="max-w-[1200px] mx-auto px-6 py-14">
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-10">
+          <div className="col-span-2">
+            <div className="flex items-center gap-2.5 mb-3">
+              <SiteLogo size={26} />
+              <span className="text-sm font-semibold text-text">
+                Awesome Codex Pet
+              </span>
+            </div>
+            <p className="text-sm text-muted leading-relaxed max-w-sm">
+              {t("footerTagline")}
+            </p>
           </div>
 
-          <nav className="flex items-center gap-6 text-sm text-muted">
-            <Link href="/#gallery" className="hover:text-text transition-colors">{t("gallery")}</Link>
-            <a href="https://github.com/legeling/awesome-codex-pet" target="_blank" rel="noreferrer" className="hover:text-text transition-colors">{t("github")}</a>
-            <a href="https://github.com/legeling/awesome-codex-pet/blob/main/docs/en/CONTRIBUTING.md" target="_blank" rel="noreferrer" className="hover:text-text transition-colors">{t("contributing")}</a>
-          </nav>
+          <div>
+            <h3 className="text-xs font-semibold uppercase tracking-wider text-text mb-3">
+              {t("footerLinksTitle")}
+            </h3>
+            <ul className="space-y-2 text-sm">
+              <li>
+                <Link
+                  className="text-muted hover:text-text transition-colors"
+                  href="/"
+                >
+                  {t("gallery")}
+                </Link>
+              </li>
+              <li>
+                <Link
+                  className="text-muted hover:text-text transition-colors"
+                  href="/install"
+                >
+                  {t("install")}
+                </Link>
+              </li>
+              <li>
+                <Link
+                  className="text-muted hover:text-text transition-colors"
+                  href="/guide"
+                >
+                  {t("guide")}
+                </Link>
+              </li>
+            </ul>
+          </div>
+
+          <div>
+            <h3 className="text-xs font-semibold uppercase tracking-wider text-text mb-3">
+              {t("footerCommunityTitle")}
+            </h3>
+            <ul className="space-y-2 text-sm">
+              <li>
+                <a
+                  className="text-muted hover:text-text transition-colors"
+                  href="https://github.com/legeling/awesome-codex-pet"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  {t("github")}
+                </a>
+              </li>
+              <li>
+                <a
+                  className="text-muted hover:text-text transition-colors"
+                  href="https://github.com/legeling/awesome-codex-pet/issues/new?template=pet-submission.yml"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  {t("submitPet")}
+                </a>
+              </li>
+              <li>
+                <Link
+                  className="text-muted hover:text-text transition-colors"
+                  href="/guide"
+                >
+                  {t("contributing")}
+                </Link>
+              </li>
+            </ul>
+          </div>
         </div>
 
-        <div className="mt-8 pt-6 border-t border-border">
-          <p className="text-xs text-muted">
-            {t("footerBuiltWith")}
-          </p>
+        <div className="mt-10 pt-6 border-t border-border flex flex-col sm:flex-row items-start sm:items-center justify-between gap-2">
+          <p className="text-xs text-muted">© {year} Awesome Codex Pet</p>
+          <p className="text-xs text-muted">{t("footerLicenseLine")}</p>
         </div>
       </div>
     </footer>

@@ -3,6 +3,8 @@ set -euo pipefail
 
 RAW_BASE="${AWESOME_CODEX_PET_RAW_BASE:-https://raw.githubusercontent.com/legeling/awesome-codex-pet/main}"
 CODEX_HOME="${CODEX_HOME:-$HOME/.codex}"
+STATS_API="${AWESOME_CODEX_PET_STATS_API:-https://awesome-codex-pet-stats.legeling.workers.dev}"
+NO_STATS="${AWESOME_CODEX_PET_NO_STATS:-0}"
 
 usage() {
   cat <<'EOF'
@@ -107,3 +109,7 @@ cp "$TMP_DIR/pet.json" "$TARGET_DIR/pet.json"
 cp "$TMP_DIR/spritesheet.webp" "$TARGET_DIR/spritesheet.webp"
 
 echo "Installed $PET_ID to $TARGET_DIR"
+
+if [ "$NO_STATS" != "1" ]; then
+  curl -fsS -m 3 -X POST "$STATS_API/track/install?slug=$PET_ID" >/dev/null 2>&1 || true
+fi

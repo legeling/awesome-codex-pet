@@ -41,6 +41,18 @@ function Install-CodexPet {
   Invoke-WebRequest -UseBasicParsing -Uri "$RawBase/pets/$PetId/spritesheet.webp" -OutFile (Join-Path $targetDir "spritesheet.webp")
 
   Write-Host "Installed $PetId to $targetDir"
+
+  if ($env:AWESOME_CODEX_PET_NO_STATS -ne "1") {
+    $statsApi = $env:AWESOME_CODEX_PET_STATS_API
+    if ([string]::IsNullOrWhiteSpace($statsApi)) {
+      $statsApi = "https://awesome-codex-pet-stats.legeling.workers.dev"
+    }
+    try {
+      Invoke-WebRequest -UseBasicParsing -Method Post -TimeoutSec 3 -Uri "$statsApi/track/install?slug=$PetId" | Out-Null
+    } catch {
+      # stats are best-effort; never fail installs
+    }
+  }
 }
 
 if ($args.Count -gt 0) {

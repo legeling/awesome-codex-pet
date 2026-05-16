@@ -44,10 +44,14 @@ mkdirSync(dataDir, { recursive: true });
 writeFileSync(join(dataDir, "pets.generated.json"), `${JSON.stringify(pets, null, 2)}\n`, "utf8");
 
 rmSync(publicAssetsDir, { recursive: true, force: true });
-mkdirSync(dirname(publicAssetsDir), { recursive: true });
+mkdirSync(publicAssetsDir, { recursive: true });
 
-if (existsSync(join(repoRoot, "assets"))) {
-  cpSync(join(repoRoot, "assets"), publicAssetsDir, { recursive: true });
+const previewsSrc = join(repoRoot, "assets", "previews");
+if (existsSync(previewsSrc)) {
+  cpSync(previewsSrc, join(publicAssetsDir, "previews"), {
+    recursive: true,
+    filter: (src) => !src.endsWith(".DS_Store"),
+  });
 }
 
 console.log(`Prepared web data for ${pets.length} pet(s).`);

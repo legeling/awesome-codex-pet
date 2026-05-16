@@ -1,0 +1,12 @@
+name = "awesome-codex-pet-stats"
+main = "src/index.js"
+compatibility_date = "2024-12-01"
+
+# Replace the id below with your KV namespace id from `wrangler kv namespace create STATS`.
+# kv_namespaces = [
+#   { binding = "STATS", id = "REPLACE_WITH_KV_ID" }
+# ]
+
+[vars]
+# Comma separated list of allowed origins for CORS.
+ALLOWED_ORIGINS = "https://awesome-codex-pet.pages.dev,http://localhost:3000,http://localhost:3001"

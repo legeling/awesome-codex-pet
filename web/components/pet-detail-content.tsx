@@ -1,8 +1,10 @@
 "use client";
 
 import Link from "next/link";
+import { useEffect } from "react";
 import { useLocale } from "@/components/locale-provider";
 import { CopyCommandButton } from "@/components/copy-command-button";
+import { trackView } from "@/lib/stats";
 import type { Pet, PreviewAction } from "@/lib/pets";
 
 type ActionEntry = {
@@ -18,6 +20,10 @@ type PetDetailContentProps = {
 
 export function PetDetailContent({ pet, actions }: PetDetailContentProps) {
   const { t } = useLocale();
+
+  useEffect(() => {
+    trackView(pet.slug);
+  }, [pet.slug]);
 
   return (
     <main className="max-w-[1200px] mx-auto px-6 pb-20">

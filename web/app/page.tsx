@@ -9,10 +9,11 @@ export default function HomePage() {
 
   return (
     <main>
-      <HeroSection petCount={pets.length} featured={featured} />
-
-      {/* Divider */}
-      <div className="border-t border-border" />
+      <HeroSection
+        petCount={pets.length}
+        categoryCount={categories.length}
+        featured={featured}
+      />
 
       {/* Gallery */}
       <section className="px-6 py-16">

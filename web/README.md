@@ -22,7 +22,7 @@ Output is in `web/out/` (static HTML export).
 
 ## Deployment (Cloudflare Pages)
 
-The site auto-deploys to Cloudflare Pages on every push to `main` that touches `web/`, `pets/`, `pets.json`, or `assets/previews/`.
+The site deploys to Cloudflare Pages when a release tag is pushed (`v*` or `web-v*`), or via a manual workflow dispatch. Day-to-day commits to `main` do not trigger a deploy.
 
 ### Setup (one-time)
 
@@ -41,11 +41,12 @@ The site auto-deploys to Cloudflare Pages on every push to `main` that touches `
    - `CLOUDFLARE_API_TOKEN` — the API token from step 2
    - `CLOUDFLARE_ACCOUNT_ID` — your account ID from step 3
 
-5. Push to `main` — the GitHub Action will create the Pages project and deploy automatically.
+5. Push a release tag (e.g. `git tag web-v0.1.0 && git push origin web-v0.1.0`) — the GitHub Action will create the Pages project on first run and deploy automatically. You can also trigger a deploy manually from the Actions tab.
 
 ### Custom Domain
 
 After the first deploy:
+
 1. Go to Cloudflare Dashboard → Workers & Pages → awesome-codex-pet
 2. Custom domains → Add a custom domain
 3. If your domain is already on Cloudflare DNS, it auto-configures. Otherwise, update your DNS records.
@@ -65,3 +66,13 @@ npx wrangler pages deploy out --project-name=awesome-codex-pet
 - **i18n**: Client-side locale detection (zh/en) with React Context
 - **Data**: Generated at build time from `pets.json` + individual pet metadata
 - **Hosting**: Cloudflare Pages (global CDN, free tier)
+- **Stats**: a separate Cloudflare Worker at `https://awesome-codex-pet-stats.legeling.workers.dev` powers view + install counters. See `worker/README.md`.
+
+## Environment variables
+
+| Variable                | Default                                                | Used in                        |
+| ----------------------- | ------------------------------------------------------ | ------------------------------ |
+| `NEXT_PUBLIC_SITE_URL`  | `https://awesome-codex-pet.pages.dev`                  | `app/layout.tsx` metadata base |
+| `NEXT_PUBLIC_STATS_API` | `https://awesome-codex-pet-stats.legeling.workers.dev` | `lib/stats.ts`                 |
+
+Set them in Cloudflare Pages → project → Settings → Environment variables (production + preview) if you ever change the Worker URL or bind a custom domain.

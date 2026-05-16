@@ -2,12 +2,9 @@ name: Deploy Web to Cloudflare Pages
 
 on:
   push:
-    branches: [main]
-    paths:
-      - "web/**"
-      - "pets/**"
-      - "pets.json"
-      - "assets/previews/**"
+    tags:
+      - "v*"
+      - "web-v*"
   workflow_dispatch:
 
 jobs:

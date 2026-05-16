@@ -10,8 +10,11 @@ import { SiteHeader } from "@/components/site-header";
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 const firaCode = Fira_Code({ subsets: ["latin"], variable: "--font-fira-code" });
 
+const siteUrl =
+  process.env.NEXT_PUBLIC_SITE_URL ?? "https://awesome-codex-pet.pages.dev";
+
 export const metadata: Metadata = {
-  metadataBase: new URL("https://awesome-codex-pet.vercel.app"),
+  metadataBase: new URL(siteUrl),
   title: "Awesome Codex Pet",
   description:
     "A curated gallery of community-made Codex pets with previews, install commands, and GitHub-native submissions.",
