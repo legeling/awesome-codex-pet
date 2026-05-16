@@ -1,4 +1,8 @@
 User-agent: *
 Allow: /
 
+# Block crawling of preview deployments to avoid duplicate content
+User-agent: *
+Disallow: /_next/
+
 Sitemap: https://awesome-codex-pet.pages.dev/sitemap.xml

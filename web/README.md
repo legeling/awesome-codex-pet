@@ -70,9 +70,22 @@ npx wrangler pages deploy out --project-name=awesome-codex-pet
 
 ## Environment variables
 
-| Variable                | Default                                                | Used in                        |
-| ----------------------- | ------------------------------------------------------ | ------------------------------ |
-| `NEXT_PUBLIC_SITE_URL`  | `https://awesome-codex-pet.pages.dev`                  | `app/layout.tsx` metadata base |
-| `NEXT_PUBLIC_STATS_API` | `https://awesome-codex-pet-stats.legeling.workers.dev` | `lib/stats.ts`                 |
+| Variable                               | Default                                                | Used in                            |
+| -------------------------------------- | ------------------------------------------------------ | ---------------------------------- |
+| `NEXT_PUBLIC_SITE_URL`                 | `https://awesome-codex-pet.pages.dev`                  | `app/layout.tsx` metadata base     |
+| `NEXT_PUBLIC_STATS_API`                | `https://awesome-codex-pet-stats.legeling.workers.dev` | `lib/stats.ts`                     |
+| `NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION` | _unset_                                                | Google Search Console verification |
+| `NEXT_PUBLIC_BING_SITE_VERIFICATION`   | _unset_                                                | Bing Webmaster verification        |
 
 Set them in Cloudflare Pages → project → Settings → Environment variables (production + preview) if you ever change the Worker URL or bind a custom domain.
+
+## SEO checklist
+
+The site is configured for indexing out of the box: per-page titles, descriptions, canonical URLs, OpenGraph + Twitter cards, JSON-LD (`WebSite`, `CollectionPage`, `CreativeWork`, `BreadcrumbList`), `sitemap.xml`, and `robots.txt`.
+
+To actually surface in search results, do this once after the first deploy:
+
+1. **Google Search Console** — [search.google.com/search-console](https://search.google.com/search-console). Add the property, choose the HTML tag method, drop the verification token into `NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION`, redeploy, then submit the sitemap (`https://your-domain/sitemap.xml`).
+2. **Bing Webmaster Tools** — [bing.com/webmasters](https://www.bing.com/webmasters). Same idea via `NEXT_PUBLIC_BING_SITE_VERIFICATION`.
+3. **Custom domain** — `*.pages.dev` ranks lower than your own domain. Bind a custom domain in Cloudflare Pages and update `NEXT_PUBLIC_SITE_URL`. This is the single biggest lever for organic traffic.
+4. **External links** — once a few real sites link to the gallery (X, Reddit, GitHub topic pages, awesome-\* lists), Google will pick the site up much faster.
