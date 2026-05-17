@@ -1,0 +1,23 @@
+{
+  "slug": "teddy--danieloleary",
+  "pet_slug": "teddy",
+  "author_slug": "danieloleary",
+  "name": "Teddy",
+  "author": "Daniel O'Leary",
+  "author_handle": "danieloleary",
+  "author_url": "https://github.com/danieloleary",
+  "primary_category": "Animals",
+  "tags": ["bear", "cute", "animated", "soft", "mascot", "codex"],
+  "source_type": "original",
+  "source_url": "https://github.com/danieloleary/teddy-v31",
+  "license": "Original; permission granted for inclusion in the awesome-codex-pet gallery",
+  "preview_image": "../../assets/previews/teddy--danieloleary/gifs/idle.gif",
+  "codex_install": {
+    "pet_json": "pet.json",
+    "spritesheet": "spritesheet.webp"
+  },
+  "preview_assets": {
+    "contact_sheet": "../../assets/previews/teddy--danieloleary/contact-sheet.png",
+    "gifs_dir": "../../assets/previews/teddy--danieloleary/gifs"
+  }
+}
