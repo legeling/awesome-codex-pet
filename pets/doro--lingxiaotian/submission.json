@@ -1,0 +1,25 @@
+{
+  "slug": "doro--lingxiaotian",
+  "pet_slug": "doro",
+  "author_slug": "lingxiaotian",
+  "name": "Doro",
+  "author": "Lingxiaotian",
+  "author_handle": "legeling",
+  "author_url": "https://github.com/legeling",
+  "primary_category": "Anime Characters",
+  "tags": ["anime", "nikke", "doro", "dorothy", "meme", "pink-hair"],
+  "source_type": "fan-art",
+  "source_url": "https://github.com/legeling/awesome-codex-pet/issues/6",
+  "license": "CC BY-NC 4.0",
+  "description": "A compact Codex digital pet inspired by Doro, the vacant pink-haired Dorothy meme creature from Goddess of Victory: NIKKE.",
+  "preview_image": "../../assets/previews/doro--lingxiaotian/gifs/idle.gif",
+  "codex_install": {
+    "pet_json": "pet.json",
+    "spritesheet": "spritesheet.webp"
+  },
+  "preview_assets": {
+    "contact_sheet": "../../assets/previews/doro--lingxiaotian/contact-sheet.png",
+    "gifs_dir": "../../assets/previews/doro--lingxiaotian/gifs"
+  },
+  "spritesheet_sha256": "d1cd2923cf80623d431f19ec1c09f686ff40425aa5953998fcf2919d6d8cb72a"
+}
