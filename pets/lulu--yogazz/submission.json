@@ -1,0 +1,24 @@
+{
+  "slug": "lulu--yogazz",
+  "pet_slug": "lulu",
+  "author_slug": "yogazz",
+  "name": "Lulu",
+  "author": "YoGazz",
+  "author_handle": "YoGazz",
+  "author_url": "https://github.com/YoGazz",
+  "primary_category": "Original Characters",
+  "tags": ["original", "3d-toy", "yellow-orange", "codex-pet"],
+  "source_type": "original",
+  "source_url": "",
+  "license": "CC BY-NC 4.0",
+  "description": "A cheerful rounded yellow-orange 3D toy companion for Codex.",
+  "preview_image": "../../assets/previews/lulu--yogazz/gifs/idle.gif",
+  "codex_install": {
+    "pet_json": "pet.json",
+    "spritesheet": "spritesheet.webp"
+  },
+  "preview_assets": {
+    "contact_sheet": "../../assets/previews/lulu--yogazz/contact-sheet.png",
+    "gifs_dir": "../../assets/previews/lulu--yogazz/gifs"
+  }
+}
