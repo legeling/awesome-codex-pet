@@ -1,0 +1,32 @@
+{
+  "slug": "maodie--octane0411",
+  "pet_slug": "maodie",
+  "author_slug": "octane0411",
+  "name": "耄耋",
+  "author": "Octane0411",
+  "author_handle": "Octane0411",
+  "author_url": "https://github.com/Octane0411",
+  "primary_category": "Memes",
+  "tags": [
+    "cat",
+    "orange-cat",
+    "meme",
+    "maodie",
+    "codex-v2",
+    "look-directions"
+  ],
+  "source_type": "codex-generated",
+  "source_url": "https://github.com/Octane0411/maodie-codex-pet",
+  "license": "CC BY 4.0",
+  "description": "一只圆头飞机耳、粉鼻眯眼，凶萌又倔强的橘白猫。",
+  "preview_image": "../../assets/previews/maodie--octane0411/gifs/idle.gif",
+  "codex_install": {
+    "pet_json": "pet.json",
+    "spritesheet": "spritesheet.webp"
+  },
+  "preview_assets": {
+    "contact_sheet": "../../assets/previews/maodie--octane0411/contact-sheet.png",
+    "gifs_dir": "../../assets/previews/maodie--octane0411/gifs"
+  },
+  "spritesheet_sha256": "eb819e188df3efc8dc7c0ac11d6533fb01cfe869a56a80835fd44fc6882517d5"
+}
