@@ -1,0 +1,18 @@
+{
+  "slug": "joker--oytyo",
+  "pet_slug": "joker",
+  "author_slug": "oytyo",
+  "name": "Joker",
+  "author": "oYTYo",
+  "primary_category": "Original Characters",
+  "canonical_key": "original/oytyo/joker",
+  "tags": ["pixel-art", "card-trickster", "theatrical", "playing-cards"],
+  "source_type": "original",
+  "source_url": "https://github.com/oYTYo/joker-codex-pet",
+  "license": "CC BY-NC 4.0",
+  "preview_image": "../../assets/previews/joker--oytyo/gifs/idle.gif",
+  "codex_install": {
+    "pet_json": "pet.json",
+    "spritesheet": "spritesheet.webp"
+  }
+}
