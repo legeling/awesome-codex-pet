@@ -1,0 +1,33 @@
+{
+  "slug": "zhengyin--noonwake",
+  "pet_slug": "zhengyin",
+  "author_slug": "noonwake",
+  "name": "Zhengyin",
+  "localized_names": {
+    "en": "Zhengyin",
+    "zh": "正音"
+  },
+  "author": "Noonwake",
+  "author_handle": "noonwake-ai",
+  "author_url": "https://pets.usefulmint.com/?utm_source=awesome_codex_pet&utm_medium=directory&utm_campaign=founding_five&utm_content=zhengyin_listing",
+  "primary_category": "Mascots",
+  "canonical_key": "original/noonwake/zhengyin",
+  "tags": [
+    "original-character",
+    "company-ip",
+    "jade",
+    "guardian",
+    "calm",
+    "focused",
+    "v2"
+  ],
+  "source_type": "mascot",
+  "source_url": "https://github.com/noonwake-ai/install-zhengyin-pet",
+  "license": "Noonwake Zhengyin Pet License: directory redistribution authorized; installation and use as a Codex pet permitted; Noonwake retains character and artwork rights; no separate extraction or republication without authorization.",
+  "description": "A calm jade-robed guardian who turns hard technical judgment into clear next steps.",
+  "preview_image": "../../assets/previews/zhengyin--noonwake/gifs/idle.gif",
+  "codex_install": {
+    "pet_json": "pet.json",
+    "spritesheet": "spritesheet.webp"
+  }
+}
