@@ -1,0 +1,26 @@
+{
+  "slug": "misaka-network--ldl1234",
+  "pet_slug": "misaka-network",
+  "author_slug": "ldl1234",
+  "name": "Misaka Network",
+  "localized_names": { "en": "Misaka Network", "zh": "御坂网络" },
+  "author": "LyuDonglian",
+  "author_handle": "ldl1234",
+  "author_url": "https://github.com/ldl1234",
+  "primary_category": "Anime Characters",
+  "canonical_key": "toaru/misaka-network",
+  "tags": ["anime", "electric", "schoolgirl", "misaka-network", "pixel-art"],
+  "source_type": "fan-art",
+  "source_url": "https://github.com/legeling/awesome-codex-pet/issues/18",
+  "license": "MIT",
+  "description": "A v2 pixel-art Misaka Network fan pet with a beige school uniform, black cat, mechanical equipment, electric effects, a giant turbine, and 16 look directions.",
+  "preview_image": "../../assets/previews/misaka-network--ldl1234/gifs/idle.gif",
+  "codex_install": {
+    "pet_json": "pet.json",
+    "spritesheet": "spritesheet.webp"
+  },
+  "preview_assets": {
+    "contact_sheet": "../../assets/previews/misaka-network--ldl1234/contact-sheet.png",
+    "gifs_dir": "../../assets/previews/misaka-network--ldl1234/gifs"
+  }
+}
