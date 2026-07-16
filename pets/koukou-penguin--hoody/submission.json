@@ -1,0 +1,27 @@
+{
+  "slug": "koukou-penguin--hoody",
+  "pet_slug": "koukou-penguin",
+  "author_slug": "hoody",
+  "name": "扣扣企鹅",
+  "author": "hoody",
+  "author_handle": "hoody",
+  "author_url": "",
+  "primary_category": "Animals",
+  "canonical_key": "original/hoody/koukou-penguin",
+  "tags": ["penguin", "animal", "red-scarf", "3d-toy", "original"],
+  "collections": ["animal-companions"],
+  "source_type": "original",
+  "source_url": "",
+  "license": "CC BY-NC 4.0. Original asset created by hoody; no third-party source asset.",
+  "description": "一只戴着红围巾、会眨眼的圆滚滚黑白企鹅伙伴。",
+  "preview_image": "../../assets/previews/koukou-penguin--hoody/gifs/idle.gif",
+  "codex_install": {
+    "pet_json": "pet.json",
+    "spritesheet": "spritesheet.webp"
+  },
+  "preview_assets": {
+    "contact_sheet": "../../assets/previews/koukou-penguin--hoody/contact-sheet.png",
+    "gifs_dir": "../../assets/previews/koukou-penguin--hoody/gifs"
+  },
+  "spritesheet_sha256": "53f3a730f8485d351976b51c7b918953381a92be95387df17d481069f5defa5c"
+}
