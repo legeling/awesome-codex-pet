@@ -1,0 +1,26 @@
+{
+  "slug": "youmu--ai-generated",
+  "pet_slug": "youmu",
+  "author_slug": "ai-generated",
+  "name": "魂魄妖梦",
+  "author": "AI 生成（Gemini）",
+  "primary_category": "Game Characters",
+  "canonical_key": "touhou-project/konpaku-youmu",
+  "tags": [
+    "touhou-project",
+    "youmu-konpaku",
+    "ai-generated",
+    "chibi",
+    "sword",
+    "ghost"
+  ],
+  "source_type": "ai-generated",
+  "source_url": "https://gemini.google.com/app/c70f532f3f96cf0b",
+  "license": "CC BY 4.0",
+  "description": "基于用户提供且获 CC BY 4.0 再分发授权的 Gemini AI 生成参考图制作的魂魄妖梦 Codex 宠物；保留银发、绿色制服、佩刀与半灵特征。",
+  "preview_image": "../../assets/previews/youmu--ai-generated/gifs/idle.gif",
+  "codex_install": {
+    "pet_json": "pet.json",
+    "spritesheet": "spritesheet.webp"
+  }
+}
