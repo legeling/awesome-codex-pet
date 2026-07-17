@@ -145,6 +145,8 @@ Generated previews belong under `assets/previews/<pet-id>/` and are local or dep
 
 Keep one pet per pull request so attribution, usage terms, action quality, and transparent edges can be reviewed without unrelated changes.
 
+After the pull request is opened, maintainers review the rendered character directions, action meaning, running gait, animation continuity, and transparent-edge colors. Green, purple, cyan, magenta, or other chroma residue is checked on checkerboard, dark, and light backgrounds. A submission may be optimized before merge: maintainers can repair individual frames, action rows, look directions, the final `spritesheet.webp`, or metadata while preserving the character identity and creator credit. Substantial visual changes may be returned to the contributor for confirmation.
+
 ## Share and contribute
 
 Every detail page keeps the creator, source notes, usage terms, full animation preview, and installation action together. Share that page rather than an isolated WebP so attribution stays attached and recipients can review before installing.

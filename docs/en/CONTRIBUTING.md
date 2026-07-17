@@ -20,6 +20,17 @@ This repository is curated, which means maintainers may edit titles, categories,
 4. Include only the final submission files in `pets/<pet-id>/`.
 5. Do not commit generated README, `pets.json`, or preview assets in contributor PRs.
 
+## What happens after you open the pull request
+
+Opening a pull request starts visual curation; it does not mean the submitted image will be merged unchanged. Maintainers inspect the rendered contact sheet and animations frame by frame, including:
+
+- character-facing and v2 look directions
+- whether each action reads correctly and the running gait alternates naturally
+- scale, baseline, identity, and animation continuity
+- transparent edges on checkerboard, dark, and light backgrounds, including green, purple, cyan, magenta, or other chroma residue
+
+When needed, maintainers may repair or replace individual frames, action rows, look directions, `spritesheet.webp`, or metadata before merge. Changes should preserve the submitted character and credit while bringing the pet up to the repository's runtime and visual-quality standard. Maintainers may ask the contributor to review a substantial visual change.
+
 ## Folder standard
 
 Each pet submission should include:

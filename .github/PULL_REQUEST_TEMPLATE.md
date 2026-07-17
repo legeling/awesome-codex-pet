@@ -15,6 +15,7 @@
 - [ ] `submission.json` is filled in
 - [ ] Authorship is clear
 - [ ] Asset usage terms are clear: either a formal license or an explicit non-commercial-only statement
+- [ ] I understand maintainers will visually review character direction, action quality, animation continuity, and transparent-edge colors, and may optimize the spritesheet or metadata before merge
 - [ ] Generated previews, README files, `pets.json`, prompts, references, QA media, and Hatch Pet run directories are not included
 - [ ] `npm run validate:pr` passes
 - [ ] `npm run lint` passes
