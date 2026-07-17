@@ -2,27 +2,27 @@
 
 [简体中文](../zh-CN/submission-guide.md) | English
 
-Awesome Codex Pet is a selective gallery, not a dump of downloadable assets. We look for pets with faithful character identity, readable action semantics, clean transparent edges, reliable installation, and complete creator and license information.
+Awesome Codex Pet is a selective gallery, not a dump of downloadable assets. We look for pets with faithful character identity, readable action semantics, clean transparent edges, reliable installation, and clear creator and asset-usage information.
 
 This guide covers version choice, action-by-action craft, edge cleanup, packaging, review, submission, and sharing. AI can accelerate the workflow, but the final quality bar still requires visual review of every action and frame.
 
 ## Fastest path: start in ChatGPT
 
-The website's **Craft Guide** and **Submit** menus can open a complete Codex task in ChatGPT through `codex://new?prompt=...`. ChatGPT currently keeps the `codex://` URL scheme for these deep links. The task gathers the references, pet name, author credit, source, and license, reads the repository-local Hatch Pet workflow, then handles creation, validation, and a focused pull request.
+The website's **Craft Guide** and **Submit** menus can open a complete Codex task in ChatGPT through `codex://new?prompt=...`. ChatGPT currently keeps the `codex://` URL scheme for these deep links. The task gathers the references, pet name, author credit, source notes, and asset usage terms, reads the repository-local Hatch Pet workflow, then handles creation, validation, and a focused pull request.
 
 You can also give ChatGPT this task directly:
 
 ```text
 Help me create and submit a Codex pet to https://github.com/legeling/awesome-codex-pet.
 
-Before starting, ask for any missing character reference, pet name, author credit, source URL, and license. Do not submit an asset without explicit redistribution permission. Clone or open the repository, read AGENTS.md and this submission guide, then follow .agents/skills/hatch-pet-v2/SKILL.md from the repository. Do not assume the skill is globally installed.
+Before starting, ask for any missing character reference, pet name, author credit, source notes, and asset usage terms. A formal license is optional; when none applies, require an explicit non-commercial-only statement and confirmation that the submitter has the right to contribute the asset. A public source URL is optional for original, AI-generated, or privately sourced work. Clone or open the repository, read AGENTS.md and this submission guide, then follow .agents/skills/hatch-pet-v2/SKILL.md from the repository. Do not assume the skill is globally installed.
 
 Design and review all nine standard actions independently instead of mechanically reusing one pose. Check identity, action meaning, scale and baseline stability, plus purple, green, cyan, or magenta fringe on dark, light, and checkerboard backgrounds. For V2, review the complete clockwise loop of 16 look directions.
 
 Keep only submission.json, pet.json, and spritesheet.webp in the final folder. Run npm run previews, npm run readmes, npm run validate, npm run lint, and a clean installation test. Then create a focused branch and one pull request containing only this pet.
 ```
 
-AI assistance never relaxes licensing or attribution requirements. The submitter remains responsible for accurate authorship, source, permission, and redistribution terms.
+AI assistance never relaxes attribution or usage-term requirements. The submitter remains responsible for accurate authorship, honest source notes, the right to submit, and the stated non-commercial or licensed usage terms.
 
 ## The selection standard
 
@@ -32,7 +32,7 @@ A pet should meet all six expectations:
 2. **Distinct actions:** each standard row expresses its own runtime meaning rather than renaming the same motion.
 3. **Stable playback:** no scale popping, baseline jumps, wrong direction, reversed cadence, or inert loops at actual pet size.
 4. **Clean edges:** no chroma fringe on dark, light, or checkerboard backgrounds.
-5. **Trustworthy metadata:** creator, source, category, collections, tags, and license are complete and traceable.
+5. **Trustworthy metadata:** creator, source notes, category, collections, tags, and asset usage terms are honest and complete.
 6. **Reliable packaging:** previews, validation, lint, and an isolated install test pass for the final three files.
 
 ## V1 and V2
@@ -113,7 +113,7 @@ pets/
 
 ## Category, franchise series, theme collections, and credit
 
-Provide the primary category, pet name, description, author handle, original source, redistribution license, tags, and optional collection slugs. The creator also chooses whether naming is single-language or bilingual. Keep `name` as the fallback; for bilingual naming add both `localized_names.en` and `localized_names.zh` to `submission.json`.
+Provide the primary category, pet name, description, author handle, source notes when available, asset usage terms, tags, and optional collection slugs. A formal license is optional; plain-language non-commercial-only terms are sufficient. The creator also chooses whether naming is single-language or bilingual. Keep `name` as the fallback; for bilingual naming add both `localized_names.en` and `localized_names.zh` to `submission.json`.
 
 Series and collections are repository metadata. Root [`collections.json`](../../collections.json) gives every entry one of two kinds:
 
@@ -143,11 +143,11 @@ npm run install:pet -- pet-slug--author-slug --codex-home /tmp/codex-pet-test
 
 Generated previews belong under `assets/previews/<pet-id>/` and are local or deployment artifacts, not files in the final pet folder or contributor pull request.
 
-Keep one pet per pull request so attribution, license, action quality, and transparent edges can be reviewed without unrelated changes.
+Keep one pet per pull request so attribution, usage terms, action quality, and transparent edges can be reviewed without unrelated changes.
 
 ## Share and contribute
 
-Every detail page keeps the creator, source, license, full animation preview, and installation action together. Share that page rather than an isolated WebP so attribution stays attached and recipients can review before installing.
+Every detail page keeps the creator, source notes, usage terms, full animation preview, and installation action together. Share that page rather than an isolated WebP so attribution stays attached and recipients can review before installing.
 
 The share menu can copy the page URL, a ready-to-post message, or a Markdown link; publish to X or LinkedIn; open the native system share sheet; and open installation or creation tasks in ChatGPT.
 

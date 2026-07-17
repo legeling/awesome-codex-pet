@@ -123,8 +123,9 @@ body:
   - type: textarea
     id: license
     attributes:
-      label: License or permission notes
-      placeholder: State the license or permission status clearly.
+      label: Asset license or non-commercial use statement
+      description: A formal license is optional. If none applies, state clearly that the asset is for non-commercial use only and that you have the right to submit it.
+      placeholder: CC BY-NC 4.0, or: Non-commercial use only; I confirm I have the right to submit this asset.
     validations:
       required: true
   - type: textarea

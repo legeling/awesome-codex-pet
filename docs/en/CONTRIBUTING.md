@@ -10,7 +10,7 @@ This repository is curated, which means maintainers may edit titles, categories,
 
 - Check whether a similar pet already exists
 - Make sure the pet can actually be installed in Codex
-- Make sure authorship and licensing are clear
+- Make sure authorship and asset usage terms are clear
 
 ## Preferred contribution flow
 
@@ -71,7 +71,7 @@ Use this repository-level schema:
   "tags": ["anime", "electric", "schoolgirl"],
   "source_type": "fan-art",
   "source_url": "https://example.com/original-post",
-  "license": "Specify the asset license clearly",
+  "license": "CC BY-NC 4.0, or a clear non-commercial-only usage statement",
   "preview_image": "../../assets/previews/mikoto--lingxiaotian/gifs/idle.gif",
   "codex_install": {
     "pet_json": "pet.json",
@@ -84,6 +84,8 @@ Use this repository-level schema:
 
 `canonical_key` is the stable identity used for duplicate review. Use the same key for variants of the same character; use an `original/<author>/<name>` key for a creator-owned character. Existing pets without this field remain valid and are indexed from their names, tags, and source metadata during review.
 
+A formal license name is optional. The `license` field may contain a recognized license or plain-language usage terms. When no formal license applies, state at minimum that the asset is for non-commercial use only and that the submitter has the right to contribute it. A public `source_url` is helpful but optional for original, AI-generated, or privately sourced work; describe the source honestly in `source_type`, `description`, or the usage note.
+
 ## Pull request checklist
 
 - One pet per pull request
@@ -93,7 +95,7 @@ Use this repository-level schema:
 - `spriteVersionNumber` and spritesheet dimensions match the v1 or v2 contract
 - v2 look directions have been reviewed as a complete 16-direction loop
 - `submission.json` filled in
-- Author and license included
+- Author and asset usage terms included; either a formal license or an explicit non-commercial-only statement is acceptable
 - Contributor PR does not include `README.md`, `docs/zh-CN/README.md`, `pets.json`, or generated preview binaries under `assets/previews/<pet-id>/`
 - `npm run validate:pr` passes
 - Quick install works with `npm run install:pet -- <slug> --codex-home /tmp/codex-pet-test`
@@ -113,7 +115,7 @@ npm run lint
 
 Maintainers may decline a submission if:
 
-- The licensing is unclear
+- The asset usage terms are absent or do not establish at least non-commercial-only redistribution
 - The files are not installable
 - The categorization is misleading
 - The submission duplicates an existing canonical character or concept too closely

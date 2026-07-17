@@ -10,7 +10,7 @@
 
 - 检查仓库里是否已经有相似 pet
 - 确认这个 pet 可以被 Codex 正常安装
-- 确认作者信息和许可证信息清楚
+- 确认作者信息和素材使用说明清楚
 
 ## 推荐流程
 
@@ -71,7 +71,7 @@ v2 运行时清单示例：
   "tags": ["anime", "electric", "schoolgirl"],
   "source_type": "fan-art",
   "source_url": "https://example.com/original-post",
-  "license": "Specify the asset license clearly",
+  "license": "CC BY-NC 4.0，或明确的仅限非商业使用说明",
   "preview_image": "../../assets/previews/mikoto--lingxiaotian/gifs/idle.gif",
   "codex_install": {
     "pet_json": "pet.json",
@@ -84,6 +84,8 @@ v2 运行时清单示例：
 
 `canonical_key` 是去重审核使用的稳定身份键。同一个角色的不同版本使用同一个 key；创作者自有角色使用 `original/<作者>/<名称>`。没有这个字段的旧 pet 仍然有效，审核时会根据名称、tags 和来源元数据建立索引。
 
+投稿不强制填写某个正式许可证名称。`license` 字段既可以写公认许可证，也可以写清楚的自然语言使用条件；没有正式许可证时，至少要明确“仅限非商业使用/禁止商用”，并确认提交者有权投稿。原创、AI 生成或私有来源的作品可以没有公开 `source_url`，但必须在 `source_type`、描述或使用说明中如实交代来源。
+
 ## PR 检查清单
 
 - 一个 PR 只提交一个 pet
@@ -93,7 +95,7 @@ v2 运行时清单示例：
 - `spriteVersionNumber` 与 spritesheet 尺寸符合对应的 v1 或 v2 规范
 - v2 的 16 个环视方向已作为完整循环审核
 - `submission.json` 已填写
-- 作者信息和许可证信息清楚
+- 作者信息和素材使用说明清楚；正式许可证或明确的“仅限非商业使用”声明均可
 - 贡献者 PR 不包含 `README.md`、`docs/zh-CN/README.md`、`pets.json` 或 `assets/previews/<pet-id>/` 下的生成预览二进制
 - `npm run validate:pr` 通过
 - 快速安装命令可用：`npm run install:pet -- <slug> --codex-home /tmp/codex-pet-test`
@@ -113,7 +115,7 @@ npm run lint
 
 维护者可能会拒绝以下投稿：
 
-- 许可证不清楚
+- 没有素材使用说明，或未明确至少仅限非商业使用
 - 文件无法安装
 - 分类有明显误导
 - 与现有规范角色或概念过于重复

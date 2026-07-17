@@ -322,7 +322,7 @@ ${badges(pets)}
 - **一条命令安装** — 不需要克隆仓库，macOS / Linux / Windows 全平台支持
 - **精品宠物画廊** — [awesome-codex-pet.pages.dev](${websiteUrl}) 提供完整动作预览、合集、作者署名、便捷分享和社区统计
 - **GitHub 原生投稿** — 提 issue 或 PR，剩下的全自动
-- **明确许可** — 代码 MIT，宠物资源 CC BY-NC 4.0
+- **非商用原则** — 正式许可证可选；没有正式许可证时必须明确禁止商用
 
 每只宠物都是一个很小的可分享包：
 

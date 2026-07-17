@@ -14,7 +14,7 @@
 - [ ] v2 includes and visually reviews all 16 look directions
 - [ ] `submission.json` is filled in
 - [ ] Authorship is clear
-- [ ] Licensing is clear
+- [ ] Asset usage terms are clear: either a formal license or an explicit non-commercial-only statement
 - [ ] Generated previews, README files, `pets.json`, prompts, references, QA media, and Hatch Pet run directories are not included
 - [ ] `npm run validate:pr` passes
 - [ ] `npm run lint` passes

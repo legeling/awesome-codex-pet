@@ -15,9 +15,9 @@
     "ghost"
   ],
   "source_type": "ai-generated",
-  "source_url": "https://gemini.google.com/app/c70f532f3f96cf0b",
-  "license": "CC BY 4.0",
-  "description": "基于用户提供且获 CC BY 4.0 再分发授权的 Gemini AI 生成参考图制作的魂魄妖梦 Codex 宠物；保留银发、绿色制服、佩刀与半灵特征。",
+  "source_url": "",
+  "license": "Non-commercial use only. AI-generated with Gemini; the submitter confirms the right to include this asset in the repository.",
+  "description": "基于用户提供的 Gemini AI 生成参考图制作的魂魄妖梦 Codex 宠物；保留银发、绿色制服、佩刀与半灵特征，仅限非商业使用。",
   "preview_image": "../../assets/previews/youmu--ai-generated/gifs/idle.gif",
   "codex_install": {
     "pet_json": "pet.json",
