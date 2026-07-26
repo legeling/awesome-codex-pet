@@ -1,7 +1,7 @@
 import { readFile } from "node:fs/promises";
 
 const SITE_URL = "https://codexpet.top";
-const KEY = "08254c99d6c240bbe7ccf299084678a7";
+const KEY = "d687eb8cfb15d89e9bf7c9c00f0a8c20";
 const REQUEST_TIMEOUT_MS = 15_000;
 const argumentsList = process.argv.slice(2);
 const dryRun = argumentsList.includes("--dry-run");
@@ -23,6 +23,17 @@ if (urlList.some((value) => !value.startsWith(`${SITE_URL}/`))) {
 if (dryRun) {
   console.log(`Validated ${urlList.length} canonical URLs for IndexNow.`);
 } else {
+  const keyLocation = `${SITE_URL}/${KEY}.txt`;
+  const keyResponse = await fetch(`${keyLocation}?verify=${Date.now()}`, {
+    signal: AbortSignal.timeout(REQUEST_TIMEOUT_MS),
+  });
+  const publishedKey = keyResponse.ok ? (await keyResponse.text()).trim() : "";
+  if (publishedKey !== KEY) {
+    throw new Error(
+      `IndexNow key verification failed at ${keyLocation}: HTTP ${keyResponse.status}.`,
+    );
+  }
+
   const response = await fetch("https://api.indexnow.org/indexnow", {
     method: "POST",
     headers: { "Content-Type": "application/json; charset=utf-8" },
@@ -30,7 +41,7 @@ if (dryRun) {
     body: JSON.stringify({
       host: "codexpet.top",
       key: KEY,
-      keyLocation: `${SITE_URL}/${KEY}.txt`,
+      keyLocation,
       urlList,
     }),
   });

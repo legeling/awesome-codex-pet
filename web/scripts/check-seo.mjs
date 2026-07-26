@@ -3,7 +3,7 @@ import { dirname, join, relative, resolve } from "node:path";
 import { fileURLToPath, pathToFileURL } from "node:url";
 
 const SITE_URL = "https://codexpet.top";
-const INDEXNOW_KEY = "08254c99d6c240bbe7ccf299084678a7";
+const INDEXNOW_KEY = "d687eb8cfb15d89e9bf7c9c00f0a8c20";
 const scriptDir = dirname(fileURLToPath(import.meta.url));
 const outDir = resolve(scriptDir, "../out");
 const failures = [];
