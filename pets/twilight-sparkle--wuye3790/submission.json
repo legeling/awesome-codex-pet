@@ -1,0 +1,35 @@
+{
+  "slug": "twilight-sparkle--wuye3790",
+  "pet_slug": "twilight-sparkle",
+  "author_slug": "wuye3790",
+  "name": "紫悦",
+  "author": "WuYe3790",
+  "author_handle": "WuYe3790",
+  "author_url": "https://github.com/WuYe3790",
+  "primary_category": "Others",
+  "canonical_key": "my-little-pony/twilight-sparkle",
+  "collections": [],
+  "tags": [
+    "my-little-pony",
+    "twilight-sparkle",
+    "alicorn",
+    "pixel-art",
+    "codex-v2",
+    "look-directions"
+  ],
+  "source_type": "fan-art",
+  "source_url": "https://github.com/legeling/awesome-codex-pet/issues/49",
+  "source_notes": "Independently generated pixel-art fan interpretation based on the canonical character and the requester's GitHub reference attachment. The reference image was used only for appearance guidance and is not included in the pet package.",
+  "license": "Independent AI-generated fan art; non-commercial use only.",
+  "description": "A V2 pixel-art Twilight Sparkle alicorn pet with nine standard animation states and 16 look directions. The cutie mark appears only when the anatomical right flank is visible and unobscured.",
+  "preview_image": "../../assets/previews/twilight-sparkle--wuye3790/gifs/idle.gif",
+  "codex_install": {
+    "pet_json": "pet.json",
+    "spritesheet": "spritesheet.webp"
+  },
+  "preview_assets": {
+    "contact_sheet": "../../assets/previews/twilight-sparkle--wuye3790/contact-sheet.png",
+    "gifs_dir": "../../assets/previews/twilight-sparkle--wuye3790/gifs"
+  },
+  "spritesheet_sha256": "45754eaa6b145ea78bed9d4b917560c1b3e334a5796e51888289b3f4c24931bc"
+}
