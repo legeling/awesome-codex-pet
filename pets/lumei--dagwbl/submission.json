@@ -1,0 +1,33 @@
+{
+  "slug": "lumei--dagwbl",
+  "pet_slug": "lumei",
+  "author_slug": "dagwbl",
+  "name": "Lumei",
+  "localized_names": {
+    "en": "Lumei",
+    "zh": "噜妹"
+  },
+  "author": "Dagwbl",
+  "author_handle": "Dagwbl",
+  "author_url": "https://github.com/Dagwbl",
+  "primary_category": "Original Characters",
+  "canonical_key": "original/dagwbl/lumei",
+  "tags": ["original-character", "capybara", "3d-toy", "pastel", "cute", "v2"],
+  "collections": [],
+  "source_type": "independently-ai-generated-original-character",
+  "source_url": "",
+  "asset_note": "The final runtime spritesheet was independently AI-generated with the Codex Hatch Pet workflow and iteratively directed and adapted by Dagwbl. No reference pixels are included directly.",
+  "reference_note": "Private character imagery supplied by Dagwbl was used only as a visual production reference and is not included in the submission package.",
+  "license": "Personal and repository use only; non-commercial use only. Commercial use is prohibited.",
+  "description": "An independently AI-generated original golden capybara girl with a blush-pink romper, white ruffled bonnet, expressive task-state animations, and 16 clockwise look directions.",
+  "preview_image": "../../assets/previews/lumei--dagwbl/gifs/idle.gif",
+  "codex_install": {
+    "pet_json": "pet.json",
+    "spritesheet": "spritesheet.webp"
+  },
+  "preview_assets": {
+    "contact_sheet": "../../assets/previews/lumei--dagwbl/contact-sheet.png",
+    "gifs_dir": "../../assets/previews/lumei--dagwbl/gifs"
+  },
+  "spritesheet_sha256": "c187342c8b13a276d2798235fd36b3fdb99a6585a27dffefb8742ace87b3b627"
+}
