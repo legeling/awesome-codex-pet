@@ -1,5 +1,49 @@
 [
   {
+    "number": 105,
+    "character": "我的刀盾",
+    "characterDetails": "我的刀盾",
+    "franchise": "Not provided",
+    "category": "other",
+    "version": "v2",
+    "requestType": "Create a new community interpretation",
+    "referenceStatus": "",
+    "references": "https://api.codexpet.top/uploads/reference/references/4b4c70860d673ae01d991f1ce6b6d904c6ce8da4e0d51c2ed68fc4f9774be9f0.png",
+    "referenceUrls": [
+      "https://api.codexpet.top/uploads/reference/references/4b4c70860d673ae01d991f1ce6b6d904c6ce8da4e0d51c2ed68fc4f9774be9f0.png"
+    ],
+    "referenceImages": [
+      "https://api.codexpet.top/uploads/reference/references/4b4c70860d673ae01d991f1ce6b6d904c6ce8da4e0d51c2ed68fc4f9774be9f0.png"
+    ],
+    "referenceThumbnails": [
+      "https://api.codexpet.top/uploads/reference/thumbnails/4b4c70860d673ae01d991f1ce6b6d904c6ce8da4e0d51c2ed68fc4f9774be9f0.webp"
+    ],
+    "visualDirection": "Let the community maker decide.",
+    "nameLanguages": "Let the maker decide",
+    "attribution": "Submitted without a GitHub account. Reference and attribution details should be confirmed during triage. Non-commercial use only.",
+    "duplicateCheck": "Repository automation or a maintainer should complete the duplicate check during triage.",
+    "state": "open",
+    "status": "triage",
+    "labels": [
+      "type: request",
+      "status: triage",
+      "version: v2",
+      "category: other"
+    ],
+    "author": {
+      "login": "github-actions[bot]",
+      "avatarUrl": "https://avatars.githubusercontent.com/in/15368?v=4",
+      "url": "https://github.com/apps/github-actions"
+    },
+    "assignees": [],
+    "createdAt": "2026-08-09T14:55:17Z",
+    "updatedAt": "2026-08-09T14:55:17Z",
+    "closedAt": null,
+    "comments": 0,
+    "reactions": 0,
+    "githubUrl": "https://github.com/legeling/awesome-codex-pet/issues/105"
+  },
+  {
     "number": 101,
     "character": "把本人形象做成可爱 Q 版 Codex 宠物：Q 版毛绒/像素风格皆可，保持元气、欢乐、爱笑的气质； 配色建议深靛蓝 + 雪白 + 珊瑚橙，带燕子元素（头顶小羽冠、燕尾点缀）； 希望使用 V2 格式（",
     "characterDetails": "把本人形象做成可爱 Q 版 Codex 宠物：Q 版毛绒/像素风格皆可，保持元气、欢乐、爱笑的气质； 配色建议深靛蓝 + 雪白 + 珊瑚橙，带燕子元素（头顶小羽冠、燕尾点缀）； 希望使用 V2 格式（",
