@@ -2010,6 +2010,20 @@
     "spriteVersionNumber": 1
   },
   {
+    "slug": "kuromi--legeling",
+    "name": "库洛米",
+    "localized_names": { "en": "Kuromi", "zh": "库洛米" },
+    "author": "Legeling",
+    "author_handle": "legeling",
+    "author_url": "https://github.com/legeling",
+    "primary_category": "Others",
+    "canonical_key": "sanrio/kuromi",
+    "collections": [],
+    "license": "Non-commercial use only. Independently AI-generated community fan art; no source pixels copied.",
+    "description": "An independently AI-generated, non-commercial Kuromi community pet with a black pointed jester hood, pink skull emblem, white body, playful expressions, nine standard animation states, and a complete 16-direction look loop.",
+    "spriteVersionNumber": 2
+  },
+  {
     "slug": "koukou-penguin--hoody",
     "name": "扣扣企鹅",
     "author": "hoody",
@@ -2221,6 +2235,20 @@
     "collections": ["demon-slayer"],
     "license": "Source author terms; personal non-commercial use only",
     "spriteVersionNumber": 1
+  },
+  {
+    "slug": "bond-forger--legeling",
+    "name": "邦德·福杰",
+    "localized_names": { "en": "Bond Forger", "zh": "邦德·福杰" },
+    "author": "Legeling",
+    "author_handle": "legeling",
+    "author_url": "https://github.com/legeling",
+    "primary_category": "Others",
+    "canonical_key": "spy-x-family/bond-forger",
+    "collections": ["spy-x-family"],
+    "license": "Non-commercial use only. Independently AI-generated community fan art; no source pixels copied.",
+    "description": "An independently AI-generated, non-commercial Bond Forger community pet with a huge fluffy white silhouette, small black ears, gentle sleepy eyes, black bow tie, nine standard animation states, and a complete 16-direction look loop.",
+    "spriteVersionNumber": 2
   },
   {
     "slug": "wucanrou--ch",

@@ -1,0 +1,41 @@
+{
+  "slug": "bond-forger--legeling",
+  "pet_slug": "bond-forger",
+  "author_slug": "legeling",
+  "canonical_key": "spy-x-family/bond-forger",
+  "name": "邦德·福杰",
+  "localized_names": {
+    "en": "Bond Forger",
+    "zh": "邦德·福杰"
+  },
+  "author": "Legeling",
+  "author_handle": "legeling",
+  "author_url": "https://github.com/legeling",
+  "primary_category": "Others",
+  "collections": ["spy-x-family"],
+  "tags": [
+    "bond-forger",
+    "spy-x-family",
+    "dog",
+    "fluffy",
+    "community-request",
+    "v2",
+    "ai-generated",
+    "fan-art"
+  ],
+  "source_type": "ai-generated",
+  "source_url": "https://github.com/legeling/awesome-codex-pet/issues/95",
+  "source_notes": "Independently AI-generated community fan interpretation made for Issue #95 from the requester-provided reference image; no source pixels, logos, or text were copied.",
+  "license": "Non-commercial use only. Independently AI-generated community fan art; no source pixels copied.",
+  "description": "An independently AI-generated, non-commercial Bond Forger community pet with a huge fluffy white silhouette, small black ears, gentle sleepy eyes, black bow tie, nine standard animation states, and a complete 16-direction look loop.",
+  "preview_image": "../../assets/previews/bond-forger--legeling/gifs/idle.gif",
+  "codex_install": {
+    "pet_json": "pet.json",
+    "spritesheet": "spritesheet.webp"
+  },
+  "preview_assets": {
+    "contact_sheet": "../../assets/previews/bond-forger--legeling/contact-sheet.png",
+    "gifs_dir": "../../assets/previews/bond-forger--legeling/gifs"
+  },
+  "spritesheet_sha256": "f6059c72fc0431d69721e69d63a2bbcf78be7f73df72c927fd3a4b10649f7cef"
+}

@@ -1643,6 +1643,16 @@
       "spritesheetWidth": 1536,
       "spritesheetHeight": 1872
     },
+    "kuromi--legeling": {
+      "name": "库洛米",
+      "spriteVersionNumber": 2,
+      "petJsonSha256": "597a80a45854349e6b126300ec7c84e256b517855672623e788bf470cdc6b58b",
+      "petJsonBytes": 278,
+      "spritesheetSha256": "2c905b4b7f60ce82fbd89f4347a7de821a3560f2cf831eb1fa479477e7c06743",
+      "spritesheetBytes": 1666880,
+      "spritesheetWidth": 1536,
+      "spritesheetHeight": 2288
+    },
     "koukou-penguin--hoody": {
       "name": "扣扣企鹅",
       "spriteVersionNumber": 2,
@@ -1822,6 +1832,16 @@
       "spritesheetBytes": 1745172,
       "spritesheetWidth": 1536,
       "spritesheetHeight": 1872
+    },
+    "bond-forger--legeling": {
+      "name": "邦德·福杰",
+      "spriteVersionNumber": 2,
+      "petJsonSha256": "579c8c646cef36a8254bb5e63e75c62fab7df49ce6cf2bff506ff4d0291c7638",
+      "petJsonBytes": 305,
+      "spritesheetSha256": "f6059c72fc0431d69721e69d63a2bbcf78be7f73df72c927fd3a4b10649f7cef",
+      "spritesheetBytes": 1817320,
+      "spritesheetWidth": 1536,
+      "spritesheetHeight": 2288
     },
     "wucanrou--ch": {
       "name": "金渐层（午餐肉）",

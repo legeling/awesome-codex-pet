@@ -1,0 +1,40 @@
+{
+  "slug": "kuromi--legeling",
+  "pet_slug": "kuromi",
+  "author_slug": "legeling",
+  "canonical_key": "sanrio/kuromi",
+  "name": "库洛米",
+  "localized_names": {
+    "en": "Kuromi",
+    "zh": "库洛米"
+  },
+  "author": "Legeling",
+  "author_handle": "legeling",
+  "author_url": "https://github.com/legeling",
+  "primary_category": "Others",
+  "collections": [],
+  "tags": [
+    "kuromi",
+    "sanrio",
+    "jester",
+    "community-request",
+    "v2",
+    "ai-generated",
+    "fan-art"
+  ],
+  "source_type": "ai-generated",
+  "source_url": "https://github.com/legeling/awesome-codex-pet/issues/92",
+  "source_notes": "Independently AI-generated community fan interpretation made for Issue #92. Sanrio's official Kuromi classic plush page was used only as a visual identity reference; no source pixels, logos, or text were copied.",
+  "license": "Non-commercial use only. Independently AI-generated community fan art; no source pixels copied.",
+  "description": "An independently AI-generated, non-commercial Kuromi community pet with a black pointed jester hood, pink skull emblem, white body, playful expressions, nine standard animation states, and a complete 16-direction look loop.",
+  "preview_image": "../../assets/previews/kuromi--legeling/gifs/idle.gif",
+  "codex_install": {
+    "pet_json": "pet.json",
+    "spritesheet": "spritesheet.webp"
+  },
+  "preview_assets": {
+    "contact_sheet": "../../assets/previews/kuromi--legeling/contact-sheet.png",
+    "gifs_dir": "../../assets/previews/kuromi--legeling/gifs"
+  },
+  "spritesheet_sha256": "2c905b4b7f60ce82fbd89f4347a7de821a3560f2cf831eb1fa479477e7c06743"
+}
