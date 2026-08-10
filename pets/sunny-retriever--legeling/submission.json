@@ -1,0 +1,40 @@
+{
+  "slug": "sunny-retriever--legeling",
+  "pet_slug": "sunny-retriever",
+  "author_slug": "legeling",
+  "canonical_key": "animal/golden-retriever",
+  "variant_note": "A cheerful honey-gold illustrated puppy with a teal collar and no retrieval prop; visually distinct from the cream-fur, tennis-ball community interpretation requested in Issue #60.",
+  "name": "Sunny Retriever",
+  "localized_names": {
+    "en": "Sunny Retriever",
+    "zh": "暖阳金毛"
+  },
+  "author": "Legeling",
+  "author_handle": "legeling",
+  "author_url": "https://github.com/legeling",
+  "primary_category": "Animals",
+  "collections": ["animal-companions"],
+  "tags": [
+    "golden-retriever",
+    "dog",
+    "puppy",
+    "teal-collar",
+    "ai-generated",
+    "v2",
+    "look-directions"
+  ],
+  "source_type": "ai-generated",
+  "source_notes": "Independently AI-generated as an original golden retriever desktop companion. No external reference pixels were copied or reused.",
+  "license": "CC BY-NC 4.0",
+  "description": "A cheerful honey-gold retriever puppy with a teal collar, a warm smile, expressive task animations, and 16 Codex v2 look directions.",
+  "preview_image": "../../assets/previews/sunny-retriever--legeling/gifs/idle.gif",
+  "codex_install": {
+    "pet_json": "pet.json",
+    "spritesheet": "spritesheet.webp"
+  },
+  "preview_assets": {
+    "contact_sheet": "../../assets/previews/sunny-retriever--legeling/contact-sheet.png",
+    "gifs_dir": "../../assets/previews/sunny-retriever--legeling/gifs"
+  },
+  "spritesheet_sha256": "447a79a275ba01fcef5805c5e4ec3dccce7d8836e0492af28fb81a5ce7898ee0"
+}
