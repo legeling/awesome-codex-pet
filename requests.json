@@ -20,10 +20,10 @@
     "attribution": "",
     "duplicateCheck": "",
     "state": "open",
-    "status": "triage",
+    "status": "in-progress",
     "labels": [
       "type: request",
-      "status: triage",
+      "status: in-progress",
       "version: v2",
       "category: animal"
     ],
@@ -34,11 +34,55 @@
     },
     "assignees": [],
     "createdAt": "2026-07-27T05:13:19Z",
-    "updatedAt": "2026-08-10T06:42:10Z",
+    "updatedAt": "2026-08-10T06:45:22Z",
     "closedAt": null,
-    "comments": 1,
+    "comments": 2,
     "reactions": 0,
     "githubUrl": "https://github.com/legeling/awesome-codex-pet/issues/60"
+  },
+  {
+    "number": 110,
+    "character": "蟑螂",
+    "characterDetails": "蟑螂",
+    "franchise": "Not provided",
+    "category": "other",
+    "version": "v2",
+    "requestType": "Create a new community interpretation",
+    "referenceStatus": "",
+    "references": "https://api.codexpet.top/uploads/reference/references/ef376057c6d2c7bf624c7a55d296caa69007b30378e2d7d8cb21c5a565eac104.png",
+    "referenceUrls": [
+      "https://api.codexpet.top/uploads/reference/references/ef376057c6d2c7bf624c7a55d296caa69007b30378e2d7d8cb21c5a565eac104.png"
+    ],
+    "referenceImages": [
+      "https://api.codexpet.top/uploads/reference/references/ef376057c6d2c7bf624c7a55d296caa69007b30378e2d7d8cb21c5a565eac104.png"
+    ],
+    "referenceThumbnails": [
+      "https://api.codexpet.top/uploads/reference/thumbnails/ef376057c6d2c7bf624c7a55d296caa69007b30378e2d7d8cb21c5a565eac104.webp"
+    ],
+    "visualDirection": "能爬",
+    "nameLanguages": "Let the maker decide",
+    "attribution": "Submitted without a GitHub account. Reference and attribution details should be confirmed during triage. Non-commercial use only.",
+    "duplicateCheck": "Repository automation or a maintainer should complete the duplicate check during triage.",
+    "state": "open",
+    "status": "triage",
+    "labels": [
+      "type: request",
+      "status: triage",
+      "version: v2",
+      "category: other"
+    ],
+    "author": {
+      "login": "github-actions[bot]",
+      "avatarUrl": "https://avatars.githubusercontent.com/in/15368?v=4",
+      "url": "https://github.com/apps/github-actions"
+    },
+    "assignees": [],
+    "createdAt": "2026-08-10T07:19:28Z",
+    "updatedAt": "2026-08-10T07:19:28Z",
+    "closedAt": null,
+    "comments": 0,
+    "reactions": 0,
+    "githubUrl": "https://github.com/legeling/awesome-codex-pet/issues/110"
   },
   {
     "number": 108,
