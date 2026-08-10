@@ -413,6 +413,18 @@ for (const entry of petEntries) {
     }
 
     if (
+      Array.isArray(submission.tags) &&
+      submission.tags.includes("community-request") &&
+      !/^https:\/\/github\.com\/legeling\/awesome-codex-pet\/issues\/[1-9]\d*\/?$/.test(
+        submission.source_url ?? "",
+      )
+    ) {
+      errors.push(
+        `${entry}: community-request submissions must link their request Issue in submission.json source_url`,
+      );
+    }
+
+    if (
       submission.collections !== undefined &&
       !Array.isArray(submission.collections)
     ) {

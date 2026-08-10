@@ -28,6 +28,8 @@
 
 已经完成的投稿必须创建 **Ready for review** 的正式 PR。只有作品确实尚未完成时才使用 Draft，并写清剩余工作。
 
+如果宠物是在完成已有请求，发布 PR 前必须先在该 Issue 留下认领或进度评论，把请求链接保留在 `submission.json.source_url`，并在 PR 正文写入 `Closes #<编号>`。仓库工作流会把 PR 链接回写到 Issue、将其标记为 `status: in-progress`，并且只在 PR 合并后自动关闭 Issue、改为 `status: completed`。维护者直接提交到 main 时，工作流也会根据 `source_url` 兜底同步完成状态，但仍然优先使用独立 PR。成品仍在审核时不要手工关闭请求。
+
 ### 高级用户提交 PR
 
 熟悉 GitHub 的贡献者可以使用网页编辑器、Codespaces 或带 blob 过滤的稀疏克隆。准备 `pets/<pet-slug>--<author-slug>/` 下的独立三件套，一个 PR 只提交一只宠物，不要提交 README、`pets.json` 或预览生成物。

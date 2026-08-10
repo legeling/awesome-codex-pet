@@ -2,7 +2,7 @@
 
 - What pet are you adding or updating?
 - What category does it belong to?
-- Related request or submission issue (if any):
+- Related request or submission issue (if any; use `Closes #123` for a completed request):
 
 Submit a completed pet as **Ready for review**, not as a draft. Use a draft only for knowingly unfinished work, and list what remains.
 
@@ -14,6 +14,7 @@ Drag a contact sheet here. CI also uploads a downloadable preview artifact for c
 
 - [ ] This pull request focuses on one pet only
 - [ ] I checked the gallery and open issues for the same character or concept
+- [ ] If this pet fulfills a request, I commented on that Issue and linked it with `Closes #<number>`
 - [ ] `canonical_key` groups the character correctly; if that key already exists, `variant_note` explains this independent version
 - [ ] This spritesheet is independently produced and is not a byte-identical copy of another package
 - [ ] Folder name uses `pet-slug--author-slug`

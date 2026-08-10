@@ -28,6 +28,8 @@ The workflow first recovers missing source notes, repairs existing pixels when t
 
 Completed submissions must be opened as ready-for-review pull requests. Use a draft only for knowingly unfinished work and list what remains.
 
+When a pet fulfills an existing request, leave a claim or progress comment on that Issue, keep the request URL in `submission.json.source_url`, and put `Closes #<number>` in the pull request body. The repository workflow then writes the PR link back to the Issue, changes its label to `status: in-progress`, and closes it with `status: completed` only after the PR is merged. A maintainer's direct main-branch commit has the same completion fallback based on `source_url`, although a focused pull request remains preferred. Do not close the request manually while its implementation is still under review.
+
 ### Advanced pull request
 
 Contributors who prefer direct GitHub work can use the web editor, Codespaces, or a blob-filtered sparse clone. Prepare one folder under `pets/<pet-slug>--<author-slug>/`, open one pull request per pet, and do not include generated README files, `pets.json`, or preview assets.

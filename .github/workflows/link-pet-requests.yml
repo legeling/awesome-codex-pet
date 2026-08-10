@@ -1,0 +1,390 @@
+name: Link Pet Requests
+
+on:
+  pull_request_target:
+    types: [opened, edited, synchronize, reopened, ready_for_review, closed]
+  push:
+    branches: [main]
+    paths:
+      - "pets/*/submission.json"
+
+permissions:
+  contents: read
+  issues: write
+  pull-requests: write
+
+concurrency:
+  group: link-pet-request-${{ github.event.pull_request.number || github.sha }}
+  cancel-in-progress: true
+
+jobs:
+  link-request:
+    if: github.event_name == 'pull_request_target'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout trusted workflow helpers
+        uses: actions/checkout@v7
+        with:
+          ref: ${{ github.event.repository.default_branch }}
+          persist-credentials: false
+
+      - name: Link request issues and synchronize completion
+        uses: actions/github-script@v8
+        with:
+          script: |
+            const { pathToFileURL } = require("node:url");
+            const helpers = await import(
+              pathToFileURL(`${process.env.GITHUB_WORKSPACE}/scripts/request-linking.mjs`).href
+            );
+
+            const pull = context.payload.pull_request;
+            const repository = `${context.repo.owner}/${context.repo.repo}`;
+            const fileResponse = await github.rest.pulls.listFiles({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              pull_number: pull.number,
+              per_page: 100,
+            });
+            if (fileResponse.headers.link?.includes('rel="next"')) {
+              core.setFailed(
+                "Pet request linking only accepts focused pull requests with at most 100 changed files.",
+              );
+              return;
+            }
+            const files = fileResponse.data;
+            const submissionPaths = files
+              .filter(
+                (file) =>
+                  file.status !== "removed" &&
+                  /^pets\/[^/]+\/submission\.json$/.test(file.filename),
+              )
+              .map((file) => file.filename);
+
+            if (submissionPaths.length === 0) {
+              core.info("No changed pet submission metadata; nothing to link.");
+              return;
+            }
+
+            const candidates = new Set(
+              helpers.requestIssueNumbersFromPullRequestBody(pull.body, repository),
+            );
+            const headRepository = pull.head.repo;
+            if (!headRepository) {
+              core.setFailed("The pull request head repository is unavailable.");
+              return;
+            }
+
+            for (const path of submissionPaths) {
+              const response = await github.rest.repos.getContent({
+                owner: headRepository.owner.login,
+                repo: headRepository.name,
+                path,
+                ref: pull.head.sha,
+              });
+              const file = response.data;
+              if (Array.isArray(file) || file.type !== "file" || !file.content) {
+                core.setFailed(`Unable to read ${path} from the pull request head.`);
+                return;
+              }
+              if (file.size > 256 * 1024) {
+                core.setFailed(`${path} exceeds the 256 KiB metadata limit.`);
+                return;
+              }
+
+              let submission;
+              try {
+                submission = JSON.parse(
+                  Buffer.from(file.content, file.encoding || "base64").toString("utf8"),
+                );
+              } catch (error) {
+                core.setFailed(`${path} is not valid JSON: ${error.message}`);
+                return;
+              }
+
+              const issueNumber = helpers.issueNumberFromSourceUrl(
+                submission.source_url,
+                repository,
+              );
+              if (
+                Array.isArray(submission.tags) &&
+                submission.tags.includes("community-request") &&
+                !issueNumber
+              ) {
+                core.setFailed(
+                  `${path} is tagged community-request but source_url does not point to a request Issue in ${repository}.`,
+                );
+                return;
+              }
+              if (issueNumber) candidates.add(issueNumber);
+            }
+
+            if (candidates.size === 0) {
+              core.info("This pet pull request does not claim an existing request issue.");
+              return;
+            }
+            if (candidates.size > 5) {
+              core.setFailed("A pet pull request may link at most five request issues.");
+              return;
+            }
+
+            const requests = [];
+            for (const issueNumber of [...candidates].sort((a, b) => a - b)) {
+              let issue;
+              try {
+                issue = (
+                  await github.rest.issues.get({
+                    owner: context.repo.owner,
+                    repo: context.repo.repo,
+                    issue_number: issueNumber,
+                  })
+                ).data;
+              } catch (error) {
+                if (error.status === 404) {
+                  core.warning(`Ignoring missing issue #${issueNumber}.`);
+                  continue;
+                }
+                throw error;
+              }
+              const labels = issue.labels.map((label) =>
+                typeof label === "string" ? label : label.name,
+              );
+              if (labels.includes("type: request")) requests.push({ issue, labels });
+            }
+
+            if (requests.length === 0) {
+              core.info("No referenced issue has the type: request label.");
+              return;
+            }
+
+            const requestNumbers = requests.map(({ issue }) => issue.number);
+            const nextBody = helpers.ensureClosingReferences(
+              pull.body,
+              requestNumbers,
+              repository,
+            );
+            if (nextBody !== String(pull.body ?? "").trimEnd()) {
+              await github.rest.pulls.update({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                pull_number: pull.number,
+                body: nextBody,
+              });
+              core.info(`Added closing references for ${requestNumbers.join(", ")}.`);
+            }
+
+            async function upsertComment(issue, marker, body) {
+              const lastPage = Math.max(1, Math.ceil(Number(issue.comments || 0) / 100));
+              const comments = (
+                await github.rest.issues.listComments({
+                  owner: context.repo.owner,
+                  repo: context.repo.repo,
+                  issue_number: issue.number,
+                  per_page: 100,
+                  page: lastPage,
+                })
+              ).data;
+              const existing = comments.find(
+                (comment) =>
+                  comment.user?.login === "github-actions[bot]" &&
+                  comment.body?.includes(marker),
+              );
+              if (existing) {
+                await github.rest.issues.updateComment({
+                  owner: context.repo.owner,
+                  repo: context.repo.repo,
+                  comment_id: existing.id,
+                  body,
+                });
+              } else {
+                await github.rest.issues.createComment({
+                  owner: context.repo.owner,
+                  repo: context.repo.repo,
+                  issue_number: issue.number,
+                  body,
+                });
+              }
+            }
+
+            for (const request of requests) {
+              const { issue, labels } = request;
+              const linkMarker = `<!-- pet-request-pr:${pull.number} -->`;
+              await upsertComment(
+                issue,
+                linkMarker,
+                helpers.requestLinkComment({
+                  issueNumber: issue.number,
+                  pullNumber: pull.number,
+                  pullUrl: pull.html_url,
+                }),
+              );
+
+              if (pull.merged) {
+                const completionMarker =
+                  `<!-- pet-request-completed-by-pr:${pull.number} -->`;
+                await upsertComment(
+                  issue,
+                  completionMarker,
+                  helpers.requestCompletionComment({
+                    pullNumber: pull.number,
+                    pullUrl: pull.html_url,
+                  }),
+                );
+                await github.rest.issues.setLabels({
+                  owner: context.repo.owner,
+                  repo: context.repo.repo,
+                  issue_number: issue.number,
+                  labels: helpers.withRequestStatus(labels, "completed"),
+                });
+                await github.rest.issues.update({
+                  owner: context.repo.owner,
+                  repo: context.repo.repo,
+                  issue_number: issue.number,
+                  state: "closed",
+                  state_reason: "completed",
+                });
+              } else if (issue.state === "open" && pull.state === "open") {
+                await github.rest.issues.setLabels({
+                  owner: context.repo.owner,
+                  repo: context.repo.repo,
+                  issue_number: issue.number,
+                  labels: helpers.withRequestStatus(labels, "in-progress"),
+                });
+              }
+            }
+
+  complete-request-from-main:
+    if: github.event_name == 'push'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout completed main revision
+        uses: actions/checkout@v7
+        with:
+          ref: ${{ github.sha }}
+          persist-credentials: false
+
+      - name: Close requests completed by a direct main commit
+        uses: actions/github-script@v8
+        with:
+          script: |
+            const { readFileSync } = require("node:fs");
+            const { resolve } = require("node:path");
+            const { pathToFileURL } = require("node:url");
+            const helpers = await import(
+              pathToFileURL(`${process.env.GITHUB_WORKSPACE}/scripts/request-linking.mjs`).href
+            );
+
+            const repository = `${context.repo.owner}/${context.repo.repo}`;
+            const comparison = await github.rest.repos.compareCommitsWithBasehead({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              basehead: `${context.payload.before}...${context.payload.after}`,
+              per_page: 100,
+            });
+            const files = comparison.data.files ?? [];
+            const submissionPaths = files
+              .filter(
+                (file) =>
+                  file.status !== "removed" &&
+                  /^pets\/[^/]+\/submission\.json$/.test(file.filename),
+              )
+              .map((file) => file.filename);
+
+            if (submissionPaths.length === 0) {
+              core.info("No changed pet submission metadata; nothing to complete.");
+              return;
+            }
+
+            const candidates = new Set();
+            for (const path of submissionPaths) {
+              const absolutePath = resolve(process.env.GITHUB_WORKSPACE, path);
+              const submission = JSON.parse(readFileSync(absolutePath, "utf8"));
+              const issueNumber = helpers.issueNumberFromSourceUrl(
+                submission.source_url,
+                repository,
+              );
+              if (
+                Array.isArray(submission.tags) &&
+                submission.tags.includes("community-request") &&
+                !issueNumber
+              ) {
+                core.setFailed(
+                  `${path} is tagged community-request but source_url does not point to a request Issue in ${repository}.`,
+                );
+                return;
+              }
+              if (issueNumber) candidates.add(issueNumber);
+            }
+
+            if (candidates.size > 5) {
+              core.setFailed("A single push may complete at most five request issues.");
+              return;
+            }
+
+            for (const issueNumber of [...candidates].sort((a, b) => a - b)) {
+              const issue = (
+                await github.rest.issues.get({
+                  owner: context.repo.owner,
+                  repo: context.repo.repo,
+                  issue_number: issueNumber,
+                })
+              ).data;
+              const labels = issue.labels.map((label) =>
+                typeof label === "string" ? label : label.name,
+              );
+              if (!labels.includes("type: request")) continue;
+
+              const marker =
+                `<!-- pet-request-completed-by-commit:${context.payload.after} -->`;
+              const lastPage = Math.max(
+                1,
+                Math.ceil(Number(issue.comments || 0) / 100),
+              );
+              const comments = (
+                await github.rest.issues.listComments({
+                  owner: context.repo.owner,
+                  repo: context.repo.repo,
+                  issue_number: issueNumber,
+                  per_page: 100,
+                  page: lastPage,
+                })
+              ).data;
+              const existing = comments.find(
+                (comment) =>
+                  comment.user?.login === "github-actions[bot]" &&
+                  comment.body?.includes(marker),
+              );
+              const body = helpers.requestCommitCompletionComment({
+                commitSha: context.payload.after,
+                commitUrl:
+                  `${context.payload.repository.html_url}/commit/${context.payload.after}`,
+              });
+              if (existing) {
+                await github.rest.issues.updateComment({
+                  owner: context.repo.owner,
+                  repo: context.repo.repo,
+                  comment_id: existing.id,
+                  body,
+                });
+              } else {
+                await github.rest.issues.createComment({
+                  owner: context.repo.owner,
+                  repo: context.repo.repo,
+                  issue_number: issueNumber,
+                  body,
+                });
+              }
+
+              await github.rest.issues.setLabels({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: issueNumber,
+                labels: helpers.withRequestStatus(labels, "completed"),
+              });
+              await github.rest.issues.update({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: issueNumber,
+                state: "closed",
+                state_reason: "completed",
+              });
+            }
