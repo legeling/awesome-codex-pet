@@ -1,0 +1,37 @@
+{
+  "slug": "longying--legeling",
+  "pet_slug": "longying",
+  "author_slug": "legeling",
+  "canonical_key": "original/longying-ai-companion",
+  "name": "胧萤",
+  "author": "Legeling",
+  "author_handle": "legeling",
+  "author_url": "https://github.com/legeling",
+  "primary_category": "Others",
+  "collections": [],
+  "tags": [
+    "owl",
+    "firefly",
+    "ai-companion",
+    "digital-spirit",
+    "community-request",
+    "ai-generated",
+    "v2",
+    "look-directions"
+  ],
+  "source_type": "ai-generated",
+  "source_url": "https://github.com/legeling/awesome-codex-pet/issues/108",
+  "source_notes": "Independently AI-generated community interpretation made for Issue #108 from the requester's uploaded concept reference. The reference was used only for owl, firefly, iridescent feather, and warm core design cues; no source pixels, background, particles, text, or interface elements were copied into the final spritesheet.",
+  "license": "Non-commercial use only. Independently AI-generated community artwork based on a community request; no source pixels copied.",
+  "description": "融合猫头鹰的智慧轮廓、萤火虫般的暖金生命核心与虹彩自然科技材质的 AI 陪伴精灵，包含九组任务动画与完整的 16 方向环视动作。",
+  "preview_image": "../../assets/previews/longying--legeling/gifs/idle.gif",
+  "codex_install": {
+    "pet_json": "pet.json",
+    "spritesheet": "spritesheet.webp"
+  },
+  "preview_assets": {
+    "contact_sheet": "../../assets/previews/longying--legeling/contact-sheet.png",
+    "gifs_dir": "../../assets/previews/longying--legeling/gifs"
+  },
+  "spritesheet_sha256": "378953dfdfa956e72987d22e0bad9893bedfe3f79ebfa5c12745d9419e294616"
+}
