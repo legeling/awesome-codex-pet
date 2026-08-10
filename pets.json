@@ -1551,6 +1551,21 @@
     "spriteVersionNumber": 1
   },
   {
+    "slug": "sunny-retriever--legeling",
+    "name": "Sunny Retriever",
+    "localized_names": { "en": "Sunny Retriever", "zh": "暖阳金毛" },
+    "author": "Legeling",
+    "author_handle": "legeling",
+    "author_url": "https://github.com/legeling",
+    "primary_category": "Animals",
+    "canonical_key": "animal/golden-retriever",
+    "variant_note": "A cheerful honey-gold illustrated puppy with a teal collar and no retrieval prop; visually distinct from the cream-fur, tennis-ball community interpretation requested in Issue #60.",
+    "collections": ["animal-companions"],
+    "license": "CC BY-NC 4.0",
+    "description": "A cheerful honey-gold retriever puppy with a teal collar, a warm smile, expressive task animations, and 16 Codex v2 look directions.",
+    "spriteVersionNumber": 2
+  },
+  {
     "slug": "susuta--xiangzi529",
     "name": "Susuta",
     "localized_names": { "en": "Susuta", "zh": "羞羞獭" },

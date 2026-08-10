@@ -1263,6 +1263,16 @@
       "spritesheetWidth": 1536,
       "spritesheetHeight": 1872
     },
+    "sunny-retriever--legeling": {
+      "name": "Sunny Retriever",
+      "spriteVersionNumber": 2,
+      "petJsonSha256": "b56175e95b4dc762d10e7e86e4364f9b209554ff8a68ebf9a94a677f9a862b04",
+      "petJsonBytes": 295,
+      "spritesheetSha256": "447a79a275ba01fcef5805c5e4ec3dccce7d8836e0492af28fb81a5ce7898ee0",
+      "spritesheetBytes": 3049372,
+      "spritesheetWidth": 1536,
+      "spritesheetHeight": 2288
+    },
     "susuta--xiangzi529": {
       "name": "Susuta",
       "spriteVersionNumber": 2,
