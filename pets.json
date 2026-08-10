@@ -972,6 +972,20 @@
     "spriteVersionNumber": 1
   },
   {
+    "slug": "lumei--dagwbl",
+    "name": "Lumei",
+    "localized_names": { "en": "Lumei", "zh": "噜妹" },
+    "author": "Dagwbl",
+    "author_handle": "Dagwbl",
+    "author_url": "https://github.com/Dagwbl",
+    "primary_category": "Original Characters",
+    "canonical_key": "original/dagwbl/lumei",
+    "collections": [],
+    "license": "Personal and repository use only; non-commercial use only. Commercial use is prohibited.",
+    "description": "An independently AI-generated original golden capybara girl with a blush-pink romper, white ruffled bonnet, expressive task-state animations, and 16 clockwise look directions.",
+    "spriteVersionNumber": 2
+  },
+  {
     "slug": "luna-angel-cat--neve",
     "name": "luna_angel cat",
     "author": "Neve",

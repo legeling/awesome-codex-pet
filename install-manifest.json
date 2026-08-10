@@ -793,6 +793,16 @@
       "spritesheetWidth": 1536,
       "spritesheetHeight": 1872
     },
+    "lumei--dagwbl": {
+      "name": "Lumei",
+      "spriteVersionNumber": 2,
+      "petJsonSha256": "afeb3a74a7fc28759de5d0d7596eb526d71086e937f61a25a228a3e2218c5e7a",
+      "petJsonBytes": 265,
+      "spritesheetSha256": "c187342c8b13a276d2798235fd36b3fdb99a6585a27dffefb8742ace87b3b627",
+      "spritesheetBytes": 2311970,
+      "spritesheetWidth": 1536,
+      "spritesheetHeight": 2288
+    },
     "luna-angel-cat--neve": {
       "name": "luna_angel cat",
       "spriteVersionNumber": 2,
