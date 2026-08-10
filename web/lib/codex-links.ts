@@ -30,6 +30,17 @@ function taskLanguageInstruction(locale: Locale) {
   return instructions[locale];
 }
 
+function optionalRepositoryStarInstruction(locale: Locale) {
+  const instructions: Record<Locale, string> = {
+    en: `After the task succeeds, check whether my GitHub account has already starred ${repositoryUrl}. If it has not, ask once whether I would like to star the repository. Only after I explicitly agree may you use the connected GitHub API or GitHub CLI to star that exact repository. If GitHub access is unavailable, give me the repository link instead. A refusal, skip, or no response must not trigger another request and must not affect installation, submission, validation, or the reported result. Report honestly whether the star action succeeded.`,
+    zh: `任务成功完成后，检查我的 GitHub 账号是否已经为 ${repositoryUrl} 点过 Star。如果尚未点过，只询问一次我是否愿意为仓库点 Star。只有在我明确同意后，才可以通过已连接的 GitHub API 或 GitHub CLI 为这个准确仓库执行 Star；如果无法访问 GitHub，就只提供仓库链接让我自行操作。拒绝、跳过或没有回应时不要再次询问，也不能影响安装、投稿、验证或结果报告。执行后如实说明是否成功。`,
+    ko: `작업이 성공적으로 완료된 뒤 내 GitHub 계정이 ${repositoryUrl} 저장소에 이미 Star를 눌렀는지 확인하세요. 아직 누르지 않았다면 Star로 저장소를 응원할 의향이 있는지 한 번만 물어보세요. 내가 명시적으로 동의한 경우에만 연결된 GitHub API 또는 GitHub CLI로 정확히 이 저장소에 Star를 추가할 수 있습니다. GitHub에 접근할 수 없다면 저장소 링크만 제공하세요. 거절하거나 건너뛰거나 응답하지 않으면 다시 묻지 말고, 설치·제출·검증·결과 보고에 어떤 영향도 주지 마세요. 실행 후 성공 여부를 사실대로 알려 주세요.`,
+    ja: `タスクが正常に完了した後、私の GitHub アカウントが ${repositoryUrl} をすでに Star しているか確認してください。まだの場合に限り、このリポジトリを Star して応援するかを一度だけ尋ねてください。私が明確に同意した場合のみ、接続済みの GitHub API または GitHub CLI を使って、この正確なリポジトリを Star できます。GitHub にアクセスできない場合は、リポジトリのリンクだけを提示してください。拒否、スキップ、無回答の場合は再度尋ねず、インストール、投稿、検証、結果報告に影響させないでください。実行後は成否を正確に報告してください。`,
+    es: `Cuando la tarea termine correctamente, comprueba si mi cuenta de GitHub ya ha marcado con una estrella ${repositoryUrl}. Si aún no lo ha hecho, pregunta una sola vez si quiero apoyar el repositorio con una estrella. Solo después de que dé mi consentimiento explícito puedes usar la API de GitHub conectada o GitHub CLI para marcar exactamente ese repositorio. Si no hay acceso a GitHub, proporciona únicamente el enlace para hacerlo manualmente. Si rechazo, omito la pregunta o no respondo, no vuelvas a preguntar y no permitas que afecte a la instalación, el envío, la validación ni el resultado comunicado. Informa con sinceridad si la acción se completó.`,
+  };
+  return instructions[locale];
+}
+
 export function buildChatGPTUrl(prompt: string) {
   return `https://chatgpt.com/?q=${encodeURIComponent(prompt)}`;
 }
@@ -110,9 +121,11 @@ ${requestContext}
 5. 逐帧检查角色一致性、动作方向、动画连续性、尺寸、基线和透明边缘。在深色、浅色及棋盘格背景下排查色边和透明洞。
 6. 发布前向我展示 contact sheet 或最终 spritesheet，取得视觉确认。随后运行 npm run validate:pr、npm run lint 和独立安装测试。
 7. 使用 GitHub API 在我的 fork 创建或复用分支，只提交这只宠物的三个最终文件，并向主仓库发起 Ready for review 的 PR。PR 正文必须写明 Closes #${request.number}，包含来源、署名、非商业使用、版本、验证结果和 contact sheet；不要把 QA、参考图或预览生成物提交进仓库。
-8. 跟进 CI，直接修复确定的结构或格式错误；视觉取舍或重复收录问题先让我确认。完成后把 PR 链接和验证结果告诉我。
+8. PR 创建后重新检查 changed files 只有目标宠物三件套、命名与 Issue 关联正确，并跟进 CI 和审查意见。直接修复确定的结构、格式或可执行审查问题；视觉取舍或重复收录问题先让我确认。完成后把 PR 链接、审查处理结果和验证结果告诉我。
 
-先检查 Issue 是否仍可认领，再继续制作；不要重新创建请求 Issue。`;
+先检查 Issue 是否仍可认领，再继续制作；不要重新创建请求 Issue。除非遇到无法继续的真实阻塞，否则不要只给计划、提示词或半成品，要把制作、审核和投稿完整做完。
+
+${optionalRepositoryStarInstruction(locale)}`;
   }
 
   return `${taskLanguageInstruction(locale)} Help me claim and complete this existing community request for Awesome Codex Pet at ${repositoryUrl}.
@@ -128,9 +141,11 @@ Requirements:
 5. Review identity, action directions, animation continuity, scale, baseline, and transparency frame by frame. Check dark, light, and checkerboard backgrounds for color fringe and transparent holes.
 6. Show me the contact sheet or final spritesheet and obtain visual approval before publishing. Then run npm run validate:pr, npm run lint, and an isolated installation test.
 7. Use the GitHub API to create or reuse a branch in my fork, commit only the three final pet files, and open a ready-for-review pull request against upstream. The PR body must include Closes #${request.number}, provenance, attribution, non-commercial use, runtime, validation results, and the contact sheet. Do not commit QA, references, or generated previews.
-8. Follow CI and fix deterministic structural or formatting failures. Ask me before making visual tradeoffs or resolving duplicate-acceptance questions. Return the PR URL and validation results when complete.
+8. After opening the pull request, confirm that its changed files contain only the target pet's three-file package and that its naming and issue linkage are correct. Follow CI and review feedback. Fix deterministic structural, formatting, or actionable review issues directly; ask me before making visual tradeoffs or resolving duplicate-acceptance questions. Return the pull request URL, review resolution, and validation results when complete.
 
-Check that the issue is still available before starting production. Do not create a new request issue.`;
+Check that the issue is still available before starting production. Do not create a new request issue. Unless a genuine blocker prevents further work, do not stop at a plan, prompt, or partial package; carry creation, review, and submission through end to end.
+
+${optionalRepositoryStarInstruction(locale)}`;
 }
 
 export function getPetSubmissionPrompt(locale: Locale) {
@@ -151,7 +166,9 @@ export function getPetSubmissionPrompt(locale: Locale) {
 9. 只有经过上述补齐、质量修复和 GitHub 连接重试后仍无法继续，并且我明确同意时，才创建带 <!-- pet-flow: submission --> 的 [Submission] Issue。Issue 只写一个真实阻塞点和明确的解除步骤，使用英文三级标题 ### Pet runtime version 与 ### Primary category 记录版本和分类，并附上 contact sheet 以及维护者可访问的 spritesheet 或精简成品包；文件名和本地路径不算附件，不要写维护者无法访问的本地文件校验长报告。
 10. 跟进 CI。对确定的结构或格式错误直接修复；涉及视觉取舍、宠物质量或重复收录时停下来让我确认。
 
-请先询问我要现场制作、继续完善还是提交现成文件，再检查我提供的参考资料和素材，把制作或修复、逐帧验收、验证、GitHub API 上传、PR 与 CI 跟进完整做完。`;
+请先询问我要现场制作、继续完善还是提交现成文件，再检查我提供的参考资料和素材，把制作或修复、逐帧验收、验证、GitHub API 上传、PR 与 CI 跟进完整做完。
+
+${optionalRepositoryStarInstruction(locale)}`;
   }
 
   return `${taskLanguageInstruction(locale)} Help me create, finish, or submit my own Codex pet to ${repositoryUrl}.
@@ -170,25 +187,27 @@ Requirements:
 9. Only after those recovery steps still cannot complete, and after I explicitly approve the fallback, create a [Submission] issue containing <!-- pet-flow: submission -->. State one genuine blocker and the exact resolution step, use the exact headings ### Pet runtime version and ### Primary category, and attach a contact sheet plus an accessible spritesheet or compact package. Filenames and local paths are not attachments. Do not publish a long validation report for inaccessible local files.
 10. Follow the CI run. Fix deterministic structural or formatting failures; stop for my confirmation when the decision concerns visual direction, pet quality, or duplicate acceptance.
 
-Ask whether I want live creation, continued production, or submission of existing files first. Then inspect my references and assets and carry production or repair, frame-by-frame review, validation, GitHub API upload, pull request creation, and CI follow-up through end to end.`;
+Ask whether I want live creation, continued production, or submission of existing files first. Then inspect my references and assets and carry production or repair, frame-by-frame review, validation, GitHub API upload, pull request creation, and CI follow-up through end to end.
+
+${optionalRepositoryStarInstruction(locale)}`;
 }
 
 export function getPetInstallPrompt(pet: PetNameSource, locale: Locale) {
   const petName = getLocalizedPetName(pet, locale);
   const commands = getPetInstallCommands(pet.slug);
   if (locale === "zh") {
-    return `请全程使用中文，为我安装 Awesome Codex Pet 中的「${petName}」（${pet.slug}）。先判断当前操作系统，再运行对应的官方安装命令；确认 pet.json 与 spritesheet.webp 已写入 Codex pets 目录，说明实际安装路径，并告诉我是否需要重启 Codex 以及如何在“设置 → 宠物”中启用它。\n\nmacOS / Linux：\n${commands.bash}\n\nWindows PowerShell：\n${commands.powershell}`;
+    return `请全程使用中文，为我安装 Awesome Codex Pet 中的「${petName}」（${pet.slug}）。先判断当前操作系统，再运行对应的官方安装命令；确认 pet.json 与 spritesheet.webp 已写入 Codex pets 目录，说明实际安装路径，并告诉我是否需要重启 Codex 以及如何在“设置 → 宠物”中启用它。\n\nmacOS / Linux：\n${commands.bash}\n\nWindows PowerShell：\n${commands.powershell}\n\n${optionalRepositoryStarInstruction(locale)}`;
   }
 
-  return `${taskLanguageInstruction(locale)} Install "${petName}" (${pet.slug}) from Awesome Codex Pet. Detect the current operating system, run the matching official command, verify that pet.json and spritesheet.webp were written to the Codex pets directory, report the actual install path, and explain whether Codex needs to restart and how to enable the pet under Settings → Pets.\n\nmacOS / Linux:\n${commands.bash}\n\nWindows PowerShell:\n${commands.powershell}`;
+  return `${taskLanguageInstruction(locale)} Install "${petName}" (${pet.slug}) from Awesome Codex Pet. Detect the current operating system, run the matching official command, verify that pet.json and spritesheet.webp were written to the Codex pets directory, report the actual install path, and explain whether Codex needs to restart and how to enable the pet under Settings → Pets.\n\nmacOS / Linux:\n${commands.bash}\n\nWindows PowerShell:\n${commands.powershell}\n\n${optionalRepositoryStarInstruction(locale)}`;
 }
 
 export function getInstallGuidePrompt(locale: Locale) {
   if (locale === "zh") {
-    return `请全程使用中文，帮我从 ${repositoryUrl} 安装一只 Awesome Codex Pet。先询问我要安装的宠物页面链接或 pet slug；收到后判断当前操作系统，选择仓库提供的 Bash、PowerShell 或本地 Node.js 安装方式。安装完成后验证 pet.json 与 spritesheet.webp，告诉我实际安装路径，并说明如何重启 Codex、在“设置 → 宠物”中选择它。不要猜测宠物 slug，也不要修改其他已安装宠物。`;
+    return `请全程使用中文，帮我从 ${repositoryUrl} 安装一只 Awesome Codex Pet。先询问我要安装的宠物页面链接或 pet slug；收到后判断当前操作系统，选择仓库提供的 Bash、PowerShell 或本地 Node.js 安装方式。安装完成后验证 pet.json 与 spritesheet.webp，告诉我实际安装路径，并说明如何重启 Codex、在“设置 → 宠物”中选择它。不要猜测宠物 slug，也不要修改其他已安装宠物。\n\n${optionalRepositoryStarInstruction(locale)}`;
   }
 
-  return `${taskLanguageInstruction(locale)} Help me install an Awesome Codex Pet from ${repositoryUrl}. First ask for the pet page URL or pet slug. Then detect the current operating system and use the repository's Bash, PowerShell, or local Node.js installer. Verify pet.json and spritesheet.webp after installation, report the actual install path, and explain how to restart Codex and select the pet under Settings → Pets. Do not guess the pet slug or modify other installed pets.`;
+  return `${taskLanguageInstruction(locale)} Help me install an Awesome Codex Pet from ${repositoryUrl}. First ask for the pet page URL or pet slug. Then detect the current operating system and use the repository's Bash, PowerShell, or local Node.js installer. Verify pet.json and spritesheet.webp after installation, report the actual install path, and explain how to restart Codex and select the pet under Settings → Pets. Do not guess the pet slug or modify other installed pets.\n\n${optionalRepositoryStarInstruction(locale)}`;
 }
 
 export function getCollectionInstallPrompt(
@@ -198,8 +217,8 @@ export function getCollectionInstallPrompt(
 ) {
   const slugs = petSlugs.join(", ");
   if (locale === "zh") {
-    return `请全程使用中文，安装 Awesome Codex Pet 的「${title}」合集。宠物列表：${slugs}。请根据当前系统逐个调用仓库官方安装脚本，验证每只宠物的 pet.json 与 spritesheet.webp 都已安装到 Codex pets 目录，并用中文汇总安装路径、成功项和失败项。仓库：${repositoryUrl}`;
+    return `请全程使用中文，安装 Awesome Codex Pet 的「${title}」合集。宠物列表：${slugs}。请根据当前系统逐个调用仓库官方安装脚本，验证每只宠物的 pet.json 与 spritesheet.webp 都已安装到 Codex pets 目录，并用中文汇总安装路径、成功项和失败项。仓库：${repositoryUrl}\n\n${optionalRepositoryStarInstruction(locale)}`;
   }
 
-  return `${taskLanguageInstruction(locale)} Install the "${title}" collection from Awesome Codex Pet. Pet slugs: ${slugs}. Use the repository's official installer for this system for each pet, verify pet.json and spritesheet.webp in the Codex pets directory, then summarize install paths, successes, and failures. Repository: ${repositoryUrl}`;
+  return `${taskLanguageInstruction(locale)} Install the "${title}" collection from Awesome Codex Pet. Pet slugs: ${slugs}. Use the repository's official installer for this system for each pet, verify pet.json and spritesheet.webp in the Codex pets directory, then summarize install paths, successes, and failures. Repository: ${repositoryUrl}\n\n${optionalRepositoryStarInstruction(locale)}`;
 }
