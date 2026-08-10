@@ -1,5 +1,46 @@
 [
   {
+    "number": 60,
+    "character": "金毛",
+    "characterDetails": "金毛",
+    "franchise": "",
+    "category": "animal",
+    "version": "v2",
+    "requestType": "Create a new community interpretation",
+    "referenceStatus": "A viewable image attachment or public image URL is included",
+    "references": "",
+    "referenceUrls": [],
+    "referenceImages": [
+      "https://github.com/user-attachments/assets/f25f96be-a525-4129-a155-901c69584ea9",
+      "https://github.com/user-attachments/assets/3fcdb3a8-fe5e-4c1f-b21e-b6ffc95ba701"
+    ],
+    "referenceThumbnails": [],
+    "visualDirection": "风格定位：治愈 Q 版写实金毛，软萌不幼稚，暖色调，低饱和暖黄金毛\n体型比例：头身比 1:1.2（Q 版黄金标准），幼犬体态！不要成年大狗。四肢短粗、肉垫膨大，耳朵下垂盖住半张脸；\n毛发配色\n主体：暖浅金（奶油金毛，避免深橘色）\n胸口、爪子尖端、口鼻：奶白色绒毛\n鼻头：深巧克力棕，眼周浅金色\n线条：圆润无尖锐棱角，轮廓轻微模糊模拟绒毛感；禁止硬锐利线条。\n视角：45° 侧面视角（桌宠通用最优视角，左右走动素材可以镜像复用，大幅减少绘图工作量）\n避坑重点：金毛标志性特征是垂大耳 + 长尾蓬松如扫把，不要画成拉布拉多（拉布拉多短毛、耳朵更小）。\n二、标志性识别细节（一眼区分金毛，必不可缺）\n超大垂耳：耳朵下缘能够到达嘴部位置，跑动时耳朵左右甩动；\n蓬松大尾巴：整条尾巴浓密长毛，休息自然垂落、跑动向上扬起；\n胸口奶白色 “围脖绒毛”，静态、动作里必须保留；\n肉垫：深粉色圆形肉垫；\n口鼻长度适中，不要短脸（区分柯基 / 柴犬）。\n三、常驻道具（桌宠互动核心，轻量化，方便绘制 Sprite 帧动画）\n优先选择金毛品种文化标签 ——巡回、叼东西是金毛灵魂设定！\n【核心道具】网球（第一标配！金毛标志性捡球道具）\n备选道具：树枝、拖鞋、毛绒鸭子、飞盘\n休闲道具：小骨头、遮阳小草帽（可选彩蛋）\n设计思路：道具可以衔在嘴中，一套动作可以复用，不用大量新素材。\n四、表情体系（区分情绪，交互触发）\n只做 5 类高频表情，控制美术工作量，适合开源桌宠：\n平静常态（默认待机）：圆黑豆眼，嘴角微微平缓，耳朵自然下垂\n开心兴奋（鼠标悬停 / 点击抚摸）：眼睛弯月牙，微微张嘴露小舌头，尾巴高高翘起晃动\n困倦发呆（长时间无人操作待机）：半眯眼皮，头微微下垂，尾巴缓慢轻摆\n委屈（拖拽桌宠丢到屏幕边缘）：眼角微微向下，耳朵向后贴脑袋\n期待渴求（看到网球道具）：睁大双眼，身体前倾，舌头半吐\n五、动作清单（桌宠必备！分为【自动循环待机】+【鼠标交互动作】）\n 自动随机循环动作（无人操作自动播放）\n原地待机：轻微左右晃脑袋，尾巴缓慢摆动（基础常驻帧）\n原地坐卧：慢慢趴下，前爪前伸，闭目打哈欠（长待机触发）\n小范围踱步：左右来回慢走，耳朵随步伐晃动\n自我梳理：低头舔前爪\n✅ 鼠标交互触发动作（用户操作响应，核心乐趣）\n鼠标点击抚摸：原地坐下，摇尾巴，开心吐舌头\n鼠标拖拽移动：四肢划动小跑，嘴巴紧闭，被放下后原地甩身体\n双击召唤网球：嘴里叼起网球，来回小跑，偶尔放下再叼起（金毛灵魂动作！）\n长时间光标离开屏幕：慢慢趴下打瞌睡\n✅ 彩蛋\n叼着拖鞋缓慢横穿桌面、把树枝放到鼠标光标旁边。",
+    "nameLanguages": "Single-language default name",
+    "attribution": "",
+    "duplicateCheck": "",
+    "state": "open",
+    "status": "triage",
+    "labels": [
+      "type: request",
+      "status: triage",
+      "version: v2",
+      "category: animal"
+    ],
+    "author": {
+      "login": "Tooth-monster",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/259026708?v=4",
+      "url": "https://github.com/Tooth-monster"
+    },
+    "assignees": [],
+    "createdAt": "2026-07-27T05:13:19Z",
+    "updatedAt": "2026-08-10T06:42:10Z",
+    "closedAt": null,
+    "comments": 1,
+    "reactions": 0,
+    "githubUrl": "https://github.com/legeling/awesome-codex-pet/issues/60"
+  },
+  {
     "number": 108,
     "character": "胧萤，虚拟AI陪伴精灵，核心灵感：以猫头鹰的神秘与智慧象征，萤火虫的温暖光点与生命感，科技与自然的融合美学，创造一个具有情绪共鸣的数字生命体，接入AI模型",
     "characterDetails": "胧萤，虚拟AI陪伴精灵，核心灵感：以猫头鹰的神秘与智慧象征，萤火虫的温暖光点与生命感，科技与自然的融合美学，创造一个具有情绪共鸣的数字生命体，接入AI模型",
@@ -571,47 +612,6 @@
     "comments": 1,
     "reactions": 0,
     "githubUrl": "https://github.com/legeling/awesome-codex-pet/issues/62"
-  },
-  {
-    "number": 60,
-    "character": "金毛",
-    "characterDetails": "金毛",
-    "franchise": "",
-    "category": "animal",
-    "version": "v2",
-    "requestType": "Create a new community interpretation",
-    "referenceStatus": "A viewable image attachment or public image URL is included",
-    "references": "",
-    "referenceUrls": [],
-    "referenceImages": [
-      "https://github.com/user-attachments/assets/f25f96be-a525-4129-a155-901c69584ea9",
-      "https://github.com/user-attachments/assets/3fcdb3a8-fe5e-4c1f-b21e-b6ffc95ba701"
-    ],
-    "referenceThumbnails": [],
-    "visualDirection": "风格定位：治愈 Q 版写实金毛，软萌不幼稚，暖色调，低饱和暖黄金毛\n体型比例：头身比 1:1.2（Q 版黄金标准），幼犬体态！不要成年大狗。四肢短粗、肉垫膨大，耳朵下垂盖住半张脸；\n毛发配色\n主体：暖浅金（奶油金毛，避免深橘色）\n胸口、爪子尖端、口鼻：奶白色绒毛\n鼻头：深巧克力棕，眼周浅金色\n线条：圆润无尖锐棱角，轮廓轻微模糊模拟绒毛感；禁止硬锐利线条。\n视角：45° 侧面视角（桌宠通用最优视角，左右走动素材可以镜像复用，大幅减少绘图工作量）\n避坑重点：金毛标志性特征是垂大耳 + 长尾蓬松如扫把，不要画成拉布拉多（拉布拉多短毛、耳朵更小）。\n二、标志性识别细节（一眼区分金毛，必不可缺）\n超大垂耳：耳朵下缘能够到达嘴部位置，跑动时耳朵左右甩动；\n蓬松大尾巴：整条尾巴浓密长毛，休息自然垂落、跑动向上扬起；\n胸口奶白色 “围脖绒毛”，静态、动作里必须保留；\n肉垫：深粉色圆形肉垫；\n口鼻长度适中，不要短脸（区分柯基 / 柴犬）。\n三、常驻道具（桌宠互动核心，轻量化，方便绘制 Sprite 帧动画）\n优先选择金毛品种文化标签 ——巡回、叼东西是金毛灵魂设定！\n【核心道具】网球（第一标配！金毛标志性捡球道具）\n备选道具：树枝、拖鞋、毛绒鸭子、飞盘\n休闲道具：小骨头、遮阳小草帽（可选彩蛋）\n设计思路：道具可以衔在嘴中，一套动作可以复用，不用大量新素材。\n四、表情体系（区分情绪，交互触发）\n只做 5 类高频表情，控制美术工作量，适合开源桌宠：\n平静常态（默认待机）：圆黑豆眼，嘴角微微平缓，耳朵自然下垂\n开心兴奋（鼠标悬停 / 点击抚摸）：眼睛弯月牙，微微张嘴露小舌头，尾巴高高翘起晃动\n困倦发呆（长时间无人操作待机）：半眯眼皮，头微微下垂，尾巴缓慢轻摆\n委屈（拖拽桌宠丢到屏幕边缘）：眼角微微向下，耳朵向后贴脑袋\n期待渴求（看到网球道具）：睁大双眼，身体前倾，舌头半吐\n五、动作清单（桌宠必备！分为【自动循环待机】+【鼠标交互动作】）\n 自动随机循环动作（无人操作自动播放）\n原地待机：轻微左右晃脑袋，尾巴缓慢摆动（基础常驻帧）\n原地坐卧：慢慢趴下，前爪前伸，闭目打哈欠（长待机触发）\n小范围踱步：左右来回慢走，耳朵随步伐晃动\n自我梳理：低头舔前爪\n✅ 鼠标交互触发动作（用户操作响应，核心乐趣）\n鼠标点击抚摸：原地坐下，摇尾巴，开心吐舌头\n鼠标拖拽移动：四肢划动小跑，嘴巴紧闭，被放下后原地甩身体\n双击召唤网球：嘴里叼起网球，来回小跑，偶尔放下再叼起（金毛灵魂动作！）\n长时间光标离开屏幕：慢慢趴下打瞌睡\n✅ 彩蛋\n叼着拖鞋缓慢横穿桌面、把树枝放到鼠标光标旁边。",
-    "nameLanguages": "Single-language default name",
-    "attribution": "",
-    "duplicateCheck": "",
-    "state": "open",
-    "status": "triage",
-    "labels": [
-      "type: request",
-      "status: triage",
-      "version: v2",
-      "category: animal"
-    ],
-    "author": {
-      "login": "Tooth-monster",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/259026708?v=4",
-      "url": "https://github.com/Tooth-monster"
-    },
-    "assignees": [],
-    "createdAt": "2026-07-27T05:13:19Z",
-    "updatedAt": "2026-07-27T05:13:26Z",
-    "closedAt": null,
-    "comments": 0,
-    "reactions": 0,
-    "githubUrl": "https://github.com/legeling/awesome-codex-pet/issues/60"
   },
   {
     "number": 100,
