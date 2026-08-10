@@ -1,5 +1,49 @@
 [
   {
+    "number": 108,
+    "character": "胧萤，虚拟AI陪伴精灵，核心灵感：以猫头鹰的神秘与智慧象征，萤火虫的温暖光点与生命感，科技与自然的融合美学，创造一个具有情绪共鸣的数字生命体，接入AI模型",
+    "characterDetails": "胧萤，虚拟AI陪伴精灵，核心灵感：以猫头鹰的神秘与智慧象征，萤火虫的温暖光点与生命感，科技与自然的融合美学，创造一个具有情绪共鸣的数字生命体，接入AI模型",
+    "franchise": "Not provided",
+    "category": "other",
+    "version": "v2",
+    "requestType": "Create a new community interpretation",
+    "referenceStatus": "",
+    "references": "https://api.codexpet.top/uploads/reference/references/637df6dc5eed8f3a93ae85b922b0c613dc99749e979777e38e74e7de08c034d0.jpg",
+    "referenceUrls": [
+      "https://api.codexpet.top/uploads/reference/references/637df6dc5eed8f3a93ae85b922b0c613dc99749e979777e38e74e7de08c034d0.jpg"
+    ],
+    "referenceImages": [
+      "https://api.codexpet.top/uploads/reference/references/637df6dc5eed8f3a93ae85b922b0c613dc99749e979777e38e74e7de08c034d0.jpg"
+    ],
+    "referenceThumbnails": [
+      "https://api.codexpet.top/uploads/reference/thumbnails/637df6dc5eed8f3a93ae85b922b0c613dc99749e979777e38e74e7de08c034d0.webp"
+    ],
+    "visualDirection": "核心思想：\n胧萤是一个有\"生命\"的光精灵，它不是静态的物体，而是会呼吸、会情绪、会绽放的存在。每一次视觉变化都应该是情感的延伸，每一次光效流动都应该是灵魂的脉动。我想让它真正拥有“大脑”和“生命”：\n成为我的生活助理（主动提醒天气、日程、风险）\n成为我的决策参谋（行业预警、数据洞察）\n成为我的情绪陪伴（倾听、共情、感知我的状态）",
+    "nameLanguages": "Let the maker decide",
+    "attribution": "Submitted without a GitHub account. Reference and attribution details should be confirmed during triage. Non-commercial use only.",
+    "duplicateCheck": "Repository automation or a maintainer should complete the duplicate check during triage.",
+    "state": "open",
+    "status": "triage",
+    "labels": [
+      "type: request",
+      "status: triage",
+      "version: v2",
+      "category: other"
+    ],
+    "author": {
+      "login": "github-actions[bot]",
+      "avatarUrl": "https://avatars.githubusercontent.com/in/15368?v=4",
+      "url": "https://github.com/apps/github-actions"
+    },
+    "assignees": [],
+    "createdAt": "2026-08-10T02:47:12Z",
+    "updatedAt": "2026-08-10T02:47:12Z",
+    "closedAt": null,
+    "comments": 0,
+    "reactions": 0,
+    "githubUrl": "https://github.com/legeling/awesome-codex-pet/issues/108"
+  },
+  {
     "number": 105,
     "character": "我的刀盾",
     "characterDetails": "我的刀盾",
@@ -128,48 +172,6 @@
     "comments": 0,
     "reactions": 0,
     "githubUrl": "https://github.com/legeling/awesome-codex-pet/issues/91"
-  },
-  {
-    "number": 89,
-    "character": "斗地主老农民",
-    "characterDetails": "斗地主老农民",
-    "franchise": "《欢乐斗地主》\n作品来源页：https://www.doudizhu-qq.com/",
-    "category": "other",
-    "version": "v2",
-    "requestType": "",
-    "referenceStatus": "",
-    "references": "",
-    "referenceUrls": [],
-    "referenceImages": [
-      "https://github.com/user-attachments/assets/7cf03f62-8a06-4277-b527-f0d84b2f06ba",
-      "https://github.com/user-attachments/assets/a780fc89-88c1-4daa-a1a8-46240d2290f3",
-      "https://github.com/user-attachments/assets/e2b7fc03-7139-4a54-9898-1339e2fc75df"
-    ],
-    "referenceThumbnails": [],
-    "visualDirection": "",
-    "nameLanguages": "",
-    "attribution": "",
-    "duplicateCheck": "",
-    "state": "open",
-    "status": "triage",
-    "labels": [
-      "type: request",
-      "status: triage",
-      "version: v2",
-      "category: other"
-    ],
-    "author": {
-      "login": "chenyijing131-art",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/290647209?v=4",
-      "url": "https://github.com/chenyijing131-art"
-    },
-    "assignees": [],
-    "createdAt": "2026-08-05T09:38:15Z",
-    "updatedAt": "2026-08-05T09:38:28Z",
-    "closedAt": null,
-    "comments": 0,
-    "reactions": 0,
-    "githubUrl": "https://github.com/legeling/awesome-codex-pet/issues/89"
   },
   {
     "number": 87,
@@ -612,20 +614,24 @@
     "githubUrl": "https://github.com/legeling/awesome-codex-pet/issues/60"
   },
   {
-    "number": 92,
-    "character": "库洛米",
-    "characterDetails": "库洛米",
+    "number": 100,
+    "character": "星星人",
+    "characterDetails": "星星人",
     "franchise": "Not provided",
     "category": "other",
     "version": "v2",
     "requestType": "Create a new community interpretation",
     "referenceStatus": "",
-    "references": "https://zh.wikipedia.org/wiki/%E9%85%B7%E6%B4%9B%E7%B1%B3",
+    "references": "https://api.codexpet.top/uploads/reference/references/b1b018efc7c32fa1a148abe8a38b0ad3a3c5138d682086e77e37360a85e40754.jpg",
     "referenceUrls": [
-      "https://zh.wikipedia.org/wiki/%E9%85%B7%E6%B4%9B%E7%B1%B3"
+      "https://api.codexpet.top/uploads/reference/references/b1b018efc7c32fa1a148abe8a38b0ad3a3c5138d682086e77e37360a85e40754.jpg"
     ],
-    "referenceImages": [],
-    "referenceThumbnails": [],
+    "referenceImages": [
+      "https://api.codexpet.top/uploads/reference/references/b1b018efc7c32fa1a148abe8a38b0ad3a3c5138d682086e77e37360a85e40754.jpg"
+    ],
+    "referenceThumbnails": [
+      "https://api.codexpet.top/uploads/reference/thumbnails/b1b018efc7c32fa1a148abe8a38b0ad3a3c5138d682086e77e37360a85e40754.webp"
+    ],
     "visualDirection": "Let the community maker decide.",
     "nameLanguages": "Let the maker decide",
     "attribution": "Submitted without a GitHub account. Reference and attribution details should be confirmed during triage. Non-commercial use only.",
@@ -634,7 +640,7 @@
     "status": "completed",
     "labels": [
       "type: request",
-      "status: triage",
+      "status: completed",
       "version: v2",
       "category: other"
     ],
@@ -644,12 +650,12 @@
       "url": "https://github.com/apps/github-actions"
     },
     "assignees": [],
-    "createdAt": "2026-08-06T03:36:50Z",
-    "updatedAt": "2026-08-10T02:45:46Z",
-    "closedAt": "2026-08-10T02:45:46Z",
+    "createdAt": "2026-08-07T10:15:02Z",
+    "updatedAt": "2026-08-10T04:10:04Z",
+    "closedAt": "2026-08-09T06:47:37Z",
     "comments": 1,
     "reactions": 0,
-    "githubUrl": "https://github.com/legeling/awesome-codex-pet/issues/92"
+    "githubUrl": "https://github.com/legeling/awesome-codex-pet/issues/100"
   },
   {
     "number": 95,
@@ -678,7 +684,7 @@
     "status": "completed",
     "labels": [
       "type: request",
-      "status: triage",
+      "status: completed",
       "version: v2",
       "category: other"
     ],
@@ -689,31 +695,27 @@
     },
     "assignees": [],
     "createdAt": "2026-08-06T10:09:06Z",
-    "updatedAt": "2026-08-10T02:45:45Z",
+    "updatedAt": "2026-08-10T04:10:01Z",
     "closedAt": "2026-08-10T02:45:45Z",
     "comments": 1,
     "reactions": 0,
     "githubUrl": "https://github.com/legeling/awesome-codex-pet/issues/95"
   },
   {
-    "number": 100,
-    "character": "星星人",
-    "characterDetails": "星星人",
+    "number": 92,
+    "character": "库洛米",
+    "characterDetails": "库洛米",
     "franchise": "Not provided",
     "category": "other",
     "version": "v2",
     "requestType": "Create a new community interpretation",
     "referenceStatus": "",
-    "references": "https://api.codexpet.top/uploads/reference/references/b1b018efc7c32fa1a148abe8a38b0ad3a3c5138d682086e77e37360a85e40754.jpg",
+    "references": "https://zh.wikipedia.org/wiki/%E9%85%B7%E6%B4%9B%E7%B1%B3",
     "referenceUrls": [
-      "https://api.codexpet.top/uploads/reference/references/b1b018efc7c32fa1a148abe8a38b0ad3a3c5138d682086e77e37360a85e40754.jpg"
+      "https://zh.wikipedia.org/wiki/%E9%85%B7%E6%B4%9B%E7%B1%B3"
     ],
-    "referenceImages": [
-      "https://api.codexpet.top/uploads/reference/references/b1b018efc7c32fa1a148abe8a38b0ad3a3c5138d682086e77e37360a85e40754.jpg"
-    ],
-    "referenceThumbnails": [
-      "https://api.codexpet.top/uploads/reference/thumbnails/b1b018efc7c32fa1a148abe8a38b0ad3a3c5138d682086e77e37360a85e40754.webp"
-    ],
+    "referenceImages": [],
+    "referenceThumbnails": [],
     "visualDirection": "Let the community maker decide.",
     "nameLanguages": "Let the maker decide",
     "attribution": "Submitted without a GitHub account. Reference and attribution details should be confirmed during triage. Non-commercial use only.",
@@ -722,7 +724,7 @@
     "status": "completed",
     "labels": [
       "type: request",
-      "status: triage",
+      "status: completed",
       "version: v2",
       "category: other"
     ],
@@ -732,12 +734,54 @@
       "url": "https://github.com/apps/github-actions"
     },
     "assignees": [],
-    "createdAt": "2026-08-07T10:15:02Z",
-    "updatedAt": "2026-08-09T06:52:28Z",
-    "closedAt": "2026-08-09T06:47:37Z",
+    "createdAt": "2026-08-06T03:36:50Z",
+    "updatedAt": "2026-08-10T04:09:57Z",
+    "closedAt": "2026-08-10T02:45:46Z",
     "comments": 1,
     "reactions": 0,
-    "githubUrl": "https://github.com/legeling/awesome-codex-pet/issues/100"
+    "githubUrl": "https://github.com/legeling/awesome-codex-pet/issues/92"
+  },
+  {
+    "number": 89,
+    "character": "斗地主老农民",
+    "characterDetails": "斗地主老农民",
+    "franchise": "《欢乐斗地主》\n作品来源页：https://www.doudizhu-qq.com/",
+    "category": "other",
+    "version": "v2",
+    "requestType": "",
+    "referenceStatus": "",
+    "references": "",
+    "referenceUrls": [],
+    "referenceImages": [
+      "https://github.com/user-attachments/assets/7cf03f62-8a06-4277-b527-f0d84b2f06ba",
+      "https://github.com/user-attachments/assets/a780fc89-88c1-4daa-a1a8-46240d2290f3",
+      "https://github.com/user-attachments/assets/e2b7fc03-7139-4a54-9898-1339e2fc75df"
+    ],
+    "referenceThumbnails": [],
+    "visualDirection": "",
+    "nameLanguages": "",
+    "attribution": "",
+    "duplicateCheck": "",
+    "state": "closed",
+    "status": "completed",
+    "labels": [
+      "type: request",
+      "status: completed",
+      "version: v2",
+      "category: other"
+    ],
+    "author": {
+      "login": "chenyijing131-art",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/290647209?v=4",
+      "url": "https://github.com/chenyijing131-art"
+    },
+    "assignees": [],
+    "createdAt": "2026-08-05T09:38:15Z",
+    "updatedAt": "2026-08-10T04:09:52Z",
+    "closedAt": "2026-08-10T04:09:48Z",
+    "comments": 1,
+    "reactions": 0,
+    "githubUrl": "https://github.com/legeling/awesome-codex-pet/issues/89"
   },
   {
     "number": 93,
