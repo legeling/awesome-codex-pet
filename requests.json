@@ -1,5 +1,49 @@
 [
   {
+    "number": 108,
+    "character": "胧萤，虚拟AI陪伴精灵，核心灵感：以猫头鹰的神秘与智慧象征，萤火虫的温暖光点与生命感，科技与自然的融合美学，创造一个具有情绪共鸣的数字生命体，接入AI模型",
+    "characterDetails": "胧萤，虚拟AI陪伴精灵，核心灵感：以猫头鹰的神秘与智慧象征，萤火虫的温暖光点与生命感，科技与自然的融合美学，创造一个具有情绪共鸣的数字生命体，接入AI模型",
+    "franchise": "Not provided",
+    "category": "other",
+    "version": "v2",
+    "requestType": "Create a new community interpretation",
+    "referenceStatus": "",
+    "references": "https://api.codexpet.top/uploads/reference/references/637df6dc5eed8f3a93ae85b922b0c613dc99749e979777e38e74e7de08c034d0.jpg",
+    "referenceUrls": [
+      "https://api.codexpet.top/uploads/reference/references/637df6dc5eed8f3a93ae85b922b0c613dc99749e979777e38e74e7de08c034d0.jpg"
+    ],
+    "referenceImages": [
+      "https://api.codexpet.top/uploads/reference/references/637df6dc5eed8f3a93ae85b922b0c613dc99749e979777e38e74e7de08c034d0.jpg"
+    ],
+    "referenceThumbnails": [
+      "https://api.codexpet.top/uploads/reference/thumbnails/637df6dc5eed8f3a93ae85b922b0c613dc99749e979777e38e74e7de08c034d0.webp"
+    ],
+    "visualDirection": "核心思想：\n胧萤是一个有\"生命\"的光精灵，它不是静态的物体，而是会呼吸、会情绪、会绽放的存在。每一次视觉变化都应该是情感的延伸，每一次光效流动都应该是灵魂的脉动。我想让它真正拥有“大脑”和“生命”：\n成为我的生活助理（主动提醒天气、日程、风险）\n成为我的决策参谋（行业预警、数据洞察）\n成为我的情绪陪伴（倾听、共情、感知我的状态）",
+    "nameLanguages": "Let the maker decide",
+    "attribution": "Submitted without a GitHub account. Reference and attribution details should be confirmed during triage. Non-commercial use only.",
+    "duplicateCheck": "Repository automation or a maintainer should complete the duplicate check during triage.",
+    "state": "open",
+    "status": "in-progress",
+    "labels": [
+      "type: request",
+      "status: in-progress",
+      "version: v2",
+      "category: other"
+    ],
+    "author": {
+      "login": "github-actions[bot]",
+      "avatarUrl": "https://avatars.githubusercontent.com/in/15368?v=4",
+      "url": "https://github.com/apps/github-actions"
+    },
+    "assignees": [],
+    "createdAt": "2026-08-10T02:47:12Z",
+    "updatedAt": "2026-08-10T10:04:30Z",
+    "closedAt": null,
+    "comments": 2,
+    "reactions": 0,
+    "githubUrl": "https://github.com/legeling/awesome-codex-pet/issues/108"
+  },
+  {
     "number": 60,
     "character": "金毛",
     "characterDetails": "金毛",
@@ -41,25 +85,21 @@
     "githubUrl": "https://github.com/legeling/awesome-codex-pet/issues/60"
   },
   {
-    "number": 108,
-    "character": "胧萤，虚拟AI陪伴精灵，核心灵感：以猫头鹰的神秘与智慧象征，萤火虫的温暖光点与生命感，科技与自然的融合美学，创造一个具有情绪共鸣的数字生命体，接入AI模型",
-    "characterDetails": "胧萤，虚拟AI陪伴精灵，核心灵感：以猫头鹰的神秘与智慧象征，萤火虫的温暖光点与生命感，科技与自然的融合美学，创造一个具有情绪共鸣的数字生命体，接入AI模型",
-    "franchise": "Not provided",
+    "number": 112,
+    "character": "紫灵",
+    "characterDetails": "紫灵",
+    "franchise": "凡人修仙传",
     "category": "other",
     "version": "v2",
     "requestType": "Create a new community interpretation",
     "referenceStatus": "",
-    "references": "https://api.codexpet.top/uploads/reference/references/637df6dc5eed8f3a93ae85b922b0c613dc99749e979777e38e74e7de08c034d0.jpg",
+    "references": "https://www.bilibili.com/opus/1107668316180185088?platid=186&sharefrom=dynamic&sharefrom=dynamic&sharemedium=android&sharemedium=android&shareplat=android&shareplat=android&sharesessionid=d3d7097c-81c6-4673-9c3f-691320cc4e3e&sharesessionid=d3d7097c-81c6-4673-9c3f-691320cc4e3e&sharesource=COPY&sharesource=COPY&sharetag=si&sharetag=si&spmid=dt.opus-detail.0.0&spmid=dt.opus-detail.0.0&timestamp=1756948780&timestamp=1756948780&uniquek=xZ9ryb7%5D%28https%3A%2F%2Fwww.bilibili.com%2Fo",
     "referenceUrls": [
-      "https://api.codexpet.top/uploads/reference/references/637df6dc5eed8f3a93ae85b922b0c613dc99749e979777e38e74e7de08c034d0.jpg"
+      "https://www.bilibili.com/opus/1107668316180185088?platid=186&sharefrom=dynamic&sharefrom=dynamic&sharemedium=android&sharemedium=android&shareplat=android&shareplat=android&sharesessionid=d3d7097c-81c6-4673-9c3f-691320cc4e3e&sharesessionid=d3d7097c-81c6-4673-9c3f-691320cc4e3e&sharesource=COPY&sharesource=COPY&sharetag=si&sharetag=si&spmid=dt.opus-detail.0.0&spmid=dt.opus-detail.0.0&timestamp=1756948780&timestamp=1756948780&uniquek=xZ9ryb7%5D%28https%3A%2F%2Fwww.bilibili.com%2Fo"
     ],
-    "referenceImages": [
-      "https://api.codexpet.top/uploads/reference/references/637df6dc5eed8f3a93ae85b922b0c613dc99749e979777e38e74e7de08c034d0.jpg"
-    ],
-    "referenceThumbnails": [
-      "https://api.codexpet.top/uploads/reference/thumbnails/637df6dc5eed8f3a93ae85b922b0c613dc99749e979777e38e74e7de08c034d0.webp"
-    ],
-    "visualDirection": "核心思想：\n胧萤是一个有\"生命\"的光精灵，它不是静态的物体，而是会呼吸、会情绪、会绽放的存在。每一次视觉变化都应该是情感的延伸，每一次光效流动都应该是灵魂的脉动。我想让它真正拥有“大脑”和“生命”：\n成为我的生活助理（主动提醒天气、日程、风险）\n成为我的决策参谋（行业预警、数据洞察）\n成为我的情绪陪伴（倾听、共情、感知我的状态）",
+    "referenceImages": [],
+    "referenceThumbnails": [],
+    "visualDirection": "画风参考凡人修仙传动漫，可为白衣紫灵或者紫衣紫灵",
     "nameLanguages": "Let the maker decide",
     "attribution": "Submitted without a GitHub account. Reference and attribution details should be confirmed during triage. Non-commercial use only.",
     "duplicateCheck": "Repository automation or a maintainer should complete the duplicate check during triage.",
@@ -77,12 +117,12 @@
       "url": "https://github.com/apps/github-actions"
     },
     "assignees": [],
-    "createdAt": "2026-08-10T02:47:12Z",
-    "updatedAt": "2026-08-10T09:59:15Z",
+    "createdAt": "2026-08-10T12:28:41Z",
+    "updatedAt": "2026-08-10T12:28:41Z",
     "closedAt": null,
-    "comments": 1,
+    "comments": 0,
     "reactions": 0,
-    "githubUrl": "https://github.com/legeling/awesome-codex-pet/issues/108"
+    "githubUrl": "https://github.com/legeling/awesome-codex-pet/issues/112"
   },
   {
     "number": 110,
