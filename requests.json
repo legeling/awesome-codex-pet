@@ -85,6 +85,50 @@
     "githubUrl": "https://github.com/legeling/awesome-codex-pet/issues/60"
   },
   {
+    "number": 114,
+    "character": "切莉",
+    "characterDetails": "切莉",
+    "franchise": "Not provided",
+    "category": "other",
+    "version": "v2",
+    "requestType": "Create a new community interpretation",
+    "referenceStatus": "",
+    "references": "https://api.codexpet.top/uploads/reference/references/9fdff44458f02544c364e06ee49fd5bdaec89715876052d4489488b935db63a7.jpg",
+    "referenceUrls": [
+      "https://api.codexpet.top/uploads/reference/references/9fdff44458f02544c364e06ee49fd5bdaec89715876052d4489488b935db63a7.jpg"
+    ],
+    "referenceImages": [
+      "https://api.codexpet.top/uploads/reference/references/9fdff44458f02544c364e06ee49fd5bdaec89715876052d4489488b935db63a7.jpg"
+    ],
+    "referenceThumbnails": [
+      "https://api.codexpet.top/uploads/reference/thumbnails/9fdff44458f02544c364e06ee49fd5bdaec89715876052d4489488b935db63a7.webp"
+    ],
+    "visualDirection": "Let the community maker decide.",
+    "nameLanguages": "Let the maker decide",
+    "attribution": "Submitted without a GitHub account. Reference and attribution details should be confirmed during triage. Non-commercial use only.",
+    "duplicateCheck": "Repository automation or a maintainer should complete the duplicate check during triage.",
+    "state": "open",
+    "status": "triage",
+    "labels": [
+      "type: request",
+      "status: triage",
+      "version: v2",
+      "category: other"
+    ],
+    "author": {
+      "login": "github-actions[bot]",
+      "avatarUrl": "https://avatars.githubusercontent.com/in/15368?v=4",
+      "url": "https://github.com/apps/github-actions"
+    },
+    "assignees": [],
+    "createdAt": "2026-08-10T16:11:38Z",
+    "updatedAt": "2026-08-10T16:11:38Z",
+    "closedAt": null,
+    "comments": 0,
+    "reactions": 0,
+    "githubUrl": "https://github.com/legeling/awesome-codex-pet/issues/114"
+  },
+  {
     "number": 112,
     "character": "紫灵",
     "characterDetails": "紫灵",
