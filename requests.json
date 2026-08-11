@@ -1,5 +1,49 @@
 [
   {
+    "number": 115,
+    "character": "旭旭宝宝",
+    "characterDetails": "旭旭宝宝",
+    "franchise": "Not provided",
+    "category": "other",
+    "version": "v2",
+    "requestType": "Create a new community interpretation",
+    "referenceStatus": "",
+    "references": "https://api.codexpet.top/uploads/reference/references/99385ba28fbe54ef772506badaf2002bdd9e7ccda6c030ceff4c88c936194a9a.png",
+    "referenceUrls": [
+      "https://api.codexpet.top/uploads/reference/references/99385ba28fbe54ef772506badaf2002bdd9e7ccda6c030ceff4c88c936194a9a.png"
+    ],
+    "referenceImages": [
+      "https://api.codexpet.top/uploads/reference/references/99385ba28fbe54ef772506badaf2002bdd9e7ccda6c030ceff4c88c936194a9a.png"
+    ],
+    "referenceThumbnails": [
+      "https://api.codexpet.top/uploads/reference/thumbnails/99385ba28fbe54ef772506badaf2002bdd9e7ccda6c030ceff4c88c936194a9a.webp"
+    ],
+    "visualDirection": "写实画风。提取图片中这个人的图像。程序生成后，让这个人在屏幕上爬行玩耍，模仿猴子爬行的动作。爬动的姿势正常自然一点，要真的像在爬。不要出现奇怪的动作。保留这个人的面部特征、发型和服装，并自然地填充手部以及任何被遮挡的部分。打开程序后，这个人可以在桌面上爬行玩耍，并且还能把桌面上的应用程序边缘和窗口边缘当作障碍物进行互动。我希望他可以被我拖拽到窗口壁松开后，攀爬在我的某个窗口的壁上，根据不同的位置决定不同的停留方式。例如坐在窗口上，我把窗口关闭就会掉下来。或者攀岩在窗口上，我把窗口关闭就会掉下来等等。选择桌宠鼠标右键可以挑选互动方式，例如让桌宠说:“你干的很不错”，或者是说:“今天挣多少了？”说这两句话的时候时候桌宠都是坐在椅子上拿着一个小皮鞭。选择原地休息的时候桌宠是保持静止前动作不动的。桌宠对话气泡不要遮挡人脸，要是[粉色】的。",
+    "nameLanguages": "Let the maker decide",
+    "attribution": "Submitted without a GitHub account. Reference and attribution details should be confirmed during triage. Non-commercial use only.",
+    "duplicateCheck": "Repository automation or a maintainer should complete the duplicate check during triage.",
+    "state": "open",
+    "status": "triage",
+    "labels": [
+      "type: request",
+      "status: triage",
+      "version: v2",
+      "category: other"
+    ],
+    "author": {
+      "login": "github-actions[bot]",
+      "avatarUrl": "https://avatars.githubusercontent.com/in/15368?v=4",
+      "url": "https://github.com/apps/github-actions"
+    },
+    "assignees": [],
+    "createdAt": "2026-08-11T07:40:28Z",
+    "updatedAt": "2026-08-11T07:40:28Z",
+    "closedAt": null,
+    "comments": 0,
+    "reactions": 0,
+    "githubUrl": "https://github.com/legeling/awesome-codex-pet/issues/115"
+  },
+  {
     "number": 114,
     "character": "切莉",
     "characterDetails": "切莉",
