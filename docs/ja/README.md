@@ -12,7 +12,7 @@
 
 <a href="https://codexpet.top/ja"><img src="../../assets/cover/awesome-codex-pet-cover.png" alt="Awesome Codex Pet ギャラリーを開く"></a>
 
-![pets: 190](https://img.shields.io/badge/pets-190-2ea44f) ![categories: 11](https://img.shields.io/badge/categories-11-0969da) ![languages: en | zh--CN | ko | ja | es](https://img.shields.io/badge/languages-en%20%7C%20zh--CN%20%7C%20ko%20%7C%20ja%20%7C%20es-8250df) ![code: MIT](https://img.shields.io/badge/code-MIT-111111) ![assets: CC BY--NC 4.0](https://img.shields.io/badge/assets-CC%20BY--NC%204.0-f97316) ![install: one command](https://img.shields.io/badge/install-one%20command-111111) [![Pet previews](https://github.com/legeling/awesome-codex-pet/actions/workflows/pet-previews.yml/badge.svg)](https://github.com/legeling/awesome-codex-pet/actions/workflows/pet-previews.yml)
+![pets: 192](https://img.shields.io/badge/pets-192-2ea44f) ![categories: 11](https://img.shields.io/badge/categories-11-0969da) ![languages: en | zh--CN | ko | ja | es](https://img.shields.io/badge/languages-en%20%7C%20zh--CN%20%7C%20ko%20%7C%20ja%20%7C%20es-8250df) ![code: MIT](https://img.shields.io/badge/code-MIT-111111) ![assets: CC BY--NC 4.0](https://img.shields.io/badge/assets-CC%20BY--NC%204.0-f97316) ![install: one command](https://img.shields.io/badge/install-one%20command-111111) [![Pet previews](https://github.com/legeling/awesome-codex-pet/actions/workflows/pet-previews.yml/badge.svg)](https://github.com/legeling/awesome-codex-pet/actions/workflows/pet-previews.yml)
 
 </div>
 
@@ -752,6 +752,13 @@ powershell -NoProfile -ExecutionPolicy Bypass -Command "iwr -UseB -MaximumRedire
 </table>
 
 <table>
+<tr><th>名前</th><td colspan="5"><a href="../../pets/chud-codex--jorge-cuevas90003">Chud Codex</a> · 作者 <a href="https://github.com/Jorge-Cuevas90003">@Jorge-Cuevas90003</a> · オリジナルキャラクター · v2</td></tr>
+<tr><th>インストール</th><td colspan="5"><code>curl -fsSL --proto '=https' --tlsv1.2 https://raw.githubusercontent.com/legeling/awesome-codex-pet/main/scripts/install-pet.sh | bash -s -- --raw-base https://raw.githubusercontent.com/legeling/awesome-codex-pet/main chud-codex--jorge-cuevas90003</code></td></tr>
+<tr><th>アクション</th><td><strong>待機</strong></td><td><strong>手を振る</strong></td><td><strong>走る</strong></td><td><strong>待機中</strong></td><td><strong>レビュー</strong></td></tr>
+<tr><th>プレビュー</th><td><img src="https://codexpet.top/assets/previews/chud-codex--jorge-cuevas90003/webp/idle.webp" alt="Chud Codex idle" width="120" height="130"></td><td><img src="https://codexpet.top/assets/previews/chud-codex--jorge-cuevas90003/webp/waving.webp" alt="Chud Codex waving" width="120" height="130"></td><td><img src="https://codexpet.top/assets/previews/chud-codex--jorge-cuevas90003/webp/running-right.webp" alt="Chud Codex running-right" width="120" height="130"></td><td><img src="https://codexpet.top/assets/previews/chud-codex--jorge-cuevas90003/webp/waiting.webp" alt="Chud Codex waiting" width="120" height="130"></td><td><img src="https://codexpet.top/assets/previews/chud-codex--jorge-cuevas90003/webp/review.webp" alt="Chud Codex review" width="120" height="130"></td></tr>
+</table>
+
+<table>
 <tr><th>名前</th><td colspan="5"><a href="../../pets/diana--am">Diana</a> · 作者 @am · オリジナルキャラクター · v1</td></tr>
 <tr><th>インストール</th><td colspan="5"><code>curl -fsSL --proto '=https' --tlsv1.2 https://raw.githubusercontent.com/legeling/awesome-codex-pet/main/scripts/install-pet.sh | bash -s -- --raw-base https://raw.githubusercontent.com/legeling/awesome-codex-pet/main diana--am</code></td></tr>
 <tr><th>アクション</th><td><strong>待機</strong></td><td><strong>手を振る</strong></td><td><strong>走る</strong></td><td><strong>待機中</strong></td><td><strong>レビュー</strong></td></tr>
@@ -1222,6 +1229,13 @@ powershell -NoProfile -ExecutionPolicy Bypass -Command "iwr -UseB -MaximumRedire
 <tr><th>インストール</th><td colspan="5"><code>curl -fsSL --proto '=https' --tlsv1.2 https://raw.githubusercontent.com/legeling/awesome-codex-pet/main/scripts/install-pet.sh | bash -s -- --raw-base https://raw.githubusercontent.com/legeling/awesome-codex-pet/main zichao-xiong--z-kzhang</code></td></tr>
 <tr><th>アクション</th><td><strong>待機</strong></td><td><strong>手を振る</strong></td><td><strong>走る</strong></td><td><strong>待機中</strong></td><td><strong>レビュー</strong></td></tr>
 <tr><th>プレビュー</th><td><img src="https://codexpet.top/assets/previews/zichao-xiong--z-kzhang/webp/idle.webp" alt="自嘲熊 idle" width="120" height="130"></td><td><img src="https://codexpet.top/assets/previews/zichao-xiong--z-kzhang/webp/waving.webp" alt="自嘲熊 waving" width="120" height="130"></td><td><img src="https://codexpet.top/assets/previews/zichao-xiong--z-kzhang/webp/running-right.webp" alt="自嘲熊 running-right" width="120" height="130"></td><td><img src="https://codexpet.top/assets/previews/zichao-xiong--z-kzhang/webp/waiting.webp" alt="自嘲熊 waiting" width="120" height="130"></td><td><img src="https://codexpet.top/assets/previews/zichao-xiong--z-kzhang/webp/review.webp" alt="自嘲熊 review" width="120" height="130"></td></tr>
+</table>
+
+<table>
+<tr><th>名前</th><td colspan="5"><a href="../../pets/jinmao--legeling">金毛</a> · 作者 <a href="https://github.com/legeling">@legeling</a> · 動物の仲間 · v2</td></tr>
+<tr><th>インストール</th><td colspan="5"><code>curl -fsSL --proto '=https' --tlsv1.2 https://raw.githubusercontent.com/legeling/awesome-codex-pet/main/scripts/install-pet.sh | bash -s -- --raw-base https://raw.githubusercontent.com/legeling/awesome-codex-pet/main jinmao--legeling</code></td></tr>
+<tr><th>アクション</th><td><strong>待機</strong></td><td><strong>手を振る</strong></td><td><strong>走る</strong></td><td><strong>待機中</strong></td><td><strong>レビュー</strong></td></tr>
+<tr><th>プレビュー</th><td><img src="https://codexpet.top/assets/previews/jinmao--legeling/webp/idle.webp" alt="金毛 idle" width="120" height="130"></td><td><img src="https://codexpet.top/assets/previews/jinmao--legeling/webp/waving.webp" alt="金毛 waving" width="120" height="130"></td><td><img src="https://codexpet.top/assets/previews/jinmao--legeling/webp/running-right.webp" alt="金毛 running-right" width="120" height="130"></td><td><img src="https://codexpet.top/assets/previews/jinmao--legeling/webp/waiting.webp" alt="金毛 waiting" width="120" height="130"></td><td><img src="https://codexpet.top/assets/previews/jinmao--legeling/webp/review.webp" alt="金毛 review" width="120" height="130"></td></tr>
 </table>
 
 <table>

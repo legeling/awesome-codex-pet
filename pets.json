@@ -230,6 +230,19 @@
     "spriteVersionNumber": 2
   },
   {
+    "slug": "chud-codex--jorge-cuevas90003",
+    "name": "Chud Codex",
+    "author": "Jorge",
+    "author_handle": "Jorge-Cuevas90003",
+    "author_url": "https://github.com/Jorge-Cuevas90003",
+    "primary_category": "Original Characters",
+    "canonical_key": "original/jorge-cuevas90003/chud-codex",
+    "collections": [],
+    "license": "CC BY-NC 4.0. Original AI-assisted artwork created for and submitted by Jorge; no third-party source assets were used.",
+    "description": "An original grimdark chibi sci-fi cadet in black-and-brass armor with a glowing red visor and an absurdly serious attitude.",
+    "spriteVersionNumber": 2
+  },
+  {
     "slug": "citlali--zaytsevzy",
     "name": "Citlali",
     "localized_names": { "en": "Citlali", "zh": "茜特菈莉" },
@@ -2290,6 +2303,20 @@
     "collections": ["spy-x-family"],
     "license": "Non-commercial use only. Independently AI-generated community fan art; no source pixels copied.",
     "description": "An independently AI-generated, non-commercial Bond Forger community pet with a huge fluffy white silhouette, small black ears, gentle sleepy eyes, black bow tie, nine standard animation states, and a complete 16-direction look loop.",
+    "spriteVersionNumber": 2
+  },
+  {
+    "slug": "jinmao--legeling",
+    "name": "金毛",
+    "author": "Legeling",
+    "author_handle": "legeling",
+    "author_url": "https://github.com/legeling",
+    "primary_category": "Animals",
+    "canonical_key": "animal/golden-retriever",
+    "variant_note": "A pale cream-gold, fluffy puppy interpretation with oversized floppy ears, a white ruff, pink paw pads, and a chartreuse tennis ball held in its mouth; visually distinct from the honey-gold, teal-collar Sunny Retriever variant.",
+    "collections": ["animal-companions"],
+    "license": "CC BY-NC 4.0",
+    "description": "一只叼着网球、垂着大耳朵的奶油浅金色治愈系金毛幼犬，包含九组任务动画与完整的 16 方向环视动作。",
     "spriteVersionNumber": 2
   },
   {

@@ -193,6 +193,16 @@
       "spritesheetWidth": 1536,
       "spritesheetHeight": 2288
     },
+    "chud-codex--jorge-cuevas90003": {
+      "name": "Chud Codex",
+      "spriteVersionNumber": 2,
+      "petJsonSha256": "4a9f2ef210460cb1e6aff38d9a504b77e4e70b529c8e5c5ae2371a390789e6f9",
+      "petJsonBytes": 288,
+      "spritesheetSha256": "e1211e3317065e70ef342f97fcc37337036c1e41ab2818db5c8c378c976dfc79",
+      "spritesheetBytes": 2480866,
+      "spritesheetWidth": 1536,
+      "spritesheetHeight": 2288
+    },
     "citlali--zaytsevzy": {
       "name": "Citlali",
       "spriteVersionNumber": 2,
@@ -1870,6 +1880,16 @@
       "petJsonBytes": 305,
       "spritesheetSha256": "f6059c72fc0431d69721e69d63a2bbcf78be7f73df72c927fd3a4b10649f7cef",
       "spritesheetBytes": 1817320,
+      "spritesheetWidth": 1536,
+      "spritesheetHeight": 2288
+    },
+    "jinmao--legeling": {
+      "name": "金毛",
+      "spriteVersionNumber": 2,
+      "petJsonSha256": "87730d2ed736f13fc4516d7ac48cfaefeb4d967b75a100cdb2efc4b3d62fdca7",
+      "petJsonBytes": 246,
+      "spritesheetSha256": "1845ef8174a902f72fe269af9e22efff5c2cab9e0bb9aa330a0acb40569a74f6",
+      "spritesheetBytes": 2033344,
       "spritesheetWidth": 1536,
       "spritesheetHeight": 2288
     },
