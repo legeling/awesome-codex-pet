@@ -2220,6 +2220,19 @@
     "spriteVersionNumber": 2
   },
   {
+    "slug": "longying--legeling",
+    "name": "胧萤",
+    "author": "Legeling",
+    "author_handle": "legeling",
+    "author_url": "https://github.com/legeling",
+    "primary_category": "Others",
+    "canonical_key": "original/longying-ai-companion",
+    "collections": [],
+    "license": "Non-commercial use only. Independently AI-generated community artwork based on a community request; no source pixels copied.",
+    "description": "融合猫头鹰的智慧轮廓、萤火虫般的暖金生命核心与虹彩自然科技材质的 AI 陪伴精灵，包含九组任务动画与完整的 16 方向环视动作。",
+    "spriteVersionNumber": 2
+  },
+  {
     "slug": "zichao-xiong--z-kzhang",
     "name": "自嘲熊",
     "author": "z.kzhang",

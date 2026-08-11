@@ -1813,6 +1813,16 @@
       "spritesheetWidth": 1536,
       "spritesheetHeight": 2288
     },
+    "longying--legeling": {
+      "name": "胧萤",
+      "spriteVersionNumber": 2,
+      "petJsonSha256": "fb6328d1430e8c07ac4c7caa790c034947b86886a18d8c1973caf166da65f345",
+      "petJsonBytes": 238,
+      "spritesheetSha256": "6d594f8dcfa19f24ef7e3dd2381d14f75a60a4e146c312d7e54e9b7438eeca3a",
+      "spritesheetBytes": 3088986,
+      "spritesheetWidth": 1536,
+      "spritesheetHeight": 2288
+    },
     "zichao-xiong--z-kzhang": {
       "name": "自嘲熊",
       "spriteVersionNumber": 1,
