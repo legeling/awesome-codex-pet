@@ -1892,16 +1892,6 @@
       "spritesheetBytes": 2402740,
       "spritesheetWidth": 1536,
       "spritesheetHeight": 1872
-    },
-    "chud-codex--jorge-cuevas90003": {
-      "name": "Chud Codex",
-      "spriteVersionNumber": 2,
-      "petJsonSha256": "4a9f2ef210460cb1e6aff38d9a504b77e4e70b529c8e5c5ae2371a390789e6f9",
-      "petJsonBytes": 288,
-      "spritesheetSha256": "95736a67b7a787ba82c9e4b15a0a4d482e7f138d07cd0cee178d4f0b40a6d50f",
-      "spritesheetBytes": 3065274,
-      "spritesheetWidth": 1536,
-      "spritesheetHeight": 2288
     }
   }
 }
