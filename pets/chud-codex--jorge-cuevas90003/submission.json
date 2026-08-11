@@ -1,0 +1,32 @@
+{
+  "slug": "chud-codex--jorge-cuevas90003",
+  "pet_slug": "chud-codex",
+  "author_slug": "jorge-cuevas90003",
+  "name": "Chud Codex",
+  "author": "Jorge",
+  "author_handle": "Jorge-Cuevas90003",
+  "author_url": "https://github.com/Jorge-Cuevas90003",
+  "primary_category": "Original Characters",
+  "canonical_key": "original/jorge-cuevas90003/chud-codex",
+  "tags": [
+    "grimdark",
+    "sci-fi",
+    "cadet",
+    "armored",
+    "chibi",
+    "original",
+    "ai-generated",
+    "v2"
+  ],
+  "collections": [],
+  "source_type": "ai-generated",
+  "source_url": "",
+  "source_note": "Original AI-assisted character. 88 poses generated pose-by-pose anchored to a single canonical idle strip, then segmented, normalised and composited programmatically.",
+  "license": "CC BY-NC 4.0. Original AI-assisted artwork created for and submitted by Jorge; no third-party source assets were used.",
+  "description": "An original grimdark chibi sci-fi cadet in black-and-brass armor with a glowing red visor and an absurdly serious attitude.",
+  "codex_install": {
+    "pet_json": "pet.json",
+    "spritesheet": "spritesheet.webp"
+  },
+  "spritesheet_sha256": "95736a67b7a787ba82c9e4b15a0a4d482e7f138d07cd0cee178d4f0b40a6d50f"
+}
