@@ -2052,6 +2052,20 @@
     "spriteVersionNumber": 1
   },
   {
+    "slug": "bubu-codebrew-bear--xxhh0822",
+    "name": "布布",
+    "author": "xxhh0822",
+    "author_handle": "xxhh0822",
+    "author_url": "https://github.com/xxhh0822",
+    "primary_category": "Mascots",
+    "canonical_key": "original/xxhh0822/bubu-codebrew-bear",
+    "variant_note": "An independently AI-generated v2 coding-bear mascot with a cyan laptop and coffee mug, visually and technically distinct from the existing Bubu submission.",
+    "collections": [],
+    "license": "CC BY-NC 4.0. Original AI-assisted artwork submitted by xxhh0822 for non-commercial use; no third-party source pixels were copied.",
+    "description": "A focused cocoa-brown bear coding at a cyan laptop with a small white coffee mug.",
+    "spriteVersionNumber": 2
+  },
+  {
     "slug": "kuromi--legeling",
     "name": "库洛米",
     "localized_names": { "en": "Kuromi", "zh": "库洛米" },

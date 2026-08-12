@@ -1673,6 +1673,16 @@
       "spritesheetWidth": 1536,
       "spritesheetHeight": 1872
     },
+    "bubu-codebrew-bear--xxhh0822": {
+      "name": "布布",
+      "spriteVersionNumber": 2,
+      "petJsonSha256": "04c79ade5348bc8069e68ce305b8c959bf25b44f1620ef0bd1829287391c3a71",
+      "petJsonBytes": 241,
+      "spritesheetSha256": "20c82a9e88e9561ab3a6f632d8eed1cca5df755fcb500ccdf9a4b576e69e1334",
+      "spritesheetBytes": 2387290,
+      "spritesheetWidth": 1536,
+      "spritesheetHeight": 2288
+    },
     "kuromi--legeling": {
       "name": "库洛米",
       "spriteVersionNumber": 2,
