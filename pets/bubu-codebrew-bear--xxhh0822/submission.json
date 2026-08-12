@@ -1,0 +1,33 @@
+{
+  "slug": "bubu-codebrew-bear--xxhh0822",
+  "pet_slug": "bubu-codebrew-bear",
+  "author_slug": "xxhh0822",
+  "name": "布布",
+  "author": "xxhh0822",
+  "author_handle": "xxhh0822",
+  "author_url": "https://github.com/xxhh0822",
+  "primary_category": "Mascots",
+  "canonical_key": "original/xxhh0822/bubu-codebrew-bear",
+  "variant_note": "An independently AI-generated v2 coding-bear mascot with a cyan laptop and coffee mug, visually and technically distinct from the existing Bubu submission.",
+  "tags": [
+    "bear",
+    "coding",
+    "laptop",
+    "coffee",
+    "chibi",
+    "original",
+    "ai-generated",
+    "v2"
+  ],
+  "collections": [],
+  "source_type": "ai-generated",
+  "source_url": "",
+  "source_note": "Original AI-assisted Codex pet created from a user-supplied bear-at-workstation reference. The final v2 spritesheet was independently generated and assembled; no third-party source pixels were copied.",
+  "license": "CC BY-NC 4.0. Original AI-assisted artwork submitted by xxhh0822 for non-commercial use; no third-party source pixels were copied.",
+  "description": "A focused cocoa-brown bear coding at a cyan laptop with a small white coffee mug.",
+  "codex_install": {
+    "pet_json": "pet.json",
+    "spritesheet": "spritesheet.webp"
+  },
+  "spritesheet_sha256": "20c82a9e88e9561ab3a6f632d8eed1cca5df755fcb500ccdf9a4b576e69e1334"
+}
