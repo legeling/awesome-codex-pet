@@ -1,5 +1,45 @@
 [
   {
+    "number": 119,
+    "character": "Spiderman",
+    "characterDetails": "Spiderman",
+    "franchise": "Not provided",
+    "category": "other",
+    "version": "v2",
+    "requestType": "Create a new community interpretation",
+    "referenceStatus": "",
+    "references": "https://www.google.com/url?sa=t&source=web&rct=j&url=https%3A%2F%2Fwww.reddit.com%2Fr%2FSpiderman%2Fcomments%2F1q5ql90%2Fwhatshappeningwithspidermanbrandnewday%2F&ved=0CBYQjRxqFwoTCPCmt-f-mpYDFQAAAAAdAAAAABA3&opi=89978449",
+    "referenceUrls": [
+      "https://www.google.com/url?sa=t&source=web&rct=j&url=https%3A%2F%2Fwww.reddit.com%2Fr%2FSpiderman%2Fcomments%2F1q5ql90%2Fwhatshappeningwithspidermanbrandnewday%2F&ved=0CBYQjRxqFwoTCPCmt-f-mpYDFQAAAAAdAAAAABA3&opi=89978449"
+    ],
+    "referenceImages": [],
+    "referenceThumbnails": [],
+    "visualDirection": "Let the community maker decide.",
+    "nameLanguages": "Let the maker decide",
+    "attribution": "Submitted without a GitHub account. Reference and attribution details should be confirmed during triage. Non-commercial use only.",
+    "duplicateCheck": "Repository automation or a maintainer should complete the duplicate check during triage.",
+    "state": "open",
+    "status": "triage",
+    "labels": [
+      "type: request",
+      "status: triage",
+      "version: v2",
+      "category: other"
+    ],
+    "author": {
+      "login": "github-actions[bot]",
+      "avatarUrl": "https://avatars.githubusercontent.com/in/15368?v=4",
+      "url": "https://github.com/apps/github-actions"
+    },
+    "assignees": [],
+    "createdAt": "2026-08-12T12:02:54Z",
+    "updatedAt": "2026-08-12T12:02:54Z",
+    "closedAt": null,
+    "comments": 0,
+    "reactions": 0,
+    "githubUrl": "https://github.com/legeling/awesome-codex-pet/issues/119"
+  },
+  {
     "number": 117,
     "character": "齐天大圣孙悟空",
     "characterDetails": "齐天大圣孙悟空",
