@@ -1,5 +1,49 @@
 [
   {
+    "number": 105,
+    "character": "我的刀盾",
+    "characterDetails": "我的刀盾",
+    "franchise": "Not provided",
+    "category": "other",
+    "version": "v2",
+    "requestType": "Create a new community interpretation",
+    "referenceStatus": "",
+    "references": "https://api.codexpet.top/uploads/reference/references/4b4c70860d673ae01d991f1ce6b6d904c6ce8da4e0d51c2ed68fc4f9774be9f0.png",
+    "referenceUrls": [
+      "https://api.codexpet.top/uploads/reference/references/4b4c70860d673ae01d991f1ce6b6d904c6ce8da4e0d51c2ed68fc4f9774be9f0.png"
+    ],
+    "referenceImages": [
+      "https://api.codexpet.top/uploads/reference/references/4b4c70860d673ae01d991f1ce6b6d904c6ce8da4e0d51c2ed68fc4f9774be9f0.png"
+    ],
+    "referenceThumbnails": [
+      "https://api.codexpet.top/uploads/reference/thumbnails/4b4c70860d673ae01d991f1ce6b6d904c6ce8da4e0d51c2ed68fc4f9774be9f0.webp"
+    ],
+    "visualDirection": "Let the community maker decide.",
+    "nameLanguages": "Let the maker decide",
+    "attribution": "Submitted without a GitHub account. Reference and attribution details should be confirmed during triage. Non-commercial use only.",
+    "duplicateCheck": "Repository automation or a maintainer should complete the duplicate check during triage.",
+    "state": "open",
+    "status": "triage",
+    "labels": [
+      "type: request",
+      "status: triage",
+      "version: v2",
+      "category: other"
+    ],
+    "author": {
+      "login": "github-actions[bot]",
+      "avatarUrl": "https://avatars.githubusercontent.com/in/15368?v=4",
+      "url": "https://github.com/apps/github-actions"
+    },
+    "assignees": [],
+    "createdAt": "2026-08-09T14:55:17Z",
+    "updatedAt": "2026-08-13T05:13:25Z",
+    "closedAt": null,
+    "comments": 1,
+    "reactions": 0,
+    "githubUrl": "https://github.com/legeling/awesome-codex-pet/issues/105"
+  },
+  {
     "number": 121,
     "character": "阿罗那",
     "characterDetails": "阿罗那",
@@ -342,50 +386,6 @@
     "comments": 0,
     "reactions": 0,
     "githubUrl": "https://github.com/legeling/awesome-codex-pet/issues/110"
-  },
-  {
-    "number": 105,
-    "character": "我的刀盾",
-    "characterDetails": "我的刀盾",
-    "franchise": "Not provided",
-    "category": "other",
-    "version": "v2",
-    "requestType": "Create a new community interpretation",
-    "referenceStatus": "",
-    "references": "https://api.codexpet.top/uploads/reference/references/4b4c70860d673ae01d991f1ce6b6d904c6ce8da4e0d51c2ed68fc4f9774be9f0.png",
-    "referenceUrls": [
-      "https://api.codexpet.top/uploads/reference/references/4b4c70860d673ae01d991f1ce6b6d904c6ce8da4e0d51c2ed68fc4f9774be9f0.png"
-    ],
-    "referenceImages": [
-      "https://api.codexpet.top/uploads/reference/references/4b4c70860d673ae01d991f1ce6b6d904c6ce8da4e0d51c2ed68fc4f9774be9f0.png"
-    ],
-    "referenceThumbnails": [
-      "https://api.codexpet.top/uploads/reference/thumbnails/4b4c70860d673ae01d991f1ce6b6d904c6ce8da4e0d51c2ed68fc4f9774be9f0.webp"
-    ],
-    "visualDirection": "Let the community maker decide.",
-    "nameLanguages": "Let the maker decide",
-    "attribution": "Submitted without a GitHub account. Reference and attribution details should be confirmed during triage. Non-commercial use only.",
-    "duplicateCheck": "Repository automation or a maintainer should complete the duplicate check during triage.",
-    "state": "open",
-    "status": "triage",
-    "labels": [
-      "type: request",
-      "status: triage",
-      "version: v2",
-      "category: other"
-    ],
-    "author": {
-      "login": "github-actions[bot]",
-      "avatarUrl": "https://avatars.githubusercontent.com/in/15368?v=4",
-      "url": "https://github.com/apps/github-actions"
-    },
-    "assignees": [],
-    "createdAt": "2026-08-09T14:55:17Z",
-    "updatedAt": "2026-08-09T14:55:17Z",
-    "closedAt": null,
-    "comments": 0,
-    "reactions": 0,
-    "githubUrl": "https://github.com/legeling/awesome-codex-pet/issues/105"
   },
   {
     "number": 101,
