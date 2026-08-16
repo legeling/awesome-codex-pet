@@ -1,0 +1,34 @@
+{
+  "slug": "wukong--jorge-cuevas90003",
+  "pet_slug": "wukong",
+  "author_slug": "jorge-cuevas90003",
+  "name": "悟空",
+  "localized_names": {
+    "en": "Wukong",
+    "zh": "悟空"
+  },
+  "author": "Jorge Cuevas",
+  "author_handle": "Jorge-Cuevas90003",
+  "author_url": "https://github.com/Jorge-Cuevas90003",
+  "primary_category": "Game Characters",
+  "canonical_key": "league-of-legends/wukong",
+  "tags": [
+    "league-of-legends",
+    "wukong",
+    "monkey-king",
+    "chibi",
+    "ai-generated",
+    "v2"
+  ],
+  "collections": [],
+  "source_type": "ai-generated",
+  "source_url": "https://www.leagueoflegends.com/en-us/champions/monkeyking/",
+  "source_note": "基于《英雄联盟》悟空的官方角色页面进行独立 AI 辅助二创；未复制官方美术、像素或游戏资源。最终图集由独立生成的动作条、确定性分帧和透明边缘清理组成。",
+  "license": "仅限非商业使用。独立 AI 辅助同人创作；不隶属于或获 Riot Games 认可，角色及相关知识产权归其权利人所有。",
+  "description": "《英雄联盟》悟空的原创 Q 版同人演绎：碧玉与金色战甲、红色飘带和如意金箍棒，包含九种任务动画与完整 16 方向环视。",
+  "codex_install": {
+    "pet_json": "pet.json",
+    "spritesheet": "spritesheet.webp"
+  },
+  "spritesheet_sha256": "2106012a6364e78b4358d89f05732870691174f849ab0eb885480c5f2b301a74"
+}
