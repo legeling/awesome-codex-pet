@@ -1,0 +1,31 @@
+{
+  "slug": "warden-codex--jorge-cuevas90003",
+  "pet_slug": "warden-codex",
+  "author_slug": "jorge-cuevas90003",
+  "name": "Warden Codex",
+  "author": "Jorge Cuevas",
+  "author_handle": "Jorge-Cuevas90003",
+  "author_url": "https://github.com/Jorge-Cuevas90003",
+  "primary_category": "Original Characters",
+  "canonical_key": "original/jorge-cuevas90003/warden-codex",
+  "tags": [
+    "sci-fi",
+    "armored",
+    "guardian",
+    "chibi",
+    "original",
+    "ai-generated",
+    "v2"
+  ],
+  "collections": [],
+  "source_type": "ai-generated",
+  "source_url": "",
+  "source_note": "Original AI-assisted artwork created and repaired for this submission. The final atlas was assembled from independently generated motion states, with manual pixel and transparency cleanup; no third-party source assets or pixels were used.",
+  "license": "CC BY-NC 4.0. Original AI-assisted artwork created for and submitted by Jorge Cuevas; no third-party source assets were used.",
+  "description": "An original chibi armored guardian in olive-green sci-fi power armor with a gold visor, carrying a rifle through nine task animations and a complete 16-direction look loop.",
+  "codex_install": {
+    "pet_json": "pet.json",
+    "spritesheet": "spritesheet.webp"
+  },
+  "spritesheet_sha256": "98b46e1dedda794adc1b86cf2a31c83a6af99c6c00f731ed3f95ee0b5f07808f"
+}
