@@ -113,6 +113,16 @@
       "spritesheetWidth": 1536,
       "spritesheetHeight": 1872
     },
+    "behemoth--kajdrak2": {
+      "name": "Behemoth",
+      "spriteVersionNumber": 2,
+      "petJsonSha256": "75d55bf0b88047f9c398880011cd89180707dc98724cdd54716b95c68ab9a767",
+      "petJsonBytes": 266,
+      "spritesheetSha256": "248ab82be4e685f8dee25dad111e5074cc701f12d616f576c3cce3fb8fa35abc",
+      "spritesheetBytes": 2058448,
+      "spritesheetWidth": 1536,
+      "spritesheetHeight": 2288
+    },
     "black-swan--lingxiaotian": {
       "name": "Black Swan",
       "spriteVersionNumber": 1,

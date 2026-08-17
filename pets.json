@@ -133,6 +133,19 @@
     "spriteVersionNumber": 1
   },
   {
+    "slug": "behemoth--kajdrak2",
+    "name": "Behemoth",
+    "author": "Kajdrak2",
+    "author_handle": "Kajdrak2",
+    "author_url": "https://github.com/Kajdrak2",
+    "primary_category": "Fantasy Creatures",
+    "canonical_key": "fantasy/behemoth",
+    "collections": [],
+    "license": "Non-commercial use only.",
+    "description": "A compact, expressive Final Fantasy-inspired behemoth companion, rendered as a polished pet-safe fantasy creature.",
+    "spriteVersionNumber": 2
+  },
+  {
     "slug": "black-swan--lingxiaotian",
     "name": "Black Swan",
     "localized_names": { "en": "Black Swan", "zh": "黑天鹅" },
