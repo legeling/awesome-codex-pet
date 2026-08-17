@@ -1,0 +1,20 @@
+{
+  "slug": "behemoth--kajdrak2",
+  "pet_slug": "behemoth",
+  "author_slug": "kajdrak2",
+  "name": "Behemoth",
+  "author": "Kajdrak2",
+  "author_handle": "Kajdrak2",
+  "author_url": "https://github.com/Kajdrak2",
+  "primary_category": "Fantasy Creatures",
+  "canonical_key": "fantasy/behemoth",
+  "tags": ["v2", "ai-generated"],
+  "source_type": "ai-generated",
+  "source_notes": "Independently AI-generated for this Pet; no existing spritesheet pixels were reused.",
+  "license": "Non-commercial use only.",
+  "description": "A compact, expressive Final Fantasy-inspired behemoth companion, rendered as a polished pet-safe fantasy creature.",
+  "codex_install": {
+    "pet_json": "pet.json",
+    "spritesheet": "spritesheet.webp"
+  }
+}
