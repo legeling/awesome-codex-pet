@@ -44,6 +44,93 @@
     "githubUrl": "https://github.com/legeling/awesome-codex-pet/issues/123"
   },
   {
+    "number": 128,
+    "character": "Serge le Lapin",
+    "characterDetails": "Serge le Lapin",
+    "franchise": "RATP / Paris Métro safety mascot",
+    "category": "other",
+    "version": "v2",
+    "requestType": "",
+    "referenceStatus": "",
+    "references": "https://www.ratp.fr/sites/default/files/styles/articleeditorialxl/public/2017-06/12512D02.img.jpg\n\nOfficial context: https://www.ratp.fr/decouvrir/patrimoine/serge-le-lapin",
+    "referenceUrls": [
+      "https://www.ratp.fr/sites/default/files/styles/articleeditorialxl/public/2017-06/12512D02.img.jpg",
+      "https://www.ratp.fr/decouvrir/patrimoine/serge-le-lapin"
+    ],
+    "referenceImages": [
+      "https://www.ratp.fr/sites/default/files/styles/article_editorial_xl/public/2017-06/12512D02.img_.jpg"
+    ],
+    "referenceThumbnails": [],
+    "visualDirection": "",
+    "nameLanguages": "",
+    "attribution": "",
+    "duplicateCheck": "",
+    "state": "open",
+    "status": "triage",
+    "labels": [
+      "type: request",
+      "status: triage",
+      "version: v2",
+      "category: other"
+    ],
+    "author": {
+      "login": "Raph563",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/147602212?v=4",
+      "url": "https://github.com/Raph563"
+    },
+    "assignees": [],
+    "createdAt": "2026-08-17T09:11:07Z",
+    "updatedAt": "2026-08-17T09:11:15Z",
+    "closedAt": null,
+    "comments": 0,
+    "reactions": 0,
+    "githubUrl": "https://github.com/legeling/awesome-codex-pet/issues/128"
+  },
+  {
+    "number": 127,
+    "character": "罗小黑",
+    "characterDetails": "罗小黑",
+    "franchise": "罗小黑战记",
+    "category": "other",
+    "version": "v2",
+    "requestType": "Create a new community interpretation",
+    "referenceStatus": "",
+    "references": "https://api.codexpet.top/uploads/reference/references/c187553987485865ace5b31f5e71ee17850fbc61e1836029b97212535b890715.jpg",
+    "referenceUrls": [
+      "https://api.codexpet.top/uploads/reference/references/c187553987485865ace5b31f5e71ee17850fbc61e1836029b97212535b890715.jpg"
+    ],
+    "referenceImages": [
+      "https://api.codexpet.top/uploads/reference/references/c187553987485865ace5b31f5e71ee17850fbc61e1836029b97212535b890715.jpg"
+    ],
+    "referenceThumbnails": [
+      "https://api.codexpet.top/uploads/reference/thumbnails/c187553987485865ace5b31f5e71ee17850fbc61e1836029b97212535b890715.webp"
+    ],
+    "visualDirection": "Let the community maker decide.",
+    "nameLanguages": "Let the maker decide",
+    "attribution": "Submitted without a GitHub account. Reference and attribution details should be confirmed during triage. Non-commercial use only.",
+    "duplicateCheck": "Repository automation or a maintainer should complete the duplicate check during triage.",
+    "state": "open",
+    "status": "triage",
+    "labels": [
+      "type: request",
+      "status: triage",
+      "version: v2",
+      "category: other"
+    ],
+    "author": {
+      "login": "github-actions[bot]",
+      "avatarUrl": "https://avatars.githubusercontent.com/in/15368?v=4",
+      "url": "https://github.com/apps/github-actions"
+    },
+    "assignees": [],
+    "createdAt": "2026-08-17T07:53:10Z",
+    "updatedAt": "2026-08-17T07:53:10Z",
+    "closedAt": null,
+    "comments": 0,
+    "reactions": 0,
+    "githubUrl": "https://github.com/legeling/awesome-codex-pet/issues/127"
+  },
+  {
     "number": 105,
     "character": "我的刀盾",
     "characterDetails": "我的刀盾",
