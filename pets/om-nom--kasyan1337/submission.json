@@ -1,0 +1,26 @@
+{
+  "slug": "om-nom--kasyan1337",
+  "pet_slug": "om-nom",
+  "author_slug": "kasyan1337",
+  "name": "Om Nom",
+  "author": "Kasyan Janci",
+  "author_handle": "kasyan1337",
+  "author_url": "https://github.com/kasyan1337",
+  "primary_category": "Game Characters",
+  "tags": ["game-character", "cut-the-rope", "om-nom", "fan-art", "lime-green"],
+  "collections": ["game-characters"],
+  "source_type": "fan-art",
+  "source_url": "https://github.com/kasyan1337/om-nom-codex-pet",
+  "license": "Unofficial fan content; non-commercial use only",
+  "description": "An unofficial Codex pet adaptation of Om Nom from Cut the Rope, created and packaged by Kasyan Janci.",
+  "preview_image": "../../assets/previews/om-nom--kasyan1337/gifs/idle.gif",
+  "codex_install": {
+    "pet_json": "pet.json",
+    "spritesheet": "spritesheet.webp"
+  },
+  "preview_assets": {
+    "contact_sheet": "../../assets/previews/om-nom--kasyan1337/contact-sheet.png",
+    "gifs_dir": "../../assets/previews/om-nom--kasyan1337/gifs"
+  },
+  "spritesheet_sha256": "413d049af03cda501fab2c6af0f7dad1a1df833317655e873d8d94d5a8c5a30e"
+}
