@@ -1,5 +1,133 @@
 [
   {
+    "number": 131,
+    "character": "小达",
+    "characterDetails": "小达",
+    "franchise": "Not provided",
+    "category": "other",
+    "version": "v2",
+    "requestType": "Create a new community interpretation",
+    "referenceStatus": "",
+    "references": "https://api.codexpet.top/uploads/reference/references/7fa20740341fb1af6be0e84816fb6c4898f7f12e3813bd5f34796ec5529c46b5.png",
+    "referenceUrls": [
+      "https://api.codexpet.top/uploads/reference/references/7fa20740341fb1af6be0e84816fb6c4898f7f12e3813bd5f34796ec5529c46b5.png"
+    ],
+    "referenceImages": [
+      "https://api.codexpet.top/uploads/reference/references/7fa20740341fb1af6be0e84816fb6c4898f7f12e3813bd5f34796ec5529c46b5.png"
+    ],
+    "referenceThumbnails": [
+      "https://api.codexpet.top/uploads/reference/thumbnails/7fa20740341fb1af6be0e84816fb6c4898f7f12e3813bd5f34796ec5529c46b5.webp"
+    ],
+    "visualDirection": "AI语音助手xiaoda",
+    "nameLanguages": "Let the maker decide",
+    "attribution": "Submitted without a GitHub account. Reference and attribution details should be confirmed during triage. Non-commercial use only.",
+    "duplicateCheck": "Repository automation or a maintainer should complete the duplicate check during triage.",
+    "state": "open",
+    "status": "triage",
+    "labels": [
+      "type: request",
+      "status: triage",
+      "version: v2",
+      "category: other"
+    ],
+    "author": {
+      "login": "github-actions[bot]",
+      "avatarUrl": "https://avatars.githubusercontent.com/in/15368?v=4",
+      "url": "https://github.com/apps/github-actions"
+    },
+    "assignees": [],
+    "createdAt": "2026-08-18T10:14:14Z",
+    "updatedAt": "2026-08-18T10:14:14Z",
+    "closedAt": null,
+    "comments": 0,
+    "reactions": 0,
+    "githubUrl": "https://github.com/legeling/awesome-codex-pet/issues/131"
+  },
+  {
+    "number": 130,
+    "character": "Spider-man",
+    "characterDetails": "Spider-man",
+    "franchise": "Not provided",
+    "category": "other",
+    "version": "v2",
+    "requestType": "Create a new community interpretation",
+    "referenceStatus": "",
+    "references": "https://www.google.com/imgres?q=spider%20man&imgurl=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fen%2Fthumb%2F2%2F21%2FWebofSpider-ManVol1129-1.png%2F250px-WebofSpider-ManVol1129-1.png%3Futmsource%3Den.wikipedia.org%26utmcampaign%3Dparser%26utmcontent%3Dthumbnail&imgrefurl=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FSpider-Man&docid=ZK3CqqRY00jQFM&tbnid=1F-juca7i4i5M&vet=12ahUKEwiqzZvg7qmWAxXOcvEDHQqWC3IQnPAOegQILhAA..i&w=250&h=333&hcb=2&itg=1&ved=2ahUKEwiqzZvg7qmWAxXOcvEDHQqWC3IQn",
+    "referenceUrls": [
+      "https://www.google.com/imgres?q=spider%20man&imgurl=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fen%2Fthumb%2F2%2F21%2FWebofSpider-ManVol1129-1.png%2F250px-WebofSpider-ManVol1129-1.png%3Futmsource%3Den.wikipedia.org%26utmcampaign%3Dparser%26utmcontent%3Dthumbnail&imgrefurl=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FSpider-Man&docid=ZK3CqqRY00jQFM&tbnid=1F-juca7i4i5M&vet=12ahUKEwiqzZvg7qmWAxXOcvEDHQqWC3IQnPAOegQILhAA..i&w=250&h=333&hcb=2&itg=1&ved=2ahUKEwiqzZvg7qmWAxXOcvEDHQqWC3IQn"
+    ],
+    "referenceImages": [],
+    "referenceThumbnails": [],
+    "visualDirection": "Let the community maker decide.",
+    "nameLanguages": "Let the maker decide",
+    "attribution": "Submitted without a GitHub account. Reference and attribution details should be confirmed during triage. Non-commercial use only.",
+    "duplicateCheck": "Repository automation or a maintainer should complete the duplicate check during triage.",
+    "state": "open",
+    "status": "triage",
+    "labels": [
+      "type: request",
+      "status: triage",
+      "version: v2",
+      "category: other"
+    ],
+    "author": {
+      "login": "github-actions[bot]",
+      "avatarUrl": "https://avatars.githubusercontent.com/in/15368?v=4",
+      "url": "https://github.com/apps/github-actions"
+    },
+    "assignees": [],
+    "createdAt": "2026-08-18T09:47:55Z",
+    "updatedAt": "2026-08-18T09:47:55Z",
+    "closedAt": null,
+    "comments": 0,
+    "reactions": 0,
+    "githubUrl": "https://github.com/legeling/awesome-codex-pet/issues/130"
+  },
+  {
+    "number": 129,
+    "character": "电子宠物小v",
+    "characterDetails": "电子宠物小v",
+    "franchise": "Not provided",
+    "category": "other",
+    "version": "v2",
+    "requestType": "Create a new community interpretation",
+    "referenceStatus": "",
+    "references": "https://api.codexpet.top/uploads/reference/references/b0a0e2fdffa55b760751b21d7bbdf68381cee8785594a8b137877c775e8e8e69.png",
+    "referenceUrls": [
+      "https://api.codexpet.top/uploads/reference/references/b0a0e2fdffa55b760751b21d7bbdf68381cee8785594a8b137877c775e8e8e69.png"
+    ],
+    "referenceImages": [
+      "https://api.codexpet.top/uploads/reference/references/b0a0e2fdffa55b760751b21d7bbdf68381cee8785594a8b137877c775e8e8e69.png"
+    ],
+    "referenceThumbnails": [
+      "https://api.codexpet.top/uploads/reference/thumbnails/b0a0e2fdffa55b760751b21d7bbdf68381cee8785594a8b137877c775e8e8e69.webp"
+    ],
+    "visualDirection": "Let the community maker decide.",
+    "nameLanguages": "Let the maker decide",
+    "attribution": "Submitted without a GitHub account. Reference and attribution details should be confirmed during triage. Non-commercial use only.",
+    "duplicateCheck": "Repository automation or a maintainer should complete the duplicate check during triage.",
+    "state": "open",
+    "status": "triage",
+    "labels": [
+      "type: request",
+      "status: triage",
+      "version: v2",
+      "category: other"
+    ],
+    "author": {
+      "login": "github-actions[bot]",
+      "avatarUrl": "https://avatars.githubusercontent.com/in/15368?v=4",
+      "url": "https://github.com/apps/github-actions"
+    },
+    "assignees": [],
+    "createdAt": "2026-08-18T09:05:24Z",
+    "updatedAt": "2026-08-18T09:05:24Z",
+    "closedAt": null,
+    "comments": 0,
+    "reactions": 0,
+    "githubUrl": "https://github.com/legeling/awesome-codex-pet/issues/129"
+  },
+  {
     "number": 128,
     "character": "Serge le Lapin",
     "characterDetails": "Serge le Lapin",
