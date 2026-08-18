@@ -1,0 +1,35 @@
+{
+  "slug": "yanlingji--jorge-cuevas90003",
+  "pet_slug": "yanlingji",
+  "author_slug": "jorge-cuevas90003",
+  "name": "焰灵姬",
+  "localized_names": {
+    "en": "Yan Lingji",
+    "zh": "焰灵姬"
+  },
+  "author": "Jorge Cuevas",
+  "author_handle": "Jorge-Cuevas90003",
+  "author_url": "https://github.com/Jorge-Cuevas90003",
+  "primary_category": "Others",
+  "canonical_key": "fictional/yanlingji",
+  "tags": [
+    "yanlingji",
+    "elegant",
+    "black-hair",
+    "ember-orange",
+    "chibi",
+    "ai-generated",
+    "v2"
+  ],
+  "collections": [],
+  "source_type": "ai-generated",
+  "source_url": "https://github.com/legeling/awesome-codex-pet/issues/123",
+  "source_note": "Created specifically in response to community request #123. The request's reference image was used only for visual guidance; no source pixels, official artwork, or game assets were copied.",
+  "license": "Non-commercial use only. Independently AI-assisted fan-art interpretation; not affiliated with or endorsed by any rights holder.",
+  "description": "An original chibi fan-art interpretation of 焰灵姬, created in response to request #123; flowing black hair, a black-and-ember-orange gown, graceful restrained motion, and a complete 16-direction look loop.",
+  "codex_install": {
+    "pet_json": "pet.json",
+    "spritesheet": "spritesheet.webp"
+  },
+  "spritesheet_sha256": "83bc5c21e09f7d592157028692fcbf84e70222d5b789c85e0e3c175aa19ccca4"
+}
