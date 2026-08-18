@@ -2212,6 +2212,20 @@
     "spriteVersionNumber": 1
   },
   {
+    "slug": "yanlingji--jorge-cuevas90003",
+    "name": "焰灵姬",
+    "localized_names": { "en": "Yan Lingji", "zh": "焰灵姬" },
+    "author": "Jorge Cuevas",
+    "author_handle": "Jorge-Cuevas90003",
+    "author_url": "https://github.com/Jorge-Cuevas90003",
+    "primary_category": "Others",
+    "canonical_key": "fictional/yanlingji",
+    "collections": [],
+    "license": "Non-commercial use only. Independently AI-assisted fan-art interpretation; not affiliated with or endorsed by any rights holder.",
+    "description": "An original chibi fan-art interpretation of 焰灵姬, created in response to request #123; flowing black hair, a black-and-ember-orange gown, graceful restrained motion, and a complete 16-direction look loop.",
+    "spriteVersionNumber": 2
+  },
+  {
     "slug": "niumou--jarvis-2",
     "name": "牛哞",
     "author": "Jarvis",

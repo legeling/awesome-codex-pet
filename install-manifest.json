@@ -1803,6 +1803,16 @@
       "spritesheetWidth": 1536,
       "spritesheetHeight": 1872
     },
+    "yanlingji--jorge-cuevas90003": {
+      "name": "焰灵姬",
+      "spriteVersionNumber": 2,
+      "petJsonSha256": "b9afbd3922f95458f4ea8e6034fb46540f104aa3aec230562092053e3553c40b",
+      "petJsonBytes": 398,
+      "spritesheetSha256": "83bc5c21e09f7d592157028692fcbf84e70222d5b789c85e0e3c175aa19ccca4",
+      "spritesheetBytes": 2232410,
+      "spritesheetWidth": 1536,
+      "spritesheetHeight": 2288
+    },
     "niumou--jarvis-2": {
       "name": "牛哞",
       "spriteVersionNumber": 2,
