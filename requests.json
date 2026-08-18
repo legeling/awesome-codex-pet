@@ -1,5 +1,45 @@
 [
   {
+    "number": 132,
+    "character": "牛来",
+    "characterDetails": "牛来",
+    "franchise": "Not provided",
+    "category": "other",
+    "version": "v2",
+    "requestType": "Create a new community interpretation",
+    "referenceStatus": "",
+    "references": "https://www.google.com/imgres?q=%E7%89%9B%E6%9D%A5&imgurl=https%3A%2F%2Fwx2.sinaimg.cn%2Forj480%2F001O24LNly1ig5krghksvj60u01hcabv02.jpg&imgrefurl=https%3A%2F%2Fweibo.com%2Fa%2Fhot%2Faac15f6435c440bb0.html%3Ftype%3Dgrab&docid=V0inPTv8FTtbM&tbnid=55dnMNfA6r79M&vet=12ahUKEwjTuf3vtqqWAxXOTUHHSYbKo4QnPAOegQIMxAA..i&w=480&h=853&hcb=2&ved=2ahUKEwjTuf3vtqqWAxXOTUHHSYbKo4QnPAOegQIMxAA",
+    "referenceUrls": [
+      "https://www.google.com/imgres?q=%E7%89%9B%E6%9D%A5&imgurl=https%3A%2F%2Fwx2.sinaimg.cn%2Forj480%2F001O24LNly1ig5krghksvj60u01hcabv02.jpg&imgrefurl=https%3A%2F%2Fweibo.com%2Fa%2Fhot%2Faac15f6435c440bb0.html%3Ftype%3Dgrab&docid=V0inPTv8FTtbM&tbnid=55dnMNfA6r79M&vet=12ahUKEwjTuf3vtqqWAxXOTUHHSYbKo4QnPAOegQIMxAA..i&w=480&h=853&hcb=2&ved=2ahUKEwjTuf3vtqqWAxXOTUHHSYbKo4QnPAOegQIMxAA"
+    ],
+    "referenceImages": [],
+    "referenceThumbnails": [],
+    "visualDirection": "Let the community maker decide.",
+    "nameLanguages": "Let the maker decide",
+    "attribution": "Submitted without a GitHub account. Reference and attribution details should be confirmed during triage. Non-commercial use only.",
+    "duplicateCheck": "Repository automation or a maintainer should complete the duplicate check during triage.",
+    "state": "open",
+    "status": "triage",
+    "labels": [
+      "type: request",
+      "status: triage",
+      "version: v2",
+      "category: other"
+    ],
+    "author": {
+      "login": "github-actions[bot]",
+      "avatarUrl": "https://avatars.githubusercontent.com/in/15368?v=4",
+      "url": "https://github.com/apps/github-actions"
+    },
+    "assignees": [],
+    "createdAt": "2026-08-18T14:53:38Z",
+    "updatedAt": "2026-08-18T14:53:38Z",
+    "closedAt": null,
+    "comments": 0,
+    "reactions": 0,
+    "githubUrl": "https://github.com/legeling/awesome-codex-pet/issues/132"
+  },
+  {
     "number": 131,
     "character": "小达",
     "characterDetails": "小达",
