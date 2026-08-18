@@ -1433,6 +1433,16 @@
       "spritesheetWidth": 1536,
       "spritesheetHeight": 1872
     },
+    "warden-codex--jorge-cuevas90003": {
+      "name": "Warden Codex",
+      "spriteVersionNumber": 2,
+      "petJsonSha256": "a0c2cdead32d33e71b5ae59cbba4e12aefd27ad0e4547919c426c1d91dad8a50",
+      "petJsonBytes": 283,
+      "spritesheetSha256": "7c51b5594653a8934002c8329b50a1b414764261b778aa5541ece7cc89db7285",
+      "spritesheetBytes": 2248062,
+      "spritesheetWidth": 1536,
+      "spritesheetHeight": 2288
+    },
     "xian-xiao-lu--qingyunagi": {
       "name": "Xian Xiao Lu",
       "spriteVersionNumber": 1,
@@ -1700,6 +1710,16 @@
       "petJsonBytes": 278,
       "spritesheetSha256": "2c905b4b7f60ce82fbd89f4347a7de821a3560f2cf831eb1fa479477e7c06743",
       "spritesheetBytes": 1666880,
+      "spritesheetWidth": 1536,
+      "spritesheetHeight": 2288
+    },
+    "wukong--jorge-cuevas90003": {
+      "name": "悟空",
+      "spriteVersionNumber": 2,
+      "petJsonSha256": "3c78d74bd2cd3b447c05d1656fea59c42995ca301a95b39e2b8c0a8fbbd6177b",
+      "petJsonBytes": 298,
+      "spritesheetSha256": "a380b9d43bf92583968146bb790315ef359579313c064508676052468a11088c",
+      "spritesheetBytes": 2663300,
       "spritesheetWidth": 1536,
       "spritesheetHeight": 2288
     },

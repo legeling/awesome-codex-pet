@@ -1771,6 +1771,19 @@
     "spriteVersionNumber": 1
   },
   {
+    "slug": "warden-codex--jorge-cuevas90003",
+    "name": "Warden Codex",
+    "author": "Jorge Cuevas",
+    "author_handle": "Jorge-Cuevas90003",
+    "author_url": "https://github.com/Jorge-Cuevas90003",
+    "primary_category": "Original Characters",
+    "canonical_key": "original/jorge-cuevas90003/warden-codex",
+    "collections": [],
+    "license": "CC BY-NC 4.0. Original AI-assisted artwork created for and submitted by Jorge Cuevas; no third-party source assets were used.",
+    "description": "An original chibi armored guardian in olive-green sci-fi power armor with a gold visor, carrying a rifle through nine task animations and a complete 16-direction look loop.",
+    "spriteVersionNumber": 2
+  },
+  {
     "slug": "xian-xiao-lu--qingyunagi",
     "name": "Xian Xiao Lu",
     "author": "qingyunAGI",
@@ -2090,6 +2103,20 @@
     "collections": [],
     "license": "Non-commercial use only. Independently AI-generated community fan art; no source pixels copied.",
     "description": "An independently AI-generated, non-commercial Kuromi community pet with a black pointed jester hood, pink skull emblem, white body, playful expressions, nine standard animation states, and a complete 16-direction look loop.",
+    "spriteVersionNumber": 2
+  },
+  {
+    "slug": "wukong--jorge-cuevas90003",
+    "name": "悟空",
+    "localized_names": { "en": "Wukong", "zh": "悟空" },
+    "author": "Jorge Cuevas",
+    "author_handle": "Jorge-Cuevas90003",
+    "author_url": "https://github.com/Jorge-Cuevas90003",
+    "primary_category": "Game Characters",
+    "canonical_key": "league-of-legends/wukong",
+    "collections": [],
+    "license": "仅限非商业使用。独立 AI 辅助同人创作；不隶属于或获 Riot Games 认可，角色及相关知识产权归其权利人所有。",
+    "description": "《英雄联盟》悟空的原创 Q 版同人演绎：碧玉与金色战甲、红色飘带和如意金箍棒，包含九种任务动画与完整 16 方向环视。",
     "spriteVersionNumber": 2
   },
   {
