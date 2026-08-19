@@ -1033,6 +1033,16 @@
       "spritesheetWidth": 1536,
       "spritesheetHeight": 1872
     },
+    "om-nom--kasyan1337": {
+      "name": "Om Nom",
+      "spriteVersionNumber": 2,
+      "petJsonSha256": "d1479ddc3b322b556c8a2094e0996d0c9ea6950fb839aa45c53793bdde48acc1",
+      "petJsonBytes": 263,
+      "spritesheetSha256": "413d049af03cda501fab2c6af0f7dad1a1df833317655e873d8d94d5a8c5a30e",
+      "spritesheetBytes": 2203496,
+      "spritesheetWidth": 1536,
+      "spritesheetHeight": 2288
+    },
     "paimon--lingxiaotian": {
       "name": "Paimon",
       "spriteVersionNumber": 1,

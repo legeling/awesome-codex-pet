@@ -1268,6 +1268,18 @@
     "spriteVersionNumber": 1
   },
   {
+    "slug": "om-nom--kasyan1337",
+    "name": "Om Nom",
+    "author": "Kasyan Janci",
+    "author_handle": "kasyan1337",
+    "author_url": "https://github.com/kasyan1337",
+    "primary_category": "Game Characters",
+    "collections": ["game-characters"],
+    "license": "Unofficial fan content; non-commercial use only",
+    "description": "An unofficial Codex pet adaptation of Om Nom from Cut the Rope, created and packaged by Kasyan Janci.",
+    "spriteVersionNumber": 2
+  },
+  {
     "slug": "paimon--lingxiaotian",
     "name": "Paimon",
     "localized_names": { "en": "Paimon", "zh": "派蒙" },
