@@ -1,5 +1,49 @@
 [
   {
+    "number": 134,
+    "character": "沈星回",
+    "characterDetails": "沈星回",
+    "franchise": "恋与深空",
+    "category": "other",
+    "version": "v2",
+    "requestType": "Create a new community interpretation",
+    "referenceStatus": "",
+    "references": "https://api.codexpet.top/uploads/reference/references/90f83361b082126628ef4596e23bbb57df8f66d0af757f4ac3a4c8744bcaa53e.png",
+    "referenceUrls": [
+      "https://api.codexpet.top/uploads/reference/references/90f83361b082126628ef4596e23bbb57df8f66d0af757f4ac3a4c8744bcaa53e.png"
+    ],
+    "referenceImages": [
+      "https://api.codexpet.top/uploads/reference/references/90f83361b082126628ef4596e23bbb57df8f66d0af757f4ac3a4c8744bcaa53e.png"
+    ],
+    "referenceThumbnails": [
+      "https://api.codexpet.top/uploads/reference/thumbnails/90f83361b082126628ef4596e23bbb57df8f66d0af757f4ac3a4c8744bcaa53e.webp"
+    ],
+    "visualDirection": "Let the community maker decide.",
+    "nameLanguages": "Let the maker decide",
+    "attribution": "Submitted without a GitHub account. Reference and attribution details should be confirmed during triage. Non-commercial use only.",
+    "duplicateCheck": "Repository automation or a maintainer should complete the duplicate check during triage.",
+    "state": "open",
+    "status": "triage",
+    "labels": [
+      "type: request",
+      "status: triage",
+      "version: v2",
+      "category: other"
+    ],
+    "author": {
+      "login": "github-actions[bot]",
+      "avatarUrl": "https://avatars.githubusercontent.com/in/15368?v=4",
+      "url": "https://github.com/apps/github-actions"
+    },
+    "assignees": [],
+    "createdAt": "2026-08-18T21:34:14Z",
+    "updatedAt": "2026-08-18T21:34:14Z",
+    "closedAt": null,
+    "comments": 0,
+    "reactions": 0,
+    "githubUrl": "https://github.com/legeling/awesome-codex-pet/issues/134"
+  },
+  {
     "number": 132,
     "character": "牛来",
     "characterDetails": "牛来",
