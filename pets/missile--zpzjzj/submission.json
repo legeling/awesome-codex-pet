@@ -1,0 +1,23 @@
+{
+  "slug": "missile--zpzjzj",
+  "pet_slug": "missile",
+  "author_slug": "zpzjzj",
+  "name": "Missile",
+  "author": "Ping",
+  "author_handle": "zpzjzj",
+  "author_url": "https://github.com/zpzjzj",
+  "primary_category": "Game Characters",
+  "canonical_key": "ghost-trick/missile",
+  "tags": ["ghost-trick", "missile", "dog", "pomeranian", "flat-vector"],
+  "collections": [],
+  "source_type": "ai-generated-fan-art",
+  "license": "CC BY-NC 4.0",
+  "description": "An independently AI-generated v2 fan-art pet based on Missile from Ghost Trick, with nine standard animations and sixteen look directions.",
+  "variant_note": "A flat-vector v2 interpretation independently generated from character reference art, with a complete 8x11 animation atlas.",
+  "preview_image": "../../assets/previews/missile--zpzjzj/gifs/idle.gif",
+  "spritesheet_sha256": "007969983fc73bb30e601713e61bc25bf78f3590b5ae432f755d39d3efc619cb",
+  "codex_install": {
+    "pet_json": "pet.json",
+    "spritesheet": "spritesheet.webp"
+  }
+}
