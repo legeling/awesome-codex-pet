@@ -1288,7 +1288,7 @@
     "author_handle": "kasyan1337",
     "author_url": "https://github.com/kasyan1337",
     "primary_category": "Game Characters",
-    "collections": ["game-characters"],
+    "collections": [],
     "license": "Unofficial fan content; non-commercial use only",
     "description": "An unofficial Codex pet adaptation of Om Nom from Cut the Rope, created and packaged by Kasyan Janci.",
     "spriteVersionNumber": 2
@@ -1479,6 +1479,20 @@
     "collections": ["fate"],
     "license": "Source author terms; personal non-commercial use only",
     "spriteVersionNumber": 1
+  },
+  {
+    "slug": "sakamoto--zpzjzj",
+    "name": "Sakamoto",
+    "localized_names": { "en": "Sakamoto", "zh": "阪本" },
+    "author": "zpzjzj",
+    "author_handle": "zpzjzj",
+    "author_url": "https://github.com/zpzjzj",
+    "primary_category": "Anime Characters",
+    "canonical_key": "nichijou/sakamoto",
+    "collections": [],
+    "license": "Non-commercial use only. Independently AI-generated fan art inspired by Sakamoto from Nichijou; not affiliated with or endorsed by the rights holders, and no official animation assets are redistributed.",
+    "description": "An independently AI-generated Codex v2 fan pet inspired by Sakamoto from Nichijou, with a dark gray coat, bright red scarf, large oval eyes, long expressive tail, nine standard animations, and a complete 16-direction look loop.",
+    "spriteVersionNumber": 2
   },
   {
     "slug": "gintoki-pixel--yuu-m",
