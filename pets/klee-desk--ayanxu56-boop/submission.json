@@ -1,0 +1,35 @@
+{
+  "slug": "klee-desk--ayanxu56-boop",
+  "pet_slug": "klee-desk",
+  "author_slug": "ayanxu56-boop",
+  "name": "KleeDesk",
+  "localized_names": {
+    "en": "KleeDesk",
+    "zh": "可莉·书桌版"
+  },
+  "author": "ayanxu56-boop",
+  "author_handle": "ayanxu56-boop",
+  "author_url": "https://github.com/ayanxu56-boop",
+  "primary_category": "Game Characters",
+  "canonical_key": "genshin-impact/klee",
+  "variant_note": "An independently produced v2 desk-art edition featuring seated drawing actions, stable desk props, and a complete 16-direction look cycle. The spritesheet is distinct from the existing klee--chenxin-dlut package.",
+  "tags": [
+    "genshin-impact",
+    "klee",
+    "ai-generated",
+    "chibi",
+    "desk",
+    "drawing",
+    "v2"
+  ],
+  "collections": ["genshin-impact"],
+  "source_type": "fan-art",
+  "source_url": "",
+  "license": "Non-commercial use only. Independently AI-generated fan art inspired by Klee from Genshin Impact; no official game artwork is included.",
+  "description": "An independently generated non-commercial Klee fan-art variant centered on drawing and working at a wooden desk.",
+  "preview_image": "../../assets/previews/klee-desk--ayanxu56-boop/gifs/idle.gif",
+  "codex_install": {
+    "pet_json": "pet.json",
+    "spritesheet": "spritesheet.webp"
+  }
+}
