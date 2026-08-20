@@ -973,6 +973,16 @@
       "spritesheetWidth": 1536,
       "spritesheetHeight": 2288
     },
+    "missile--zpzjzj": {
+      "name": "Missile",
+      "spriteVersionNumber": 2,
+      "petJsonSha256": "fff2e3de41ada1466c76dfe127c43bab8c38de8eafe5098172205f461425523b",
+      "petJsonBytes": 285,
+      "spritesheetSha256": "007969983fc73bb30e601713e61bc25bf78f3590b5ae432f755d39d3efc619cb",
+      "spritesheetBytes": 2830804,
+      "spritesheetWidth": 1536,
+      "spritesheetHeight": 2288
+    },
     "miyabi--eric-terminal": {
       "name": "Miyabi",
       "spriteVersionNumber": 1,

@@ -1191,6 +1191,20 @@
     "spriteVersionNumber": 2
   },
   {
+    "slug": "missile--zpzjzj",
+    "name": "Missile",
+    "author": "Ping",
+    "author_handle": "zpzjzj",
+    "author_url": "https://github.com/zpzjzj",
+    "primary_category": "Game Characters",
+    "canonical_key": "ghost-trick/missile",
+    "variant_note": "A flat-vector v2 interpretation independently generated from character reference art, with a complete 8x11 animation atlas.",
+    "collections": [],
+    "license": "CC BY-NC 4.0",
+    "description": "An independently AI-generated v2 fan-art pet based on Missile from Ghost Trick, with nine standard animations and sixteen look directions.",
+    "spriteVersionNumber": 2
+  },
+  {
     "slug": "miyabi--eric-terminal",
     "name": "Miyabi",
     "localized_names": { "en": "Miyabi", "zh": "星见雅" },
