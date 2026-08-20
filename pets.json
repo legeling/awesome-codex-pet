@@ -48,6 +48,20 @@
     "spriteVersionNumber": 1
   },
   {
+    "slug": "agamemnon--kazecreator",
+    "name": "Agamemnon",
+    "author": "kazecreator",
+    "author_handle": "kazecreator",
+    "author_url": "https://github.com/kazecreator",
+    "primary_category": "Others",
+    "canonical_key": "mythology/greek/agamemnon",
+    "variant_note": "An independent AI-generated v2 interpretation with a Nolan-inspired historical-epic treatment, attached rear vertebral detail, and 16 look directions.",
+    "collections": [],
+    "license": "Non-commercial use only.",
+    "description": "A compact cinematic Agamemnon pet inspired by Greek mythology and a Nolan-style historical epic, with black steel armor, a tall horsehair crest, gold lion clasps, and an attached segmented vertebral rear structure.",
+    "spriteVersionNumber": 2
+  },
+  {
     "slug": "aiko--chenxin-dlut",
     "name": "Aiko",
     "localized_names": { "en": "Aiko", "zh": "爱子" },
@@ -1695,6 +1709,20 @@
     "collections": ["animal-companions"],
     "license": "Original; permission granted for inclusion in the awesome-codex-pet gallery",
     "spriteVersionNumber": 1
+  },
+  {
+    "slug": "templar-knight--jorge-cuevas90003",
+    "name": "Templar Knight",
+    "localized_names": { "en": "Templar Knight", "zh": "圣殿骑士" },
+    "author": "Jorge Cuevas",
+    "author_handle": "Jorge-Cuevas90003",
+    "author_url": "https://github.com/Jorge-Cuevas90003",
+    "primary_category": "Others",
+    "canonical_key": "original/templar-knight",
+    "collections": [],
+    "license": "仅限非商业使用。该原创 AI 辅助宠物不隶属、也未获任何第三方权利人的认可。",
+    "description": "原创 Q 版圣殿骑士，使用风化钢甲、象牙色红十字罩袍、酒红披风、短剑与鸢形盾；包含克制的守卫动作、剑盾轻触动作，以及完整的 16 方向视线循环。",
+    "spriteVersionNumber": 2
   },
   {
     "slug": "tian-hua-hua--d1a0y1bb",

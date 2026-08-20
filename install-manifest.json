@@ -43,6 +43,16 @@
       "spritesheetWidth": 1536,
       "spritesheetHeight": 1872
     },
+    "agamemnon--kazecreator": {
+      "name": "Agamemnon",
+      "spriteVersionNumber": 2,
+      "petJsonSha256": "83c1e936d8a56404192d815d7e34e66304f93895723ea97fb55c3be413493a21",
+      "petJsonBytes": 337,
+      "spritesheetSha256": "e48c0d0d1f4c85c250d16846780d7759719523c42e246a4dc66328523b8d038c",
+      "spritesheetBytes": 2173036,
+      "spritesheetWidth": 1536,
+      "spritesheetHeight": 2288
+    },
     "aiko--chenxin-dlut": {
       "name": "Aiko",
       "spriteVersionNumber": 1,
@@ -1372,6 +1382,16 @@
       "spritesheetBytes": 1214414,
       "spritesheetWidth": 1536,
       "spritesheetHeight": 1872
+    },
+    "templar-knight--jorge-cuevas90003": {
+      "name": "Templar Knight",
+      "spriteVersionNumber": 2,
+      "petJsonSha256": "fe599d17031d474e5cb9b639819ae8d2ae699dff5d46af2568b291bf3cc394fd",
+      "petJsonBytes": 332,
+      "spritesheetSha256": "5414a8e3c6bf61bde9cd6abf5d614865c290d075a78982ae1c32b8030311d03e",
+      "spritesheetBytes": 2793364,
+      "spritesheetWidth": 1536,
+      "spritesheetHeight": 2288
     },
     "tian-hua-hua--d1a0y1bb": {
       "name": "Tian Hua Hua",
