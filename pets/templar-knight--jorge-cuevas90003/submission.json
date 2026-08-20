@@ -1,0 +1,35 @@
+{
+  "slug": "templar-knight--jorge-cuevas90003",
+  "pet_slug": "templar-knight",
+  "author_slug": "jorge-cuevas90003",
+  "name": "Templar Knight",
+  "localized_names": {
+    "en": "Templar Knight",
+    "zh": "圣殿骑士"
+  },
+  "author": "Jorge Cuevas",
+  "author_handle": "Jorge-Cuevas90003",
+  "author_url": "https://github.com/Jorge-Cuevas90003",
+  "primary_category": "Others",
+  "canonical_key": "original/templar-knight",
+  "tags": [
+    "templar-knight",
+    "knight",
+    "armor",
+    "shield",
+    "sword",
+    "chibi",
+    "ai-generated",
+    "v2"
+  ],
+  "collections": [],
+  "source_type": "ai-generated",
+  "source_note": "原创的 AI 辅助设计与制作；未复制任何现有作品、官方插画或游戏素材的像素。",
+  "license": "仅限非商业使用。该原创 AI 辅助宠物不隶属、也未获任何第三方权利人的认可。",
+  "description": "原创 Q 版圣殿骑士，使用风化钢甲、象牙色红十字罩袍、酒红披风、短剑与鸢形盾；包含克制的守卫动作、剑盾轻触动作，以及完整的 16 方向视线循环。",
+  "codex_install": {
+    "pet_json": "pet.json",
+    "spritesheet": "spritesheet.webp"
+  },
+  "spritesheet_sha256": "5414a8e3c6bf61bde9cd6abf5d614865c290d075a78982ae1c32b8030311d03e"
+}
