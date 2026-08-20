@@ -1,0 +1,39 @@
+{
+  "slug": "sakamoto--zpzjzj",
+  "pet_slug": "sakamoto",
+  "author_slug": "zpzjzj",
+  "canonical_key": "nichijou/sakamoto",
+  "name": "Sakamoto",
+  "localized_names": {
+    "en": "Sakamoto",
+    "zh": "阪本"
+  },
+  "author": "zpzjzj",
+  "author_handle": "zpzjzj",
+  "author_url": "https://github.com/zpzjzj",
+  "primary_category": "Anime Characters",
+  "tags": [
+    "anime",
+    "nichijou",
+    "cat",
+    "red-scarf",
+    "v2",
+    "ai-generated",
+    "fan-art"
+  ],
+  "source_type": "ai-generated",
+  "source_url": "",
+  "source_notes": "Independently AI-generated fan interpretation based on user-provided Nichijou character reference images. The references were used only for character identity and visual direction; no source pixels, logos, text, or scenery were copied into the final spritesheet.",
+  "license": "Non-commercial use only. Independently AI-generated fan art inspired by Sakamoto from Nichijou; not affiliated with or endorsed by the rights holders, and no official animation assets are redistributed.",
+  "description": "An independently AI-generated Codex v2 fan pet inspired by Sakamoto from Nichijou, with a dark gray coat, bright red scarf, large oval eyes, long expressive tail, nine standard animations, and a complete 16-direction look loop.",
+  "preview_image": "../../assets/previews/sakamoto--zpzjzj/gifs/idle.gif",
+  "codex_install": {
+    "pet_json": "pet.json",
+    "spritesheet": "spritesheet.webp"
+  },
+  "preview_assets": {
+    "contact_sheet": "../../assets/previews/sakamoto--zpzjzj/contact-sheet.png",
+    "gifs_dir": "../../assets/previews/sakamoto--zpzjzj/gifs"
+  },
+  "spritesheet_sha256": "a6dac217b8a8800783104eb26d48c7041483873c902e480c1e6975e1df22c9d2"
+}
