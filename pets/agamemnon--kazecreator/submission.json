@@ -1,0 +1,32 @@
+{
+  "slug": "agamemnon--kazecreator",
+  "pet_slug": "agamemnon",
+  "author_slug": "kazecreator",
+  "name": "Agamemnon",
+  "author": "kazecreator",
+  "author_handle": "kazecreator",
+  "author_url": "https://github.com/kazecreator",
+  "primary_category": "Others",
+  "canonical_key": "mythology/greek/agamemnon",
+  "variant_note": "An independent AI-generated v2 interpretation with a Nolan-inspired historical-epic treatment, attached rear vertebral detail, and 16 look directions.",
+  "tags": [
+    "mythology",
+    "greek",
+    "agamemnon",
+    "historical-epic",
+    "helmet",
+    "ai-generated",
+    "v2",
+    "look-directions"
+  ],
+  "collections": [],
+  "source_type": "ai-generated fan-art",
+  "source_url": "",
+  "source_notes": "Independently AI-generated from user-supplied visual references; no existing spritesheet pixels were reused. Reference images were not uploaded to the repository.",
+  "license": "Non-commercial use only.",
+  "description": "A compact cinematic Agamemnon pet inspired by Greek mythology and a Nolan-style historical epic, with black steel armor, a tall horsehair crest, gold lion clasps, and an attached segmented vertebral rear structure.",
+  "codex_install": {
+    "pet_json": "pet.json",
+    "spritesheet": "spritesheet.webp"
+  }
+}
