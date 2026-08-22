@@ -1,0 +1,43 @@
+{
+  "slug": "doro--vaevie",
+  "pet_slug": "doro",
+  "author_slug": "vaevie",
+  "canonical_key": "nikke/doro",
+  "name": "Doro",
+  "localized_names": {
+    "en": "Doro",
+    "zh": "桃乐丝（Doro）"
+  },
+  "author": "vaevie",
+  "author_handle": "vaevie",
+  "author_url": "https://github.com/vaevie",
+  "primary_category": "Game Characters",
+  "collections": ["nikke"],
+  "tags": [
+    "anime",
+    "nikke",
+    "doro",
+    "dorothy",
+    "meme",
+    "pink-hair",
+    "ai-generated",
+    "fan-art",
+    "v2"
+  ],
+  "source_type": "ai-generated fan-art",
+  "source_url": "",
+  "source_notes": "Independently AI-generated community fan art using Doro from GODDESS OF VICTORY: NIKKE only as a character reference. No source image pixels were cropped, traced, cleaned up, or reused in the final spritesheet.",
+  "license": "Non-commercial use only. Independently AI-generated fan art; Doro and GODDESS OF VICTORY: NIKKE remain the property of their respective rights holders.",
+  "description": "vaevie 独立使用 AI 生成并制作的 Doro 非官方同人 Codex V2 宠物：粉发紫眸、白色四足身体，拥有九种标准动作和完整的 16 向环视动画，仅限非商业使用。",
+  "variant_note": "An independently AI-generated V2 adaptation by vaevie, distinct from the existing doro--lingxiaotian V1 package through its separate artwork, animation set, and complete 16-direction look loop.",
+  "preview_image": "../../assets/previews/doro--vaevie/gifs/idle.gif",
+  "codex_install": {
+    "pet_json": "pet.json",
+    "spritesheet": "spritesheet.webp"
+  },
+  "preview_assets": {
+    "contact_sheet": "../../assets/previews/doro--vaevie/contact-sheet.png",
+    "gifs_dir": "../../assets/previews/doro--vaevie/gifs"
+  },
+  "spritesheet_sha256": "4c035130ba042e4d25afff7d92fa5c77809811df789b39579c0a4fbb5b17d46b"
+}
