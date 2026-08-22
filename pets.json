@@ -436,6 +436,21 @@
     "spriteVersionNumber": 1
   },
   {
+    "slug": "doro--vaevie",
+    "name": "Doro",
+    "localized_names": { "en": "Doro", "zh": "桃乐丝（Doro）" },
+    "author": "vaevie",
+    "author_handle": "vaevie",
+    "author_url": "https://github.com/vaevie",
+    "primary_category": "Game Characters",
+    "canonical_key": "nikke/doro",
+    "variant_note": "An independently AI-generated V2 adaptation by vaevie, distinct from the existing doro--lingxiaotian V1 package through its separate artwork, animation set, and complete 16-direction look loop.",
+    "collections": ["nikke"],
+    "license": "Non-commercial use only. Independently AI-generated fan art; Doro and GODDESS OF VICTORY: NIKKE remain the property of their respective rights holders.",
+    "description": "vaevie 独立使用 AI 生成并制作的 Doro 非官方同人 Codex V2 宠物：粉发紫眸、白色四足身体，拥有九种标准动作和完整的 16 向环视动画，仅限非商业使用。",
+    "spriteVersionNumber": 2
+  },
+  {
     "slug": "drill-cat--qimi",
     "name": "Drill Cat",
     "localized_names": { "en": "Drill Cat", "zh": "电钻咪" },
