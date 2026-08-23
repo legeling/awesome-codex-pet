@@ -1,5 +1,46 @@
 [
   {
+    "number": 77,
+    "character": "The Night Fury and the Light Fury",
+    "characterDetails": "toothless and the light fury",
+    "franchise": "How To Train Your Dragon",
+    "category": "anime",
+    "version": "v2",
+    "requestType": "Create a new community interpretation",
+    "referenceStatus": "A viewable image attachment or public image URL is included",
+    "references": "https://www.dreamworks.com/how-to-train-your-dragon/explore/toothless\nhttps://www.dreamworks.com/how-to-train-your-dragon/explore/light-fury",
+    "referenceUrls": [
+      "https://www.dreamworks.com/how-to-train-your-dragon/explore/toothless",
+      "https://www.dreamworks.com/how-to-train-your-dragon/explore/light-fury"
+    ],
+    "referenceImages": [],
+    "referenceThumbnails": [],
+    "visualDirection": "Please create two separate selectable pets with an original pixel-art interpretation.\n\nToothless:\n- Dark charcoal-black body with subtle blue-gray highlights\n- Large green eyes, rounded feline-like face, compact wings, and expressive ears\n- Signature red prosthetic tail fin may be included\n- Animations: idle breathing and blinking, curious head tilt, happy bounce, alert crouch, tail swish, and a short plasma-blast effect\n\nThe Light Fury:\n- Pale white body with soft silver or light-blue shading\n- Sleeker silhouette, bright blue eyes, and clearly distinct facial and wing shapes\n- Animations: gentle hovering, blinking, shy head turn, playful bounce, alert stance, and a soft plasma-blast effect\n\nKeep both pets visually distinct while allowing an optional companion-pair preview.",
+    "nameLanguages": "Single-language default name",
+    "attribution": "Toothless and The Light Fury are characters owned by DreamWorks Animation and Universal. This is a non-commercial fan-made community request. The official links above are provided for reference only. Please use original artwork or another legally appropriate fan-art interpretation, and do not present third-party artwork as my own.",
+    "duplicateCheck": "I checked the current pets.json and the repository’s open issues for “Toothless”, “The Light Fury”, and “How to Train Your Dragon”. No matching pet entry or request was found.\n\nThis request is for two separate pets with distinct visual designs, palettes, silhouettes, and animation directions.",
+    "state": "open",
+    "status": "in-progress",
+    "labels": [
+      "type: request",
+      "status: in-progress",
+      "version: v2",
+      "category: anime"
+    ],
+    "author": {
+      "login": "BusanGukbap",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/77170214?v=4",
+      "url": "https://github.com/BusanGukbap"
+    },
+    "assignees": [],
+    "createdAt": "2026-07-29T04:37:20Z",
+    "updatedAt": "2026-08-23T14:52:46Z",
+    "closedAt": null,
+    "comments": 0,
+    "reactions": 0,
+    "githubUrl": "https://github.com/legeling/awesome-codex-pet/issues/77"
+  },
+  {
     "number": 62,
     "character": "疾旋鼬",
     "characterDetails": "疾旋鼬 / Chillet",
@@ -1129,47 +1170,6 @@
     "comments": 0,
     "reactions": 0,
     "githubUrl": "https://github.com/legeling/awesome-codex-pet/issues/81"
-  },
-  {
-    "number": 77,
-    "character": "The Night Fury and the Light Fury",
-    "characterDetails": "toothless and the light fury",
-    "franchise": "How To Train Your Dragon",
-    "category": "anime",
-    "version": "v2",
-    "requestType": "Create a new community interpretation",
-    "referenceStatus": "A viewable image attachment or public image URL is included",
-    "references": "https://www.dreamworks.com/how-to-train-your-dragon/explore/toothless\nhttps://www.dreamworks.com/how-to-train-your-dragon/explore/light-fury",
-    "referenceUrls": [
-      "https://www.dreamworks.com/how-to-train-your-dragon/explore/toothless",
-      "https://www.dreamworks.com/how-to-train-your-dragon/explore/light-fury"
-    ],
-    "referenceImages": [],
-    "referenceThumbnails": [],
-    "visualDirection": "Please create two separate selectable pets with an original pixel-art interpretation.\n\nToothless:\n- Dark charcoal-black body with subtle blue-gray highlights\n- Large green eyes, rounded feline-like face, compact wings, and expressive ears\n- Signature red prosthetic tail fin may be included\n- Animations: idle breathing and blinking, curious head tilt, happy bounce, alert crouch, tail swish, and a short plasma-blast effect\n\nThe Light Fury:\n- Pale white body with soft silver or light-blue shading\n- Sleeker silhouette, bright blue eyes, and clearly distinct facial and wing shapes\n- Animations: gentle hovering, blinking, shy head turn, playful bounce, alert stance, and a soft plasma-blast effect\n\nKeep both pets visually distinct while allowing an optional companion-pair preview.",
-    "nameLanguages": "Single-language default name",
-    "attribution": "Toothless and The Light Fury are characters owned by DreamWorks Animation and Universal. This is a non-commercial fan-made community request. The official links above are provided for reference only. Please use original artwork or another legally appropriate fan-art interpretation, and do not present third-party artwork as my own.",
-    "duplicateCheck": "I checked the current pets.json and the repository’s open issues for “Toothless”, “The Light Fury”, and “How to Train Your Dragon”. No matching pet entry or request was found.\n\nThis request is for two separate pets with distinct visual designs, palettes, silhouettes, and animation directions.",
-    "state": "open",
-    "status": "triage",
-    "labels": [
-      "type: request",
-      "status: triage",
-      "version: v2",
-      "category: anime"
-    ],
-    "author": {
-      "login": "BusanGukbap",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/77170214?v=4",
-      "url": "https://github.com/BusanGukbap"
-    },
-    "assignees": [],
-    "createdAt": "2026-07-29T04:37:20Z",
-    "updatedAt": "2026-07-29T04:37:27Z",
-    "closedAt": null,
-    "comments": 0,
-    "reactions": 0,
-    "githubUrl": "https://github.com/legeling/awesome-codex-pet/issues/77"
   },
   {
     "number": 123,
