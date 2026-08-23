@@ -1,0 +1,29 @@
+{
+  "slug": "light-fury--legeling",
+  "pet_slug": "light-fury",
+  "author_slug": "legeling",
+  "name": "Light Fury",
+  "author": "legeling",
+  "author_handle": "legeling",
+  "author_url": "https://github.com/legeling",
+  "primary_category": "Anime Characters",
+  "canonical_key": "film/how-to-train-your-dragon/light-fury",
+  "tags": ["light-fury", "pearl-dragon", "pixel-art", "fan-made", "v2"],
+  "collections": [],
+  "source_type": "independent-ai-generated-community-interpretation",
+  "source_url": "https://github.com/legeling/awesome-codex-pet/issues/77",
+  "asset_note": "The final runtime spritesheet is an original AI-generated pixel-art community interpretation. No official or third-party artwork pixels are included directly.",
+  "reference_note": "The public character link supplied in Issue #77 was used only for broad identity cues; the final pearl-white winged cat-dragon design is independently generated and intentionally distinct.",
+  "license": "Non-commercial fan use only; character rights remain with DreamWorks Animation and Universal.",
+  "description": "An original pixel-art fan interpretation of the Light Fury as a sleek pearl-white winged cat-dragon with cyan-blue eyes, nine task animations, and 16 clockwise look directions.",
+  "preview_image": "../../assets/previews/light-fury--legeling/gifs/idle.gif",
+  "codex_install": {
+    "pet_json": "pet.json",
+    "spritesheet": "spritesheet.webp"
+  },
+  "preview_assets": {
+    "contact_sheet": "../../assets/previews/light-fury--legeling/contact-sheet.png",
+    "gifs_dir": "../../assets/previews/light-fury--legeling/gifs"
+  },
+  "spritesheet_sha256": "98065427e39ff0603afd6d0323bd7f3100a2c971394307ed392902d6ea014f89"
+}

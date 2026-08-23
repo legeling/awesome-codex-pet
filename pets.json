@@ -954,6 +954,19 @@
     "spriteVersionNumber": 1
   },
   {
+    "slug": "light-fury--legeling",
+    "name": "Light Fury",
+    "author": "legeling",
+    "author_handle": "legeling",
+    "author_url": "https://github.com/legeling",
+    "primary_category": "Anime Characters",
+    "canonical_key": "film/how-to-train-your-dragon/light-fury",
+    "collections": [],
+    "license": "Non-commercial fan use only; character rights remain with DreamWorks Animation and Universal.",
+    "description": "An original pixel-art fan interpretation of the Light Fury as a sleek pearl-white winged cat-dragon with cyan-blue eyes, nine task animations, and 16 clockwise look directions.",
+    "spriteVersionNumber": 2
+  },
+  {
     "slug": "lil-swole--gg0805",
     "name": "Lil Swole",
     "author": "gg0805",
@@ -1786,6 +1799,19 @@
     "collections": [],
     "license": "Non-commercial use only. AI-assisted fan-art Codex pet by 法隆; no official affiliation or commercial use permitted.",
     "description": "A polished chibi fan-art Codex pet inspired by Togawa Sakiko, with long silver-blue twin-tails, amber eyes, a cream ruffled blouse, a black ribbon, a gray plaid skirt, and poised task reactions.",
+    "spriteVersionNumber": 2
+  },
+  {
+    "slug": "toothless--legeling",
+    "name": "Toothless",
+    "author": "legeling",
+    "author_handle": "legeling",
+    "author_url": "https://github.com/legeling",
+    "primary_category": "Anime Characters",
+    "canonical_key": "film/how-to-train-your-dragon/toothless",
+    "collections": [],
+    "license": "Non-commercial fan use only; character rights remain with DreamWorks Animation and Universal.",
+    "description": "An original pixel-art fan interpretation of Toothless as a compact dark winged cat-dragon with vivid green eyes, nine task animations, and 16 clockwise look directions.",
     "spriteVersionNumber": 2
   },
   {

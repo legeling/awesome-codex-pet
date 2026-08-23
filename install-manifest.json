@@ -773,6 +773,16 @@
       "spritesheetWidth": 1536,
       "spritesheetHeight": 1872
     },
+    "light-fury--legeling": {
+      "name": "Light Fury",
+      "spriteVersionNumber": 2,
+      "petJsonSha256": "dc908b88949f86d96bb4652d6d786b944090643e984cf8d911d63938dd326be8",
+      "petJsonBytes": 242,
+      "spritesheetSha256": "98065427e39ff0603afd6d0323bd7f3100a2c971394307ed392902d6ea014f89",
+      "spritesheetBytes": 2077260,
+      "spritesheetWidth": 1536,
+      "spritesheetHeight": 2288
+    },
     "lil-swole--gg0805": {
       "name": "Lil Swole",
       "spriteVersionNumber": 2,
@@ -1440,6 +1450,16 @@
       "petJsonBytes": 266,
       "spritesheetSha256": "bfa6860e6a61a84c33128f97d900ead9150cb94fcbbc60773d801e1c5d229bfa",
       "spritesheetBytes": 1707886,
+      "spritesheetWidth": 1536,
+      "spritesheetHeight": 2288
+    },
+    "toothless--legeling": {
+      "name": "Toothless",
+      "spriteVersionNumber": 2,
+      "petJsonSha256": "83a08d4aa89e78529bd67f99c87ad900e8028ac28902b2ae5f8c8a487a8abdf3",
+      "petJsonBytes": 233,
+      "spritesheetSha256": "f305946be94857fb16d75c3c29ad8c1e1ad42ad3a73160b2540c1db7ebbbf891",
+      "spritesheetBytes": 2218908,
       "spritesheetWidth": 1536,
       "spritesheetHeight": 2288
     },

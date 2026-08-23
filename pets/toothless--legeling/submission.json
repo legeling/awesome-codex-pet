@@ -1,0 +1,29 @@
+{
+  "slug": "toothless--legeling",
+  "pet_slug": "toothless",
+  "author_slug": "legeling",
+  "name": "Toothless",
+  "author": "legeling",
+  "author_handle": "legeling",
+  "author_url": "https://github.com/legeling",
+  "primary_category": "Anime Characters",
+  "canonical_key": "film/how-to-train-your-dragon/toothless",
+  "tags": ["toothless", "night-dragon", "pixel-art", "fan-made", "v2"],
+  "collections": [],
+  "source_type": "independent-ai-generated-community-interpretation",
+  "source_url": "https://github.com/legeling/awesome-codex-pet/issues/77",
+  "asset_note": "The final runtime spritesheet is an original AI-generated pixel-art community interpretation. No official or third-party artwork pixels are included directly.",
+  "reference_note": "The public character link supplied in Issue #77 was used only for broad identity cues; the final dark winged cat-dragon design is independently generated and intentionally distinct.",
+  "license": "Non-commercial fan use only; character rights remain with DreamWorks Animation and Universal.",
+  "description": "An original pixel-art fan interpretation of Toothless as a compact dark winged cat-dragon with vivid green eyes, nine task animations, and 16 clockwise look directions.",
+  "preview_image": "../../assets/previews/toothless--legeling/gifs/idle.gif",
+  "codex_install": {
+    "pet_json": "pet.json",
+    "spritesheet": "spritesheet.webp"
+  },
+  "preview_assets": {
+    "contact_sheet": "../../assets/previews/toothless--legeling/contact-sheet.png",
+    "gifs_dir": "../../assets/previews/toothless--legeling/gifs"
+  },
+  "spritesheet_sha256": "f305946be94857fb16d75c3c29ad8c1e1ad42ad3a73160b2540c1db7ebbbf891"
+}

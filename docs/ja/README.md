@@ -12,7 +12,7 @@
 
 <a href="https://codexpet.top/ja"><img src="../../assets/cover/awesome-codex-pet-cover.png" alt="Awesome Codex Pet ギャラリーを開く"></a>
 
-![pets: 210](https://img.shields.io/badge/pets-210-2ea44f) ![categories: 11](https://img.shields.io/badge/categories-11-0969da) ![languages: en | zh--CN | ko | ja | es](https://img.shields.io/badge/languages-en%20%7C%20zh--CN%20%7C%20ko%20%7C%20ja%20%7C%20es-8250df) ![code: MIT](https://img.shields.io/badge/code-MIT-111111) ![assets: CC BY--NC 4.0](https://img.shields.io/badge/assets-CC%20BY--NC%204.0-f97316) ![install: one command](https://img.shields.io/badge/install-one%20command-111111) [![Pet previews](https://github.com/legeling/awesome-codex-pet/actions/workflows/pet-previews.yml/badge.svg)](https://github.com/legeling/awesome-codex-pet/actions/workflows/pet-previews.yml)
+![pets: 212](https://img.shields.io/badge/pets-212-2ea44f) ![categories: 11](https://img.shields.io/badge/categories-11-0969da) ![languages: en | zh--CN | ko | ja | es](https://img.shields.io/badge/languages-en%20%7C%20zh--CN%20%7C%20ko%20%7C%20ja%20%7C%20es-8250df) ![code: MIT](https://img.shields.io/badge/code-MIT-111111) ![assets: CC BY--NC 4.0](https://img.shields.io/badge/assets-CC%20BY--NC%204.0-f97316) ![install: one command](https://img.shields.io/badge/install-one%20command-111111) [![Pet previews](https://github.com/legeling/awesome-codex-pet/actions/workflows/pet-previews.yml/badge.svg)](https://github.com/legeling/awesome-codex-pet/actions/workflows/pet-previews.yml)
 
 </div>
 
@@ -589,6 +589,13 @@ powershell -NoProfile -ExecutionPolicy Bypass -Command "iwr -UseB -MaximumRedire
 </table>
 
 <table>
+<tr><th>名前</th><td colspan="5"><a href="../../pets/light-fury--legeling">Light Fury</a> · 作者 <a href="https://github.com/legeling">@legeling</a> · アニメキャラクター · v2</td></tr>
+<tr><th>インストール</th><td colspan="5"><code>curl -fsSL --proto '=https' --tlsv1.2 https://raw.githubusercontent.com/legeling/awesome-codex-pet/main/scripts/install-pet.sh | bash -s -- --raw-base https://raw.githubusercontent.com/legeling/awesome-codex-pet/main light-fury--legeling</code></td></tr>
+<tr><th>アクション</th><td><strong>待機</strong></td><td><strong>手を振る</strong></td><td><strong>走る</strong></td><td><strong>待機中</strong></td><td><strong>レビュー</strong></td></tr>
+<tr><th>プレビュー</th><td><img src="https://codexpet.top/assets/previews/light-fury--legeling/webp/idle.webp" alt="Light Fury idle" width="120" height="130"></td><td><img src="https://codexpet.top/assets/previews/light-fury--legeling/webp/waving.webp" alt="Light Fury waving" width="120" height="130"></td><td><img src="https://codexpet.top/assets/previews/light-fury--legeling/webp/running-right.webp" alt="Light Fury running-right" width="120" height="130"></td><td><img src="https://codexpet.top/assets/previews/light-fury--legeling/webp/waiting.webp" alt="Light Fury waiting" width="120" height="130"></td><td><img src="https://codexpet.top/assets/previews/light-fury--legeling/webp/review.webp" alt="Light Fury review" width="120" height="130"></td></tr>
+</table>
+
+<table>
 <tr><th>名前</th><td colspan="5"><a href="../../pets/luffy-gear-5--jordsshmords1">Luffy Gear 5</a> · 作者 <a href="https://codex-pets.net/users/jordsshmords1">@jordsshmords1</a> · アニメキャラクター · v1</td></tr>
 <tr><th>インストール</th><td colspan="5"><code>curl -fsSL --proto '=https' --tlsv1.2 https://raw.githubusercontent.com/legeling/awesome-codex-pet/main/scripts/install-pet.sh | bash -s -- --raw-base https://raw.githubusercontent.com/legeling/awesome-codex-pet/main luffy-gear-5--jordsshmords1</code></td></tr>
 <tr><th>アクション</th><td><strong>待機</strong></td><td><strong>手を振る</strong></td><td><strong>走る</strong></td><td><strong>待機中</strong></td><td><strong>レビュー</strong></td></tr>
@@ -719,6 +726,13 @@ powershell -NoProfile -ExecutionPolicy Bypass -Command "iwr -UseB -MaximumRedire
 <tr><th>インストール</th><td colspan="5"><code>curl -fsSL --proto '=https' --tlsv1.2 https://raw.githubusercontent.com/legeling/awesome-codex-pet/main/scripts/install-pet.sh | bash -s -- --raw-base https://raw.githubusercontent.com/legeling/awesome-codex-pet/main togawa-sakiko--enclairfarron</code></td></tr>
 <tr><th>アクション</th><td><strong>待機</strong></td><td><strong>手を振る</strong></td><td><strong>走る</strong></td><td><strong>待機中</strong></td><td><strong>レビュー</strong></td></tr>
 <tr><th>プレビュー</th><td><img src="https://codexpet.top/assets/previews/togawa-sakiko--enclairfarron/webp/idle.webp" alt="Togawa Sakiko idle" width="120" height="130"></td><td><img src="https://codexpet.top/assets/previews/togawa-sakiko--enclairfarron/webp/waving.webp" alt="Togawa Sakiko waving" width="120" height="130"></td><td><img src="https://codexpet.top/assets/previews/togawa-sakiko--enclairfarron/webp/running-right.webp" alt="Togawa Sakiko running-right" width="120" height="130"></td><td><img src="https://codexpet.top/assets/previews/togawa-sakiko--enclairfarron/webp/waiting.webp" alt="Togawa Sakiko waiting" width="120" height="130"></td><td><img src="https://codexpet.top/assets/previews/togawa-sakiko--enclairfarron/webp/review.webp" alt="Togawa Sakiko review" width="120" height="130"></td></tr>
+</table>
+
+<table>
+<tr><th>名前</th><td colspan="5"><a href="../../pets/toothless--legeling">Toothless</a> · 作者 <a href="https://github.com/legeling">@legeling</a> · アニメキャラクター · v2</td></tr>
+<tr><th>インストール</th><td colspan="5"><code>curl -fsSL --proto '=https' --tlsv1.2 https://raw.githubusercontent.com/legeling/awesome-codex-pet/main/scripts/install-pet.sh | bash -s -- --raw-base https://raw.githubusercontent.com/legeling/awesome-codex-pet/main toothless--legeling</code></td></tr>
+<tr><th>アクション</th><td><strong>待機</strong></td><td><strong>手を振る</strong></td><td><strong>走る</strong></td><td><strong>待機中</strong></td><td><strong>レビュー</strong></td></tr>
+<tr><th>プレビュー</th><td><img src="https://codexpet.top/assets/previews/toothless--legeling/webp/idle.webp" alt="Toothless idle" width="120" height="130"></td><td><img src="https://codexpet.top/assets/previews/toothless--legeling/webp/waving.webp" alt="Toothless waving" width="120" height="130"></td><td><img src="https://codexpet.top/assets/previews/toothless--legeling/webp/running-right.webp" alt="Toothless running-right" width="120" height="130"></td><td><img src="https://codexpet.top/assets/previews/toothless--legeling/webp/waiting.webp" alt="Toothless waiting" width="120" height="130"></td><td><img src="https://codexpet.top/assets/previews/toothless--legeling/webp/review.webp" alt="Toothless review" width="120" height="130"></td></tr>
 </table>
 
 <table>

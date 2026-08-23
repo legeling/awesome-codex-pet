@@ -1,0 +1,8 @@
+{
+  "id": "light-fury--legeling",
+  "displayName": "Light Fury",
+  "description": "A graceful pearl-white winged cat-dragon with bright blue eyes.",
+  "spriteVersionNumber": 2,
+  "spritesheetPath": "spritesheet.webp",
+  "kind": "character"
+}

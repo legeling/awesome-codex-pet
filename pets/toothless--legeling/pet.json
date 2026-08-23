@@ -1,0 +1,8 @@
+{
+  "id": "toothless--legeling",
+  "displayName": "Toothless",
+  "description": "A curious dark winged cat-dragon with bright green eyes.",
+  "spriteVersionNumber": 2,
+  "spritesheetPath": "spritesheet.webp",
+  "kind": "character"
+}
