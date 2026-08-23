@@ -1,0 +1,38 @@
+{
+  "slug": "lin-pianpian-date--legeling",
+  "pet_slug": "lin-pianpian-date",
+  "author_slug": "legeling",
+  "canonical_key": "aihong-chengpo-shiri/lin-pianpian",
+  "variant_note": "约会造型：白花与金链流苏发饰、灰绿汉服和温柔笑容；与本 issue 的另外三套服装分别制作。",
+  "name": "林翩翩（约会）",
+  "author": "Legeling",
+  "author_handle": "legeling",
+  "author_url": "https://github.com/legeling",
+  "primary_category": "Game Characters",
+  "collections": [],
+  "tags": [
+    "lin-pianpian",
+    "aihong-chengpo-shiri",
+    "pixel-art",
+    "hanfu",
+    "community-request",
+    "ai-generated",
+    "v2",
+    "look-directions"
+  ],
+  "source_type": "ai-generated fan art",
+  "source_url": "https://github.com/legeling/awesome-codex-pet/issues/47",
+  "source_notes": "Independently AI-generated non-commercial fan-art adaptation for Issue #47, grounded in the public date and smile reference copies supplied by the requester. The character and original reference artwork are credited to 嵇零 / 零创游戏 and 《哀鸿城破十日记》; no source image pixels, text, or background were copied into the final spritesheet.",
+  "license": "Non-commercial fan use only; character and source-art rights remain with 嵇零 / 零创游戏",
+  "description": "林翩翩的约会造型，保留白花金链发饰、灰绿双层汉服与温柔笑容，并包含完整 v2 动画和 16 个环视方向。",
+  "preview_image": "../../assets/previews/lin-pianpian-date--legeling/gifs/idle.gif",
+  "codex_install": {
+    "pet_json": "pet.json",
+    "spritesheet": "spritesheet.webp"
+  },
+  "preview_assets": {
+    "contact_sheet": "../../assets/previews/lin-pianpian-date--legeling/contact-sheet.png",
+    "gifs_dir": "../../assets/previews/lin-pianpian-date--legeling/gifs"
+  },
+  "spritesheet_sha256": "bfb2a09c3582ab90ad6426a53ec47b27ed1a151a7ded82b09c34c8762138c419"
+}

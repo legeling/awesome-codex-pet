@@ -1,0 +1,38 @@
+{
+  "slug": "lin-pianpian-first-meeting--legeling",
+  "pet_slug": "lin-pianpian-first-meeting",
+  "author_slug": "legeling",
+  "canonical_key": "aihong-chengpo-shiri/lin-pianpian",
+  "variant_note": "初遇造型：侧髻长发、遮眼厚刘海与素雅灰绿双层汉服；与本 issue 的另外三套服装分别制作。",
+  "name": "林翩翩（初遇）",
+  "author": "Legeling",
+  "author_handle": "legeling",
+  "author_url": "https://github.com/legeling",
+  "primary_category": "Game Characters",
+  "collections": [],
+  "tags": [
+    "lin-pianpian",
+    "aihong-chengpo-shiri",
+    "pixel-art",
+    "hanfu",
+    "community-request",
+    "ai-generated",
+    "v2",
+    "look-directions"
+  ],
+  "source_type": "ai-generated fan art",
+  "source_url": "https://github.com/legeling/awesome-codex-pet/issues/47",
+  "source_notes": "Independently AI-generated non-commercial fan-art adaptation for Issue #47, grounded in the public reference copy supplied by the requester. The character and original reference artwork are credited to 嵇零 / 零创游戏 and 《哀鸿城破十日记》; no source image pixels, text, or background were copied into the final spritesheet.",
+  "license": "Non-commercial fan use only; character and source-art rights remain with 嵇零 / 零创游戏",
+  "description": "林翩翩的初遇造型，保留侧髻黑色长发、遮眼刘海与素雅灰绿双层汉服，并包含完整 v2 动画和 16 个环视方向。",
+  "preview_image": "../../assets/previews/lin-pianpian-first-meeting--legeling/gifs/idle.gif",
+  "codex_install": {
+    "pet_json": "pet.json",
+    "spritesheet": "spritesheet.webp"
+  },
+  "preview_assets": {
+    "contact_sheet": "../../assets/previews/lin-pianpian-first-meeting--legeling/contact-sheet.png",
+    "gifs_dir": "../../assets/previews/lin-pianpian-first-meeting--legeling/gifs"
+  },
+  "spritesheet_sha256": "31d973f1e55b422016d9eaf8d58eed1f68246a7b767af429f4ef57d60b924029"
+}

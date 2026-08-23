@@ -1,0 +1,38 @@
+{
+  "slug": "lin-pianpian-flower-street--legeling",
+  "pet_slug": "lin-pianpian-flower-street",
+  "author_slug": "legeling",
+  "canonical_key": "aihong-chengpo-shiri/lin-pianpian",
+  "variant_note": "花街造型：金色头饰、白色长飘带、深灰绿大袖外袍与白色内裙；与本 issue 的另外三套服装分别制作。",
+  "name": "林翩翩（花街）",
+  "author": "Legeling",
+  "author_handle": "legeling",
+  "author_url": "https://github.com/legeling",
+  "primary_category": "Game Characters",
+  "collections": [],
+  "tags": [
+    "lin-pianpian",
+    "aihong-chengpo-shiri",
+    "pixel-art",
+    "hanfu",
+    "community-request",
+    "ai-generated",
+    "v2",
+    "look-directions"
+  ],
+  "source_type": "ai-generated fan art",
+  "source_url": "https://github.com/legeling/awesome-codex-pet/issues/47",
+  "source_notes": "Independently AI-generated non-commercial fan-art adaptation for Issue #47, grounded in the public reference copy supplied by the requester. The character and original reference artwork are credited to 嵇零 / 零创游戏 and 《哀鸿城破十日记》; no source image pixels, text, or background were copied into the final spritesheet.",
+  "license": "Non-commercial fan use only; character and source-art rights remain with 嵇零 / 零创游戏",
+  "description": "林翩翩的花街造型，保留金色头饰、白色长飘带、深灰绿大袖外袍与白裙，并包含完整 v2 动画和 16 个环视方向。",
+  "preview_image": "../../assets/previews/lin-pianpian-flower-street--legeling/gifs/idle.gif",
+  "codex_install": {
+    "pet_json": "pet.json",
+    "spritesheet": "spritesheet.webp"
+  },
+  "preview_assets": {
+    "contact_sheet": "../../assets/previews/lin-pianpian-flower-street--legeling/contact-sheet.png",
+    "gifs_dir": "../../assets/previews/lin-pianpian-flower-street--legeling/gifs"
+  },
+  "spritesheet_sha256": "df25f4298bfc155e27237779d803892b570191fdc6370a05c6a166573591e782"
+}
