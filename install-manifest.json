@@ -1943,6 +1943,16 @@
       "spritesheetWidth": 1536,
       "spritesheetHeight": 1872
     },
+    "izumi-konata--legeling": {
+      "name": "泉此方",
+      "spriteVersionNumber": 2,
+      "petJsonSha256": "218abffd8cea4d1c80d1e0d8b64c035e5c7aa1246e12bab30c9a47867992423c",
+      "petJsonBytes": 234,
+      "spritesheetSha256": "4f41d7d56aefc2e89446adc978b16134702df3e4b11e4a50185525e3b95ed13f",
+      "spritesheetBytes": 2035788,
+      "spritesheetWidth": 1536,
+      "spritesheetHeight": 2288
+    },
     "tanjiro-kamado--wangfan002": {
       "name": "炭治郎 Q版 丰富动作",
       "spriteVersionNumber": 1,

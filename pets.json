@@ -2406,6 +2406,20 @@
     "spriteVersionNumber": 1
   },
   {
+    "slug": "izumi-konata--legeling",
+    "name": "泉此方",
+    "localized_names": { "en": "Izumi Konata", "zh": "泉此方" },
+    "author": "legeling",
+    "author_handle": "legeling",
+    "author_url": "https://github.com/legeling",
+    "primary_category": "Others",
+    "canonical_key": "anime/lucky-star/izumi-konata",
+    "collections": [],
+    "license": "Independent AI-generated community interpretation; non-commercial use only. Commercial use is prohibited.",
+    "description": "A small, cute v2 community interpretation of Izumi Konata from Lucky Star, with nine task animations and sixteen clockwise look directions.",
+    "spriteVersionNumber": 2
+  },
+  {
     "slug": "tanjiro-kamado--wangfan002",
     "name": "炭治郎 Q版 丰富动作",
     "localized_names": { "en": "Tanjiro Kamado", "zh": "灶门炭治郎" },

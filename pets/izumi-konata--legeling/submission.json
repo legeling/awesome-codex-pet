@@ -1,0 +1,33 @@
+{
+  "slug": "izumi-konata--legeling",
+  "pet_slug": "izumi-konata",
+  "author_slug": "legeling",
+  "name": "泉此方",
+  "localized_names": {
+    "en": "Izumi Konata",
+    "zh": "泉此方"
+  },
+  "author": "legeling",
+  "author_handle": "legeling",
+  "author_url": "https://github.com/legeling",
+  "primary_category": "Others",
+  "canonical_key": "anime/lucky-star/izumi-konata",
+  "tags": ["izumi-konata", "lucky-star", "chibi", "school-uniform", "v2"],
+  "collections": [],
+  "source_type": "independent-ai-generated-community-interpretation",
+  "source_url": "https://github.com/legeling/awesome-codex-pet/issues/81",
+  "asset_note": "The final runtime spritesheet was independently AI-generated and assembled with the Codex Hatch Pet v2 workflow. No official pixels are included directly.",
+  "reference_note": "Issue #81 supplied no reference image. This is an original community interpretation using only broad character cues: dark-blue hair, green eyes, and a navy-and-white student outfit.",
+  "license": "Independent AI-generated community interpretation; non-commercial use only. Commercial use is prohibited.",
+  "description": "A small, cute v2 community interpretation of Izumi Konata from Lucky Star, with nine task animations and sixteen clockwise look directions.",
+  "preview_image": "../../assets/previews/izumi-konata--legeling/gifs/idle.gif",
+  "codex_install": {
+    "pet_json": "pet.json",
+    "spritesheet": "spritesheet.webp"
+  },
+  "preview_assets": {
+    "contact_sheet": "../../assets/previews/izumi-konata--legeling/contact-sheet.png",
+    "gifs_dir": "../../assets/previews/izumi-konata--legeling/gifs"
+  },
+  "spritesheet_sha256": "4f41d7d56aefc2e89446adc978b16134702df3e4b11e4a50185525e3b95ed13f"
+}
