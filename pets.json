@@ -1983,6 +1983,19 @@
     "spriteVersionNumber": 1
   },
   {
+    "slug": "yuanbao--legeling",
+    "name": "元宝",
+    "author": "Legeling",
+    "author_handle": "legeling",
+    "author_url": "https://github.com/legeling",
+    "primary_category": "Animals",
+    "canonical_key": "animal/domestic-cat/yuanbao",
+    "collections": ["animal-companions"],
+    "license": "CC BY-NC 4.0",
+    "description": "一只灰白相间、带苏格兰折耳特征和大圆眼的半写实虎斑猫桌面伙伴，包含九组任务动画与完整的 16 方向环视动作。",
+    "spriteVersionNumber": 2
+  },
+  {
     "slug": "yae-miko--legeling",
     "name": "八重神子",
     "localized_names": { "en": "Yae Miko", "zh": "八重神子" },

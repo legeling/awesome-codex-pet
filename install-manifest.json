@@ -1603,6 +1603,16 @@
       "spritesheetWidth": 1536,
       "spritesheetHeight": 1872
     },
+    "yuanbao--legeling": {
+      "name": "元宝",
+      "spriteVersionNumber": 2,
+      "petJsonSha256": "a69c3c6b1c1dddff2949ce83b5eb1d69e2d190430854d12dbd216d36951c7d1b",
+      "petJsonBytes": 262,
+      "spritesheetSha256": "dd37bd8664636ea6639ad4bf5e1ea50e82a5864b72520f88fb5fabc80222fa50",
+      "spritesheetBytes": 2551218,
+      "spritesheetWidth": 1536,
+      "spritesheetHeight": 2288
+    },
     "yae-miko--legeling": {
       "name": "八重神子",
       "spriteVersionNumber": 2,

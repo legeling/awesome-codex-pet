@@ -1,0 +1,37 @@
+{
+  "slug": "yuanbao--legeling",
+  "pet_slug": "yuanbao",
+  "author_slug": "legeling",
+  "canonical_key": "animal/domestic-cat/yuanbao",
+  "name": "元宝",
+  "author": "Legeling",
+  "author_handle": "legeling",
+  "author_url": "https://github.com/legeling",
+  "primary_category": "Animals",
+  "collections": ["animal-companions"],
+  "tags": [
+    "cat",
+    "scottish-fold",
+    "tabby",
+    "gray-white",
+    "community-request",
+    "ai-generated",
+    "v2",
+    "look-directions"
+  ],
+  "source_type": "ai-generated",
+  "source_url": "https://github.com/legeling/awesome-codex-pet/issues/45",
+  "source_notes": "Independently AI-generated community interpretation made for Issue #45 from the written description of a gray-and-white Scottish Fold tabby cat. No accessible source photo was attached to the Issue, so no photo pixels, background, text, or other source assets were copied into the final spritesheet.",
+  "license": "CC BY-NC 4.0",
+  "description": "一只灰白相间、带苏格兰折耳特征和大圆眼的半写实虎斑猫桌面伙伴，包含九组任务动画与完整的 16 方向环视动作。",
+  "preview_image": "../../assets/previews/yuanbao--legeling/gifs/idle.gif",
+  "codex_install": {
+    "pet_json": "pet.json",
+    "spritesheet": "spritesheet.webp"
+  },
+  "preview_assets": {
+    "contact_sheet": "../../assets/previews/yuanbao--legeling/contact-sheet.png",
+    "gifs_dir": "../../assets/previews/yuanbao--legeling/gifs"
+  },
+  "spritesheet_sha256": "dd37bd8664636ea6639ad4bf5e1ea50e82a5864b72520f88fb5fabc80222fa50"
+}
