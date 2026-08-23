@@ -1993,6 +1993,16 @@
       "spritesheetWidth": 1536,
       "spritesheetHeight": 1872
     },
+    "shen-xinghui--legeling": {
+      "name": "沈星回",
+      "spriteVersionNumber": 2,
+      "petJsonSha256": "287b7ba90639794c3f022104f2673dedd9938e680843382166826962e259bfbc",
+      "petJsonBytes": 235,
+      "spritesheetSha256": "d9fd7cfd22d33fb00a7ee6f5f1d29baa68919cb14ac1bda55ea1d8426c6e7ef3",
+      "spritesheetBytes": 1360612,
+      "spritesheetWidth": 1536,
+      "spritesheetHeight": 2288
+    },
     "izumi-konata--legeling": {
       "name": "泉此方",
       "spriteVersionNumber": 2,

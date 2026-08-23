@@ -1,0 +1,37 @@
+{
+  "slug": "shen-xinghui--legeling",
+  "pet_slug": "shen-xinghui",
+  "author_slug": "legeling",
+  "name": "沈星回",
+  "author": "Legeling",
+  "author_handle": "legeling",
+  "author_url": "https://github.com/legeling",
+  "primary_category": "Game Characters",
+  "canonical_key": "love-and-deepspace/shen-xinghui",
+  "tags": [
+    "love-and-deepspace",
+    "shen-xinghui",
+    "community-request",
+    "ai-generated",
+    "fan-art",
+    "chibi",
+    "v2",
+    "look-directions"
+  ],
+  "collections": [],
+  "source_type": "ai-generated fan-art",
+  "source_url": "https://github.com/legeling/awesome-codex-pet/issues/134",
+  "source_notes": "Independently AI-generated community interpretation made for Issue #134 from the requester's reference image. The reference guided hair, eyes, outfit, and overall identity only; no source pixels, background, text, logos, or watermarks were copied.",
+  "license": "CC BY-NC 4.0；仅限非商业使用。非官方 AI 同人作品，不代表或暗示获得《恋与深空》权利方授权；角色及商标权利归其权利人所有。",
+  "description": "以《恋与深空》沈星回为灵感独立生成的软质 3D Q 版 Codex 宠物，包含九组任务动画与完整 16 方向环视动作。",
+  "preview_image": "../../assets/previews/shen-xinghui--legeling/gifs/idle.gif",
+  "codex_install": {
+    "pet_json": "pet.json",
+    "spritesheet": "spritesheet.webp"
+  },
+  "preview_assets": {
+    "contact_sheet": "../../assets/previews/shen-xinghui--legeling/contact-sheet.png",
+    "gifs_dir": "../../assets/previews/shen-xinghui--legeling/gifs"
+  },
+  "spritesheet_sha256": "d9fd7cfd22d33fb00a7ee6f5f1d29baa68919cb14ac1bda55ea1d8426c6e7ef3"
+}
