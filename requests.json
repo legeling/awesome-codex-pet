@@ -1,5 +1,43 @@
 [
   {
+    "number": 45,
+    "character": "元宝 (Yuanbao)",
+    "characterDetails": "元宝 (Yuanbao)",
+    "franchise": "",
+    "category": "animal",
+    "version": "v2",
+    "requestType": "Create a new community interpretation",
+    "referenceStatus": "",
+    "references": "希望社区基于用户提供的真实宠物猫参考照片，重新创作一只写实风格的 Codex 桌面宠物。元宝是一只灰白相间的虎斑猫（苏格兰折耳猫特征），参考照片中呈仰卧姿态，眼睛大而圆，表情生动。",
+    "referenceUrls": [],
+    "referenceImages": [],
+    "referenceThumbnails": [],
+    "visualDirection": "素材来源：用户本人提供的原创宠物照片\n- 素材作者：用户本人\n- 使用状态：仅限非商业使用（CC BY-NC 4.0）",
+    "nameLanguages": "Single-language default name",
+    "attribution": "",
+    "duplicateCheck": "素材来源：用户本人提供的原创宠物照片\n- 素材作者：用户本人\n- 使用状态：仅限非商业使用（CC BY-NC 4.0）",
+    "state": "open",
+    "status": "in-progress",
+    "labels": [
+      "type: request",
+      "status: in-progress",
+      "version: v2",
+      "category: animal"
+    ],
+    "author": {
+      "login": "165615",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/54627151?v=4",
+      "url": "https://github.com/165615"
+    },
+    "assignees": [],
+    "createdAt": "2026-07-23T04:33:06Z",
+    "updatedAt": "2026-08-23T07:36:35Z",
+    "closedAt": null,
+    "comments": 2,
+    "reactions": 0,
+    "githubUrl": "https://github.com/legeling/awesome-codex-pet/issues/45"
+  },
+  {
     "number": 134,
     "character": "沈星回",
     "characterDetails": "沈星回",
@@ -1002,44 +1040,6 @@
     "comments": 0,
     "reactions": 0,
     "githubUrl": "https://github.com/legeling/awesome-codex-pet/issues/77"
-  },
-  {
-    "number": 45,
-    "character": "元宝 (Yuanbao)",
-    "characterDetails": "元宝 (Yuanbao)",
-    "franchise": "",
-    "category": "animal",
-    "version": "v2",
-    "requestType": "Create a new community interpretation",
-    "referenceStatus": "",
-    "references": "希望社区基于用户提供的真实宠物猫参考照片，重新创作一只写实风格的 Codex 桌面宠物。元宝是一只灰白相间的虎斑猫（苏格兰折耳猫特征），参考照片中呈仰卧姿态，眼睛大而圆，表情生动。",
-    "referenceUrls": [],
-    "referenceImages": [],
-    "referenceThumbnails": [],
-    "visualDirection": "素材来源：用户本人提供的原创宠物照片\n- 素材作者：用户本人\n- 使用状态：仅限非商业使用（CC BY-NC 4.0）",
-    "nameLanguages": "Single-language default name",
-    "attribution": "",
-    "duplicateCheck": "素材来源：用户本人提供的原创宠物照片\n- 素材作者：用户本人\n- 使用状态：仅限非商业使用（CC BY-NC 4.0）",
-    "state": "open",
-    "status": "triage",
-    "labels": [
-      "type: request",
-      "status: triage",
-      "version: v2",
-      "category: animal"
-    ],
-    "author": {
-      "login": "165615",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/54627151?v=4",
-      "url": "https://github.com/165615"
-    },
-    "assignees": [],
-    "createdAt": "2026-07-23T04:33:06Z",
-    "updatedAt": "2026-07-28T11:04:53Z",
-    "closedAt": null,
-    "comments": 1,
-    "reactions": 0,
-    "githubUrl": "https://github.com/legeling/awesome-codex-pet/issues/45"
   },
   {
     "number": 47,
