@@ -2633,6 +2633,19 @@
     "spriteVersionNumber": 2
   },
   {
+    "slug": "luo-xiaohei--legeling",
+    "name": "罗小黑",
+    "author": "Legeling",
+    "author_handle": "legeling",
+    "author_url": "https://github.com/legeling",
+    "primary_category": "Anime Characters",
+    "canonical_key": "the-legend-of-luo-xiaohei/luo-xiaohei",
+    "collections": [],
+    "license": "CC BY-NC 4.0；仅限非商业使用。非官方 AI 社区诠释作品，不代表或暗示获得相关角色或商标权利方授权。",
+    "description": "以 Issue #127 参考形象为灵感独立生成的 Q 版罗小黑 Codex 宠物，包含九组任务动画与完整 16 方向环视动作。",
+    "spriteVersionNumber": 2
+  },
+  {
     "slug": "maodie--octane0411",
     "name": "耄耋",
     "author": "Octane0411",

@@ -1,0 +1,38 @@
+{
+  "slug": "luo-xiaohei--legeling",
+  "pet_slug": "luo-xiaohei",
+  "author_slug": "legeling",
+  "name": "罗小黑",
+  "author": "Legeling",
+  "author_handle": "legeling",
+  "author_url": "https://github.com/legeling",
+  "primary_category": "Anime Characters",
+  "canonical_key": "the-legend-of-luo-xiaohei/luo-xiaohei",
+  "tags": [
+    "luo-xiaohei",
+    "community-request",
+    "ai-generated",
+    "anime",
+    "forest-child",
+    "sticker",
+    "chibi",
+    "v2",
+    "look-directions"
+  ],
+  "collections": [],
+  "source_type": "ai-generated community interpretation",
+  "source_url": "https://github.com/legeling/awesome-codex-pet/issues/127",
+  "source_notes": "Independently AI-generated community interpretation made for Issue #127. The requester reference guided the black hair, green eyes, pale green horn-like ornaments, blue tunic, diagonal sash, and small black tail only; the fish, stick, forest scenery, text, logos, watermarks, and source pixels were deliberately omitted.",
+  "license": "CC BY-NC 4.0；仅限非商业使用。非官方 AI 社区诠释作品，不代表或暗示获得相关角色或商标权利方授权。",
+  "description": "以 Issue #127 参考形象为灵感独立生成的 Q 版罗小黑 Codex 宠物，包含九组任务动画与完整 16 方向环视动作。",
+  "preview_image": "../../assets/previews/luo-xiaohei--legeling/gifs/idle.gif",
+  "codex_install": {
+    "pet_json": "pet.json",
+    "spritesheet": "spritesheet.webp"
+  },
+  "preview_assets": {
+    "contact_sheet": "../../assets/previews/luo-xiaohei--legeling/contact-sheet.png",
+    "gifs_dir": "../../assets/previews/luo-xiaohei--legeling/gifs"
+  },
+  "spritesheet_sha256": "52c8feff0a688e6b18791e452d5eff090823fcaf8306f8f1f8da64e30e15c468"
+}

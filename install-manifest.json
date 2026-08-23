@@ -2113,6 +2113,16 @@
       "spritesheetWidth": 1536,
       "spritesheetHeight": 2288
     },
+    "luo-xiaohei--legeling": {
+      "name": "罗小黑",
+      "spriteVersionNumber": 2,
+      "petJsonSha256": "0250d2e9610c9aa7708ca4655c1eee590e772ed1359977ce88359cd4ee56505a",
+      "petJsonBytes": 246,
+      "spritesheetSha256": "52c8feff0a688e6b18791e452d5eff090823fcaf8306f8f1f8da64e30e15c468",
+      "spritesheetBytes": 1605192,
+      "spritesheetWidth": 1536,
+      "spritesheetHeight": 2288
+    },
     "maodie--octane0411": {
       "name": "耄耋",
       "spriteVersionNumber": 2,
