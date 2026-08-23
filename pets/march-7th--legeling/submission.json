@@ -1,0 +1,41 @@
+{
+  "slug": "march-7th--legeling",
+  "pet_slug": "march-7th",
+  "author_slug": "legeling",
+  "name": "三月七",
+  "localized_names": {
+    "en": "March 7th",
+    "zh": "三月七"
+  },
+  "author": "legeling",
+  "author_handle": "legeling",
+  "author_url": "https://github.com/legeling",
+  "primary_category": "Others",
+  "canonical_key": "honkai-star-rail/march-7th",
+  "variant_note": "An independently produced v2 community interpretation with new pink-and-blue chibi artwork, nine animation states, and sixteen look directions; it does not reuse the existing chenxin-dlut v1 spritesheet.",
+  "tags": [
+    "march-7th",
+    "honkai-star-rail",
+    "pink-hair",
+    "space",
+    "chibi",
+    "v2"
+  ],
+  "collections": [],
+  "source_type": "independent-ai-generated-community-interpretation",
+  "source_url": "https://github.com/legeling/awesome-codex-pet/issues/82",
+  "asset_note": "The final runtime spritesheet was independently AI-generated and assembled with the Codex Hatch Pet v2 workflow. No official pixels or existing repository pixels are included directly.",
+  "reference_note": "Issue #82 supplied no reference image. This original community interpretation uses broad pink-haired space-fantasy photographer cues only.",
+  "license": "Independent AI-generated community interpretation; non-commercial use only. Commercial use is prohibited.",
+  "description": "An independent v2 community interpretation of March 7th from Honkai: Star Rail, with nine task animations and sixteen clockwise look directions.",
+  "preview_image": "../../assets/previews/march-7th--legeling/gifs/idle.gif",
+  "codex_install": {
+    "pet_json": "pet.json",
+    "spritesheet": "spritesheet.webp"
+  },
+  "preview_assets": {
+    "contact_sheet": "../../assets/previews/march-7th--legeling/contact-sheet.png",
+    "gifs_dir": "../../assets/previews/march-7th--legeling/gifs"
+  },
+  "spritesheet_sha256": "ea280083afbc174f5d7ef6b1035d2c27746dbb8c3327774736efe9ef97d9d736"
+}
