@@ -1953,6 +1953,16 @@
       "spritesheetWidth": 1536,
       "spritesheetHeight": 2288
     },
+    "chillet--legeling": {
+      "name": "疾旋鼬",
+      "spriteVersionNumber": 2,
+      "petJsonSha256": "daf77dc9ee37208c0f5d18dd9d53d699637bcefc913c8e71a5195e19201c355c",
+      "petJsonBytes": 254,
+      "spritesheetSha256": "1270b7e6bf315f12ef34b0606c549fbfb5ade4796b5ac3fd99a7ce69e3d65753",
+      "spritesheetBytes": 2170212,
+      "spritesheetWidth": 1536,
+      "spritesheetHeight": 2288
+    },
     "nezuko-kamado--wangfan002": {
       "name": "祢豆子 Q版 丰富动作",
       "spriteVersionNumber": 1,

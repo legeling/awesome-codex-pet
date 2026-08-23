@@ -1,0 +1,33 @@
+{
+  "slug": "chillet--legeling",
+  "pet_slug": "chillet",
+  "author_slug": "legeling",
+  "name": "疾旋鼬",
+  "localized_names": {
+    "en": "Chillet",
+    "zh": "疾旋鼬"
+  },
+  "author": "legeling",
+  "author_handle": "legeling",
+  "author_url": "https://github.com/legeling",
+  "primary_category": "Game Characters",
+  "canonical_key": "game/palworld/chillet",
+  "tags": ["chillet", "palworld", "ice-dragon", "weasel", "cartoon", "v2"],
+  "collections": [],
+  "source_type": "independent-ai-generated-community-interpretation",
+  "source_url": "https://github.com/legeling/awesome-codex-pet/issues/62",
+  "asset_note": "The final runtime spritesheet is an independently AI-generated and deterministically assembled community interpretation. No supplied reference pixels are included directly.",
+  "reference_note": "The public PalDB page and public character images linked from Issue #62 were used only as broad visual guidance for the blue-white long-bodied ice-dragon weasel silhouette and playful personality.",
+  "license": "Independent AI-generated community interpretation; non-commercial use only. Commercial use is prohibited.",
+  "description": "An original cartoon community interpretation of Chillet from Palworld, preserving a cute blue-white long weasel-dragon silhouette, gentle side-to-side energy, nine standard task animations, and 16 clockwise look directions.",
+  "preview_image": "../../assets/previews/chillet--legeling/gifs/idle.gif",
+  "codex_install": {
+    "pet_json": "pet.json",
+    "spritesheet": "spritesheet.webp"
+  },
+  "preview_assets": {
+    "contact_sheet": "../../assets/previews/chillet--legeling/contact-sheet.png",
+    "gifs_dir": "../../assets/previews/chillet--legeling/gifs"
+  },
+  "spritesheet_sha256": "1270b7e6bf315f12ef34b0606c549fbfb5ade4796b5ac3fd99a7ce69e3d65753"
+}
