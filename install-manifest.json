@@ -2043,6 +2043,16 @@
       "spritesheetWidth": 1536,
       "spritesheetHeight": 2288
     },
+    "niulai--legeling": {
+      "name": "牛来",
+      "spriteVersionNumber": 2,
+      "petJsonSha256": "0fdae82c7fd2785b7f2b5ebab4a34eb965f7483dec652b2746b74d3d1f8c7301",
+      "petJsonBytes": 226,
+      "spritesheetSha256": "dd95068c122aecebbb4056918eba49513e4969cb00b503b9494319f2b410e399",
+      "spritesheetBytes": 1784000,
+      "spritesheetWidth": 1536,
+      "spritesheetHeight": 2288
+    },
     "yao-true-self-hertz--legeling": {
       "name": "瑶-真我赫兹",
       "spriteVersionNumber": 2,
