@@ -1313,6 +1313,16 @@
       "spritesheetWidth": 1536,
       "spritesheetHeight": 2288
     },
+    "serge-le-lapin--legeling": {
+      "name": "Serge le Lapin",
+      "spriteVersionNumber": 2,
+      "petJsonSha256": "c44987d2cc01142e30cee6ac0956db91555262573cf8b354e6e2f1bc5c40cb40",
+      "petJsonBytes": 251,
+      "spritesheetSha256": "4087884d17cd353dffe0b73966e26ce144071a907f46935644fe2579b7a74293",
+      "spritesheetBytes": 1418332,
+      "spritesheetWidth": 1536,
+      "spritesheetHeight": 2288
+    },
     "shian-helper--mistyshen": {
       "name": "Shian",
       "spriteVersionNumber": 1,
