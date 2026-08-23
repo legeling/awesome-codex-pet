@@ -293,6 +293,16 @@
       "spritesheetWidth": 1536,
       "spritesheetHeight": 1872
     },
+    "deepseek-girl--legeling": {
+      "name": "DeepSeek Girl",
+      "spriteVersionNumber": 2,
+      "petJsonSha256": "7c6660b8a41aa74355e1469e23521c485ab090f46c4407e22ae07cbdb56ad089",
+      "petJsonBytes": 224,
+      "spritesheetSha256": "613ade9ee1b828198b2fa8b1b4ae9c7eea8219fed0114e8c0e23ffbd9792eddc",
+      "spritesheetBytes": 2065232,
+      "spritesheetWidth": 1536,
+      "spritesheetHeight": 2288
+    },
     "desk-otter--zihualiu1997": {
       "name": "Desk Otter",
       "spriteVersionNumber": 1,

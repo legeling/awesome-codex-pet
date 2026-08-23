@@ -353,6 +353,20 @@
     "spriteVersionNumber": 1
   },
   {
+    "slug": "deepseek-girl--legeling",
+    "name": "DeepSeek Girl",
+    "localized_names": { "en": "DeepSeek Girl", "zh": "DeepSeek 娘" },
+    "author": "legeling",
+    "author_handle": "legeling",
+    "author_url": "https://github.com/legeling",
+    "primary_category": "Others",
+    "canonical_key": "brand/deepseek/deepseek-girl",
+    "collections": [],
+    "license": "Independent AI-generated community interpretation; non-commercial use only. Commercial use is prohibited.",
+    "description": "An original v2 DeepSeek Girl community interpretation: a blue-haired research explorer with nine task animations and sixteen clockwise look directions.",
+    "spriteVersionNumber": 2
+  },
+  {
     "slug": "desk-otter--zihualiu1997",
     "name": "Desk Otter",
     "author": "zihualiu1997",

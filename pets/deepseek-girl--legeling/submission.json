@@ -1,0 +1,33 @@
+{
+  "slug": "deepseek-girl--legeling",
+  "pet_slug": "deepseek-girl",
+  "author_slug": "legeling",
+  "name": "DeepSeek Girl",
+  "localized_names": {
+    "en": "DeepSeek Girl",
+    "zh": "DeepSeek 娘"
+  },
+  "author": "legeling",
+  "author_handle": "legeling",
+  "author_url": "https://github.com/legeling",
+  "primary_category": "Others",
+  "canonical_key": "brand/deepseek/deepseek-girl",
+  "tags": ["deepseek", "research", "explorer", "blue-hair", "v2"],
+  "collections": [],
+  "source_type": "independent-ai-generated-community-interpretation",
+  "source_url": "https://github.com/legeling/awesome-codex-pet/issues/83",
+  "asset_note": "The final runtime spritesheet was independently AI-generated and assembled with the Codex Hatch Pet v2 workflow. No brand artwork or reference pixels are included directly.",
+  "reference_note": "Issue #83 supplied no reference image. This original community interpretation uses a blue, white, and navy research-explorer concept without official artwork.",
+  "license": "Independent AI-generated community interpretation; non-commercial use only. Commercial use is prohibited.",
+  "description": "An original v2 DeepSeek Girl community interpretation: a blue-haired research explorer with nine task animations and sixteen clockwise look directions.",
+  "preview_image": "../../assets/previews/deepseek-girl--legeling/gifs/idle.gif",
+  "codex_install": {
+    "pet_json": "pet.json",
+    "spritesheet": "spritesheet.webp"
+  },
+  "preview_assets": {
+    "contact_sheet": "../../assets/previews/deepseek-girl--legeling/contact-sheet.png",
+    "gifs_dir": "../../assets/previews/deepseek-girl--legeling/gifs"
+  },
+  "spritesheet_sha256": "613ade9ee1b828198b2fa8b1b4ae9c7eea8219fed0114e8c0e23ffbd9792eddc"
+}
