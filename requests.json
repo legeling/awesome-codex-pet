@@ -1,5 +1,47 @@
 [
   {
+    "number": 50,
+    "character": "Han Li",
+    "characterDetails": "Han Li",
+    "franchise": "A Record of a Mortal's Journey to Immortality (凡人修仙传)",
+    "category": "anime",
+    "version": "v2",
+    "requestType": "Create a new community interpretation",
+    "referenceStatus": "A viewable image attachment or public image URL is included",
+    "references": "https://share.google/4i9CGAPqjzwx2nRDV\nhttps://share.google/veWEWuczDa1QPiLBo\nhttps://share.google/RXQotl4FHekkkJqsZ\n\nPublic reference links resolve to image results for Han Li / 凡人修仙传. Use as visual reference only; not requesting direct adaptation of any specific third-party artwork.",
+    "referenceUrls": [
+      "https://share.google/4i9CGAPqjzwx2nRDV",
+      "https://share.google/veWEWuczDa1QPiLBo",
+      "https://share.google/RXQotl4FHekkkJqsZ"
+    ],
+    "referenceImages": [],
+    "referenceThumbnails": [],
+    "visualDirection": "Animation version reference. Keep the look close to the anime adaptation: lean male cultivator, calm expression, black hair, readable face and clothing in all directions, and a hand-held Qingzhu Fengyun Sword as the key prop. Favor clear silhouette and animation-friendly shapes.",
+    "nameLanguages": "Single-language default name",
+    "attribution": "Character: Han Li from 凡人修仙传 / A Record of a Mortal's Journey to Immortality. Public reference links were provided for visual guidance only; no specific third-party artwork is claimed as original source. Non-commercial use only.",
+    "duplicateCheck": "Checked pets.json and collections.json, plus existing GitHub issues. No matching Han Li / 韩立 request found. Related same-work request: #46 Nangong Wan — https://github.com/legeling/awesome-codex-pet/issues/46, but it is a different character.",
+    "state": "open",
+    "status": "in-progress",
+    "labels": [
+      "type: request",
+      "status: in-progress",
+      "version: v2",
+      "category: anime"
+    ],
+    "author": {
+      "login": "kgkg-png",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/297054003?v=4",
+      "url": "https://github.com/kgkg-png"
+    },
+    "assignees": [],
+    "createdAt": "2026-07-24T08:46:23Z",
+    "updatedAt": "2026-08-23T14:08:28Z",
+    "closedAt": null,
+    "comments": 1,
+    "reactions": 0,
+    "githubUrl": "https://github.com/legeling/awesome-codex-pet/issues/50"
+  },
+  {
     "number": 47,
     "character": "林翩翩（林悔儿）",
     "characterDetails": "林翩翩（别名：林悔儿）。希望基于四种主要形象分别制作一个独立宠物变体，共 4 只：\n\n1. 林翩翩（初遇）\n2. 林翩翩（约会）\n3. 林翩翩（花街）\n4. 林翩翩（花魁）\n\n“林翩翩（约会）(smile)”仅作为“约会”变体的表情补充参考。",
@@ -1085,48 +1127,6 @@
     "comments": 0,
     "reactions": 0,
     "githubUrl": "https://github.com/legeling/awesome-codex-pet/issues/77"
-  },
-  {
-    "number": 50,
-    "character": "Han Li",
-    "characterDetails": "Han Li",
-    "franchise": "A Record of a Mortal's Journey to Immortality (凡人修仙传)",
-    "category": "anime",
-    "version": "v2",
-    "requestType": "Create a new community interpretation",
-    "referenceStatus": "A viewable image attachment or public image URL is included",
-    "references": "https://share.google/4i9CGAPqjzwx2nRDV\nhttps://share.google/veWEWuczDa1QPiLBo\nhttps://share.google/RXQotl4FHekkkJqsZ\n\nPublic reference links resolve to image results for Han Li / 凡人修仙传. Use as visual reference only; not requesting direct adaptation of any specific third-party artwork.",
-    "referenceUrls": [
-      "https://share.google/4i9CGAPqjzwx2nRDV",
-      "https://share.google/veWEWuczDa1QPiLBo",
-      "https://share.google/RXQotl4FHekkkJqsZ"
-    ],
-    "referenceImages": [],
-    "referenceThumbnails": [],
-    "visualDirection": "Animation version reference. Keep the look close to the anime adaptation: lean male cultivator, calm expression, black hair, readable face and clothing in all directions, and a hand-held Qingzhu Fengyun Sword as the key prop. Favor clear silhouette and animation-friendly shapes.",
-    "nameLanguages": "Single-language default name",
-    "attribution": "Character: Han Li from 凡人修仙传 / A Record of a Mortal's Journey to Immortality. Public reference links were provided for visual guidance only; no specific third-party artwork is claimed as original source. Non-commercial use only.",
-    "duplicateCheck": "Checked pets.json and collections.json, plus existing GitHub issues. No matching Han Li / 韩立 request found. Related same-work request: #46 Nangong Wan — https://github.com/legeling/awesome-codex-pet/issues/46, but it is a different character.",
-    "state": "open",
-    "status": "triage",
-    "labels": [
-      "type: request",
-      "status: triage",
-      "version: v2",
-      "category: anime"
-    ],
-    "author": {
-      "login": "kgkg-png",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/297054003?v=4",
-      "url": "https://github.com/kgkg-png"
-    },
-    "assignees": [],
-    "createdAt": "2026-07-24T08:46:23Z",
-    "updatedAt": "2026-07-28T11:04:34Z",
-    "closedAt": null,
-    "comments": 1,
-    "reactions": 0,
-    "githubUrl": "https://github.com/legeling/awesome-codex-pet/issues/50"
   },
   {
     "number": 62,
