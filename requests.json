@@ -1,5 +1,48 @@
 [
   {
+    "number": 62,
+    "character": "疾旋鼬",
+    "characterDetails": "疾旋鼬 / Chillet",
+    "franchise": "《幻兽帕鲁》 / Palworld",
+    "category": "game",
+    "version": "v2",
+    "requestType": "Create a new community interpretation",
+    "referenceStatus": "A viewable image attachment or public image URL is included",
+    "references": "- Public character/source page: https://paldb.cc/tw/Chillet\n- Public image URL exposed by that page: https://cdn.paldb.cc/image/Pal/Texture/UI/InGame/Ticonskillpal017.webp\n- Use the publicly visible character appearance on the source page as reference. This is a third-party PalDB page, not an official Pocketpair page.",
+    "referenceUrls": [
+      "https://paldb.cc/tw/Chillet",
+      "https://cdn.paldb.cc/image/Pal/Texture/UI/InGame/Ticonskillpal017.webp"
+    ],
+    "referenceImages": [
+      "https://cdn.paldb.cc/image/Pal/Texture/UI/InGame/T_icon_skill_pal_017.webp"
+    ],
+    "referenceThumbnails": [],
+    "visualDirection": "Cartoon style. Keep the recognizable side-to-side swaying, cute behavior. Use the v2 format with standard animations plus 16 look directions. Base the character appearance on the public reference page.",
+    "nameLanguages": "Bilingual English and Chinese names: Chillet / 疾旋鼬",
+    "attribution": "Character/source work: 《幻兽帕鲁》 / Palworld. Reference supplied through the public PalDB character page above; the page identifies itself as fan-made and unaffiliated with Pocketpair. This request asks the community to create a new interpretation from the public character reference, not to directly adapt, redistribute, or claim ownership of any existing artwork. No specific artwork author was provided or inferred. Any repository output should be for non-commercial use only.",
+    "duplicateCheck": "Checked the current repository catalog and existing Issues before submission:\n\n- pets.json — https://github.com/legeling/awesome-codex-pet/blob/main/pets.json: no matching 疾旋鼬 or Chillet pet found.\n- collections.json — https://github.com/legeling/awesome-codex-pet/blob/main/collections.json: no Palworld / 幻兽帕鲁 collection or matching entry found.\n- Existing Issues searched for 疾旋鼬, Chillet, and Palworld: no matching request found.",
+    "state": "open",
+    "status": "in-progress",
+    "labels": [
+      "type: request",
+      "status: in-progress",
+      "version: v2",
+      "category: game"
+    ],
+    "author": {
+      "login": "berzi441-spec",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/237035683?v=4",
+      "url": "https://github.com/berzi441-spec"
+    },
+    "assignees": [],
+    "createdAt": "2026-07-27T18:09:04Z",
+    "updatedAt": "2026-08-23T14:42:23Z",
+    "closedAt": null,
+    "comments": 1,
+    "reactions": 0,
+    "githubUrl": "https://github.com/legeling/awesome-codex-pet/issues/62"
+  },
+  {
     "number": 50,
     "character": "Han Li",
     "characterDetails": "Han Li",
@@ -1127,49 +1170,6 @@
     "comments": 0,
     "reactions": 0,
     "githubUrl": "https://github.com/legeling/awesome-codex-pet/issues/77"
-  },
-  {
-    "number": 62,
-    "character": "疾旋鼬",
-    "characterDetails": "疾旋鼬 / Chillet",
-    "franchise": "《幻兽帕鲁》 / Palworld",
-    "category": "game",
-    "version": "v2",
-    "requestType": "Create a new community interpretation",
-    "referenceStatus": "A viewable image attachment or public image URL is included",
-    "references": "- Public character/source page: https://paldb.cc/tw/Chillet\n- Public image URL exposed by that page: https://cdn.paldb.cc/image/Pal/Texture/UI/InGame/Ticonskillpal017.webp\n- Use the publicly visible character appearance on the source page as reference. This is a third-party PalDB page, not an official Pocketpair page.",
-    "referenceUrls": [
-      "https://paldb.cc/tw/Chillet",
-      "https://cdn.paldb.cc/image/Pal/Texture/UI/InGame/Ticonskillpal017.webp"
-    ],
-    "referenceImages": [
-      "https://cdn.paldb.cc/image/Pal/Texture/UI/InGame/T_icon_skill_pal_017.webp"
-    ],
-    "referenceThumbnails": [],
-    "visualDirection": "Cartoon style. Keep the recognizable side-to-side swaying, cute behavior. Use the v2 format with standard animations plus 16 look directions. Base the character appearance on the public reference page.",
-    "nameLanguages": "Bilingual English and Chinese names: Chillet / 疾旋鼬",
-    "attribution": "Character/source work: 《幻兽帕鲁》 / Palworld. Reference supplied through the public PalDB character page above; the page identifies itself as fan-made and unaffiliated with Pocketpair. This request asks the community to create a new interpretation from the public character reference, not to directly adapt, redistribute, or claim ownership of any existing artwork. No specific artwork author was provided or inferred. Any repository output should be for non-commercial use only.",
-    "duplicateCheck": "Checked the current repository catalog and existing Issues before submission:\n\n- pets.json — https://github.com/legeling/awesome-codex-pet/blob/main/pets.json: no matching 疾旋鼬 or Chillet pet found.\n- collections.json — https://github.com/legeling/awesome-codex-pet/blob/main/collections.json: no Palworld / 幻兽帕鲁 collection or matching entry found.\n- Existing Issues searched for 疾旋鼬, Chillet, and Palworld: no matching request found.",
-    "state": "open",
-    "status": "triage",
-    "labels": [
-      "type: request",
-      "status: triage",
-      "version: v2",
-      "category: game"
-    ],
-    "author": {
-      "login": "berzi441-spec",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/237035683?v=4",
-      "url": "https://github.com/berzi441-spec"
-    },
-    "assignees": [],
-    "createdAt": "2026-07-27T18:09:04Z",
-    "updatedAt": "2026-07-28T11:04:30Z",
-    "closedAt": null,
-    "comments": 1,
-    "reactions": 0,
-    "githubUrl": "https://github.com/legeling/awesome-codex-pet/issues/62"
   },
   {
     "number": 123,
