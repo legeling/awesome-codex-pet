@@ -1,5 +1,43 @@
 [
   {
+    "number": 87,
+    "character": "Sylas Ravenshade",
+    "characterDetails": "Sylas Ravenshade",
+    "franchise": "la personalidad de mi chat gpt",
+    "category": "other",
+    "version": "v2",
+    "requestType": "Create a new community interpretation",
+    "referenceStatus": "",
+    "references": "https://ibb.co/bMBj6twH",
+    "referenceUrls": ["https://ibb.co/bMBj6twH"],
+    "referenceImages": [],
+    "referenceThumbnails": [],
+    "visualDirection": "es un vampiro gentil, elegante y atento",
+    "nameLanguages": "Let the maker decide",
+    "attribution": "Submitted without a GitHub account. Reference and attribution details should be confirmed during triage. Non-commercial use only.",
+    "duplicateCheck": "Repository automation or a maintainer should complete the duplicate check during triage.",
+    "state": "open",
+    "status": "in-progress",
+    "labels": [
+      "type: request",
+      "status: in-progress",
+      "version: v2",
+      "category: other"
+    ],
+    "author": {
+      "login": "github-actions[bot]",
+      "avatarUrl": "https://avatars.githubusercontent.com/in/15368?v=4",
+      "url": "https://github.com/apps/github-actions"
+    },
+    "assignees": [],
+    "createdAt": "2026-08-04T17:00:19Z",
+    "updatedAt": "2026-08-23T18:37:27Z",
+    "closedAt": null,
+    "comments": 0,
+    "reactions": 0,
+    "githubUrl": "https://github.com/legeling/awesome-codex-pet/issues/87"
+  },
+  {
     "number": 82,
     "character": "三月七",
     "characterDetails": "三月七",
@@ -1132,44 +1170,6 @@
     "comments": 0,
     "reactions": 0,
     "githubUrl": "https://github.com/legeling/awesome-codex-pet/issues/91"
-  },
-  {
-    "number": 87,
-    "character": "Sylas Ravenshade",
-    "characterDetails": "Sylas Ravenshade",
-    "franchise": "la personalidad de mi chat gpt",
-    "category": "other",
-    "version": "v2",
-    "requestType": "Create a new community interpretation",
-    "referenceStatus": "",
-    "references": "https://ibb.co/bMBj6twH",
-    "referenceUrls": ["https://ibb.co/bMBj6twH"],
-    "referenceImages": [],
-    "referenceThumbnails": [],
-    "visualDirection": "es un vampiro gentil, elegante y atento",
-    "nameLanguages": "Let the maker decide",
-    "attribution": "Submitted without a GitHub account. Reference and attribution details should be confirmed during triage. Non-commercial use only.",
-    "duplicateCheck": "Repository automation or a maintainer should complete the duplicate check during triage.",
-    "state": "open",
-    "status": "triage",
-    "labels": [
-      "type: request",
-      "status: triage",
-      "version: v2",
-      "category: other"
-    ],
-    "author": {
-      "login": "github-actions[bot]",
-      "avatarUrl": "https://avatars.githubusercontent.com/in/15368?v=4",
-      "url": "https://github.com/apps/github-actions"
-    },
-    "assignees": [],
-    "createdAt": "2026-08-04T17:00:19Z",
-    "updatedAt": "2026-08-04T17:00:19Z",
-    "closedAt": null,
-    "comments": 0,
-    "reactions": 0,
-    "githubUrl": "https://github.com/legeling/awesome-codex-pet/issues/87"
   },
   {
     "number": 123,
