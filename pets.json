@@ -2248,6 +2248,19 @@
     "spriteVersionNumber": 1
   },
   {
+    "slug": "xiaoda--legeling",
+    "name": "小达",
+    "author": "Legeling",
+    "author_handle": "legeling",
+    "author_url": "https://github.com/legeling",
+    "primary_category": "Robots",
+    "canonical_key": "assistant/xiaoda",
+    "collections": [],
+    "license": "CC BY-NC 4.0；仅限非商业使用。非官方 AI 社区诠释作品，不代表或暗示获得原素材相关权利方授权。",
+    "description": "以 Issue #131 参考形象为灵感独立生成的软质 3D Q 版小达 Codex 宠物，包含九组任务动画与完整 16 方向环视动作。",
+    "spriteVersionNumber": 2
+  },
+  {
     "slug": "xiaomai--brian-3",
     "name": "小麦 XiaoMai",
     "author": "Brian",
