@@ -2471,6 +2471,20 @@
     "spriteVersionNumber": 2
   },
   {
+    "slug": "yao-true-self-hertz--legeling",
+    "name": "瑶-真我赫兹",
+    "localized_names": { "en": "Yao: True Self Hertz", "zh": "瑶-真我赫兹" },
+    "author": "legeling",
+    "author_handle": "legeling",
+    "author_url": "https://github.com/legeling",
+    "primary_category": "Others",
+    "canonical_key": "honor-of-kings/yao-true-self-hertz",
+    "collections": [],
+    "license": "Independent AI-generated community interpretation; non-commercial use only. Commercial use is prohibited.",
+    "description": "A v2 community interpretation of Yao: True Self Hertz from Honor of Kings, with nine task animations and sixteen clockwise look directions.",
+    "spriteVersionNumber": 2
+  },
+  {
     "slug": "chillet--legeling",
     "name": "疾旋鼬",
     "localized_names": { "en": "Chillet", "zh": "疾旋鼬" },

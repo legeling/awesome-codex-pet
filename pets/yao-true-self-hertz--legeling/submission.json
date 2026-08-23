@@ -1,0 +1,33 @@
+{
+  "slug": "yao-true-self-hertz--legeling",
+  "pet_slug": "yao-true-self-hertz",
+  "author_slug": "legeling",
+  "name": "瑶-真我赫兹",
+  "localized_names": {
+    "en": "Yao: True Self Hertz",
+    "zh": "瑶-真我赫兹"
+  },
+  "author": "legeling",
+  "author_handle": "legeling",
+  "author_url": "https://github.com/legeling",
+  "primary_category": "Others",
+  "canonical_key": "honor-of-kings/yao-true-self-hertz",
+  "tags": ["yao", "true-self-hertz", "dj", "deer", "chibi", "v2"],
+  "collections": [],
+  "source_type": "independent-ai-generated-community-interpretation",
+  "source_url": "https://github.com/legeling/awesome-codex-pet/issues/84",
+  "asset_note": "The final runtime spritesheet was independently AI-generated and assembled with the Codex Hatch Pet v2 workflow. No official pixels are included directly.",
+  "reference_note": "Issue #84 supplied no reference image. This independent community interpretation uses broad sweet-cool deer DJ cues only and keeps all runtime artwork original.",
+  "license": "Independent AI-generated community interpretation; non-commercial use only. Commercial use is prohibited.",
+  "description": "A v2 community interpretation of Yao: True Self Hertz from Honor of Kings, with nine task animations and sixteen clockwise look directions.",
+  "preview_image": "../../assets/previews/yao-true-self-hertz--legeling/gifs/idle.gif",
+  "codex_install": {
+    "pet_json": "pet.json",
+    "spritesheet": "spritesheet.webp"
+  },
+  "preview_assets": {
+    "contact_sheet": "../../assets/previews/yao-true-self-hertz--legeling/contact-sheet.png",
+    "gifs_dir": "../../assets/previews/yao-true-self-hertz--legeling/gifs"
+  },
+  "spritesheet_sha256": "2e7d6cb1c735386c5019fbe1e3fa30c9e36ed626dffd54a016e5dc9b8d8e1b4f"
+}
