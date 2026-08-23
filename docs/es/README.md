@@ -12,7 +12,7 @@
 
 <a href="https://codexpet.top/es"><img src="../../assets/cover/awesome-codex-pet-cover.png" alt="Abrir la galería de Awesome Codex Pet"></a>
 
-![pets: 208](https://img.shields.io/badge/pets-208-2ea44f) ![categories: 11](https://img.shields.io/badge/categories-11-0969da) ![languages: en | zh--CN | ko | ja | es](https://img.shields.io/badge/languages-en%20%7C%20zh--CN%20%7C%20ko%20%7C%20ja%20%7C%20es-8250df) ![code: MIT](https://img.shields.io/badge/code-MIT-111111) ![assets: CC BY--NC 4.0](https://img.shields.io/badge/assets-CC%20BY--NC%204.0-f97316) ![install: one command](https://img.shields.io/badge/install-one%20command-111111) [![Pet previews](https://github.com/legeling/awesome-codex-pet/actions/workflows/pet-previews.yml/badge.svg)](https://github.com/legeling/awesome-codex-pet/actions/workflows/pet-previews.yml)
+![pets: 209](https://img.shields.io/badge/pets-209-2ea44f) ![categories: 11](https://img.shields.io/badge/categories-11-0969da) ![languages: en | zh--CN | ko | ja | es](https://img.shields.io/badge/languages-en%20%7C%20zh--CN%20%7C%20ko%20%7C%20ja%20%7C%20es-8250df) ![code: MIT](https://img.shields.io/badge/code-MIT-111111) ![assets: CC BY--NC 4.0](https://img.shields.io/badge/assets-CC%20BY--NC%204.0-f97316) ![install: one command](https://img.shields.io/badge/install-one%20command-111111) [![Pet previews](https://github.com/legeling/awesome-codex-pet/actions/workflows/pet-previews.yml/badge.svg)](https://github.com/legeling/awesome-codex-pet/actions/workflows/pet-previews.yml)
 
 </div>
 
@@ -796,6 +796,13 @@ powershell -NoProfile -ExecutionPolicy Bypass -Command "iwr -UseB -MaximumRedire
 <tr><th>Instalación</th><td colspan="5"><code>curl -fsSL --proto '=https' --tlsv1.2 https://raw.githubusercontent.com/legeling/awesome-codex-pet/main/scripts/install-pet.sh | bash -s -- --raw-base https://raw.githubusercontent.com/legeling/awesome-codex-pet/main shinobu-kocho--wangfan002</code></td></tr>
 <tr><th>Acción</th><td><strong>Reposo</strong></td><td><strong>Saludo</strong></td><td><strong>Correr</strong></td><td><strong>Esperar</strong></td><td><strong>Revisar</strong></td></tr>
 <tr><th>Vista previa</th><td><img src="https://codexpet.top/assets/previews/shinobu-kocho--wangfan002/webp/idle.webp" alt="蝴蝶忍 Q版 华丽动作 idle" width="120" height="130"></td><td><img src="https://codexpet.top/assets/previews/shinobu-kocho--wangfan002/webp/waving.webp" alt="蝴蝶忍 Q版 华丽动作 waving" width="120" height="130"></td><td><img src="https://codexpet.top/assets/previews/shinobu-kocho--wangfan002/webp/running-right.webp" alt="蝴蝶忍 Q版 华丽动作 running-right" width="120" height="130"></td><td><img src="https://codexpet.top/assets/previews/shinobu-kocho--wangfan002/webp/waiting.webp" alt="蝴蝶忍 Q版 华丽动作 waiting" width="120" height="130"></td><td><img src="https://codexpet.top/assets/previews/shinobu-kocho--wangfan002/webp/review.webp" alt="蝴蝶忍 Q版 华丽动作 review" width="120" height="130"></td></tr>
+</table>
+
+<table>
+<tr><th>Nombre</th><td colspan="5"><a href="../../pets/han-li--legeling">韩立</a> · por <a href="https://github.com/legeling">@legeling</a> · Personajes de anime · v2</td></tr>
+<tr><th>Instalación</th><td colspan="5"><code>curl -fsSL --proto '=https' --tlsv1.2 https://raw.githubusercontent.com/legeling/awesome-codex-pet/main/scripts/install-pet.sh | bash -s -- --raw-base https://raw.githubusercontent.com/legeling/awesome-codex-pet/main han-li--legeling</code></td></tr>
+<tr><th>Acción</th><td><strong>Reposo</strong></td><td><strong>Saludo</strong></td><td><strong>Correr</strong></td><td><strong>Esperar</strong></td><td><strong>Revisar</strong></td></tr>
+<tr><th>Vista previa</th><td><img src="https://codexpet.top/assets/previews/han-li--legeling/webp/idle.webp" alt="韩立 idle" width="120" height="130"></td><td><img src="https://codexpet.top/assets/previews/han-li--legeling/webp/waving.webp" alt="韩立 waving" width="120" height="130"></td><td><img src="https://codexpet.top/assets/previews/han-li--legeling/webp/running-right.webp" alt="韩立 running-right" width="120" height="130"></td><td><img src="https://codexpet.top/assets/previews/han-li--legeling/webp/waiting.webp" alt="韩立 waiting" width="120" height="130"></td><td><img src="https://codexpet.top/assets/previews/han-li--legeling/webp/review.webp" alt="韩立 review" width="120" height="130"></td></tr>
 </table>
 
 <table>

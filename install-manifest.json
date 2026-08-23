@@ -2063,6 +2063,16 @@
       "spritesheetWidth": 1536,
       "spritesheetHeight": 2288
     },
+    "han-li--legeling": {
+      "name": "韩立",
+      "spriteVersionNumber": 2,
+      "petJsonSha256": "bb4ff53b7d7eb292313e883e959d5d033c16acb154dd4b0b12a3d2e1b741ee23",
+      "petJsonBytes": 225,
+      "spritesheetSha256": "ce727d0444b766a1b3aaefd33255c4c71a4d894165efd27610da9f1daf454315",
+      "spritesheetBytes": 1961428,
+      "spritesheetWidth": 1536,
+      "spritesheetHeight": 2288
+    },
     "youmu--ai-generated": {
       "name": "魂魄妖梦",
       "spriteVersionNumber": 2,

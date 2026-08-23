@@ -2553,6 +2553,19 @@
     "spriteVersionNumber": 2
   },
   {
+    "slug": "han-li--legeling",
+    "name": "韩立",
+    "author": "legeling",
+    "author_handle": "legeling",
+    "author_url": "https://github.com/legeling",
+    "primary_category": "Anime Characters",
+    "canonical_key": "anime/a-record-of-a-mortals-journey-to-immortality/han-li",
+    "collections": [],
+    "license": "Independent AI-generated community interpretation; non-commercial use only. Commercial use is prohibited.",
+    "description": "A stylized 3D chibi community interpretation of Han Li from A Record of a Mortal's Journey to Immortality, with calm cultivator bearing, layered blue-white robes, a jade-green Qingzhu Fengyun Sword, nine task animations, and 16 clockwise look directions.",
+    "spriteVersionNumber": 2
+  },
+  {
     "slug": "youmu--ai-generated",
     "name": "魂魄妖梦",
     "author": "AI 生成（Gemini）",

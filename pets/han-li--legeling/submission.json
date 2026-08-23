@@ -1,0 +1,29 @@
+{
+  "slug": "han-li--legeling",
+  "pet_slug": "han-li",
+  "author_slug": "legeling",
+  "name": "韩立",
+  "author": "legeling",
+  "author_handle": "legeling",
+  "author_url": "https://github.com/legeling",
+  "primary_category": "Anime Characters",
+  "canonical_key": "anime/a-record-of-a-mortals-journey-to-immortality/han-li",
+  "tags": ["han-li", "cultivator", "donghua", "chibi", "3d-toy", "v2"],
+  "collections": [],
+  "source_type": "independent-ai-generated-community-interpretation",
+  "source_url": "https://github.com/legeling/awesome-codex-pet/issues/50",
+  "asset_note": "The final runtime spritesheet was independently AI-generated and assembled with the Codex Hatch Pet v2 workflow. No reference pixels are included directly.",
+  "reference_note": "Public visual references supplied in Issue #50 and accessible animation references were used only for visual guidance for Han Li's donghua appearance and Qingzhu Fengyun Sword.",
+  "license": "Independent AI-generated community interpretation; non-commercial use only. Commercial use is prohibited.",
+  "description": "A stylized 3D chibi community interpretation of Han Li from A Record of a Mortal's Journey to Immortality, with calm cultivator bearing, layered blue-white robes, a jade-green Qingzhu Fengyun Sword, nine task animations, and 16 clockwise look directions.",
+  "preview_image": "../../assets/previews/han-li--legeling/gifs/idle.gif",
+  "codex_install": {
+    "pet_json": "pet.json",
+    "spritesheet": "spritesheet.webp"
+  },
+  "preview_assets": {
+    "contact_sheet": "../../assets/previews/han-li--legeling/contact-sheet.png",
+    "gifs_dir": "../../assets/previews/han-li--legeling/gifs"
+  },
+  "spritesheet_sha256": "ce727d0444b766a1b3aaefd33255c4c71a4d894165efd27610da9f1daf454315"
+}
