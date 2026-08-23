@@ -1716,6 +1716,19 @@
     "spriteVersionNumber": 2
   },
   {
+    "slug": "sylas-ravenshade--legeling",
+    "name": "Sylas Ravenshade",
+    "author": "legeling",
+    "author_handle": "legeling",
+    "author_url": "https://github.com/legeling",
+    "primary_category": "Others",
+    "canonical_key": "original/sylas-ravenshade",
+    "collections": [],
+    "license": "Independent AI-generated community interpretation; non-commercial use only. Commercial use is prohibited.",
+    "description": "An original v2 community interpretation of Sylas Ravenshade: an elegant, gentle vampire gentleman with nine task animations and sixteen clockwise look directions.",
+    "spriteVersionNumber": 2
+  },
+  {
     "slug": "takamatsu-tomori--a1wace-dev",
     "name": "Takamatsu Tomori",
     "localized_names": { "en": "Takamatsu Tomori", "zh": "高松灯" },

@@ -12,7 +12,7 @@
 
 <a href="https://codexpet.top"><img src="../../assets/cover/awesome-codex-pet-cover.png" alt="进入 Awesome Codex Pet 精品画廊"></a>
 
-![pets: 216](https://img.shields.io/badge/pets-216-2ea44f) ![categories: 11](https://img.shields.io/badge/categories-11-0969da) ![languages: en | zh--CN | ko | ja | es](https://img.shields.io/badge/languages-en%20%7C%20zh--CN%20%7C%20ko%20%7C%20ja%20%7C%20es-8250df) ![code: MIT](https://img.shields.io/badge/code-MIT-111111) ![assets: CC BY--NC 4.0](https://img.shields.io/badge/assets-CC%20BY--NC%204.0-f97316) ![install: one command](https://img.shields.io/badge/install-one%20command-111111) [![Pet previews](https://github.com/legeling/awesome-codex-pet/actions/workflows/pet-previews.yml/badge.svg)](https://github.com/legeling/awesome-codex-pet/actions/workflows/pet-previews.yml)
+![pets: 217](https://img.shields.io/badge/pets-217-2ea44f) ![categories: 11](https://img.shields.io/badge/categories-11-0969da) ![languages: en | zh--CN | ko | ja | es](https://img.shields.io/badge/languages-en%20%7C%20zh--CN%20%7C%20ko%20%7C%20ja%20%7C%20es-8250df) ![code: MIT](https://img.shields.io/badge/code-MIT-111111) ![assets: CC BY--NC 4.0](https://img.shields.io/badge/assets-CC%20BY--NC%204.0-f97316) ![install: one command](https://img.shields.io/badge/install-one%20command-111111) [![Pet previews](https://github.com/legeling/awesome-codex-pet/actions/workflows/pet-previews.yml/badge.svg)](https://github.com/legeling/awesome-codex-pet/actions/workflows/pet-previews.yml)
 
 </div>
 
@@ -1555,6 +1555,13 @@ curl -fsSL --proto '=https' --tlsv1.2 https://raw.githubusercontent.com/legeling
 <tr><th>安装</th><td colspan="5"><code>curl -fsSL --proto '=https' --tlsv1.2 https://raw.githubusercontent.com/legeling/awesome-codex-pet/main/scripts/install-pet.sh | bash -s -- --raw-base https://raw.githubusercontent.com/legeling/awesome-codex-pet/main deepseek-girl--legeling</code></td></tr>
 <tr><th>动作</th><td><strong>待机</strong></td><td><strong>挥手</strong></td><td><strong>奔跑</strong></td><td><strong>等待</strong></td><td><strong>审阅</strong></td></tr>
 <tr><th>预览</th><td><img src="https://codexpet.top/assets/previews/deepseek-girl--legeling/webp/idle.webp" alt="DeepSeek 娘 idle" width="120" height="130"></td><td><img src="https://codexpet.top/assets/previews/deepseek-girl--legeling/webp/waving.webp" alt="DeepSeek 娘 waving" width="120" height="130"></td><td><img src="https://codexpet.top/assets/previews/deepseek-girl--legeling/webp/running-right.webp" alt="DeepSeek 娘 running-right" width="120" height="130"></td><td><img src="https://codexpet.top/assets/previews/deepseek-girl--legeling/webp/waiting.webp" alt="DeepSeek 娘 waiting" width="120" height="130"></td><td><img src="https://codexpet.top/assets/previews/deepseek-girl--legeling/webp/review.webp" alt="DeepSeek 娘 review" width="120" height="130"></td></tr>
+</table>
+
+<table>
+<tr><th>名称</th><td colspan="5"><a href="../../pets/sylas-ravenshade--legeling">Sylas Ravenshade</a> · 作者 <a href="https://github.com/legeling">@legeling</a> · 其他 · v2</td></tr>
+<tr><th>安装</th><td colspan="5"><code>curl -fsSL --proto '=https' --tlsv1.2 https://raw.githubusercontent.com/legeling/awesome-codex-pet/main/scripts/install-pet.sh | bash -s -- --raw-base https://raw.githubusercontent.com/legeling/awesome-codex-pet/main sylas-ravenshade--legeling</code></td></tr>
+<tr><th>动作</th><td><strong>待机</strong></td><td><strong>挥手</strong></td><td><strong>奔跑</strong></td><td><strong>等待</strong></td><td><strong>审阅</strong></td></tr>
+<tr><th>预览</th><td><img src="https://codexpet.top/assets/previews/sylas-ravenshade--legeling/webp/idle.webp" alt="Sylas Ravenshade idle" width="120" height="130"></td><td><img src="https://codexpet.top/assets/previews/sylas-ravenshade--legeling/webp/waving.webp" alt="Sylas Ravenshade waving" width="120" height="130"></td><td><img src="https://codexpet.top/assets/previews/sylas-ravenshade--legeling/webp/running-right.webp" alt="Sylas Ravenshade running-right" width="120" height="130"></td><td><img src="https://codexpet.top/assets/previews/sylas-ravenshade--legeling/webp/waiting.webp" alt="Sylas Ravenshade waiting" width="120" height="130"></td><td><img src="https://codexpet.top/assets/previews/sylas-ravenshade--legeling/webp/review.webp" alt="Sylas Ravenshade review" width="120" height="130"></td></tr>
 </table>
 
 <table>

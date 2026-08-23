@@ -1,0 +1,29 @@
+{
+  "slug": "sylas-ravenshade--legeling",
+  "pet_slug": "sylas-ravenshade",
+  "author_slug": "legeling",
+  "name": "Sylas Ravenshade",
+  "author": "legeling",
+  "author_handle": "legeling",
+  "author_url": "https://github.com/legeling",
+  "primary_category": "Others",
+  "canonical_key": "original/sylas-ravenshade",
+  "tags": ["sylas-ravenshade", "vampire", "gentleman", "elegant", "v2"],
+  "collections": [],
+  "source_type": "independent-ai-generated-community-interpretation",
+  "source_url": "https://github.com/legeling/awesome-codex-pet/issues/87",
+  "asset_note": "The final runtime spritesheet was independently AI-generated and assembled with the Codex Hatch Pet v2 workflow. No reference-image pixels are included directly.",
+  "reference_note": "A reference image supplied in Issue #87 guided the requested gentle, elegant, attentive vampire character. The final spritesheet is a newly generated community interpretation.",
+  "license": "Independent AI-generated community interpretation; non-commercial use only. Commercial use is prohibited.",
+  "description": "An original v2 community interpretation of Sylas Ravenshade: an elegant, gentle vampire gentleman with nine task animations and sixteen clockwise look directions.",
+  "preview_image": "../../assets/previews/sylas-ravenshade--legeling/gifs/idle.gif",
+  "codex_install": {
+    "pet_json": "pet.json",
+    "spritesheet": "spritesheet.webp"
+  },
+  "preview_assets": {
+    "contact_sheet": "../../assets/previews/sylas-ravenshade--legeling/contact-sheet.png",
+    "gifs_dir": "../../assets/previews/sylas-ravenshade--legeling/gifs"
+  },
+  "spritesheet_sha256": "cde8f3b2f3e5fce10a56050ac9383d22b98da9578d30014cbb6d7bda37a2be0e"
+}

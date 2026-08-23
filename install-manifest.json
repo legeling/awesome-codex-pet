@@ -1383,6 +1383,16 @@
       "spritesheetWidth": 1536,
       "spritesheetHeight": 2288
     },
+    "sylas-ravenshade--legeling": {
+      "name": "Sylas Ravenshade",
+      "spriteVersionNumber": 2,
+      "petJsonSha256": "5601932e5d26600b0892715fd9cb77a1ce61a93a0967cfbf0194cfa841c49939",
+      "petJsonBytes": 242,
+      "spritesheetSha256": "cde8f3b2f3e5fce10a56050ac9383d22b98da9578d30014cbb6d7bda37a2be0e",
+      "spritesheetBytes": 1286244,
+      "spritesheetWidth": 1536,
+      "spritesheetHeight": 2288
+    },
     "takamatsu-tomori--a1wace-dev": {
       "name": "Takamatsu Tomori",
       "spriteVersionNumber": 2,
