@@ -1,0 +1,36 @@
+{
+  "slug": "han-li--metro186",
+  "pet_slug": "han-li",
+  "author_slug": "metro186",
+  "name": "Han Li",
+  "localized_names": {
+    "en": "Han Li",
+    "zh": "韩立·结婴"
+  },
+  "author": "metro186",
+  "author_handle": "metro186",
+  "author_url": "https://github.com/metro186",
+  "primary_category": "Anime Characters",
+  "canonical_key": "fictional/a-record-of-a-mortals-journey-to-immortality/han-li",
+  "variant_note": "Independent AI-assisted v2 fan-art interpretation with an original spritesheet; it does not directly copy, crop, trace, or redistribute reference-image pixels.",
+  "tags": [
+    "anime",
+    "cultivator",
+    "community-request",
+    "han-li",
+    "xianxia",
+    "ai-generated",
+    "v2",
+    "look-directions"
+  ],
+  "source_type": "ai-generated",
+  "source_url": "https://github.com/legeling/awesome-codex-pet/issues/50",
+  "source_notes": "Independently AI-generated community interpretation made for Issue #50. Official and public references informed the character appearance and costume only; no reference-image pixels, backgrounds, badges, watermarks, or text were copied.",
+  "license": "Non-commercial use only. Independent AI-assisted fan-art interpretation of Han Li from A Record of a Mortal's Journey to Immortality (凡人修仙传). Character appearance and costume were guided by official and public references; the final spritesheet is independently generated and does not directly copy, crop, trace, or redistribute reference-image pixels. This submission is not affiliated with, endorsed by, or sponsored by the rights holder.",
+  "description": "A blue-robed chibi cultivator inspired by Han Li, carrying a glowing green vial through Codex task states and all 16 v2 look directions.",
+  "preview_image": "../../assets/previews/han-li--metro186/gifs/idle.gif",
+  "codex_install": {
+    "pet_json": "pet.json",
+    "spritesheet": "spritesheet.webp"
+  }
+}
