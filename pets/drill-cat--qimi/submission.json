@@ -1,0 +1,41 @@
+{
+  "slug": "drill-cat--qimi",
+  "pet_slug": "drill-cat",
+  "author_slug": "qimi",
+  "name": "Drill Cat",
+  "localized_names": {
+    "en": "Drill Cat",
+    "zh": "电钻咪"
+  },
+  "author": "qimi",
+  "author_handle": "qishichuan",
+  "author_url": "https://github.com/qishichuan",
+  "primary_category": "Memes",
+  "canonical_key": "meme/drill-cat",
+  "collections": ["animal-companions"],
+  "tags": [
+    "meme",
+    "animal",
+    "cat",
+    "drill",
+    "repairman",
+    "ai-generated",
+    "codex-v2",
+    "look-directions"
+  ],
+  "source_type": "ai-generated",
+  "source_notes": "qimi independently generated the final Codex v2 pet with AI using a Douyin #修理工小猫 clip as visual reference. No pixels from the reference video were cropped, traced, enhanced, or reused, and the reference is not included in this package.",
+  "license": "Personal non-commercial use only.",
+  "description": "A determined orange repair cat carrying an oversized cordless drill, with expressive task animations and 16 Codex v2 look directions.",
+  "preview_image": "../../assets/previews/drill-cat--qimi/gifs/idle.gif",
+  "codex_install": {
+    "pet_json": "pet.json",
+    "spritesheet": "spritesheet.webp"
+  },
+  "preview_assets": {
+    "contact_sheet": "../../assets/previews/drill-cat--qimi/contact-sheet.png",
+    "gifs_dir": "../../assets/previews/drill-cat--qimi/gifs"
+  },
+  "spritesheet_sha256": "f4ed062d61fc7b49010401c43f4672807c42f4d59b4921065a31641ce10b51af"
+}
+
