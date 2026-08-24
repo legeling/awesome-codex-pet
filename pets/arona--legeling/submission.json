@@ -1,0 +1,37 @@
+{
+  "slug": "arona--legeling",
+  "pet_slug": "arona",
+  "author_slug": "legeling",
+  "name": "阿罗那",
+  "author": "Legeling",
+  "author_handle": "legeling",
+  "author_url": "https://github.com/legeling",
+  "primary_category": "Game Characters",
+  "canonical_key": "blue-archive/arona",
+  "tags": [
+    "blue-archive",
+    "arona",
+    "community-request",
+    "ai-generated",
+    "fan-art",
+    "chibi",
+    "v2",
+    "look-directions"
+  ],
+  "collections": [],
+  "source_type": "ai-generated fan-art",
+  "source_url": "https://github.com/legeling/awesome-codex-pet/issues/121",
+  "source_notes": "Independently AI-generated community interpretation made for Issue #121 from visual cues including pale-blue hair, a cyan halo, and a sailor outfit. No source pixels, umbrella, background, text, logos, or watermarks were copied.",
+  "license": "CC BY-NC 4.0；仅限非商业使用。非官方 AI 同人作品，不代表或暗示获得《碧蓝档案》权利方授权；角色及商标权利归其权利人所有。",
+  "description": "以《碧蓝档案》阿罗那为灵感独立生成的 Q 版 Codex 宠物，包含九组任务动画与完整 16 方向环视动作。",
+  "preview_image": "../../assets/previews/arona--legeling/gifs/idle.gif",
+  "codex_install": {
+    "pet_json": "pet.json",
+    "spritesheet": "spritesheet.webp"
+  },
+  "preview_assets": {
+    "contact_sheet": "../../assets/previews/arona--legeling/contact-sheet.png",
+    "gifs_dir": "../../assets/previews/arona--legeling/gifs"
+  },
+  "spritesheet_sha256": "4140848d8c5cc7831f78d200101910ba831a63a8ad9de6f085b15bcf14bec1d0"
+}

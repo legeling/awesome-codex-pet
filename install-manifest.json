@@ -2213,6 +2213,16 @@
       "spritesheetWidth": 1536,
       "spritesheetHeight": 2288
     },
+    "arona--legeling": {
+      "name": "阿罗那",
+      "spriteVersionNumber": 2,
+      "petJsonSha256": "1efedca50dc0cb9e836202135b7972548711b155f5ee3e8a577b85f9b57418fb",
+      "petJsonBytes": 219,
+      "spritesheetSha256": "4140848d8c5cc7831f78d200101910ba831a63a8ad9de6f085b15bcf14bec1d0",
+      "spritesheetBytes": 1810698,
+      "spritesheetWidth": 1536,
+      "spritesheetHeight": 2288
+    },
     "han-li--legeling": {
       "name": "韩立",
       "spriteVersionNumber": 2,
