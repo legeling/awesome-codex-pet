@@ -2123,6 +2123,16 @@
       "spritesheetWidth": 1536,
       "spritesheetHeight": 2288
     },
+    "xiang-an--legeling": {
+      "name": "翔安",
+      "spriteVersionNumber": 2,
+      "petJsonSha256": "0770d707cb9871af5a911e4fe5fdeb47a2894714254571d455b32456423ef554",
+      "petJsonBytes": 213,
+      "spritesheetSha256": "1e9a5dd74676341e18ec23752c877c94f293a3bb7ab91ff5a8ad7166bb2cd4ad",
+      "spritesheetBytes": 2278808,
+      "spritesheetWidth": 1536,
+      "spritesheetHeight": 2288
+    },
     "maodie--octane0411": {
       "name": "耄耋",
       "spriteVersionNumber": 2,

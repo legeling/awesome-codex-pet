@@ -1,0 +1,36 @@
+{
+  "slug": "xiang-an--legeling",
+  "pet_slug": "xiang-an",
+  "author_slug": "legeling",
+  "name": "翔安",
+  "author": "Legeling",
+  "author_handle": "legeling",
+  "author_url": "https://github.com/legeling",
+  "primary_category": "Human Avatars",
+  "canonical_key": "avatar/xiang-an",
+  "tags": [
+    "community-request",
+    "ai-generated",
+    "sibling-duo",
+    "chibi",
+    "sticker",
+    "v2",
+    "look-directions"
+  ],
+  "collections": [],
+  "source_type": "ai-generated avatar",
+  "source_url": "https://github.com/legeling/awesome-codex-pet/issues/120",
+  "source_notes": "Independently AI-generated, non-photoreal sibling avatar interpretation from the requester's reference photo. Clothing color cues and the supportive pose guided the work; no source pixels, setting, text, or biometric likeness were copied.",
+  "license": "CC BY-NC 4.0；仅限非商业使用。",
+  "description": "以彩色外套哥哥抱着薄荷绿连体衣弟弟为灵感独立生成的 Q 版双人 Codex 宠物，包含九组任务动画与完整 16 方向环视动作。",
+  "preview_image": "../../assets/previews/xiang-an--legeling/gifs/idle.gif",
+  "codex_install": {
+    "pet_json": "pet.json",
+    "spritesheet": "spritesheet.webp"
+  },
+  "preview_assets": {
+    "contact_sheet": "../../assets/previews/xiang-an--legeling/contact-sheet.png",
+    "gifs_dir": "../../assets/previews/xiang-an--legeling/gifs"
+  },
+  "spritesheet_sha256": "1e9a5dd74676341e18ec23752c877c94f293a3bb7ab91ff5a8ad7166bb2cd4ad"
+}

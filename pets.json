@@ -2646,6 +2646,19 @@
     "spriteVersionNumber": 2
   },
   {
+    "slug": "xiang-an--legeling",
+    "name": "翔安",
+    "author": "Legeling",
+    "author_handle": "legeling",
+    "author_url": "https://github.com/legeling",
+    "primary_category": "Human Avatars",
+    "canonical_key": "avatar/xiang-an",
+    "collections": [],
+    "license": "CC BY-NC 4.0；仅限非商业使用。",
+    "description": "以彩色外套哥哥抱着薄荷绿连体衣弟弟为灵感独立生成的 Q 版双人 Codex 宠物，包含九组任务动画与完整 16 方向环视动作。",
+    "spriteVersionNumber": 2
+  },
+  {
     "slug": "maodie--octane0411",
     "name": "耄耋",
     "author": "Octane0411",
