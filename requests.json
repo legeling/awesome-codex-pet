@@ -1,5 +1,49 @@
 [
   {
+    "number": 142,
+    "character": "噜妹",
+    "characterDetails": "噜妹",
+    "franchise": "Not provided",
+    "category": "other",
+    "version": "v2",
+    "requestType": "Create a new community interpretation",
+    "referenceStatus": "",
+    "references": "https://api.codexpet.top/uploads/reference/references/100210149a03bace4df2b4b6533b057ff721cfd3c198bd455bb8470b3646eaa4.png",
+    "referenceUrls": [
+      "https://api.codexpet.top/uploads/reference/references/100210149a03bace4df2b4b6533b057ff721cfd3c198bd455bb8470b3646eaa4.png"
+    ],
+    "referenceImages": [
+      "https://api.codexpet.top/uploads/reference/references/100210149a03bace4df2b4b6533b057ff721cfd3c198bd455bb8470b3646eaa4.png"
+    ],
+    "referenceThumbnails": [
+      "https://api.codexpet.top/uploads/reference/thumbnails/100210149a03bace4df2b4b6533b057ff721cfd3c198bd455bb8470b3646eaa4.webp"
+    ],
+    "visualDirection": "Let the community maker decide.",
+    "nameLanguages": "Let the maker decide",
+    "attribution": "Submitted without a GitHub account. Reference and attribution details should be confirmed during triage. Non-commercial use only.",
+    "duplicateCheck": "Repository automation or a maintainer should complete the duplicate check during triage.",
+    "state": "open",
+    "status": "triage",
+    "labels": [
+      "type: request",
+      "status: triage",
+      "version: v2",
+      "category: other"
+    ],
+    "author": {
+      "login": "github-actions[bot]",
+      "avatarUrl": "https://avatars.githubusercontent.com/in/15368?v=4",
+      "url": "https://github.com/apps/github-actions"
+    },
+    "assignees": [],
+    "createdAt": "2026-08-25T07:24:22Z",
+    "updatedAt": "2026-08-25T16:06:35Z",
+    "closedAt": null,
+    "comments": 1,
+    "reactions": 0,
+    "githubUrl": "https://github.com/legeling/awesome-codex-pet/issues/142"
+  },
+  {
     "number": 143,
     "character": "原神-雪皇",
     "characterDetails": "原神-雪皇",
@@ -42,50 +86,6 @@
     "comments": 0,
     "reactions": 0,
     "githubUrl": "https://github.com/legeling/awesome-codex-pet/issues/143"
-  },
-  {
-    "number": 142,
-    "character": "噜妹",
-    "characterDetails": "噜妹",
-    "franchise": "Not provided",
-    "category": "other",
-    "version": "v2",
-    "requestType": "Create a new community interpretation",
-    "referenceStatus": "",
-    "references": "https://api.codexpet.top/uploads/reference/references/100210149a03bace4df2b4b6533b057ff721cfd3c198bd455bb8470b3646eaa4.png",
-    "referenceUrls": [
-      "https://api.codexpet.top/uploads/reference/references/100210149a03bace4df2b4b6533b057ff721cfd3c198bd455bb8470b3646eaa4.png"
-    ],
-    "referenceImages": [
-      "https://api.codexpet.top/uploads/reference/references/100210149a03bace4df2b4b6533b057ff721cfd3c198bd455bb8470b3646eaa4.png"
-    ],
-    "referenceThumbnails": [
-      "https://api.codexpet.top/uploads/reference/thumbnails/100210149a03bace4df2b4b6533b057ff721cfd3c198bd455bb8470b3646eaa4.webp"
-    ],
-    "visualDirection": "Let the community maker decide.",
-    "nameLanguages": "Let the maker decide",
-    "attribution": "Submitted without a GitHub account. Reference and attribution details should be confirmed during triage. Non-commercial use only.",
-    "duplicateCheck": "Repository automation or a maintainer should complete the duplicate check during triage.",
-    "state": "open",
-    "status": "triage",
-    "labels": [
-      "type: request",
-      "status: triage",
-      "version: v2",
-      "category: other"
-    ],
-    "author": {
-      "login": "github-actions[bot]",
-      "avatarUrl": "https://avatars.githubusercontent.com/in/15368?v=4",
-      "url": "https://github.com/apps/github-actions"
-    },
-    "assignees": [],
-    "createdAt": "2026-08-25T07:24:22Z",
-    "updatedAt": "2026-08-25T07:24:22Z",
-    "closedAt": null,
-    "comments": 0,
-    "reactions": 0,
-    "githubUrl": "https://github.com/legeling/awesome-codex-pet/issues/142"
   },
   {
     "number": 130,
