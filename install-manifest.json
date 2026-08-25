@@ -553,6 +553,16 @@
       "spritesheetWidth": 1536,
       "spritesheetHeight": 2288
     },
+    "han-li--metro186": {
+      "name": "Han Li",
+      "spriteVersionNumber": 2,
+      "petJsonSha256": "c2c5d275cd6232775f218f9dd3233677fe2f8b286c22811449597597c9fec40c",
+      "petJsonBytes": 230,
+      "spritesheetSha256": "0a4073bfe437d23716be4aca0c64edeada0326b3a3ab972088deffae9d6a6baf",
+      "spritesheetBytes": 1255676,
+      "spritesheetWidth": 1536,
+      "spritesheetHeight": 2288
+    },
     "hana2--initiatione": {
       "name": "Hana2",
       "spriteVersionNumber": 1,
@@ -752,6 +762,16 @@
       "spritesheetBytes": 2318174,
       "spritesheetWidth": 1536,
       "spritesheetHeight": 1872
+    },
+    "klee-desk--ayanxu56-boop": {
+      "name": "KleeDesk",
+      "spriteVersionNumber": 2,
+      "petJsonSha256": "6264b1f5c6679d92616ba21ec65269b44793e026b505655c1b43cdfb2a4a201c",
+      "petJsonBytes": 259,
+      "spritesheetSha256": "d2800f11a0e0f5a9ea721da0964a305e47ea26e1c7838ce9ddaea43c7341841e",
+      "spritesheetBytes": 2786608,
+      "spritesheetWidth": 1536,
+      "spritesheetHeight": 2288
     },
     "kuro-chibi--kuroneko-night": {
       "name": "Kuro Chibi",

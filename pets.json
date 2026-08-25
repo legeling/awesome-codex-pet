@@ -677,6 +677,21 @@
     "spriteVersionNumber": 2
   },
   {
+    "slug": "han-li--metro186",
+    "name": "Han Li",
+    "localized_names": { "en": "Han Li", "zh": "韩立·结婴" },
+    "author": "metro186",
+    "author_handle": "metro186",
+    "author_url": "https://github.com/metro186",
+    "primary_category": "Anime Characters",
+    "canonical_key": "fictional/a-record-of-a-mortals-journey-to-immortality/han-li",
+    "variant_note": "Independent AI-assisted v2 fan-art interpretation with an original spritesheet; it does not directly copy, crop, trace, or redistribute reference-image pixels.",
+    "collections": [],
+    "license": "Non-commercial use only. Independent AI-assisted fan-art interpretation of Han Li from A Record of a Mortal's Journey to Immortality (凡人修仙传). Character appearance and costume were guided by official and public references; the final spritesheet is independently generated and does not directly copy, crop, trace, or redistribute reference-image pixels. This submission is not affiliated with, endorsed by, or sponsored by the rights holder.",
+    "description": "A blue-robed chibi cultivator inspired by Han Li, carrying a glowing green vial through Codex task states and all 16 v2 look directions.",
+    "spriteVersionNumber": 2
+  },
+  {
     "slug": "hana2--initiatione",
     "name": "Hana2",
     "author": "initiatione",
@@ -927,6 +942,21 @@
     "collections": ["genshin-impact"],
     "license": "Personal non-commercial fan use",
     "spriteVersionNumber": 1
+  },
+  {
+    "slug": "klee-desk--ayanxu56-boop",
+    "name": "KleeDesk",
+    "localized_names": { "en": "KleeDesk", "zh": "可莉·书桌版" },
+    "author": "ayanxu56-boop",
+    "author_handle": "ayanxu56-boop",
+    "author_url": "https://github.com/ayanxu56-boop",
+    "primary_category": "Game Characters",
+    "canonical_key": "genshin-impact/klee",
+    "variant_note": "An independently produced v2 desk-art edition featuring seated drawing actions, stable desk props, and a complete 16-direction look cycle. The spritesheet is distinct from the existing klee--chenxin-dlut package.",
+    "collections": ["genshin-impact"],
+    "license": "Non-commercial use only. Independently AI-generated fan art inspired by Klee from Genshin Impact; no official game artwork is included.",
+    "description": "An independently generated non-commercial Klee fan-art variant centered on drawing and working at a wooden desk.",
+    "spriteVersionNumber": 2
   },
   {
     "slug": "kuro-chibi--kuroneko-night",
