@@ -1,0 +1,42 @@
+{
+  "slug": "saiki-kusuo--yjt0416",
+  "pet_slug": "saiki-kusuo",
+  "author_slug": "yjt0416",
+  "canonical_key": "the-disastrous-life-of-saiki-k/saiki-kusuo",
+  "name": "Saiki Kusuo",
+  "localized_names": {
+    "en": "Saiki Kusuo",
+    "zh": "齐木楠雄"
+  },
+  "author": "yjt0416",
+  "author_handle": "yjt0416",
+  "author_url": "https://github.com/yjt0416",
+  "primary_category": "Anime Characters",
+  "collections": [],
+  "tags": [
+    "anime",
+    "the-disastrous-life-of-saiki-k",
+    "saiki-kusuo",
+    "pixel-art",
+    "chibi",
+    "ai-generated",
+    "fan-art",
+    "v1"
+  ],
+  "source_type": "ai-generated fan-art",
+  "source_url": "",
+  "source_notes": "Independently AI-generated and locally repaired pixel-art fan adaptation using contributor-provided anime screenshots only as character references. The final spritesheet does not directly crop, trace, sharpen, or reuse pixels from those screenshots; the screenshots are not included in the submission package.",
+  "license": "Non-commercial use only. Independently AI-generated fan art; Saiki Kusuo and The Disastrous Life of Saiki K. remain the property of their respective rights holders.",
+  "description": "yjt0416 independently created this unofficial V1 pixel-art fan pet of Saiki Kusuo, featuring nine standard animation rows and a clean transparent atlas for non-commercial use only.",
+  "variant_note": "An independently AI-generated V1 pixel-art adaptation by yjt0416, with original sprite pixels and a custom nine-row animation set.",
+  "preview_image": "../../assets/previews/saiki-kusuo--yjt0416/gifs/idle.gif",
+  "codex_install": {
+    "pet_json": "pet.json",
+    "spritesheet": "spritesheet.webp"
+  },
+  "preview_assets": {
+    "contact_sheet": "../../assets/previews/saiki-kusuo--yjt0416/contact-sheet.png",
+    "gifs_dir": "../../assets/previews/saiki-kusuo--yjt0416/gifs"
+  },
+  "spritesheet_sha256": "1410b9a0adc2ead247a246735a8936298e782fa2c8145620a35ee740be353c37"
+}
