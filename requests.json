@@ -1,5 +1,49 @@
 [
   {
+    "number": 145,
+    "character": "超时空辉夜姬的fushi，白色小吉祥物，兔兔海蛞蝓",
+    "characterDetails": "超时空辉夜姬的fushi，白色小吉祥物，兔兔海蛞蝓",
+    "franchise": "超时空辉夜姬",
+    "category": "other",
+    "version": "v2",
+    "requestType": "Create a new community interpretation",
+    "referenceStatus": "",
+    "references": "https://api.codexpet.top/uploads/reference/references/e9a63c7a780d732f096a03cab873ab8ed72019e78998229d94a852e5b73f2e1f.jpg",
+    "referenceUrls": [
+      "https://api.codexpet.top/uploads/reference/references/e9a63c7a780d732f096a03cab873ab8ed72019e78998229d94a852e5b73f2e1f.jpg"
+    ],
+    "referenceImages": [
+      "https://api.codexpet.top/uploads/reference/references/e9a63c7a780d732f096a03cab873ab8ed72019e78998229d94a852e5b73f2e1f.jpg"
+    ],
+    "referenceThumbnails": [
+      "https://api.codexpet.top/uploads/reference/thumbnails/e9a63c7a780d732f096a03cab873ab8ed72019e78998229d94a852e5b73f2e1f.webp"
+    ],
+    "visualDirection": "希望可以参考原作，Q版可爱",
+    "nameLanguages": "Let the maker decide",
+    "attribution": "Submitted without a GitHub account. Reference and attribution details should be confirmed during triage. Non-commercial use only.",
+    "duplicateCheck": "Repository automation or a maintainer should complete the duplicate check during triage.",
+    "state": "open",
+    "status": "triage",
+    "labels": [
+      "type: request",
+      "status: triage",
+      "version: v2",
+      "category: other"
+    ],
+    "author": {
+      "login": "github-actions[bot]",
+      "avatarUrl": "https://avatars.githubusercontent.com/in/15368?v=4",
+      "url": "https://github.com/apps/github-actions"
+    },
+    "assignees": [],
+    "createdAt": "2026-08-26T08:08:38Z",
+    "updatedAt": "2026-08-26T08:08:38Z",
+    "closedAt": null,
+    "comments": 0,
+    "reactions": 0,
+    "githubUrl": "https://github.com/legeling/awesome-codex-pet/issues/145"
+  },
+  {
     "number": 142,
     "character": "噜妹",
     "characterDetails": "噜妹",
