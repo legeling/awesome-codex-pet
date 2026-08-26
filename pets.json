@@ -1567,6 +1567,21 @@
     "spriteVersionNumber": 1
   },
   {
+    "slug": "saiki-kusuo--yjt0416",
+    "name": "Saiki Kusuo",
+    "localized_names": { "en": "Saiki Kusuo", "zh": "齐木楠雄" },
+    "author": "yjt0416",
+    "author_handle": "yjt0416",
+    "author_url": "https://github.com/yjt0416",
+    "primary_category": "Anime Characters",
+    "canonical_key": "the-disastrous-life-of-saiki-k/saiki-kusuo",
+    "variant_note": "An independently AI-generated V1 pixel-art adaptation by yjt0416, with original sprite pixels and a custom nine-row animation set.",
+    "collections": [],
+    "license": "Non-commercial use only. Independently AI-generated fan art; Saiki Kusuo and The Disastrous Life of Saiki K. remain the property of their respective rights holders.",
+    "description": "yjt0416 independently created this unofficial V1 pixel-art fan pet of Saiki Kusuo, featuring nine standard animation rows and a clean transparent atlas for non-commercial use only.",
+    "spriteVersionNumber": 1
+  },
+  {
     "slug": "sakamoto--zpzjzj",
     "name": "Sakamoto",
     "localized_names": { "en": "Sakamoto", "zh": "阪本" },

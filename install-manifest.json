@@ -1263,6 +1263,16 @@
       "spritesheetWidth": 1536,
       "spritesheetHeight": 1872
     },
+    "saiki-kusuo--yjt0416": {
+      "name": "Saiki Kusuo",
+      "spriteVersionNumber": 1,
+      "petJsonSha256": "15929d1013a5f80b324ce3cecadf0dc67715c9f83131b44219bf7dbb236e160d",
+      "petJsonBytes": 315,
+      "spritesheetSha256": "ee75082b2e00462a5707c48de0b6ab25dda7f12e8c7378a6b39e1d22612539c0",
+      "spritesheetBytes": 786444,
+      "spritesheetWidth": 1536,
+      "spritesheetHeight": 1872
+    },
     "sakamoto--zpzjzj": {
       "name": "Sakamoto",
       "spriteVersionNumber": 2,
