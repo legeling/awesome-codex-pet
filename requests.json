@@ -1,5 +1,49 @@
 [
   {
+    "number": 146,
+    "character": "beatrice from re:zero",
+    "characterDetails": "beatrice from re:zero",
+    "franchise": "Not provided",
+    "category": "other",
+    "version": "v2",
+    "requestType": "Create a new community interpretation",
+    "referenceStatus": "",
+    "references": "https://api.codexpet.top/uploads/reference/references/0e738437b4bed84f06d6966215ee70517c458d540bbaf9cbfcf342ceaa064aa9.png",
+    "referenceUrls": [
+      "https://api.codexpet.top/uploads/reference/references/0e738437b4bed84f06d6966215ee70517c458d540bbaf9cbfcf342ceaa064aa9.png"
+    ],
+    "referenceImages": [
+      "https://api.codexpet.top/uploads/reference/references/0e738437b4bed84f06d6966215ee70517c458d540bbaf9cbfcf342ceaa064aa9.png"
+    ],
+    "referenceThumbnails": [
+      "https://api.codexpet.top/uploads/reference/thumbnails/0e738437b4bed84f06d6966215ee70517c458d540bbaf9cbfcf342ceaa064aa9.webp"
+    ],
+    "visualDirection": "chibi style",
+    "nameLanguages": "Let the maker decide",
+    "attribution": "Submitted without a GitHub account. Reference and attribution details should be confirmed during triage. Non-commercial use only.",
+    "duplicateCheck": "Repository automation or a maintainer should complete the duplicate check during triage.",
+    "state": "open",
+    "status": "triage",
+    "labels": [
+      "type: request",
+      "status: triage",
+      "version: v2",
+      "category: other"
+    ],
+    "author": {
+      "login": "github-actions[bot]",
+      "avatarUrl": "https://avatars.githubusercontent.com/in/15368?v=4",
+      "url": "https://github.com/apps/github-actions"
+    },
+    "assignees": [],
+    "createdAt": "2026-08-27T03:24:03Z",
+    "updatedAt": "2026-08-27T03:24:03Z",
+    "closedAt": null,
+    "comments": 0,
+    "reactions": 0,
+    "githubUrl": "https://github.com/legeling/awesome-codex-pet/issues/146"
+  },
+  {
     "number": 145,
     "character": "超时空辉夜姬的fushi，白色小吉祥物，兔兔海蛞蝓",
     "characterDetails": "超时空辉夜姬的fushi，白色小吉祥物，兔兔海蛞蝓",
