@@ -13,11 +13,27 @@ from pathlib import Path
 from PIL import Image
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
+from background_utils import (
+    BACKGROUND_MODES,
+    clear_transparent_rgb,
+    prepare_sprite_source,
+)
 from extract_strip_frames import component_frame_groups, component_group_image
 
 COLUMNS = 8
 STANDARD_ROWS = 9
 EXTENDED_ROWS = 11
+STANDARD_ROW_STATES = [
+    "idle",
+    "running-right",
+    "running-left",
+    "waving",
+    "jumping",
+    "failed",
+    "waiting",
+    "running",
+    "review",
+]
 CELL_WIDTH = 192
 CELL_HEIGHT = 208
 ATLAS_WIDTH = COLUMNS * CELL_WIDTH
@@ -72,30 +88,6 @@ def parse_hex_color(value: str) -> tuple[int, int, int]:
     if not re.fullmatch(r"#[0-9a-fA-F]{6}", value):
         raise SystemExit(f"invalid chroma key color: {value}; expected #RRGGBB")
     return tuple(int(value[index : index + 2], 16) for index in (1, 3, 5))
-
-
-def color_distance(
-    red: int,
-    green: int,
-    blue: int,
-    key: tuple[int, int, int],
-) -> float:
-    return math.sqrt((red - key[0]) ** 2 + (green - key[1]) ** 2 + (blue - key[2]) ** 2)
-
-
-def remove_chroma_background(
-    image: Image.Image,
-    chroma_key: tuple[int, int, int],
-    threshold: float,
-) -> Image.Image:
-    rgba = image.convert("RGBA")
-    pixels = rgba.load()
-    for y in range(rgba.height):
-        for x in range(rgba.width):
-            red, green, blue, alpha = pixels[x, y]
-            if color_distance(red, green, blue, chroma_key) <= threshold:
-                pixels[x, y] = (0, 0, 0, 0)
-    return rgba
 
 
 def fit_to_cell(image: Image.Image) -> Image.Image:
@@ -272,17 +264,6 @@ def normalization_scale(cells: list[Image.Image], target: CellGeometry) -> float
     return min(scale_limits)
 
 
-def clear_transparent_rgb(image: Image.Image) -> Image.Image:
-    rgba = image.convert("RGBA")
-    data = bytearray(rgba.tobytes())
-    for index in range(0, len(data), 4):
-        if data[index + 3] == 0:
-            data[index] = 0
-            data[index + 1] = 0
-            data[index + 2] = 0
-    return Image.frombytes("RGBA", rgba.size, bytes(data))
-
-
 def load_base_rows(base_atlas_path: Path) -> Image.Image:
     with Image.open(base_atlas_path) as opened:
         base = opened.convert("RGBA")
@@ -305,8 +286,31 @@ def extract_row_strip_cells(
     chroma_key: tuple[int, int, int],
     threshold: float,
 ) -> list[Image.Image]:
+    cells, _detected_mode = extract_row_strip_cells_with_mode(
+        row_strip_path,
+        chroma_key,
+        threshold,
+        "auto",
+    )
+    return cells
+
+
+def extract_row_strip_cells_with_mode(
+    row_strip_path: Path,
+    chroma_key: tuple[int, int, int],
+    threshold: float,
+    background_mode: str,
+) -> tuple[list[Image.Image], str]:
     with Image.open(row_strip_path) as opened:
-        strip = remove_chroma_background(opened, chroma_key, threshold)
+        try:
+            strip, detected_mode, _alpha = prepare_sprite_source(
+                opened,
+                chroma_key=chroma_key,
+                threshold=threshold,
+                background_mode=background_mode,
+            )
+        except ValueError as exc:
+            raise SystemExit(f"{row_strip_path}: {exc}") from exc
 
     groups = component_frame_groups(strip, COLUMNS)
     if groups is None:
@@ -314,7 +318,7 @@ def extract_row_strip_cells(
             f"could not identify {COLUMNS} ordered pose groups in {row_strip_path}; "
             "resynthesize the complete source row with separated poses"
         )
-    return [component_group_image(strip, group) for group in groups]
+    return [component_group_image(strip, group) for group in groups], detected_mode
 
 
 def validate_normalized_look_cells(
@@ -362,7 +366,8 @@ def load_look_cells_from_dir(
     cells_dir: Path,
     chroma_key: tuple[int, int, int],
     threshold: float,
-) -> list[Image.Image]:
+    background_mode: str,
+) -> tuple[list[Image.Image], list[str]]:
     files = image_files(cells_dir)
     cells_by_label: dict[str, Path] = {}
     for path in files:
@@ -379,41 +384,63 @@ def load_look_cells_from_dir(
         )
 
     cells: list[Image.Image] = []
+    detected_modes: list[str] = []
     for path in ordered_files:
         with Image.open(path) as opened:
-            cell = remove_chroma_background(opened, chroma_key, threshold)
+            try:
+                cell, detected_mode, _alpha = prepare_sprite_source(
+                    opened,
+                    chroma_key=chroma_key,
+                    threshold=threshold,
+                    background_mode=background_mode,
+                )
+            except ValueError as exc:
+                raise SystemExit(f"{path}: {exc}") from exc
         cells.append(cell)
-    return cells
+        detected_modes.append(detected_mode)
+    row_modes = [
+        combined_background_mode(detected_modes[:COLUMNS]),
+        combined_background_mode(detected_modes[COLUMNS:]),
+    ]
+    if any(mode == "mixed" for mode in row_modes):
+        raise SystemExit(
+            "individual look cells within one atlas row use mixed background modes; "
+            "normalize each row to one transparent or chroma source mode before assembly"
+        )
+    return cells, row_modes
 
 
 def load_look_cells(
     args: argparse.Namespace,
     chroma_key: tuple[int, int, int],
-) -> list[Image.Image]:
+) -> tuple[list[Image.Image], list[str]]:
     if args.look_cells_dir:
         return load_look_cells_from_dir(
             Path(args.look_cells_dir).expanduser().resolve(),
             chroma_key,
             args.chroma_threshold,
+            args.background_mode,
         )
 
     if not args.look_row_9:
         raise SystemExit("provide either --look-cells-dir or --look-row-9")
 
-    row_9_cells = extract_row_strip_cells(
+    row_9_cells, row_9_mode = extract_row_strip_cells_with_mode(
         Path(args.look_row_9).expanduser().resolve(),
         chroma_key,
         args.chroma_threshold,
+        args.background_mode,
     )
     if not args.look_row_10:
-        return row_9_cells
+        return row_9_cells, [row_9_mode]
 
-    row_10_cells = extract_row_strip_cells(
+    row_10_cells, row_10_mode = extract_row_strip_cells_with_mode(
         Path(args.look_row_10).expanduser().resolve(),
         chroma_key,
         args.chroma_threshold,
+        args.background_mode,
     )
-    return [*row_9_cells, *row_10_cells]
+    return [*row_9_cells, *row_10_cells], [row_9_mode, row_10_mode]
 
 
 def load_registered_row(path: Path) -> list[Image.Image]:
@@ -436,12 +463,17 @@ def load_registered_row(path: Path) -> list[Image.Image]:
     ]
 
 
-def load_registration_scale(path: Path) -> float:
+def load_registration(path: Path) -> tuple[float, str]:
     data = json.loads(path.read_text(encoding="utf-8"))
     scale = data.get("scale")
     if not isinstance(scale, int | float) or scale <= 0:
         raise SystemExit(f"registration manifest has invalid scale: {scale!r}")
-    return float(scale)
+    background_mode = data.get("background_mode", "chroma")
+    if background_mode not in {"transparent", "chroma"}:
+        raise SystemExit(
+            f"registration manifest has invalid background mode: {background_mode!r}"
+        )
+    return float(scale), background_mode
 
 
 def load_neutral_cell(
@@ -449,12 +481,22 @@ def load_neutral_cell(
     atlas: Image.Image,
     chroma_key: tuple[int, int, int],
     threshold: float,
+    background_mode: str,
 ) -> Image.Image:
     if neutral_cell_path is None:
         return base_neutral_cell(atlas)
 
     with Image.open(neutral_cell_path) as opened:
-        return fit_to_cell(remove_chroma_background(opened, chroma_key, threshold))
+        try:
+            neutral, _detected_mode, _alpha = prepare_sprite_source(
+                opened,
+                chroma_key=chroma_key,
+                threshold=threshold,
+                background_mode=background_mode,
+            )
+        except ValueError as exc:
+            raise SystemExit(f"{neutral_cell_path}: {exc}") from exc
+        return fit_to_cell(neutral)
 
 
 def atlas_cell(atlas: Image.Image, row: int, column: int) -> Image.Image:
@@ -493,9 +535,43 @@ def paste_neutral_cell(
     atlas.alpha_composite(neutral, (6 * CELL_WIDTH, 0))
 
 
-def write_manifest(path: Path, atlas_path: Path) -> None:
+def combined_background_mode(modes: list[str]) -> str:
+    normalized = set(modes)
+    if normalized == {"transparent"}:
+        return "transparent"
+    if normalized == {"chroma"}:
+        return "chroma"
+    return "mixed"
+
+
+def write_manifest(
+    path: Path,
+    atlas_path: Path,
+    *,
+    base_background_modes: list[str],
+    look_background_modes: list[str],
+) -> None:
+    background_mode = combined_background_mode(
+        [*base_background_modes, *look_background_modes]
+    )
     manifest = {
         "spritesheetPath": atlas_path.name,
+        "backgroundMode": background_mode,
+        "cleanupMode": (
+            "native-alpha"
+            if background_mode == "transparent"
+            else "chroma"
+            if background_mode == "chroma"
+            else "mixed"
+        ),
+        "sourceBackgroundModes": {
+            "standardRows": dict(zip(STANDARD_ROW_STATES, base_background_modes)),
+            "lookRows": {
+                "look-row-9": look_background_modes[0],
+                "look-row-10": look_background_modes[1],
+            },
+        },
+        "rowBackgroundModes": [*base_background_modes, *look_background_modes],
         "spritesheetLayout": {
             "columns": COLUMNS,
             "rows": EXTENDED_ROWS,
@@ -529,10 +605,53 @@ def save_registered_row(cells: list[Image.Image], path: Path) -> None:
     print(f"wrote {path}")
 
 
-def write_registration_manifest(path: Path, scale: float) -> None:
+def write_registration_manifest(
+    path: Path,
+    scale: float,
+    background_mode: str,
+) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
-    path.write_text(json.dumps({"scale": scale}, indent=2) + "\n", encoding="utf-8")
+    path.write_text(
+        json.dumps(
+            {
+                "scale": scale,
+                "background_mode": background_mode,
+            },
+            indent=2,
+        )
+        + "\n",
+        encoding="utf-8",
+    )
     print(f"wrote {path}")
+
+
+def load_base_background_modes(
+    manifest_path: Path | None,
+    explicit_mode: str,
+) -> list[str]:
+    if manifest_path is None:
+        return [explicit_mode] * STANDARD_ROWS
+    data = json.loads(manifest_path.read_text(encoding="utf-8"))
+    rows = data.get("rows")
+    if not isinstance(rows, list):
+        raise SystemExit("standard frames manifest must contain a rows array")
+    modes_by_state = {
+        row.get("state"): row.get("background_mode")
+        for row in rows
+        if isinstance(row, dict)
+    }
+    modes = [modes_by_state.get(state) for state in STANDARD_ROW_STATES]
+    invalid = [
+        f"{state}={mode!r}"
+        for state, mode in zip(STANDARD_ROW_STATES, modes)
+        if mode not in {"transparent", "chroma"}
+    ]
+    if invalid:
+        raise SystemExit(
+            "standard frames manifest has missing or invalid row background modes: "
+            + ", ".join(invalid)
+        )
+    return [str(mode) for mode in modes]
 
 
 def main() -> None:
@@ -558,6 +677,25 @@ def main() -> None:
     parser.add_argument("--manifest-output")
     parser.add_argument("--chroma-key", default="#00FF00")
     parser.add_argument("--chroma-threshold", type=float, default=96.0)
+    parser.add_argument(
+        "--background-mode",
+        choices=BACKGROUND_MODES,
+        default="auto",
+        help=(
+            "Prefer native transparency in auto mode and fall back to chroma removal "
+            "only when a source has no usable transparent canvas."
+        ),
+    )
+    parser.add_argument(
+        "--base-background-mode",
+        choices=("transparent", "chroma"),
+        default="chroma",
+        help="Background provenance for standard rows when no frames manifest is supplied.",
+    )
+    parser.add_argument(
+        "--base-background-manifest",
+        help="Optional frames-manifest.json emitted by extract_strip_frames.py.",
+    )
     parser.add_argument("--edge-margin", type=int, default=DEFAULT_EDGE_MARGIN)
     parser.add_argument(
         "--edge-pixel-threshold",
@@ -573,20 +711,33 @@ def main() -> None:
         atlas,
         chroma_key,
         args.chroma_threshold,
+        args.background_mode,
+    )
+    base_background_modes = load_base_background_modes(
+        (
+            Path(args.base_background_manifest).expanduser().resolve()
+            if args.base_background_manifest
+            else None
+        ),
+        args.base_background_mode,
     )
     if args.registered_row_9:
         if not args.look_row_10 or not args.row_9_registration:
             raise SystemExit("--registered-row-9 requires --look-row-10 and --row-9-registration")
         row_9_cells = load_registered_row(Path(args.registered_row_9).expanduser().resolve())
-        row_10_cells = extract_row_strip_cells(
+        registration_scale, row_9_mode = load_registration(
+            Path(args.row_9_registration).expanduser().resolve()
+        )
+        row_10_cells, row_10_mode = extract_row_strip_cells_with_mode(
             Path(args.look_row_10).expanduser().resolve(),
             chroma_key,
             args.chroma_threshold,
+            args.background_mode,
         )
         row_10_cells = normalize_cells_to_reference(
             row_10_cells,
             neutral,
-            load_registration_scale(Path(args.row_9_registration).expanduser().resolve()),
+            registration_scale,
         )
         validate_normalized_look_cells(
             row_10_cells,
@@ -595,8 +746,9 @@ def main() -> None:
             args.edge_pixel_threshold,
         )
         cells = [*row_9_cells, *row_10_cells]
+        look_background_modes = [row_9_mode, row_10_mode]
     else:
-        cells = load_look_cells(args, chroma_key)
+        cells, look_background_modes = load_look_cells(args, chroma_key)
         target = cell_geometry(neutral)
         if target is None:
             raise SystemExit("neutral reference cell must contain visible pixels")
@@ -621,6 +773,7 @@ def main() -> None:
         write_registration_manifest(
             Path(args.registration_manifest_output).expanduser().resolve(),
             scale,
+            look_background_modes[0],
         )
         return
 
@@ -645,7 +798,10 @@ def main() -> None:
     if args.manifest_output:
         manifest_output = Path(args.manifest_output).expanduser().resolve()
         write_manifest(
-            manifest_output, Path(args.webp_output or args.output).expanduser().resolve()
+            manifest_output,
+            Path(args.webp_output or args.output).expanduser().resolve(),
+            base_background_modes=base_background_modes,
+            look_background_modes=look_background_modes,
         )
         print(f"wrote {manifest_output}")
 

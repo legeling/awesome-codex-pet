@@ -12,6 +12,8 @@ from pathlib import Path
 
 from PIL import Image, ImageFilter
 
+from background_utils import load_row_background_modes
+
 COLUMNS = 8
 ROWS = 9
 EXTENDED_ROWS = 11
@@ -124,7 +126,20 @@ def main() -> None:
     parser.add_argument("--json-out")
     parser.add_argument("--min-used-pixels", type=int, default=50)
     parser.add_argument("--near-opaque-threshold", type=float, default=0.95)
-    parser.add_argument("--chroma-key", default="#00FF00")
+    parser.add_argument(
+        "--chroma-key",
+        help=(
+            "Enable legacy chroma leak/fringe checks for the supplied fallback key. "
+            "Omit for an all-native-alpha atlas."
+        ),
+    )
+    parser.add_argument(
+        "--background-manifest",
+        help=(
+            "Optional final atlas manifest with rowBackgroundModes. Chroma checks "
+            "then apply only to rows that used the fallback."
+        ),
+    )
     parser.add_argument("--chroma-leak-threshold", type=float, default=36.0)
     parser.add_argument("--max-chroma-leak-pixels", type=int, default=400)
     parser.add_argument("--chroma-fringe-threshold", type=float, default=96.0)
@@ -139,7 +154,7 @@ def main() -> None:
     args = parser.parse_args()
 
     atlas_path = Path(args.atlas).expanduser().resolve()
-    chroma_key = parse_hex_color(args.chroma_key)
+    chroma_key = parse_hex_color(args.chroma_key) if args.chroma_key else None
     errors: list[str] = []
     warnings: list[str] = []
     near_opaque_used_cells: dict[str, list[int]] = defaultdict(list)
@@ -179,8 +194,29 @@ def main() -> None:
 
     row_count = image.height // CELL_HEIGHT
     is_extended_atlas = image.height == EXTENDED_ATLAS_HEIGHT
+    if args.background_manifest:
+        try:
+            row_background_modes = load_row_background_modes(
+                Path(args.background_manifest).expanduser().resolve(),
+                expected_rows=row_count,
+            )
+        except ValueError as exc:
+            errors.append(str(exc))
+            row_background_modes = [
+                "chroma" if chroma_key is not None else "transparent"
+            ] * row_count
+    else:
+        row_background_modes = [
+            "chroma" if chroma_key is not None else "transparent"
+        ] * row_count
+    if chroma_key is None and "chroma" in row_background_modes:
+        errors.append(
+            "background manifest contains chroma rows but no --chroma-key was supplied"
+        )
+
     for row_index in range(row_count):
         state, frame_count = ROW_BY_INDEX[row_index]
+        row_uses_chroma = row_background_modes[row_index] == "chroma"
         for column_index in range(COLUMNS):
             left = column_index * CELL_WIDTH
             top = row_index * CELL_HEIGHT
@@ -196,18 +232,26 @@ def main() -> None:
                 "used": used,
                 "nontransparent_pixels": nontransparent,
             }
-            chroma_leak_pixels = opaque_chroma_key_count(
-                cell,
-                chroma_key,
-                args.chroma_leak_threshold,
+            chroma_leak_pixels = (
+                opaque_chroma_key_count(
+                    cell,
+                    chroma_key,
+                    args.chroma_leak_threshold,
+                )
+                if chroma_key is not None and row_uses_chroma
+                else 0
             )
             cell_info["opaque_chroma_key_pixels"] = chroma_leak_pixels
-            chroma_fringe_pixels = chroma_fringe_count(
-                cell,
-                chroma_key=chroma_key,
-                distance_threshold=args.chroma_fringe_threshold,
-                edge_radius=args.chroma_fringe_edge_radius,
-                alpha_minimum=args.chroma_fringe_alpha_minimum,
+            chroma_fringe_pixels = (
+                chroma_fringe_count(
+                    cell,
+                    chroma_key=chroma_key,
+                    distance_threshold=args.chroma_fringe_threshold,
+                    edge_radius=args.chroma_fringe_edge_radius,
+                    alpha_minimum=args.chroma_fringe_alpha_minimum,
+                )
+                if chroma_key is not None and row_uses_chroma
+                else 0
             )
             cell_info["chroma_fringe_pixels"] = chroma_fringe_pixels
             cells.append(cell_info)
@@ -215,7 +259,12 @@ def main() -> None:
                 errors.append(
                     f"{state} row {row_index} column {column_index} is empty or too sparse ({nontransparent} pixels)"
                 )
-            if used and chroma_leak_pixels > args.max_chroma_leak_pixels:
+            if (
+                used
+                and chroma_key is not None
+                and row_uses_chroma
+                and chroma_leak_pixels > args.max_chroma_leak_pixels
+            ):
                 message = (
                     f"{state} row {row_index} column {column_index} has {chroma_leak_pixels} "
                     f"opaque pixels near chroma key {args.chroma_key}; this usually means "
@@ -225,7 +274,12 @@ def main() -> None:
                     warnings.append(message)
                 else:
                     errors.append(message)
-            if used and chroma_fringe_pixels > args.max_chroma_fringe_pixels:
+            if (
+                used
+                and chroma_key is not None
+                and row_uses_chroma
+                and chroma_fringe_pixels > args.max_chroma_fringe_pixels
+            ):
                 message = (
                     f"{state} row {row_index} column {column_index} has {chroma_fringe_pixels} "
                     f"visible edge pixels contaminated by chroma key {args.chroma_key}"
@@ -275,6 +329,8 @@ def main() -> None:
         "sprite_version_number": 2 if is_extended_atlas else 1,
         "width": image.width,
         "height": image.height,
+        "chroma_key": args.chroma_key.upper() if args.chroma_key else None,
+        "row_background_modes": row_background_modes,
         "transparent_rgb_residue_pixels": transparent_rgb_residue,
         "errors": errors,
         "warnings": warnings,

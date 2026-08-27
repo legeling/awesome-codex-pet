@@ -132,6 +132,8 @@ def inspect_state(
     areas: list[int] = []
     manifest_row = manifest_rows.get(state, {})
     method = manifest_row.get("method")
+    background_mode = manifest_row.get("background_mode", "chroma")
+    row_chroma_key = chroma_key if background_mode == "chroma" else None
 
     if len(files) != expected_count:
         row_errors.append(f"expected {expected_count} frame files for {state}, found {len(files)}")
@@ -158,7 +160,7 @@ def inspect_state(
         edge_pixels = edge_alpha_count(frame, args.edge_margin)
         chroma_adjacent_pixels = chroma_adjacent_count(
             frame,
-            chroma_key,
+            row_chroma_key,
             args.chroma_adjacent_threshold,
         )
         info = {
@@ -208,6 +210,7 @@ def inspect_state(
         "expected_frames": expected_count,
         "actual_frames": len(files),
         "extraction_method": method,
+        "background_mode": background_mode,
         "ok": not row_errors,
         "errors": row_errors,
         "warnings": row_warnings,

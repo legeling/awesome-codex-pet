@@ -80,7 +80,7 @@ STATE_REQUIREMENTS = {
     "jumping": [
         "Show the jump through pose and vertical body position only: anticipation, lift, airborne peak, descent, settle.",
         "Do not draw ground shadows, contact shadows, drop shadows, oval shadows, landing marks, dust, smears, bounce pads, or motion marks under the pet.",
-        "Keep the background outside the pet perfectly flat chroma key with no darker key-colored patches.",
+        "Keep the canvas outside the pet fully transparent, or perfectly flat fallback chroma when native alpha is unavailable.",
     ],
     "failed": [
         "Show failure through slumped pose, drooping ears/limbs, closed or sad eyes, and lower body position.",
@@ -125,7 +125,7 @@ NON_DERIVABLE_STATES = {
 PET_SAFE_STYLE = (
     "Pet-safe sprite: compact full-body mascot, readable in a 192x208 cell, "
     "clear silhouette, simple face, stable palette/materials, and crisp edges "
-    "for chroma-key extraction."
+    "for clean alpha extraction."
 )
 
 STYLE_PRESETS = {
@@ -509,33 +509,69 @@ def brand_inspiration_line(args: argparse.Namespace) -> str:
     )
 
 
+def background_contract(args: argparse.Namespace) -> str:
+    chroma_key = args.chroma_key["hex"]
+    chroma_name = args.chroma_key["name"]
+    if args.background_mode == "chroma":
+        return (
+            f"Use a perfectly flat pure {chroma_name} {chroma_key} chroma-key "
+            "background across the entire canvas."
+        )
+    if args.background_mode == "transparent":
+        return (
+            "Return a real RGBA image with a fully transparent background outside "
+            "the sprite. Preserve clean antialiased alpha at the silhouette edge; "
+            "do not draw a checkerboard or bake any matte color into transparent pixels."
+        )
+    return (
+        "Prefer a real RGBA image with a fully transparent background outside the "
+        "sprite and clean antialiased alpha at the silhouette edge. If native alpha "
+        f"is unavailable, use a perfectly flat pure {chroma_name} {chroma_key} "
+        "chroma-key background as the only fallback; never use white, black, scenery, "
+        "or a checkerboard."
+    )
+
+
+def background_color_restriction(args: argparse.Namespace) -> str:
+    if args.background_mode == "transparent":
+        return (
+            "Do not add a matte, halo, outline, shadow, or background-colored fringe "
+            "around the sprite."
+        )
+    chroma_key = args.chroma_key["hex"]
+    return (
+        f"When using the chroma fallback, keep {chroma_key} and close colors out of "
+        "the pet, props, highlights, and effects."
+    )
+
+
 def base_pet_prompt(args: argparse.Namespace) -> str:
     pet_notes = args.pet_notes or "the pet shown in the reference image(s)"
     style_contract = resolved_style_contract(args.style_preset, args.style_notes)
     brand_line = brand_inspiration_line(args)
     brand_block = f"\nBrand inspiration: {brand_line}\n" if brand_line else "\n"
-    chroma_key = args.chroma_key["hex"]
-    chroma_name = args.chroma_key["name"]
+    background = background_contract(args)
+    color_restriction = background_color_restriction(args)
     return f"""Create one clean full-body reference sprite for Codex pet {args.display_name}.
 
 Pet identity: {pet_notes}.
 Style: {style_contract}
 {brand_block}
-Place a single centered pose on a perfectly flat pure {chroma_name} {chroma_key} chroma-key background. Keep the full pet visible, compact, readable at 192x208, and easy to animate. Preserve approved reference identity cues. No scenery, text, borders, checkerboard transparency, shadows, glows, detached effects, or extra props. Keep {chroma_key} and close colors out of the pet, props, highlights, and effects."""
+{background} Place a single centered pose with the full pet visible, compact, readable at 192x208, and easy to animate. Preserve approved reference identity cues. No scenery, text, borders, checkerboard patterns, shadows, glows, detached effects, or extra props. {color_restriction}"""
 
 
 def row_prompt(args: argparse.Namespace, state: str, row: int, frames: int, purpose: str) -> str:
     pet_notes = args.pet_notes or "the same pet from the approved base reference"
     style_contract = resolved_style_contract(args.style_preset, args.style_notes)
-    chroma_key = args.chroma_key["hex"]
-    chroma_name = args.chroma_key["name"]
+    background = background_contract(args)
+    color_restriction = background_color_restriction(args)
     state_prompt = STATE_PROMPTS[state]
     state_requirements = "\n".join(f"- {line}" for line in STATE_REQUIREMENTS[state])
     return f"""Create one horizontal animation strip for Codex pet `{args.pet_id}`, state `{state}`.
 
 Use the attached canonical base for identity. Use the attached layout guide only for slot count, spacing, centering, and padding; do not draw the guide.
 
-Output exactly {frames} full-body frames in one left-to-right row on flat pure {chroma_name} {chroma_key}. Treat the row as {frames} invisible equal-width slots: one centered complete pose per slot, evenly spaced, with no overlap, clipping, empty slots, labels, or borders.
+Output exactly {frames} full-body frames in one left-to-right row. {background} Treat the row as {frames} invisible equal-width slots: one centered complete pose per slot, evenly spaced, with no overlap, clipping, empty slots, labels, or borders.
 
 Identity: same pet in every frame: {pet_notes}. Preserve silhouette, face, proportions, markings, palette, material, style, and props.
 Style: {style_contract}
@@ -546,18 +582,18 @@ State action: {state_prompt}
 State requirements:
 {state_requirements}
 
-Clean extraction: crisp opaque edges, safe padding, no scenery, text, guide marks, checkerboard, shadows, glows, motion blur, speed lines, dust, detached effects, stray pixels, or chroma-key colors inside the pet."""
+Clean extraction: crisp antialiased alpha edges, safe padding, no scenery, text, guide marks, checkerboard patterns, shadows, glows, motion blur, speed lines, dust, detached effects, or stray pixels. {color_restriction}"""
 
 
 def retry_row_prompt(
     args: argparse.Namespace, state: str, row: int, frames: int, purpose: str
 ) -> str:
     pet_notes = args.pet_notes or "the canonical base pet"
-    chroma_key = args.chroma_key["hex"]
-    chroma_name = args.chroma_key["name"]
+    background = background_contract(args)
+    color_restriction = background_color_restriction(args)
     state_prompt = STATE_PROMPTS[state]
     state_requirements = "\n".join(f"- {line}" for line in STATE_REQUIREMENTS[state])
-    return f"""Create Codex pet row `{state}` for `{args.pet_id}`: exactly {frames} full-body frames in one horizontal strip on flat pure {chroma_name} {chroma_key}.
+    return f"""Create Codex pet row `{state}` for `{args.pet_id}`: exactly {frames} full-body frames in one horizontal strip. {background}
 
 Use the attached canonical base for identity and the layout guide only for spacing. Same pet in every frame: {pet_notes}. Preserve silhouette, face, palette, material, proportions, markings, and props.
 
@@ -568,7 +604,7 @@ Action: {state_prompt}
 State requirements:
 {state_requirements}
 
-One centered complete pose per invisible slot. No text, boxes, guide marks, scenery, shadows, glows, motion blur, speed lines, dust, detached effects, stray pixels, or {chroma_key} colors in the pet."""
+One centered complete pose per invisible slot. No text, boxes, guide marks, scenery, shadows, glows, motion blur, speed lines, dust, detached effects, or stray pixels. {color_restriction}"""
 
 
 def look_row_boundary_contract(row: int) -> str:
@@ -589,7 +625,7 @@ def look_row_boundary_contract(row: int) -> str:
 
 
 def look_row_layout_contract() -> str:
-    return """HARD LAYOUT AND CONTINUITY CONTRACT — DETERMINISTIC REGISTRATION: draw exactly eight separated pose groups in left-to-right direction order. Keep enough chroma-only space between neighboring poses that each complete pose can be detected without cutting through foreground. Approximate the guide's equal spacing, but do not distort a pose merely to hit an exact source-canvas coordinate; deterministic assembly will crop the eight ordered groups, then apply one shared scale and baseline.
+    return """HARD LAYOUT AND CONTINUITY CONTRACT — DETERMINISTIC REGISTRATION: draw exactly eight separated pose groups in left-to-right direction order. Keep enough fully transparent or flat fallback-background space between neighboring poses that each complete pose can be detected without cutting through foreground. Approximate the guide's equal spacing, but do not distort a pose merely to hit an exact source-canvas coordinate; deterministic assembly will crop the eight ordered groups, then apply one shared scale and baseline.
 
 Use the same body height, head size, baseline, and planted-body position across the generated family. Never overlap neighboring poses, merge two poses into one connected group, crop foreground at the outer canvas edge, or resize one pose independently.
 
@@ -659,8 +695,8 @@ def look_row_prompt(
     directions: list[str],
 ) -> str:
     direction_list = ", ".join(directions)
-    chroma_key = args.chroma_key["hex"]
-    chroma_name = args.chroma_key["name"]
+    background = background_contract(args)
+    color_restriction = background_color_restriction(args)
     reference_instruction = (
         "The approved cardinal strip is authoritative for the up, screen-right, down, "
         "and screen-left pose families. Interpolate the intermediate directions as "
@@ -684,13 +720,13 @@ Output exactly 8 complete full-body frames in this exact left-to-right order: {d
 
 {look_row_layout_contract()}
 
-Place one centered pose in each invisible equal-width slot on flat pure {chroma_name} {chroma_key}. Change only the natural parts needed to express gaze: eyes, eyelids, head, face, neck, upper body, appendages, and constrained prop follow-through. Keep identity, silhouette, materials, palette, markings, and props consistent.
+{background} Place one centered pose in each invisible equal-width slot. Change only the natural parts needed to express gaze: eyes, eyelids, head, face, neck, upper body, appendages, and constrained prop follow-through. Keep identity, silhouette, materials, palette, markings, and props consistent.
 
 {look_row_boundary_contract(row)}
 
 {look_row_pre_return_check(row)}
 
-Do not rotate, skew, or tilt the whole sprite to fake gaze. Do not add replacement/googly eyes, labels, degree text, arrows, clocks, grids, shadows, glows, scenery, detached effects, or chroma-key colors inside the pet."""
+Do not rotate, skew, or tilt the whole sprite to fake gaze. Do not add replacement/googly eyes, labels, degree text, arrows, clocks, grids, shadows, glows, scenery, or detached effects. {color_restriction}"""
 
 
 def retry_look_row_prompt(
@@ -699,8 +735,8 @@ def retry_look_row_prompt(
     directions: list[str],
 ) -> str:
     direction_list = ", ".join(directions)
-    chroma_key = args.chroma_key["hex"]
-    chroma_name = args.chroma_key["name"]
+    background = background_contract(args)
+    color_restriction = background_color_restriction(args)
     return f"""Create Codex v2 pet look row {row} for `{args.pet_id}` as exactly 8 full-body frames in this order: {direction_list}.
 
 Use the canonical base, standard contact sheet, layout guide, approved four-cardinal strip, and `qa/look-mechanics.md`. Draw the complete eight-pose row as one coherent animation family, interpolating even 22.5-degree steps between the cardinal pose families. Keep the same pet identity, face construction, materials, palette, markings, and props. Each direction must read correctly at pet size and join continuously at the 000 and 180 boundaries.
@@ -713,12 +749,12 @@ Use the canonical base, standard contact sheet, layout guide, approved four-card
 
 {look_row_pre_return_check(row)}
 
-Use a flat pure {chroma_name} {chroma_key} background. One complete unclipped pose per invisible slot. No whole-sprite rotation, replacement eyes, labels, guide marks, shadows, glows, scenery, detached effects, or {chroma_key} colors in the pet."""
+{background} One complete unclipped pose per invisible slot. No whole-sprite rotation, replacement eyes, labels, guide marks, shadows, glows, scenery, or detached effects. {color_restriction}"""
 
 
 def look_cardinal_prompt(args: argparse.Namespace) -> str:
-    chroma_key = args.chroma_key["hex"]
-    chroma_name = args.chroma_key["name"]
+    background = background_contract(args)
+    color_restriction = background_color_restriction(args)
     return f"""Create one horizontal four-cardinal anchor strip for Codex pet `{args.pet_id}`.
 
 Use the attached canonical base, completed standard contact sheet, and layout guide for exact identity, style, scale, baseline, face construction, materials, palette, markings, props, and spacing. Read `qa/look-mechanics.md` and use the pet's natural gaze mechanism.
@@ -727,9 +763,9 @@ Output exactly four centered complete full-body poses in this exact left-to-righ
 
 For `000`, keep the face broadly frontal and point the eyes and natural head mechanism toward the TOP edge. For `090`, put the nose tip, pupils, face surface, or natural aiming feature on the screen-right side of the head center. For `180`, keep the face broadly frontal and point toward the BOTTOM edge. For `270`, apply the inverse screen-left landmark rule. Every cardinal must be unmistakable without labels.
 
-Place one pose in each invisible equal-width slot on a flat pure {chroma_name} {chroma_key} background with generous padding. Keep scale, feet/base, lower body, and registration consistent across all four slots.
+{background} Place one pose in each invisible equal-width slot with generous padding. Keep scale, feet/base, lower body, and registration consistent across all four slots.
 
-Do not rotate, skew, or tilt the whole sprite to fake gaze. Do not add replacement eyes, labels, degree text, arrows, boxes, guide marks, shadows, scenery, detached effects, or chroma-key colors inside the pet."""
+Do not rotate, skew, or tilt the whole sprite to fake gaze. Do not add replacement eyes, labels, degree text, arrows, boxes, guide marks, shadows, scenery, or detached effects. {color_restriction}"""
 
 
 def look_cardinal_repair_prompt(
@@ -737,8 +773,8 @@ def look_cardinal_repair_prompt(
     label: str,
     expected_direction: str,
 ) -> str:
-    chroma_key = args.chroma_key["hex"]
-    chroma_name = args.chroma_key["name"]
+    background = background_contract(args)
+    color_restriction = background_color_restriction(args)
     screen_rule = {
         "000": "Keep the face broadly frontal and point the eyes and natural head mechanism toward the TOP edge.",
         "090": "Put the nose tip, pupils, face surface, or natural aiming feature on the screen-right side of the head center.",
@@ -749,9 +785,9 @@ def look_cardinal_repair_prompt(
 
 Use the canonical base, completed standard contact sheet, approved cardinal-strip cells, and `qa/look-mechanics.md` for identity, scale, registration, and pet-specific gaze mechanics. {screen_rule} Screen coordinates are viewer-relative.
 
-Output one centered complete full-body pose on a flat pure {chroma_name} {chroma_key} background with generous padding. Keep the feet/base and lower body registered to the approved anchors. The requested cardinal must be unmistakable at final 192x208 display size.
+{background} Output one centered complete full-body pose with generous padding. Keep the feet/base and lower body registered to the approved anchors. The requested cardinal must be unmistakable at final 192x208 display size.
 
-Do not rotate, skew, or tilt the whole sprite to fake gaze. Do not add replacement eyes, labels, arrows, guide marks, shadows, scenery, detached effects, or chroma-key colors inside the pet."""
+Do not rotate, skew, or tilt the whole sprite to fake gaze. Do not add replacement eyes, labels, arrows, guide marks, shadows, scenery, or detached effects. {color_restriction}"""
 
 
 def make_jobs(
@@ -989,7 +1025,16 @@ def main() -> None:
     parser.add_argument(
         "--chroma-key",
         default="auto",
-        help="Chroma key as #RRGGBB, or auto to choose a safe key from reference colors.",
+        help="Fallback chroma key as #RRGGBB, or auto to choose a safe key from reference colors.",
+    )
+    parser.add_argument(
+        "--background-mode",
+        choices=("auto", "transparent", "chroma"),
+        default="auto",
+        help=(
+            "Prefer native transparent image output in auto mode, require it in "
+            "transparent mode, or force the legacy chroma-key workflow."
+        ),
     )
     parser.add_argument("--force", action="store_true")
     args = parser.parse_args()
@@ -1089,6 +1134,13 @@ def main() -> None:
             {**guide, "path": rel(Path(str(guide["path"])), run_dir)} for guide in layout_guides
         ],
         "references": copied_refs,
+        "background_mode": {
+            "requested": args.background_mode,
+            "preferred": (
+                "chroma" if args.background_mode == "chroma" else "transparent"
+            ),
+            "fallback": "chroma" if args.background_mode == "auto" else None,
+        },
         "chroma_key": args.chroma_key,
         "pet_notes": args.pet_notes,
         "style_preset": args.style_preset,
@@ -1136,6 +1188,7 @@ def main() -> None:
         "created_at": datetime.now(timezone.utc).isoformat(),
         "run_dir": str(run_dir),
         "primary_generation_skill": "$imagegen",
+        "background_mode_requested": args.background_mode,
         "jobs": make_jobs(run_dir, copied_refs),
     }
     (run_dir / "imagegen-jobs.json").write_text(json.dumps(jobs, indent=2) + "\n", encoding="utf-8")

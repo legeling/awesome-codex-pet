@@ -5,11 +5,12 @@ from __future__ import annotations
 
 import argparse
 import json
-import math
 import re
 from pathlib import Path
 
 from PIL import Image
+
+from background_utils import BACKGROUND_MODES, prepare_sprite_source
 
 CARDINALS = ["000", "090", "180", "270"]
 CELL_WIDTH = 192
@@ -20,30 +21,6 @@ def parse_hex_color(value: str) -> tuple[int, int, int]:
     if not re.fullmatch(r"#[0-9a-fA-F]{6}", value):
         raise SystemExit(f"invalid chroma key color: {value}; expected #RRGGBB")
     return tuple(int(value[index : index + 2], 16) for index in (1, 3, 5))
-
-
-def color_distance(
-    red: int,
-    green: int,
-    blue: int,
-    key: tuple[int, int, int],
-) -> float:
-    return math.sqrt((red - key[0]) ** 2 + (green - key[1]) ** 2 + (blue - key[2]) ** 2)
-
-
-def remove_chroma_background(
-    image: Image.Image,
-    chroma_key: tuple[int, int, int],
-    threshold: float,
-) -> Image.Image:
-    rgba = image.convert("RGBA")
-    pixels = rgba.load()
-    for y in range(rgba.height):
-        for x in range(rgba.width):
-            red, green, blue, _alpha = pixels[x, y]
-            if color_distance(red, green, blue, chroma_key) <= threshold:
-                pixels[x, y] = (0, 0, 0, 0)
-    return rgba
 
 
 def alpha_count(image: Image.Image) -> int:
@@ -89,8 +66,14 @@ def main() -> None:
     parser.add_argument("--strip", required=True)
     parser.add_argument("--output-dir", required=True)
     parser.add_argument("--json-out", required=True)
-    parser.add_argument("--chroma-key", required=True)
+    parser.add_argument("--chroma-key", default="#00FF00")
     parser.add_argument("--chroma-threshold", type=float, default=96.0)
+    parser.add_argument(
+        "--background-mode",
+        choices=BACKGROUND_MODES,
+        default="auto",
+        help="Prefer native transparency in auto mode; retain chroma as fallback.",
+    )
     parser.add_argument("--edge-margin", type=int, default=2)
     parser.add_argument("--edge-pixel-threshold", type=int, default=24)
     parser.add_argument("--min-used-pixels", type=int, default=400)
@@ -100,11 +83,15 @@ def main() -> None:
     output_dir = Path(args.output_dir).expanduser().resolve()
     output_dir.mkdir(parents=True, exist_ok=True)
     with Image.open(strip_path) as opened:
-        strip = remove_chroma_background(
-            opened,
-            parse_hex_color(args.chroma_key),
-            args.chroma_threshold,
-        )
+        try:
+            strip, detected_background_mode, source_alpha = prepare_sprite_source(
+                opened,
+                chroma_key=parse_hex_color(args.chroma_key),
+                threshold=args.chroma_threshold,
+                background_mode=args.background_mode,
+            )
+        except ValueError as exc:
+            raise SystemExit(f"{strip_path}: {exc}") from exc
 
     slot_width = strip.width / len(CARDINALS)
     anchors = []
@@ -136,6 +123,8 @@ def main() -> None:
     result = {
         "ok": not errors,
         "strip": str(strip_path),
+        "background_mode": detected_background_mode,
+        "source_alpha": source_alpha,
         "directions": CARDINALS,
         "errors": errors,
         "anchors": anchors,

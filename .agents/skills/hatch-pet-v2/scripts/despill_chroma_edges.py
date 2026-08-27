@@ -10,9 +10,12 @@ from pathlib import Path
 
 from PIL import Image, ImageFilter
 
+from background_utils import clear_transparent_rgb, load_row_background_modes
+
 CELL_WIDTH = 192
 CELL_HEIGHT = 208
 ALGORITHM = "edge-local-chroma-spill-suppression"
+NATIVE_ALPHA_ALGORITHM = "native-alpha-pass-through"
 VALIDATOR_CHROMA_DISTANCE = 96.0
 
 
@@ -264,6 +267,112 @@ def decontaminate_image(
     }
 
 
+def preserve_native_alpha(
+    image: Image.Image,
+) -> tuple[Image.Image, dict[str, object]]:
+    rgba = image.convert("RGBA")
+    cleaned = clear_transparent_rgb(rgba)
+    source = list(rgba.getdata())
+    output = list(cleaned.getdata())
+    width, _height = rgba.size
+    changed_by_cell: dict[str, int] = {}
+    for index, (source_pixel, output_pixel) in enumerate(zip(source, output)):
+        if source_pixel == output_pixel:
+            continue
+        x = index % width
+        y = index // width
+        cell = f"r{y // CELL_HEIGHT}c{x // CELL_WIDTH}"
+        changed_by_cell[cell] = changed_by_cell.get(cell, 0) + 1
+    return cleaned, {
+        "algorithm": NATIVE_ALPHA_ALGORITHM,
+        "strength": 0,
+        "edge_radius": 0,
+        "spill_tolerance": 0,
+        "minimum_saturation": 0,
+        "changed_pixels": sum(changed_by_cell.values()),
+        "decontaminated_pixels": 0,
+        "spill_suppressed_pixels": 0,
+        "rejected_pixels": 0,
+        "changed_by_cell": dict(
+            sorted(changed_by_cell.items(), key=lambda item: item[1], reverse=True)
+        ),
+        "alpha_preserved": True,
+    }
+
+
+def decontaminate_mixed_atlas(
+    image: Image.Image,
+    *,
+    chroma_key: tuple[int, int, int],
+    row_background_modes: list[str],
+    strength: float = 1,
+    edge_radius: int = 5,
+    spill_tolerance: float = 0.15,
+    minimum_saturation: float = 0.1,
+) -> tuple[Image.Image, dict[str, object]]:
+    rgba = image.convert("RGBA")
+    if rgba.height % CELL_HEIGHT or rgba.width % CELL_WIDTH:
+        raise ValueError("mixed cleanup requires a cell-aligned Codex pet atlas")
+    expected_rows = rgba.height // CELL_HEIGHT
+    if len(row_background_modes) != expected_rows:
+        raise ValueError(
+            f"mixed cleanup expected {expected_rows} row modes, "
+            f"got {len(row_background_modes)}"
+        )
+
+    output, native_report = preserve_native_alpha(rgba)
+    changed_by_cell: dict[str, int] = {}
+    decontaminated_pixels = 0
+    spill_suppressed_pixels = 0
+    rejected_pixels = 0
+    alpha_preserved = True
+    for row, mode in enumerate(row_background_modes):
+        if mode == "transparent":
+            continue
+        if mode != "chroma":
+            raise ValueError(f"invalid row background mode at row {row}: {mode!r}")
+        top = row * CELL_HEIGHT
+        for column, left in enumerate(range(0, rgba.width, CELL_WIDTH)):
+            cell = rgba.crop(
+                (left, top, left + CELL_WIDTH, top + CELL_HEIGHT)
+            )
+            cleaned, report = decontaminate_image(
+                cell,
+                chroma_key=chroma_key,
+                strength=strength,
+                edge_radius=edge_radius,
+                spill_tolerance=spill_tolerance,
+                minimum_saturation=minimum_saturation,
+            )
+            output.paste(cleaned, (left, top))
+            changed = int(report["changed_pixels"])
+            if changed:
+                changed_by_cell[f"r{row}c{column}"] = changed
+            decontaminated_pixels += int(report["decontaminated_pixels"])
+            spill_suppressed_pixels += int(report["spill_suppressed_pixels"])
+            rejected_pixels += int(report["rejected_pixels"])
+            alpha_preserved = alpha_preserved and bool(report["alpha_preserved"])
+
+    native_hidden_rgb_changes = int(native_report["changed_pixels"])
+    return output, {
+        "algorithm": "mixed-native-alpha-and-edge-local-chroma-spill-suppression",
+        "strength": strength,
+        "edge_radius": edge_radius,
+        "spill_tolerance": spill_tolerance,
+        "minimum_saturation": minimum_saturation,
+        "changed_pixels": sum(changed_by_cell.values()) + native_hidden_rgb_changes,
+        "native_hidden_rgb_cleared_pixels": native_hidden_rgb_changes,
+        "decontaminated_pixels": decontaminated_pixels,
+        "spill_suppressed_pixels": spill_suppressed_pixels,
+        "rejected_pixels": rejected_pixels,
+        "changed_by_cell": dict(
+            sorted(changed_by_cell.items(), key=lambda item: item[1], reverse=True)
+        ),
+        "alpha_preserved": alpha_preserved,
+        "row_background_modes": row_background_modes,
+    }
+
+
 def save_image(image: Image.Image, path: Path) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     if path.suffix.lower() == ".webp":
@@ -278,7 +387,21 @@ def main() -> None:
     parser.add_argument("--output", required=True)
     parser.add_argument("--webp-output")
     parser.add_argument("--json-out")
-    parser.add_argument("--chroma-key", required=True)
+    parser.add_argument(
+        "--background-mode",
+        choices=("chroma", "native-alpha", "mixed"),
+        default="chroma",
+        help=(
+            "Use native-alpha to preserve all visible colors and only clear hidden RGB; "
+            "use chroma for the legacy spill-suppression path; use mixed with a source "
+            "manifest to clean only fallback rows."
+        ),
+    )
+    parser.add_argument("--chroma-key")
+    parser.add_argument(
+        "--source-manifest",
+        help="Final atlas manifest containing rowBackgroundModes; required for mixed mode.",
+    )
     parser.add_argument("--strength", type=float, default=1)
     parser.add_argument("--edge-radius", type=int, default=5)
     parser.add_argument("--spill-tolerance", type=float, default=0.15)
@@ -287,14 +410,40 @@ def main() -> None:
 
     input_path = Path(args.input).expanduser().resolve()
     with Image.open(input_path) as opened:
-        cleaned, report = decontaminate_image(
-            opened,
-            chroma_key=parse_hex_color(args.chroma_key),
-            strength=args.strength,
-            edge_radius=args.edge_radius,
-            spill_tolerance=args.spill_tolerance,
-            minimum_saturation=args.minimum_saturation,
-        )
+        if args.background_mode == "native-alpha":
+            cleaned, report = preserve_native_alpha(opened)
+        elif args.background_mode == "mixed":
+            if not args.chroma_key:
+                raise SystemExit("--chroma-key is required for mixed background mode")
+            if not args.source_manifest:
+                raise SystemExit("--source-manifest is required for mixed background mode")
+            try:
+                row_modes = load_row_background_modes(
+                    Path(args.source_manifest).expanduser().resolve(),
+                    expected_rows=opened.height // CELL_HEIGHT,
+                )
+                cleaned, report = decontaminate_mixed_atlas(
+                    opened,
+                    chroma_key=parse_hex_color(args.chroma_key),
+                    row_background_modes=row_modes,
+                    strength=args.strength,
+                    edge_radius=args.edge_radius,
+                    spill_tolerance=args.spill_tolerance,
+                    minimum_saturation=args.minimum_saturation,
+                )
+            except ValueError as exc:
+                raise SystemExit(str(exc)) from exc
+        else:
+            if not args.chroma_key:
+                raise SystemExit("--chroma-key is required for chroma background mode")
+            cleaned, report = decontaminate_image(
+                opened,
+                chroma_key=parse_hex_color(args.chroma_key),
+                strength=args.strength,
+                edge_radius=args.edge_radius,
+                spill_tolerance=args.spill_tolerance,
+                minimum_saturation=args.minimum_saturation,
+            )
 
     output_path = Path(args.output).expanduser().resolve()
     save_image(cleaned, output_path)
@@ -305,7 +454,13 @@ def main() -> None:
         "ok": True,
         "input": str(input_path),
         "output": str(output_path),
-        "chroma_key": args.chroma_key.upper(),
+        "background_mode": args.background_mode,
+        "chroma_key": args.chroma_key.upper() if args.chroma_key else None,
+        "source_manifest": (
+            str(Path(args.source_manifest).expanduser().resolve())
+            if args.source_manifest
+            else None
+        ),
         **report,
     }
     if args.json_out:

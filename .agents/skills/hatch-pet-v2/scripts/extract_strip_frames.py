@@ -5,11 +5,12 @@ from __future__ import annotations
 
 import argparse
 import json
-import math
 import re
 from pathlib import Path
 
 from PIL import Image
+
+from background_utils import BACKGROUND_MODES, prepare_sprite_source
 
 CELL_WIDTH = 192
 CELL_HEIGHT = 208
@@ -52,30 +53,6 @@ def load_chroma_key(decoded_dir: Path, override: str | None) -> tuple[int, int, 
         if isinstance(chroma_key, dict) and isinstance(chroma_key.get("hex"), str):
             return parse_hex_color(chroma_key["hex"])
     return parse_hex_color("#00FF00")
-
-
-def color_distance(
-    red: int,
-    green: int,
-    blue: int,
-    key: tuple[int, int, int],
-) -> float:
-    return math.sqrt((red - key[0]) ** 2 + (green - key[1]) ** 2 + (blue - key[2]) ** 2)
-
-
-def remove_chroma_background(
-    image: Image.Image,
-    chroma_key: tuple[int, int, int],
-    threshold: float,
-) -> Image.Image:
-    rgba = image.convert("RGBA")
-    pixels = rgba.load()
-    for y in range(rgba.height):
-        for x in range(rgba.width):
-            red, green, blue, alpha = pixels[x, y]
-            if color_distance(red, green, blue, chroma_key) <= threshold:
-                pixels[x, y] = (0, 0, 0, 0)
-    return rgba
 
 
 def fit_to_cell(image: Image.Image) -> Image.Image:
@@ -316,10 +293,19 @@ def extract_state(
     chroma_key: tuple[int, int, int],
     threshold: float,
     method: str,
+    background_mode: str,
 ) -> dict[str, object]:
     frame_count = ROW_FRAME_COUNTS[state]
     with Image.open(strip_path) as opened:
-        strip = remove_chroma_background(opened, chroma_key, threshold)
+        try:
+            strip, detected_background_mode, alpha = prepare_sprite_source(
+                opened,
+                chroma_key=chroma_key,
+                threshold=threshold,
+                background_mode=background_mode,
+            )
+        except ValueError as exc:
+            raise SystemExit(f"{strip_path}: {exc}") from exc
 
     state_dir = output_root / state
     state_dir.mkdir(parents=True, exist_ok=True)
@@ -346,7 +332,13 @@ def extract_state(
         output = state_dir / f"{index:02d}.png"
         frame.save(output)
         outputs.append(str(output))
-    return {"state": state, "frames": outputs, "method": used_method}
+    return {
+        "state": state,
+        "frames": outputs,
+        "method": used_method,
+        "background_mode": detected_background_mode,
+        "source_alpha": alpha,
+    }
 
 
 def main() -> None:
@@ -356,6 +348,15 @@ def main() -> None:
     parser.add_argument("--states", default="all")
     parser.add_argument("--chroma-key", help="Override chroma key as #RRGGBB.")
     parser.add_argument("--key-threshold", type=float, default=96.0)
+    parser.add_argument(
+        "--background-mode",
+        choices=BACKGROUND_MODES,
+        default="auto",
+        help=(
+            "Prefer native transparency in auto mode and fall back to chroma removal "
+            "only when the source has no usable transparent canvas."
+        ),
+    )
     parser.add_argument(
         "--method",
         choices=("auto", "components", "slots", "stable-slots"),
@@ -381,6 +382,7 @@ def main() -> None:
                 chroma_key,
                 args.key_threshold,
                 args.method,
+                args.background_mode,
             )
         )
 
@@ -394,6 +396,13 @@ def main() -> None:
                     "threshold": args.key_threshold,
                 },
                 "rows": manifest,
+                "background_mode": (
+                    "transparent"
+                    if all(row["background_mode"] == "transparent" for row in manifest)
+                    else "chroma"
+                    if all(row["background_mode"] == "chroma" for row in manifest)
+                    else "mixed"
+                ),
             },
             indent=2,
         )
