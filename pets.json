@@ -2355,6 +2355,20 @@
     "spriteVersionNumber": 2
   },
   {
+    "slug": "wo-de-dao-dun--legeling",
+    "name": "我的刀盾",
+    "localized_names": { "en": "Wo De Dao Dun", "zh": "我的刀盾" },
+    "author": "Legeling",
+    "author_handle": "legeling",
+    "author_url": "https://github.com/legeling",
+    "primary_category": "Others",
+    "canonical_key": "meme/wo-de-dao-dun",
+    "collections": [],
+    "license": "Non-commercial use only. Independently AI-generated community meme interpretation; no source pixels copied.",
+    "description": "An independently AI-generated Wo De Dao Dun community pet combining a Cheems-like face, round frog body, sword and shield, nine standard task animations, and a complete 16-direction look loop.",
+    "spriteVersionNumber": 2
+  },
+  {
     "slug": "koukou-penguin--hoody",
     "name": "扣扣企鹅",
     "author": "hoody",

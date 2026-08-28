@@ -1893,6 +1893,16 @@
       "spritesheetWidth": 1536,
       "spritesheetHeight": 2288
     },
+    "wo-de-dao-dun--legeling": {
+      "name": "我的刀盾",
+      "spriteVersionNumber": 2,
+      "petJsonSha256": "a1eb3678874671762afbca205bb34ea57309bfe1aad426ef2ef5d73933f5d783",
+      "petJsonBytes": 266,
+      "spritesheetSha256": "022f15d8dcf204f8d2278e02855d447e82d3112ab333ee4dee27dd931ece7bcd",
+      "spritesheetBytes": 2284242,
+      "spritesheetWidth": 1536,
+      "spritesheetHeight": 2288
+    },
     "koukou-penguin--hoody": {
       "name": "扣扣企鹅",
       "spriteVersionNumber": 2,

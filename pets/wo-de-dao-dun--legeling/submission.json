@@ -1,0 +1,41 @@
+{
+  "slug": "wo-de-dao-dun--legeling",
+  "pet_slug": "wo-de-dao-dun",
+  "author_slug": "legeling",
+  "canonical_key": "meme/wo-de-dao-dun",
+  "name": "我的刀盾",
+  "localized_names": {
+    "en": "Wo De Dao Dun",
+    "zh": "我的刀盾"
+  },
+  "author": "Legeling",
+  "author_handle": "legeling",
+  "author_url": "https://github.com/legeling",
+  "primary_category": "Others",
+  "collections": [],
+  "tags": [
+    "wo-de-dao-dun",
+    "drog",
+    "cheems",
+    "frog",
+    "meme",
+    "community-request",
+    "v2",
+    "ai-generated"
+  ],
+  "source_type": "ai-generated",
+  "source_url": "https://github.com/legeling/awesome-codex-pet/issues/105",
+  "source_notes": "Independently AI-generated community meme interpretation made for Issue #105 from the requester-provided reference and the approved Drog direction; no source-image pixels, text, logos, or backgrounds were copied into the runtime spritesheet.",
+  "license": "Non-commercial use only. Independently AI-generated community meme interpretation; no source pixels copied.",
+  "description": "An independently AI-generated Wo De Dao Dun community pet combining a Cheems-like face, round frog body, sword and shield, nine standard task animations, and a complete 16-direction look loop.",
+  "preview_image": "../../assets/previews/wo-de-dao-dun--legeling/gifs/idle.gif",
+  "codex_install": {
+    "pet_json": "pet.json",
+    "spritesheet": "spritesheet.webp"
+  },
+  "preview_assets": {
+    "contact_sheet": "../../assets/previews/wo-de-dao-dun--legeling/contact-sheet.png",
+    "gifs_dir": "../../assets/previews/wo-de-dao-dun--legeling/gifs"
+  },
+  "spritesheet_sha256": "022f15d8dcf204f8d2278e02855d447e82d3112ab333ee4dee27dd931ece7bcd"
+}
