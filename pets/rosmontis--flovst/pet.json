@@ -1,0 +1,8 @@
+{
+  "id": "rosmontis--flovst",
+  "displayName": "迷迭香",
+  "description": "An unofficial, non-commercial Rosmontis companion for Codex.",
+  "kind": "character",
+  "spriteVersionNumber": 2,
+  "spritesheetPath": "spritesheet.webp"
+}

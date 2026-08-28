@@ -1,0 +1,24 @@
+{
+  "slug": "rosmontis--flovst",
+  "pet_slug": "rosmontis",
+  "author_slug": "flovst",
+  "name": "Rosmontis",
+  "localized_names": {
+    "en": "Rosmontis",
+    "zh": "迷迭香"
+  },
+  "author": "flovst",
+  "primary_category": "Game Characters",
+  "canonical_key": "arknights/rosmontis",
+  "variant_note": "An independently produced V2 Rosmontis fan-art adaptation by flovst, with an original simplified chibi spritesheet, custom action mappings, and a complete 16-direction look loop.",
+  "collections": ["arknights"],
+  "tags": ["arknights", "rosmontis", "chibi", "animated", "fan-art"],
+  "source_type": "fan-art",
+  "source_url": "https://github.com/flovst/codexpet-rosmontis/",
+  "license": "Non-commercial use only. Independently produced fan art by flovst; Rosmontis and Arknights remain the property of their respective rights holders.",
+  "preview_image": "../../assets/previews/rosmontis--flovst/gifs/idle.gif",
+  "codex_install": {
+    "pet_json": "pet.json",
+    "spritesheet": "spritesheet.webp"
+  }
+}
