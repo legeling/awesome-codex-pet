@@ -689,6 +689,50 @@
     "githubUrl": "https://github.com/legeling/awesome-codex-pet/issues/91"
   },
   {
+    "number": 123,
+    "character": "焰灵姬",
+    "characterDetails": "焰灵姬",
+    "franchise": "Not provided",
+    "category": "other",
+    "version": "v2",
+    "requestType": "Create a new community interpretation",
+    "referenceStatus": "",
+    "references": "https://api.codexpet.top/uploads/reference/references/de75665e236c326bfd89448829746b1b38e74c340f05358362565220d2482f13.png",
+    "referenceUrls": [
+      "https://api.codexpet.top/uploads/reference/references/de75665e236c326bfd89448829746b1b38e74c340f05358362565220d2482f13.png"
+    ],
+    "referenceImages": [
+      "https://api.codexpet.top/uploads/reference/references/de75665e236c326bfd89448829746b1b38e74c340f05358362565220d2482f13.png"
+    ],
+    "referenceThumbnails": [
+      "https://api.codexpet.top/uploads/reference/thumbnails/de75665e236c326bfd89448829746b1b38e74c340f05358362565220d2482f13.webp"
+    ],
+    "visualDirection": "待机：缓慢呼吸，身体轻微左右摆动；眨眼；手扶腰；长发和披风小幅摆动。\n优雅行走：小步交叉走，步幅窄，身体保持直立，胯部轻微摆动；披风和长发滞后摆动。\n向左/向右移动：采用滑步，不要跨大步；身体略微前倾，脚尖朝移动方向。\n挥手：抬起右手，手腕轻转，手指做慢速勾动，然后自然放回发丝旁。\n跳跃：轻盈小跳并旋身半圈，披风向外展开；落地时保持优雅站姿。\n等待：一手扶腰，一手轻触下巴，头部微微歪向一侧，露出询问表情。\n工作中：双手靠近胸前，身体微微前倾，像是在凝聚火焰；不要真的添加漂浮火球。\n检查/阅读：头部轻歪，目光向下再抬起，手指轻触唇边。\n失败：肩膀下沉，身体略微侧转，眼神失落；披风自然垂下，不要加哭脸或红叉。\n统一要求：\n动作幅度小、节奏慢、重心稳定。\n不要大跨步、快速甩发、动作残影、速度线、地面阴影。\n保持长发、披风、腿部和手指连续，不穿模。\n重点突出“妩媚回眸、轻微摆胯、窄步行走、披风延迟摆动”。",
+    "nameLanguages": "Let the maker decide",
+    "attribution": "Submitted without a GitHub account. Reference and attribution details should be confirmed during triage. Non-commercial use only.",
+    "duplicateCheck": "Repository automation or a maintainer should complete the duplicate check during triage.",
+    "state": "closed",
+    "status": "completed",
+    "labels": [
+      "type: request",
+      "status: completed",
+      "version: v2",
+      "category: other"
+    ],
+    "author": {
+      "login": "github-actions[bot]",
+      "avatarUrl": "https://avatars.githubusercontent.com/in/15368?v=4",
+      "url": "https://github.com/apps/github-actions"
+    },
+    "assignees": [],
+    "createdAt": "2026-08-15T10:35:29Z",
+    "updatedAt": "2026-08-28T09:32:41Z",
+    "closedAt": "2026-08-18T03:35:38Z",
+    "comments": 6,
+    "reactions": 0,
+    "githubUrl": "https://github.com/legeling/awesome-codex-pet/issues/123"
+  },
+  {
     "number": 147,
     "character": "爱弥斯",
     "characterDetails": "爱弥斯（Aemeath）",
@@ -1473,50 +1517,6 @@
     "comments": 5,
     "reactions": 0,
     "githubUrl": "https://github.com/legeling/awesome-codex-pet/issues/50"
-  },
-  {
-    "number": 123,
-    "character": "焰灵姬",
-    "characterDetails": "焰灵姬",
-    "franchise": "Not provided",
-    "category": "other",
-    "version": "v2",
-    "requestType": "Create a new community interpretation",
-    "referenceStatus": "",
-    "references": "https://api.codexpet.top/uploads/reference/references/de75665e236c326bfd89448829746b1b38e74c340f05358362565220d2482f13.png",
-    "referenceUrls": [
-      "https://api.codexpet.top/uploads/reference/references/de75665e236c326bfd89448829746b1b38e74c340f05358362565220d2482f13.png"
-    ],
-    "referenceImages": [
-      "https://api.codexpet.top/uploads/reference/references/de75665e236c326bfd89448829746b1b38e74c340f05358362565220d2482f13.png"
-    ],
-    "referenceThumbnails": [
-      "https://api.codexpet.top/uploads/reference/thumbnails/de75665e236c326bfd89448829746b1b38e74c340f05358362565220d2482f13.webp"
-    ],
-    "visualDirection": "待机：缓慢呼吸，身体轻微左右摆动；眨眼；手扶腰；长发和披风小幅摆动。\n优雅行走：小步交叉走，步幅窄，身体保持直立，胯部轻微摆动；披风和长发滞后摆动。\n向左/向右移动：采用滑步，不要跨大步；身体略微前倾，脚尖朝移动方向。\n挥手：抬起右手，手腕轻转，手指做慢速勾动，然后自然放回发丝旁。\n跳跃：轻盈小跳并旋身半圈，披风向外展开；落地时保持优雅站姿。\n等待：一手扶腰，一手轻触下巴，头部微微歪向一侧，露出询问表情。\n工作中：双手靠近胸前，身体微微前倾，像是在凝聚火焰；不要真的添加漂浮火球。\n检查/阅读：头部轻歪，目光向下再抬起，手指轻触唇边。\n失败：肩膀下沉，身体略微侧转，眼神失落；披风自然垂下，不要加哭脸或红叉。\n统一要求：\n动作幅度小、节奏慢、重心稳定。\n不要大跨步、快速甩发、动作残影、速度线、地面阴影。\n保持长发、披风、腿部和手指连续，不穿模。\n重点突出“妩媚回眸、轻微摆胯、窄步行走、披风延迟摆动”。",
-    "nameLanguages": "Let the maker decide",
-    "attribution": "Submitted without a GitHub account. Reference and attribution details should be confirmed during triage. Non-commercial use only.",
-    "duplicateCheck": "Repository automation or a maintainer should complete the duplicate check during triage.",
-    "state": "closed",
-    "status": "completed",
-    "labels": [
-      "type: request",
-      "status: completed",
-      "version: v2",
-      "category: other"
-    ],
-    "author": {
-      "login": "github-actions[bot]",
-      "avatarUrl": "https://avatars.githubusercontent.com/in/15368?v=4",
-      "url": "https://github.com/apps/github-actions"
-    },
-    "assignees": [],
-    "createdAt": "2026-08-15T10:35:29Z",
-    "updatedAt": "2026-08-18T03:36:07Z",
-    "closedAt": "2026-08-18T03:35:38Z",
-    "comments": 5,
-    "reactions": 0,
-    "githubUrl": "https://github.com/legeling/awesome-codex-pet/issues/123"
   },
   {
     "number": 60,
