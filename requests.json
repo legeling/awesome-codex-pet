@@ -1,5 +1,45 @@
 [
   {
+    "number": 147,
+    "character": "爱弥斯",
+    "characterDetails": "爱弥斯（Aemeath）",
+    "franchise": "鸣潮（Wuthering Waves）",
+    "category": "other",
+    "version": "v2",
+    "requestType": "",
+    "referenceStatus": "",
+    "references": "",
+    "referenceUrls": [],
+    "referenceImages": [
+      "https://github.com/user-attachments/assets/3e5a74ac-6038-4e6d-9cab-57d7cb827fdf"
+    ],
+    "referenceThumbnails": [],
+    "visualDirection": "",
+    "nameLanguages": "",
+    "attribution": "",
+    "duplicateCheck": "",
+    "state": "open",
+    "status": "triage",
+    "labels": [
+      "type: request",
+      "status: triage",
+      "version: v2",
+      "category: other"
+    ],
+    "author": {
+      "login": "peishengsheng",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/66300557?v=4",
+      "url": "https://github.com/peishengsheng"
+    },
+    "assignees": [],
+    "createdAt": "2026-08-28T01:56:19Z",
+    "updatedAt": "2026-08-28T01:56:27Z",
+    "closedAt": null,
+    "comments": 0,
+    "reactions": 0,
+    "githubUrl": "https://github.com/legeling/awesome-codex-pet/issues/147"
+  },
+  {
     "number": 146,
     "character": "beatrice from re:zero",
     "characterDetails": "beatrice from re:zero",
