@@ -1521,6 +1521,18 @@
     "spriteVersionNumber": 1
   },
   {
+    "slug": "rosmontis--flovst",
+    "name": "Rosmontis",
+    "localized_names": { "en": "Rosmontis", "zh": "迷迭香" },
+    "author": "flovst",
+    "primary_category": "Game Characters",
+    "canonical_key": "arknights/rosmontis",
+    "variant_note": "An independently produced V2 Rosmontis fan-art adaptation by flovst, with an original simplified chibi spritesheet, custom action mappings, and a complete 16-direction look loop.",
+    "collections": ["arknights"],
+    "license": "Non-commercial use only. Independently produced fan art by flovst; Rosmontis and Arknights remain the property of their respective rights holders.",
+    "spriteVersionNumber": 2
+  },
+  {
     "slug": "roxy-pixel--gravity",
     "name": "Roxy Pixel",
     "author": "gravity",

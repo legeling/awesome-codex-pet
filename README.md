@@ -12,7 +12,7 @@
 
 <a href="https://codexpet.top"><img src="./assets/cover/awesome-codex-pet-cover.png" alt="Open the Awesome Codex Pet gallery"></a>
 
-![pets: 228](https://img.shields.io/badge/pets-228-2ea44f) ![categories: 11](https://img.shields.io/badge/categories-11-0969da) ![languages: en | zh--CN | ko | ja | es](https://img.shields.io/badge/languages-en%20%7C%20zh--CN%20%7C%20ko%20%7C%20ja%20%7C%20es-8250df) ![code: MIT](https://img.shields.io/badge/code-MIT-111111) ![assets: CC BY--NC 4.0](https://img.shields.io/badge/assets-CC%20BY--NC%204.0-f97316) ![install: one command](https://img.shields.io/badge/install-one%20command-111111) [![Pet previews](https://github.com/legeling/awesome-codex-pet/actions/workflows/pet-previews.yml/badge.svg)](https://github.com/legeling/awesome-codex-pet/actions/workflows/pet-previews.yml)
+![pets: 229](https://img.shields.io/badge/pets-229-2ea44f) ![categories: 11](https://img.shields.io/badge/categories-11-0969da) ![languages: en | zh--CN | ko | ja | es](https://img.shields.io/badge/languages-en%20%7C%20zh--CN%20%7C%20ko%20%7C%20ja%20%7C%20es-8250df) ![code: MIT](https://img.shields.io/badge/code-MIT-111111) ![assets: CC BY--NC 4.0](https://img.shields.io/badge/assets-CC%20BY--NC%204.0-f97316) ![install: one command](https://img.shields.io/badge/install-one%20command-111111) [![Pet previews](https://github.com/legeling/awesome-codex-pet/actions/workflows/pet-previews.yml/badge.svg)](https://github.com/legeling/awesome-codex-pet/actions/workflows/pet-previews.yml)
 
 </div>
 
@@ -345,6 +345,13 @@ The **Update** action is an AI-assisted v1-to-v2 conversion, not a download noti
 <tr><th>Install</th><td colspan="5"><code>curl -fsSL --proto '=https' --tlsv1.2 https://raw.githubusercontent.com/legeling/awesome-codex-pet/main/scripts/install-pet.sh | bash -s -- --raw-base https://raw.githubusercontent.com/legeling/awesome-codex-pet/main robin--lingxiaotian</code></td></tr>
 <tr><th>Action</th><td><strong>Idle</strong></td><td><strong>Waving</strong></td><td><strong>Running</strong></td><td><strong>Waiting</strong></td><td><strong>Review</strong></td></tr>
 <tr><th>Preview</th><td><img src="https://codexpet.top/assets/previews/robin--lingxiaotian/webp/idle.webp" alt="Robin idle" width="120" height="130"></td><td><img src="https://codexpet.top/assets/previews/robin--lingxiaotian/webp/waving.webp" alt="Robin waving" width="120" height="130"></td><td><img src="https://codexpet.top/assets/previews/robin--lingxiaotian/webp/running-right.webp" alt="Robin running-right" width="120" height="130"></td><td><img src="https://codexpet.top/assets/previews/robin--lingxiaotian/webp/waiting.webp" alt="Robin waiting" width="120" height="130"></td><td><img src="https://codexpet.top/assets/previews/robin--lingxiaotian/webp/review.webp" alt="Robin review" width="120" height="130"></td></tr>
+</table>
+
+<table>
+<tr><th>Name</th><td colspan="5"><a href="./pets/rosmontis--flovst">Rosmontis</a> · by @flovst · Game Characters · v2</td></tr>
+<tr><th>Install</th><td colspan="5"><code>curl -fsSL --proto '=https' --tlsv1.2 https://raw.githubusercontent.com/legeling/awesome-codex-pet/main/scripts/install-pet.sh | bash -s -- --raw-base https://raw.githubusercontent.com/legeling/awesome-codex-pet/main rosmontis--flovst</code></td></tr>
+<tr><th>Action</th><td><strong>Idle</strong></td><td><strong>Waving</strong></td><td><strong>Running</strong></td><td><strong>Waiting</strong></td><td><strong>Review</strong></td></tr>
+<tr><th>Preview</th><td><img src="https://codexpet.top/assets/previews/rosmontis--flovst/webp/idle.webp" alt="Rosmontis idle" width="120" height="130"></td><td><img src="https://codexpet.top/assets/previews/rosmontis--flovst/webp/waving.webp" alt="Rosmontis waving" width="120" height="130"></td><td><img src="https://codexpet.top/assets/previews/rosmontis--flovst/webp/running-right.webp" alt="Rosmontis running-right" width="120" height="130"></td><td><img src="https://codexpet.top/assets/previews/rosmontis--flovst/webp/waiting.webp" alt="Rosmontis waiting" width="120" height="130"></td><td><img src="https://codexpet.top/assets/previews/rosmontis--flovst/webp/review.webp" alt="Rosmontis review" width="120" height="130"></td></tr>
 </table>
 
 <table>

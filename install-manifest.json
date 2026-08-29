@@ -1223,6 +1223,16 @@
       "spritesheetWidth": 1536,
       "spritesheetHeight": 1872
     },
+    "rosmontis--flovst": {
+      "name": "Rosmontis",
+      "spriteVersionNumber": 2,
+      "petJsonSha256": "5e8a26a77d9e3ab4fb0511cc14194b097c0e87739eacba8162a4ac576c53a23f",
+      "petJsonBytes": 235,
+      "spritesheetSha256": "658dcddfeb1e491038579eaa15620b96236c69034f4585ad4d4e05f0783ed0d1",
+      "spritesheetBytes": 1778156,
+      "spritesheetWidth": 1536,
+      "spritesheetHeight": 2288
+    },
     "roxy-pixel--gravity": {
       "name": "Roxy Pixel",
       "spriteVersionNumber": 1,
