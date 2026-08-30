@@ -1,5 +1,45 @@
 [
   {
+    "number": 152,
+    "character": "涅普缇努",
+    "characterDetails": "涅普缇努",
+    "franchise": "海王星系列",
+    "category": "other",
+    "version": "v2",
+    "requestType": "Create a new community interpretation",
+    "referenceStatus": "",
+    "references": "https://storage.moegirl.org.cn/moegirl/commons/3/3e/Neptuneimg%282%29.png!/fw/360/watermark/url/L21vZWdpcmwvd2F0ZXJtYXJrLnBuZw==/align/southeast/margin/10x10/opacity/50?v=20220601153719",
+    "referenceUrls": [
+      "https://storage.moegirl.org.cn/moegirl/commons/3/3e/Neptuneimg%282%29.png!/fw/360/watermark/url/L21vZWdpcmwvd2F0ZXJtYXJrLnBuZw==/align/southeast/margin/10x10/opacity/50?v=20220601153719"
+    ],
+    "referenceImages": [],
+    "referenceThumbnails": [],
+    "visualDirection": "像素风",
+    "nameLanguages": "Let the maker decide",
+    "attribution": "Submitted without a GitHub account. Reference and attribution details should be confirmed during triage. Non-commercial use only.",
+    "duplicateCheck": "Repository automation or a maintainer should complete the duplicate check during triage.",
+    "state": "open",
+    "status": "triage",
+    "labels": [
+      "type: request",
+      "status: triage",
+      "version: v2",
+      "category: other"
+    ],
+    "author": {
+      "login": "github-actions[bot]",
+      "avatarUrl": "https://avatars.githubusercontent.com/in/15368?v=4",
+      "url": "https://github.com/apps/github-actions"
+    },
+    "assignees": [],
+    "createdAt": "2026-08-30T17:25:33Z",
+    "updatedAt": "2026-08-30T17:25:33Z",
+    "closedAt": null,
+    "comments": 0,
+    "reactions": 0,
+    "githubUrl": "https://github.com/legeling/awesome-codex-pet/issues/152"
+  },
+  {
     "number": 149,
     "character": "Aladdin and the magic lamp",
     "characterDetails": "Someone can make your dream come true",
