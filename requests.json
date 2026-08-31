@@ -774,7 +774,7 @@
   },
   {
     "number": 154,
-    "character": "Gift",
+    "character": "礼物/Gift",
     "characterDetails": "Gift",
     "franchise": "",
     "category": "other",
@@ -813,7 +813,7 @@
     },
     "assignees": [],
     "createdAt": "2026-08-31T12:23:23Z",
-    "updatedAt": "2026-08-31T12:28:33Z",
+    "updatedAt": "2026-08-31T12:33:02Z",
     "closedAt": "2026-08-31T12:28:26Z",
     "comments": 0,
     "reactions": 0,
