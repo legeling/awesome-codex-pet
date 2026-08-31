@@ -729,6 +729,48 @@
     "githubUrl": "https://github.com/legeling/awesome-codex-pet/issues/91"
   },
   {
+    "number": 89,
+    "character": "斗地主老农民",
+    "characterDetails": "斗地主老农民",
+    "franchise": "《欢乐斗地主》\n作品来源页：https://www.doudizhu-qq.com/",
+    "category": "other",
+    "version": "v2",
+    "requestType": "",
+    "referenceStatus": "",
+    "references": "",
+    "referenceUrls": [],
+    "referenceImages": [
+      "https://github.com/user-attachments/assets/7cf03f62-8a06-4277-b527-f0d84b2f06ba",
+      "https://github.com/user-attachments/assets/a780fc89-88c1-4daa-a1a8-46240d2290f3",
+      "https://github.com/user-attachments/assets/e2b7fc03-7139-4a54-9898-1339e2fc75df"
+    ],
+    "referenceThumbnails": [],
+    "visualDirection": "",
+    "nameLanguages": "",
+    "attribution": "",
+    "duplicateCheck": "",
+    "state": "closed",
+    "status": "completed",
+    "labels": [
+      "type: request",
+      "status: completed",
+      "version: v2",
+      "category: other"
+    ],
+    "author": {
+      "login": "chenyijing131-art",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/290647209?v=4",
+      "url": "https://github.com/chenyijing131-art"
+    },
+    "assignees": [],
+    "createdAt": "2026-08-05T09:38:15Z",
+    "updatedAt": "2026-08-31T06:18:20Z",
+    "closedAt": "2026-08-10T04:09:48Z",
+    "comments": 2,
+    "reactions": 0,
+    "githubUrl": "https://github.com/legeling/awesome-codex-pet/issues/89"
+  },
+  {
     "number": 123,
     "character": "焰灵姬",
     "characterDetails": "焰灵姬",
@@ -1770,48 +1812,6 @@
     "comments": 1,
     "reactions": 0,
     "githubUrl": "https://github.com/legeling/awesome-codex-pet/issues/92"
-  },
-  {
-    "number": 89,
-    "character": "斗地主老农民",
-    "characterDetails": "斗地主老农民",
-    "franchise": "《欢乐斗地主》\n作品来源页：https://www.doudizhu-qq.com/",
-    "category": "other",
-    "version": "v2",
-    "requestType": "",
-    "referenceStatus": "",
-    "references": "",
-    "referenceUrls": [],
-    "referenceImages": [
-      "https://github.com/user-attachments/assets/7cf03f62-8a06-4277-b527-f0d84b2f06ba",
-      "https://github.com/user-attachments/assets/a780fc89-88c1-4daa-a1a8-46240d2290f3",
-      "https://github.com/user-attachments/assets/e2b7fc03-7139-4a54-9898-1339e2fc75df"
-    ],
-    "referenceThumbnails": [],
-    "visualDirection": "",
-    "nameLanguages": "",
-    "attribution": "",
-    "duplicateCheck": "",
-    "state": "closed",
-    "status": "completed",
-    "labels": [
-      "type: request",
-      "status: completed",
-      "version: v2",
-      "category: other"
-    ],
-    "author": {
-      "login": "chenyijing131-art",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/290647209?v=4",
-      "url": "https://github.com/chenyijing131-art"
-    },
-    "assignees": [],
-    "createdAt": "2026-08-05T09:38:15Z",
-    "updatedAt": "2026-08-10T04:09:52Z",
-    "closedAt": "2026-08-10T04:09:48Z",
-    "comments": 1,
-    "reactions": 0,
-    "githubUrl": "https://github.com/legeling/awesome-codex-pet/issues/89"
   },
   {
     "number": 93,
