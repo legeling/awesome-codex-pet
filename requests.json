@@ -1,5 +1,49 @@
 [
   {
+    "number": 153,
+    "character": "黎深",
+    "characterDetails": "黎深",
+    "franchise": "恋与深空",
+    "category": "other",
+    "version": "v2",
+    "requestType": "Create a new community interpretation",
+    "referenceStatus": "",
+    "references": "https://api.codexpet.top/uploads/reference/references/b0a4f6c868b2db85d09a27af0b85893af9e4e17a5c655d730b330af1b34afa28.jpg",
+    "referenceUrls": [
+      "https://api.codexpet.top/uploads/reference/references/b0a4f6c868b2db85d09a27af0b85893af9e4e17a5c655d730b330af1b34afa28.jpg"
+    ],
+    "referenceImages": [
+      "https://api.codexpet.top/uploads/reference/references/b0a4f6c868b2db85d09a27af0b85893af9e4e17a5c655d730b330af1b34afa28.jpg"
+    ],
+    "referenceThumbnails": [
+      "https://api.codexpet.top/uploads/reference/thumbnails/b0a4f6c868b2db85d09a27af0b85893af9e4e17a5c655d730b330af1b34afa28.webp"
+    ],
+    "visualDirection": "Let the community maker decide.",
+    "nameLanguages": "Let the maker decide",
+    "attribution": "Submitted without a GitHub account. Reference and attribution details should be confirmed during triage. Non-commercial use only.",
+    "duplicateCheck": "Repository automation or a maintainer should complete the duplicate check during triage.",
+    "state": "open",
+    "status": "triage",
+    "labels": [
+      "type: request",
+      "status: triage",
+      "version: v2",
+      "category: other"
+    ],
+    "author": {
+      "login": "github-actions[bot]",
+      "avatarUrl": "https://avatars.githubusercontent.com/in/15368?v=4",
+      "url": "https://github.com/apps/github-actions"
+    },
+    "assignees": [],
+    "createdAt": "2026-08-31T06:20:13Z",
+    "updatedAt": "2026-08-31T06:20:13Z",
+    "closedAt": null,
+    "comments": 0,
+    "reactions": 0,
+    "githubUrl": "https://github.com/legeling/awesome-codex-pet/issues/153"
+  },
+  {
     "number": 152,
     "character": "涅普缇努",
     "characterDetails": "涅普缇努",
@@ -764,7 +808,7 @@
     },
     "assignees": [],
     "createdAt": "2026-08-05T09:38:15Z",
-    "updatedAt": "2026-08-31T06:18:20Z",
+    "updatedAt": "2026-08-31T06:23:26Z",
     "closedAt": "2026-08-10T04:09:48Z",
     "comments": 2,
     "reactions": 0,
