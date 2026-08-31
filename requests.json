@@ -1,5 +1,52 @@
 [
   {
+    "number": 154,
+    "character": "Gift",
+    "characterDetails": "Gift",
+    "franchise": "",
+    "category": "other",
+    "version": "v2",
+    "requestType": "",
+    "referenceStatus": "",
+    "references": "",
+    "referenceUrls": [],
+    "referenceImages": [
+      "https://github.com/user-attachments/assets/bd5fd4f1-b1ee-4344-87e2-e1c34a10dc4d",
+      "https://github.com/user-attachments/assets/cd8ab948-1f1f-4021-b2a8-a5b73f450532",
+      "https://github.com/user-attachments/assets/0d722157-6add-48b5-95e9-a1525f5bd733",
+      "https://github.com/user-attachments/assets/ed5ce4ab-bd63-4f73-be44-ce739e0073b5",
+      "https://github.com/user-attachments/assets/dbebdaa7-df22-43f4-9fec-529925656af6",
+      "https://github.com/user-attachments/assets/f279eadc-df9d-4817-9d4b-3023ba368c2d",
+      "https://github.com/user-attachments/assets/c8cfad25-d34c-40f5-8dfe-2ed61db479f4",
+      "https://github.com/user-attachments/assets/7869b87c-3949-4c57-8a63-01d2f31beecf"
+    ],
+    "referenceThumbnails": [],
+    "visualDirection": "",
+    "nameLanguages": "",
+    "attribution": "",
+    "duplicateCheck": "",
+    "state": "open",
+    "status": "triage",
+    "labels": [
+      "type: request",
+      "status: triage",
+      "version: v2",
+      "category: other"
+    ],
+    "author": {
+      "login": "serendipity0888-hub",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/308614619?v=4",
+      "url": "https://github.com/serendipity0888-hub"
+    },
+    "assignees": [],
+    "createdAt": "2026-08-31T12:23:23Z",
+    "updatedAt": "2026-08-31T12:23:30Z",
+    "closedAt": null,
+    "comments": 0,
+    "reactions": 0,
+    "githubUrl": "https://github.com/legeling/awesome-codex-pet/issues/154"
+  },
+  {
     "number": 153,
     "character": "黎深",
     "characterDetails": "黎深",
