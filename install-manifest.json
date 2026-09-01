@@ -253,6 +253,16 @@
       "spritesheetWidth": 1536,
       "spritesheetHeight": 1872
     },
+    "codexy--z19t": {
+      "name": "Codexy",
+      "spriteVersionNumber": 2,
+      "petJsonSha256": "a554689c28c1f009aa23cca665709deaad738f917bc493e8683bcd9db8d412c9",
+      "petJsonBytes": 258,
+      "spritesheetSha256": "e65f68c7e7f9c8dc858e8d601f39bbe4942e3dbb889d61a06868c69289f8d1e4",
+      "spritesheetBytes": 2899712,
+      "spritesheetWidth": 1536,
+      "spritesheetHeight": 2288
+    },
     "conan--chenxin-dlut": {
       "name": "Conan",
       "spriteVersionNumber": 1,
