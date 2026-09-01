@@ -1,0 +1,39 @@
+{
+  "slug": "codexy--z19t",
+  "pet_slug": "codexy",
+  "author_slug": "z19t",
+  "name": "Codexy",
+  "localized_names": {
+    "en": "Codexy",
+    "zh": "码灵"
+  },
+  "author": "z19t",
+  "author_handle": "z19t",
+  "author_url": "https://github.com/z19t",
+  "primary_category": "Original Characters",
+  "canonical_key": "original/z19t/codexy",
+  "variant_note": "An original high-detail v2 Codex AI assistant by z19t, distinct from existing Codex-themed mascots through its mint-haired humanoid design, cursor hair ornament, attached terminal companion, work-focused animation set, and complete 16-direction look loop.",
+  "tags": [
+    "ai-assistant",
+    "anime",
+    "coding",
+    "codex",
+    "mint-hair",
+    "original",
+    "terminal-companion",
+    "v2",
+    "look-directions"
+  ],
+  "collections": [],
+  "source_type": "original-ai-generated",
+  "source_url": "",
+  "source_note": "Original AI-generated character artwork independently created and adapted by z19t for this Codex pet. Unbundled character-design images were used only as visual references; no third-party or reference-image pixels were copied, cropped, traced, sharpened, or redistributed in the final spritesheet.",
+  "license": "CC BY-NC 4.0. Original AI-generated artwork independently created and adapted by z19t; non-commercial use only.",
+  "description": "An original mint-haired Codex AI assistant with a cursor hair ornament, an attached terminal companion, hardworking task animations, and a complete 16-direction look loop.",
+  "preview_image": "../../assets/previews/codexy--z19t/gifs/idle.gif",
+  "codex_install": {
+    "pet_json": "pet.json",
+    "spritesheet": "spritesheet.webp"
+  },
+  "spritesheet_sha256": "e65f68c7e7f9c8dc858e8d601f39bbe4942e3dbb889d61a06868c69289f8d1e4"
+}
