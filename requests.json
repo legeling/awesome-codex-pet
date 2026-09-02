@@ -1,5 +1,85 @@
 [
   {
+    "number": 157,
+    "character": "史迪奇",
+    "characterDetails": "史迪奇",
+    "franchise": "迪士尼史迪奇",
+    "category": "other",
+    "version": "v2",
+    "requestType": "Create a new community interpretation",
+    "referenceStatus": "",
+    "references": "https://zh.wikipedia.org/wiki/%E5%8F%B2%E8%BF%AA%E5%A5%87",
+    "referenceUrls": [
+      "https://zh.wikipedia.org/wiki/%E5%8F%B2%E8%BF%AA%E5%A5%87"
+    ],
+    "referenceImages": [],
+    "referenceThumbnails": [],
+    "visualDirection": "完美复刻",
+    "nameLanguages": "Let the maker decide",
+    "attribution": "Submitted without a GitHub account. Reference and attribution details should be confirmed during triage. Non-commercial use only.",
+    "duplicateCheck": "Repository automation or a maintainer should complete the duplicate check during triage.",
+    "state": "open",
+    "status": "triage",
+    "labels": [
+      "type: request",
+      "status: triage",
+      "version: v2",
+      "category: other"
+    ],
+    "author": {
+      "login": "github-actions[bot]",
+      "avatarUrl": "https://avatars.githubusercontent.com/in/15368?v=4",
+      "url": "https://github.com/apps/github-actions"
+    },
+    "assignees": [],
+    "createdAt": "2026-09-02T10:05:29Z",
+    "updatedAt": "2026-09-02T10:05:29Z",
+    "closedAt": null,
+    "comments": 0,
+    "reactions": 0,
+    "githubUrl": "https://github.com/legeling/awesome-codex-pet/issues/157"
+  },
+  {
+    "number": 156,
+    "character": "皮卡丘",
+    "characterDetails": "皮卡丘",
+    "franchise": "宝可梦",
+    "category": "other",
+    "version": "v2",
+    "requestType": "Create a new community interpretation",
+    "referenceStatus": "",
+    "references": "https://zh.wikipedia.org/wiki/%E7%9A%AE%E5%8D%A1%E4%B8%98",
+    "referenceUrls": [
+      "https://zh.wikipedia.org/wiki/%E7%9A%AE%E5%8D%A1%E4%B8%98"
+    ],
+    "referenceImages": [],
+    "referenceThumbnails": [],
+    "visualDirection": "完美复刻",
+    "nameLanguages": "Let the maker decide",
+    "attribution": "Submitted without a GitHub account. Reference and attribution details should be confirmed during triage. Non-commercial use only.",
+    "duplicateCheck": "Repository automation or a maintainer should complete the duplicate check during triage.",
+    "state": "open",
+    "status": "triage",
+    "labels": [
+      "type: request",
+      "status: triage",
+      "version: v2",
+      "category: other"
+    ],
+    "author": {
+      "login": "github-actions[bot]",
+      "avatarUrl": "https://avatars.githubusercontent.com/in/15368?v=4",
+      "url": "https://github.com/apps/github-actions"
+    },
+    "assignees": [],
+    "createdAt": "2026-09-02T10:05:27Z",
+    "updatedAt": "2026-09-02T10:05:27Z",
+    "closedAt": null,
+    "comments": 0,
+    "reactions": 0,
+    "githubUrl": "https://github.com/legeling/awesome-codex-pet/issues/156"
+  },
+  {
     "number": 154,
     "character": "礼物/Gift",
     "characterDetails": "礼物/Gift",
