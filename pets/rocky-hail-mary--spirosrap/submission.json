@@ -1,0 +1,44 @@
+{
+  "slug": "rocky-hail-mary--spirosrap",
+  "pet_slug": "rocky-hail-mary",
+  "author_slug": "spirosrap",
+  "name": "Rocky",
+  "author": "spirosrap",
+  "author_handle": "spirosrap",
+  "author_url": "https://github.com/spirosrap",
+  "primary_category": "Fantasy Creatures",
+  "canonical_key": "project-hail-mary/rocky",
+  "variant_note": "An independently rebuilt v2 movie-inspired interpretation based conceptually on rmolines's earlier v1 Rocky, with a new atlas, nine standard animation states, and 16 look directions.",
+  "tags": [
+    "project-hail-mary",
+    "rocky",
+    "eridian",
+    "alien",
+    "fan-made",
+    "ai-generated",
+    "v2"
+  ],
+  "collections": [],
+  "source_type": "independent-ai-generated-fan-interpretation-based-on-community-v1",
+  "source_url": "https://github.com/spirosrap/rocky-codex-pet",
+  "asset_note": "The final runtime spritesheet was independently rebuilt with OpenAI image-generation tooling under the submitter's direction, then assembled, repaired, and visually reviewed with the Codex hatch-pet workflow. It is not byte-identical to the source v1 atlas.",
+  "reference_note": "The previously installed Rocky by rmolines and Rocky's Project Hail Mary screen appearance were used for conceptual identity cues. No official stills, logos, title treatments, or marketing artwork are included.",
+  "license": "Non-commercial fan use and repository redistribution only, with attribution to spirosrap and basis credit to rmolines; Project Hail Mary, Rocky, Eridian, and related rights remain with their respective owners.",
+  "description": "A tactile, movie-inspired five-limbed Eridian engineer with a weathered stone-and-metal shell, nine task animations, and 16 clockwise look directions.",
+  "preview_image": "../../assets/previews/rocky-hail-mary--spirosrap/gifs/idle.gif",
+  "codex_install": {
+    "pet_json": "pet.json",
+    "spritesheet": "spritesheet.webp"
+  },
+  "preview_assets": {
+    "contact_sheet": "../../assets/previews/rocky-hail-mary--spirosrap/contact-sheet.png",
+    "gifs_dir": "../../assets/previews/rocky-hail-mary--spirosrap/gifs"
+  },
+  "spritesheet_sha256": "a8954a2d8535d6a5cb94d659f673d27dad54bcf47360baa7c4ae89f8da6ed229",
+  "based_on": {
+    "author_handle": "rmolines",
+    "source_url": "https://codex-pets.net/share/rocky",
+    "sprite_version_number": 1,
+    "spritesheet_sha256": "22dafcdff63a74085908f1ba559e39e3bcdc4b53c5f2a0bbaa6cf682c1f96254"
+  }
+}
