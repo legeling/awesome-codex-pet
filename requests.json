@@ -1,5 +1,45 @@
 [
   {
+    "number": 159,
+    "character": "Create Dingding Devil Desktop Companion Skill",
+    "characterDetails": "煎蛋饼（叮叮恶魔）",
+    "franchise": "洛克王国",
+    "category": "other",
+    "version": "v2",
+    "requestType": "",
+    "referenceStatus": "",
+    "references": "",
+    "referenceUrls": [],
+    "referenceImages": [
+      "https://github.com/user-attachments/assets/dc5a9809-d5c6-4254-8d05-d7d079d96cb0"
+    ],
+    "referenceThumbnails": [],
+    "visualDirection": "",
+    "nameLanguages": "",
+    "attribution": "",
+    "duplicateCheck": "",
+    "state": "open",
+    "status": "triage",
+    "labels": [
+      "type: request",
+      "status: triage",
+      "version: v2",
+      "category: other"
+    ],
+    "author": {
+      "login": "dandiaox-svg",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/323939996?v=4",
+      "url": "https://github.com/dandiaox-svg"
+    },
+    "assignees": [],
+    "createdAt": "2026-09-04T09:17:53Z",
+    "updatedAt": "2026-09-04T09:17:59Z",
+    "closedAt": null,
+    "comments": 0,
+    "reactions": 0,
+    "githubUrl": "https://github.com/legeling/awesome-codex-pet/issues/159"
+  },
+  {
     "number": 157,
     "character": "史迪奇",
     "characterDetails": "史迪奇",
