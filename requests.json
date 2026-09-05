@@ -1,5 +1,49 @@
 [
   {
+    "number": 160,
+    "character": "喜多郁代",
+    "characterDetails": "喜多郁代",
+    "franchise": "Not provided",
+    "category": "other",
+    "version": "v2",
+    "requestType": "Create a new community interpretation",
+    "referenceStatus": "",
+    "references": "https://api.codexpet.top/uploads/reference/references/1e49d489d4da23387423a69d2ad0e479070a87df687086ce0ddcc358f1529ad8.jpg",
+    "referenceUrls": [
+      "https://api.codexpet.top/uploads/reference/references/1e49d489d4da23387423a69d2ad0e479070a87df687086ce0ddcc358f1529ad8.jpg"
+    ],
+    "referenceImages": [
+      "https://api.codexpet.top/uploads/reference/references/1e49d489d4da23387423a69d2ad0e479070a87df687086ce0ddcc358f1529ad8.jpg"
+    ],
+    "referenceThumbnails": [
+      "https://api.codexpet.top/uploads/reference/thumbnails/1e49d489d4da23387423a69d2ad0e479070a87df687086ce0ddcc358f1529ad8.webp"
+    ],
+    "visualDirection": "Let the community maker decide.",
+    "nameLanguages": "Let the maker decide",
+    "attribution": "Submitted without a GitHub account. Reference and attribution details should be confirmed during triage. Non-commercial use only.",
+    "duplicateCheck": "Repository automation or a maintainer should complete the duplicate check during triage.",
+    "state": "open",
+    "status": "triage",
+    "labels": [
+      "type: request",
+      "status: triage",
+      "version: v2",
+      "category: other"
+    ],
+    "author": {
+      "login": "github-actions[bot]",
+      "avatarUrl": "https://avatars.githubusercontent.com/in/15368?v=4",
+      "url": "https://github.com/apps/github-actions"
+    },
+    "assignees": [],
+    "createdAt": "2026-09-05T08:51:54Z",
+    "updatedAt": "2026-09-05T08:51:54Z",
+    "closedAt": null,
+    "comments": 0,
+    "reactions": 0,
+    "githubUrl": "https://github.com/legeling/awesome-codex-pet/issues/160"
+  },
+  {
     "number": 159,
     "character": "Create Dingding Devil Desktop Companion Skill",
     "characterDetails": "煎蛋饼（叮叮恶魔）",
