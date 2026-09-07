@@ -1,0 +1,21 @@
+{
+  "slug": "sleepwing--lttxzmj",
+  "pet_slug": "sleepwing",
+  "author_slug": "lttxzmj",
+  "name": "Sleepwing",
+  "localized_names": { "en": "Sleepwing", "zh": "眠翼鸟" },
+  "author": "lttxzmj",
+  "author_handle": "lttxzmj",
+  "author_url": "https://github.com/lttxzmj",
+  "primary_category": "Mascots",
+  "canonical_key": "original/lttxzmj/sleepwing",
+  "tags": ["bird", "plush", "mascot", "sleepy"],
+  "source_type": "original",
+  "source_url": "https://github.com/lttxzmj/sleepwing",
+  "license": "Artwork © lttxzmj, released for this gallery under CC BY-NC 4.0; the Sleepwing name and mascot remain trademarks/reserved.",
+  "preview_image": "../../assets/previews/sleepwing--lttxzmj/gifs/idle.gif",
+  "codex_install": {
+    "pet_json": "pet.json",
+    "spritesheet": "spritesheet.webp"
+  }
+}
