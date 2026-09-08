@@ -1,0 +1,27 @@
+{
+  "slug": "marisa-kirisame--eigentom",
+  "pet_slug": "marisa-kirisame",
+  "author_slug": "eigentom",
+  "name": "Marisa Kirisame",
+  "localized_names": {
+    "en": "Marisa Kirisame",
+    "zh": "雾雨魔理沙"
+  },
+  "author": "eigentom",
+  "author_handle": "eigentom",
+  "author_url": "https://github.com/EigenTom",
+  "primary_category": "Game Characters",
+  "canonical_key": "touhou-project/marisa-kirisame",
+  "variant_note": "AI-assisted pixel-art v2 pet created and refined by eigentom, with a silver pocket-watch waiting animation and 16 look directions.",
+  "collections": ["touhou-project"],
+  "tags": ["touhou-project", "ai-generated", "chibi"],
+  "source_type": "ai-generated",
+  "source_url": "",
+  "license": "Non-commercial use only.",
+  "description": "Marisa Kirisame from Touhou Project, with her black witch hat, white bow, blonde braid, and black-and-white outfit. AI-generated fan art assembled and refined by eigentom using Codex, including local frame compositing and alignment. Character belongs to ZUN / Team Shanghai Alice. Non-commercial use only.",
+  "preview_image": "../../assets/previews/marisa-kirisame--eigentom/gifs/idle.gif",
+  "codex_install": {
+    "pet_json": "pet.json",
+    "spritesheet": "spritesheet.webp"
+  }
+}
