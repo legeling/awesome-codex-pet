@@ -1,0 +1,37 @@
+{
+  "slug": "niulaima--ryde-play",
+  "pet_slug": "niulaima",
+  "author_slug": "ryde-play",
+  "name": "牛来妈",
+  "localized_names": {
+    "en": "Niulai's Mom",
+    "zh": "牛来妈"
+  },
+  "author": "RYDE-PLAY",
+  "author_handle": "RYDE-PLAY",
+  "author_url": "https://github.com/RYDE-PLAY",
+  "primary_category": "Memes",
+  "canonical_key": "meme/niulaima",
+  "variant_note": "A maternal character interpretation related to 牛来, distinct from the existing niulai--legeling package, with an independently produced v2 spritesheet and animation treatment.",
+  "tags": [
+    "niulaima",
+    "niulai",
+    "meme",
+    "ai-generated",
+    "3d-toy",
+    "chibi",
+    "v2",
+    "look-directions"
+  ],
+  "collections": [],
+  "source_type": "AI-generated community interpretation",
+  "source_url": "https://github.com/RYDE-PLAY/CodexPet/tree/main/pets/niulaima",
+  "source_notes": "Independently AI-generated community interpretation of 牛来妈, understood as 牛来的妈妈. No source pixels, text, logos, or watermarks were copied. This is unofficial and not affiliated with or endorsed by any rights holder.",
+  "license": "Non-commercial use only. Independently AI-generated community interpretation; any underlying character or meme rights remain with their respective rights holders. Not affiliated with or endorsed by any rights holder.",
+  "description": "A soft 3D chibi interpretation of Niulai's Mom, with a golden-brown plush body, short horns, sleepy eyes, and a pale pink muzzle.",
+  "preview_image": "../../assets/previews/niulaima--ryde-play/gifs/idle.gif",
+  "codex_install": {
+    "pet_json": "pet.json",
+    "spritesheet": "spritesheet.webp"
+  }
+}
