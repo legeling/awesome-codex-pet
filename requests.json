@@ -1,5 +1,45 @@
 [
   {
+    "number": 171,
+    "character": "达斯维达",
+    "characterDetails": "character",
+    "franchise": "",
+    "category": "other",
+    "version": "v2",
+    "requestType": "",
+    "referenceStatus": "",
+    "references": "",
+    "referenceUrls": [],
+    "referenceImages": [
+      "https://github.com/user-attachments/assets/e3a1c907-55d7-49db-8f52-dc7b65db11d2"
+    ],
+    "referenceThumbnails": [],
+    "visualDirection": "",
+    "nameLanguages": "",
+    "attribution": "",
+    "duplicateCheck": "",
+    "state": "open",
+    "status": "triage",
+    "labels": [
+      "type: request",
+      "status: triage",
+      "version: v2",
+      "category: other"
+    ],
+    "author": {
+      "login": "CyberX0725",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/53927636?v=4",
+      "url": "https://github.com/CyberX0725"
+    },
+    "assignees": [],
+    "createdAt": "2026-09-10T07:35:08Z",
+    "updatedAt": "2026-09-10T07:35:18Z",
+    "closedAt": null,
+    "comments": 0,
+    "reactions": 0,
+    "githubUrl": "https://github.com/legeling/awesome-codex-pet/issues/171"
+  },
+  {
     "number": 169,
     "character": "狐妖小红娘-涂山苏苏",
     "characterDetails": "涂山苏苏",
