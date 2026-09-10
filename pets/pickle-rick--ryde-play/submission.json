@@ -1,0 +1,32 @@
+{
+  "slug": "pickle-rick--ryde-play",
+  "pet_slug": "pickle-rick",
+  "author_slug": "ryde-play",
+  "name": "Pickle Rick",
+  "author": "RYDE-PLAY",
+  "author_handle": "RYDE-PLAY",
+  "author_url": "https://github.com/RYDE-PLAY",
+  "primary_category": "Memes",
+  "canonical_key": "rick-and-morty/pickle-rick",
+  "tags": [
+    "pickle-rick",
+    "rick-and-morty",
+    "meme",
+    "ai-generated",
+    "3d-toy",
+    "chibi",
+    "v2",
+    "look-directions"
+  ],
+  "collections": [],
+  "source_type": "AI-generated fan-art interpretation",
+  "source_url": "https://github.com/RYDE-PLAY/CodexPet/tree/main/pets/pickle-rick",
+  "source_notes": "Independently AI-generated fan-art interpretation of Pickle Rick. The final spritesheet does not copy official animation frames, logos, text, or watermarks. This is unofficial, non-commercial fan art and is not affiliated with or endorsed by any rights holder.",
+  "license": "Non-commercial use only. Independently AI-generated fan art; Pickle Rick, Rick and Morty, and their underlying characters remain the property of their respective rights holders. Not affiliated with or endorsed by any rights holder.",
+  "description": "A rough assembled Pickle Rick with a cucumber-green body, squinting eyes, a toothy expression, and improvised rodent-insect mechanical limbs.",
+  "preview_image": "../../assets/previews/pickle-rick--ryde-play/gifs/idle.gif",
+  "codex_install": {
+    "pet_json": "pet.json",
+    "spritesheet": "spritesheet.webp"
+  }
+}
