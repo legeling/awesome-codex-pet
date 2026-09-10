@@ -1,0 +1,36 @@
+{
+  "slug": "shaun--ryde-play",
+  "pet_slug": "shaun",
+  "author_slug": "ryde-play",
+  "name": "Shaun the Sheep",
+  "localized_names": {
+    "en": "Shaun the Sheep",
+    "zh": "小羊肖恩"
+  },
+  "author": "RYDE-PLAY",
+  "author_handle": "RYDE-PLAY",
+  "author_url": "https://github.com/RYDE-PLAY",
+  "primary_category": "Animals",
+  "canonical_key": "shaun-the-sheep/shaun",
+  "tags": [
+    "shaun-the-sheep",
+    "sheep",
+    "animals",
+    "ai-generated",
+    "clay",
+    "chibi",
+    "v2",
+    "look-directions"
+  ],
+  "collections": [],
+  "source_type": "AI-generated fan-art interpretation",
+  "source_url": "https://github.com/RYDE-PLAY/CodexPet/tree/main/pets/shaun",
+  "source_notes": "Independently AI-generated fan-art interpretation of Shaun the Sheep. The final spritesheet does not copy official animation frames, logos, text, or watermarks. This is unofficial, non-commercial fan art and is not affiliated with or endorsed by any rights holder.",
+  "license": "Non-commercial use only. Independently AI-generated fan art; Shaun the Sheep and its underlying characters remain the property of their respective rights holders. Not affiliated with or endorsed by any rights holder.",
+  "description": "A clay-like chibi Shaun the Sheep with a black face, white curly wool, long dark legs, and a curious mischievous expression.",
+  "preview_image": "../../assets/previews/shaun--ryde-play/gifs/idle.gif",
+  "codex_install": {
+    "pet_json": "pet.json",
+    "spritesheet": "spritesheet.webp"
+  }
+}
