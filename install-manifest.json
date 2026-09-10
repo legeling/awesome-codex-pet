@@ -513,6 +513,16 @@
       "spritesheetWidth": 1536,
       "spritesheetHeight": 1872
     },
+    "zhuzhuxia--ryde-play": {
+      "name": "GG Bond",
+      "spriteVersionNumber": 2,
+      "petJsonSha256": "f9cb878811d45fafbc3c6ba08a209c88391b64e43079f81d9c0a21aa78ce2cef",
+      "petJsonBytes": 267,
+      "spritesheetSha256": "cc9e42595042cdcc3363252087e82e71ea20e59bba13016424158ff08410bf2c",
+      "spritesheetBytes": 2515048,
+      "spritesheetWidth": 1536,
+      "spritesheetHeight": 2288
+    },
     "goblin--rkwap": {
       "name": "Goblin",
       "spriteVersionNumber": 1,
@@ -1173,6 +1183,16 @@
       "spritesheetWidth": 1536,
       "spritesheetHeight": 1872
     },
+    "pickle-rick--ryde-play": {
+      "name": "Pickle Rick",
+      "spriteVersionNumber": 2,
+      "petJsonSha256": "b68ba9c2ccee03e0c38b57d449b5c6a6f1fe8dafe10f37234065229dcb327d7a",
+      "petJsonBytes": 284,
+      "spritesheetSha256": "41166150fa302a8992590d93e1abd45bc5897a31c36cb9a3e1403bd851719486",
+      "spritesheetBytes": 2241658,
+      "spritesheetWidth": 1536,
+      "spritesheetHeight": 2288
+    },
     "pixel-duck--flamurmaliqi": {
       "name": "Pixel Duck",
       "spriteVersionNumber": 1,
@@ -1370,6 +1390,16 @@
       "petJsonBytes": 251,
       "spritesheetSha256": "4087884d17cd353dffe0b73966e26ce144071a907f46935644fe2579b7a74293",
       "spritesheetBytes": 1418332,
+      "spritesheetWidth": 1536,
+      "spritesheetHeight": 2288
+    },
+    "shaun--ryde-play": {
+      "name": "Shaun the Sheep",
+      "spriteVersionNumber": 2,
+      "petJsonSha256": "3b34a996793879aad1b0c263dbd9bb599cb4a1e903d004e7496a1662787fd40a",
+      "petJsonBytes": 265,
+      "spritesheetSha256": "1d55c20127ab4efaefbfd13ff80df7cd5cf2cc25d1537e1c3f0a56fb624b3581",
+      "spritesheetBytes": 1837480,
       "spritesheetWidth": 1536,
       "spritesheetHeight": 2288
     },
@@ -2140,6 +2170,16 @@
       "petJsonBytes": 226,
       "spritesheetSha256": "dd95068c122aecebbb4056918eba49513e4969cb00b503b9494319f2b410e399",
       "spritesheetBytes": 1784000,
+      "spritesheetWidth": 1536,
+      "spritesheetHeight": 2288
+    },
+    "niulaima--ryde-play": {
+      "name": "牛来妈",
+      "spriteVersionNumber": 2,
+      "petJsonSha256": "5ae2758afc539010ac57a90497296b021d8e41e5ed22184a2f75a6f5115656f2",
+      "petJsonBytes": 251,
+      "spritesheetSha256": "3e617c2fb124e9e7256149ef0e96462116967921408af3595ae50098b5944447",
+      "spritesheetBytes": 2038120,
       "spritesheetWidth": 1536,
       "spritesheetHeight": 2288
     },

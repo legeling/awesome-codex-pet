@@ -632,6 +632,20 @@
     "spriteVersionNumber": 1
   },
   {
+    "slug": "zhuzhuxia--ryde-play",
+    "name": "GG Bond",
+    "localized_names": { "en": "GG Bond", "zh": "猪猪侠" },
+    "author": "RYDE-PLAY",
+    "author_handle": "RYDE-PLAY",
+    "author_url": "https://github.com/RYDE-PLAY",
+    "primary_category": "Anime Characters",
+    "canonical_key": "zhuzhuxia/zhuzhuxia",
+    "collections": [],
+    "license": "Non-commercial use only. Independently AI-generated fan art; GG Bond / 猪猪侠 and its underlying characters remain the property of their respective rights holders. Not affiliated with or endorsed by any rights holder.",
+    "description": "A plush chibi interpretation of GG Bond with a red cap, pink pig face, yellow cuffs, and a pig-nose emblem on the chest.",
+    "spriteVersionNumber": 2
+  },
+  {
     "slug": "goblin--rkwap",
     "name": "Goblin",
     "author": "rkwap",
@@ -1461,6 +1475,19 @@
     "spriteVersionNumber": 1
   },
   {
+    "slug": "pickle-rick--ryde-play",
+    "name": "Pickle Rick",
+    "author": "RYDE-PLAY",
+    "author_handle": "RYDE-PLAY",
+    "author_url": "https://github.com/RYDE-PLAY",
+    "primary_category": "Memes",
+    "canonical_key": "rick-and-morty/pickle-rick",
+    "collections": [],
+    "license": "Non-commercial use only. Independently AI-generated fan art; Pickle Rick, Rick and Morty, and their underlying characters remain the property of their respective rights holders. Not affiliated with or endorsed by any rights holder.",
+    "description": "A rough assembled Pickle Rick with a cucumber-green body, squinting eyes, a toothy expression, and improvised rodent-insect mechanical limbs.",
+    "spriteVersionNumber": 2
+  },
+  {
     "slug": "pixel-duck--flamurmaliqi",
     "name": "Pixel Duck",
     "author": "Flamur Maliqi",
@@ -1715,6 +1742,20 @@
     "collections": [],
     "license": "CC BY-NC 4.0；仅限非商业使用。非官方 AI 社区诠释作品，不代表或暗示获得相关角色或商标权利方授权。",
     "description": "以 Issue #128 参考形象为灵感独立生成的 Q 版 Serge le Lapin Codex 宠物，包含九组任务动画与完整 16 方向环视动作。",
+    "spriteVersionNumber": 2
+  },
+  {
+    "slug": "shaun--ryde-play",
+    "name": "Shaun the Sheep",
+    "localized_names": { "en": "Shaun the Sheep", "zh": "小羊肖恩" },
+    "author": "RYDE-PLAY",
+    "author_handle": "RYDE-PLAY",
+    "author_url": "https://github.com/RYDE-PLAY",
+    "primary_category": "Animals",
+    "canonical_key": "shaun-the-sheep/shaun",
+    "collections": [],
+    "license": "Non-commercial use only. Independently AI-generated fan art; Shaun the Sheep and its underlying characters remain the property of their respective rights holders. Not affiliated with or endorsed by any rights holder.",
+    "description": "A clay-like chibi Shaun the Sheep with a black face, white curly wool, long dark legs, and a curious mischievous expression.",
     "spriteVersionNumber": 2
   },
   {
@@ -2677,6 +2718,21 @@
     "collections": [],
     "license": "CC BY-NC 4.0；仅限非商业使用。非官方 AI 社区诠释作品，不代表或暗示获得原素材相关权利方授权。",
     "description": "以 Issue #132 参考形象为灵感独立生成的软质 3D Q 版牛来 Codex 宠物，包含九组任务动画与完整 16 方向环视动作。",
+    "spriteVersionNumber": 2
+  },
+  {
+    "slug": "niulaima--ryde-play",
+    "name": "牛来妈",
+    "localized_names": { "en": "Niulai's Mom", "zh": "牛来妈" },
+    "author": "RYDE-PLAY",
+    "author_handle": "RYDE-PLAY",
+    "author_url": "https://github.com/RYDE-PLAY",
+    "primary_category": "Memes",
+    "canonical_key": "meme/niulaima",
+    "variant_note": "A maternal character interpretation related to 牛来, distinct from the existing niulai--legeling package, with an independently produced v2 spritesheet and animation treatment.",
+    "collections": [],
+    "license": "Non-commercial use only. Independently AI-generated community interpretation; any underlying character or meme rights remain with their respective rights holders. Not affiliated with or endorsed by any rights holder.",
+    "description": "A soft 3D chibi interpretation of Niulai's Mom, with a golden-brown plush body, short horns, sleepy eyes, and a pale pink muzzle.",
     "spriteVersionNumber": 2
   },
   {

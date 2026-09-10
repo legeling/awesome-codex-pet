@@ -12,7 +12,7 @@
 
 <a href="https://codexpet.top"><img src="./assets/cover/awesome-codex-pet-cover.png" alt="Open the Awesome Codex Pet gallery"></a>
 
-![pets: 233](https://img.shields.io/badge/pets-233-2ea44f) ![categories: 11](https://img.shields.io/badge/categories-11-0969da) ![languages: en | zh--CN | ko | ja | es](https://img.shields.io/badge/languages-en%20%7C%20zh--CN%20%7C%20ko%20%7C%20ja%20%7C%20es-8250df) ![code: MIT](https://img.shields.io/badge/code-MIT-111111) ![assets: CC BY--NC 4.0](https://img.shields.io/badge/assets-CC%20BY--NC%204.0-f97316) ![install: one command](https://img.shields.io/badge/install-one%20command-111111) [![Pet previews](https://github.com/legeling/awesome-codex-pet/actions/workflows/pet-previews.yml/badge.svg)](https://github.com/legeling/awesome-codex-pet/actions/workflows/pet-previews.yml)
+![pets: 237](https://img.shields.io/badge/pets-237-2ea44f) ![categories: 11](https://img.shields.io/badge/categories-11-0969da) ![languages: en | zh--CN | ko | ja | es](https://img.shields.io/badge/languages-en%20%7C%20zh--CN%20%7C%20ko%20%7C%20ja%20%7C%20es-8250df) ![code: MIT](https://img.shields.io/badge/code-MIT-111111) ![assets: CC BY--NC 4.0](https://img.shields.io/badge/assets-CC%20BY--NC%204.0-f97316) ![install: one command](https://img.shields.io/badge/install-one%20command-111111) [![Pet previews](https://github.com/legeling/awesome-codex-pet/actions/workflows/pet-previews.yml/badge.svg)](https://github.com/legeling/awesome-codex-pet/actions/workflows/pet-previews.yml)
 
 </div>
 
@@ -599,6 +599,13 @@ The **Update** action is an AI-assisted v1-to-v2 conversion, not a download noti
 <tr><th>Install</th><td colspan="5"><code>curl -fsSL --proto '=https' --tlsv1.2 https://raw.githubusercontent.com/legeling/awesome-codex-pet/main/scripts/install-pet.sh | bash -s -- --raw-base https://raw.githubusercontent.com/legeling/awesome-codex-pet/main frieren--lingxiaotian</code></td></tr>
 <tr><th>Action</th><td><strong>Idle</strong></td><td><strong>Waving</strong></td><td><strong>Running</strong></td><td><strong>Waiting</strong></td><td><strong>Review</strong></td></tr>
 <tr><th>Preview</th><td><img src="https://codexpet.top/assets/previews/frieren--lingxiaotian/webp/idle.webp" alt="Frieren idle" width="120" height="130"></td><td><img src="https://codexpet.top/assets/previews/frieren--lingxiaotian/webp/waving.webp" alt="Frieren waving" width="120" height="130"></td><td><img src="https://codexpet.top/assets/previews/frieren--lingxiaotian/webp/running-right.webp" alt="Frieren running-right" width="120" height="130"></td><td><img src="https://codexpet.top/assets/previews/frieren--lingxiaotian/webp/waiting.webp" alt="Frieren waiting" width="120" height="130"></td><td><img src="https://codexpet.top/assets/previews/frieren--lingxiaotian/webp/review.webp" alt="Frieren review" width="120" height="130"></td></tr>
+</table>
+
+<table>
+<tr><th>Name</th><td colspan="5"><a href="./pets/zhuzhuxia--ryde-play">GG Bond</a> · by <a href="https://github.com/RYDE-PLAY">@RYDE-PLAY</a> · Anime Characters · v2</td></tr>
+<tr><th>Install</th><td colspan="5"><code>curl -fsSL --proto '=https' --tlsv1.2 https://raw.githubusercontent.com/legeling/awesome-codex-pet/main/scripts/install-pet.sh | bash -s -- --raw-base https://raw.githubusercontent.com/legeling/awesome-codex-pet/main zhuzhuxia--ryde-play</code></td></tr>
+<tr><th>Action</th><td><strong>Idle</strong></td><td><strong>Waving</strong></td><td><strong>Running</strong></td><td><strong>Waiting</strong></td><td><strong>Review</strong></td></tr>
+<tr><th>Preview</th><td><img src="https://codexpet.top/assets/previews/zhuzhuxia--ryde-play/webp/idle.webp" alt="GG Bond idle" width="120" height="130"></td><td><img src="https://codexpet.top/assets/previews/zhuzhuxia--ryde-play/webp/waving.webp" alt="GG Bond waving" width="120" height="130"></td><td><img src="https://codexpet.top/assets/previews/zhuzhuxia--ryde-play/webp/running-right.webp" alt="GG Bond running-right" width="120" height="130"></td><td><img src="https://codexpet.top/assets/previews/zhuzhuxia--ryde-play/webp/waiting.webp" alt="GG Bond waiting" width="120" height="130"></td><td><img src="https://codexpet.top/assets/previews/zhuzhuxia--ryde-play/webp/review.webp" alt="GG Bond review" width="120" height="130"></td></tr>
 </table>
 
 <table>
@@ -1357,6 +1364,13 @@ The **Update** action is an AI-assisted v1-to-v2 conversion, not a download noti
 </table>
 
 <table>
+<tr><th>Name</th><td colspan="5"><a href="./pets/shaun--ryde-play">Shaun the Sheep</a> · by <a href="https://github.com/RYDE-PLAY">@RYDE-PLAY</a> · Animals · v2</td></tr>
+<tr><th>Install</th><td colspan="5"><code>curl -fsSL --proto '=https' --tlsv1.2 https://raw.githubusercontent.com/legeling/awesome-codex-pet/main/scripts/install-pet.sh | bash -s -- --raw-base https://raw.githubusercontent.com/legeling/awesome-codex-pet/main shaun--ryde-play</code></td></tr>
+<tr><th>Action</th><td><strong>Idle</strong></td><td><strong>Waving</strong></td><td><strong>Running</strong></td><td><strong>Waiting</strong></td><td><strong>Review</strong></td></tr>
+<tr><th>Preview</th><td><img src="https://codexpet.top/assets/previews/shaun--ryde-play/webp/idle.webp" alt="Shaun the Sheep idle" width="120" height="130"></td><td><img src="https://codexpet.top/assets/previews/shaun--ryde-play/webp/waving.webp" alt="Shaun the Sheep waving" width="120" height="130"></td><td><img src="https://codexpet.top/assets/previews/shaun--ryde-play/webp/running-right.webp" alt="Shaun the Sheep running-right" width="120" height="130"></td><td><img src="https://codexpet.top/assets/previews/shaun--ryde-play/webp/waiting.webp" alt="Shaun the Sheep waiting" width="120" height="130"></td><td><img src="https://codexpet.top/assets/previews/shaun--ryde-play/webp/review.webp" alt="Shaun the Sheep review" width="120" height="130"></td></tr>
+</table>
+
+<table>
 <tr><th>Name</th><td colspan="5"><a href="./pets/sunny-retriever--legeling">Sunny Retriever</a> · by <a href="https://github.com/legeling">@legeling</a> · Animals · v2</td></tr>
 <tr><th>Install</th><td colspan="5"><code>curl -fsSL --proto '=https' --tlsv1.2 https://raw.githubusercontent.com/legeling/awesome-codex-pet/main/scripts/install-pet.sh | bash -s -- --raw-base https://raw.githubusercontent.com/legeling/awesome-codex-pet/main sunny-retriever--legeling</code></td></tr>
 <tr><th>Action</th><td><strong>Idle</strong></td><td><strong>Waving</strong></td><td><strong>Running</strong></td><td><strong>Waiting</strong></td><td><strong>Review</strong></td></tr>
@@ -1610,6 +1624,13 @@ The **Update** action is an AI-assisted v1-to-v2 conversion, not a download noti
 </table>
 
 <table>
+<tr><th>Name</th><td colspan="5"><a href="./pets/pickle-rick--ryde-play">Pickle Rick</a> · by <a href="https://github.com/RYDE-PLAY">@RYDE-PLAY</a> · Memes · v2</td></tr>
+<tr><th>Install</th><td colspan="5"><code>curl -fsSL --proto '=https' --tlsv1.2 https://raw.githubusercontent.com/legeling/awesome-codex-pet/main/scripts/install-pet.sh | bash -s -- --raw-base https://raw.githubusercontent.com/legeling/awesome-codex-pet/main pickle-rick--ryde-play</code></td></tr>
+<tr><th>Action</th><td><strong>Idle</strong></td><td><strong>Waving</strong></td><td><strong>Running</strong></td><td><strong>Waiting</strong></td><td><strong>Review</strong></td></tr>
+<tr><th>Preview</th><td><img src="https://codexpet.top/assets/previews/pickle-rick--ryde-play/webp/idle.webp" alt="Pickle Rick idle" width="120" height="130"></td><td><img src="https://codexpet.top/assets/previews/pickle-rick--ryde-play/webp/waving.webp" alt="Pickle Rick waving" width="120" height="130"></td><td><img src="https://codexpet.top/assets/previews/pickle-rick--ryde-play/webp/running-right.webp" alt="Pickle Rick running-right" width="120" height="130"></td><td><img src="https://codexpet.top/assets/previews/pickle-rick--ryde-play/webp/waiting.webp" alt="Pickle Rick waiting" width="120" height="130"></td><td><img src="https://codexpet.top/assets/previews/pickle-rick--ryde-play/webp/review.webp" alt="Pickle Rick review" width="120" height="130"></td></tr>
+</table>
+
+<table>
 <tr><th>Name</th><td colspan="5"><a href="./pets/hance-woniu--korn">旱厕蜗牛</a> · by @korn · Memes · v2</td></tr>
 <tr><th>Install</th><td colspan="5"><code>curl -fsSL --proto '=https' --tlsv1.2 https://raw.githubusercontent.com/legeling/awesome-codex-pet/main/scripts/install-pet.sh | bash -s -- --raw-base https://raw.githubusercontent.com/legeling/awesome-codex-pet/main hance-woniu--korn</code></td></tr>
 <tr><th>Action</th><td><strong>Idle</strong></td><td><strong>Waving</strong></td><td><strong>Running</strong></td><td><strong>Waiting</strong></td><td><strong>Review</strong></td></tr>
@@ -1621,6 +1642,13 @@ The **Update** action is an AI-assisted v1-to-v2 conversion, not a download noti
 <tr><th>Install</th><td colspan="5"><code>curl -fsSL --proto '=https' --tlsv1.2 https://raw.githubusercontent.com/legeling/awesome-codex-pet/main/scripts/install-pet.sh | bash -s -- --raw-base https://raw.githubusercontent.com/legeling/awesome-codex-pet/main niulai--legeling</code></td></tr>
 <tr><th>Action</th><td><strong>Idle</strong></td><td><strong>Waving</strong></td><td><strong>Running</strong></td><td><strong>Waiting</strong></td><td><strong>Review</strong></td></tr>
 <tr><th>Preview</th><td><img src="https://codexpet.top/assets/previews/niulai--legeling/webp/idle.webp" alt="牛来 idle" width="120" height="130"></td><td><img src="https://codexpet.top/assets/previews/niulai--legeling/webp/waving.webp" alt="牛来 waving" width="120" height="130"></td><td><img src="https://codexpet.top/assets/previews/niulai--legeling/webp/running-right.webp" alt="牛来 running-right" width="120" height="130"></td><td><img src="https://codexpet.top/assets/previews/niulai--legeling/webp/waiting.webp" alt="牛来 waiting" width="120" height="130"></td><td><img src="https://codexpet.top/assets/previews/niulai--legeling/webp/review.webp" alt="牛来 review" width="120" height="130"></td></tr>
+</table>
+
+<table>
+<tr><th>Name</th><td colspan="5"><a href="./pets/niulaima--ryde-play">Niulai's Mom</a> · by <a href="https://github.com/RYDE-PLAY">@RYDE-PLAY</a> · Memes · v2</td></tr>
+<tr><th>Install</th><td colspan="5"><code>curl -fsSL --proto '=https' --tlsv1.2 https://raw.githubusercontent.com/legeling/awesome-codex-pet/main/scripts/install-pet.sh | bash -s -- --raw-base https://raw.githubusercontent.com/legeling/awesome-codex-pet/main niulaima--ryde-play</code></td></tr>
+<tr><th>Action</th><td><strong>Idle</strong></td><td><strong>Waving</strong></td><td><strong>Running</strong></td><td><strong>Waiting</strong></td><td><strong>Review</strong></td></tr>
+<tr><th>Preview</th><td><img src="https://codexpet.top/assets/previews/niulaima--ryde-play/webp/idle.webp" alt="Niulai's Mom idle" width="120" height="130"></td><td><img src="https://codexpet.top/assets/previews/niulaima--ryde-play/webp/waving.webp" alt="Niulai's Mom waving" width="120" height="130"></td><td><img src="https://codexpet.top/assets/previews/niulaima--ryde-play/webp/running-right.webp" alt="Niulai's Mom running-right" width="120" height="130"></td><td><img src="https://codexpet.top/assets/previews/niulaima--ryde-play/webp/waiting.webp" alt="Niulai's Mom waiting" width="120" height="130"></td><td><img src="https://codexpet.top/assets/previews/niulaima--ryde-play/webp/review.webp" alt="Niulai's Mom review" width="120" height="130"></td></tr>
 </table>
 
 <table>
