@@ -1,0 +1,17 @@
+{
+  "slug": "yuan--xie",
+  "pet_slug": "yuan",
+  "author_slug": "xie",
+  "name": "yuan",
+  "author": "xie",
+  "author_handle": "xie",
+  "primary_category": "Human Avatars",
+  "tags": ["human", "dress", "cute", "original", "codex"],
+  "source_type": "original",
+  "source_description": "Original character based on privately provided reference photos. The creator authorized public redistribution in this repository; there is no external source URL.",
+  "license": "Creator-authorized redistribution; CC BY-NC 4.0; non-commercial use only.",
+  "codex_install": {
+    "pet_json": "pet.json",
+    "spritesheet": "spritesheet.webp"
+  }
+}
