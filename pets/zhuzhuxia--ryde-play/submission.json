@@ -1,0 +1,36 @@
+{
+  "slug": "zhuzhuxia--ryde-play",
+  "pet_slug": "zhuzhuxia",
+  "author_slug": "ryde-play",
+  "name": "GG Bond",
+  "localized_names": {
+    "en": "GG Bond",
+    "zh": "猪猪侠"
+  },
+  "author": "RYDE-PLAY",
+  "author_handle": "RYDE-PLAY",
+  "author_url": "https://github.com/RYDE-PLAY",
+  "primary_category": "Anime Characters",
+  "canonical_key": "zhuzhuxia/zhuzhuxia",
+  "tags": [
+    "zhuzhuxia",
+    "gg-bond",
+    "animated-character",
+    "ai-generated",
+    "plush",
+    "chibi",
+    "v2",
+    "look-directions"
+  ],
+  "collections": [],
+  "source_type": "AI-generated fan-art interpretation",
+  "source_url": "https://github.com/RYDE-PLAY/CodexPet/tree/main/pets/zhuzhuxia",
+  "source_notes": "Independently AI-generated fan-art interpretation of 猪猪侠 / GG Bond. The final spritesheet does not copy official animation frames, logos, text, or watermarks. This is unofficial, non-commercial fan art and is not affiliated with or endorsed by any rights holder.",
+  "license": "Non-commercial use only. Independently AI-generated fan art; GG Bond / 猪猪侠 and its underlying characters remain the property of their respective rights holders. Not affiliated with or endorsed by any rights holder.",
+  "description": "A plush chibi interpretation of GG Bond with a red cap, pink pig face, yellow cuffs, and a pig-nose emblem on the chest.",
+  "preview_image": "../../assets/previews/zhuzhuxia--ryde-play/gifs/idle.gif",
+  "codex_install": {
+    "pet_json": "pet.json",
+    "spritesheet": "spritesheet.webp"
+  }
+}
