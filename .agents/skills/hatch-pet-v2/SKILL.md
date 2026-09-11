@@ -143,6 +143,8 @@ Pet rows are processed into transparent `192x208` cells. Request real RGBA trans
 
 The deterministic raster pipeline owns background detection and transparency invariants. In `auto` mode it preserves native alpha whenever the source contains both a visible sprite and a meaningfully transparent canvas; it runs color removal only for an opaque legacy/fallback source. The detected mode is recorded per row and propagated into the final atlas manifest. Native-alpha cleanup clears hidden RGB under fully transparent pixels without changing any visible color. Chroma cleanup retains the existing single edge-local spill-suppression pass. Never run chroma suppression on an all-native-alpha atlas because a legitimate pet color may match the fallback key.
 
+For chroma rows only, when visual QA confirms opaque key-colored residue inside the silhouette or negative-space openings, use `--reject-key-similarity` on the pre-despill atlas. This deliberately clears matching pixels and reports `alpha_preserved: false` plus the rejected count. Mixed atlases retain native-alpha rows unchanged.
+
 Fully transparent pixels are allowed outside the sprite silhouette, in unused cells, and in intentional negative-space openings that are part of the pet's design, such as loops or holes in a ribbon body. Reject any generated or repaired cell with accidental 100%-transparent holes inside a filled body, including horizontal bands, seam rows, scanline-like gaps, sliced-tile boundaries, or "see-through" interior stripes. Inspect suspect cells on a high-contrast background or alpha mask before accepting them; ordinary atlas validation is not enough when the hole is inside the silhouette.
 
 Allowed effects must satisfy all of these conditions:
@@ -578,6 +580,8 @@ if [ "$CLEANUP_MODE" != "native-alpha" ]; then CLEANUP_ARGS+=(--chroma-key "$CHR
 ```
 
 Treat `qa/chroma-despill-extended.json` as the authoritative final background-cleanup report. Native alpha must report `algorithm: native-alpha-pass-through`, `alpha_preserved: true`, and zero spill suppression. Chroma/mixed input must report the edge-local spill algorithm. When the matching cleanup and `validate_atlas.py --require-v2` pass, do not add another cleanup pass. If either deterministic check fails, stop with a pipeline failure instead of retrying image generation.
+
+Check the final contact sheet as well. If visual QA confirms opaque key residue in chroma rows, reassemble the pre-despill atlas and repeat this single invocation with `--reject-key-similarity <threshold>`; do not run the cleanup repeatedly on its own output.
 
 This is the only final-cleanup invocation in the workflow. The intermediate 8×9 atlas is never despilled; rows `0-8` and look rows `9-10` are processed together exactly once in the completed 8×11 atlas.
 

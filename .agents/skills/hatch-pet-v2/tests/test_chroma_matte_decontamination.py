@@ -179,6 +179,84 @@ class ChromaMatteDecontaminationTest(unittest.TestCase):
         self.assertEqual(cleaned.getpixel((2, 4)), (180, 110, 25, 255))
         self.assertGreater(report["spill_suppressed_pixels"], 0)
 
+    def test_removes_pale_opaque_magenta_halo(self) -> None:
+        image = Image.new("RGBA", (9, 9), (0, 0, 0, 0))
+        for y in range(2, 7):
+            for x in range(2, 7):
+                image.putpixel((x, y), (255, 186, 206, 255))
+        for y in range(3, 6):
+            for x in range(3, 6):
+                image.putpixel((x, y), (226, 176, 106, 255))
+
+        cleaned, report = DESPILL.decontaminate_image(
+            image,
+            chroma_key=(255, 0, 255),
+            edge_radius=2,
+        )
+
+        self.assertEqual(cleaned.getpixel((2, 4)), (226, 176, 106, 255))
+        self.assertGreater(report["spill_suppressed_pixels"], 0)
+
+    def test_preserves_warm_paw_pad_color_on_boundary(self) -> None:
+        image = Image.new("RGBA", (9, 9), (0, 0, 0, 0))
+        for y in range(2, 7):
+            for x in range(2, 7):
+                image.putpixel((x, y), (180, 105, 80, 255))
+        for y in range(3, 6):
+            for x in range(3, 6):
+                image.putpixel((x, y), (226, 176, 106, 255))
+
+        cleaned, report = DESPILL.decontaminate_image(
+            image,
+            chroma_key=(255, 0, 255),
+            edge_radius=2,
+        )
+
+        self.assertEqual(cleaned.getpixel((2, 4)), (180, 105, 80, 255))
+        self.assertEqual(report["spill_suppressed_pixels"], 0)
+
+    def test_rejects_confirmed_key_spill_inside_the_silhouette(self) -> None:
+        image = Image.new("RGBA", (9, 9), (226, 176, 106, 255))
+        for y in range(3, 6):
+            for x in range(3, 6):
+                image.putpixel((x, y), (125, 45, 62, 255))
+
+        cleaned, report = DESPILL.decontaminate_image(
+            image,
+            chroma_key=(255, 0, 255),
+            reject_key_similarity=0.4,
+        )
+
+        self.assertEqual(cleaned.getpixel((4, 4)), (0, 0, 0, 0))
+        self.assertEqual(report["rejected_pixels"], 9)
+        self.assertFalse(report["alpha_preserved"])
+
+    def test_key_rejection_preserves_warm_paw_pad_color(self) -> None:
+        image = Image.new("RGBA", (3, 3), (0, 0, 0, 0))
+        image.putpixel((1, 1), (180, 105, 80, 255))
+
+        cleaned, report = DESPILL.decontaminate_image(
+            image,
+            chroma_key=(255, 0, 255),
+            reject_key_similarity=0.4,
+        )
+
+        self.assertEqual(cleaned.getpixel((1, 1)), (180, 105, 80, 255))
+        self.assertEqual(report["rejected_pixels"], 0)
+
+    def test_key_rejection_drops_unresolved_translucent_specks(self) -> None:
+        image = Image.new("RGBA", (3, 3), (0, 0, 0, 0))
+        image.putpixel((1, 1), (245, 230, 220, 64))
+
+        cleaned, report = DESPILL.decontaminate_image(
+            image,
+            chroma_key=(255, 0, 255),
+            reject_key_similarity=0.4,
+        )
+
+        self.assertEqual(cleaned.getpixel((1, 1)), (0, 0, 0, 0))
+        self.assertEqual(report["rejected_pixels"], 1)
+
     def test_extends_interior_color_through_non_key_translucent_edge(self) -> None:
         image = Image.new("RGBA", (7, 7), (0, 0, 0, 0))
         for y in range(1, 6):

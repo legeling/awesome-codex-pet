@@ -17,6 +17,7 @@ CELL_HEIGHT = 208
 ALGORITHM = "edge-local-chroma-spill-suppression"
 NATIVE_ALPHA_ALGORITHM = "native-alpha-pass-through"
 VALIDATOR_CHROMA_DISTANCE = 96.0
+EDGE_VISUAL_SPILL_SIMILARITY = 0.6
 
 
 def parse_hex_color(value: str) -> tuple[int, int, int]:
@@ -98,6 +99,32 @@ def color_distance(
     return sum((channel - key_channel) ** 2 for channel, key_channel in zip(color, key)) ** 0.5
 
 
+def reject_visible_key_spill(
+    pixels: list[tuple[int, int, int, int]],
+    *,
+    key_linear: tuple[float, float, float],
+    key_srgb: tuple[int, int, int],
+    similarity_threshold: float,
+    minimum_saturation: float,
+) -> tuple[list[tuple[int, int, int, int]], int]:
+    output = pixels.copy()
+    rejected = 0
+    for index, pixel in enumerate(pixels):
+        if pixel[3] == 0:
+            continue
+        color_linear = tuple(srgb_to_linear(channel / 255) for channel in pixel[:3])
+        if chroma_saturation(color_linear) < minimum_saturation:
+            continue
+        if (
+            chroma_similarity(color_linear, key_linear) < similarity_threshold
+            and color_distance(pixel[:3], key_srgb) > VALIDATOR_CHROMA_DISTANCE
+        ):
+            continue
+        output[index] = (0, 0, 0, 0)
+        rejected += 1
+    return output, rejected
+
+
 def suppress_boundary_spill(
     pixels: list[tuple[int, int, int, int]],
     *,
@@ -108,7 +135,8 @@ def suppress_boundary_spill(
     edge_radius: int,
     spill_tolerance: float,
     minimum_saturation: float,
-) -> tuple[list[tuple[int, int, int, int]], list[bool]]:
+    reject_unresolved: bool = False,
+) -> tuple[list[tuple[int, int, int, int]], list[bool], int]:
     width, height = size
     key_srgb = tuple(round(linear_to_srgb(channel) * 255) for channel in key_linear)
     colors_linear = [
@@ -123,7 +151,8 @@ def suppress_boundary_spill(
             or (
                 chroma_saturation(color) >= minimum_saturation
                 and (
-                    chroma_similarity(color, key_linear) >= similarity_threshold
+                    chroma_similarity(color, key_linear)
+                    >= min(similarity_threshold, EDGE_VISUAL_SPILL_SIMILARITY)
                     or color_distance(pixel[:3], key_srgb) <= VALIDATOR_CHROMA_DISTANCE
                 )
             )
@@ -183,8 +212,14 @@ def suppress_boundary_spill(
             )
             suppressed[index] = output[index] != pixels[index]
 
+    rejected_unresolved = 0
     for index, is_pending in enumerate(pending):
         if not is_pending:
+            continue
+        if reject_unresolved:
+            output[index] = (0, 0, 0, 0)
+            suppressed[index] = output[index] != pixels[index]
+            rejected_unresolved += 1
             continue
         observed = colors_linear[index]
         luminance = sum(observed) / 3
@@ -195,7 +230,7 @@ def suppress_boundary_spill(
         )
         suppressed[index] = output[index] != pixels[index]
 
-    return output, suppressed
+    return output, suppressed, rejected_unresolved
 
 
 def decontaminate_image(
@@ -206,6 +241,7 @@ def decontaminate_image(
     edge_radius: int = 5,
     spill_tolerance: float = 0.15,
     minimum_saturation: float = 0.1,
+    reject_key_similarity: float | None = None,
 ) -> tuple[Image.Image, dict[str, object]]:
     if not 0 <= strength <= 1:
         raise ValueError("strength must be between 0 and 1")
@@ -215,13 +251,28 @@ def decontaminate_image(
         raise ValueError("spill_tolerance must not be negative")
     if minimum_saturation < 0:
         raise ValueError("minimum_saturation must not be negative")
+    if reject_key_similarity is not None and not 0 <= reject_key_similarity <= 1:
+        raise ValueError("reject_key_similarity must be between 0 and 1")
 
     rgba = image.convert("RGBA")
     width, _ = rgba.size
-    source = list(rgba.getdata())
-    boundary = atlas_edge_band(rgba.getchannel("A"), edge_radius)
+    original = list(rgba.getdata())
     key_linear = tuple(srgb_to_linear(channel / 255) for channel in chroma_key)
-    output_pixels, suppressed = suppress_boundary_spill(
+    key_srgb = tuple(round(linear_to_srgb(channel) * 255) for channel in key_linear)
+    source = original
+    rejected_pixels = 0
+    if reject_key_similarity is not None:
+        source, rejected_pixels = reject_visible_key_spill(
+            source,
+            key_linear=key_linear,
+            key_srgb=key_srgb,
+            similarity_threshold=reject_key_similarity,
+            minimum_saturation=minimum_saturation,
+        )
+    working = Image.new("RGBA", rgba.size)
+    working.putdata(source)
+    boundary = atlas_edge_band(working.getchannel("A"), edge_radius)
+    output_pixels, suppressed, rejected_unresolved = suppress_boundary_spill(
         source,
         size=rgba.size,
         boundary=boundary,
@@ -230,7 +281,9 @@ def decontaminate_image(
         edge_radius=edge_radius,
         spill_tolerance=spill_tolerance,
         minimum_saturation=minimum_saturation,
+        reject_unresolved=reject_key_similarity is not None,
     )
+    rejected_pixels += rejected_unresolved
     output_pixels = [
         (0, 0, 0, 0) if pixel[3] == 0 else output_pixel
         for pixel, output_pixel in zip(source, output_pixels)
@@ -241,7 +294,7 @@ def decontaminate_image(
     spill_suppressed_pixels = sum(suppressed)
 
     changed_by_cell: dict[str, int] = {}
-    for index, (source_pixel, output_pixel) in enumerate(zip(source, output_pixels)):
+    for index, (source_pixel, output_pixel) in enumerate(zip(original, output_pixels)):
         if output_pixel != source_pixel:
             x = index % width
             y = index // width
@@ -256,14 +309,15 @@ def decontaminate_image(
         "edge_radius": edge_radius,
         "spill_tolerance": spill_tolerance,
         "minimum_saturation": minimum_saturation,
+        "reject_key_similarity": reject_key_similarity,
         "changed_pixels": sum(changed_by_cell.values()),
         "decontaminated_pixels": decontaminated_pixels,
         "spill_suppressed_pixels": spill_suppressed_pixels,
-        "rejected_pixels": 0,
+        "rejected_pixels": rejected_pixels,
         "changed_by_cell": dict(
             sorted(changed_by_cell.items(), key=lambda item: item[1], reverse=True)
         ),
-        "alpha_preserved": True,
+        "alpha_preserved": rejected_pixels == 0,
     }
 
 
@@ -309,6 +363,7 @@ def decontaminate_mixed_atlas(
     edge_radius: int = 5,
     spill_tolerance: float = 0.15,
     minimum_saturation: float = 0.1,
+    reject_key_similarity: float | None = None,
 ) -> tuple[Image.Image, dict[str, object]]:
     rgba = image.convert("RGBA")
     if rgba.height % CELL_HEIGHT or rgba.width % CELL_WIDTH:
@@ -343,6 +398,7 @@ def decontaminate_mixed_atlas(
                 edge_radius=edge_radius,
                 spill_tolerance=spill_tolerance,
                 minimum_saturation=minimum_saturation,
+                reject_key_similarity=reject_key_similarity,
             )
             output.paste(cleaned, (left, top))
             changed = int(report["changed_pixels"])
@@ -406,6 +462,14 @@ def main() -> None:
     parser.add_argument("--edge-radius", type=int, default=5)
     parser.add_argument("--spill-tolerance", type=float, default=0.15)
     parser.add_argument("--minimum-saturation", type=float, default=0.1)
+    parser.add_argument(
+        "--reject-key-similarity",
+        type=float,
+        help=(
+            "remove visible pixels whose chroma points toward the key before edge cleanup; "
+            "use only for confirmed opaque key-color residue"
+        ),
+    )
     args = parser.parse_args()
 
     input_path = Path(args.input).expanduser().resolve()
@@ -430,6 +494,7 @@ def main() -> None:
                     edge_radius=args.edge_radius,
                     spill_tolerance=args.spill_tolerance,
                     minimum_saturation=args.minimum_saturation,
+                    reject_key_similarity=args.reject_key_similarity,
                 )
             except ValueError as exc:
                 raise SystemExit(str(exc)) from exc
@@ -443,6 +508,7 @@ def main() -> None:
                 edge_radius=args.edge_radius,
                 spill_tolerance=args.spill_tolerance,
                 minimum_saturation=args.minimum_saturation,
+                reject_key_similarity=args.reject_key_similarity,
             )
 
     output_path = Path(args.output).expanduser().resolve()
