@@ -143,6 +143,16 @@
       "spritesheetWidth": 1536,
       "spritesheetHeight": 1872
     },
+    "blazer-god--sou2c1": {
+      "name": "Blazer God",
+      "spriteVersionNumber": 1,
+      "petJsonSha256": "3cb1746231b0af14dc0ee0f4651f143a0eb19e6704cc37ab0c6f338a257ed7f4",
+      "petJsonBytes": 285,
+      "spritesheetSha256": "91bc2d0e2569b63908c3eed2d738fe37185129a0bcfe9b75b65b9e8b3d6daf5a",
+      "spritesheetBytes": 2388946,
+      "spritesheetWidth": 1536,
+      "spritesheetHeight": 1872
+    },
     "buba--yurcek": {
       "name": "Buba",
       "spriteVersionNumber": 1,

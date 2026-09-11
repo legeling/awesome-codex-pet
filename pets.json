@@ -173,6 +173,20 @@
     "spriteVersionNumber": 1
   },
   {
+    "slug": "blazer-god--sou2c1",
+    "name": "Blazer God",
+    "localized_names": { "en": "Blazer God", "zh": "煌炎战神" },
+    "author": "SOU2C1",
+    "author_handle": "SOU2C1",
+    "author_url": "https://github.com/SOU2C1",
+    "primary_category": "Game Characters",
+    "canonical_key": "aola-star/blazer-god",
+    "collections": [],
+    "license": "Personal and repository use only; non-commercial use only. Commercial use is prohibited. The original character and related intellectual property belong to their respective Aola Star rights holders.",
+    "description": "《奥拉星》上古/机械系亚比煌炎战神的 AI 辅助宠物适配：以投稿人确认的造型图为基准，保留侧身四足机甲、修长双背刃、青色装甲嵌线与宽阔符文火环；参考游戏背包火势重制九组 V1 动作，并提高显示占比。",
+    "spriteVersionNumber": 1
+  },
+  {
     "slug": "buba--yurcek",
     "name": "Buba",
     "author": "yurcek",
