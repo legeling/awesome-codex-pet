@@ -265,11 +265,8 @@ function categorySections(pets, lang) {
   }
   const featured = readmeFeatured.map((slug) => {
     const pet = bySlug.get(slug);
-    if (
-      !pet ||
-      !existsSync(join(repoRoot, "assets", "readme", `${slug}.gif`))
-    ) {
-      throw new Error(`Missing featured pet or README GIF: ${slug}`);
+    if (!pet) {
+      throw new Error(`Missing featured pet: ${slug}`);
     }
     return pet;
   });
@@ -280,7 +277,7 @@ function categorySections(pets, lang) {
         .slice(offset, offset + 5)
         .map((pet) => {
           const name = escapeHtml(localizedPetName(pet, lang));
-          return `<td align="center" width="20%"><a href="${websiteUrl}/pets/${pet.slug}"><img src="https://raw.githubusercontent.com/legeling/awesome-codex-pet/main/assets/readme/${pet.slug}.gif" alt="${name}" width="160" height="173"><br>${name}</a></td>`;
+          return `<td align="center" width="20%"><a href="${websiteUrl}/pets/${pet.slug}"><img src="${websiteUrl}/assets/previews/${pet.slug}/webp/idle.webp" alt="${name}" width="160" height="173"><br>${name}</a></td>`;
         })
         .join("")}</tr>`,
     );

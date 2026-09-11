@@ -50,13 +50,18 @@ for (const relativePath of readmes) {
   if (
     previews.length !== 15 ||
     new Set(previews).size !== 15 ||
-    previews.some((url) => !/\/assets\/readme\/[^/]+\.gif$/.test(url)) ||
+    previews.some(
+      (url) =>
+        !/^https:\/\/codexpet\.top\/assets\/previews\/[^/]+\/webp\/idle\.webp$/.test(
+          url,
+        ),
+    ) ||
     !content.includes('<table width="100%">') ||
     (content.match(/<td align="center" width="20%">/g)?.length ?? 0) !== 15 ||
     (content.match(/<tr>/g)?.length ?? 0) !== 3
   ) {
     failures.push(
-      `${relativePath}: use exactly 15 featured GIFs in a full-width 3-by-5 grid`,
+      `${relativePath}: use exactly 15 website-hosted idle animations in a full-width 3-by-5 grid`,
     );
   }
   for (const label of languageLabels) {

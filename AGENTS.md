@@ -74,7 +74,7 @@ pets/<pet-slug>--<author-slug>/
 
 这些文件不是手写维护优先项。除非只是极小文案修正，否则应优先修改生成脚本，再重新生成。
 
-README 使用 `readme-featured.json` 固定精选 15 只宠物，参考公开排名并兼顾角色多样性，按 3 行 × 5 列展示待机 GIF，链接到网站详情页。`assets/readme/<pet-id>.gif` 是允许跟踪的精选展示资源：更新精选时，先用 `scripts/generate-pet-previews.py <pet-id>` 生成预览，再将对应 `gifs/idle.gif` 复制到该位置。不要提交全量预览。全部宠物以折叠的纯文字索引保留名称、作者和版本；完整动作由网站提供。所有语言遵循同一生成规则。
+README 使用 `readme-featured.json` 固定精选 15 只宠物，参考公开排名并兼顾角色多样性，按 3 行 × 5 列展示网站托管的待机动图：`https://codexpet.top/assets/previews/<pet-id>/webp/idle.webp`，链接到网站详情页。沿用网站的动态 WebP，不使用 GitHub raw 或仓库相对图片路径。全部宠物以折叠的纯文字索引保留名称、作者和版本；完整动作由网站提供。所有语言遵循同一生成规则。
 
 相关脚本：
 
