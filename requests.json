@@ -1,5 +1,43 @@
 [
   {
+    "number": 177,
+    "character": "尤诺",
+    "characterDetails": "尤诺",
+    "franchise": "鸣潮",
+    "category": "other",
+    "version": "v2",
+    "requestType": "Create a new community interpretation",
+    "referenceStatus": "",
+    "references": "https://wiki.kurobbs.com/mc/item/1400453856120164352",
+    "referenceUrls": ["https://wiki.kurobbs.com/mc/item/1400453856120164352"],
+    "referenceImages": [],
+    "referenceThumbnails": [],
+    "visualDirection": "可做q版",
+    "nameLanguages": "Let the maker decide",
+    "attribution": "Submitted without a GitHub account. Reference and attribution details should be confirmed during triage. Non-commercial use only.",
+    "duplicateCheck": "Repository automation or a maintainer should complete the duplicate check during triage.",
+    "state": "open",
+    "status": "triage",
+    "labels": [
+      "type: request",
+      "status: triage",
+      "version: v2",
+      "category: other"
+    ],
+    "author": {
+      "login": "github-actions[bot]",
+      "avatarUrl": "https://avatars.githubusercontent.com/in/15368?v=4",
+      "url": "https://github.com/apps/github-actions"
+    },
+    "assignees": [],
+    "createdAt": "2026-09-11T16:06:06Z",
+    "updatedAt": "2026-09-11T16:06:06Z",
+    "closedAt": null,
+    "comments": 0,
+    "reactions": 0,
+    "githubUrl": "https://github.com/legeling/awesome-codex-pet/issues/177"
+  },
+  {
     "number": 176,
     "character": "求助大佬，感谢大佬圆梦",
     "characterDetails": "尤诺",
