@@ -1,0 +1,40 @@
+{
+  "slug": "blazer-god--sou2c1",
+  "pet_slug": "blazer-god",
+  "author_slug": "sou2c1",
+  "name": "Blazer God",
+  "localized_names": {
+    "en": "Blazer God",
+    "zh": "煌炎战神"
+  },
+  "author": "SOU2C1",
+  "author_handle": "SOU2C1",
+  "author_url": "https://github.com/SOU2C1",
+  "primary_category": "Game Characters",
+  "canonical_key": "aola-star/blazer-god",
+  "tags": [
+    "aola-star",
+    "blazer-god",
+    "mechanical",
+    "ancient",
+    "flame",
+    "fan-art",
+    "v1"
+  ],
+  "collections": [],
+  "source_type": "independently-ai-generated-fan-art",
+  "source_url": "https://aola.100bt.com/mijixinde/170994.html",
+  "source_notes": "AI-assisted animation and Codex adaptation directed by SOU2C1. All nine animation rows were generated from the user-approved AI production image, with public official Aola Star character information and observation of the user's private game-backpack animation as references. The approved production image was itself produced by an earlier generative image edit requested as a counterclockwise rotation; it is not represented as an unmodified official game asset or a lossless rotation. Final frames were extracted, chroma-keyed and uniformly resampled from the generated row images. No game-canvas screenshots, downloaded official artwork or previous spritesheet frames were directly pasted into the runtime atlas. Production references and private account views are not included. Character intellectual property belongs to the respective Aola Star rights holders.",
+  "final_asset_author": "SOU2C1 (AI-assisted Codex pet adaptation)",
+  "license": "Personal and repository use only; non-commercial use only. Commercial use is prohibited. The original character and related intellectual property belong to their respective Aola Star rights holders.",
+  "description": "《奥拉星》上古/机械系亚比煌炎战神的 AI 辅助宠物适配：以投稿人确认的造型图为基准，保留侧身四足机甲、修长双背刃、青色装甲嵌线与宽阔符文火环；参考游戏背包火势重制九组 V1 动作，并提高显示占比。",
+  "preview_image": "../../assets/previews/blazer-god--sou2c1/gifs/idle.gif",
+  "codex_install": {
+    "pet_json": "pet.json",
+    "spritesheet": "spritesheet.webp"
+  },
+  "preview_assets": {
+    "contact_sheet": "../../assets/previews/blazer-god--sou2c1/contact-sheet.png",
+    "gifs_dir": "../../assets/previews/blazer-god--sou2c1/gifs"
+  }
+}
