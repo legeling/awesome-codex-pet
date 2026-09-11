@@ -1,5 +1,49 @@
 [
   {
+    "number": 178,
+    "character": "塑心：阿尔图罗",
+    "characterDetails": "塑心：阿尔图罗",
+    "franchise": "明日方舟",
+    "category": "other",
+    "version": "v2",
+    "requestType": "Create a new community interpretation",
+    "referenceStatus": "",
+    "references": "https://api.codexpet.top/uploads/reference/references/dd66bf154aada2855d885627259599a148f13c37836ed848fd8f4ac8e81e31bb.jpg",
+    "referenceUrls": [
+      "https://api.codexpet.top/uploads/reference/references/dd66bf154aada2855d885627259599a148f13c37836ed848fd8f4ac8e81e31bb.jpg"
+    ],
+    "referenceImages": [
+      "https://api.codexpet.top/uploads/reference/references/dd66bf154aada2855d885627259599a148f13c37836ed848fd8f4ac8e81e31bb.jpg"
+    ],
+    "referenceThumbnails": [
+      "https://api.codexpet.top/uploads/reference/thumbnails/dd66bf154aada2855d885627259599a148f13c37836ed848fd8f4ac8e81e31bb.webp"
+    ],
+    "visualDirection": "Let the community maker decide.",
+    "nameLanguages": "Let the maker decide",
+    "attribution": "Submitted without a GitHub account. Reference and attribution details should be confirmed during triage. Non-commercial use only.",
+    "duplicateCheck": "Repository automation or a maintainer should complete the duplicate check during triage.",
+    "state": "open",
+    "status": "triage",
+    "labels": [
+      "type: request",
+      "status: triage",
+      "version: v2",
+      "category: other"
+    ],
+    "author": {
+      "login": "github-actions[bot]",
+      "avatarUrl": "https://avatars.githubusercontent.com/in/15368?v=4",
+      "url": "https://github.com/apps/github-actions"
+    },
+    "assignees": [],
+    "createdAt": "2026-09-11T18:28:34Z",
+    "updatedAt": "2026-09-11T18:28:34Z",
+    "closedAt": null,
+    "comments": 0,
+    "reactions": 0,
+    "githubUrl": "https://github.com/legeling/awesome-codex-pet/issues/178"
+  },
+  {
     "number": 177,
     "character": "尤诺",
     "characterDetails": "尤诺",
