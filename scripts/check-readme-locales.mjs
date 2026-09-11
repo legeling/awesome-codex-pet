@@ -4,9 +4,10 @@ import { join } from "node:path";
 
 const repoRoot = fileURLToPath(new URL("..", import.meta.url));
 const petsDir = join(repoRoot, "pets");
-const petCount = readdirSync(petsDir).filter((entry) =>
+const petSlugs = readdirSync(petsDir).filter((entry) =>
   existsSync(join(petsDir, entry, "submission.json")),
-).length;
+);
+const petCount = petSlugs.length;
 const readmes = [
   "README.md",
   "docs/zh-CN/README.md",
@@ -28,10 +29,29 @@ for (const relativePath of readmes) {
   if (!content.includes(`![pets: ${petCount}]`)) {
     failures.push(`${relativePath}: pet badge is not ${petCount}`);
   }
-  const catalogEntries = content.match(/<table>/g)?.length ?? 0;
-  if (catalogEntries !== petCount) {
+  const catalogEntries = [
+    ...content.matchAll(/<li><a href="(?:\.\/|\.\.\/\.\.\/)pets\/([^"/]+)">/g),
+  ].map((match) => match[1]);
+  const catalogSlugs = new Set(catalogEntries);
+  if (
+    catalogEntries.length !== petCount ||
+    catalogSlugs.size !== petCount ||
+    petSlugs.some((slug) => !catalogSlugs.has(slug))
+  ) {
     failures.push(
-      `${relativePath}: contains ${catalogEntries} pet entries, expected ${petCount}`,
+      `${relativePath}: pet index must contain every pet exactly once`,
+    );
+  }
+  const previews = [
+    ...content.matchAll(/<img\b[^>]*src="([^"]*\/assets\/previews\/[^" ]+)"/g),
+  ].map((match) => match[1]);
+  if (
+    previews.length > 12 ||
+    (petCount > 0 && previews.length === 0) ||
+    previews.some((url) => !url.endsWith("/thumbnail.webp"))
+  ) {
+    failures.push(
+      `${relativePath}: use 1–12 static pet thumbnails, never animation previews`,
     );
   }
   for (const label of languageLabels) {

@@ -50,13 +50,13 @@ const categoryAliases = {
   Objects: "Objects & Props",
 };
 
-const previewStates = [
-  ["idle", "Idle", "待机", "대기", "待機", "Reposo"],
-  ["waving", "Waving", "挥手", "인사", "手を振る", "Saludo"],
-  ["running-right", "Running", "奔跑", "달리기", "走る", "Correr"],
-  ["waiting", "Waiting", "等待", "입력 대기", "待機中", "Esperar"],
-  ["review", "Review", "审阅", "검토", "レビュー", "Revisar"],
-];
+const galleryCopy = {
+  en: ["Browse all pets and animations", "Full pet index (text only)"],
+  zh: ["浏览全部宠物和动作", "完整宠物索引（纯文字）"],
+  ko: ["모든 펫과 애니메이션 보기", "전체 펫 목록 (텍스트)"],
+  ja: ["すべてのペットとアニメーションを見る", "全ペット一覧（テキストのみ）"],
+  es: ["Ver todas las mascotas y animaciones", "Índice completo (solo texto)"],
+};
 
 const readmeLocales = {
   en: {
@@ -233,25 +233,18 @@ function localizedPetName(pet, lang) {
   return pet.localized_names?.[lang] || pet.name;
 }
 
-function petBlock(pet, lang) {
-  const locale = readmeLocales[lang];
-  const category = normalizeCategory(pet.primary_category);
-  const categoryName = locale.categoryLabels[category] || category;
-  const displayName = localizedPetName(pet, lang);
-  const stateNames = previewStates.map((state) => state[locale.stateIndex]);
-  const previews = previewStates.map(([state]) => {
-    const path = `${websiteUrl}/assets/previews/${pet.slug}/webp/${state}.webp`;
-    return `<img src="${path}" alt="${displayName} ${state}" width="120" height="130">`;
-  });
-
-  return [
-    `<table>`,
-    `<tr><th>${locale.labels[0]}</th><td colspan="5"><a href="${locale.rootPrefix}/pets/${pet.slug}">${displayName}</a> · ${locale.by} ${authorLink(pet)} · ${categoryName} · v${pet.spriteVersionNumber}</td></tr>`,
-    `<tr><th>${locale.labels[1]}</th><td colspan="5"><code>${bashInstallCommand(pet.slug)}</code></td></tr>`,
-    `<tr><th>${locale.labels[2]}</th>${stateNames.map((name) => `<td><strong>${name}</strong></td>`).join("")}</tr>`,
-    `<tr><th>${locale.labels[3]}</th>${previews.map((preview) => `<td>${preview}</td>`).join("")}</tr>`,
-    `</table>`,
-  ].join("\n");
+function escapeHtml(value) {
+  return String(value).replace(
+    /[&<>"']/g,
+    (char) =>
+      ({
+        "&": "&amp;",
+        "<": "&lt;",
+        ">": "&gt;",
+        '"': "&quot;",
+        "'": "&#39;",
+      })[char],
+  );
 }
 
 function normalizeCategory(category) {
@@ -259,22 +252,49 @@ function normalizeCategory(category) {
 }
 
 function categorySections(pets, lang) {
-  return categories
-    .flatMap((category) => {
-      const items = pets.filter(
-        (pet) => normalizeCategory(pet.primary_category) === category,
-      );
+  const locale = readmeLocales[lang];
+  const [browse, index] = galleryCopy[lang];
+  const groups = new Map(categories.map((category) => [category, []]));
+  for (const pet of pets) {
+    groups.get(normalizeCategory(pet.primary_category))?.push(pet);
+  }
+  // Bound README image requests independently of catalog growth.
+  const featured = [...groups.values()]
+    .filter((items) => items.length)
+    .slice(0, 12)
+    .map((items) => items[0]);
+  const rows = [];
+  for (let offset = 0; offset < featured.length; offset += 4) {
+    rows.push(
+      `<tr>${featured
+        .slice(offset, offset + 4)
+        .map((pet) => {
+          const name = escapeHtml(localizedPetName(pet, lang));
+          return `<td align="center"><a href="${websiteUrl}/pets/${pet.slug}"><img src="${websiteUrl}/assets/previews/${pet.slug}/thumbnail.webp" alt="${name}" width="120" height="130"><br>${name}</a></td>`;
+        })
+        .join("")}</tr>`,
+    );
+  }
+  const sections = [...groups.entries()]
+    .flatMap(([category, items]) => {
       if (items.length === 0) return [];
-      const title = readmeLocales[lang].categoryLabels[category] || category;
+      const title = locale.categoryLabels[category] || category;
       return [
         [
           `### ${title}`,
           "",
-          items.map((pet) => petBlock(pet, lang)).join("\n\n"),
+          "<ul>",
+          ...items.map(
+            (pet) =>
+              `<li><a href="${locale.rootPrefix}/pets/${pet.slug}">${escapeHtml(localizedPetName(pet, lang))}</a> · ${locale.by} ${authorLink(pet)} · v${pet.spriteVersionNumber}</li>`,
+          ),
+          "</ul>",
         ].join("\n"),
       ];
     })
     .join("\n\n");
+  const galleryUrl = lang === "en" ? websiteUrl : `${websiteUrl}/${lang}`;
+  return `**[${browse} →](${galleryUrl})**\n\n<table>\n${rows.join("\n")}\n</table>\n\n<details>\n<summary>${index} · ${pets.length}</summary>\n\n${sections}\n\n</details>`;
 }
 
 function englishReadme(pets) {
