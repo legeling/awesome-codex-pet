@@ -1,0 +1,7 @@
+{
+  "id": "crt-monitor--wxy",
+  "displayName": "CRT Monitor",
+  "description": "A tiny retro CRT monitor that keeps an eye on your code.",
+  "spriteVersionNumber": 2,
+  "spritesheetPath": "spritesheet.webp"
+}

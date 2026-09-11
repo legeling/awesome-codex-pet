@@ -1,0 +1,22 @@
+{
+  "slug": "crt-monitor--wxy",
+  "pet_slug": "crt-monitor",
+  "author_slug": "wxy",
+  "name": "CRT Monitor",
+  "localized_names": {
+    "en": "CRT Monitor",
+    "zh": "CRT 显示器"
+  },
+  "author": "wxy",
+  "primary_category": "Robots",
+  "canonical_key": "original/wxy/crt-monitor",
+  "tags": ["robot", "retro-computing", "crt", "coding"],
+  "source_type": "original",
+  "source_url": "https://github.com/wxy/crt-monitor-codex-pet/blob/main/assets/source-design.png",
+  "license": "CC BY 4.0",
+  "preview_image": "../../assets/previews/crt-monitor--wxy/gifs/idle.gif",
+  "codex_install": {
+    "pet_json": "pet.json",
+    "spritesheet": "spritesheet.webp"
+  }
+}
