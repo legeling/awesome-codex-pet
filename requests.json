@@ -1,5 +1,47 @@
 [
   {
+    "number": 175,
+    "character": "小黑猫",
+    "characterDetails": "小黑猫",
+    "franchise": "Not provided",
+    "category": "other",
+    "version": "v2",
+    "requestType": "Create a new community interpretation",
+    "referenceStatus": "",
+    "references": "https://uploadfile.bizhizu.cn/up/94/d1/5f/94d15ff8272722345a20abfe52084db4.jpg",
+    "referenceUrls": [
+      "https://uploadfile.bizhizu.cn/up/94/d1/5f/94d15ff8272722345a20abfe52084db4.jpg"
+    ],
+    "referenceImages": [
+      "https://uploadfile.bizhizu.cn/up/94/d1/5f/94d15ff8272722345a20abfe52084db4.jpg"
+    ],
+    "referenceThumbnails": [],
+    "visualDirection": "可爱。活泼",
+    "nameLanguages": "Let the maker decide",
+    "attribution": "Submitted without a GitHub account. Reference and attribution details should be confirmed during triage. Non-commercial use only.",
+    "duplicateCheck": "Repository automation or a maintainer should complete the duplicate check during triage.",
+    "state": "open",
+    "status": "triage",
+    "labels": [
+      "type: request",
+      "status: triage",
+      "version: v2",
+      "category: other"
+    ],
+    "author": {
+      "login": "github-actions[bot]",
+      "avatarUrl": "https://avatars.githubusercontent.com/in/15368?v=4",
+      "url": "https://github.com/apps/github-actions"
+    },
+    "assignees": [],
+    "createdAt": "2026-09-11T11:11:30Z",
+    "updatedAt": "2026-09-11T11:11:30Z",
+    "closedAt": null,
+    "comments": 0,
+    "reactions": 0,
+    "githubUrl": "https://github.com/legeling/awesome-codex-pet/issues/175"
+  },
+  {
     "number": 173,
     "character": "flying hamster unicorn",
     "characterDetails": "flying hamster unicorn",
