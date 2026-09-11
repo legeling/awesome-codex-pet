@@ -1,0 +1,55 @@
+name: Close PRs older than three months
+
+on:
+  schedule:
+    - cron: "17 2 * * *"
+  workflow_dispatch:
+
+permissions:
+  pull-requests: write
+
+concurrency:
+  group: close-old-prs
+  cancel-in-progress: false
+
+jobs:
+  close:
+    if: github.repository == 'legeling/awesome-codex-pet'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Close expired open PRs
+        uses: actions/github-script@v8
+        with:
+          retries: 2
+          script: |
+            const now = Date.now();
+            function expired(createdAt) {
+              const created = new Date(createdAt);
+              if (!Number.isFinite(created.getTime())) throw new Error("Invalid PR creation date");
+              const day = created.getUTCDate();
+              created.setUTCDate(1);
+              created.setUTCMonth(created.getUTCMonth() + 3);
+              const lastDay = new Date(Date.UTC(created.getUTCFullYear(), created.getUTCMonth() + 1, 0)).getUTCDate();
+              created.setUTCDate(Math.min(day, lastDay));
+              return created.getTime() < now;
+            }
+            const params = { ...context.repo, request: { timeout: 30000 } };
+            // Collect candidates before closing anything so pagination cannot skip PRs.
+            const candidates = [];
+            for await (const page of github.paginate.iterator(github.rest.pulls.list, {
+              ...params, state: "open", sort: "created", direction: "asc", per_page: 100,
+            })) {
+              for (const pr of page.data) {
+                if (expired(pr.created_at)) candidates.push(pr.number);
+              }
+            }
+            let closed = 0;
+            for (const number of candidates) {
+              const { data: pr } = await github.rest.pulls.get({ ...params, pull_number: number });
+              if (pr.state !== "open" || pr.merged || !expired(pr.created_at)) continue;
+              await github.rest.pulls.update({ ...params, pull_number: number, state: "closed" });
+              core.info(`Closed PR #${number}: created ${pr.created_at}`);
+              closed++;
+            }
+            await core.summary.addRaw(`Closed ${closed} PR(s) older than three calendar months.`).write();
