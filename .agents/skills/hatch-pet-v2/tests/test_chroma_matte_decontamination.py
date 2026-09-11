@@ -14,6 +14,20 @@ SPEC.loader.exec_module(DESPILL)
 
 
 class ChromaMatteDecontaminationTest(unittest.TestCase):
+    def test_mixed_key_rejection_preserves_native_alpha_rows(self) -> None:
+        image = Image.new("RGBA", (192, 416), (226, 176, 106, 255))
+        image.putpixel((96, 104), (255, 0, 255, 255))
+        image.putpixel((96, 312), (255, 0, 255, 255))
+        cleaned, report = DESPILL.decontaminate_mixed_atlas(
+            image,
+            chroma_key=(255, 0, 255),
+            row_background_modes=["transparent", "chroma"],
+            reject_key_similarity=0.4,
+        )
+        self.assertEqual(cleaned.getpixel((96, 104)), (255, 0, 255, 255))
+        self.assertEqual(cleaned.getpixel((96, 312)), (0, 0, 0, 0))
+        self.assertFalse(report["alpha_preserved"])
+
     def test_recovers_foreground_from_soft_keyed_edge_in_linear_light(self) -> None:
         alpha = 0.5
         foreground = (0.18, 0.55, 0.82)
