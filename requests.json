@@ -1,5 +1,45 @@
 [
   {
+    "number": 176,
+    "character": "求助大佬，感谢大佬圆梦",
+    "characterDetails": "尤诺",
+    "franchise": "鸣潮",
+    "category": "other",
+    "version": "v2",
+    "requestType": "",
+    "referenceStatus": "",
+    "references": "",
+    "referenceUrls": [],
+    "referenceImages": [
+      "https://github.com/user-attachments/assets/acb45385-5285-41cd-aa8a-d46c08eab48d"
+    ],
+    "referenceThumbnails": [],
+    "visualDirection": "",
+    "nameLanguages": "",
+    "attribution": "",
+    "duplicateCheck": "",
+    "state": "open",
+    "status": "triage",
+    "labels": [
+      "type: request",
+      "status: triage",
+      "version: v2",
+      "category: other"
+    ],
+    "author": {
+      "login": "JiangAChen",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/317743482?v=4",
+      "url": "https://github.com/JiangAChen"
+    },
+    "assignees": [],
+    "createdAt": "2026-09-11T16:04:18Z",
+    "updatedAt": "2026-09-11T16:05:01Z",
+    "closedAt": null,
+    "comments": 0,
+    "reactions": 0,
+    "githubUrl": "https://github.com/legeling/awesome-codex-pet/issues/176"
+  },
+  {
     "number": 175,
     "character": "小黑猫",
     "characterDetails": "小黑猫",
