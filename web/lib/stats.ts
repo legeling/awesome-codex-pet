@@ -349,7 +349,7 @@ export async function setCreatorFollowing(
   }
 }
 
-type LikeResult = {
+export type LikeResult = {
   slug: string;
   likes: number;
   liked: boolean;
@@ -357,6 +357,12 @@ type LikeResult = {
 };
 
 const likedMarker = (slug: string) => `awesome-codex-pet:stats:liked:${slug}`;
+export const PET_LIKE_CHANGED = "pet-like-changed";
+const confirmedLikes = new Map<string, LikeResult>();
+
+export function getConfirmedLike(slug: string) {
+  return confirmedLikes.get(slug);
+}
 
 export function hasLikedPet(slug: string) {
   if (typeof window === "undefined") return false;
@@ -398,6 +404,13 @@ export async function likePet(slug: string): Promise<LikeResult> {
     if (!result.liked) {
       throw new Error("Like API did not confirm the like");
     }
+
+    confirmedLikes.delete(slug);
+    confirmedLikes.set(slug, result);
+    if (confirmedLikes.size > 256) {
+      confirmedLikes.delete(confirmedLikes.keys().next().value!);
+    }
+    window.dispatchEvent(new Event(PET_LIKE_CHANGED));
 
     try {
       window.localStorage.setItem(likedMarker(slug), "1");
