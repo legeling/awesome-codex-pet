@@ -283,6 +283,16 @@
       "spritesheetWidth": 1536,
       "spritesheetHeight": 1872
     },
+    "crt-monitor--wxy": {
+      "name": "CRT Monitor",
+      "spriteVersionNumber": 2,
+      "petJsonSha256": "4c06c79fc615a0cf477b84cc2b2dbc2b640bae1a27691a1ab437b7e5fcdb8f15",
+      "petJsonBytes": 209,
+      "spritesheetSha256": "4027e21fb235f5bc5eb992e711531dfb2ac3641eeb1056e21e338c1b28806970",
+      "spritesheetBytes": 2410764,
+      "spritesheetWidth": 1536,
+      "spritesheetHeight": 2288
+    },
     "cyrene--lingxiaotian": {
       "name": "Cyrene",
       "spriteVersionNumber": 1,

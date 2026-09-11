@@ -344,6 +344,17 @@
     "spriteVersionNumber": 1
   },
   {
+    "slug": "crt-monitor--wxy",
+    "name": "CRT Monitor",
+    "localized_names": { "en": "CRT Monitor", "zh": "CRT 显示器" },
+    "author": "wxy",
+    "primary_category": "Robots",
+    "canonical_key": "original/wxy/crt-monitor",
+    "collections": [],
+    "license": "CC BY 4.0",
+    "spriteVersionNumber": 2
+  },
+  {
     "slug": "cyrene--lingxiaotian",
     "name": "Cyrene",
     "localized_names": { "en": "Cyrene", "zh": "昔涟" },
