@@ -22,6 +22,7 @@ if (
 }
 const rawBase = `https://raw.githubusercontent.com/legeling/awesome-codex-pet/${installRef}`;
 const websiteUrl = "https://codexpet.top";
+const readmeFeatured = readJson(join(repoRoot, "readme-featured.json")).pets;
 
 const categoryCatalog = JSON.parse(
   readFileSync(join(repoRoot, "categories.json"), "utf8"),
@@ -258,19 +259,28 @@ function categorySections(pets, lang) {
   for (const pet of pets) {
     groups.get(normalizeCategory(pet.primary_category))?.push(pet);
   }
-  // Bound README image requests independently of catalog growth.
-  const featured = [...groups.values()]
-    .filter((items) => items.length)
-    .slice(0, 12)
-    .map((items) => items[0]);
+  const bySlug = new Map(pets.map((pet) => [pet.slug, pet]));
+  if (readmeFeatured.length !== 15 || new Set(readmeFeatured).size !== 15) {
+    throw new Error("README requires exactly 15 unique featured pets");
+  }
+  const featured = readmeFeatured.map((slug) => {
+    const pet = bySlug.get(slug);
+    if (
+      !pet ||
+      !existsSync(join(repoRoot, "assets", "readme", `${slug}.gif`))
+    ) {
+      throw new Error(`Missing featured pet or README GIF: ${slug}`);
+    }
+    return pet;
+  });
   const rows = [];
-  for (let offset = 0; offset < featured.length; offset += 4) {
+  for (let offset = 0; offset < featured.length; offset += 5) {
     rows.push(
       `<tr>${featured
-        .slice(offset, offset + 4)
+        .slice(offset, offset + 5)
         .map((pet) => {
           const name = escapeHtml(localizedPetName(pet, lang));
-          return `<td align="center"><a href="${websiteUrl}/pets/${pet.slug}"><img src="${websiteUrl}/assets/previews/${pet.slug}/thumbnail.webp" alt="${name}" width="120" height="130"><br>${name}</a></td>`;
+          return `<td align="center" width="20%"><a href="${websiteUrl}/pets/${pet.slug}"><img src="${locale.rootPrefix}/assets/readme/${pet.slug}.gif" alt="${name}" width="160" height="173"><br>${name}</a></td>`;
         })
         .join("")}</tr>`,
     );
@@ -294,7 +304,7 @@ function categorySections(pets, lang) {
     })
     .join("\n\n");
   const galleryUrl = lang === "en" ? websiteUrl : `${websiteUrl}/${lang}`;
-  return `**[${browse} →](${galleryUrl})**\n\n<table>\n${rows.join("\n")}\n</table>\n\n<details>\n<summary>${index} · ${pets.length}</summary>\n\n${sections}\n\n</details>`;
+  return `**[${browse} →](${galleryUrl})**\n\n<table width="100%">\n${rows.join("\n")}\n</table>\n\n<details>\n<summary>${index} · ${pets.length}</summary>\n\n${sections}\n\n</details>`;
 }
 
 function englishReadme(pets) {

@@ -43,15 +43,20 @@ for (const relativePath of readmes) {
     );
   }
   const previews = [
-    ...content.matchAll(/<img\b[^>]*src="([^"]*\/assets\/previews\/[^" ]+)"/g),
+    ...content.matchAll(
+      /<img\b[^>]*src="([^"]*\/assets\/(?:readme|previews)\/[^" ]+)"/g,
+    ),
   ].map((match) => match[1]);
   if (
-    previews.length > 12 ||
-    (petCount > 0 && previews.length === 0) ||
-    previews.some((url) => !url.endsWith("/thumbnail.webp"))
+    previews.length !== 15 ||
+    new Set(previews).size !== 15 ||
+    previews.some((url) => !/\/assets\/readme\/[^/]+\.gif$/.test(url)) ||
+    !content.includes('<table width="100%">') ||
+    (content.match(/<td align="center" width="20%">/g)?.length ?? 0) !== 15 ||
+    (content.match(/<tr>/g)?.length ?? 0) !== 3
   ) {
     failures.push(
-      `${relativePath}: use 1–12 static pet thumbnails, never animation previews`,
+      `${relativePath}: use exactly 15 featured GIFs in a full-width 3-by-5 grid`,
     );
   }
   for (const label of languageLabels) {
