@@ -1,5 +1,49 @@
 [
   {
+    "number": 179,
+    "character": "我的小橘猫",
+    "characterDetails": "我的小橘猫",
+    "franchise": "Not provided",
+    "category": "other",
+    "version": "v2",
+    "requestType": "Create a new community interpretation",
+    "referenceStatus": "",
+    "references": "https://api.codexpet.top/uploads/reference/references/46d7da82112fd562d2061d19aa454237364263c2d4794ae2b878c9eddab788b2.jpg",
+    "referenceUrls": [
+      "https://api.codexpet.top/uploads/reference/references/46d7da82112fd562d2061d19aa454237364263c2d4794ae2b878c9eddab788b2.jpg"
+    ],
+    "referenceImages": [
+      "https://api.codexpet.top/uploads/reference/references/46d7da82112fd562d2061d19aa454237364263c2d4794ae2b878c9eddab788b2.jpg"
+    ],
+    "referenceThumbnails": [
+      "https://api.codexpet.top/uploads/reference/thumbnails/46d7da82112fd562d2061d19aa454237364263c2d4794ae2b878c9eddab788b2.webp"
+    ],
+    "visualDirection": "Let the community maker decide.",
+    "nameLanguages": "Let the maker decide",
+    "attribution": "Submitted without a GitHub account. Reference and attribution details should be confirmed during triage. Non-commercial use only.",
+    "duplicateCheck": "Repository automation or a maintainer should complete the duplicate check during triage.",
+    "state": "open",
+    "status": "triage",
+    "labels": [
+      "type: request",
+      "status: triage",
+      "version: v2",
+      "category: other"
+    ],
+    "author": {
+      "login": "github-actions[bot]",
+      "avatarUrl": "https://avatars.githubusercontent.com/in/15368?v=4",
+      "url": "https://github.com/apps/github-actions"
+    },
+    "assignees": [],
+    "createdAt": "2026-09-12T06:04:28Z",
+    "updatedAt": "2026-09-12T06:04:28Z",
+    "closedAt": null,
+    "comments": 0,
+    "reactions": 0,
+    "githubUrl": "https://github.com/legeling/awesome-codex-pet/issues/179"
+  },
+  {
     "number": 178,
     "character": "塑心：阿尔图罗",
     "characterDetails": "塑心：阿尔图罗",
