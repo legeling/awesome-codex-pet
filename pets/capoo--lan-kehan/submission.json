@@ -1,0 +1,26 @@
+{
+  "slug": "capoo--lan-kehan",
+  "pet_slug": "capoo",
+  "author_slug": "lan-kehan",
+  "name": "Bugcat Capoo",
+  "localized_names": {
+    "en": "Bugcat Capoo",
+    "zh": "猫猫虫咖波"
+  },
+  "author": "lan-kehan",
+  "author_handle": "lan-kehan",
+  "author_url": "https://github.com/lan-kehan",
+  "primary_category": "Mascots",
+  "canonical_key": "fictional/bugcat-capoo/capoo",
+  "tags": ["mascot", "cat", "cute", "v1"],
+  "source_type": "ai-generated-fan-art",
+  "source_url": "https://www.bugcatcapoo.com/",
+  "license": "Non-commercial use only. Bugcat Capoo character rights and trademarks remain with their respective owners.",
+  "description": "An independently AI-generated Codex pet inspired by the blue six-legged Bugcat Capoo character; official reference pixels are not included.",
+  "preview_image": "../../assets/previews/capoo--lan-kehan/gifs/idle.gif",
+  "spritesheet_sha256": "3e348653060557a34b83cb2839c909218d4c830d1357f83203fb964b8b4dea0b",
+  "codex_install": {
+    "pet_json": "pet.json",
+    "spritesheet": "spritesheet.webp"
+  }
+}
