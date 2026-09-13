@@ -12,7 +12,7 @@
   "canonical_key": "original/wxy/crt-monitor",
   "tags": ["robot", "retro-computing", "crt", "coding"],
   "source_type": "original",
-  "source_url": "https://github.com/wxy/crt-monitor-codex-pet/blob/main/assets/source-design.png",
+  "source_url": "https://github.com/wxy/codex-pets/blob/main/pets/crt-monitor/assets/source-design.png",
   "license": "CC BY 4.0",
   "preview_image": "../../assets/previews/crt-monitor--wxy/gifs/idle.gif",
   "codex_install": {
