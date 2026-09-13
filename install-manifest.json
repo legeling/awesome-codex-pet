@@ -1245,13 +1245,13 @@
     },
     "rem--l1": {
       "name": "Rem",
-      "spriteVersionNumber": 1,
-      "petJsonSha256": "6c7ae151fd38668e19818b2d5c4234f626425b4297c75c4b7634adbef6c2395f",
+      "spriteVersionNumber": 2,
+      "petJsonSha256": "7def9f89454861074debf6c94188118af921e8ab90860c7fb66dc73a1a519cd5",
       "petJsonBytes": 286,
-      "spritesheetSha256": "fd3eeb0fe31214eee47429f10e866dd9d1877b94fb4df05b0d379b873e4e22b5",
-      "spritesheetBytes": 1929012,
+      "spritesheetSha256": "375873b0beaacb057e5e81501a3d2186029686ab4faaa51660b0f3219d334f22",
+      "spritesheetBytes": 2222226,
       "spritesheetWidth": 1536,
-      "spritesheetHeight": 1872
+      "spritesheetHeight": 2288
     },
     "remielle-dan--erlla": {
       "name": "Remielle-Dan / Leimi",

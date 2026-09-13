@@ -1,0 +1,5 @@
+__pycache__/
+*.pyc
+app.asar
+*.tmp
+last-position.json

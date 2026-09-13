@@ -12,7 +12,7 @@
   "author_url": "https://codex-pets.net/users/l1",
   "primary_category": "Anime Characters",
   "canonical_key": "re-zero/rem",
-  "tags": ["anime", "re-zero", "rem", "maid", "v1", "codex-pets"],
+  "tags": ["anime", "re-zero", "rem", "maid", "v2", "codex-pets"],
   "collections": ["re-zero"],
   "source_type": "codex-pets-community-upload-authorized",
   "source_url": "https://codex-pets.net/share/cute-rem",
@@ -39,12 +39,21 @@
     "manifestBytes": 279,
     "spritesheetBytes": 1929012
   },
-  "spritesheet_sha256": "fd3eeb0fe31214eee47429f10e866dd9d1877b94fb4df05b0d379b873e4e22b5",
+  "spritesheet_sha256": "375873b0beaacb057e5e81501a3d2186029686ab4faaa51660b0f3219d334f22",
+  "v2_upgrade": {
+    "contributor": "wu5810222-alt",
+    "date": "2026-09-13",
+    "source": "Existing l1 Rem v1 atlas; AI-generated directional rows using imagegen",
+    "changes": "Retained the nine standard animation sequences, applied transparent-edge cleanup, and added 16 clockwise look directions in rows 9-10. Standard rows are not byte-identical to the original atlas.",
+    "atlas_size": "1536x2288",
+    "validation": "Atlas and visual QA passed; subtle intermediate directions and minor adjacent-frame crown variation accepted as warnings.",
+    "original_spritesheet_sha256": "fd3eeb0fe31214eee47429f10e866dd9d1877b94fb4df05b0d379b873e4e22b5"
+  },
   "codex_install": {
     "pet_json": "pet.json",
     "spritesheet": "spritesheet.webp"
   },
-  "edge_cleanup": {
+  "original_v1_edge_cleanup": {
     "status": "completed",
     "processed_at": "2026-07-18",
     "algorithm": "edge-local chroma-spill suppression per 192x208 cell",
