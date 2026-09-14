@@ -1,0 +1,22 @@
+{
+  "slug": "ai-pulse--wxy",
+  "pet_slug": "ai-pulse",
+  "author_slug": "wxy",
+  "name": "AI Pulse",
+  "localized_names": {
+    "en": "AI Pulse",
+    "zh": "AI Pulse"
+  },
+  "author": "wxy",
+  "primary_category": "Robots",
+  "canonical_key": "original/wxy/ai-pulse",
+  "tags": ["robot", "ai-pulse", "electric", "floating-limbs", "coding"],
+  "source_type": "original",
+  "source_url": "https://github.com/wxy/codex-pets/tree/081964eda18fa7e4d6d1686d12d2924509ddffa2/pets/ai-pulse",
+  "license": "Non-commercial personal use only; redistribution and derivatives require permission.",
+  "preview_image": "../../assets/previews/ai-pulse--wxy/gifs/idle.gif",
+  "codex_install": {
+    "pet_json": "pet.json",
+    "spritesheet": "spritesheet.webp"
+  }
+}
