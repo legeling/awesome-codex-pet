@@ -1,0 +1,34 @@
+{
+  "slug": "uesugi-erii--ricardo-2005",
+  "pet_slug": "uesugi-erii",
+  "author_slug": "ricardo-2005",
+  "name": "上杉绘梨衣codex宠物",
+  "author": "Ricardo-2005",
+  "author_handle": "Ricardo-2005",
+  "author_url": "https://github.com/Ricardo-2005",
+  "primary_category": "Anime Characters",
+  "canonical_key": "dragon-raja/uesugi-erii",
+  "tags": [
+    "dragon-raja",
+    "uesugi-erii",
+    "anime",
+    "fan-art",
+    "red-hair",
+    "pixel-art",
+    "ai-generated",
+    "v2",
+    "look-directions"
+  ],
+  "collections": [],
+  "source_type": "ai-generated fan-art",
+  "source_url": "",
+  "source_note": "Independently AI-generated fan-art interpretation prepared by Ricardo-2005. The final spritesheet contains no source images, private references, prompts, local paths, logs, or identifying metadata.",
+  "license": "CC BY-NC 4.0；仅限非商业使用。非官方 AI 同人作品，不代表或暗示获得原作品权利方授权；角色及商标权利归其权利人所有。",
+  "description": "上杉绘梨衣的非官方 AI 同人 Codex 桌面宠物，包含完整的 v2 动画与 16 个观察方向。",
+  "preview_image": "../../assets/previews/uesugi-erii--ricardo-2005/gifs/idle.gif",
+  "codex_install": {
+    "pet_json": "pet.json",
+    "spritesheet": "spritesheet.webp"
+  },
+  "spritesheet_sha256": "584ad142250b0bf601faa876618e38468de77dd5d7cc4e149e3cad1544f4b253"
+}
