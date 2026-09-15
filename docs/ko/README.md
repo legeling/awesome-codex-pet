@@ -207,7 +207,7 @@ curl -fsSL --proto '=https' --tlsv1.2 https://raw.githubusercontent.com/legeling
 <li><a href="../../pets/miku--lingxiaotian">Miku</a> · 제작자 <a href="https://github.com/legeling">@legeling</a> · v1</li>
 <li><a href="../../pets/misaka-network--ldl1234">Misaka Network</a> · 제작자 <a href="https://github.com/ldl1234">@ldl1234</a> · v2</li>
 <li><a href="../../pets/nimbus--soraberu">Nimbus</a> · 제작자 <a href="https://codex-pets.net/users/soraberu">@soraberu</a> · v1</li>
-<li><a href="../../pets/rem--l1">Rem</a> · 제작자 <a href="https://codex-pets.net/users/l1">@l1</a> · v1</li>
+<li><a href="../../pets/rem--l1">Rem</a> · 제작자 <a href="https://codex-pets.net/users/l1">@l1</a> · v2</li>
 <li><a href="../../pets/rinami--siiverash">Rinami Himesaki</a> · 제작자 <a href="https://github.com/SiIverAsh">@SiIverAsh</a> · v1</li>
 <li><a href="../../pets/roxy-pixel--gravity">Roxy Pixel</a> · 제작자 @gravity · v1</li>
 <li><a href="../../pets/saber--petdex-zhenyou-ling">Saber</a> · 제작자 @真宵 绫. · v1</li>

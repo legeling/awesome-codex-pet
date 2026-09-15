@@ -1,0 +1,12 @@
+{
+  "KPlugin": {
+    "Id": "codex-pet-window",
+    "Name": "Codex pet window",
+    "Description": "Keep the identified Codex pet overlay above windows and out of task lists.",
+    "Version": "1.0",
+    "License": "MIT"
+  },
+  "X-Plasma-API": "javascript",
+  "X-Plasma-MainScript": "code/main.js",
+  "KPackageStructure": "KWin/Script"
+}
