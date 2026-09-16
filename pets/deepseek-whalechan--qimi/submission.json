@@ -1,0 +1,45 @@
+{
+  "slug": "deepseek-whalechan--qimi",
+  "pet_slug": "deepseek-whalechan",
+  "author_slug": "qimi",
+  "name": "DeepSeek Whalechan",
+  "localized_names": {
+    "en": "DeepSeek Whalechan",
+    "zh": "蓝色大肥鱼·Q版女仆"
+  },
+  "author": "qimi",
+  "author_handle": "qishichuan",
+  "author_url": "https://github.com/qishichuan",
+  "primary_category": "Others",
+  "canonical_key": "brand/deepseek/deepseek-girl",
+  "variant_note": "An independent qimi variant of the existing DeepSeek whale-girl entry: a super-deformed blue maid design with a notebook/ChatGPT mark and a distinct running row whose row1 frames are mirrored from row2. The spritesheet is independently generated and byte-distinct from the existing entry.",
+  "tags": [
+    "deepseek",
+    "whale",
+    "whale-girl",
+    "maid",
+    "blue-hair",
+    "chibi",
+    "notebook",
+    "ai-generated",
+    "codex-v2",
+    "look-directions"
+  ],
+  "collections": [],
+  "source_type": "independent-ai-generated-community-interpretation",
+  "source_url": "",
+  "asset_note": "The final runtime spritesheet was independently AI-generated and assembled with the Codex Hatch Pet v2 workflow. The current row1 is a framewise horizontal mirror of the approved row2 for directional consistency. No pixels from the Douyin reference video or existing DeepSeek artwork were directly reused.",
+  "reference_note": "The blue whale-maid concept and the attached notebook/ChatGPT-mark idea were used only as visual references. The final pet is an independent community interpretation, not official DeepSeek artwork; the reference video/image author is not being credited as the pet author.",
+  "license": "Independent AI-generated community interpretation; non-commercial use only. Commercial use is prohibited.",
+  "description": "A super-deformed blue whale-maid community pet with a notebook, whale fins and tail, nine task animations, and sixteen clockwise look directions.",
+  "preview_image": "../../assets/previews/deepseek-whalechan--qimi/gifs/idle.gif",
+  "codex_install": {
+    "pet_json": "pet.json",
+    "spritesheet": "spritesheet.webp"
+  },
+  "preview_assets": {
+    "contact_sheet": "../../assets/previews/deepseek-whalechan--qimi/contact-sheet.png",
+    "gifs_dir": "../../assets/previews/deepseek-whalechan--qimi/gifs"
+  },
+  "spritesheet_sha256": "f44e16e58c4a20a2717824df8f1f2d9f11f684717cad68083656bba955c5e680"
+}
