@@ -1,0 +1,35 @@
+{
+  "slug": "riceball-maid--qishichuan",
+  "pet_slug": "riceball-maid",
+  "author_slug": "qishichuan",
+  "name": "DeepSeek钢盆饭团",
+  "localized_names": {
+    "en": "DeepSeek Steel-Bowl Riceball",
+    "zh": "DeepSeek钢盆饭团"
+  },
+  "author": "qishichuan",
+  "author_handle": "qishichuan",
+  "author_url": "https://github.com/qishichuan",
+  "primary_category": "Mascots",
+  "canonical_key": "original/qishichuan/deepseek-steel-bowl-riceball",
+  "tags": [
+    "animated",
+    "mascot",
+    "blue-fish",
+    "riceball",
+    "steel-bowl",
+    "token",
+    "deepseek",
+    "v2"
+  ],
+  "source_type": "original-ai-generated",
+  "source_url": "",
+  "license": "Independent AI-generated artwork based on user-provided references; personal and repository use only; non-commercial use only.",
+  "description": "蓝色大肥鱼造型的钢盆饭团小女仆：头戴银色钢盆，最爱大口吃白饭，也喜欢偷偷私藏蓝白 token；工作时急切地取出饭团享用，等待时用木勺敲击铜色平底锅，移动或晃动时 token 会不小心掉落，被鼠标拖动时倒置下垂。",
+  "variant_note": "独立制作的 v2 版本；包含吃饭团、敲勺子和平底锅、倒置拖动，以及直立慌张掉落 token 等定制动作。",
+  "codex_install": {
+    "pet_json": "pet.json",
+    "spritesheet": "spritesheet.webp"
+  },
+  "spritesheet_sha256": "9ff7cc2f2b4e8695bde4d50df436cb7d8d050fb6eb9251f525161dba96178915"
+}
