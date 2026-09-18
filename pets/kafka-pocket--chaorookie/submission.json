@@ -1,0 +1,21 @@
+{
+  "slug": "kafka-pocket--chaorookie",
+  "pet_slug": "kafka-pocket",
+  "author_slug": "chaorookie",
+  "name": "Kafka Pocket",
+  "localized_names": { "en": "Kafka Pocket", "zh": "卡芙卡 · 口袋伙伴" },
+  "author": "chaoRookie",
+  "author_handle": "chaoRookie",
+  "author_url": "https://github.com/chaoRookie",
+  "primary_category": "Game Characters",
+  "canonical_key": "fictional/honkai-star-rail/kafka",
+  "variant_note": "chaoRookie 的 Kafka Pocket 像素 Q 版修订版；保留酒红发、圆墨镜与黑白外套造型，采用 V1 九行动画；从原始生成素材重提取完整跳跃帧，恢复左跑镜像的正向帧序，并修复跑步与失败动作中的横向位置跳变。",
+  "tags": ["anime", "honkai-star-rail", "pixel-art"],
+  "collections": ["honkai-star-rail"],
+  "source_type": "fan-art",
+  "source_url": "",
+  "license": "仅限非商业使用，禁止商用。角色及原作相关权利归原权利人所有。",
+  "description": "《崩坏：星穹铁道》卡芙卡的像素 Q 版 Codex 宠物。最终资产署名投稿与适配作者 chaoRookie；根据保留的 2026 年 5 月本地制作记录，主体参考与八个动作源由内置 imagegen 生成，左跑由右跑镜像派生。本次沿用这些生成像素，重新提取并装配跳跃帧、修正镜像帧序与位置注册，不把角色原作或参考图作者署为本宠物作者。角色参考仅用于制作，不随包上传；本次没有引入第三方现成宠物图集。仅限非商业使用。",
+  "preview_image": "../../assets/previews/kafka-pocket--chaorookie/gifs/idle.gif",
+  "codex_install": { "pet_json": "pet.json", "spritesheet": "spritesheet.webp" }
+}
