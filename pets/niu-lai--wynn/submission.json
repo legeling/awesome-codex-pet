@@ -1,0 +1,21 @@
+{
+  "slug": "niu-lai--wynn",
+  "pet_slug": "niu-lai",
+  "author_slug": "wynn",
+  "name": "Niu Lai",
+  "author": "wynn",
+  "author_url": "https://github.com/zhou-jianwen",
+  "primary_category": "Anime Characters",
+  "canonical_key": "meme/niulai",
+  "variant_note": "An independently AI-generated version by wynn, distinct from niulai--legeling: a fuzzy orange calf with a broad lilac muzzle and heavy-lidded eyes, restrained thinking and review gestures, nine animation states, and sixteen v2 look directions. No sprites or frames from the existing package were reused.",
+  "tags": ["fan-art", "3d", "ai-generated", "orange", "v2"],
+  "source_type": "fan-art",
+  "source_url": "https://www.sixthtone.com/news/1018905",
+  "source_notes": "The final sprites were AI-generated from film-character visual references and prepared for Codex by wynn. The linked article provides film context, not asset provenance or permission. Reference images are not included. Rights in the underlying film character and reference imagery belong to their respective rightsholders.",
+  "license": "Non-commercial use and redistribution only, with credit to wynn, to the extent wynn holds rights in this contribution. The underlying Niu Lai film character and reference imagery remain subject to third-party rights; no permission from their rightsholders is asserted or granted. Unofficial fan art; no affiliation or endorsement. These terms do not establish third-party rights clearance.",
+  "preview_image": "../../assets/previews/niu-lai--wynn/gifs/idle.gif",
+  "codex_install": {
+    "pet_json": "pet.json",
+    "spritesheet": "spritesheet.webp"
+  }
+}
