@@ -1,0 +1,36 @@
+{
+    "slug":  "ouyang-hui--backer-123",
+    "pet_slug":  "ouyang-hui",
+    "author_slug":  "backer-123",
+    "name":  "Ouyang Hui",
+    "localized_names":  {
+                            "en":  "Ouyang Hui",
+                            "zh":  "欧阳慧"
+                        },
+    "author":  "Wang Ruijin",
+    "author_handle":  "backer-123",
+    "author_url":  "https://github.com/backer-123",
+    "primary_category":  "Original Characters",
+    "canonical_key":  "original/backer-123/ouyang-hui",
+    "tags":  [
+                 "original-character",
+                 "school-uniform",
+                 "black-hair",
+                 "plaid-skirt",
+                 "phone",
+                 "bunny-charm"
+             ],
+    "source_type":  "ai-generated-original",
+    "source_url":  "",
+    "license":  "Non-commercial use only.",
+    "description":  "An original AI-generated Codex pet inspired by a private reference photo: black academy-style cardigan, white ribbon collar, plaid skirt, phone, shoulder bag, and a white long-eared bunny charm.",
+    "preview_image":  "../../assets/previews/ouyang-hui--backer-123/gifs/idle.gif",
+    "codex_install":  {
+                          "pet_json":  "pet.json",
+                          "spritesheet":  "spritesheet.webp"
+                      },
+    "preview_assets":  {
+                           "contact_sheet":  "../../assets/previews/ouyang-hui--backer-123/contact-sheet.png",
+                           "gifs_dir":  "../../assets/previews/ouyang-hui--backer-123/gifs"
+                       }
+}
