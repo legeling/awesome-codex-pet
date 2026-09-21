@@ -1,43 +1,5 @@
 [
   {
-    "number": 191,
-    "character": "小熊虫",
-    "characterDetails": "小熊虫（申请人使用的称呼，正式角色名尚未核实）。希望以参考图中的形象制作一只 Codex 宠物。",
-    "franchise": "",
-    "category": "other",
-    "version": "v2",
-    "requestType": "",
-    "referenceStatus": "",
-    "references": "",
-    "referenceUrls": [],
-    "referenceImages": [],
-    "referenceThumbnails": [],
-    "visualDirection": "",
-    "nameLanguages": "",
-    "attribution": "",
-    "duplicateCheck": "",
-    "state": "open",
-    "status": "in-progress",
-    "labels": [
-      "type: request",
-      "status: in-progress",
-      "version: v2",
-      "category: other"
-    ],
-    "author": {
-      "login": "wildcat299",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/309649651?v=4",
-      "url": "https://github.com/wildcat299"
-    },
-    "assignees": [],
-    "createdAt": "2026-09-15T12:36:42Z",
-    "updatedAt": "2026-09-21T10:04:01Z",
-    "closedAt": null,
-    "comments": 1,
-    "reactions": 0,
-    "githubUrl": "https://github.com/legeling/awesome-codex-pet/issues/191"
-  },
-  {
     "number": 200,
     "character": "哥哥",
     "characterDetails": "哥哥",
@@ -1432,6 +1394,44 @@
     "comments": 0,
     "reactions": 0,
     "githubUrl": "https://github.com/legeling/awesome-codex-pet/issues/91"
+  },
+  {
+    "number": 191,
+    "character": "小熊虫",
+    "characterDetails": "小熊虫（申请人使用的称呼，正式角色名尚未核实）。希望以参考图中的形象制作一只 Codex 宠物。",
+    "franchise": "",
+    "category": "other",
+    "version": "v2",
+    "requestType": "",
+    "referenceStatus": "",
+    "references": "",
+    "referenceUrls": [],
+    "referenceImages": [],
+    "referenceThumbnails": [],
+    "visualDirection": "",
+    "nameLanguages": "",
+    "attribution": "",
+    "duplicateCheck": "",
+    "state": "closed",
+    "status": "completed",
+    "labels": [
+      "type: request",
+      "status: completed",
+      "version: v2",
+      "category: other"
+    ],
+    "author": {
+      "login": "wildcat299",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/309649651?v=4",
+      "url": "https://github.com/wildcat299"
+    },
+    "assignees": [],
+    "createdAt": "2026-09-15T12:36:42Z",
+    "updatedAt": "2026-09-21T14:47:00Z",
+    "closedAt": "2026-09-21T14:46:39Z",
+    "comments": 3,
+    "reactions": 0,
+    "githubUrl": "https://github.com/legeling/awesome-codex-pet/issues/191"
   },
   {
     "number": 195,
