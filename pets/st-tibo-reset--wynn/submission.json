@@ -1,0 +1,20 @@
+{
+  "slug": "st-tibo-reset--wynn",
+  "pet_slug": "st-tibo-reset",
+  "author_slug": "wynn",
+  "name": "St. Tibo Reset",
+  "author": "wynn",
+  "primary_category": "Memes",
+  "canonical_key": "memes/saint-tibo",
+  "variant_note": "An independently generated, seated v2 interpretation with a green-and-gold robe, a physical red RESET button, nine standard animation states, and sixteen look directions.",
+  "description": "A serene, cross-legged Tibo in green and gold robes, ready to press his big red RESET button and give your work a fresh start. Independently AI-generated from a user-supplied public Saint Tibo meme reference; the reference was used for visual guidance only and is not included in this package.",
+  "tags": ["meme", "human", "3d", "green"],
+  "source_type": "ai-generated",
+  "source_url": "https://pbs.twimg.com/media/HSnJlJgWIAE4g_4?format=jpg&name=medium",
+  "license": "Non-commercial use and redistribution only, with credit to wynn, to the extent the contributor holds rights in this work. Reference imagery and the depicted person's rights remain with their respective rightsholders and are not licensed by this submission. Unofficial fan art; no affiliation or endorsement is claimed. These terms do not establish third-party rights clearance. Please contact the contributor or maintainers with rights concerns so the submission can be reviewed, revised, or removed.",
+  "preview_image": "../../assets/previews/st-tibo-reset--wynn/gifs/idle.gif",
+  "codex_install": {
+    "pet_json": "pet.json",
+    "spritesheet": "spritesheet.webp"
+  }
+}
