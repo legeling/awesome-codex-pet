@@ -1,0 +1,40 @@
+{
+  "slug": "saitama-pixel--patrickxunuo",
+  "pet_slug": "saitama-pixel",
+  "author_slug": "patrickxunuo",
+  "name": "Saitama Pixel",
+  "author": "patrickxunuo",
+  "author_handle": "patrickxunuo",
+  "author_url": "https://github.com/patrickxunuo",
+  "primary_category": "Anime Characters",
+  "canonical_key": "one-punch-man/saitama",
+  "variant_note": "An independently AI-generated pixel-chibi v2 interpretation with its own nine animation rows and 16 look directions; visually distinct from the submitter's separate 3D toy version.",
+  "tags": [
+    "anime",
+    "one-punch-man",
+    "saitama",
+    "pixel-art",
+    "chibi",
+    "ai-generated",
+    "fan-art",
+    "codex-v2",
+    "look-directions"
+  ],
+  "collections": [],
+  "source_type": "independent-ai-generated-fan-art",
+  "source_url": "",
+  "asset_note": "The final spritesheet was independently AI-generated, directed, adapted, assembled, and validated for patrickxunuo. No third-party image pixels were cropped, traced, enhanced, or reused in the final atlas.",
+  "reference_note": "A user-provided gallery screenshot guided pixel-chibi proportions and rendering style only. A separately generated Saitama pet guided character and costume identity only. Neither reference is included in this package or credited as the final pet artwork.",
+  "license": "Non-commercial use only. Unofficial One-Punch Man fan art; character rights remain with their respective owners.",
+  "description": "A pixel-chibi Saitama fan-art Codex pet with an oversized bald head, deadpan expression, yellow hero suit, white cape, nine animations, and 16 clockwise look directions.",
+  "preview_image": "../../assets/previews/saitama-pixel--patrickxunuo/gifs/idle.gif",
+  "codex_install": {
+    "pet_json": "pet.json",
+    "spritesheet": "spritesheet.webp"
+  },
+  "preview_assets": {
+    "contact_sheet": "../../assets/previews/saitama-pixel--patrickxunuo/contact-sheet.png",
+    "gifs_dir": "../../assets/previews/saitama-pixel--patrickxunuo/gifs"
+  },
+  "spritesheet_sha256": "052b0d880ee4749c2913184ba8e2e9dadf8ba119c21fd69ee80946d89dbf6add"
+}
