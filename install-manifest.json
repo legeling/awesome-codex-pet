@@ -131,6 +131,17 @@
       "spritesheetWidth": 1536,
       "spritesheetHeight": 1872
     },
+    "bearisbug--huanghan": {
+      "name": "bearisbug",
+      "localizedNames": { "en": "bearisbug", "zh": "小熊虫" },
+      "spriteVersionNumber": 2,
+      "petJsonSha256": "6021685e8b55aa88338217f1a4ddd2a20d05d74fe5784103f518ae88138058dc",
+      "petJsonBytes": 589,
+      "spritesheetSha256": "1874714b20e1267773e65039de20c3cd6280fe33f58d9c4410192acf4adfab0d",
+      "spritesheetBytes": 2259272,
+      "spritesheetWidth": 1536,
+      "spritesheetHeight": 2288
+    },
     "becky--natewanggg": {
       "name": "Becky",
       "spriteVersionNumber": 1,
@@ -1275,6 +1286,16 @@
       "spritesheetBytes": 2236764,
       "spritesheetWidth": 1536,
       "spritesheetHeight": 1872
+    },
+    "niu-lai--wynn": {
+      "name": "Niu Lai",
+      "spriteVersionNumber": 2,
+      "petJsonSha256": "0128c1ec9983fe5539a77815fc3afab904d6b04c2696d88577f537f37e07c96e",
+      "petJsonBytes": 259,
+      "spritesheetSha256": "75b1809e88d6e4bebcb040f9a3dcffdb1eed1964dd86366527bb95ea7d26b575",
+      "spritesheetBytes": 2220468,
+      "spritesheetWidth": 1536,
+      "spritesheetHeight": 2288
     },
     "om-nom--kasyan1337": {
       "name": "Om Nom",

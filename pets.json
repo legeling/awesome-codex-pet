@@ -147,6 +147,21 @@
     "spriteVersionNumber": 1
   },
   {
+    "slug": "bearisbug--huanghan",
+    "name": "bearisbug",
+    "localized_names": { "en": "bearisbug", "zh": "小熊虫" },
+    "author": "huanghan",
+    "author_handle": "hanhuang22",
+    "author_url": "https://github.com/hanhuang22",
+    "primary_category": "Mascots",
+    "canonical_key": "fictional/bearisbug",
+    "variant_note": "An independently AI-generated v2 Codex pet adaptation submitted by huanghan, with nine standard animation rows and 16 look directions; no source-image pixels are included.",
+    "collections": [],
+    "license": "Non-commercial use only. This independently AI-generated fan adaptation is submitted for repository review; no formal permission or redistribution authorization from the character rights holder is claimed or implied. No source-image pixels are included.",
+    "description": "小熊虫，英文名bearisbug，是一只能安于各种现状的生物，但他时常困惑自己是熊还是虫。在生活中，小熊虫总会快速找到舒适的姿势躺下，即便有六只手脚却没有一只喜欢干正事。随遇而安是它的美德，乐观开朗是它的处世之道，作为社恐的它，也经常有情绪敏感的体现。身为一只懒虫，船到桥头自然直是小熊的“虫生格言”。",
+    "spriteVersionNumber": 2
+  },
+  {
     "slug": "becky--natewanggg",
     "name": "Becky",
     "author": "NateWanggg",
@@ -1511,6 +1526,18 @@
     "license": "Non-commercial repository redistribution authorized by the original asset creator; permission confirmed by the repository maintainer on 2026-07-18.",
     "description": "A tiny chibi martial-arts kid riding a golden cloud companion.",
     "spriteVersionNumber": 1
+  },
+  {
+    "slug": "niu-lai--wynn",
+    "name": "Niu Lai",
+    "author": "wynn",
+    "author_url": "https://github.com/zhou-jianwen",
+    "primary_category": "Anime Characters",
+    "canonical_key": "meme/niulai",
+    "variant_note": "An independently AI-generated version by wynn, distinct from niulai--legeling: a fuzzy orange calf with a broad lilac muzzle and heavy-lidded eyes, restrained thinking and review gestures, nine animation states, and sixteen v2 look directions. No sprites or frames from the existing package were reused.",
+    "collections": [],
+    "license": "Non-commercial use and redistribution only, with credit to wynn, to the extent wynn holds rights in this contribution. The underlying Niu Lai film character and reference imagery remain subject to third-party rights; no permission from their rightsholders is asserted or granted. Unofficial fan art; no affiliation or endorsement. These terms do not establish third-party rights clearance.",
+    "spriteVersionNumber": 2
   },
   {
     "slug": "om-nom--kasyan1337",
