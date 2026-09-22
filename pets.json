@@ -1777,6 +1777,20 @@
     "spriteVersionNumber": 1
   },
   {
+    "slug": "saitama-pixel--patrickxunuo",
+    "name": "Saitama Pixel",
+    "author": "patrickxunuo",
+    "author_handle": "patrickxunuo",
+    "author_url": "https://github.com/patrickxunuo",
+    "primary_category": "Anime Characters",
+    "canonical_key": "one-punch-man/saitama",
+    "variant_note": "An independently AI-generated pixel-chibi v2 interpretation with its own nine animation rows and 16 look directions; visually distinct from the submitter's separate 3D toy version.",
+    "collections": [],
+    "license": "Non-commercial use only. Unofficial One-Punch Man fan art; character rights remain with their respective owners.",
+    "description": "A pixel-chibi Saitama fan-art Codex pet with an oversized bald head, deadpan expression, yellow hero suit, white cape, nine animations, and 16 clockwise look directions.",
+    "spriteVersionNumber": 2
+  },
+  {
     "slug": "sakamoto--zpzjzj",
     "name": "Sakamoto",
     "localized_names": { "en": "Sakamoto", "zh": "阪本" },
@@ -1953,6 +1967,18 @@
     "license": "Unknown license; public Codex Pets upload; no explicit repository redistribution license was provided.",
     "description": "An open magical book that talks without eyes, carrying quiet wisdom with small attached magic around its pages.",
     "spriteVersionNumber": 1
+  },
+  {
+    "slug": "st-tibo-reset--wynn",
+    "name": "St. Tibo Reset",
+    "author": "wynn",
+    "primary_category": "Memes",
+    "canonical_key": "memes/saint-tibo",
+    "variant_note": "An independently generated, seated v2 interpretation with a green-and-gold robe, a physical red RESET button, nine standard animation states, and sixteen look directions.",
+    "collections": [],
+    "license": "Non-commercial use and redistribution only, with credit to wynn, to the extent the contributor holds rights in this work. Reference imagery and the depicted person's rights remain with their respective rightsholders and are not licensed by this submission. Unofficial fan art; no affiliation or endorsement is claimed. These terms do not establish third-party rights clearance. Please contact the contributor or maintainers with rights concerns so the submission can be reviewed, revised, or removed.",
+    "description": "A serene, cross-legged Tibo in green and gold robes, ready to press his big red RESET button and give your work a fresh start. Independently AI-generated from a user-supplied public Saint Tibo meme reference; the reference was used for visual guidance only and is not included in this package.",
+    "spriteVersionNumber": 2
   },
   {
     "slug": "starcorn--alterhq",

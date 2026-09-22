@@ -1500,6 +1500,16 @@
       "spritesheetWidth": 1536,
       "spritesheetHeight": 1872
     },
+    "saitama-pixel--patrickxunuo": {
+      "name": "Saitama Pixel",
+      "spriteVersionNumber": 2,
+      "petJsonSha256": "21ce5444f5d993a427d30e421545c5321159c91318e45e9ba0f86706eeb04f58",
+      "petJsonBytes": 268,
+      "spritesheetSha256": "052b0d880ee4749c2913184ba8e2e9dadf8ba119c21fd69ee80946d89dbf6add",
+      "spritesheetBytes": 2173370,
+      "spritesheetWidth": 1536,
+      "spritesheetHeight": 2288
+    },
     "sakamoto--zpzjzj": {
       "name": "Sakamoto",
       "localizedNames": { "en": "Sakamoto", "zh": "阪本" },
@@ -1649,6 +1659,16 @@
       "spritesheetBytes": 2453628,
       "spritesheetWidth": 1536,
       "spritesheetHeight": 1872
+    },
+    "st-tibo-reset--wynn": {
+      "name": "St. Tibo Reset",
+      "spriteVersionNumber": 2,
+      "petJsonSha256": "df82d8f23c0da7105e8e63c93cd77446572f952e8ed1ccdc781357664b952083",
+      "petJsonBytes": 285,
+      "spritesheetSha256": "812f83e1ca0f93de2cfffa9c29525cfe6f8667d001e8cd106e2164f9de7ce25c",
+      "spritesheetBytes": 2783452,
+      "spritesheetWidth": 1536,
+      "spritesheetHeight": 2288
     },
     "starcorn--alterhq": {
       "name": "Starcorn",
