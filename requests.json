@@ -1,5 +1,45 @@
 [
   {
+    "number": 208,
+    "character": "Mini",
+    "characterDetails": "Mini",
+    "franchise": "",
+    "category": "other",
+    "version": "v2",
+    "requestType": "",
+    "referenceStatus": "",
+    "references": "",
+    "referenceUrls": [],
+    "referenceImages": [
+      "https://github.com/user-attachments/assets/6206e057-cea1-4764-a63c-ace45cf4b0d1"
+    ],
+    "referenceThumbnails": [],
+    "visualDirection": "",
+    "nameLanguages": "",
+    "attribution": "",
+    "duplicateCheck": "",
+    "state": "open",
+    "status": "triage",
+    "labels": [
+      "type: request",
+      "status: triage",
+      "version: v2",
+      "category: other"
+    ],
+    "author": {
+      "login": "ConnieChen6699",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/184342264?v=4",
+      "url": "https://github.com/ConnieChen6699"
+    },
+    "assignees": [],
+    "createdAt": "2026-09-23T01:21:59Z",
+    "updatedAt": "2026-09-23T01:22:07Z",
+    "closedAt": null,
+    "comments": 0,
+    "reactions": 0,
+    "githubUrl": "https://github.com/legeling/awesome-codex-pet/issues/208"
+  },
+  {
     "number": 200,
     "character": "哥哥",
     "characterDetails": "哥哥",
