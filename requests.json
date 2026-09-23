@@ -33,11 +33,55 @@
     },
     "assignees": [],
     "createdAt": "2026-09-23T01:21:59Z",
-    "updatedAt": "2026-09-23T01:22:07Z",
+    "updatedAt": "2026-09-23T04:16:00Z",
+    "closedAt": null,
+    "comments": 1,
+    "reactions": 0,
+    "githubUrl": "https://github.com/legeling/awesome-codex-pet/issues/208"
+  },
+  {
+    "number": 209,
+    "character": "Mini",
+    "characterDetails": "Mini",
+    "franchise": "Not provided",
+    "category": "other",
+    "version": "v2",
+    "requestType": "Create a new community interpretation",
+    "referenceStatus": "",
+    "references": "https://api.codexpet.top/uploads/reference/references/4de78c8dd2d353fbc39b93987a8d7b3c682ca9cc9ea96997613c775adfc828cf.jpg",
+    "referenceUrls": [
+      "https://api.codexpet.top/uploads/reference/references/4de78c8dd2d353fbc39b93987a8d7b3c682ca9cc9ea96997613c775adfc828cf.jpg"
+    ],
+    "referenceImages": [
+      "https://api.codexpet.top/uploads/reference/references/4de78c8dd2d353fbc39b93987a8d7b3c682ca9cc9ea96997613c775adfc828cf.jpg"
+    ],
+    "referenceThumbnails": [
+      "https://api.codexpet.top/uploads/reference/thumbnails/4de78c8dd2d353fbc39b93987a8d7b3c682ca9cc9ea96997613c775adfc828cf.webp"
+    ],
+    "visualDirection": "Let the community maker decide.",
+    "nameLanguages": "Let the maker decide",
+    "attribution": "Submitted without a GitHub account. Reference and attribution details should be confirmed during triage. Non-commercial use only.",
+    "duplicateCheck": "Repository automation or a maintainer should complete the duplicate check during triage.",
+    "state": "open",
+    "status": "triage",
+    "labels": [
+      "type: request",
+      "status: triage",
+      "version: v2",
+      "category: other"
+    ],
+    "author": {
+      "login": "github-actions[bot]",
+      "avatarUrl": "https://avatars.githubusercontent.com/in/15368?v=4",
+      "url": "https://github.com/apps/github-actions"
+    },
+    "assignees": [],
+    "createdAt": "2026-09-23T01:23:06Z",
+    "updatedAt": "2026-09-23T01:23:06Z",
     "closedAt": null,
     "comments": 0,
     "reactions": 0,
-    "githubUrl": "https://github.com/legeling/awesome-codex-pet/issues/208"
+    "githubUrl": "https://github.com/legeling/awesome-codex-pet/issues/209"
   },
   {
     "number": 200,
