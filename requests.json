@@ -1,5 +1,49 @@
 [
   {
+    "number": 211,
+    "character": "阿爾馮斯",
+    "characterDetails": "阿爾馮斯",
+    "franchise": "鋼之鍊金術師",
+    "category": "other",
+    "version": "v2",
+    "requestType": "Create a new community interpretation",
+    "referenceStatus": "",
+    "references": "https://api.codexpet.top/uploads/reference/references/cfcaf7f138db5d1fa8655ac2adaa296076bba20101c5a7d084bc390a3fd6f6b0.webp",
+    "referenceUrls": [
+      "https://api.codexpet.top/uploads/reference/references/cfcaf7f138db5d1fa8655ac2adaa296076bba20101c5a7d084bc390a3fd6f6b0.webp"
+    ],
+    "referenceImages": [
+      "https://api.codexpet.top/uploads/reference/references/cfcaf7f138db5d1fa8655ac2adaa296076bba20101c5a7d084bc390a3fd6f6b0.webp"
+    ],
+    "referenceThumbnails": [
+      "https://api.codexpet.top/uploads/reference/thumbnails/cfcaf7f138db5d1fa8655ac2adaa296076bba20101c5a7d084bc390a3fd6f6b0.webp"
+    ],
+    "visualDirection": "Let the community maker decide.",
+    "nameLanguages": "Let the maker decide",
+    "attribution": "Submitted without a GitHub account. Reference and attribution details should be confirmed during triage. Non-commercial use only.",
+    "duplicateCheck": "Repository automation or a maintainer should complete the duplicate check during triage.",
+    "state": "open",
+    "status": "triage",
+    "labels": [
+      "type: request",
+      "status: triage",
+      "version: v2",
+      "category: other"
+    ],
+    "author": {
+      "login": "github-actions[bot]",
+      "avatarUrl": "https://avatars.githubusercontent.com/in/15368?v=4",
+      "url": "https://github.com/apps/github-actions"
+    },
+    "assignees": [],
+    "createdAt": "2026-09-23T15:02:14Z",
+    "updatedAt": "2026-09-23T15:02:14Z",
+    "closedAt": null,
+    "comments": 0,
+    "reactions": 0,
+    "githubUrl": "https://github.com/legeling/awesome-codex-pet/issues/211"
+  },
+  {
     "number": 210,
     "character": "Pigman in Don't Starve Together",
     "characterDetails": "Pigman in Don't Starve Together",
