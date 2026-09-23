@@ -1,0 +1,41 @@
+{
+  "slug": "genos-pixel--patrickxunuo",
+  "pet_slug": "genos-pixel",
+  "author_slug": "patrickxunuo",
+  "name": "Genos Pixel",
+  "author": "patrickxunuo",
+  "author_handle": "patrickxunuo",
+  "author_url": "https://github.com/patrickxunuo",
+  "primary_category": "Anime Characters",
+  "canonical_key": "one-punch-man/genos",
+  "variant_note": "An independently AI-generated pixel-chibi v2 interpretation with nine animation rows and 16 clockwise look directions.",
+  "tags": [
+    "anime",
+    "one-punch-man",
+    "genos",
+    "cyborg",
+    "pixel-art",
+    "chibi",
+    "ai-generated",
+    "fan-art",
+    "codex-v2",
+    "look-directions"
+  ],
+  "collections": [],
+  "source_type": "independent-ai-generated-fan-art",
+  "source_url": "",
+  "asset_note": "The final spritesheet was independently AI-generated, directed, assembled, repaired, and validated for patrickxunuo. No third-party image pixels were cropped, traced, or reused in the final atlas.",
+  "reference_note": "The submitter's earlier Saitama Pixel pet guided the big-head pixel-chibi style. Genos character and costume cues were supplied in text. No reference image is included in this package or credited as the final pet artwork.",
+  "license": "Non-commercial use only. Unofficial One-Punch Man fan art; character rights remain with their respective owners.",
+  "description": "A cute Genos fan-art Codex pet with blond hair, amber eyes, a black outfit, compact mechanical arms, nine animations, and 16 clockwise look directions.",
+  "preview_image": "../../assets/previews/genos-pixel--patrickxunuo/gifs/idle.gif",
+  "codex_install": {
+    "pet_json": "pet.json",
+    "spritesheet": "spritesheet.webp"
+  },
+  "preview_assets": {
+    "contact_sheet": "../../assets/previews/genos-pixel--patrickxunuo/contact-sheet.png",
+    "gifs_dir": "../../assets/previews/genos-pixel--patrickxunuo/gifs"
+  },
+  "spritesheet_sha256": "e2644cbabc563da50c1031c6104b3d910c948f3d5b331e8938930352c3524098"
+}
