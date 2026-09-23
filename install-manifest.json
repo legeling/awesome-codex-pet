@@ -623,6 +623,16 @@
       "spritesheetWidth": 1536,
       "spritesheetHeight": 1872
     },
+    "genos-pixel--patrickxunuo": {
+      "name": "Genos Pixel",
+      "spriteVersionNumber": 2,
+      "petJsonSha256": "ace0df368709707eaaab8a801d176224d04ea6d42662bc5230177c89e097d335",
+      "petJsonBytes": 252,
+      "spritesheetSha256": "e2644cbabc563da50c1031c6104b3d910c948f3d5b331e8938930352c3524098",
+      "spritesheetBytes": 2292878,
+      "spritesheetWidth": 1536,
+      "spritesheetHeight": 2288
+    },
     "zhuzhuxia--ryde-play": {
       "name": "GG Bond",
       "localizedNames": { "en": "GG Bond", "zh": "猪猪侠" },

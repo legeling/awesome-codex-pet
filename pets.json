@@ -733,6 +733,20 @@
     "spriteVersionNumber": 1
   },
   {
+    "slug": "genos-pixel--patrickxunuo",
+    "name": "Genos Pixel",
+    "author": "patrickxunuo",
+    "author_handle": "patrickxunuo",
+    "author_url": "https://github.com/patrickxunuo",
+    "primary_category": "Anime Characters",
+    "canonical_key": "one-punch-man/genos",
+    "variant_note": "An independently AI-generated pixel-chibi v2 interpretation with nine animation rows and 16 clockwise look directions.",
+    "collections": [],
+    "license": "Non-commercial use only. Unofficial One-Punch Man fan art; character rights remain with their respective owners.",
+    "description": "A cute Genos fan-art Codex pet with blond hair, amber eyes, a black outfit, compact mechanical arms, nine animations, and 16 clockwise look directions.",
+    "spriteVersionNumber": 2
+  },
+  {
     "slug": "zhuzhuxia--ryde-play",
     "name": "GG Bond",
     "localized_names": { "en": "GG Bond", "zh": "猪猪侠" },
