@@ -1,5 +1,43 @@
 [
   {
+    "number": 210,
+    "character": "Pigman in Don't Starve Together",
+    "characterDetails": "Pigman in Don't Starve Together",
+    "franchise": "Don't Starve / Don't Starve Together — Klei Entertainment",
+    "category": "other",
+    "version": "v2",
+    "requestType": "Create a new community interpretation",
+    "referenceStatus": "",
+    "references": "https://dontstarve.wiki.gg/wiki/File:Pig.png",
+    "referenceUrls": ["https://dontstarve.wiki.gg/wiki/File:Pig.png"],
+    "referenceImages": ["https://dontstarve.wiki.gg/wiki/File:Pig.png"],
+    "referenceThumbnails": [],
+    "visualDirection": "Every Don't Starve player knows just how adorable Pigmen are. The creatures who keep us company in the Constant.\n\nhttps://dontstarve.wiki.gg/wiki/Pig",
+    "nameLanguages": "Let the maker decide",
+    "attribution": "Submitted without a GitHub account. Reference and attribution details should be confirmed during triage. Non-commercial use only.",
+    "duplicateCheck": "Repository automation or a maintainer should complete the duplicate check during triage.",
+    "state": "open",
+    "status": "triage",
+    "labels": [
+      "type: request",
+      "status: triage",
+      "version: v2",
+      "category: other"
+    ],
+    "author": {
+      "login": "github-actions[bot]",
+      "avatarUrl": "https://avatars.githubusercontent.com/in/15368?v=4",
+      "url": "https://github.com/apps/github-actions"
+    },
+    "assignees": [],
+    "createdAt": "2026-09-23T04:17:23Z",
+    "updatedAt": "2026-09-23T04:17:23Z",
+    "closedAt": null,
+    "comments": 0,
+    "reactions": 0,
+    "githubUrl": "https://github.com/legeling/awesome-codex-pet/issues/210"
+  },
+  {
     "number": 208,
     "character": "Mini",
     "characterDetails": "Mini",
