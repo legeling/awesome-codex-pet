@@ -1,0 +1,23 @@
+{
+  "slug": "my-little-orange-cat--zhou-jianwen",
+  "pet_slug": "my-little-orange-cat",
+  "author_slug": "zhou-jianwen",
+  "name": "My Little Orange Cat",
+  "author": "zhou-jianwen",
+  "author_handle": "zhou-jianwen",
+  "author_url": "https://github.com/zhou-jianwen",
+  "primary_category": "Others",
+  "canonical_key": "animal/community-request-179-orange-cat",
+  "variant_note": "An independently AI-generated v2 interpretation of the individual orange-and-white cat pictured in community request #179, with a white facial blaze, chest and paws, orange tabby crown, back and tail, nine animation states and sixteen look directions. No existing catalog sprites were reused.",
+  "tags": ["cat", "community-request"],
+  "collections": ["animal-companions"],
+  "source_type": "ai-generated",
+  "source_url": "https://github.com/legeling/awesome-codex-pet/issues/179",
+  "description": "A softly illustrated orange-and-white cat based on the photograph supplied in request #179. AI-generated artwork directed and assembled for zhou-jianwen. The request was submitted without a GitHub account; the photographer, owner identity and reference attribution remain unconfirmed. The photograph is a visual reference only and is not redistributed in this package.",
+  "license": "Non-commercial use and redistribution only, with credit to zhou-jianwen for this AI-assisted pet contribution. Commercial use is prohibited. No ownership or license over the submitted reference photograph is asserted or granted.",
+  "preview_image": "../../assets/previews/my-little-orange-cat--zhou-jianwen/gifs/idle.gif",
+  "codex_install": {
+    "pet_json": "pet.json",
+    "spritesheet": "spritesheet.webp"
+  }
+}
