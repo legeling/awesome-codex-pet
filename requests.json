@@ -1,43 +1,89 @@
 [
   {
-    "number": 208,
-    "character": "Mini",
-    "characterDetails": "Mini",
-    "franchise": "",
+    "number": 216,
+    "character": "卡兰德的魔镜（Mirror of Kalandra）",
+    "characterDetails": "卡兰德的魔镜（Mirror of Kalandra）",
+    "franchise": "流放之路2（Path of Exile 2）",
     "category": "other",
     "version": "v2",
-    "requestType": "",
+    "requestType": "Create a new community interpretation",
     "referenceStatus": "",
-    "references": "",
-    "referenceUrls": [],
+    "references": "https://www.poewiki.net/images/9/9c/MirrorofKalandrainventoryicon.png",
+    "referenceUrls": [
+      "https://www.poewiki.net/images/9/9c/MirrorofKalandrainventoryicon.png"
+    ],
     "referenceImages": [
-      "https://github.com/user-attachments/assets/6206e057-cea1-4764-a63c-ace45cf4b0d1"
+      "https://www.poewiki.net/images/9/9c/Mirror_of_Kalandra_inventory_icon.png"
     ],
     "referenceThumbnails": [],
-    "visualDirection": "",
-    "nameLanguages": "",
-    "attribution": "",
-    "duplicateCheck": "",
+    "visualDirection": "希望制作成可独立使用的 V2 Codex 宠物，保留魔镜的经典轮廓、镜框纹饰、银色材质和暗黑奇幻质感；可加入轻微悬浮、旋转、反光闪烁等灵动效果，确保一眼可辨。",
+    "nameLanguages": "Let the maker decide",
+    "attribution": "Submitted without a GitHub account. Reference and attribution details should be confirmed during triage. Non-commercial use only.",
+    "duplicateCheck": "Repository automation or a maintainer should complete the duplicate check during triage.",
     "state": "open",
-    "status": "in-progress",
+    "status": "triage",
     "labels": [
       "type: request",
-      "status: in-progress",
+      "status: triage",
       "version: v2",
       "category: other"
     ],
     "author": {
-      "login": "ConnieChen6699",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/184342264?v=4",
-      "url": "https://github.com/ConnieChen6699"
+      "login": "github-actions[bot]",
+      "avatarUrl": "https://avatars.githubusercontent.com/in/15368?v=4",
+      "url": "https://github.com/apps/github-actions"
     },
     "assignees": [],
-    "createdAt": "2026-09-23T01:21:59Z",
-    "updatedAt": "2026-09-24T01:28:11Z",
+    "createdAt": "2026-09-24T09:45:01Z",
+    "updatedAt": "2026-09-24T09:45:01Z",
     "closedAt": null,
-    "comments": 3,
+    "comments": 0,
     "reactions": 0,
-    "githubUrl": "https://github.com/legeling/awesome-codex-pet/issues/208"
+    "githubUrl": "https://github.com/legeling/awesome-codex-pet/issues/216"
+  },
+  {
+    "number": 215,
+    "character": "虹猫少侠",
+    "characterDetails": "虹猫少侠",
+    "franchise": "Not provided",
+    "category": "other",
+    "version": "v2",
+    "requestType": "Create a new community interpretation",
+    "referenceStatus": "",
+    "references": "https://api.codexpet.top/uploads/reference/references/895bd857eb82d28d60243ad196cfc99a80e225ce99955ecc7266d4330e4ecfa3.webp",
+    "referenceUrls": [
+      "https://api.codexpet.top/uploads/reference/references/895bd857eb82d28d60243ad196cfc99a80e225ce99955ecc7266d4330e4ecfa3.webp"
+    ],
+    "referenceImages": [
+      "https://api.codexpet.top/uploads/reference/references/895bd857eb82d28d60243ad196cfc99a80e225ce99955ecc7266d4330e4ecfa3.webp"
+    ],
+    "referenceThumbnails": [
+      "https://api.codexpet.top/uploads/reference/thumbnails/895bd857eb82d28d60243ad196cfc99a80e225ce99955ecc7266d4330e4ecfa3.webp"
+    ],
+    "visualDirection": "是否可以优化下动作以及招式的动作连贯性,增加一些比较华丽的招式",
+    "nameLanguages": "Let the maker decide",
+    "attribution": "Submitted without a GitHub account. Reference and attribution details should be confirmed during triage. Non-commercial use only.",
+    "duplicateCheck": "Repository automation or a maintainer should complete the duplicate check during triage.",
+    "state": "open",
+    "status": "triage",
+    "labels": [
+      "type: request",
+      "status: triage",
+      "version: v2",
+      "category: other"
+    ],
+    "author": {
+      "login": "github-actions[bot]",
+      "avatarUrl": "https://avatars.githubusercontent.com/in/15368?v=4",
+      "url": "https://github.com/apps/github-actions"
+    },
+    "assignees": [],
+    "createdAt": "2026-09-24T09:44:59Z",
+    "updatedAt": "2026-09-24T09:44:59Z",
+    "closedAt": null,
+    "comments": 0,
+    "reactions": 0,
+    "githubUrl": "https://github.com/legeling/awesome-codex-pet/issues/215"
   },
   {
     "number": 213,
@@ -1558,6 +1604,46 @@
     "githubUrl": "https://github.com/legeling/awesome-codex-pet/issues/91"
   },
   {
+    "number": 208,
+    "character": "Mini",
+    "characterDetails": "Mini",
+    "franchise": "",
+    "category": "other",
+    "version": "v2",
+    "requestType": "",
+    "referenceStatus": "",
+    "references": "",
+    "referenceUrls": [],
+    "referenceImages": [
+      "https://github.com/user-attachments/assets/6206e057-cea1-4764-a63c-ace45cf4b0d1"
+    ],
+    "referenceThumbnails": [],
+    "visualDirection": "",
+    "nameLanguages": "",
+    "attribution": "",
+    "duplicateCheck": "",
+    "state": "closed",
+    "status": "completed",
+    "labels": [
+      "type: request",
+      "status: completed",
+      "version: v2",
+      "category: other"
+    ],
+    "author": {
+      "login": "ConnieChen6699",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/184342264?v=4",
+      "url": "https://github.com/ConnieChen6699"
+    },
+    "assignees": [],
+    "createdAt": "2026-09-23T01:21:59Z",
+    "updatedAt": "2026-09-24T10:01:58Z",
+    "closedAt": "2026-09-24T10:01:32Z",
+    "comments": 5,
+    "reactions": 0,
+    "githubUrl": "https://github.com/legeling/awesome-codex-pet/issues/208"
+  },
+  {
     "number": 179,
     "character": "我的小橘猫",
     "characterDetails": "我的小橘猫",
@@ -1584,7 +1670,7 @@
     "status": "completed",
     "labels": [
       "type: request",
-      "status: in-progress",
+      "status: completed",
       "version: v2",
       "category: other"
     ],
@@ -1595,9 +1681,9 @@
     },
     "assignees": [],
     "createdAt": "2026-09-12T06:04:28Z",
-    "updatedAt": "2026-09-24T09:44:06Z",
+    "updatedAt": "2026-09-24T09:44:11Z",
     "closedAt": "2026-09-24T09:43:44Z",
-    "comments": 3,
+    "comments": 4,
     "reactions": 0,
     "githubUrl": "https://github.com/legeling/awesome-codex-pet/issues/179"
   },
