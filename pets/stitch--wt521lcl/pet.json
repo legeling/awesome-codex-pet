@@ -1,0 +1,19 @@
+{
+  "id": "stitch--wt521lcl",
+  "name": "Stitch",
+  "description": "A fan-art Codex pet based on Disney's Stitch (Experiment 626) from Lilo & Stitch.",
+  "spritesheetPath": "spritesheet.webp",
+  "spriteVersionNumber": 2,
+  "localized_names": {
+    "en": "Stitch",
+    "zh": "史迪奇"
+  },
+  "author": "星辰浩瀚",
+  "author_handle": "wt521lcl",
+  "author_url": "https://github.com/wt521lcl",
+  "primary_category": "Animation Characters",
+  "canonical_key": "disney/lilo-and-stitch/stitch",
+  "license": "Non-commercial use only. Fan art based on Disney's Stitch from Lilo & Stitch.",
+  "collections": [],
+  "tags": ["disney", "lilo-and-stitch", "alien", "experiment-626", "fan-art"]
+}
