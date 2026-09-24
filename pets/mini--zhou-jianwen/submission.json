@@ -1,0 +1,37 @@
+{
+  "slug": "mini--zhou-jianwen",
+  "pet_slug": "mini",
+  "author_slug": "zhou-jianwen",
+  "canonical_key": "animal/domestic-dog/mini",
+  "name": "Mini",
+  "author": "zhou-jianwen",
+  "author_handle": "zhou-jianwen",
+  "author_url": "https://github.com/zhou-jianwen",
+  "primary_category": "Others",
+  "collections": ["animal-companions"],
+  "tags": [
+    "dog",
+    "black-and-white",
+    "fluffy",
+    "community-request",
+    "ai-generated",
+    "v2",
+    "look-directions"
+  ],
+  "source_type": "independently-ai-generated-from-reference",
+  "source_url": "https://github.com/legeling/awesome-codex-pet/issues/208",
+  "license": "Non-commercial use only. Commercial use is prohibited. No rights to the reference photograph are claimed.",
+  "description": "A fluffy black-and-white dog companion named Mini, with nine task animation states and 16 clockwise look directions.",
+  "preview_image": "../../assets/previews/mini--zhou-jianwen/gifs/idle.gif",
+  "codex_install": {
+    "pet_json": "pet.json",
+    "spritesheet": "spritesheet.webp"
+  },
+  "preview_assets": {
+    "contact_sheet": "../../assets/previews/mini--zhou-jianwen/contact-sheet.png",
+    "gifs_dir": "../../assets/previews/mini--zhou-jianwen/gifs"
+  },
+  "asset_note": "The v2 runtime spritesheet was independently generated with OpenAI image generation, directed and quality-checked in Codex. It interprets Mini from the requester-provided appearance reference; no pixels from the photograph are copied into the final asset.",
+  "reference_note": "The appearance photograph was attached to Issue #208 by requester @ConnieChen6699 and used only as a visual reference. The issue does not identify the photographer, dog owner, breed, or source license; this submission does not claim any of those facts or rights.",
+  "spritesheet_sha256": "e205973d7dd94e6bd837de9bbda39749a65d3cceda4a7e8c28dfc1de55298b58"
+}
