@@ -1,5 +1,89 @@
 [
   {
+    "number": 218,
+    "character": "虹猫少侠",
+    "characterDetails": "虹猫少侠",
+    "franchise": "Not provided",
+    "category": "other",
+    "version": "v2",
+    "requestType": "Create a new community interpretation",
+    "referenceStatus": "",
+    "references": "https://api.codexpet.top/uploads/reference/references/895bd857eb82d28d60243ad196cfc99a80e225ce99955ecc7266d4330e4ecfa3.webp",
+    "referenceUrls": [
+      "https://api.codexpet.top/uploads/reference/references/895bd857eb82d28d60243ad196cfc99a80e225ce99955ecc7266d4330e4ecfa3.webp"
+    ],
+    "referenceImages": [
+      "https://api.codexpet.top/uploads/reference/references/895bd857eb82d28d60243ad196cfc99a80e225ce99955ecc7266d4330e4ecfa3.webp"
+    ],
+    "referenceThumbnails": [
+      "https://api.codexpet.top/uploads/reference/thumbnails/895bd857eb82d28d60243ad196cfc99a80e225ce99955ecc7266d4330e4ecfa3.webp"
+    ],
+    "visualDirection": "优化下动作和剑招",
+    "nameLanguages": "Let the maker decide",
+    "attribution": "Submitted without a GitHub account. Reference and attribution details should be confirmed during triage. Non-commercial use only.",
+    "duplicateCheck": "Repository automation or a maintainer should complete the duplicate check during triage.",
+    "state": "open",
+    "status": "triage",
+    "labels": [
+      "type: request",
+      "status: triage",
+      "version: v2",
+      "category: other"
+    ],
+    "author": {
+      "login": "github-actions[bot]",
+      "avatarUrl": "https://avatars.githubusercontent.com/in/15368?v=4",
+      "url": "https://github.com/apps/github-actions"
+    },
+    "assignees": [],
+    "createdAt": "2026-09-25T11:44:51Z",
+    "updatedAt": "2026-09-25T11:44:51Z",
+    "closedAt": null,
+    "comments": 0,
+    "reactions": 0,
+    "githubUrl": "https://github.com/legeling/awesome-codex-pet/issues/218"
+  },
+  {
+    "number": 217,
+    "character": "海贼王-小玉",
+    "characterDetails": "海贼王-小玉",
+    "franchise": "海贼王",
+    "category": "other",
+    "version": "v2",
+    "requestType": "Create a new community interpretation",
+    "referenceStatus": "",
+    "references": "https://static.wikia.nocookie.net/onepiece/images/6/6d/KurozumiTamaAnimeInfobox.png/revision/latest?cb=20210210051806",
+    "referenceUrls": [
+      "https://static.wikia.nocookie.net/onepiece/images/6/6d/KurozumiTamaAnimeInfobox.png/revision/latest?cb=20210210051806"
+    ],
+    "referenceImages": [],
+    "referenceThumbnails": [],
+    "visualDirection": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6voF9gC8HK3SekYWcqSquc4diQf92hlowM-zyCR98FMsD-6dpBFFtWnA&s\nhttps://www.google.com/imgres?q=%E6%B5%B7%E8%B4%BC%E7%8E%8B%20%E9%BB%91%E7%82%AD%E7%8E%89&imgurl=https%3A%2F%2Fmegapx-assets.dcard.tw%2Fimages%2Fc8d9d0c5-8865-4790-a52e-9fb758aeae34%2F640.jpeg&imgrefurl=https%3A%2F%2Fwww.dcard.tw%2Ff%2Fonepiece%2Fp%2F253356977&docid=EkZFw3re6z7HZM&tbnid=R6gJVs8XyUJJqM&vet=12ahUKEwiz153eyIiXAxXh3TgGHT6SDHgQnPAOegQIRhAA..i&w=640&h=360&hcb=2&ved=2ahUKEwiz153eyIiXAxXh3TgGHT6SDHgQnPAOegQIRhAA",
+    "nameLanguages": "Let the maker decide",
+    "attribution": "Submitted without a GitHub account. Reference and attribution details should be confirmed during triage. Non-commercial use only.",
+    "duplicateCheck": "Repository automation or a maintainer should complete the duplicate check during triage.",
+    "state": "open",
+    "status": "triage",
+    "labels": [
+      "type: request",
+      "status: triage",
+      "version: v2",
+      "category: other"
+    ],
+    "author": {
+      "login": "github-actions[bot]",
+      "avatarUrl": "https://avatars.githubusercontent.com/in/15368?v=4",
+      "url": "https://github.com/apps/github-actions"
+    },
+    "assignees": [],
+    "createdAt": "2026-09-25T06:02:15Z",
+    "updatedAt": "2026-09-25T06:02:15Z",
+    "closedAt": null,
+    "comments": 0,
+    "reactions": 0,
+    "githubUrl": "https://github.com/legeling/awesome-codex-pet/issues/217"
+  },
+  {
     "number": 216,
     "character": "卡兰德的魔镜（Mirror of Kalandra）",
     "characterDetails": "卡兰德的魔镜（Mirror of Kalandra）",
