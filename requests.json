@@ -1,5 +1,49 @@
 [
   {
+    "number": 220,
+    "character": "肉肉",
+    "characterDetails": "肉肉",
+    "franchise": "Not provided",
+    "category": "other",
+    "version": "v2",
+    "requestType": "Create a new community interpretation",
+    "referenceStatus": "",
+    "references": "https://api.codexpet.top/uploads/reference/references/7e9bf7812d39bb743d477de6c836f8769cc2cccaa8c093f95fae8ad81438e47f.jpg",
+    "referenceUrls": [
+      "https://api.codexpet.top/uploads/reference/references/7e9bf7812d39bb743d477de6c836f8769cc2cccaa8c093f95fae8ad81438e47f.jpg"
+    ],
+    "referenceImages": [
+      "https://api.codexpet.top/uploads/reference/references/7e9bf7812d39bb743d477de6c836f8769cc2cccaa8c093f95fae8ad81438e47f.jpg"
+    ],
+    "referenceThumbnails": [
+      "https://api.codexpet.top/uploads/reference/thumbnails/7e9bf7812d39bb743d477de6c836f8769cc2cccaa8c093f95fae8ad81438e47f.webp"
+    ],
+    "visualDirection": "1. 基础外貌特征（必须写，防止变种）\n\n犬种：巴哥犬（Pug），短毛、扁平脸、额头有明显褶皱。\n\n毛色：浅黄褐色（fawn）躯干，脸部有标志性的黑色“面罩”（黑嘴、黑眼周），耳朵为深色。\n\n体型：矮壮、圆润、胸宽，四肢短小。\n\n表情：自带忧郁、无辜、略带呆萌的“狗狗眼”。\n\n2. 性格与动作偏好（决定动画风格）\n\n性格设定：慵懒、憨厚、有点小傲娇，但整体很亲人。\n\n动作风格：动作幅度不要太大，以小幅度的摇晃、歪头、眨眼、原地踏步、坐立、打哈欠为主。\n\n避免：不要让它像边牧一样敏捷奔跑或跳跃，保持巴哥“懒洋洋”的体态。\n\n3. 画面风格偏好（防止画风崩坏）\n\n风格：像素风（pixel art）或扁平插画风，背景透明，线条简洁。\n\n一致性：所有动画帧必须保持毛色、黑面罩、耳朵形状完全一致，不能出现“这只狗变胖/变瘦/变色”。",
+    "nameLanguages": "Let the maker decide",
+    "attribution": "Submitted without a GitHub account. Reference and attribution details should be confirmed during triage. Non-commercial use only.",
+    "duplicateCheck": "Repository automation or a maintainer should complete the duplicate check during triage.",
+    "state": "open",
+    "status": "triage",
+    "labels": [
+      "type: request",
+      "status: triage",
+      "version: v2",
+      "category: other"
+    ],
+    "author": {
+      "login": "github-actions[bot]",
+      "avatarUrl": "https://avatars.githubusercontent.com/in/15368?v=4",
+      "url": "https://github.com/apps/github-actions"
+    },
+    "assignees": [],
+    "createdAt": "2026-09-25T15:57:09Z",
+    "updatedAt": "2026-09-25T15:57:09Z",
+    "closedAt": null,
+    "comments": 0,
+    "reactions": 0,
+    "githubUrl": "https://github.com/legeling/awesome-codex-pet/issues/220"
+  },
+  {
     "number": 218,
     "character": "虹猫少侠",
     "characterDetails": "虹猫少侠",
