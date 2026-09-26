@@ -1202,6 +1202,16 @@
       "spritesheetWidth": 1536,
       "spritesheetHeight": 1872
     },
+    "mini--zhou-jianwen": {
+      "name": "Mini",
+      "spriteVersionNumber": 2,
+      "petJsonSha256": "0f0177dfb6538ca71d21406a2006748b6113aa129d6b27ce48c96184efc3f266",
+      "petJsonBytes": 198,
+      "spritesheetSha256": "e205973d7dd94e6bd837de9bbda39749a65d3cceda4a7e8c28dfc1de55298b58",
+      "spritesheetBytes": 2169152,
+      "spritesheetWidth": 1536,
+      "spritesheetHeight": 2288
+    },
     "minty--somnusochi": {
       "name": "Minty",
       "spriteVersionNumber": 2,
@@ -1254,6 +1264,16 @@
       "spritesheetWidth": 1536,
       "spritesheetHeight": 1872
     },
+    "my-little-orange-cat--zhou-jianwen": {
+      "name": "My Little Orange Cat",
+      "spriteVersionNumber": 2,
+      "petJsonSha256": "6a8d507ef425e2a3d10cc2482f84cce32495edca3dea3273415f79f28e925c4a",
+      "petJsonBytes": 279,
+      "spritesheetSha256": "90f70801768beef9a0d9d66a28371c0e9e7635b40eed27d96fd6427c56975ec4",
+      "spritesheetBytes": 2114960,
+      "spritesheetWidth": 1536,
+      "spritesheetHeight": 2288
+    },
     "nahida--lingxiaotian": {
       "name": "Nahida",
       "localizedNames": { "en": "Nahida", "zh": "纳西妲" },
@@ -1304,6 +1324,17 @@
       "petJsonBytes": 259,
       "spritesheetSha256": "75b1809e88d6e4bebcb040f9a3dcffdb1eed1964dd86366527bb95ea7d26b575",
       "spritesheetBytes": 2220468,
+      "spritesheetWidth": 1536,
+      "spritesheetHeight": 2288
+    },
+    "nu-gundam--mzhyui": {
+      "name": "Nu Gundam",
+      "localizedNames": { "en": "Nu Gundam", "zh": "ν高达" },
+      "spriteVersionNumber": 2,
+      "petJsonSha256": "a19cf00fa0ab4d89c471997eef2a04b164d272d597cc7e624ea098a16165aac7",
+      "petJsonBytes": 247,
+      "spritesheetSha256": "aff7c5b715e6ab7d457a6dbfa5db2f4458bcbd373fe28741c37cca28567148ab",
+      "spritesheetBytes": 2445634,
       "spritesheetWidth": 1536,
       "spritesheetHeight": 2288
     },

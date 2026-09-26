@@ -12,7 +12,7 @@
 
 <a href="https://codexpet.top/ja"><img src="../../assets/cover/awesome-codex-pet-cover.png" alt="Awesome Codex Pet ギャラリーを開く"></a>
 
-![pets: 255](https://img.shields.io/badge/pets-255-2ea44f) ![categories: 11](https://img.shields.io/badge/categories-11-0969da) ![languages: en | zh--CN | ko | ja | es](https://img.shields.io/badge/languages-en%20%7C%20zh--CN%20%7C%20ko%20%7C%20ja%20%7C%20es-8250df) ![code: MIT](https://img.shields.io/badge/code-MIT-111111) ![assets: CC BY--NC 4.0](https://img.shields.io/badge/assets-CC%20BY--NC%204.0-f97316) ![install: one command](https://img.shields.io/badge/install-one%20command-111111) [![Pet previews](https://github.com/legeling/awesome-codex-pet/actions/workflows/pet-previews.yml/badge.svg)](https://github.com/legeling/awesome-codex-pet/actions/workflows/pet-previews.yml)
+![pets: 258](https://img.shields.io/badge/pets-258-2ea44f) ![categories: 11](https://img.shields.io/badge/categories-11-0969da) ![languages: en | zh--CN | ko | ja | es](https://img.shields.io/badge/languages-en%20%7C%20zh--CN%20%7C%20ko%20%7C%20ja%20%7C%20es-8250df) ![code: MIT](https://img.shields.io/badge/code-MIT-111111) ![assets: CC BY--NC 4.0](https://img.shields.io/badge/assets-CC%20BY--NC%204.0-f97316) ![install: one command](https://img.shields.io/badge/install-one%20command-111111) [![Pet previews](https://github.com/legeling/awesome-codex-pet/actions/workflows/pet-previews.yml/badge.svg)](https://github.com/legeling/awesome-codex-pet/actions/workflows/pet-previews.yml)
 
 </div>
 
@@ -69,7 +69,7 @@ npx @legeling/codex-pet
 </table>
 
 <details>
-<summary>全ペット一覧（テキストのみ） · 255</summary>
+<summary>全ペット一覧（テキストのみ） · 258</summary>
 
 ### ゲームキャラクター
 
@@ -323,6 +323,7 @@ npx @legeling/codex-pet
 <li><a href="../../pets/chispa--giiilberto-nm">Chispa</a> · 作者 @giiilberto-nm · v1</li>
 <li><a href="../../pets/codenono--dq02">CodeNoNo</a> · 作者 <a href="https://github.com/Dqd02">@Dqd02</a> · v1</li>
 <li><a href="../../pets/crt-monitor--wxy">CRT Monitor</a> · 作者 @wxy · v2</li>
+<li><a href="../../pets/nu-gundam--mzhyui">Nu Gundam</a> · 作者 <a href="https://github.com/mzhyui">@mzhyui</a> · v2</li>
 <li><a href="../../pets/xiaoda--legeling">小达</a> · 作者 <a href="https://github.com/legeling">@legeling</a> · v2</li>
 </ul>
 
@@ -363,6 +364,8 @@ npx @legeling/codex-pet
 <li><a href="../../pets/agamemnon--kazecreator">Agamemnon</a> · 作者 <a href="https://github.com/kazecreator">@kazecreator</a> · v2</li>
 <li><a href="../../pets/deepseek-girl--legeling">DeepSeek Girl</a> · 作者 <a href="https://github.com/legeling">@legeling</a> · v2</li>
 <li><a href="../../pets/deepseek-whalechan--qimi">DeepSeek Whalechan</a> · 作者 <a href="https://github.com/qishichuan">@qishichuan</a> · v2</li>
+<li><a href="../../pets/mini--zhou-jianwen">Mini</a> · 作者 <a href="https://github.com/zhou-jianwen">@zhou-jianwen</a> · v2</li>
+<li><a href="../../pets/my-little-orange-cat--zhou-jianwen">My Little Orange Cat</a> · 作者 <a href="https://github.com/zhou-jianwen">@zhou-jianwen</a> · v2</li>
 <li><a href="../../pets/sylas-ravenshade--legeling">Sylas Ravenshade</a> · 作者 <a href="https://github.com/legeling">@legeling</a> · v2</li>
 <li><a href="../../pets/templar-knight--jorge-cuevas90003">Templar Knight</a> · 作者 <a href="https://github.com/Jorge-Cuevas90003">@Jorge-Cuevas90003</a> · v2</li>
 <li><a href="../../pets/march-7th--legeling">三月七</a> · 作者 <a href="https://github.com/legeling">@legeling</a> · v2</li>

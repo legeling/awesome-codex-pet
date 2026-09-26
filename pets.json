@@ -1425,6 +1425,19 @@
     "spriteVersionNumber": 1
   },
   {
+    "slug": "mini--zhou-jianwen",
+    "name": "Mini",
+    "author": "zhou-jianwen",
+    "author_handle": "zhou-jianwen",
+    "author_url": "https://github.com/zhou-jianwen",
+    "primary_category": "Others",
+    "canonical_key": "animal/domestic-dog/mini",
+    "collections": ["animal-companions"],
+    "license": "Non-commercial use only. Commercial use is prohibited. No rights to the reference photograph are claimed.",
+    "description": "A fluffy black-and-white dog companion named Mini, with nine task animation states and 16 clockwise look directions.",
+    "spriteVersionNumber": 2
+  },
+  {
     "slug": "minty--somnusochi",
     "name": "Minty",
     "author": "Somnusochi",
@@ -1491,6 +1504,20 @@
     "spriteVersionNumber": 1
   },
   {
+    "slug": "my-little-orange-cat--zhou-jianwen",
+    "name": "My Little Orange Cat",
+    "author": "zhou-jianwen",
+    "author_handle": "zhou-jianwen",
+    "author_url": "https://github.com/zhou-jianwen",
+    "primary_category": "Others",
+    "canonical_key": "animal/community-request-179-orange-cat",
+    "variant_note": "An independently AI-generated v2 interpretation of the individual orange-and-white cat pictured in community request #179, with a white facial blaze, chest and paws, orange tabby crown, back and tail, nine animation states and sixteen look directions. No existing catalog sprites were reused.",
+    "collections": ["animal-companions"],
+    "license": "Non-commercial use and redistribution only, with credit to zhou-jianwen for this AI-assisted pet contribution. Commercial use is prohibited. No ownership or license over the submitted reference photograph is asserted or granted.",
+    "description": "A softly illustrated orange-and-white cat based on the photograph supplied in request #179. AI-generated artwork directed and assembled for zhou-jianwen. The request was submitted without a GitHub account; the photographer, owner identity and reference attribution remain unconfirmed. The photograph is a visual reference only and is not redistributed in this package.",
+    "spriteVersionNumber": 2
+  },
+  {
     "slug": "nahida--lingxiaotian",
     "name": "Nahida",
     "localized_names": { "en": "Nahida", "zh": "纳西妲" },
@@ -1551,6 +1578,20 @@
     "variant_note": "An independently AI-generated version by wynn, distinct from niulai--legeling: a fuzzy orange calf with a broad lilac muzzle and heavy-lidded eyes, restrained thinking and review gestures, nine animation states, and sixteen v2 look directions. No sprites or frames from the existing package were reused.",
     "collections": [],
     "license": "Non-commercial use and redistribution only, with credit to wynn, to the extent wynn holds rights in this contribution. The underlying Niu Lai film character and reference imagery remain subject to third-party rights; no permission from their rightsholders is asserted or granted. Unofficial fan art; no affiliation or endorsement. These terms do not establish third-party rights clearance.",
+    "spriteVersionNumber": 2
+  },
+  {
+    "slug": "nu-gundam--mzhyui",
+    "name": "Nu Gundam",
+    "localized_names": { "en": "Nu Gundam", "zh": "ν高达" },
+    "author": "mzhyui",
+    "author_handle": "mzhyui",
+    "author_url": "https://github.com/mzhyui",
+    "primary_category": "Robots",
+    "canonical_key": "mobile-suit-gundam/nu-gundam",
+    "collections": [],
+    "license": "Non-commercial use only. Unofficial fan-made adaptation; no affiliation with or authorization from the Gundam rights holders is claimed.",
+    "description": "A compact RX-93 Nu Gundam companion with model-kit-inspired armor, an asymmetric stack of six attached fin funnels, nine task animations, and 16 look directions.",
     "spriteVersionNumber": 2
   },
   {
