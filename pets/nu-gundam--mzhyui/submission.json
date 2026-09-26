@@ -1,0 +1,34 @@
+{
+  "slug": "nu-gundam--mzhyui",
+  "pet_slug": "nu-gundam",
+  "author_slug": "mzhyui",
+  "name": "Nu Gundam",
+  "localized_names": {
+    "en": "Nu Gundam",
+    "zh": "ν高达"
+  },
+  "author": "mzhyui",
+  "author_handle": "mzhyui",
+  "author_url": "https://github.com/mzhyui",
+  "primary_category": "Robots",
+  "canonical_key": "mobile-suit-gundam/nu-gundam",
+  "tags": [
+    "gundam",
+    "nu-gundam",
+    "rx-93",
+    "mecha",
+    "ai-generated",
+    "v2",
+    "look-directions"
+  ],
+  "collections": [],
+  "source_type": "ai-generated fan-art",
+  "source_url": "",
+  "source_notes": "Independently AI-generated Codex pet adaptation by the submitter. Official Tamashii Nations Nu Gundam product images were used only as appearance references (https://tamashiiweb.com/item/12986/?wovn=en and https://tamashiiweb.com/item/13156/?wovn=en). The production records show generation and deterministic atlas assembly, not direct cropping or tracing of reference-image pixels. Reference images are not included in the submission.",
+  "license": "Non-commercial use only. Unofficial fan-made adaptation; no affiliation with or authorization from the Gundam rights holders is claimed.",
+  "description": "A compact RX-93 Nu Gundam companion with model-kit-inspired armor, an asymmetric stack of six attached fin funnels, nine task animations, and 16 look directions.",
+  "codex_install": {
+    "pet_json": "pet.json",
+    "spritesheet": "spritesheet.webp"
+  }
+}
