@@ -1,5 +1,49 @@
 [
   {
+    "number": 221,
+    "character": "初音未来·海色",
+    "characterDetails": "初音未来·海色",
+    "franchise": "Not provided",
+    "category": "other",
+    "version": "v2",
+    "requestType": "Create a new community interpretation",
+    "referenceStatus": "",
+    "references": "https://api.codexpet.top/uploads/reference/references/6bf77a5b9e298d58fbc614f22a73485bd4346fbae85c31cc73d20055ebdcc153.png",
+    "referenceUrls": [
+      "https://api.codexpet.top/uploads/reference/references/6bf77a5b9e298d58fbc614f22a73485bd4346fbae85c31cc73d20055ebdcc153.png"
+    ],
+    "referenceImages": [
+      "https://api.codexpet.top/uploads/reference/references/6bf77a5b9e298d58fbc614f22a73485bd4346fbae85c31cc73d20055ebdcc153.png"
+    ],
+    "referenceThumbnails": [
+      "https://api.codexpet.top/uploads/reference/thumbnails/6bf77a5b9e298d58fbc614f22a73485bd4346fbae85c31cc73d20055ebdcc153.webp"
+    ],
+    "visualDirection": "有初稿，请帮我制作完整版，我的codex怎么抠图都抠不好（",
+    "nameLanguages": "Let the maker decide",
+    "attribution": "Submitted without a GitHub account. Reference and attribution details should be confirmed during triage. Non-commercial use only.",
+    "duplicateCheck": "Repository automation or a maintainer should complete the duplicate check during triage.",
+    "state": "open",
+    "status": "triage",
+    "labels": [
+      "type: request",
+      "status: triage",
+      "version: v2",
+      "category: other"
+    ],
+    "author": {
+      "login": "github-actions[bot]",
+      "avatarUrl": "https://avatars.githubusercontent.com/in/15368?v=4",
+      "url": "https://github.com/apps/github-actions"
+    },
+    "assignees": [],
+    "createdAt": "2026-09-26T15:34:39Z",
+    "updatedAt": "2026-09-26T15:34:39Z",
+    "closedAt": null,
+    "comments": 0,
+    "reactions": 0,
+    "githubUrl": "https://github.com/legeling/awesome-codex-pet/issues/221"
+  },
+  {
     "number": 220,
     "character": "肉肉",
     "characterDetails": "肉肉",
