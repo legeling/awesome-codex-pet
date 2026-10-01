@@ -1,0 +1,27 @@
+{
+  "slug": "fenshen--julian",
+  "pet_slug": "fenshen",
+  "author_slug": "julian",
+  "name": "分身",
+  "author": "Julian",
+  "author_handle": "Julian",
+  "primary_category": "Human Avatars",
+  "canonical_key": "original/julian/fenshen",
+  "tags": ["human-avatar", "chibi", "3d-toy", "black-suit", "original", "v2"],
+  "collections": [],
+  "source_type": "original",
+  "source_url": "",
+  "license": "CC BY 4.0",
+  "rights_note": "Original work by Julian; adaptation and redistribution permission confirmed under CC BY 4.0.",
+  "description": "A friendly 3D chibi avatar of Julian with short black hair, a black blazer, and a black crew-neck shirt.",
+  "preview_image": "../../assets/previews/fenshen--julian/gifs/idle.gif",
+  "codex_install": {
+    "pet_json": "pet.json",
+    "spritesheet": "spritesheet.webp"
+  },
+  "preview_assets": {
+    "contact_sheet": "../../assets/previews/fenshen--julian/contact-sheet.png",
+    "gifs_dir": "../../assets/previews/fenshen--julian/gifs"
+  },
+  "spritesheet_sha256": "5ed4caef7e693266d35b4936f22640f8129ddcd1c9bc90d7aa54567e6544dfe0"
+}
