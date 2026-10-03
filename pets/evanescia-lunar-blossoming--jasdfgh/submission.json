@@ -1,0 +1,27 @@
+{
+  "slug": "evanescia-lunar-blossoming--jasdfgh",
+  "pet_slug": "evanescia-lunar-blossoming",
+  "author_slug": "jasdfgh",
+  "name": "Evanescia · Lunar Blossoming",
+  "localized_names": {
+    "en": "Evanescia · Lunar Blossoming",
+    "zh": "绯英 · 月待花时"
+  },
+  "author": "Jasdfgh",
+  "author_handle": "Jasdfgh",
+  "author_url": "https://github.com/Jasdfgh",
+  "primary_category": "Game Characters",
+  "canonical_key": "fictional/honkai-star-rail/evanescia",
+  "variant_note": "Independent AI-assisted fan-art edition by Jasdfgh featuring Evanescia's Lunar Blossoming outfit. Compact proportions, a restored right long sleeve, controlled 2D animation, nine task states, and sixteen gaze directions distinguish this independently authored v2 spritesheet.",
+  "collections": ["honkai-star-rail"],
+  "tags": ["honkai-star-rail", "anime", "chibi", "pink"],
+  "source_type": "fan-art",
+  "source_url": "",
+  "source_notes": "Final pet pixels were independently generated with AI and animated/refined through local 2D layer and mesh work. Game art/screenshots and a fan-made outfit model image were used only as visual references and are not included. Final pet credit belongs to the submitter; original Honkai: Star Rail character and outfit rights remain with HoYoverse.",
+  "license": "CC BY-NC 4.0 for the submitter's licensable contributions; non-commercial use only. Original Honkai: Star Rail / HoYoverse character, outfit, and other third-party intellectual property are excluded. Unofficial fan art; no official affiliation or endorsement.",
+  "preview_image": "../../assets/previews/evanescia-lunar-blossoming--jasdfgh/gifs/idle.gif",
+  "codex_install": {
+    "pet_json": "pet.json",
+    "spritesheet": "spritesheet.webp"
+  }
+}
