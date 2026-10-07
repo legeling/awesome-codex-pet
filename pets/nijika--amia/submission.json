@@ -1,0 +1,30 @@
+{
+  "slug": "nijika--amia",
+  "pet_slug": "nijika",
+  "author_slug": "amia",
+  "name": "虹夏",
+  "localized_names": {
+    "en": "Nijika Ijichi",
+    "zh": "虹夏"
+  },
+  "author": "Amiaね",
+  "author_handle": "MIO118",
+  "author_url": "https://github.com/MIO118",
+  "primary_category": "Anime Characters",
+  "canonical_key": "bocchi-the-rock/nijika-ijichi",
+  "tags": ["anime", "music", "drummer", "bocchi-the-rock", "fan-art"],
+  "collections": ["bocchi-the-rock"],
+  "source_type": "fan-art",
+  "source_url": "https://bocchi.rocks/tv/character/nijika.html",
+  "description": "Amiaね's AI-assisted fan-made pet of Nijika Ijichi, based on a user-provided character reference. Original character rights remain with their respective owners.",
+  "license": "Non-commercial use and redistribution with attribution to Amiaね; original character and design rights remain with their respective owners.",
+  "preview_image": "../../assets/previews/nijika--amia/gifs/idle.gif",
+  "codex_install": {
+    "pet_json": "pet.json",
+    "spritesheet": "spritesheet.webp"
+  },
+  "preview_assets": {
+    "contact_sheet": "../../assets/previews/nijika--amia/contact-sheet.png",
+    "gifs_dir": "../../assets/previews/nijika--amia/gifs"
+  }
+}
