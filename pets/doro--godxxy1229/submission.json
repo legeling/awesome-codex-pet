@@ -1,0 +1,34 @@
+{
+  "slug": "doro--godxxy1229",
+  "pet_slug": "doro",
+  "author_slug": "godxxy1229",
+  "name": "Doro",
+  "author": "godxxy1229",
+  "author_handle": "godxxy1229",
+  "author_url": "https://github.com/godxxy1229",
+  "primary_category": "Game Characters",
+  "canonical_key": "nikke/doro",
+  "variant_note": "A separately produced v2 redraw and animation by godxxy1229, with keyboard typing, magnifier review, expressive waiting, repaired face and hair contours, and a complete 16-direction look loop. Distinct from doro--lingxiaotian and doro--vaevie.",
+  "collections": ["nikke"],
+  "tags": [
+    "animated",
+    "anime",
+    "cute",
+    "mascot",
+    "nikke",
+    "doro",
+    "dorothy",
+    "fan-art",
+    "v2"
+  ],
+  "source_type": "manual vector redraw and animation from character references",
+  "source_url": "https://github.com/godxxy1229/doro-codex-pet",
+  "source_notes": "A manually authored vector redraw and animation based on reference artwork privately supplied for this project. Reference contours informed the SVG paths; this is not independently AI-generated artwork. Final SVG frames are rasterized without an image-generation tool. Character sources: https://nikke-en.com/ and https://www.shiftup.co.kr/. Reference images are not included.",
+  "license": "Non-commercial use only. Doro / Dorothy and GODDESS OF VICTORY: NIKKE remain the property of their respective rights holders, including SHIFT UP. No affiliation or endorsement. No license to the underlying character rights is asserted.",
+  "description": "An unofficial Doro companion for Codex. https://github.com/godxxy1229/doro-codex-pet",
+  "preview_image": "../../assets/previews/doro--godxxy1229/gifs/idle.gif",
+  "codex_install": {
+    "pet_json": "pet.json",
+    "spritesheet": "spritesheet.webp"
+  }
+}
