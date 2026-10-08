@@ -1,0 +1,34 @@
+{
+  "slug": "clawd--godxxy1229",
+  "pet_slug": "clawd",
+  "author_slug": "godxxy1229",
+  "name": "Clawd",
+  "author": "godxxy1229",
+  "author_handle": "godxxy1229",
+  "author_url": "https://github.com/godxxy1229",
+  "primary_category": "Mascots",
+  "canonical_key": "anthropic/claude",
+  "variant_note": "A separately produced v2 Clawd interpretation by godxxy1229, with rectangular limbs, keyboard typing, a magnifier review action, and a complete 16-direction look loop. Distinct from the existing claude--xiangking v1 package.",
+  "collections": [],
+  "tags": [
+    "animated",
+    "cute",
+    "mascot",
+    "pixel-art",
+    "robot",
+    "claude",
+    "clawd",
+    "fan-art",
+    "v2"
+  ],
+  "source_type": "manual vector redraw and animation from character references",
+  "source_url": "https://github.com/godxxy1229/clawd-codex-pet",
+  "source_notes": "Manually authored SVG adaptation and animation using permitted Clawd reference shapes. Final SVG frames are rasterized without an image-generation tool. Character source: https://www.anthropic.com. Reference artwork is not included.",
+  "license": "Non-commercial use only. Clawd character copyright: Anthropic. No affiliation or endorsement. No license to the underlying character rights is asserted.",
+  "description": "An unofficial Claude-inspired companion for Codex. https://github.com/godxxy1229/clawd-codex-pet",
+  "preview_image": "../../assets/previews/clawd--godxxy1229/gifs/idle.gif",
+  "codex_install": {
+    "pet_json": "pet.json",
+    "spritesheet": "spritesheet.webp"
+  }
+}
