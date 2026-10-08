@@ -1,0 +1,27 @@
+{
+  "slug": "gpt-dragon-girl--legeling",
+  "pet_slug": "gpt-dragon-girl",
+  "author_slug": "legeling",
+  "name": "GPT Dragon Girl",
+  "localized_names": {
+    "en": "GPT Dragon Girl",
+    "zh": "GPT龙娘"
+  },
+  "author": "legeling",
+  "author_handle": "legeling",
+  "author_url": "https://github.com/legeling",
+  "primary_category": "Others",
+  "canonical_key": "original/zipzippipe/gpt-dragon-girl",
+  "variant_note": "legeling independently generated this white-and-lavender winged chibi V2 edition, visually approved on 2026-10-07. It uses its own nine action sequences and sixteen look poses; it is distinct from tenghuan123's GPT Dragon Girl edition in PR #253 and orient37's homewear Codex Dragon Girl in PR #252.",
+  "tags": ["animated", "sticker", "fan-art", "v2"],
+  "source_type": "ai-generated",
+  "source_url": "https://github.com/legeling/awesome-codex-pet/issues/246",
+  "license": "Non-commercial use only. Independently AI-generated unofficial fan art. Character design: ZipZipPipe. Unofficial fan interpretation; character and brand rights remain with their respective owners. No source pixels are copied; this statement does not grant rights to the original character or third-party reference artwork.",
+  "description": "An independently AI-generated chibi interpretation of ZipZipPipe’s white-and-lavender winged dragon girl with nine task animations and sixteen clockwise look directions.",
+  "attribution": "Character design: ZipZipPipe. Creator source: https://www.bilibili.com/video/BV1bARXBYEZz/ . Independently AI-generated fan animation and runtime assembly by legeling. Reference images were used only as visual guidance; original reference artwork is not included. The creator welcomes further creation; the separate CC BY-NC-SA statement for the whale girl is not applied to this dragon. Character and brand rights remain with their respective owners.",
+  "codex_install": {
+    "pet_json": "pet.json",
+    "spritesheet": "spritesheet.webp"
+  },
+  "spritesheet_sha256": "9b9ad2880739d98436902aa4f84e4f5120b376717d58c9f4b105e9a7f4152e85"
+}
