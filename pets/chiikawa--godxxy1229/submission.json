@@ -1,0 +1,24 @@
+{
+  "slug": "chiikawa--godxxy1229",
+  "pet_slug": "chiikawa",
+  "author_slug": "godxxy1229",
+  "name": "Chiikawa",
+  "author": "godxxy1229",
+  "author_handle": "godxxy1229",
+  "author_url": "https://github.com/godxxy1229",
+  "primary_category": "Anime Characters",
+  "canonical_key": "chiikawa/chiikawa",
+  "variant_note": "A v2 interpretation by godxxy1229 with side-facing walking, a spear work action, page-turning book review, and a complete 16-direction look loop.",
+  "collections": [],
+  "tags": ["animated", "anime", "cute", "mascot", "chiikawa", "fan-art", "v2"],
+  "source_type": "manual vector redraw and animation from character references",
+  "source_url": "https://github.com/godxxy1229/chiikawa-codex-pet",
+  "source_notes": "A manually authored vector redraw and animation based on measurements of reference images privately supplied for this project. This is not independently AI-generated artwork. Final SVG frames are rasterized without an image-generation tool. Reference images are not included.",
+  "license": "Non-commercial use only. Chiikawa character copyright: Nagano. Character and franchise rights remain with their respective rights holders. No affiliation or endorsement. No license to the underlying character rights is asserted.",
+  "description": "An unofficial Chiikawa companion for Codex. https://github.com/godxxy1229/chiikawa-codex-pet",
+  "preview_image": "../../assets/previews/chiikawa--godxxy1229/gifs/idle.gif",
+  "codex_install": {
+    "pet_json": "pet.json",
+    "spritesheet": "spritesheet.webp"
+  }
+}
