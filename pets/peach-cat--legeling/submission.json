@@ -1,0 +1,26 @@
+{
+  "slug": "peach-cat--legeling",
+  "pet_slug": "peach-cat",
+  "author_slug": "legeling",
+  "name": "Peach Cat",
+  "localized_names": {
+    "en": "Peach Cat",
+    "zh": "蜜桃猫"
+  },
+  "author": "legeling",
+  "author_handle": "legeling",
+  "author_url": "https://github.com/legeling",
+  "primary_category": "Others",
+  "canonical_key": "peach-and-goma/peach",
+  "tags": ["animated", "sticker", "fan-art", "v2"],
+  "source_type": "ai-generated",
+  "source_url": "https://github.com/legeling/awesome-codex-pet/issues/249",
+  "license": "Non-commercial use only. Independently AI-generated unofficial fan art. Character design: 不觉晓晓 / Bu Jue Xiao Xiao. Peach and Goma character rights remain with their respective owners. No third-party reference pixels are redistributed. No endorsement or license to the underlying character or third-party reference artwork is implied.",
+  "description": "An independently AI-generated white Peach cat with playful sticker-style task animations and sixteen clockwise look directions.",
+  "attribution": "Character design: 不觉晓晓 / Bu Jue Xiao Xiao. Official character source: https://store.line.me/stickershop/product/25333557/en . Independently AI-generated fan animation and runtime assembly by legeling. Reference images were used only as visual guidance; original reference artwork is not included. Peach and Goma character rights remain with their respective owners.",
+  "codex_install": {
+    "pet_json": "pet.json",
+    "spritesheet": "spritesheet.webp"
+  },
+  "spritesheet_sha256": "1e8e20ff3c534a04a64ce284d7a89daec1f092426e1f22ae8e3c3d045fc84de8"
+}
