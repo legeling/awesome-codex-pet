@@ -1,0 +1,37 @@
+{
+  "slug": "gpt-dragon-girl--tenghuan123",
+  "pet_slug": "gpt-dragon-girl",
+  "author_slug": "tenghuan123",
+  "canonical_key": "original/zipzippipe/gpt-dragon-girl",
+  "variant_note": "tenghuan123 独立制作的 V2 Q 版，包含九组动画和 16 个环视方向；与其他作者的版本使用不同的图集。",
+  "name": "GPT龙娘",
+  "localized_names": {
+    "en": "GPT Dragon Girl",
+    "zh": "GPT龙娘"
+  },
+  "author": "tenghuan123",
+  "author_handle": "tenghuan123",
+  "author_url": "https://github.com/tenghuan123",
+  "primary_category": "Mascots",
+  "collections": [],
+  "tags": [
+    "dragon-girl",
+    "mascot",
+    "ai-companion",
+    "community-request",
+    "ai-generated",
+    "v2",
+    "look-directions"
+  ],
+  "source_type": "ai-assisted-fan-art",
+  "source_url": "https://github.com/legeling/awesome-codex-pet/issues/246",
+  "source_notes": "最终宠物由 tenghuan123 使用 AI 辅助生成动画图像、组装图集并局部修复透明边缘。制作参考为投稿者本地提供的九张动作图，以及 Issue #246 中的角色设定图；参考图不随包上传，参考图作者不作为最终宠物资产作者。Issue 将角色称为 ZipZipPipe 创作的 GPT 龙娘，这一来源署名依据请求文字记录；未独立核实原图授权。最终图集不是从 Issue 参考图直接裁剪、描摹或清晰化而来。",
+  "license": "仅限非商业使用。最终宠物图集为 AI 辅助制作的同人适配作品；角色原设定及参考图权利仍归原权利人。",
+  "description": "以白发、紫瞳、龙角、龙翼和浅紫色礼服为特征的 GPT 龙娘 Q 版 Codex 宠物，包含九组任务动画和 16 个环视方向。",
+  "spriteVersionNumber": 2,
+  "spritesheet_sha256": "c81fc40e1d922cf7b7a8eec1d56f67d251f5488d2e69cc243dba056e42c0f1a5",
+  "codex_install": {
+    "pet_json": "pet.json",
+    "spritesheet": "spritesheet.webp"
+  }
+}
