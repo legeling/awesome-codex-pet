@@ -1,0 +1,24 @@
+{
+  "slug": "inori-yuzuriha--legeling",
+  "pet_slug": "inori-yuzuriha",
+  "author_slug": "legeling",
+  "name": "Inori Yuzuriha",
+  "localized_names": { "en": "Inori Yuzuriha", "zh": "楪祈" },
+  "author": "legeling",
+  "primary_category": "Anime Characters",
+  "canonical_key": "fictional/guilty-crown/inori-yuzuriha",
+  "variant_note": "Independently AI-generated chibi interpretation in a crimson-and-white goldfish-inspired dress, with nine standard animations and sixteen look directions.",
+  "tags": ["anime", "chibi", "fan-art", "ai-generated", "community-request"],
+  "source_type": "ai-generated-fan-art",
+  "source_url": "https://github.com/legeling/awesome-codex-pet/issues/229",
+  "license": "Non-commercial use only. Inori Yuzuriha and Guilty Crown belong to GUILTY CROWN COMMITTEE and their respective rights holders. This fan-art submission does not grant rights to the underlying character or reference artwork.",
+  "description": "Inori Yuzuriha fan art from Guilty Crown (罪恶王冠), independently AI-generated with the OpenAI image tool at legeling's direction. The image supplied in issue #229 was used as a visual reference only; its background and watermark are not included in this package. Pink hair, crimson eyes, and a crimson-and-white goldfish-inspired dress preserve the requested character identity. The exact final spritesheet was reviewed and approved before submission.",
+  "preview_image": "../../assets/previews/inori-yuzuriha--legeling/gifs/idle.gif",
+  "codex_install": {
+    "pet_json": "pet.json",
+    "spritesheet": "spritesheet.webp"
+  },
+  "spritesheet_sha256": "e311ea9c4c8be458906ab3fc180043eb81b8b82b698365ddc3735540d2a519d8",
+  "author_handle": "legeling",
+  "author_url": "https://github.com/legeling"
+}
