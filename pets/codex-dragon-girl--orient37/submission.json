@@ -1,0 +1,23 @@
+{
+  "slug": "codex-dragon-girl--orient37",
+  "pet_slug": "codex-dragon-girl",
+  "author_slug": "orient37",
+  "name": "Codex龙娘·居家版",
+  "author": "orient37（AI 辅助制作）",
+  "author_handle": "orient37",
+  "primary_category": "Others",
+  "canonical_key": "original/zipzippipe/codex-dragon-girl",
+  "variant_note": "为社区请求 #246 独立 AI 制作的 V2 居家装演绎，使用白裙、蓝紫蝴蝶结、毛绒拖鞋和淡紫龙尾；不复制现有宠物图集。",
+  "tags": ["animated", "anime", "cute", "community-request", "v2"],
+  "source_type": "ai-generated-fan-art",
+  "source_url": "https://github.com/legeling/awesome-codex-pet/issues/246",
+  "license": "仅限非商业使用。角色创作署名按请求保留为 ZipZipPipe；不宣称拥有原角色或参考图的权利，也不为参考图授予额外许可。",
+  "description": "白色长卷发、淡紫龙角与龙尾的居家裙装伙伴。参考请求提供的角色设定，由 orient37 使用 AI 独立生成和编排 V2 动画。",
+  "character_creator": "ZipZipPipe（按请求提供，尚未独立核实）",
+  "reference_url": "https://api.codexpet.top/uploads/reference/references/8d4052f37f062f21c30f5eaf5506a9bcfcd4ffcf641af1759ec02dd3439fccf4.webp",
+  "attribution_notes": "请求由无 GitHub 账号的表单提交。原作未提供；参考图的具体绘制者和原始发布页面未确认。参考图仅用于视觉参考，不随包提交。最终像素使用 AI 生成。",
+  "codex_install": {
+    "pet_json": "pet.json",
+    "spritesheet": "spritesheet.webp"
+  }
+}
