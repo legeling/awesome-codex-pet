@@ -57,6 +57,7 @@ function requestDirectives(body) {
   );
   const lines = [];
   let fence = null;
+  let codeSpan = null;
   let quotedParagraph = false;
   for (const line of visibleBody.split(/\r?\n/)) {
     const directive = line.replace(/^ {0,3}(?:(?:[-*+]|\d+[.)])[ \t]+)?/, "");
@@ -78,6 +79,12 @@ function requestDirectives(body) {
     if (!line.trim()) quotedParagraph = false;
     if (/^ {0,3}>/.test(line)) quotedParagraph = true;
     if (quotedParagraph || /^(?: {4}|\t)/.test(line)) continue;
+    const wasInCodeSpan = codeSpan !== null;
+    for (const [backticks] of directive.matchAll(/`+/g)) {
+      if (codeSpan === null) codeSpan = backticks;
+      else if (codeSpan === backticks) codeSpan = null;
+    }
+    if (wasInCodeSpan || codeSpan !== null || directive.includes("`")) continue;
     lines.push(directive.trim());
   }
   return lines;

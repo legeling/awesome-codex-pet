@@ -209,6 +209,8 @@ test("ignores quoted, code, comment, and unfilled template references", () => {
     "\tCloses #83",
     "`Closes #83`",
     "Closes `#83`",
+    "Example: `\nCloses #83\n`",
+    "Example: ``\n`\nCloses #83\n``",
     "```markdown\nCloses #83\n```",
     "~~~text\nRelated request issue: #83\n~~~",
     "````markdown\n```\nCloses #83\n````",
