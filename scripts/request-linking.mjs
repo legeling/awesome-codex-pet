@@ -49,45 +49,90 @@ export function submissionChangeMayCompleteRequest(file) {
     );
 }
 
-function requestDirectives(body) {
+function requestDirectiveBlocks(body) {
   // Examples in comments, code, quotes, and template checklists are not claims.
-  const visibleBody = String(body ?? "").replace(
-    /<!--[\s\S]*?(?:-->|$)/g,
-    (comment) => comment.replace(/[^\r\n]/g, " "),
-  );
-  const lines = [];
+  // Keep masked lines nonempty so hiding an example cannot split surrounding prose.
+  const mask = (value) =>
+    value
+      .split(/\r?\n/)
+      .map(() => "\0")
+      .join("\n");
+  const visibleBody = String(body ?? "")
+    .replace(/<!--[\s\S]*?(?:-->|$)/g, mask)
+    .replace(
+      /<(pre|code|blockquote|script|style|textarea)\b[^>]*>[\s\S]*?(?:<\/\1\s*>|$)/gi,
+      mask,
+    );
+  const blocks = [];
+  let block = [];
+  const finishBlock = () => {
+    if (block.length) blocks.push(block);
+    block = [];
+  };
   let fence = null;
   let codeSpan = null;
   let quotedParagraph = false;
   for (const line of visibleBody.split(/\r?\n/)) {
-    const directive = line.replace(/^ {0,3}(?:(?:[-*+]|\d+[.)])[ \t]+)?/, "");
-    const marker = directive.match(/^(`{3,}|~{3,})(.*)$/);
     if (fence) {
+      // A list marker inside a fence is literal code, never its closing delimiter.
+      const marker = line.match(/^ {0,3}(`{3,}|~{3,})(.*)$/);
       if (
         marker &&
         marker[1][0] === fence[0] &&
         marker[1].length >= fence.length &&
         !marker[2].trim()
-      )
+      ) {
         fence = null;
+        finishBlock();
+      }
       continue;
     }
+    if (!line.trim()) {
+      finishBlock();
+      quotedParagraph = false;
+      codeSpan = null;
+      continue;
+    }
+    if (/^ {0,3}#{1,6}(?:[ \t]+|$)/.test(line)) {
+      finishBlock();
+      quotedParagraph = false;
+      codeSpan = null;
+      continue;
+    }
+    const listItem = line.match(/^ {0,3}(?:[-*+]|\d+[.)])[ \t]+/);
+    if (listItem) {
+      finishBlock();
+      quotedParagraph = false;
+    }
+    const directive = listItem
+      ? line.slice(listItem[0].length)
+      : line.replace(/^ {0,3}/, "");
+    const marker = directive.match(/^(`{3,}|~{3,})(.*)$/);
     if (marker) {
+      finishBlock();
       fence = marker[1];
+      quotedParagraph = false;
+      codeSpan = null;
       continue;
     }
-    if (!line.trim()) quotedParagraph = false;
-    if (/^ {0,3}>/.test(line)) quotedParagraph = true;
-    if (quotedParagraph || /^(?: {4}|\t)/.test(line)) continue;
+    if (directive.startsWith(">")) quotedParagraph = true;
+    if (quotedParagraph || /^(?: {4}|\t)/.test(line)) {
+      block.push("\0");
+      continue;
+    }
     const wasInCodeSpan = codeSpan !== null;
     for (const [backticks] of directive.matchAll(/`+/g)) {
       if (codeSpan === null) codeSpan = backticks;
       else if (codeSpan === backticks) codeSpan = null;
     }
-    if (wasInCodeSpan || codeSpan !== null || directive.includes("`")) continue;
-    lines.push(directive.trim());
+    if (wasInCodeSpan || codeSpan !== null || directive.includes("`")) {
+      block.push("\0");
+      continue;
+    }
+    block.push(directive.trim());
   }
-  return lines;
+  finishBlock();
+  return blocks;
 }
 
 function requestReferencesFromPullRequestBody(body, repository) {
@@ -103,10 +148,10 @@ function requestReferencesFromPullRequestBody(body, repository) {
   );
   const references = [];
 
-  for (const line of requestDirectives(body)) {
+  function parseDirective(line) {
     const closing = line.match(closingPrefix);
     const prefix = closing ?? line.match(relatedPrefix);
-    if (!prefix) continue;
+    if (!prefix) return [];
     let rest = line.slice(prefix[0].length);
     let closes = Boolean(closing);
     const parsed = [];
@@ -119,8 +164,7 @@ function requestReferencesFromPullRequestBody(body, repository) {
       parsed.push({ number, closes });
       rest = rest.slice(match[0].length);
       if (/^\s*\.?\s*$/.test(rest)) {
-        references.push(...parsed);
-        break;
+        return parsed;
       }
       const separator = rest.match(
         /^(?:\s*[,;]\s*(?:and\s+)?|\s+(?:and|&)\s+)/i,
@@ -131,6 +175,14 @@ function requestReferencesFromPullRequestBody(body, repository) {
       closes = Boolean(nextClosing);
       if (nextClosing) rest = rest.slice(nextClosing[0].length);
     }
+    return [];
+  }
+
+  for (const block of requestDirectiveBlocks(body)) {
+    const parsed = block.map(parseDirective);
+    // A wrapped sentence must be a claim as a whole, not just on one of its lines.
+    if (parsed.every((line) => line.length > 0))
+      references.push(...parsed.flat());
   }
   return references;
 }
@@ -161,7 +213,16 @@ export function ensureClosingReferences(body, issueNumbers, repository) {
 
   if (missing.length === 0) return normalizedBody;
   const closingLines = missing.map((number) => `Closes #${number}`).join("\n");
-  return normalizedBody ? `${normalizedBody}\n\n${closingLines}` : closingLines;
+  const appended = normalizedBody
+    ? `${normalizedBody}\n\n${closingLines}`
+    : closingLines;
+  if (
+    missing.every((number) => hasClosingReference(appended, number, repository))
+  ) {
+    return appended;
+  }
+  // An unfinished fence or HTML block could hide appended directives indefinitely.
+  return `${closingLines}\n\n${normalizedBody}`;
 }
 
 export function withRequestStatus(labels, status) {

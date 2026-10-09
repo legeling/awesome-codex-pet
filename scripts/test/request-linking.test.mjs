@@ -68,6 +68,7 @@ test("only treats request-link metadata changes as direct completion candidates"
 
 test("finds closing and related-request references without scanning unrelated prose", () => {
   const body = `Summary mentions #9 but does not link it.
+
 Related request issue: #83
 Closes https://github.com/legeling/awesome-codex-pet/issues/84`;
 
@@ -126,6 +127,189 @@ test("requires complete affirmative directives instead of scanning nearby prose"
       body,
     );
     assert.equal(hasClosingReference(body, 83, repository), false, body);
+  }
+});
+
+test("does not extract directives from wrapped prose or negative list items", () => {
+  for (const body of [
+    "This PR does not\nclose #83",
+    "This PR does not\nfix #83 or resolve #84",
+    "Closes #83\nis only an example",
+    "Example:\nCloses #83\nFixes #84",
+    "- This PR does not\n  close #83",
+    "- Closes #83\n  is only an example",
+    "This PR does not\n<!-- explanation -->\nclose #83",
+    "- > Quoted example\n  Closes #83",
+  ]) {
+    assert.deepEqual(
+      requestIssueNumbersFromPullRequestBody(body, repository),
+      [],
+      body,
+    );
+    assert.equal(hasClosingReference(body, 83, repository), false, body);
+  }
+});
+
+test("preserves standalone directive paragraphs, lists, and consecutive directives", () => {
+  for (const body of [
+    "Background text.\n\nCloses #83\nFixes #84",
+    "Background text.\n- Closes #83\n- Fixes #84",
+    "- Background text\n  wraps here\n- Closes #83\n- Fixes #84",
+    "Closes #83\nFixes #84",
+    "Closes #83\n\nFixes #84",
+  ]) {
+    assert.deepEqual(
+      requestIssueNumbersFromPullRequestBody(body, repository),
+      [83, 84],
+      body,
+    );
+    assert.equal(hasClosingReference(body, 83, repository), true, body);
+    assert.equal(hasClosingReference(body, 84, repository), true, body);
+    assert.equal(ensureClosingReferences(body, [83, 84], repository), body);
+  }
+});
+
+test("unmatched inline backticks do not hide later directive paragraphs", () => {
+  const body = "press the ` key\n\nResolves #84";
+  assert.deepEqual(
+    requestIssueNumbersFromPullRequestBody(body, repository),
+    [84],
+  );
+  assert.equal(hasClosingReference(body, 84, repository), true);
+});
+
+test("ATX headings delimit standalone directive paragraphs without blank lines", () => {
+  for (const body of [
+    "## Request\nCloses #83",
+    "Closes #83\n## Summary",
+    "## Request\nCloses #83\n## Summary\nBackground text.",
+    "   ### Request\nCloses #83\n###### Summary",
+  ]) {
+    assert.deepEqual(
+      requestIssueNumbersFromPullRequestBody(body, repository),
+      [83],
+      body,
+    );
+    assert.equal(hasClosingReference(body, 83, repository), true, body);
+    assert.equal(ensureClosingReferences(body, [83], repository), body);
+  }
+  const negative = "## Summary\nThis PR does not\nclose #83";
+  assert.deepEqual(
+    requestIssueNumbersFromPullRequestBody(negative, repository),
+    [],
+  );
+  assert.deepEqual(
+    requestIssueNumbersFromPullRequestBody("## Closes #83", repository),
+    [],
+  );
+});
+
+test("actual code-fence boundaries preserve adjacent standalone directives", () => {
+  for (const fence of ["```", "~~~"]) {
+    const example = `${fence}markdown\nCloses #84\n${fence}`;
+    for (const body of [`Closes #83\n${example}`, `${example}\nCloses #83`]) {
+      assert.deepEqual(
+        requestIssueNumbersFromPullRequestBody(body, repository),
+        [83],
+        body,
+      );
+      assert.equal(hasClosingReference(body, 83, repository), true, body);
+      assert.equal(hasClosingReference(body, 84, repository), false, body);
+      assert.equal(ensureClosingReferences(body, [83], repository), body);
+    }
+    const both = `Closes #83\n${example}\nResolves #85`;
+    assert.deepEqual(
+      requestIssueNumbersFromPullRequestBody(both, repository),
+      [83, 85],
+    );
+  }
+});
+
+test("list markers cannot close an enclosing code fence", () => {
+  for (const body of [
+    "```markdown\n- ```\nCloses #83\n```",
+    "~~~markdown\n- ~~~\nCloses #83\n~~~",
+  ]) {
+    assert.deepEqual(
+      requestIssueNumbersFromPullRequestBody(body, repository),
+      [],
+      body,
+    );
+    assert.equal(hasClosingReference(body, 83, repository), false, body);
+  }
+});
+
+test("adds visible closing lines idempotently when the body has an unfinished block", () => {
+  for (const unfinished of ["```", "~~~", "<!--", "<pre>", "<code>"]) {
+    const body = `Related request: #83\n\n${unfinished}`;
+    assert.deepEqual(
+      requestIssueNumbersFromPullRequestBody(body, repository),
+      [83],
+    );
+    const updated = ensureClosingReferences(body, [83], repository);
+    assert.equal(updated, `Closes #83\n\n${body}`);
+    assert.equal(hasClosingReference(updated, 83, repository), true);
+    assert.equal(ensureClosingReferences(updated, [83], repository), updated);
+    // A metadata-derived claim also needs visible output even without a body claim.
+    const fromMetadata = ensureClosingReferences(unfinished, [83], repository);
+    assert.equal(hasClosingReference(fromMetadata, 83, repository), true);
+    assert.equal(
+      ensureClosingReferences(fromMetadata, [83], repository),
+      fromMetadata,
+    );
+  }
+});
+
+test("ignores HTML pre, code, and quote examples across paragraphs", () => {
+  for (const example of [
+    "<pre>\nCloses #83\n</pre>",
+    "<code>\nCloses #83\n</code>",
+    '<PRE class="example">\n\nCloses #83\n\n</PRE>',
+    "<pre><code>\n\nCloses #83\n\n</code></pre>",
+    "<code>Closes #83</code>",
+    "<blockquote>\n\nCloses #83\n\n</blockquote>",
+  ]) {
+    const body = `${example}\n\nResolves #84`;
+    assert.deepEqual(
+      requestIssueNumbersFromPullRequestBody(body, repository),
+      [84],
+      example,
+    );
+    assert.equal(hasClosingReference(body, 83, repository), false, example);
+    assert.equal(hasClosingReference(body, 84, repository), true, example);
+  }
+  for (const body of ["<pre>\n\nCloses #83", "<code>\nCloses #83"]) {
+    assert.deepEqual(
+      requestIssueNumbersFromPullRequestBody(body, repository),
+      [],
+      body,
+    );
+  }
+});
+
+test("ignores raw HTML script, style, and textarea blocks including blank lines", () => {
+  for (const tag of ["script", "style", "textarea"]) {
+    const closed = `<${tag}>\n\nCloses #83\n\n</${tag}>\n\nResolves #84`;
+    assert.deepEqual(
+      requestIssueNumbersFromPullRequestBody(closed, repository),
+      [84],
+      tag,
+    );
+    assert.equal(hasClosingReference(closed, 83, repository), false, tag);
+    assert.equal(hasClosingReference(closed, 84, repository), true, tag);
+    const unfinished = `<${tag}>\n\nCloses #83`;
+    assert.deepEqual(
+      requestIssueNumbersFromPullRequestBody(unfinished, repository),
+      [],
+      tag,
+    );
+    const updated = ensureClosingReferences(unfinished, [84], repository);
+    assert.equal(hasClosingReference(updated, 84, repository), true, tag);
+    assert.equal(
+      ensureClosingReferences(updated, [84], repository),
+      updated,
+      tag,
+    );
   }
 });
 
