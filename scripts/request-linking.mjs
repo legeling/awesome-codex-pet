@@ -1,4 +1,4 @@
-const ISSUE_NUMBER_PATTERN = /#(\d+)/g;
+const CLOSING_KEYWORD = "(?:close[sd]?|fix(?:e[sd])?|resolve[sd]?)";
 
 function escapeRegExp(value) {
   return value.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
@@ -18,13 +18,6 @@ function issueUrlPattern(repository) {
     `https://github\\.com/${escapeRegExp(owner)}/${escapeRegExp(repo)}/issues/(\\d+)`,
     "gi",
   );
-}
-
-function collectNumbers(value, pattern, target) {
-  for (const match of String(value ?? "").matchAll(pattern)) {
-    const number = Number(match[1]);
-    if (Number.isSafeInteger(number) && number > 0) target.add(number);
-  }
 }
 
 export function issueNumberFromSourceUrl(sourceUrl, repository) {
@@ -56,36 +49,99 @@ export function submissionChangeMayCompleteRequest(file) {
     );
 }
 
-export function requestIssueNumbersFromPullRequestBody(body, repository) {
-  const numbers = new Set();
-  const closingKeyword = /\b(?:close[sd]?|fix(?:e[sd])?|resolve[sd]?)\b/i;
-  const relatedRequest =
-    /(?:related\s+(?:pet\s+)?request|request\s+issue|相关需求|关联需求|需求\s*issue)/i;
-
-  for (const line of String(body ?? "").split(/\r?\n/)) {
-    if (!closingKeyword.test(line) && !relatedRequest.test(line)) continue;
-    collectNumbers(line, ISSUE_NUMBER_PATTERN, numbers);
-    collectNumbers(line, issueUrlPattern(repository), numbers);
+function requestDirectives(body) {
+  // Examples in comments, code, quotes, and template checklists are not claims.
+  const visibleBody = String(body ?? "").replace(
+    /<!--[\s\S]*?(?:-->|$)/g,
+    (comment) => comment.replace(/[^\r\n]/g, " "),
+  );
+  const lines = [];
+  let fence = null;
+  let quotedParagraph = false;
+  for (const line of visibleBody.split(/\r?\n/)) {
+    const directive = line.replace(/^ {0,3}(?:(?:[-*+]|\d+[.)])[ \t]+)?/, "");
+    const marker = directive.match(/^(`{3,}|~{3,})(.*)$/);
+    if (fence) {
+      if (
+        marker &&
+        marker[1][0] === fence[0] &&
+        marker[1].length >= fence.length &&
+        !marker[2].trim()
+      )
+        fence = null;
+      continue;
+    }
+    if (marker) {
+      fence = marker[1];
+      continue;
+    }
+    if (!line.trim()) quotedParagraph = false;
+    if (/^ {0,3}>/.test(line)) quotedParagraph = true;
+    if (quotedParagraph || /^(?: {4}|\t)/.test(line)) continue;
+    lines.push(directive.trim());
   }
+  return lines;
+}
 
-  return [...numbers].sort((left, right) => left - right);
+function requestReferencesFromPullRequestBody(body, repository) {
+  const closingPrefix = new RegExp(
+    `^${CLOSING_KEYWORD}(?:\\s*:\\s*|\\s+)`,
+    "i",
+  );
+  const relatedPrefix =
+    /^(?:related\s+(?:pet\s+)?request(?:\s+issues?)?|request\s+issues?|相关需求|关联需求|需求\s*issue)(?:\s*[:：]\s*|\s+)/i;
+  const reference = new RegExp(
+    `^(?:#(\\d+)|${issueUrlPattern(repository).source})`,
+    "i",
+  );
+  const references = [];
+
+  for (const line of requestDirectives(body)) {
+    const closing = line.match(closingPrefix);
+    const prefix = closing ?? line.match(relatedPrefix);
+    if (!prefix) continue;
+    let rest = line.slice(prefix[0].length);
+    let closes = Boolean(closing);
+    const parsed = [];
+
+    // Accept only a complete directive plus a reference list, never nearby prose.
+    while (true) {
+      const match = rest.match(reference);
+      const number = Number(match?.[1] ?? match?.[2]);
+      if (!match || !Number.isSafeInteger(number) || number <= 0) break;
+      parsed.push({ number, closes });
+      rest = rest.slice(match[0].length);
+      if (/^\s*\.?\s*$/.test(rest)) {
+        references.push(...parsed);
+        break;
+      }
+      const separator = rest.match(
+        /^(?:\s*[,;]\s*(?:and\s+)?|\s+(?:and|&)\s+)/i,
+      );
+      if (!separator) break;
+      rest = rest.slice(separator[0].length);
+      const nextClosing = rest.match(closingPrefix);
+      closes = Boolean(nextClosing);
+      if (nextClosing) rest = rest.slice(nextClosing[0].length);
+    }
+  }
+  return references;
+}
+
+export function requestIssueNumbersFromPullRequestBody(body, repository) {
+  return [
+    ...new Set(
+      requestReferencesFromPullRequestBody(body, repository).map(
+        ({ number }) => number,
+      ),
+    ),
+  ].sort((left, right) => left - right);
 }
 
 export function hasClosingReference(body, issueNumber, repository) {
-  const closingKeyword = /\b(?:close[sd]?|fix(?:e[sd])?|resolve[sd]?)\b/i;
-  const issueToken = new RegExp(`(?:^|\\s)#${issueNumber}(?:\\b|$)`, "i");
-  const issueUrl = new RegExp(
-    `${issueUrlPattern(repository).source.replace("(\\d+)", String(issueNumber))}(?:\\b|$)`,
-    "i",
+  return requestReferencesFromPullRequestBody(body, repository).some(
+    ({ number, closes }) => number === issueNumber && closes,
   );
-
-  return String(body ?? "")
-    .split(/\r?\n/)
-    .some(
-      (line) =>
-        closingKeyword.test(line) &&
-        (issueToken.test(line) || issueUrl.test(line)),
-    );
 }
 
 export function ensureClosingReferences(body, issueNumbers, repository) {
