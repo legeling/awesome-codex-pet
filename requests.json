@@ -1,5 +1,49 @@
 [
   {
+    "number": 267,
+    "character": "孤独摇滚山田凉",
+    "characterDetails": "孤独摇滚山田凉",
+    "franchise": "Not provided",
+    "category": "other",
+    "version": "v2",
+    "requestType": "Create a new community interpretation",
+    "referenceStatus": "",
+    "references": "https://api.codexpet.top/uploads/reference/references/80f0ae7e0c165c3828a5c17c3fadaf5b251657298528dcd3f2d7571e2a3bb7e9.jpg",
+    "referenceUrls": [
+      "https://api.codexpet.top/uploads/reference/references/80f0ae7e0c165c3828a5c17c3fadaf5b251657298528dcd3f2d7571e2a3bb7e9.jpg"
+    ],
+    "referenceImages": [
+      "https://api.codexpet.top/uploads/reference/references/80f0ae7e0c165c3828a5c17c3fadaf5b251657298528dcd3f2d7571e2a3bb7e9.jpg"
+    ],
+    "referenceThumbnails": [
+      "https://api.codexpet.top/uploads/reference/thumbnails/80f0ae7e0c165c3828a5c17c3fadaf5b251657298528dcd3f2d7571e2a3bb7e9.webp"
+    ],
+    "visualDirection": "Let the community maker decide.",
+    "nameLanguages": "Let the maker decide",
+    "attribution": "Submitted without a GitHub account. Reference and attribution details should be confirmed during triage. Non-commercial use only.",
+    "duplicateCheck": "Repository automation or a maintainer should complete the duplicate check during triage.",
+    "state": "open",
+    "status": "triage",
+    "labels": [
+      "type: request",
+      "status: triage",
+      "version: v2",
+      "category: other"
+    ],
+    "author": {
+      "login": "github-actions[bot]",
+      "avatarUrl": "https://avatars.githubusercontent.com/in/15368?v=4",
+      "url": "https://github.com/apps/github-actions"
+    },
+    "assignees": [],
+    "createdAt": "2026-10-10T08:56:34Z",
+    "updatedAt": "2026-10-10T08:56:34Z",
+    "closedAt": null,
+    "comments": 0,
+    "reactions": 0,
+    "githubUrl": "https://github.com/legeling/awesome-codex-pet/issues/267"
+  },
+  {
     "number": 239,
     "character": "狸花猫",
     "characterDetails": "狸花猫",
@@ -492,7 +536,7 @@
     },
     "assignees": [],
     "createdAt": "2026-10-06T00:04:37Z",
-    "updatedAt": "2026-10-09T12:02:08Z",
+    "updatedAt": "2026-10-10T08:41:54Z",
     "closedAt": "2026-10-08T09:23:41Z",
     "comments": 12,
     "reactions": 0,
