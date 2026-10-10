@@ -1,5 +1,45 @@
 [
   {
+    "number": 268,
+    "character": "永雏塔菲",
+    "characterDetails": "永雏塔菲",
+    "franchise": "Not provided",
+    "category": "other",
+    "version": "v2",
+    "requestType": "Create a new community interpretation",
+    "referenceStatus": "",
+    "references": "https://ts3.tc.mm.bing.net/th/id/OIP-C.d0IWfBUg6qPCOm82u-G92wHaE1?r=0&rs=1&pid=ImgDetMain&o=7&rm=3",
+    "referenceUrls": [
+      "https://ts3.tc.mm.bing.net/th/id/OIP-C.d0IWfBUg6qPCOm82u-G92wHaE1?r=0&rs=1&pid=ImgDetMain&o=7&rm=3"
+    ],
+    "referenceImages": [],
+    "referenceThumbnails": [],
+    "visualDirection": "能不能做一个我爹，求求佬了",
+    "nameLanguages": "Let the maker decide",
+    "attribution": "Submitted without a GitHub account. Reference and attribution details should be confirmed during triage. Non-commercial use only.",
+    "duplicateCheck": "Repository automation or a maintainer should complete the duplicate check during triage.",
+    "state": "open",
+    "status": "triage",
+    "labels": [
+      "type: request",
+      "status: triage",
+      "version: v2",
+      "category: other"
+    ],
+    "author": {
+      "login": "github-actions[bot]",
+      "avatarUrl": "https://avatars.githubusercontent.com/in/15368?v=4",
+      "url": "https://github.com/apps/github-actions"
+    },
+    "assignees": [],
+    "createdAt": "2026-10-10T15:13:50Z",
+    "updatedAt": "2026-10-10T15:13:50Z",
+    "closedAt": null,
+    "comments": 0,
+    "reactions": 0,
+    "githubUrl": "https://github.com/legeling/awesome-codex-pet/issues/268"
+  },
+  {
     "number": 267,
     "character": "孤独摇滚山田凉",
     "characterDetails": "孤独摇滚山田凉",
