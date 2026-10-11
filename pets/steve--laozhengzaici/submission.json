@@ -1,0 +1,30 @@
+{
+  "slug": "steve--laozhengzaici",
+  "pet_slug": "steve",
+  "author_slug": "laozhengzaici",
+  "name": "Steve",
+  "localized_names": {
+    "en": "Steve",
+    "zh": "史蒂夫"
+  },
+  "author": "laozhengzaici",
+  "author_handle": "laozhengzaici",
+  "author_url": "https://github.com/laozhengzaici",
+  "primary_category": "Game Characters",
+  "tags": ["minecraft", "steve", "classic-skin", "block-model", "v2"],
+  "collections": [],
+  "canonical_key": "fictional/minecraft/steve",
+  "variant_note": "Classic Minecraft Steve skin rendered on a six-cuboid model, with custom rigid-limb animations and 16 stationary look directions for Codex v2. Model, animation and Codex adaptation by laozhengzaici.",
+  "source_type": "texture-adaptation",
+  "source_url": "https://assets.mojang.com/SkinTemplates/steve.png",
+  "source_notes": "Final sprites directly reuse pixels from the official classic Steve skin supplied by the submitter. Original character and skin artwork: Mojang/Microsoft. The supplied all-faces crops are texture inputs, not independent pet artwork. laozhengzaici is credited for the model, animation and Codex adaptation, not for the original skin. Frames are rendered using nearest-texel texture sampling, face lighting, native alpha and supersampled edge coverage; adjacent skin texels are adapted for blinking. No AI-generated sprite pixels are used in the final sheet.",
+  "original_asset_author": "Mojang/Microsoft",
+  "source_asset_sha256": "4c7b0468044bfecacc43d00a3a69335a834b73937688292c20d3988cae58248d",
+  "license": "Non-commercial use only.",
+  "usage_notes": "仅限非商业使用。Non-commercial use only. Original Minecraft character and skin rights remain with Mojang/Microsoft; this adaptation does not claim ownership of or relicense the original artwork.",
+  "description": "Classic Minecraft Steve as a block-model Codex v2 pet, with nine animation states and sixteen stationary look directions.",
+  "codex_install": {
+    "pet_json": "pet.json",
+    "spritesheet": "spritesheet.webp"
+  }
+}
