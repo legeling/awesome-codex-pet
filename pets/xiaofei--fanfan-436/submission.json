@@ -1,0 +1,40 @@
+{
+  "slug": "xiaofei--fanfan-436",
+  "pet_slug": "xiaofei",
+  "author_slug": "fanfan-436",
+  "name": "小菲",
+  "localized_names": {
+    "en": "Xiaofei",
+    "zh": "小菲"
+  },
+  "author": "Fanfan-436",
+  "author_handle": "Fanfan-436",
+  "author_url": "https://github.com/Fanfan-436",
+  "primary_category": "Anime Characters",
+  "collections": [],
+  "canonical_key": "virtual-youtuber/ace-taffy",
+  "variant_note": "Independent AI-assisted Xiaofei fan-art edition by Fanfan-436, preserving the original detective costume and nine standard animations, with the submitter-selected S06 sixteen-direction head-and-eye gaze family normalized to a stable sprite height for Codex V2.",
+  "tags": [
+    "virtual-youtuber",
+    "ace-taffy",
+    "yongchu-taffy",
+    "xiaofei",
+    "fan-art",
+    "ai-generated",
+    "chibi",
+    "codex-v2",
+    "look-directions",
+    "community-request"
+  ],
+  "source_type": "ai-generated fan-art",
+  "source_url": "https://github.com/legeling/awesome-codex-pet/issues/268",
+  "license": "Non-commercial use only. 仅限非商业使用。Unofficial AI-assisted fan-art pet adapted by Fanfan-436; character rights remain with their respective owners.",
+  "source_notes": "Fanfan-436 independently generated the pet and animation artwork with gpt-image-2 through an OpenAI-compatible image service, then extracted, registered and locally cleaned chroma edges using Codex Hatch Pet V2. The original Yongchu Xiaofei character sheet by 琳rinki, reproduced on https://zh.moegirl.org.cn/File:%E6%B0%B8%E9%9B%8F%E5%B0%8F%E8%8F%B2.jpg, was supplied to the model as a reference only. Only its left full-body detective outfit was used as the costume reference; its alternate expression-panel outfit was excluded. The reference image is not included in this package. The final main pet retains nine independently AI-generated standard animation families. Its sixteen-direction gaze uses the submitter-selected coherent G22 and G28 eight-pose AI-generated families (S06); deterministic isotropic scaling aligns each complete pose to a common 198-pixel visible height and 203-pixel boot baseline, preserving each pose's facial expression and direction. No one-off new face frames were pasted into the families, and no final pixels were directly cropped or traced from the character reference sheet. The linked Issue is the community request, not a download source for final artwork. Non-commercial use only.",
+  "description": "永雏塔菲的小菲形象：粉发金瞳、齿轮发夹与小猫饰物，穿着白色荷叶边上衣和深蓝红金侦探裙装的活泼 Q 版桌宠。",
+  "preview_image": "../../assets/previews/xiaofei--fanfan-436/gifs/idle.gif",
+  "codex_install": {
+    "pet_json": "pet.json",
+    "spritesheet": "spritesheet.webp"
+  },
+  "spritesheet_sha256": "201b8f8411f51e293957779b6eea66c42a6b5f7f140f7abdbf942f63c5d622ad"
+}
