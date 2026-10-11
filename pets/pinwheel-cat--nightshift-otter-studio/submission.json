@@ -1,0 +1,21 @@
+{
+  "slug": "pinwheel-cat--nightshift-otter-studio",
+  "pet_slug": "pinwheel-cat",
+  "author_slug": "nightshift-otter-studio",
+  "name": "Pinwheel Cat",
+  "author": "Nightshift Otter Studio",
+  "author_url": "https://8587143053055.gumroad.com/l/eyovdw",
+  "primary_category": "Animals",
+  "canonical_key": "original/nightshift-otter-studio/pinwheel-cat",
+  "tags": ["cat", "v2"],
+  "source_type": "ai-generated",
+  "source_url": "https://8587143053055.gumroad.com/l/eyovdw",
+  "source_notes": "AI-made Pinwheel White artwork from Nightshift Otter Studio's Meme-Cat-Pinwheel-White-Personal-Trial-v0.9.zip. Adapted for Codex by lossless PNG-to-WebP conversion and runtime metadata. Only this one free variant is submitted; no other paid variant is included.",
+  "license": "Nightshift Otter Studio Limited Gallery Distribution Permission (Pinwheel White only): this pet folder and its generated previews are an explicit exception to the repository's default CC BY-NC 4.0 license. Nightshift Otter Studio authorizes https://github.com/legeling/awesome-codex-pet and https://codexpet.top, including the contribution and review workflow for that repository, to host this one free variant, distribute it for personal non-commercial use, generate previews, and make compatibility corrections that preserve the character and attribution. Recipients may install and use this variant personally and non-commercially. Preserve the Nightshift Otter Studio credit, this permission notice, and the free-trial source link https://8587143053055.gumroad.com/l/eyovdw. Commercial use, resale, and unrelated third-party redistribution are not authorized. No permission is granted for any other paid variant. Nightshift Otter Studio retains all character and artwork rights. This permission applies only to this gallery submission package and its generated previews; existing store products, licenses, and prices remain unchanged.",
+  "description": "An AI-made tabby cat with a white pinwheel badge and a playful tongue-out expression.",
+  "preview_image": "../../assets/previews/pinwheel-cat--nightshift-otter-studio/gifs/idle.gif",
+  "codex_install": {
+    "pet_json": "pet.json",
+    "spritesheet": "spritesheet.webp"
+  }
+}
