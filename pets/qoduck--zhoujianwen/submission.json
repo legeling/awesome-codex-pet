@@ -1,0 +1,33 @@
+{
+  "slug": "qoduck--zhoujianwen",
+  "pet_slug": "qoduck",
+  "author_slug": "zhoujianwen",
+  "name": "Qoduck",
+  "localized_names": {
+    "en": "Qoduck",
+    "zh": "Q 达鸭"
+  },
+  "author": "zhoujianwen",
+  "primary_category": "Mascots",
+  "canonical_key": "qoder/qoduck",
+  "variant_note": "Unofficial independently AI-generated Codex v1 adaptation by zhoujianwen of Qoder's Qoduck character. All final pixels are independently generated; the official GIF is reference-only. Nine standard Codex animation states are newly adapted, not a native Qoder atlas conversion. The observed magnifier inspection appearance is retained across this adaptation for identity consistency, without claiming every official state permanently holds the prop.",
+  "tags": [
+    "qoder",
+    "qoduck",
+    "duck",
+    "magnifying-glass",
+    "hand-drawn",
+    "ai-generated",
+    "unofficial"
+  ],
+  "collections": [],
+  "source_type": "ai-generated",
+  "source_url": "https://qoder.com/qoder",
+  "license": "Non-commercial use only. Qoduck character belongs to Qoder. This unofficial independently AI-generated Codex adaptation does not claim or imply permission, endorsement, or redistribution authorization from the character rights holder. No official source-image pixels are included.",
+  "description": "Qoder 默认桌宠 Q 达鸭的非官方、独立 AI 生成 Codex v1 适配。保留官方演示中的淡黄色圆团、三根头毛、粗眉黑眼、橙喙及放大镜检查造型；九个 Codex 状态为新增适配，非官方原生图集移植。",
+  "preview_image": "../../assets/previews/qoduck--zhoujianwen/gifs/idle.gif",
+  "codex_install": {
+    "pet_json": "pet.json",
+    "spritesheet": "spritesheet.webp"
+  }
+}
