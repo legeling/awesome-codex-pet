@@ -1,0 +1,40 @@
+{
+  "slug": "zi-ling-white--zhou-jianwen",
+  "pet_slug": "zi-ling-white",
+  "author_slug": "zhou-jianwen",
+  "name": "Zi Ling",
+  "localized_names": {
+    "en": "Zi Ling",
+    "zh": "白衣紫灵"
+  },
+  "author": "zhou-jianwen",
+  "author_handle": "zhou-jianwen",
+  "author_url": "https://github.com/zhou-jianwen",
+  "primary_category": "Anime Characters",
+  "canonical_key": "a-record-of-a-mortals-journey-to-immortality/zi-ling",
+  "variant_note": "Independent white-outfit community fan-art interpretation requested in #112. The supplied no-veil head-and-shoulders reference guides the face, long black hair, blue-violet eyes and white/pale-blue/gold upper costume. The unseen lower dress is an original design completion, not a claim of verified canonical costume fidelity.",
+  "collections": [],
+  "tags": [
+    "zi-ling",
+    "凡人修仙传",
+    "white-robes",
+    "community-request",
+    "ai-generated",
+    "v2"
+  ],
+  "source_type": "independently-ai-generated-from-reference",
+  "source_url": "https://github.com/legeling/awesome-codex-pet/issues/112",
+  "license": "Non-commercial use only. Commercial use is prohibited. Independently generated unofficial fan art of Zi Ling from A Record of a Mortal's Journey to Immortality; no ownership of the character or supplied reference artwork is claimed.",
+  "description": "A compact 3D chibi white-robed Zi Ling with long black hair, blue-violet eyes and restrained gold details, for nine Codex task states and sixteen clockwise head-driven look directions.",
+  "asset_note": "All final sprite pixels are independently generated with OpenAI image generation and assembled through deterministic Hatch Pet v2 scripts. Reference-image pixels, background and watermark are not copied or redistributed. This submission is not official, endorsed or affiliated with the franchise rights holders.",
+  "reference_note": "The request links a Bilibili still-image sharing post whose actual image shows only the head and shoulders. The image's original artist and redistribution license are not verified; the posting account is not presented as the artist. Full-body lower clothing and back details were not provided, so the compact white/pale-blue lower dress is explicitly an interpretation within the requester's allowed white-outfit direction.",
+  "preview_image": "../../assets/previews/zi-ling-white--zhou-jianwen/gifs/idle.gif",
+  "codex_install": {
+    "pet_json": "pet.json",
+    "spritesheet": "spritesheet.webp"
+  },
+  "preview_assets": {
+    "contact_sheet": "../../assets/previews/zi-ling-white--zhou-jianwen/contact-sheet.png",
+    "gifs_dir": "../../assets/previews/zi-ling-white--zhou-jianwen/gifs"
+  }
+}
