@@ -7,10 +7,11 @@
     "en": "Qoduck",
     "zh": "Q 达鸭"
   },
-  "author": "zhoujianwen",
+  "author": "wynn",
+  "author_handle": "wynn",
   "primary_category": "Mascots",
   "canonical_key": "qoder/qoduck",
-  "variant_note": "Unofficial independently AI-generated Codex v1 adaptation by zhoujianwen of Qoder's Qoduck character. All final pixels are independently generated; the official GIF is reference-only. Nine standard Codex animation states are newly adapted, not a native Qoder atlas conversion. The observed magnifier inspection appearance is retained across this adaptation for identity consistency, without claiming every official state permanently holds the prop.",
+  "variant_note": "Unofficial independently AI-generated Codex v1 adaptation by wynn of Qoder's Qoduck character. All final pixels are independently generated; the official GIF is reference-only. Nine standard Codex animation states are newly adapted, not a native Qoder atlas conversion. The observed magnifier inspection appearance is retained across this adaptation for identity consistency, without claiming every official state permanently holds the prop.",
   "tags": [
     "qoder",
     "qoduck",
