@@ -1,0 +1,27 @@
+{
+  "slug": "faust--legeling",
+  "pet_slug": "faust",
+  "author_slug": "legeling",
+  "name": "Faust",
+  "localized_names": {
+    "en": "Faust",
+    "zh": "浮士德"
+  },
+  "author": "legeling",
+  "author_handle": "legeling",
+  "author_url": "https://github.com/legeling",
+  "primary_category": "Game Characters",
+  "canonical_key": "limbus-company/faust",
+  "variant_note": "Independently AI-generated chibi v2 edition with nine action sequences and sixteen clockwise look directions, prepared privately on 2026-10-15 for request #292.",
+  "tags": ["animated", "chibi", "fan-art", "v2", "limbus-company"],
+  "source_type": "ai-generated",
+  "source_url": "https://github.com/legeling/awesome-codex-pet/issues/292",
+  "license": "Non-commercial use only. Independently AI-generated unofficial fan art. Faust and Limbus Company belong to Project Moon. Character, game, and third-party artwork rights remain with their respective owners. This statement does not grant rights to the original character or reference artwork.",
+  "description": "An independently AI-generated chibi fan interpretation of Faust from Limbus Company, with nine task animations and sixteen clockwise look directions.",
+  "attribution": "Faust / Limbus Company: Project Moon. Independently AI-generated fan animation and runtime assembly by legeling, guided by the issue #292 reference. Original reference artwork is not included in this runtime package.",
+  "codex_install": {
+    "pet_json": "pet.json",
+    "spritesheet": "spritesheet.webp"
+  },
+  "spritesheet_sha256": "aad92ca015f04ef42b05211e44c7ade8abd76c61b6e8878cff1f0a3a04f2a49c"
+}
