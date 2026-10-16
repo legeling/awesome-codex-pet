@@ -1,0 +1,27 @@
+{
+  "slug": "kamen-rider-zein--legeling",
+  "pet_slug": "kamen-rider-zein",
+  "author_slug": "legeling",
+  "name": "Kamen Rider Zein",
+  "localized_names": {
+    "en": "Kamen Rider Zein",
+    "zh": "假面骑士 Zein"
+  },
+  "author": "legeling",
+  "author_handle": "legeling",
+  "author_url": "https://github.com/legeling",
+  "primary_category": "Others",
+  "canonical_key": "kamen-rider/zein",
+  "variant_note": "Independently AI-generated white-and-gold chibi V2 fan interpretation prepared privately for request #296.",
+  "tags": ["animated", "kamen-rider", "zein", "fan-art", "v2"],
+  "source_type": "ai-generated",
+  "source_url": "https://github.com/legeling/awesome-codex-pet/issues/296",
+  "license": "Non-commercial use only. Unofficial AI-generated fan art. Character and brand rights remain with their respective owners; this metadata grants no rights to the original character or reference artwork.",
+  "description": "An independently AI-generated unofficial chibi Kamen Rider Zein companion in white, gold and teal, with nine task animations and sixteen clockwise look directions.",
+  "attribution": "Kamen Rider Zein is a Kamen Rider character. Independently AI-generated fan animation and runtime assembly prepared for legeling. Supplied costume artwork was used as identity reference only; original reference artwork is not included in the runtime package.",
+  "codex_install": {
+    "pet_json": "pet.json",
+    "spritesheet": "spritesheet.webp"
+  },
+  "spritesheet_sha256": "9370ac6973a1c25ce88dbf3c63d00b09fdfedb514e6a0939d47d4986750ee919"
+}
