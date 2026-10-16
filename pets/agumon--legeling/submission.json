@@ -1,0 +1,35 @@
+{
+  "slug": "agumon--legeling",
+  "pet_slug": "agumon",
+  "author_slug": "legeling",
+  "name": "Agumon",
+  "localized_names": {
+    "en": "Agumon",
+    "zh": "亚古兽"
+  },
+  "author": "legeling",
+  "author_handle": "legeling",
+  "author_url": "https://github.com/legeling",
+  "primary_category": "Anime Characters",
+  "canonical_key": "digimon/agumon",
+  "variant_note": "Independently AI-generated compact cel-shaded V2 fan interpretation prepared privately for request #295.",
+  "tags": ["animated", "digimon", "agumon", "fan-art", "v2"],
+  "source_type": "ai-generated",
+  "source_url": "https://github.com/legeling/awesome-codex-pet/issues/295",
+  "license": "Non-commercial use only. Unofficial AI-generated fan art. Character and brand rights remain with their respective owners; this metadata grants no rights to the original character or reference artwork.",
+  "description": "An independently AI-generated unofficial Agumon fan companion, with nine task animations and sixteen clockwise look directions.",
+  "attribution": "Agumon is a Digimon character. Independently AI-generated fan animation and runtime assembly prepared for legeling. Official artwork was used as identity reference only; no original reference artwork is included in the runtime package.",
+  "codex_install": {
+    "pet_json": "pet.json",
+    "spritesheet": "spritesheet.webp"
+  },
+  "spritesheet_sha256": "14f206b128152636ffd4d180dbe90db983af8f05d965987a289628d9ba00bf02",
+  "reference_sources": [
+    {
+      "url": "https://digimon.net/reference_en/detail.php?directory_name=agumon",
+      "type": "official-character-reference",
+      "verified_at": "2026-10-15",
+      "verified_by": "parent independent check"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "id": "agumon--legeling",
+  "displayName": "Agumon",
+  "description": "An independently AI-generated unofficial Agumon fan companion, with nine task animations and sixteen clockwise look directions.",
+  "spriteVersionNumber": 2,
+  "spritesheetPath": "spritesheet.webp"
+}
