@@ -1,0 +1,32 @@
+{
+  "slug": "mia--karvachiik-lgtm",
+  "pet_slug": "mia",
+  "author_slug": "karvachiik-lgtm",
+  "name": "Mia",
+  "author": "karvachiik-lgtm",
+  "author_handle": "karvachiik-lgtm",
+  "author_url": "https://github.com/karvachiik-lgtm",
+  "primary_category": "Original Characters",
+  "canonical_key": "original/karvachiik-lgtm/mia",
+  "tags": [
+    "fashion",
+    "model",
+    "catwalk",
+    "realistic",
+    "dress",
+    "original",
+    "ai-generated",
+    "v2"
+  ],
+  "collections": [],
+  "source_type": "ai-generated",
+  "source_url": "",
+  "source_note": "Original fictional character, AI-generated. Keyframes made with an image-editing model and animated with an image-to-video model on a magenta backdrop, then colour-matted, scaled to one size and assembled into the v2 atlas with the Vivarium hatch-pet tools. Reference images guided the look and poses only; no reference pixels are in the spritesheet.",
+  "license": "CC BY-NC 4.0. Original AI-generated artwork submitted by karvachiik-lgtm; non-commercial use only.",
+  "description": "An original fictional fashion model in a sage-green strapless mini dress: a runway catwalk, a skirt twirl, a happy hop, a cute oops, a wink with a thumbs-up, and she follows your cursor.",
+  "codex_install": {
+    "pet_json": "pet.json",
+    "spritesheet": "spritesheet.webp"
+  },
+  "spritesheet_sha256": "c05c08b474cf254f2ccc33bfee41b1fa78296f4532a5c88092b47a5855a6d8b2"
+}
