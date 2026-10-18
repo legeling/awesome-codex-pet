@@ -1,0 +1,22 @@
+{
+  "slug": "zero-one--zhou-jianwen",
+  "pet_slug": "zero-one",
+  "author_slug": "zhou-jianwen",
+  "name": "Zero One",
+  "localized_names": {
+    "en": "Zero One",
+    "zh": "零一"
+  },
+  "author": "zhou-jianwen",
+  "author_handle": "zhou-jianwen",
+  "primary_category": "Others",
+  "canonical_key": "community-request/308",
+  "variant_note": "An independently AI-generated compact 3D-toy V2 interpretation of the school-uniform character reference in request #308, with nine task animations and sixteen clockwise look directions. The request name is preserved while the reference's different lettering remains unresolved.",
+  "collections": [],
+  "tags": ["zero-one", "community-request", "ai-generated"],
+  "source_type": "ai-generated",
+  "source_url": "https://github.com/legeling/awesome-codex-pet/issues/308",
+  "description": "An independently AI-generated, non-commercial companion with long lavender hair, violet eyes, asymmetric floral hair ornaments, a white blouse, navy bow and skirt, dark socks, and lavender shoes. The requested name Zero One / 零一 is retained; no franchise, creator ownership, or original-character status is asserted.",
+  "source_notes": "The requester-supplied character sheet (https://api.codexpet.top/uploads/reference/references/c70f93689b47ac84504ba6f48127a5f952464f9f733e5bcc492e48120cacff49.png) was used only as an appearance reference for its school-uniform outfit. The Issue names the character 零一, while the sheet lettering reads 零依 / 依依; that identity mismatch is unresolved. The source artist, franchise, and redistribution permission are unverified. The submitter's production decision is an independent, non-commercial, reference-only AI interpretation: no reference pixels are copied, and zhou-jianwen is credited only as the AI-assisted adapter. Sprite pixels were generated with the built-in image_gen tool, then processed through native-alpha extraction, whole-pose retiling for spacing, and deterministic shared-scale V2 assembly. Left and right locomotion were generated separately to preserve asymmetric accessories; no character mirroring was used. This production decision does not assert maintainer acceptance or underlying rights.",
+  "license": "Non-commercial use only. Independently AI-generated reference interpretation. Character and reference-art rights remain with their respective owners. No license or permission to the underlying character or reference artwork is asserted or granted by this submission."
+}
