@@ -1,0 +1,22 @@
+{
+  "slug": "cinnamoroll--zhou-jianwen",
+  "pet_slug": "cinnamoroll",
+  "author_slug": "zhou-jianwen",
+  "name": "Cinnamoroll",
+  "localized_names": {
+    "en": "Cinnamoroll",
+    "zh": "大耳狗"
+  },
+  "author": "zhou-jianwen",
+  "author_handle": "zhou-jianwen",
+  "primary_category": "Mascots",
+  "canonical_key": "sanrio/cinnamoroll",
+  "variant_note": "An independently AI-generated flat-cartoon V2 fan interpretation with nine task animations and sixteen clockwise look directions. This supplies only the Cinnamoroll portion of mixed-character request #311.",
+  "collections": [],
+  "tags": ["sanrio", "cinnamoroll", "ai-generated", "fan-art"],
+  "source_type": "ai-generated",
+  "source_url": "https://sanrio.com.cn/family_details4.html",
+  "description": "An unofficial, independently AI-generated Cinnamoroll fan companion with a white rounded body, long drooping ears, blue oval eyes, pink cheeks, and a cinnamon-roll tail. zhou-jianwen is the independent AI-assisted adapter, not Sanrio or the character designer.",
+  "source_notes": "The official Sanrio character page and its gallery image (https://sanrio.com.cn/images/family/4/kv1.jpg) were used only as appearance references for the central white puppy. No gallery pixels or other gallery characters are included. Sprite pixels were independently generated with the built-in image_gen tool, followed by native-alpha extraction, whole-pose retiling for spacing, and deterministic shared-scale V2 assembly. The left locomotion animation was mirrored from the right animation for this symmetric character. Request #311 also names other Sanrio characters; this package is limited to Cinnamoroll and does not establish completion of the whole request.",
+  "license": "Non-commercial use only. Unofficial, independently AI-generated fan interpretation. Character and official-reference rights remain with their respective owners. No license or permission to the underlying character or reference artwork is asserted or granted by this submission."
+}
