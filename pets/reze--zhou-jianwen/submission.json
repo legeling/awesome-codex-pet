@@ -1,0 +1,28 @@
+{
+  "slug": "reze--zhou-jianwen",
+  "pet_slug": "reze",
+  "author_slug": "zhou-jianwen",
+  "name": "Reze",
+  "localized_names": {
+    "en": "Reze",
+    "zh": "蕾潔"
+  },
+  "author": "zhou-jianwen",
+  "author_handle": "zhou-jianwen",
+  "primary_category": "Anime Characters",
+  "canonical_key": "chainsaw-man/reze",
+  "variant_note": "An independently AI-generated compact 3D-toy V2 fan interpretation prepared for community request #307, with nine task animations and sixteen clockwise look directions.",
+  "collections": ["chainsaw-man"],
+  "tags": [
+    "chainsaw-man",
+    "reze",
+    "community-request",
+    "ai-generated",
+    "fan-art"
+  ],
+  "source_type": "ai-generated",
+  "source_url": "https://github.com/legeling/awesome-codex-pet/issues/307",
+  "description": "An unofficial, independently AI-generated Reze fan companion in a compact 3D-toy style, with violet hair, a white sleeveless blouse, a black neck ribbon, black shorts, and dark thigh-high socks. zhou-jianwen is credited as the independent AI-assisted adapter, not the character creator or reference artist.",
+  "source_notes": "The thumbnail supplied in request #307 was used only as an appearance reference. Its source artist and redistribution permission are unverified, and no reference pixels are included in the submitted package. Character identity was cross-checked against the official character page: https://www.chainsawman.dog/movie_reze/character/ . Sprite pixels were independently generated with the built-in image_gen tool, followed by native-alpha extraction, whole-pose retiling for spacing, and deterministic shared-scale V2 assembly.",
+  "license": "Non-commercial use only. Unofficial, independently AI-generated fan interpretation. Character and reference-art rights remain with their respective owners. No license or permission to the underlying character or reference artwork is asserted or granted by this submission."
+}
