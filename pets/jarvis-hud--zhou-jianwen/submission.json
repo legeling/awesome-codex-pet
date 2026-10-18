@@ -1,0 +1,22 @@
+{
+  "slug": "jarvis-hud--zhou-jianwen",
+  "pet_slug": "jarvis-hud",
+  "author_slug": "zhou-jianwen",
+  "name": "J.A.R.V.I.S. HUD",
+  "localized_names": {
+    "en": "J.A.R.V.I.S. HUD",
+    "zh": "贾维斯 HUD"
+  },
+  "author": "zhou-jianwen",
+  "author_handle": "zhou-jianwen",
+  "primary_category": "Robots",
+  "canonical_key": "marvel/jarvis",
+  "variant_note": "An independently AI-generated V2 interpretation of the J.A.R.V.I.S. interface requested in #291: a compact realistic 3D cyan instrument with concentric rings and an attached gimballed scanner, without a human likeness.",
+  "collections": [],
+  "tags": ["jarvis", "hud", "community-request", "ai-generated", "fan-art"],
+  "source_type": "ai-generated",
+  "source_url": "https://github.com/legeling/awesome-codex-pet/issues/291",
+  "description": "An unofficial J.A.R.V.I.S.-inspired cyan instrument companion with concentric ring housing and an attached gimballed scanning aperture. The Iron Man identity follows request #291; this mechanical HUD interpretation contains no human likeness. zhou-jianwen is the independent AI-assisted adapter.",
+  "source_notes": "The requester-supplied cyan HUD image (https://api.codexpet.top/uploads/reference/references/b2963a5d3fdd6128ce2933a4dd2dc2c3c0e5d7f4238347ff9a07a32dcab50b14.png) was used only as an appearance reference. Its artist, official authenticity, and redistribution permission are unverified. The submitter's production decision is an independently AI-generated, non-commercial, reference-only instrument interpretation; no reference pixels are committed, and no maintainer acceptance or underlying rights are asserted. All poses were generated with native alpha using the built-in image_gen tool, followed by native-alpha extraction and deterministic shared-scale assembly. After an independent reviewer identified a hard reset in the standard right-locomotion loop, its eight existing poses were reordered using zero-based source indices 0, 2, 4, 6, 7, 5, 3, 1; that ordering repair introduced no new drawing, resampling, or pixel changes to those poses.",
+  "license": "Non-commercial use only. Unofficial, independently AI-generated fan interpretation. Character and reference-art rights remain with their respective owners. No license or permission to the underlying character or reference artwork is asserted or granted by this submission."
+}
