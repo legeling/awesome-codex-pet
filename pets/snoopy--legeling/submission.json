@@ -1,0 +1,41 @@
+{
+  "slug": "snoopy--legeling",
+  "pet_slug": "snoopy",
+  "author_slug": "legeling",
+  "name": "Snoopy",
+  "localized_names": {
+    "en": "Snoopy",
+    "zh": "史努比"
+  },
+  "author": "legeling",
+  "author_handle": "legeling",
+  "author_url": "https://github.com/legeling",
+  "primary_category": "Others",
+  "canonical_key": "peanuts/snoopy",
+  "variant_note": "An independently AI-generated black-ink, white-filled comic-style V2 interpretation by legeling, with its own approved spritesheet, profile-based task animations and head-turn poses. This is independent of zhou-jianwen's separate Snoopy version in PR #322 and does not reuse its artwork.",
+  "tags": [
+    "peanuts",
+    "dog",
+    "black-and-white",
+    "comic",
+    "community-request",
+    "v2"
+  ],
+  "collections": [],
+  "source_type": "independent-ai-generated-community-interpretation",
+  "source_url": "https://github.com/legeling/awesome-codex-pet/issues/318",
+  "asset_note": "Independently AI-generated and assembled with Codex Hatch Pet v2. The runtime spritesheet does not directly include reference-image pixels.",
+  "reference_note": "Duplicate requests #318 and #319 provide the same Snoopy reference. Both requests are fulfilled by this single independently created interpretation; reference artwork is guidance only. Snoopy and Peanuts rights remain with their respective owners.",
+  "license": "Independent AI-generated unofficial fan interpretation; non-commercial use only. Commercial use is prohibited. Character and reference-art rights remain with their respective owners.",
+  "description": "An unofficial white-filled black-ink Snoopy companion with gentle comic gestures, nine standard task animations and 16 clockwise look directions.",
+  "preview_image": "../../assets/previews/snoopy--legeling/gifs/idle.gif",
+  "codex_install": {
+    "pet_json": "pet.json",
+    "spritesheet": "spritesheet.webp"
+  },
+  "preview_assets": {
+    "contact_sheet": "../../assets/previews/snoopy--legeling/contact-sheet.png",
+    "gifs_dir": "../../assets/previews/snoopy--legeling/gifs"
+  },
+  "spritesheet_sha256": "b7fe03a3f6ef9fe9bc522ebd41323b2ce8b2a48fd8b85d24a6a4340ebda0cb66"
+}
