@@ -1,1 +1,7 @@
-cat: /workspace/scratch/c624f3ceba6c/publish-snoopy-oct19/validation/pets/snoopy--legeling/pet.json: No such file or directory
+{
+  "id": "snoopy--legeling",
+  "displayName": "Snoopy / 史努比",
+  "description": "An unofficial white-filled black-ink Snoopy companion with gentle cartoon gestures.",
+  "spritesheetPath": "spritesheet.webp",
+  "spriteVersionNumber": 2
+}
