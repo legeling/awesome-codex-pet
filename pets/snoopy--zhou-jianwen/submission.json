@@ -1,0 +1,28 @@
+{
+  "slug": "snoopy--zhou-jianwen",
+  "pet_slug": "snoopy",
+  "author_slug": "zhou-jianwen",
+  "name": "Snoopy",
+  "localized_names": {
+    "en": "Snoopy",
+    "zh": "史努比"
+  },
+  "author": "zhou-jianwen",
+  "author_handle": "zhou-jianwen",
+  "primary_category": "Anime Characters",
+  "canonical_key": "peanuts/snoopy",
+  "variant_note": "An independently AI-generated flat-cartoon V2 fan interpretation with nine task animations and sixteen clockwise look directions, prepared for community request #318 and duplicate #319.",
+  "collections": [],
+  "tags": [
+    "peanuts",
+    "snoopy",
+    "community-request",
+    "ai-generated",
+    "fan-art"
+  ],
+  "source_type": "ai-generated",
+  "source_url": "https://github.com/legeling/awesome-codex-pet/issues/318",
+  "description": "An unofficial, independently AI-generated Snoopy fan companion. A small upright white beagle with black floppy ears and an elongated muzzle. zhou-jianwen is credited only as the independent AI-assisted adapter, not the character creator or reference artist.",
+  "source_notes": "Duplicate community requests #318 and #319 refer to the same Peanuts character and are covered by one independently generated asset. The requester-uploaded PNG (https://api.codexpet.top/uploads/reference/references/b5cd5582d376a01788c333d12ac7ec8994d52e6df9823a4621f6ada803409c95.png) supplies appearance guidance only; its original artist, original publication and redistribution permission could not be established from that upload. Official identity was checked at https://www.peanuts.com/about/snoopy . The second request links https://en.wikipedia.org/wiki/File:Snoopy_Peanuts.png ; that file page describes a non-free image and warns about the cited source, so it is not treated as reusable licensed material. No supplied or Wikipedia reference pixels are committed, and zhou-jianwen is not credited as their author. Submitter production-triage decision: generate an independent fan interpretation, disclose unresolved reference attribution, and leave rights and curation acceptance to maintainers before merge. Sprite pixels were generated with the built-in image_gen tool, followed by native-alpha extraction, intact whole-pose retiling for spacing and deterministic V2 assembly. The left locomotion animation is a framewise horizontal mirror of the approved right animation for this symmetric design, preserving temporal order.",
+  "license": "Non-commercial use only. Unofficial, independently AI-generated fan interpretation. Character and reference-art rights remain with their respective owners. No license or permission to the underlying character or reference artwork is asserted or granted by this submission."
+}
