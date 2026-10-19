@@ -1,0 +1,28 @@
+{
+  "slug": "my-melody--zhou-jianwen",
+  "pet_slug": "my-melody",
+  "author_slug": "zhou-jianwen",
+  "name": "My Melody",
+  "localized_names": {
+    "en": "My Melody",
+    "zh": "美乐蒂"
+  },
+  "author": "zhou-jianwen",
+  "author_handle": "zhou-jianwen",
+  "primary_category": "Mascots",
+  "canonical_key": "sanrio/my-melody",
+  "variant_note": "An independently AI-generated flat-cartoon V2 fan interpretation with nine task animations and sixteen clockwise look directions, prepared for community request #320.",
+  "collections": [],
+  "tags": [
+    "sanrio",
+    "my-melody",
+    "community-request",
+    "ai-generated",
+    "fan-art"
+  ],
+  "source_type": "ai-generated",
+  "source_url": "https://github.com/legeling/awesome-codex-pet/issues/320",
+  "description": "An unofficial, independently AI-generated My Melody fan companion. A compact white bunny companion in a simple pink hood. zhou-jianwen is credited only as the independent AI-assisted adapter, not the character creator or reference artist.",
+  "source_notes": "The official Sanrio character page (https://sanrio.com.cn/family_details3.html) and its gallery image (https://sanrio.com.cn/images/family/3/kv1.jpg) were used only as appearance references. The pet independently interprets a simple classic pink hood rather than reproducing the gallery party dresses, hats, frills, fabric, text or background. No reference pixels are committed. Sprite pixels were independently generated with the built-in image_gen tool, followed by native-alpha extraction, intact whole-pose retiling for spacing and deterministic V2 assembly. Both locomotion directions were generated independently to preserve the flower and folded-ear laterality. This package fulfills the specific My Melody request #320; it does not establish completion of the remaining characters in mixed request #311.",
+  "license": "Non-commercial use only. Unofficial, independently AI-generated fan interpretation. Character and reference-art rights remain with their respective owners. No license or permission to the underlying character or reference artwork is asserted or granted by this submission."
+}
