@@ -13,13 +13,7 @@
   "canonical_key": "peanuts/snoopy",
   "variant_note": "An independently AI-generated flat-cartoon V2 fan interpretation with nine task animations and sixteen clockwise look directions, prepared for community request #318 and duplicate #319.",
   "collections": [],
-  "tags": [
-    "peanuts",
-    "snoopy",
-    "community-request",
-    "ai-generated",
-    "fan-art"
-  ],
+  "tags": ["peanuts", "snoopy", "community-request", "ai-generated", "fan-art"],
   "source_type": "ai-generated",
   "source_url": "https://github.com/legeling/awesome-codex-pet/issues/318",
   "description": "An unofficial, independently AI-generated Snoopy fan companion. A small upright white beagle with black floppy ears and an elongated muzzle. zhou-jianwen is credited only as the independent AI-assisted adapter, not the character creator or reference artist.",
