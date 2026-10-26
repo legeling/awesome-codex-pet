@@ -12,7 +12,7 @@
 
 <a href="https://codexpet.top"><img src="../../assets/cover/awesome-codex-pet-cover.png" alt="进入 Awesome Codex Pet 精品画廊"></a>
 
-![pets: 355](https://img.shields.io/badge/pets-355-2ea44f) ![categories: 11](https://img.shields.io/badge/categories-11-0969da) ![languages: en | zh--CN | ko | ja | es](https://img.shields.io/badge/languages-en%20%7C%20zh--CN%20%7C%20ko%20%7C%20ja%20%7C%20es-8250df) ![code: MIT](https://img.shields.io/badge/code-MIT-111111) ![assets: CC BY--NC 4.0](https://img.shields.io/badge/assets-CC%20BY--NC%204.0-f97316) ![install: one command](https://img.shields.io/badge/install-one%20command-111111) [![Pet previews](https://github.com/legeling/awesome-codex-pet/actions/workflows/pet-previews.yml/badge.svg)](https://github.com/legeling/awesome-codex-pet/actions/workflows/pet-previews.yml)
+![pets: 358](https://img.shields.io/badge/pets-358-2ea44f) ![categories: 11](https://img.shields.io/badge/categories-11-0969da) ![languages: en | zh--CN | ko | ja | es](https://img.shields.io/badge/languages-en%20%7C%20zh--CN%20%7C%20ko%20%7C%20ja%20%7C%20es-8250df) ![code: MIT](https://img.shields.io/badge/code-MIT-111111) ![assets: CC BY--NC 4.0](https://img.shields.io/badge/assets-CC%20BY--NC%204.0-f97316) ![install: one command](https://img.shields.io/badge/install-one%20command-111111) [![Pet previews](https://github.com/legeling/awesome-codex-pet/actions/workflows/pet-previews.yml/badge.svg)](https://github.com/legeling/awesome-codex-pet/actions/workflows/pet-previews.yml)
 
 </div>
 
@@ -103,7 +103,7 @@ npx --yes @legeling/codex-pet list
 </table>
 
 <details>
-<summary>完整宠物索引（纯文字） · 355</summary>
+<summary>完整宠物索引（纯文字） · 358</summary>
 
 ### 游戏角色
 
@@ -186,6 +186,7 @@ npx --yes @legeling/codex-pet list
 <li><a href="../../pets/chillet--legeling">疾旋鼬</a> · 作者 <a href="https://github.com/legeling">@legeling</a> · v2</li>
 <li><a href="../../pets/aventurine-plush-bird--legeling">砂金毛绒鸟</a> · 作者 <a href="https://github.com/legeling">@legeling</a> · v2</li>
 <li><a href="../../pets/stinky-spike--jjkun28">臭臭斯派克</a> · 作者 <a href="https://github.com/JJkun28">@JJkun28</a> · v2</li>
+<li><a href="../../pets/suzuran--nigeniged">铃兰</a> · 作者 <a href="https://github.com/nigeniged">@nigeniged</a> · v2</li>
 <li><a href="../../pets/arona--legeling">阿罗那</a> · 作者 <a href="https://github.com/legeling">@legeling</a> · v2</li>
 <li><a href="../../pets/ghost-squeak--jjkun28">鬼马史魁克</a> · 作者 <a href="https://github.com/JJkun28">@JJkun28</a> · v2</li>
 <li><a href="../../pets/youmu--ai-generated">魂魄妖梦</a> · 作者 @ai-generated · v2</li>
@@ -230,6 +231,7 @@ npx --yes @legeling/codex-pet list
 <li><a href="../../pets/levi--emrecb">利威尔</a> · 作者 <a href="https://codex-pets.net/users/emrecb">@emrecb</a> · v1</li>
 <li><a href="../../pets/light-fury--legeling">Light Fury</a> · 作者 <a href="https://github.com/legeling">@legeling</a> · v2</li>
 <li><a href="../../pets/luffy-gear-5--jordsshmords1">五档路飞</a> · 作者 <a href="https://codex-pets.net/users/jordsshmords1">@jordsshmords1</a> · v1</li>
+<li><a href="../../pets/luoxiaohei-3d--jrhu0048">luoxiaohei</a> · 作者 <a href="https://github.com/JRHU0048">@JRHU0048</a> · v2</li>
 <li><a href="../../pets/mahiro--lingxiaotian">绪山真寻</a> · 作者 <a href="https://github.com/legeling">@legeling</a> · v1</li>
 <li><a href="../../pets/makima-coat--yuyuabc1">玛奇玛（外套）</a> · 作者 <a href="https://github.com/yuyuabc1">@yuyuabc1</a> · v2</li>
 <li><a href="../../pets/makimamini--1sh1ro">玛奇玛</a> · 作者 @1sh1ro · v1</li>
@@ -274,6 +276,7 @@ npx --yes @legeling/codex-pet list
 <li><a href="../../pets/asuka--masashitoda1">明日香·Q版（v2）</a> · 作者 <a href="https://github.com/MasashiToda1">@MasashiToda1</a> · v2</li>
 <li><a href="../../pets/otama--legeling">海贼王小玉</a> · 作者 <a href="https://github.com/legeling">@legeling</a> · v2</li>
 <li><a href="../../pets/tushan-susu--legeling">涂山苏苏</a> · 作者 <a href="https://github.com/legeling">@legeling</a> · v2</li>
+<li><a href="../../pets/sherry--lyu">灰原哀</a> · 作者 <a href="https://github.com/nagi-hikaru">@nagi-hikaru</a> · v2</li>
 <li><a href="../../pets/tanjiro-kamado--wangfan002">灶门炭治郎</a> · 作者 @wangfan002 · v1</li>
 <li><a href="../../pets/nezuko-kamado--wangfan002">灶门祢豆子</a> · 作者 @wangfan002 · v1</li>
 <li><a href="../../pets/luo-xiaohei--legeling">罗小黑</a> · 作者 <a href="https://github.com/legeling">@legeling</a> · v2</li>

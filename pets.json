@@ -1732,6 +1732,20 @@
     "spriteVersionNumber": 2
   },
   {
+    "slug": "luoxiaohei-3d--jrhu0048",
+    "name": "luoxiaohei",
+    "author": "JRHU0048",
+    "author_handle": "JRHU0048",
+    "author_url": "https://github.com/JRHU0048",
+    "primary_category": "Anime Characters",
+    "canonical_key": "the-legend-of-luo-xiaohei/luo-xiaohei",
+    "variant_note": "Independently AI-generated 3D toy-style v2 edition by JRHU0048. One animated WebP contains three complete atlases in this fixed 30-second cycle: black cat, black-haired child, white-haired child, 10 seconds each. The cat has broad angular triangular ears with smooth pale-green inner panels. Distinct from the existing single-form editions by legeling and makashibata.",
+    "collections": [],
+    "license": "Non-commercial use only / 仅限非商业使用。Unofficial AI-generated fan art; the underlying character and trademark rights remain with their respective rights holders. No third-party character or trademark license or endorsement is granted or claimed. This usage statement applies to this contributed asset and its generated previews; the source repository's MIT software license does not cover the character artwork.",
+    "description": "3D luoxiaohei pet",
+    "spriteVersionNumber": 2
+  },
+  {
     "slug": "mahiro--lingxiaotian",
     "name": "Mahiro",
     "localized_names": { "en": "Mahiro", "zh": "绪山真寻" },
@@ -4025,6 +4039,21 @@
     "spriteVersionNumber": 2
   },
   {
+    "slug": "sherry--lyu",
+    "name": "灰原哀",
+    "localized_names": { "en": "Sherry", "zh": "灰原哀" },
+    "author": "lyu",
+    "author_handle": "nagi-hikaru",
+    "author_url": "https://github.com/nagi-hikaru",
+    "primary_category": "Anime Characters",
+    "canonical_key": "fictional/detective-conan/ai-haibara",
+    "variant_note": "An independently AI-generated v2 fan interpretation by lyu, depicting Sherry as an adult with short chestnut-brown hair and a cream coat.",
+    "collections": ["detective-conan"],
+    "license": "Non-commercial use only. Unofficial AI-generated fan art. Character and franchise rights remain with their respective owners.",
+    "description": "An independently AI-generated, unofficial Sherry fan companion inspired by Detective Conan, depicted as an adult with short chestnut-brown hair and a cream coat. Prepared for non-commercial use only.",
+    "spriteVersionNumber": 2
+  },
+  {
     "slug": "tanjiro-kamado--wangfan002",
     "name": "炭治郎 Q版 丰富动作",
     "localized_names": { "en": "Tanjiro Kamado", "zh": "灶门炭治郎" },
@@ -4457,6 +4486,21 @@
     "collections": ["animal-companions"],
     "license": "Non-commercial use only.",
     "description": "一只圆脸绿眼、粉鼻、金灰渐层短毛、体态敦实且尾尖较深的猫咪 Codex 宠物。",
+    "spriteVersionNumber": 2
+  },
+  {
+    "slug": "suzuran--nigeniged",
+    "name": "铃兰",
+    "localized_names": { "en": "Suzuran", "zh": "铃兰" },
+    "author": "nigeniged",
+    "author_handle": "nigeniged",
+    "author_url": "https://github.com/nigeniged",
+    "primary_category": "Game Characters",
+    "canonical_key": "arknights/suzuran",
+    "variant_note": "由 nigeniged 指导并整理的独立 AI 生成像素风 v2 铃兰版本：采用金发绿眼、蓝色发箍、黑白蓝服装与九尾造型，包含分别制作的左右跑步、蓝色小书阅读与复核动作，以及完整的十六方向注视；未复用仓库中已有宠物的精灵图。",
+    "collections": ["arknights"],
+    "license": "仅限非商业使用 / Non-commercial use only. 铃兰与《明日方舟》的角色及作品权利归各自权利人所有；本包为非官方 AI 辅助制作的同人桌宠。",
+    "description": "来自《明日方舟》的铃兰像素桌宠，温柔、认真，略带害羞。九组动作包含待机、左右跑步、挥手、跳跃、失落、等待回应、读书工作和复核结果，另有十六方向注视。最终动画由 AI 辅助独立制作，nigeniged 负责动作设计指导、筛选与适配整理。",
     "spriteVersionNumber": 2
   },
   {

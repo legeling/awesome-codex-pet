@@ -1415,6 +1415,16 @@
       "spritesheetWidth": 1536,
       "spritesheetHeight": 2288
     },
+    "luoxiaohei-3d--jrhu0048": {
+      "name": "luoxiaohei",
+      "spriteVersionNumber": 2,
+      "petJsonSha256": "b60e78225454971cda62d28ba0a7a6c6bc553add01ecf33e84d5a3959d4d78f0",
+      "petJsonBytes": 176,
+      "spritesheetSha256": "6fe3d6fc93beac03bba9869b8c7bcd651f7f7b2cff2c456e5d553e4863b89ff6",
+      "spritesheetBytes": 4770946,
+      "spritesheetWidth": 1536,
+      "spritesheetHeight": 2288
+    },
     "mahiro--lingxiaotian": {
       "name": "Mahiro",
       "localizedNames": { "en": "Mahiro", "zh": "绪山真寻" },
@@ -3293,6 +3303,17 @@
       "spritesheetWidth": 1536,
       "spritesheetHeight": 2288
     },
+    "sherry--lyu": {
+      "name": "灰原哀",
+      "localizedNames": { "en": "Sherry", "zh": "灰原哀" },
+      "spriteVersionNumber": 2,
+      "petJsonSha256": "6aa1d0ee001506e7e95427159839e9154119cba53b41c2ea485a0f8d999dd44d",
+      "petJsonBytes": 227,
+      "spritesheetSha256": "c2a57061c542bd9ea4ebba4d1a188d43e8047fbd2d8c8f4bc71dd66055ad9ec0",
+      "spritesheetBytes": 1063848,
+      "spritesheetWidth": 1536,
+      "spritesheetHeight": 2288
+    },
     "tanjiro-kamado--wangfan002": {
       "name": "炭治郎 Q版 丰富动作",
       "localizedNames": { "en": "Tanjiro Kamado", "zh": "灶门炭治郎" },
@@ -3641,6 +3662,17 @@
       "petJsonBytes": 265,
       "spritesheetSha256": "7b36138bcd6e3b1b6f5fb1c4783ffe26d3f9a76c71693a31f9fe1f2d9675f559",
       "spritesheetBytes": 2692738,
+      "spritesheetWidth": 1536,
+      "spritesheetHeight": 2288
+    },
+    "suzuran--nigeniged": {
+      "name": "铃兰",
+      "localizedNames": { "en": "Suzuran", "zh": "铃兰" },
+      "spriteVersionNumber": 2,
+      "petJsonSha256": "35bba87c178341e5f241199b719c67a6a57ebf6fcd18d57f47dde6e795cfdfd9",
+      "petJsonBytes": 297,
+      "spritesheetSha256": "516f63af1081250b8a43467a037db195af59626b270593d2bd698129604356be",
+      "spritesheetBytes": 2148240,
       "spritesheetWidth": 1536,
       "spritesheetHeight": 2288
     },
