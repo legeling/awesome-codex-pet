@@ -1,0 +1,29 @@
+{
+  "slug": "suzuran--nigeniged",
+  "pet_slug": "suzuran",
+  "author_slug": "nigeniged",
+  "name": "铃兰",
+  "localized_names": {
+    "en": "Suzuran",
+    "zh": "铃兰"
+  },
+  "author": "nigeniged",
+  "author_handle": "nigeniged",
+  "author_url": "https://github.com/nigeniged",
+  "primary_category": "Game Characters",
+  "canonical_key": "arknights/suzuran",
+  "variant_note": "由 nigeniged 指导并整理的独立 AI 生成像素风 v2 铃兰版本：采用金发绿眼、蓝色发箍、黑白蓝服装与九尾造型，包含分别制作的左右跑步、蓝色小书阅读与复核动作，以及完整的十六方向注视；未复用仓库中已有宠物的精灵图。",
+  "description": "来自《明日方舟》的铃兰像素桌宠，温柔、认真，略带害羞。九组动作包含待机、左右跑步、挥手、跳跃、失落、等待回应、读书工作和复核结果，另有十六方向注视。最终动画由 AI 辅助独立制作，nigeniged 负责动作设计指导、筛选与适配整理。",
+  "tags": ["arknights"],
+  "collections": ["arknights"],
+  "source_type": "fan-art",
+  "source_url": "",
+  "source_notes": "最终动画帧由图像生成模型依据投稿者提供的角色参考图独立生成，随后进行裁切、统一尺度与基线配准、透明边缘整理及图集组装。原始参考图的作者与公开出处尚未确认，仅用于外观参考，不随投稿上传；没有将参考图直接裁切或描摹为最终动画帧。角色为《明日方舟》铃兰，本包并非官方素材或官方授权产品。",
+  "license": "仅限非商业使用 / Non-commercial use only. 铃兰与《明日方舟》的角色及作品权利归各自权利人所有；本包为非官方 AI 辅助制作的同人桌宠。",
+  "spritesheet_sha256": "516f63af1081250b8a43467a037db195af59626b270593d2bd698129604356be",
+  "preview_image": "../../assets/previews/suzuran--nigeniged/gifs/idle.gif",
+  "codex_install": {
+    "pet_json": "pet.json",
+    "spritesheet": "spritesheet.webp"
+  }
+}
