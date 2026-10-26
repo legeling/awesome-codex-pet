@@ -1,0 +1,33 @@
+{
+  "slug": "luoxiaohei-3d--jrhu0048",
+  "pet_slug": "luoxiaohei-3d",
+  "author_slug": "jrhu0048",
+  "name": "luoxiaohei",
+  "author": "JRHU0048",
+  "author_handle": "JRHU0048",
+  "author_url": "https://github.com/JRHU0048",
+  "primary_category": "Anime Characters",
+  "canonical_key": "the-legend-of-luo-xiaohei/luo-xiaohei",
+  "variant_note": "Independently AI-generated 3D toy-style v2 edition by JRHU0048. One animated WebP contains three complete atlases in this fixed 30-second cycle: black cat, black-haired child, white-haired child, 10 seconds each. The cat has broad angular triangular ears with smooth pale-green inner panels. Distinct from the existing single-form editions by legeling and makashibata.",
+  "tags": [
+    "luo-xiaohei",
+    "anime",
+    "ai-generated",
+    "3d",
+    "chibi",
+    "v2",
+    "look-directions"
+  ],
+  "collections": [],
+  "source_type": "independently AI-generated fan art",
+  "source_url": "https://github.com/JRHU0048/luoxiaohei-codex-pet/releases/tag/v1.0.0",
+  "source_notes": "Unofficial fan-art project inspired by The Legend of Luo Xiaohei (罗小黑战记). The final sprite artwork was generated and refined with OpenAI built-in image generation under JRHU0048's direction using private user-supplied 3D and 2D references for visual guidance. Reference images are not redistributed and were not directly cropped or traced into this package. The three forms are described visually; no claim is made about the official identity of the white-haired form. Adapted from the submitter's approved local pet; gallery copy uses near-lossless WebP compression with original alpha preserved to meet the 5 MB limit. Runtime reloading or cloud conversion to PNG can reset or remove the form cycle; retain this animated local WebP. The gallery preview generator currently displays the first atlas only.",
+  "license": "Non-commercial use only / 仅限非商业使用。Unofficial AI-generated fan art; the underlying character and trademark rights remain with their respective rights holders. No third-party character or trademark license or endorsement is granted or claimed. This usage statement applies to this contributed asset and its generated previews; the source repository's MIT software license does not cover the character artwork.",
+  "description": "3D luoxiaohei pet",
+  "preview_image": "../../assets/previews/luoxiaohei-3d--jrhu0048/gifs/idle.gif",
+  "codex_install": {
+    "pet_json": "pet.json",
+    "spritesheet": "spritesheet.webp"
+  },
+  "spritesheet_sha256": "6fe3d6fc93beac03bba9869b8c7bcd651f7f7b2cff2c456e5d553e4863b89ff6"
+}
