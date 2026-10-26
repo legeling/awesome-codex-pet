@@ -599,6 +599,16 @@
       "spritesheetWidth": 1536,
       "spritesheetHeight": 2288
     },
+    "doubao--lyu": {
+      "name": "Doubao",
+      "spriteVersionNumber": 2,
+      "petJsonSha256": "9a2c0ef73a3a7b104337f20f8616c524275e52aeeb76fd593cc205ed702dcf85",
+      "petJsonBytes": 289,
+      "spritesheetSha256": "02090b2e627df48000135d325403713dafd5ec442f9a243cc6dc6f056c8ffb0b",
+      "spritesheetBytes": 1247958,
+      "spritesheetWidth": 1536,
+      "spritesheetHeight": 2288
+    },
     "doubao-app-avatar--wynn": {
       "name": "Doubao App Avatar",
       "localizedNames": { "en": "Doubao App Avatar", "zh": "豆包 App 头像" },
@@ -3624,6 +3634,17 @@
       "spritesheetWidth": 1536,
       "spritesheetHeight": 2288
     },
+    "jiasha-cat--lyu": {
+      "name": "袈裟猫",
+      "localizedNames": { "en": "Jiasha Cat", "zh": "袈裟猫" },
+      "spriteVersionNumber": 2,
+      "petJsonSha256": "b8bf1cf5f6ec2545715eedba51751e49492108ec0d7f13fce7a587d86ef0e072",
+      "petJsonBytes": 232,
+      "spritesheetSha256": "ae231aabcc2d2a18ab6e6f3d7dbac023e72fd0ee7f2514491ea1a87fda4393cb",
+      "spritesheetBytes": 2204022,
+      "spritesheetWidth": 1536,
+      "spritesheetHeight": 2288
+    },
     "beatrice--legeling": {
       "name": "贝阿朵莉丝",
       "spriteVersionNumber": 2,
@@ -3673,6 +3694,16 @@
       "petJsonBytes": 297,
       "spritesheetSha256": "516f63af1081250b8a43467a037db195af59626b270593d2bd698129604356be",
       "spritesheetBytes": 2148240,
+      "spritesheetWidth": 1536,
+      "spritesheetHeight": 2288
+    },
+    "yinyue-white--cfbarrack1-wq": {
+      "name": "银月·白衣",
+      "spriteVersionNumber": 2,
+      "petJsonSha256": "5870e2e7caa7f98090ef547be470d89c46e380d2123ad93c08c2bc7e25cebcab",
+      "petJsonBytes": 294,
+      "spritesheetSha256": "366369ae56408161f44190cc37cbf470f656956da83db838e7e62cfb9ca27766",
+      "spritesheetBytes": 1771690,
       "spritesheetWidth": 1536,
       "spritesheetHeight": 2288
     },

@@ -720,6 +720,20 @@
     "spriteVersionNumber": 2
   },
   {
+    "slug": "doubao--lyu",
+    "name": "Doubao",
+    "author": "Lyu",
+    "author_handle": "nagi-hikaru",
+    "author_url": "https://github.com/nagi-hikaru",
+    "primary_category": "Mascots",
+    "canonical_key": "mascot/bytedance/doubao",
+    "variant_note": "A full-body 3D chibi edition adapted and packaged by Lyu, wearing a cream jacket, black skirt and white sneakers. This differs from the existing circular app-avatar, waist-up ivory-cardigan and Halloween portrait editions. It retains nine AI-generated standard animation states, including keyboard task work and swing review, and adds sixteen clockwise v2 look directions.",
+    "collections": [],
+    "license": "仅限非商业使用；原角色及品牌权益归各自权利人",
+    "description": "A friendly full-body 3D chibi Doubao companion with nine animation states, keyboard task work, swing review and sixteen clockwise look directions.",
+    "spriteVersionNumber": 2
+  },
+  {
     "slug": "doubao-app-avatar--wynn",
     "name": "Doubao App Avatar",
     "localized_names": { "en": "Doubao App Avatar", "zh": "豆包 App 头像" },
@@ -4435,6 +4449,21 @@
     "spriteVersionNumber": 2
   },
   {
+    "slug": "jiasha-cat--lyu",
+    "name": "袈裟猫",
+    "localized_names": { "en": "Jiasha Cat", "zh": "袈裟猫" },
+    "author": "lyu",
+    "author_handle": "nagi-hikaru",
+    "author_url": "https://github.com/nagi-hikaru",
+    "primary_category": "Animals",
+    "canonical_key": "animal/jiasha-cat",
+    "variant_note": "AI-generated v2 edition by lyu, preserving the original nine animation rows and adding sixteen clockwise look directions.",
+    "collections": [],
+    "license": "Non-commercial use only.",
+    "description": "An AI-generated cream-colored monk cat wearing a red-and-gold kasaya and a five-panel crown. Created by lyu using an online reference image; no public reference URL has been supplied. The v2 edition includes nine animation states and sixteen look directions.",
+    "spriteVersionNumber": 2
+  },
+  {
     "slug": "beatrice--legeling",
     "name": "贝阿朵莉丝",
     "author": "legeling",
@@ -4501,6 +4530,18 @@
     "collections": ["arknights"],
     "license": "仅限非商业使用 / Non-commercial use only. 铃兰与《明日方舟》的角色及作品权利归各自权利人所有；本包为非官方 AI 辅助制作的同人桌宠。",
     "description": "来自《明日方舟》的铃兰像素桌宠，温柔、认真，略带害羞。九组动作包含待机、左右跑步、挥手、跳跃、失落、等待回应、读书工作和复核结果，另有十六方向注视。最终动画由 AI 辅助独立制作，nigeniged 负责动作设计指导、筛选与适配整理。",
+    "spriteVersionNumber": 2
+  },
+  {
+    "slug": "yinyue-white--cfbarrack1-wq",
+    "name": "银月·白衣",
+    "author": "cfbarrack1-wq",
+    "author_url": "https://github.com/cfbarrack1-wq",
+    "primary_category": "Anime Characters",
+    "canonical_key": "anime/a-record-of-a-mortals-journey-to-immortality/yin-yue",
+    "variant_note": "cfbarrack1-wq 独立 AI 生成的白衣银月同人版本；非像素三维渲染质感，包含九种状态与十六方向环视；未复用仓库现有 spritesheet。",
+    "collections": [],
+    "license": "仅限非商业使用，禁止商用。最终宠物动画由投稿人 cfbarrack1-wq 使用 AI 独立生成并完成适配；所提供的角色图片仅为外观参考，未随包上传，未直接裁剪、描摹或复用参考图像素。银月及《凡人修仙传》相关角色权利属于各自权利人，本投稿不主张原角色或参考图的所有权。",
     "spriteVersionNumber": 2
   },
   {

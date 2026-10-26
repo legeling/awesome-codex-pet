@@ -12,7 +12,7 @@
 
 <a href="https://codexpet.top"><img src="../../assets/cover/awesome-codex-pet-cover.png" alt="Awesome Codex Pet 갤러리 열기"></a>
 
-![pets: 358](https://img.shields.io/badge/pets-358-2ea44f) ![categories: 11](https://img.shields.io/badge/categories-11-0969da) ![languages: en | zh--CN | ko | ja | es](https://img.shields.io/badge/languages-en%20%7C%20zh--CN%20%7C%20ko%20%7C%20ja%20%7C%20es-8250df) ![code: MIT](https://img.shields.io/badge/code-MIT-111111) ![assets: CC BY--NC 4.0](https://img.shields.io/badge/assets-CC%20BY--NC%204.0-f97316) ![install: one command](https://img.shields.io/badge/install-one%20command-111111) [![Pet previews](https://github.com/legeling/awesome-codex-pet/actions/workflows/pet-previews.yml/badge.svg)](https://github.com/legeling/awesome-codex-pet/actions/workflows/pet-previews.yml)
+![pets: 361](https://img.shields.io/badge/pets-361-2ea44f) ![categories: 11](https://img.shields.io/badge/categories-11-0969da) ![languages: en | zh--CN | ko | ja | es](https://img.shields.io/badge/languages-en%20%7C%20zh--CN%20%7C%20ko%20%7C%20ja%20%7C%20es-8250df) ![code: MIT](https://img.shields.io/badge/code-MIT-111111) ![assets: CC BY--NC 4.0](https://img.shields.io/badge/assets-CC%20BY--NC%204.0-f97316) ![install: one command](https://img.shields.io/badge/install-one%20command-111111) [![Pet previews](https://github.com/legeling/awesome-codex-pet/actions/workflows/pet-previews.yml/badge.svg)](https://github.com/legeling/awesome-codex-pet/actions/workflows/pet-previews.yml)
 
 </div>
 
@@ -105,7 +105,7 @@ npx --yes @legeling/codex-pet list
 </table>
 
 <details>
-<summary>전체 펫 목록 (텍스트) · 358</summary>
+<summary>전체 펫 목록 (텍스트) · 361</summary>
 
 ### 게임 캐릭터
 
@@ -288,6 +288,7 @@ npx --yes @legeling/codex-pet list
 <li><a href="../../pets/hongmao--legeling">虹猫少侠</a> · 제작자 <a href="https://github.com/legeling">@legeling</a> · v2</li>
 <li><a href="../../pets/shinobu-kocho--wangfan002">蝴蝶忍 Q版 华丽动作</a> · 제작자 @wangfan002 · v1</li>
 <li><a href="../../pets/beatrice--legeling">贝阿朵莉丝</a> · 제작자 <a href="https://github.com/legeling">@legeling</a> · v2</li>
+<li><a href="../../pets/yinyue-white--cfbarrack1-wq">银月·白衣</a> · 제작자 <a href="https://github.com/cfbarrack1-wq">@cfbarrack1-wq</a> · v2</li>
 <li><a href="../../pets/alphonse--legeling">阿尔冯斯</a> · 제작자 <a href="https://github.com/legeling">@legeling</a> · v2</li>
 <li><a href="../../pets/han-li--legeling">韩立</a> · 제작자 <a href="https://github.com/legeling">@legeling</a> · v2</li>
 <li><a href="../../pets/han-li-nascent-soul--legeling">韩立元婴</a> · 제작자 <a href="https://github.com/legeling">@legeling</a> · v2</li>
@@ -337,6 +338,7 @@ npx --yes @legeling/codex-pet list
 <li><a href="../../pets/twinkle-twinkle--twinkletwinkle">Dashun&#39;s Twinkle Twinkle</a> · 제작자 @twinkletwinkle · v1</li>
 <li><a href="../../pets/riceball-maid--qishichuan">DeepSeek钢盆饭团</a> · 제작자 <a href="https://github.com/qishichuan">@qishichuan</a> · v2</li>
 <li><a href="../../pets/diaoyi-baobao--d1a0y1bb">Diaoyi Baobao</a> · 제작자 <a href="https://github.com/D1a0y1bb">@D1a0y1bb</a> · v1</li>
+<li><a href="../../pets/doubao--lyu">Doubao</a> · 제작자 <a href="https://github.com/nagi-hikaru">@nagi-hikaru</a> · v2</li>
 <li><a href="../../pets/doubao-app-avatar--wynn">Doubao App Avatar</a> · 제작자 <a href="https://github.com/zhou-jianwen">@wynn</a> · v2</li>
 <li><a href="../../pets/doubao-ivory-cardigan--wynn">Doubao Ivory Cardigan</a> · 제작자 <a href="https://github.com/zhou-jianwen">@wynn</a> · v2</li>
 <li><a href="../../pets/gpt-muse--opask">GPT-muse</a> · 제작자 @opask · v1</li>
@@ -408,6 +410,7 @@ npx --yes @legeling/codex-pet list
 <li><a href="../../pets/zichao-xiong--z-kzhang">自嘲熊</a> · 제작자 @z-kzhang · v1</li>
 <li><a href="../../pets/zichao-xiong--legeling">自嘲熊（毛绒版）</a> · 제작자 <a href="https://github.com/legeling">@legeling</a> · v2</li>
 <li><a href="../../pets/cockroach--legeling">蟑螂</a> · 제작자 <a href="https://github.com/legeling">@legeling</a> · v2</li>
+<li><a href="../../pets/jiasha-cat--lyu">袈裟猫</a> · 제작자 <a href="https://github.com/nagi-hikaru">@nagi-hikaru</a> · v2</li>
 <li><a href="../../pets/jinmao--legeling">金毛</a> · 제작자 <a href="https://github.com/legeling">@legeling</a> · v2</li>
 <li><a href="../../pets/wucanrou--ch">金渐层（午餐肉）</a> · 제작자 <a href="https://github.com/huanchu0213-ui">@huanchu0213-ui</a> · v2</li>
 </ul>
