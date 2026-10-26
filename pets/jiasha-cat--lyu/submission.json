@@ -1,0 +1,26 @@
+{
+  "slug": "jiasha-cat--lyu",
+  "pet_slug": "jiasha-cat",
+  "author_slug": "lyu",
+  "name": "袈裟猫",
+  "localized_names": {
+    "en": "Jiasha Cat",
+    "zh": "袈裟猫"
+  },
+  "author": "lyu",
+  "author_handle": "nagi-hikaru",
+  "author_url": "https://github.com/nagi-hikaru",
+  "primary_category": "Animals",
+  "canonical_key": "animal/jiasha-cat",
+  "variant_note": "AI-generated v2 edition by lyu, preserving the original nine animation rows and adding sixteen clockwise look directions.",
+  "collections": [],
+  "tags": ["cat"],
+  "source_type": "ai-generated",
+  "description": "An AI-generated cream-colored monk cat wearing a red-and-gold kasaya and a five-panel crown. Created by lyu using an online reference image; no public reference URL has been supplied. The v2 edition includes nine animation states and sixteen look directions.",
+  "license": "Non-commercial use only.",
+  "preview_image": "../../assets/previews/jiasha-cat--lyu/gifs/idle.gif",
+  "codex_install": {
+    "pet_json": "pet.json",
+    "spritesheet": "spritesheet.webp"
+  }
+}
