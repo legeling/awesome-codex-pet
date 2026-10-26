@@ -1,0 +1,23 @@
+{
+  "slug": "doubao--lyu",
+  "pet_slug": "doubao",
+  "author_slug": "lyu",
+  "name": "Doubao",
+  "author": "Lyu",
+  "author_handle": "nagi-hikaru",
+  "author_url": "https://github.com/nagi-hikaru",
+  "primary_category": "Mascots",
+  "canonical_key": "mascot/bytedance/doubao",
+  "variant_note": "A full-body 3D chibi edition adapted and packaged by Lyu, wearing a cream jacket, black skirt and white sneakers. This differs from the existing circular app-avatar, waist-up ivory-cardigan and Halloween portrait editions. It retains nine AI-generated standard animation states, including keyboard task work and swing review, and adds sixteen clockwise v2 look directions.",
+  "tags": ["doubao", "fan-art", "ai-generated", "3d-toy", "v2"],
+  "collections": [],
+  "source_type": "AI-generated fan art",
+  "source_notes": "The submitter confirmed that the supplied v1 artwork was made with AI. The v2 package preserves its nine standard animation rows and adds sixteen AI-generated look poses grounded in the same pet identity. Pet adaptation and packaging credit: Lyu. No public source URL was supplied. Reference images and production files are not included. No official authorization, affiliation or endorsement is asserted.",
+  "license": "仅限非商业使用；原角色及品牌权益归各自权利人",
+  "description": "A friendly full-body 3D chibi Doubao companion with nine animation states, keyboard task work, swing review and sixteen clockwise look directions.",
+  "preview_image": "../../assets/previews/doubao--lyu/gifs/idle.gif",
+  "codex_install": {
+    "pet_json": "pet.json",
+    "spritesheet": "spritesheet.webp"
+  }
+}
