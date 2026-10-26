@@ -1,0 +1,26 @@
+{
+  "slug": "sherry--lyu",
+  "pet_slug": "sherry",
+  "author_slug": "lyu",
+  "name": "灰原哀",
+  "localized_names": {
+    "en": "Sherry",
+    "zh": "灰原哀"
+  },
+  "author": "lyu",
+  "author_handle": "nagi-hikaru",
+  "author_url": "https://github.com/nagi-hikaru",
+  "primary_category": "Anime Characters",
+  "canonical_key": "fictional/detective-conan/ai-haibara",
+  "variant_note": "An independently AI-generated v2 fan interpretation by lyu, depicting Sherry as an adult with short chestnut-brown hair and a cream coat.",
+  "collections": ["detective-conan"],
+  "tags": ["anime", "detective-conan"],
+  "source_type": "fan-art",
+  "description": "An independently AI-generated, unofficial Sherry fan companion inspired by Detective Conan, depicted as an adult with short chestnut-brown hair and a cream coat. Prepared for non-commercial use only.",
+  "license": "Non-commercial use only. Unofficial AI-generated fan art. Character and franchise rights remain with their respective owners.",
+  "preview_image": "../../assets/previews/sherry--lyu/gifs/idle.gif",
+  "codex_install": {
+    "pet_json": "pet.json",
+    "spritesheet": "spritesheet.webp"
+  }
+}
