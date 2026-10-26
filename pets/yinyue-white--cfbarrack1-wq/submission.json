@@ -1,0 +1,21 @@
+{
+  "slug": "yinyue-white--cfbarrack1-wq",
+  "pet_slug": "yinyue-white",
+  "author_slug": "cfbarrack1-wq",
+  "name": "银月·白衣",
+  "author": "cfbarrack1-wq",
+  "author_url": "https://github.com/cfbarrack1-wq",
+  "primary_category": "Anime Characters",
+  "canonical_key": "anime/a-record-of-a-mortals-journey-to-immortality/yin-yue",
+  "variant_note": "cfbarrack1-wq 独立 AI 生成的白衣银月同人版本；非像素三维渲染质感，包含九种状态与十六方向环视；未复用仓库现有 spritesheet。",
+  "tags": ["fan-art", "3d", "white", "silver"],
+  "collections": [],
+  "source_type": "fan-art",
+  "source_url": "",
+  "license": "仅限非商业使用，禁止商用。最终宠物动画由投稿人 cfbarrack1-wq 使用 AI 独立生成并完成适配；所提供的角色图片仅为外观参考，未随包上传，未直接裁剪、描摹或复用参考图像素。银月及《凡人修仙传》相关角色权利属于各自权利人，本投稿不主张原角色或参考图的所有权。",
+  "preview_image": "../../assets/previews/yinyue-white--cfbarrack1-wq/gifs/idle.gif",
+  "codex_install": {
+    "pet_json": "pet.json",
+    "spritesheet": "spritesheet.webp"
+  }
+}
