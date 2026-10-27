@@ -1,0 +1,36 @@
+{
+  "slug": "bikini-bottom-fish--legeling",
+  "pet_slug": "bikini-bottom-fish",
+  "author_slug": "legeling",
+  "name": "比奇堡黄绿鱼居民",
+  "localized_names": {
+    "en": "Bikini Bottom Yellow-Green Fish",
+    "zh": "比奇堡黄绿鱼居民"
+  },
+  "author": "legeling",
+  "author_handle": "legeling",
+  "author_url": "https://github.com/legeling",
+  "primary_category": "Others",
+  "canonical_key": "fictional/spongebob-squarepants/bikini-bottom-yellow-green-fish",
+  "variant_note": "Independently imagegen-generated v2 interpretation by legeling, with nine animation states and sixteen look directions. Original user-reviewed runtime pixels preserved.",
+  "tags": [
+    "cartoon",
+    "spongebob-squarepants",
+    "fan-art",
+    "ai-generated",
+    "community-request",
+    "v2"
+  ],
+  "collections": [],
+  "source_type": "ai-generated-fan-art",
+  "source_url": "https://github.com/legeling/awesome-codex-pet/issues/335",
+  "source_note": "Based on the yellow-green fish reference in request #335 by anonymous94; no specific character name is asserted. The reference was used for guidance only and is not included. Created with OpenAI imagegen at legeling's direction; final atlas assembled and validated deterministically.",
+  "license": "Non-commercial use only. Underlying characters and reference artwork remain the property of their respective rights holders. This independent fan-art submission does not grant rights to those characters or references.",
+  "description": "Independently AI-generated yellow-green Bikini Bottom fish fan art with purple lips and a teal outfit: relaxed idle, peace-sign success, hands-on-hips frustration and thinking in place; nine animations and sixteen look directions.",
+  "preview_image": "../../assets/previews/bikini-bottom-fish--legeling/gifs/idle.gif",
+  "codex_install": {
+    "pet_json": "pet.json",
+    "spritesheet": "spritesheet.webp"
+  },
+  "spritesheet_sha256": "d03fd7ec379bdf5094f36f2bb9af24e86893a485e87d20330f26885c56901ac5"
+}
