@@ -1,0 +1,36 @@
+{
+  "slug": "lyla--legeling",
+  "pet_slug": "lyla",
+  "author_slug": "legeling",
+  "name": "LYLA",
+  "localized_names": {
+    "en": "LYLA",
+    "zh": "LYLA"
+  },
+  "author": "legeling",
+  "author_handle": "legeling",
+  "author_url": "https://github.com/legeling",
+  "primary_category": "Others",
+  "canonical_key": "fictional/spider-man/lyla",
+  "variant_note": "Independently imagegen-generated v2 interpretation by legeling, with nine animation states and sixteen look directions. Original user-reviewed runtime pixels preserved.",
+  "tags": [
+    "pixel-art",
+    "spider-man",
+    "fan-art",
+    "ai-generated",
+    "community-request",
+    "v2"
+  ],
+  "collections": [],
+  "source_type": "ai-generated-fan-art",
+  "source_url": "https://github.com/legeling/awesome-codex-pet/issues/332",
+  "source_note": "LYLA from Spider-Man 2099, requested by anonymous93 in issue #332. The linked image was used only as a visual reference, not copied into the atlas. Created with OpenAI imagegen at legeling's direction; final atlas assembled and validated deterministically.",
+  "license": "Non-commercial use only. Underlying characters and reference artwork remain the property of their respective rights holders. This independent fan-art submission does not grant rights to those characters or references.",
+  "description": "Independently AI-generated pixel-style LYLA fan art with short brown hair, pink heart glasses and a cream fluffy coat; nine animations and sixteen look directions.",
+  "preview_image": "../../assets/previews/lyla--legeling/gifs/idle.gif",
+  "codex_install": {
+    "pet_json": "pet.json",
+    "spritesheet": "spritesheet.webp"
+  },
+  "spritesheet_sha256": "660c223b84554b0bc65e12af150adb053dfc569e5c911e428e1862b638be6ce0"
+}
