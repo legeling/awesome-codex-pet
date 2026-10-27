@@ -1,24 +1,24 @@
 [
   {
-    "number": 335,
-    "character": "比奇堡居民",
-    "characterDetails": "比奇堡居民",
+    "number": 336,
+    "character": "dfshnni",
+    "characterDetails": "dfshnni",
     "franchise": "Not provided",
     "category": "other",
     "version": "v2",
     "requestType": "Create a new community interpretation",
     "referenceStatus": "",
-    "references": "https://api.codexpet.top/uploads/reference/references/d69896a54c7281031e00e0bc5f9f9325a88c78c103162cdd32d8ba1c72d34cff.png",
+    "references": "https://api.codexpet.top/uploads/reference/references/82d61b7080d07fee2d59d9eb9133245f3e7fb2c44e6fdc89f39597e85d0cc0c7.png",
     "referenceUrls": [
-      "https://api.codexpet.top/uploads/reference/references/d69896a54c7281031e00e0bc5f9f9325a88c78c103162cdd32d8ba1c72d34cff.png"
+      "https://api.codexpet.top/uploads/reference/references/82d61b7080d07fee2d59d9eb9133245f3e7fb2c44e6fdc89f39597e85d0cc0c7.png"
     ],
     "referenceImages": [
-      "https://api.codexpet.top/uploads/reference/references/d69896a54c7281031e00e0bc5f9f9325a88c78c103162cdd32d8ba1c72d34cff.png"
+      "https://api.codexpet.top/uploads/reference/references/82d61b7080d07fee2d59d9eb9133245f3e7fb2c44e6fdc89f39597e85d0cc0c7.png"
     ],
     "referenceThumbnails": [
-      "https://api.codexpet.top/uploads/reference/thumbnails/d69896a54c7281031e00e0bc5f9f9325a88c78c103162cdd32d8ba1c72d34cff.webp"
+      "https://api.codexpet.top/uploads/reference/thumbnails/82d61b7080d07fee2d59d9eb9133245f3e7fb2c44e6fdc89f39597e85d0cc0c7.webp"
     ],
-    "visualDirection": "以比奇堡居民作为基础人物，要求还原动画画风和参考图人物形象。待机状态下人物处于站立双手垂直状态，成功时人物处于单手和平手势（参考示例图），失败时人物处于双手叉腰愤怒状态，工作时人物处于原地移动动画状态",
+    "visualDirection": "Let the community maker decide.",
     "nameLanguages": "Let the maker decide",
     "attribution": "Submitted without a GitHub account. Reference and attribution details should be confirmed during triage. Non-commercial use only.",
     "duplicateCheck": "Repository automation or a maintainer should complete the duplicate check during triage.",
@@ -36,56 +36,12 @@
       "url": "https://github.com/apps/github-actions"
     },
     "assignees": [],
-    "createdAt": "2026-10-26T09:29:33Z",
-    "updatedAt": "2026-10-26T09:29:33Z",
+    "createdAt": "2026-10-27T12:31:26Z",
+    "updatedAt": "2026-10-27T12:31:26Z",
     "closedAt": null,
     "comments": 0,
     "reactions": 0,
-    "githubUrl": "https://github.com/legeling/awesome-codex-pet/issues/335"
-  },
-  {
-    "number": 332,
-    "character": "LYLA",
-    "characterDetails": "LYLA",
-    "franchise": "Spiderman 2099",
-    "category": "other",
-    "version": "v2",
-    "requestType": "Create a new community interpretation",
-    "referenceStatus": "",
-    "references": "https://api.codexpet.top/uploads/reference/references/871a25eb1e0502a63f6504ea3bccb89f0daefe13d0434078843ad8bb06ca4077.jpg",
-    "referenceUrls": [
-      "https://api.codexpet.top/uploads/reference/references/871a25eb1e0502a63f6504ea3bccb89f0daefe13d0434078843ad8bb06ca4077.jpg"
-    ],
-    "referenceImages": [
-      "https://api.codexpet.top/uploads/reference/references/871a25eb1e0502a63f6504ea3bccb89f0daefe13d0434078843ad8bb06ca4077.jpg"
-    ],
-    "referenceThumbnails": [
-      "https://api.codexpet.top/uploads/reference/thumbnails/871a25eb1e0502a63f6504ea3bccb89f0daefe13d0434078843ad8bb06ca4077.webp"
-    ],
-    "visualDirection": "Mantener estilo a la obra original, pixel art podría verse increible",
-    "nameLanguages": "Let the maker decide",
-    "attribution": "Submitted without a GitHub account. Reference and attribution details should be confirmed during triage. Non-commercial use only.",
-    "duplicateCheck": "Repository automation or a maintainer should complete the duplicate check during triage.",
-    "state": "open",
-    "status": "triage",
-    "labels": [
-      "type: request",
-      "status: triage",
-      "version: v2",
-      "category: other"
-    ],
-    "author": {
-      "login": "github-actions[bot]",
-      "avatarUrl": "https://avatars.githubusercontent.com/in/15368?v=4",
-      "url": "https://github.com/apps/github-actions"
-    },
-    "assignees": [],
-    "createdAt": "2026-10-26T05:26:40Z",
-    "updatedAt": "2026-10-26T05:26:40Z",
-    "closedAt": null,
-    "comments": 0,
-    "reactions": 0,
-    "githubUrl": "https://github.com/legeling/awesome-codex-pet/issues/332"
+    "githubUrl": "https://github.com/legeling/awesome-codex-pet/issues/336"
   },
   {
     "number": 327,
@@ -615,6 +571,94 @@
     "comments": 0,
     "reactions": 0,
     "githubUrl": "https://github.com/legeling/awesome-codex-pet/issues/157"
+  },
+  {
+    "number": 332,
+    "character": "LYLA",
+    "characterDetails": "LYLA",
+    "franchise": "Spiderman 2099",
+    "category": "other",
+    "version": "v2",
+    "requestType": "Create a new community interpretation",
+    "referenceStatus": "",
+    "references": "https://api.codexpet.top/uploads/reference/references/871a25eb1e0502a63f6504ea3bccb89f0daefe13d0434078843ad8bb06ca4077.jpg",
+    "referenceUrls": [
+      "https://api.codexpet.top/uploads/reference/references/871a25eb1e0502a63f6504ea3bccb89f0daefe13d0434078843ad8bb06ca4077.jpg"
+    ],
+    "referenceImages": [
+      "https://api.codexpet.top/uploads/reference/references/871a25eb1e0502a63f6504ea3bccb89f0daefe13d0434078843ad8bb06ca4077.jpg"
+    ],
+    "referenceThumbnails": [
+      "https://api.codexpet.top/uploads/reference/thumbnails/871a25eb1e0502a63f6504ea3bccb89f0daefe13d0434078843ad8bb06ca4077.webp"
+    ],
+    "visualDirection": "Mantener estilo a la obra original, pixel art podría verse increible",
+    "nameLanguages": "Let the maker decide",
+    "attribution": "Submitted without a GitHub account. Reference and attribution details should be confirmed during triage. Non-commercial use only.",
+    "duplicateCheck": "Repository automation or a maintainer should complete the duplicate check during triage.",
+    "state": "closed",
+    "status": "completed",
+    "labels": [
+      "type: request",
+      "status: completed",
+      "version: v2",
+      "category: other"
+    ],
+    "author": {
+      "login": "github-actions[bot]",
+      "avatarUrl": "https://avatars.githubusercontent.com/in/15368?v=4",
+      "url": "https://github.com/apps/github-actions"
+    },
+    "assignees": [],
+    "createdAt": "2026-10-26T05:26:40Z",
+    "updatedAt": "2026-10-27T13:18:48Z",
+    "closedAt": "2026-10-27T13:17:41Z",
+    "comments": 2,
+    "reactions": 0,
+    "githubUrl": "https://github.com/legeling/awesome-codex-pet/issues/332"
+  },
+  {
+    "number": 335,
+    "character": "比奇堡居民",
+    "characterDetails": "比奇堡居民",
+    "franchise": "Not provided",
+    "category": "other",
+    "version": "v2",
+    "requestType": "Create a new community interpretation",
+    "referenceStatus": "",
+    "references": "https://api.codexpet.top/uploads/reference/references/d69896a54c7281031e00e0bc5f9f9325a88c78c103162cdd32d8ba1c72d34cff.png",
+    "referenceUrls": [
+      "https://api.codexpet.top/uploads/reference/references/d69896a54c7281031e00e0bc5f9f9325a88c78c103162cdd32d8ba1c72d34cff.png"
+    ],
+    "referenceImages": [
+      "https://api.codexpet.top/uploads/reference/references/d69896a54c7281031e00e0bc5f9f9325a88c78c103162cdd32d8ba1c72d34cff.png"
+    ],
+    "referenceThumbnails": [
+      "https://api.codexpet.top/uploads/reference/thumbnails/d69896a54c7281031e00e0bc5f9f9325a88c78c103162cdd32d8ba1c72d34cff.webp"
+    ],
+    "visualDirection": "以比奇堡居民作为基础人物，要求还原动画画风和参考图人物形象。待机状态下人物处于站立双手垂直状态，成功时人物处于单手和平手势（参考示例图），失败时人物处于双手叉腰愤怒状态，工作时人物处于原地移动动画状态",
+    "nameLanguages": "Let the maker decide",
+    "attribution": "Submitted without a GitHub account. Reference and attribution details should be confirmed during triage. Non-commercial use only.",
+    "duplicateCheck": "Repository automation or a maintainer should complete the duplicate check during triage.",
+    "state": "closed",
+    "status": "completed",
+    "labels": [
+      "type: request",
+      "status: in-progress",
+      "version: v2",
+      "category: other"
+    ],
+    "author": {
+      "login": "github-actions[bot]",
+      "avatarUrl": "https://avatars.githubusercontent.com/in/15368?v=4",
+      "url": "https://github.com/apps/github-actions"
+    },
+    "assignees": [],
+    "createdAt": "2026-10-26T09:29:33Z",
+    "updatedAt": "2026-10-27T13:18:14Z",
+    "closedAt": "2026-10-27T13:18:14Z",
+    "comments": 1,
+    "reactions": 0,
+    "githubUrl": "https://github.com/legeling/awesome-codex-pet/issues/335"
   },
   {
     "number": 220,
