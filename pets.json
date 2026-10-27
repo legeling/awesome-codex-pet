@@ -1760,6 +1760,21 @@
     "spriteVersionNumber": 2
   },
   {
+    "slug": "lyla--legeling",
+    "name": "LYLA",
+    "localized_names": { "en": "LYLA", "zh": "LYLA" },
+    "author": "legeling",
+    "author_handle": "legeling",
+    "author_url": "https://github.com/legeling",
+    "primary_category": "Others",
+    "canonical_key": "fictional/spider-man/lyla",
+    "variant_note": "Independently imagegen-generated v2 interpretation by legeling, with nine animation states and sixteen look directions. Original user-reviewed runtime pixels preserved.",
+    "collections": [],
+    "license": "Non-commercial use only. Underlying characters and reference artwork remain the property of their respective rights holders. This independent fan-art submission does not grant rights to those characters or references.",
+    "description": "Independently AI-generated pixel-style LYLA fan art with short brown hair, pink heart glasses and a cream fluffy coat; nine animations and sixteen look directions.",
+    "spriteVersionNumber": 2
+  },
+  {
     "slug": "mahiro--lingxiaotian",
     "name": "Mahiro",
     "localized_names": { "en": "Mahiro", "zh": "绪山真寻" },
@@ -3955,6 +3970,24 @@
     "collections": [],
     "license": "仅限非商业使用，禁止商用。允许本仓库收录、展示及分发此独立 AI 生成的同人宠物及预览；非官方作品，不代表获得角色权利方授权。角色及商标权利归各自权利人所有。",
     "description": "《碧蓝档案》橘光的 Q 版坐姿宠物：列车制服、小转椅、自然翘腿，包含九种任务动画和十六方向视线。 成品由 Codex / ImageGen 根据官方角色外观参考独立生成，官方图片仅作参考，未直接裁切或粘贴进图集。",
+    "spriteVersionNumber": 2
+  },
+  {
+    "slug": "bikini-bottom-fish--legeling",
+    "name": "比奇堡黄绿鱼居民",
+    "localized_names": {
+      "en": "Bikini Bottom Yellow-Green Fish",
+      "zh": "比奇堡黄绿鱼居民"
+    },
+    "author": "legeling",
+    "author_handle": "legeling",
+    "author_url": "https://github.com/legeling",
+    "primary_category": "Others",
+    "canonical_key": "fictional/spongebob-squarepants/bikini-bottom-yellow-green-fish",
+    "variant_note": "Independently imagegen-generated v2 interpretation by legeling, with nine animation states and sixteen look directions. Original user-reviewed runtime pixels preserved.",
+    "collections": [],
+    "license": "Non-commercial use only. Underlying characters and reference artwork remain the property of their respective rights holders. This independent fan-art submission does not grant rights to those characters or references.",
+    "description": "Independently AI-generated yellow-green Bikini Bottom fish fan art with purple lips and a teal outfit: relaxed idle, peace-sign success, hands-on-hips frustration and thinking in place; nine animations and sixteen look directions.",
     "spriteVersionNumber": 2
   },
   {

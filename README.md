@@ -12,7 +12,7 @@
 
 <a href="https://codexpet.top"><img src="./assets/cover/awesome-codex-pet-cover.png" alt="Open the Awesome Codex Pet gallery"></a>
 
-![pets: 361](https://img.shields.io/badge/pets-361-2ea44f) ![categories: 11](https://img.shields.io/badge/categories-11-0969da) ![languages: en | zh--CN | ko | ja | es](https://img.shields.io/badge/languages-en%20%7C%20zh--CN%20%7C%20ko%20%7C%20ja%20%7C%20es-8250df) ![code: MIT](https://img.shields.io/badge/code-MIT-111111) ![assets: CC BY--NC 4.0](https://img.shields.io/badge/assets-CC%20BY--NC%204.0-f97316) ![install: one command](https://img.shields.io/badge/install-one%20command-111111) [![Pet previews](https://github.com/legeling/awesome-codex-pet/actions/workflows/pet-previews.yml/badge.svg)](https://github.com/legeling/awesome-codex-pet/actions/workflows/pet-previews.yml)
+![pets: 363](https://img.shields.io/badge/pets-363-2ea44f) ![categories: 11](https://img.shields.io/badge/categories-11-0969da) ![languages: en | zh--CN | ko | ja | es](https://img.shields.io/badge/languages-en%20%7C%20zh--CN%20%7C%20ko%20%7C%20ja%20%7C%20es-8250df) ![code: MIT](https://img.shields.io/badge/code-MIT-111111) ![assets: CC BY--NC 4.0](https://img.shields.io/badge/assets-CC%20BY--NC%204.0-f97316) ![install: one command](https://img.shields.io/badge/install-one%20command-111111) [![Pet previews](https://github.com/legeling/awesome-codex-pet/actions/workflows/pet-previews.yml/badge.svg)](https://github.com/legeling/awesome-codex-pet/actions/workflows/pet-previews.yml)
 
 </div>
 
@@ -103,7 +103,7 @@ The **Update** action is an AI-assisted v1-to-v2 conversion, not a download noti
 </table>
 
 <details>
-<summary>Full pet index (text only) · 361</summary>
+<summary>Full pet index (text only) · 363</summary>
 
 ### Game Characters
 
@@ -493,6 +493,7 @@ The **Update** action is an AI-assisted v1-to-v2 conversion, not a download noti
 <li><a href="./pets/golden-lamp--legeling">Golden Lamp</a> · by <a href="https://github.com/legeling">@legeling</a> · v2</li>
 <li><a href="./pets/gpt-dragon-girl--legeling">GPT Dragon Girl</a> · by <a href="https://github.com/legeling">@legeling</a> · v2</li>
 <li><a href="./pets/kamen-rider-zein--legeling">Kamen Rider Zein</a> · by <a href="https://github.com/legeling">@legeling</a> · v2</li>
+<li><a href="./pets/lyla--legeling">LYLA</a> · by <a href="https://github.com/legeling">@legeling</a> · v2</li>
 <li><a href="./pets/mini--zhou-jianwen">Mini</a> · by <a href="https://github.com/zhou-jianwen">@zhou-jianwen</a> · v2</li>
 <li><a href="./pets/my-little-orange-cat--zhou-jianwen">My Little Orange Cat</a> · by <a href="https://github.com/zhou-jianwen">@zhou-jianwen</a> · v2</li>
 <li><a href="./pets/peach-cat--legeling">Peach Cat</a> · by <a href="https://github.com/legeling">@legeling</a> · v2</li>
@@ -509,6 +510,7 @@ The **Update** action is an AI-assisted v1-to-v2 conversion, not a download noti
 <li><a href="./pets/kuromi--legeling">Kuromi</a> · by <a href="https://github.com/legeling">@legeling</a> · v2</li>
 <li><a href="./pets/wo-de-dao-dun--legeling">Wo De Dao Dun</a> · by <a href="https://github.com/legeling">@legeling</a> · v2</li>
 <li><a href="./pets/xingxingren--legeling">Star Person</a> · by <a href="https://github.com/legeling">@legeling</a> · v2</li>
+<li><a href="./pets/bikini-bottom-fish--legeling">Bikini Bottom Yellow-Green Fish</a> · by <a href="https://github.com/legeling">@legeling</a> · v2</li>
 <li><a href="./pets/izumi-konata--legeling">Izumi Konata</a> · by <a href="https://github.com/legeling">@legeling</a> · v2</li>
 <li><a href="./pets/yanlingji--jorge-cuevas90003">Yan Lingji</a> · by <a href="https://github.com/Jorge-Cuevas90003">@Jorge-Cuevas90003</a> · v2</li>
 <li><a href="./pets/yao-true-self-hertz--legeling">Yao: True Self Hertz</a> · by <a href="https://github.com/legeling">@legeling</a> · v2</li>

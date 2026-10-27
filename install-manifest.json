@@ -1435,6 +1435,17 @@
       "spritesheetWidth": 1536,
       "spritesheetHeight": 2288
     },
+    "lyla--legeling": {
+      "name": "LYLA",
+      "localizedNames": { "en": "LYLA", "zh": "LYLA" },
+      "spriteVersionNumber": 2,
+      "petJsonSha256": "12253fc16f75a8e59860e533675fc726b07b8a76f22db71100e1abdb6a8be422",
+      "petJsonBytes": 307,
+      "spritesheetSha256": "660c223b84554b0bc65e12af150adb053dfc569e5c911e428e1862b638be6ce0",
+      "spritesheetBytes": 1881674,
+      "spritesheetWidth": 1536,
+      "spritesheetHeight": 2288
+    },
     "mahiro--lingxiaotian": {
       "name": "Mahiro",
       "localizedNames": { "en": "Mahiro", "zh": "绪山真寻" },
@@ -3234,6 +3245,20 @@
       "petJsonBytes": 297,
       "spritesheetSha256": "771edcbc19ba9d9d6db13c271f3d026073feee3f3e86a5f23c3542fa027d96e2",
       "spritesheetBytes": 2278630,
+      "spritesheetWidth": 1536,
+      "spritesheetHeight": 2288
+    },
+    "bikini-bottom-fish--legeling": {
+      "name": "比奇堡黄绿鱼居民",
+      "localizedNames": {
+        "en": "Bikini Bottom Yellow-Green Fish",
+        "zh": "比奇堡黄绿鱼居民"
+      },
+      "spriteVersionNumber": 2,
+      "petJsonSha256": "7f38ed6469ba1c190dbb2fbf77c1f22d5301cba487a621ba41dc59d39fbcea8b",
+      "petJsonBytes": 408,
+      "spritesheetSha256": "d03fd7ec379bdf5094f36f2bb9af24e86893a485e87d20330f26885c56901ac5",
+      "spritesheetBytes": 1466632,
       "spritesheetWidth": 1536,
       "spritesheetHeight": 2288
     },
