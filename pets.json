@@ -3695,6 +3695,24 @@
     "spriteVersionNumber": 2
   },
   {
+    "slug": "ryo-yamada-snail--legeling",
+    "name": "山田凉 · 蜗牛骑手",
+    "localized_names": {
+      "en": "Ryo Yamada · Snail Rider",
+      "zh": "山田凉 · 蜗牛骑手"
+    },
+    "author": "legeling",
+    "author_handle": "legeling",
+    "author_url": "https://github.com/legeling",
+    "primary_category": "Anime Characters",
+    "canonical_key": "bocchi-the-rock/ryo-yamada",
+    "variant_note": "Blue-haired Ryo riding a yellow snail with a mint-green shell; independent 2D chibi sprites, not a novel snail-riding concept.",
+    "collections": [],
+    "license": "Non-commercial use only. Unofficial independently AI-generated fan asset. Character and reference-art rights remain with their respective rights holders; no underlying character or reference-art license is asserted or granted.",
+    "description": "Blue-haired Ryo riding a yellow snail with a mint-green shell; independent 2D chibi sprites, not a novel snail-riding concept. Nine animation states and sixteen look directions.",
+    "spriteVersionNumber": 2
+  },
+  {
     "slug": "fengge--qzl1-stack",
     "name": "峰哥",
     "author": "qzl1-stack",
@@ -4001,6 +4019,21 @@
     "license": "Unknown license; public Codex Pets upload; no explicit repository redistribution license was provided.",
     "description": "水豚噜噜是一只戴着绿帽子的橙色小水豚，圆滚滚、软乎乎，喜欢陪你工作、思考和发呆。它会挥手、跳跃、等待，也会认真“干活”，是你桌面上可爱又治愈的Codex小伙伴。",
     "spriteVersionNumber": 1
+  },
+  {
+    "slug": "ace-taffy--legeling",
+    "name": "永雏塔菲",
+    "localized_names": { "en": "Ace Taffy", "zh": "永雏塔菲" },
+    "author": "legeling",
+    "author_handle": "legeling",
+    "author_url": "https://github.com/legeling",
+    "primary_category": "Others",
+    "canonical_key": "virtual-youtuber/ace-taffy",
+    "variant_note": "Pink-haired golden-eyed detective with brown goggles and outfit; independent chibi sprite version.",
+    "collections": [],
+    "license": "Non-commercial use only. Unofficial independently AI-generated fan asset. Character and reference-art rights remain with their respective rights holders; no underlying character or reference-art license is asserted or granted.",
+    "description": "Pink-haired golden-eyed detective with brown goggles and outfit; independent chibi sprite version. Nine animation states and sixteen look directions.",
+    "spriteVersionNumber": 2
   },
   {
     "slug": "shen-xinghui--legeling",
@@ -4507,6 +4540,21 @@
     "collections": ["re-zero"],
     "license": "Non-commercial use only. Commercial use is prohibited. Character rights remain with their respective owners.",
     "description": "A proud chibi girl with blonde spiral twin tails, butterfly-patterned blue eyes and a pink-red frilled dress. Includes nine standard animations and 16 clockwise look directions.",
+    "spriteVersionNumber": 2
+  },
+  {
+    "slug": "jarvis--legeling",
+    "name": "贾维斯",
+    "localized_names": { "en": "Jarvis", "zh": "贾维斯" },
+    "author": "legeling",
+    "author_handle": "legeling",
+    "author_url": "https://github.com/legeling",
+    "primary_category": "Objects & Props",
+    "canonical_key": "marvel/jarvis",
+    "variant_note": "Latest cyan concentric-ring HUD, fixed J.A.R.V.I.S. lettering and yellow scan arcs; explicitly exclude rejected robot.",
+    "collections": [],
+    "license": "Non-commercial use only. Unofficial independently AI-generated fan asset. Character and reference-art rights remain with their respective rights holders; no underlying character or reference-art license is asserted or granted.",
+    "description": "Latest cyan concentric-ring HUD, fixed J.A.R.V.I.S. lettering and yellow scan arcs; explicitly exclude rejected robot. Nine animation states and sixteen look directions.",
     "spriteVersionNumber": 2
   },
   {

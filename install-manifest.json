@@ -3023,6 +3023,20 @@
       "spritesheetWidth": 1536,
       "spritesheetHeight": 2288
     },
+    "ryo-yamada-snail--legeling": {
+      "name": "山田凉 · 蜗牛骑手",
+      "localizedNames": {
+        "en": "Ryo Yamada · Snail Rider",
+        "zh": "山田凉 · 蜗牛骑手"
+      },
+      "spriteVersionNumber": 2,
+      "petJsonSha256": "5e676e9208fed3c264c05af7b292e5af894bd65728912f03714203816b72f162",
+      "petJsonBytes": 303,
+      "spritesheetSha256": "5f6317088a7ca08ee58c927bf194b9750d8a5592fa18636064b6e8e6d9e1c066",
+      "spritesheetBytes": 1953816,
+      "spritesheetWidth": 1536,
+      "spritesheetHeight": 2288
+    },
     "fengge--qzl1-stack": {
       "name": "峰哥",
       "spriteVersionNumber": 1,
@@ -3271,6 +3285,17 @@
       "spritesheetBytes": 2022338,
       "spritesheetWidth": 1536,
       "spritesheetHeight": 1872
+    },
+    "ace-taffy--legeling": {
+      "name": "永雏塔菲",
+      "localizedNames": { "en": "Ace Taffy", "zh": "永雏塔菲" },
+      "spriteVersionNumber": 2,
+      "petJsonSha256": "2722fa4479905d82e6dc839f1b8e0b5a22c7e08559f4ad03ebadd244be4b11aa",
+      "petJsonBytes": 255,
+      "spritesheetSha256": "3be42a1770988b61e34bad4e0b2010277cf3e25a7d92b5d558d9ecef57a4e78f",
+      "spritesheetBytes": 2147728,
+      "spritesheetWidth": 1536,
+      "spritesheetHeight": 2288
     },
     "shen-xinghui--legeling": {
       "name": "沈星回",
@@ -3677,6 +3702,17 @@
       "petJsonBytes": 268,
       "spritesheetSha256": "c0be381d32a8f7c9b5559a4b3af210b4b2727ffff18edbf7f1ebba27d4e9a660",
       "spritesheetBytes": 3185490,
+      "spritesheetWidth": 1536,
+      "spritesheetHeight": 2288
+    },
+    "jarvis--legeling": {
+      "name": "贾维斯",
+      "localizedNames": { "en": "Jarvis", "zh": "贾维斯" },
+      "spriteVersionNumber": 2,
+      "petJsonSha256": "963a4c0fa033a0ceb524a42eaf4e7d0fa782b606bf3ee868974f7e09b1b0c3be",
+      "petJsonBytes": 269,
+      "spritesheetSha256": "bbce3f5d57182c088d9ac4b0e039645635fd6823647723ce79f83cc2420a416d",
+      "spritesheetBytes": 3474150,
       "spritesheetWidth": 1536,
       "spritesheetHeight": 2288
     },
