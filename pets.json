@@ -3556,6 +3556,21 @@
     "spriteVersionNumber": 1
   },
   {
+    "slug": "cinnamoroll--legeling",
+    "name": "大耳狗",
+    "localized_names": { "en": "Cinnamoroll", "zh": "大耳狗" },
+    "author": "legeling",
+    "author_handle": "legeling",
+    "author_url": "https://github.com/legeling",
+    "primary_category": "Anime Characters",
+    "canonical_key": "sanrio/cinnamoroll",
+    "variant_note": "Soft-outline white long-eared Cinnamoroll with blue eyes and pink cheeks. Does not include Hello Kitty.",
+    "collections": [],
+    "license": "Non-commercial use only. Unofficial independently AI-generated fan asset. Character and reference-art rights remain with their respective rights holders; no underlying character or reference-art license is asserted or granted.",
+    "description": "Soft-outline white long-eared Cinnamoroll with blue eyes and pink cheeks. Does not include Hello Kitty. Nine animation states and sixteen look directions.",
+    "spriteVersionNumber": 2
+  },
+  {
     "slug": "dashu--legeling",
     "name": "大鼠",
     "author": "legeling",
@@ -4707,6 +4722,24 @@
     "collections": [],
     "license": "Non-commercial use only. Commercial use is prohibited. Character rights remain with their respective owners.",
     "description": "A silver-haired snow monarch with a blue crown, red cape, and ice-cream-topped staff.",
+    "spriteVersionNumber": 2
+  },
+  {
+    "slug": "zero-one-pink-dress--legeling",
+    "name": "零一 · 粉裙抱枕",
+    "localized_names": {
+      "en": "Zero One · Pink Dress and Pillow",
+      "zh": "零一 · 粉裙抱枕"
+    },
+    "author": "legeling",
+    "author_handle": "legeling",
+    "author_url": "https://github.com/legeling",
+    "primary_category": "Others",
+    "canonical_key": "community-request/308",
+    "variant_note": "Lavender-haired chibi in pink dress holding plush pillow, reference also labeled Lingyi. Distinct from school-uniform community version; no host-agent implementation.",
+    "collections": [],
+    "license": "Non-commercial use only. Unofficial independently AI-generated fan asset. Character and reference-art rights remain with their respective rights holders; no underlying character or reference-art license is asserted or granted.",
+    "description": "Lavender-haired chibi in pink dress holding plush pillow, reference also labeled Lingyi. Distinct from school-uniform community version; no host-agent implementation. Nine animation states and sixteen look directions.",
     "spriteVersionNumber": 2
   },
   {

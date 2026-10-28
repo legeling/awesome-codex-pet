@@ -2909,6 +2909,17 @@
       "spritesheetWidth": 1536,
       "spritesheetHeight": 1872
     },
+    "cinnamoroll--legeling": {
+      "name": "大耳狗",
+      "localizedNames": { "en": "Cinnamoroll", "zh": "大耳狗" },
+      "spriteVersionNumber": 2,
+      "petJsonSha256": "8e0dab3f565b09adb49ab9b5feeedf1a78d3876e3549e8c9f27ea9cfdbeb42c6",
+      "petJsonBytes": 259,
+      "spritesheetSha256": "eccb5b61766a99631a4ef6261939a1b506e7d850acbf60c360f20525c4e6ae37",
+      "spritesheetBytes": 1002064,
+      "spritesheetWidth": 1536,
+      "spritesheetHeight": 2288
+    },
     "dashu--legeling": {
       "name": "大鼠",
       "spriteVersionNumber": 2,
@@ -3828,6 +3839,20 @@
       "petJsonBytes": 239,
       "spritesheetSha256": "143435ca6b7ecc7e3a04690363e6066a867e866a98d71f75edfbb87ff8edceb1",
       "spritesheetBytes": 2509704,
+      "spritesheetWidth": 1536,
+      "spritesheetHeight": 2288
+    },
+    "zero-one-pink-dress--legeling": {
+      "name": "零一 · 粉裙抱枕",
+      "localizedNames": {
+        "en": "Zero One · Pink Dress and Pillow",
+        "zh": "零一 · 粉裙抱枕"
+      },
+      "spriteVersionNumber": 2,
+      "petJsonSha256": "d10b7f7f2d0b7c6cfd038c92b6701e222ab7094d47d4f29ab1318004fd0e7adf",
+      "petJsonBytes": 343,
+      "spritesheetSha256": "92b2fcc1e30753eb51e690ba74beceff1160378e9ede5c710837e2df2a8ab182",
+      "spritesheetBytes": 2455438,
       "spritesheetWidth": 1536,
       "spritesheetHeight": 2288
     },
