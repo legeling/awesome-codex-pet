@@ -4449,6 +4449,21 @@
     "spriteVersionNumber": 1
   },
   {
+    "slug": "reze--legeling",
+    "name": "蕾潔",
+    "localized_names": { "en": "Reze", "zh": "蕾潔" },
+    "author": "legeling",
+    "author_handle": "legeling",
+    "author_url": "https://github.com/legeling",
+    "primary_category": "Anime Characters",
+    "canonical_key": "chainsaw-man/reze",
+    "variant_note": "Independent 2D chibi Reze, purple hair, white sleeveless blouse, black shorts, dark stockings; final repaired gaze and jump scale, not early failed version.",
+    "collections": [],
+    "license": "Non-commercial use only. Unofficial independently AI-generated fan asset. Character and reference-art rights remain with their respective rights holders; no underlying character or reference-art license is asserted or granted.",
+    "description": "Independent 2D chibi Reze, purple hair, white sleeveless blouse, black shorts, dark stockings; final repaired gaze and jump scale, not early failed version. Nine animation states and sixteen look directions.",
+    "spriteVersionNumber": 2
+  },
+  {
     "slug": "fujiwara-chika--klmklmnb",
     "name": "藤原千花",
     "localized_names": { "en": "Chika Fujiwara", "zh": "藤原千花" },
@@ -4569,6 +4584,21 @@
     "collections": ["spy-x-family"],
     "license": "Non-commercial use only. Independently AI-generated community fan art; no source pixels copied.",
     "description": "An independently AI-generated, non-commercial Bond Forger community pet with a huge fluffy white silhouette, small black ears, gentle sleepy eyes, black bow tie, nine standard animation states, and a complete 16-direction look loop.",
+    "spriteVersionNumber": 2
+  },
+  {
+    "slug": "jiuhu--legeling",
+    "name": "酒狐",
+    "localized_names": { "en": "Little Wine Fox", "zh": "酒狐" },
+    "author": "legeling",
+    "author_handle": "legeling",
+    "author_url": "https://github.com/legeling",
+    "primary_category": "Game Characters",
+    "canonical_key": "community-request/305",
+    "variant_note": "Gold-haired fox-eared chibi, red-and-white top, navy skirt. Visual only, no audio or host features.",
+    "collections": [],
+    "license": "Non-commercial use only. Unofficial independently AI-generated fan asset. Character and reference-art rights remain with their respective rights holders; no underlying character or reference-art license is asserted or granted.",
+    "description": "Gold-haired fox-eared chibi, red-and-white top, navy skirt. Visual only, no audio or host features. Nine animation states and sixteen look directions.",
     "spriteVersionNumber": 2
   },
   {

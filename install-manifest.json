@@ -3630,6 +3630,17 @@
       "spritesheetWidth": 1536,
       "spritesheetHeight": 1872
     },
+    "reze--legeling": {
+      "name": "蕾潔",
+      "localizedNames": { "en": "Reze", "zh": "蕾潔" },
+      "spriteVersionNumber": 2,
+      "petJsonSha256": "04469eb82cd785613bbb1a685cf05bd743ca8f20618a9cad56c4fdf5fa336816",
+      "petJsonBytes": 302,
+      "spritesheetSha256": "56a57ae92a8bdaec4432a8dc9d1d50f89beb372a9b78c47a1c034036968d04f9",
+      "spritesheetBytes": 1252132,
+      "spritesheetWidth": 1536,
+      "spritesheetHeight": 2288
+    },
     "fujiwara-chika--klmklmnb": {
       "name": "藤原千花",
       "localizedNames": { "en": "Chika Fujiwara", "zh": "藤原千花" },
@@ -3724,6 +3735,17 @@
       "petJsonBytes": 305,
       "spritesheetSha256": "f6059c72fc0431d69721e69d63a2bbcf78be7f73df72c927fd3a4b10649f7cef",
       "spritesheetBytes": 1817320,
+      "spritesheetWidth": 1536,
+      "spritesheetHeight": 2288
+    },
+    "jiuhu--legeling": {
+      "name": "酒狐",
+      "localizedNames": { "en": "Little Wine Fox", "zh": "酒狐" },
+      "spriteVersionNumber": 2,
+      "petJsonSha256": "1afd5bb85ef1aba392f1f680d757a725d09cbdc7ef94af74d195533bcf37c5f4",
+      "petJsonBytes": 246,
+      "spritesheetSha256": "08a6f58a43bf790a1361300c64b7acf452952292b1b137be71503142009718f7",
+      "spritesheetBytes": 1939544,
       "spritesheetWidth": 1536,
       "spritesheetHeight": 2288
     },
