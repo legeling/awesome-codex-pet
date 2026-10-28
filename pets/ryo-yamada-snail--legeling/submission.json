@@ -1,0 +1,33 @@
+{
+  "slug": "ryo-yamada-snail--legeling",
+  "pet_slug": "ryo-yamada-snail",
+  "author_slug": "legeling",
+  "name": "山田凉 · 蜗牛骑手",
+  "localized_names": {
+    "en": "Ryo Yamada · Snail Rider",
+    "zh": "山田凉 · 蜗牛骑手"
+  },
+  "author": "legeling",
+  "author_handle": "legeling",
+  "author_url": "https://github.com/legeling",
+  "primary_category": "Anime Characters",
+  "canonical_key": "bocchi-the-rock/ryo-yamada",
+  "variant_note": "Blue-haired Ryo riding a yellow snail with a mint-green shell; independent 2D chibi sprites, not a novel snail-riding concept.",
+  "tags": [
+    "community-request",
+    "ai-generated",
+    "fan-art",
+    "v2"
+  ],
+  "source_type": "ai-generated",
+  "source_url": "https://github.com/legeling/awesome-codex-pet/issues/267",
+  "description": "Blue-haired Ryo riding a yellow snail with a mint-green shell; independent 2D chibi sprites, not a novel snail-riding concept. Nine animation states and sixteen look directions.",
+  "attribution": "Original character and reference-art rights remain with their respective rights holders. Independent imagegen sprite adaptation and deterministic runtime assembly prepared by the assistant for legeling; legeling is not credited as the original character or reference artist.",
+  "source_notes": "Exact previously delivered independently generated runtime original, approved for repository publication by the user on 2026-10-27. Reference artwork is not included. Original reference illustrator and licensing are not fully established; no ownership, endorsement, or underlying character/reference rights are claimed.",
+  "license": "Non-commercial use only. Unofficial independently AI-generated fan asset. Character and reference-art rights remain with their respective rights holders; no underlying character or reference-art license is asserted or granted.",
+  "spritesheet_sha256": "5f6317088a7ca08ee58c927bf194b9750d8a5592fa18636064b6e8e6d9e1c066",
+  "codex_install": {
+    "pet_json": "pet.json",
+    "spritesheet": "spritesheet.webp"
+  }
+}
