@@ -13,12 +13,7 @@
   "primary_category": "Objects & Props",
   "canonical_key": "marvel/jarvis",
   "variant_note": "Latest cyan concentric-ring HUD, fixed J.A.R.V.I.S. lettering and yellow scan arcs; explicitly exclude rejected robot.",
-  "tags": [
-    "community-request",
-    "ai-generated",
-    "fan-art",
-    "v2"
-  ],
+  "tags": ["community-request", "ai-generated", "fan-art", "v2"],
   "source_type": "ai-generated",
   "source_url": "https://github.com/legeling/awesome-codex-pet/issues/291",
   "description": "Latest cyan concentric-ring HUD, fixed J.A.R.V.I.S. lettering and yellow scan arcs; explicitly exclude rejected robot. Nine animation states and sixteen look directions.",
