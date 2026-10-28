@@ -1,0 +1,28 @@
+{
+  "slug": "zero-one-pink-dress--legeling",
+  "pet_slug": "zero-one-pink-dress",
+  "author_slug": "legeling",
+  "name": "零一 · 粉裙抱枕",
+  "localized_names": {
+    "en": "Zero One · Pink Dress and Pillow",
+    "zh": "零一 · 粉裙抱枕"
+  },
+  "author": "legeling",
+  "author_handle": "legeling",
+  "author_url": "https://github.com/legeling",
+  "primary_category": "Others",
+  "canonical_key": "community-request/308",
+  "variant_note": "Lavender-haired chibi in pink dress holding plush pillow, reference also labeled Lingyi. Distinct from school-uniform community version; no host-agent implementation.",
+  "tags": ["community-request", "ai-generated", "fan-art", "v2"],
+  "source_type": "ai-generated",
+  "source_url": "https://github.com/legeling/awesome-codex-pet/issues/308",
+  "description": "Lavender-haired chibi in pink dress holding plush pillow, reference also labeled Lingyi. Distinct from school-uniform community version; no host-agent implementation. Nine animation states and sixteen look directions.",
+  "attribution": "Original character and reference-art rights remain with their respective rights holders. Independent imagegen sprite adaptation and deterministic runtime assembly prepared by the assistant for legeling; legeling is not credited as the original character or reference artist.",
+  "source_notes": "Exact previously delivered independently generated runtime original, approved for repository publication by the user on 2026-10-27. Reference artwork is not included. Original reference illustrator and licensing are not fully established; no ownership, endorsement, or underlying character/reference rights are claimed.",
+  "license": "Non-commercial use only. Unofficial independently AI-generated fan asset. Character and reference-art rights remain with their respective rights holders; no underlying character or reference-art license is asserted or granted.",
+  "spritesheet_sha256": "92b2fcc1e30753eb51e690ba74beceff1160378e9ede5c710837e2df2a8ab182",
+  "codex_install": {
+    "pet_json": "pet.json",
+    "spritesheet": "spritesheet.webp"
+  }
+}
