@@ -1,0 +1,28 @@
+{
+  "slug": "ace-taffy--legeling",
+  "pet_slug": "ace-taffy",
+  "author_slug": "legeling",
+  "name": "永雏塔菲",
+  "localized_names": {
+    "en": "Ace Taffy",
+    "zh": "永雏塔菲"
+  },
+  "author": "legeling",
+  "author_handle": "legeling",
+  "author_url": "https://github.com/legeling",
+  "primary_category": "Others",
+  "canonical_key": "virtual-youtuber/ace-taffy",
+  "variant_note": "Pink-haired golden-eyed detective with brown goggles and outfit; independent chibi sprite version.",
+  "tags": ["community-request", "ai-generated", "fan-art", "v2"],
+  "source_type": "ai-generated",
+  "source_url": "https://github.com/legeling/awesome-codex-pet/issues/268",
+  "description": "Pink-haired golden-eyed detective with brown goggles and outfit; independent chibi sprite version. Nine animation states and sixteen look directions.",
+  "attribution": "Original character and reference-art rights remain with their respective rights holders. Independent imagegen sprite adaptation and deterministic runtime assembly prepared by the assistant for legeling; legeling is not credited as the original character or reference artist.",
+  "source_notes": "Exact previously delivered independently generated runtime original, approved for repository publication by the user on 2026-10-27. Reference artwork is not included. Original reference illustrator and licensing are not fully established; no ownership, endorsement, or underlying character/reference rights are claimed.",
+  "license": "Non-commercial use only. Unofficial independently AI-generated fan asset. Character and reference-art rights remain with their respective rights holders; no underlying character or reference-art license is asserted or granted.",
+  "spritesheet_sha256": "3be42a1770988b61e34bad4e0b2010277cf3e25a7d92b5d558d9ecef57a4e78f",
+  "codex_install": {
+    "pet_json": "pet.json",
+    "spritesheet": "spritesheet.webp"
+  }
+}
