@@ -13,7 +13,13 @@
   "primary_category": "Anime Characters",
   "canonical_key": "bocchi-the-rock/ryo-yamada",
   "variant_note": "Blue-haired Ryo riding a yellow snail with a mint-green shell; independent 2D chibi sprites, not a novel snail-riding concept.",
-  "tags": ["community-request", "ai-generated", "fan-art", "v2"],
+  "tags": [
+    "community-request",
+    "ai-generated",
+    "fan-art",
+    "v2",
+    "bocchi-the-rock"
+  ],
   "source_type": "ai-generated",
   "source_url": "https://github.com/legeling/awesome-codex-pet/issues/267",
   "description": "Blue-haired Ryo riding a yellow snail with a mint-green shell; independent 2D chibi sprites, not a novel snail-riding concept. Nine animation states and sixteen look directions.",
@@ -24,5 +30,6 @@
   "codex_install": {
     "pet_json": "pet.json",
     "spritesheet": "spritesheet.webp"
-  }
+  },
+  "collections": ["bocchi-the-rock"]
 }
