@@ -3722,7 +3722,7 @@
     "primary_category": "Anime Characters",
     "canonical_key": "bocchi-the-rock/ryo-yamada",
     "variant_note": "Blue-haired Ryo riding a yellow snail with a mint-green shell; independent 2D chibi sprites, not a novel snail-riding concept.",
-    "collections": [],
+    "collections": ["bocchi-the-rock"],
     "license": "Non-commercial use only. Unofficial independently AI-generated fan asset. Character and reference-art rights remain with their respective rights holders; no underlying character or reference-art license is asserted or granted.",
     "description": "Blue-haired Ryo riding a yellow snail with a mint-green shell; independent 2D chibi sprites, not a novel snail-riding concept. Nine animation states and sixteen look directions.",
     "spriteVersionNumber": 2
