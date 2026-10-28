@@ -1,0 +1,7 @@
+{
+  "id": "jarvis--legeling",
+  "displayName": "贾维斯",
+  "description": "Latest cyan concentric-ring HUD, fixed J.A.R.V.I.S. lettering and yellow scan arcs; explicitly exclude rejected robot.",
+  "spriteVersionNumber": 2,
+  "spritesheetPath": "spritesheet.webp"
+}
