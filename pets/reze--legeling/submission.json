@@ -1,0 +1,28 @@
+{
+  "slug": "reze--legeling",
+  "pet_slug": "reze",
+  "author_slug": "legeling",
+  "name": "蕾潔",
+  "localized_names": {
+    "en": "Reze",
+    "zh": "蕾潔"
+  },
+  "author": "legeling",
+  "author_handle": "legeling",
+  "author_url": "https://github.com/legeling",
+  "primary_category": "Anime Characters",
+  "canonical_key": "chainsaw-man/reze",
+  "variant_note": "Independent 2D chibi Reze, purple hair, white sleeveless blouse, black shorts, dark stockings; final repaired gaze and jump scale, not early failed version.",
+  "tags": ["community-request", "ai-generated", "fan-art", "v2"],
+  "source_type": "ai-generated",
+  "source_url": "https://github.com/legeling/awesome-codex-pet/issues/307",
+  "description": "Independent 2D chibi Reze, purple hair, white sleeveless blouse, black shorts, dark stockings; final repaired gaze and jump scale, not early failed version. Nine animation states and sixteen look directions.",
+  "attribution": "Original character and reference-art rights remain with their respective rights holders. Independent imagegen sprite adaptation and deterministic runtime assembly prepared by the assistant for legeling; legeling is not credited as the original character or reference artist.",
+  "source_notes": "Exact previously delivered independently generated runtime original, approved for repository publication by the user on 2026-10-27. Reference artwork is not included. Original reference illustrator and licensing are not fully established; no ownership, endorsement, or underlying character/reference rights are claimed.",
+  "license": "Non-commercial use only. Unofficial independently AI-generated fan asset. Character and reference-art rights remain with their respective rights holders; no underlying character or reference-art license is asserted or granted.",
+  "spritesheet_sha256": "56a57ae92a8bdaec4432a8dc9d1d50f89beb372a9b78c47a1c034036968d04f9",
+  "codex_install": {
+    "pet_json": "pet.json",
+    "spritesheet": "spritesheet.webp"
+  }
+}
