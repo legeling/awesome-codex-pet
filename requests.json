@@ -17,10 +17,10 @@
     "attribution": "",
     "duplicateCheck": "",
     "state": "open",
-    "status": "triage",
+    "status": "in-progress",
     "labels": [
       "type: request",
-      "status: triage",
+      "status: in-progress",
       "version: v2",
       "category: other"
     ],
@@ -31,9 +31,9 @@
     },
     "assignees": [],
     "createdAt": "2026-10-29T04:45:44Z",
-    "updatedAt": "2026-10-29T04:45:51Z",
+    "updatedAt": "2026-10-29T05:10:50Z",
     "closedAt": null,
-    "comments": 0,
+    "comments": 2,
     "reactions": 0,
     "githubUrl": "https://github.com/legeling/awesome-codex-pet/issues/350"
   },
