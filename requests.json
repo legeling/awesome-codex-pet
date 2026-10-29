@@ -1,5 +1,43 @@
 [
   {
+    "number": 350,
+    "character": "Chika Fujiwara",
+    "characterDetails": "Chika Fujiwara",
+    "franchise": "",
+    "category": "other",
+    "version": "v2",
+    "requestType": "",
+    "referenceStatus": "",
+    "references": "",
+    "referenceUrls": [],
+    "referenceImages": [],
+    "referenceThumbnails": [],
+    "visualDirection": "",
+    "nameLanguages": "",
+    "attribution": "",
+    "duplicateCheck": "",
+    "state": "open",
+    "status": "triage",
+    "labels": [
+      "type: request",
+      "status: triage",
+      "version: v2",
+      "category: other"
+    ],
+    "author": {
+      "login": "zsoujin",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/180999714?v=4",
+      "url": "https://github.com/zsoujin"
+    },
+    "assignees": [],
+    "createdAt": "2026-10-29T04:45:44Z",
+    "updatedAt": "2026-10-29T04:45:51Z",
+    "closedAt": null,
+    "comments": 0,
+    "reactions": 0,
+    "githubUrl": "https://github.com/legeling/awesome-codex-pet/issues/350"
+  },
+  {
     "number": 341,
     "character": "Joker",
     "characterDetails": "Joker",
