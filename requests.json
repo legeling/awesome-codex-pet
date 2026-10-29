@@ -31,11 +31,55 @@
     },
     "assignees": [],
     "createdAt": "2026-10-29T04:45:44Z",
-    "updatedAt": "2026-10-29T05:13:39Z",
+    "updatedAt": "2026-10-29T09:58:06Z",
     "closedAt": null,
     "comments": 2,
     "reactions": 0,
     "githubUrl": "https://github.com/legeling/awesome-codex-pet/issues/350"
+  },
+  {
+    "number": 352,
+    "character": "可卡布",
+    "characterDetails": "可卡布",
+    "franchise": "Not provided",
+    "category": "other",
+    "version": "v2",
+    "requestType": "Create a new community interpretation",
+    "referenceStatus": "",
+    "references": "https://api.codexpet.top/uploads/reference/references/3e8849d4079c93450e2218dce73f694af3f9e7843eee0a8fb45c6eb88dbc5b59.jpg",
+    "referenceUrls": [
+      "https://api.codexpet.top/uploads/reference/references/3e8849d4079c93450e2218dce73f694af3f9e7843eee0a8fb45c6eb88dbc5b59.jpg"
+    ],
+    "referenceImages": [
+      "https://api.codexpet.top/uploads/reference/references/3e8849d4079c93450e2218dce73f694af3f9e7843eee0a8fb45c6eb88dbc5b59.jpg"
+    ],
+    "referenceThumbnails": [
+      "https://api.codexpet.top/uploads/reference/thumbnails/3e8849d4079c93450e2218dce73f694af3f9e7843eee0a8fb45c6eb88dbc5b59.webp"
+    ],
+    "visualDirection": "希望有小狗基础的摇尾巴，趴下，转圈等动作互动",
+    "nameLanguages": "Let the maker decide",
+    "attribution": "Submitted without a GitHub account. Reference and attribution details should be confirmed during triage. Non-commercial use only.",
+    "duplicateCheck": "Repository automation or a maintainer should complete the duplicate check during triage.",
+    "state": "open",
+    "status": "triage",
+    "labels": [
+      "type: request",
+      "status: triage",
+      "version: v2",
+      "category: other"
+    ],
+    "author": {
+      "login": "github-actions[bot]",
+      "avatarUrl": "https://avatars.githubusercontent.com/in/15368?v=4",
+      "url": "https://github.com/apps/github-actions"
+    },
+    "assignees": [],
+    "createdAt": "2026-10-29T09:40:36Z",
+    "updatedAt": "2026-10-29T09:40:36Z",
+    "closedAt": null,
+    "comments": 0,
+    "reactions": 0,
+    "githubUrl": "https://github.com/legeling/awesome-codex-pet/issues/352"
   },
   {
     "number": 341,
