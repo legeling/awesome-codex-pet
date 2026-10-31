@@ -1,0 +1,27 @@
+{
+  "slug": "yaotong--xiamu1936",
+  "pet_slug": "yaotong",
+  "author_slug": "xiamu1936",
+  "name": "幺筒",
+  "localized_names": {
+    "en": "Yaotong",
+    "zh": "幺筒"
+  },
+  "author": "xiamu1936",
+  "author_handle": "xiamu1936",
+  "author_url": "https://github.com/xiamu1936",
+  "primary_category": "Animals",
+  "canonical_key": "original/xiamu1936/yaotong",
+  "variant_note": "以投稿人自家真实宠物幺筒的五张私人照片为外观参考，全新独立 AI 生成并适配的毛绒 Q 版 V2；不是现有金渐层（午餐肉）或其他猫咪的改名版本，未复用现有 spritesheet 或照片像素。",
+  "collections": ["animal-companions"],
+  "tags": ["cat", "cute", "plush"],
+  "source_type": "ai-generated",
+  "source_url": "",
+  "final_asset_provenance": "Independently AI-generated from the author's own private pet photos; the final spritesheet does not reuse pixels from the reference photos or from any existing pet (including the similar golden-shaded cat wucanrou--ch).",
+  "license": "仅限非商业使用，禁止商用。最终宠物素材由 xiamu1936 使用 AI 独立生成并适配；用户提供的私人实拍照片仅作为外观参考，不随包上传，不授予参考照片的使用权。",
+  "description": "幺筒是一只圆脸短腿、绿色大眼睛的金色猫咪，带奶白口鼻胸腹和黑色环纹尾尖；以主人提供的五张照片为参考独立生成，包含九组任务动画和十六个环视方向。",
+  "codex_install": {
+    "pet_json": "pet.json",
+    "spritesheet": "spritesheet.webp"
+  }
+}
