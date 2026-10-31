@@ -38,6 +38,44 @@
     "githubUrl": "https://github.com/legeling/awesome-codex-pet/issues/350"
   },
   {
+    "number": 358,
+    "character": "Anubis",
+    "characterDetails": "Anubis — a cute jackal-headed Egyptian mythological guardian, based on the provided chibi reference showing gold and turquoise regalia, an ankh, and a pyramid.",
+    "franchise": "",
+    "category": "other",
+    "version": "v2",
+    "requestType": "",
+    "referenceStatus": "",
+    "references": "",
+    "referenceUrls": [],
+    "referenceImages": [],
+    "referenceThumbnails": [],
+    "visualDirection": "",
+    "nameLanguages": "",
+    "attribution": "",
+    "duplicateCheck": "",
+    "state": "open",
+    "status": "triage",
+    "labels": [
+      "type: request",
+      "status: triage",
+      "version: v2",
+      "category: other"
+    ],
+    "author": {
+      "login": "minutemancarlo",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/67291699?v=4",
+      "url": "https://github.com/minutemancarlo"
+    },
+    "assignees": [],
+    "createdAt": "2026-10-31T19:46:15Z",
+    "updatedAt": "2026-10-31T19:46:23Z",
+    "closedAt": null,
+    "comments": 0,
+    "reactions": 0,
+    "githubUrl": "https://github.com/legeling/awesome-codex-pet/issues/358"
+  },
+  {
     "number": 355,
     "character": "xjt",
     "characterDetails": "xjt",
