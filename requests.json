@@ -48,7 +48,9 @@
     "referenceStatus": "",
     "references": "",
     "referenceUrls": [],
-    "referenceImages": [],
+    "referenceImages": [
+      "https://cdn-images.inker.ai/images/e0f93da6395968c7ab4d5160c965aa3d.png"
+    ],
     "referenceThumbnails": [],
     "visualDirection": "",
     "nameLanguages": "",
@@ -69,7 +71,7 @@
     },
     "assignees": [],
     "createdAt": "2026-10-31T19:46:15Z",
-    "updatedAt": "2026-10-31T19:46:23Z",
+    "updatedAt": "2026-10-31T20:16:58Z",
     "closedAt": null,
     "comments": 0,
     "reactions": 0,
