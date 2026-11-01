@@ -38,6 +38,46 @@
     "githubUrl": "https://github.com/legeling/awesome-codex-pet/issues/350"
   },
   {
+    "number": 359,
+    "character": "Chibi Anubis with Golden Ankh Staff",
+    "characterDetails": "Chibi Anubis with Golden Ankh Staff",
+    "franchise": "",
+    "category": "other",
+    "version": "v2",
+    "requestType": "",
+    "referenceStatus": "",
+    "references": "",
+    "referenceUrls": [],
+    "referenceImages": [
+      "https://i.ibb.co/tMvcGpHn/Chibi-Anubis-with-Golden-Ankh-Staff.png"
+    ],
+    "referenceThumbnails": [],
+    "visualDirection": "",
+    "nameLanguages": "",
+    "attribution": "",
+    "duplicateCheck": "",
+    "state": "open",
+    "status": "triage",
+    "labels": [
+      "type: request",
+      "status: triage",
+      "version: v2",
+      "category: other"
+    ],
+    "author": {
+      "login": "minutemancarlo",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/67291699?v=4",
+      "url": "https://github.com/minutemancarlo"
+    },
+    "assignees": [],
+    "createdAt": "2026-11-01T12:05:51Z",
+    "updatedAt": "2026-11-01T12:05:58Z",
+    "closedAt": null,
+    "comments": 0,
+    "reactions": 0,
+    "githubUrl": "https://github.com/legeling/awesome-codex-pet/issues/359"
+  },
+  {
     "number": 355,
     "character": "xjt",
     "characterDetails": "xjt",
