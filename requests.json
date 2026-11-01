@@ -38,46 +38,6 @@
     "githubUrl": "https://github.com/legeling/awesome-codex-pet/issues/350"
   },
   {
-    "number": 358,
-    "character": "Anubis",
-    "characterDetails": "Anubis — a cute jackal-headed Egyptian mythological guardian, based on the provided chibi reference showing gold and turquoise regalia, an ankh, and a pyramid.",
-    "franchise": "",
-    "category": "other",
-    "version": "v2",
-    "requestType": "",
-    "referenceStatus": "",
-    "references": "",
-    "referenceUrls": [],
-    "referenceImages": [
-      "https://cdn-images.inker.ai/images/e0f93da6395968c7ab4d5160c965aa3d.png"
-    ],
-    "referenceThumbnails": [],
-    "visualDirection": "",
-    "nameLanguages": "",
-    "attribution": "",
-    "duplicateCheck": "",
-    "state": "open",
-    "status": "triage",
-    "labels": [
-      "type: request",
-      "status: triage",
-      "version: v2",
-      "category: other"
-    ],
-    "author": {
-      "login": "minutemancarlo",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/67291699?v=4",
-      "url": "https://github.com/minutemancarlo"
-    },
-    "assignees": [],
-    "createdAt": "2026-10-31T19:46:15Z",
-    "updatedAt": "2026-11-01T09:38:05Z",
-    "closedAt": null,
-    "comments": 0,
-    "reactions": 0,
-    "githubUrl": "https://github.com/legeling/awesome-codex-pet/issues/358"
-  },
-  {
     "number": 355,
     "character": "xjt",
     "characterDetails": "xjt",
@@ -825,6 +785,46 @@
     "comments": 0,
     "reactions": 0,
     "githubUrl": "https://github.com/legeling/awesome-codex-pet/issues/157"
+  },
+  {
+    "number": 358,
+    "character": "Anubis",
+    "characterDetails": "Anubis — a cute jackal-headed Egyptian mythological guardian, based on the provided chibi reference showing gold and turquoise regalia, an ankh, and a pyramid.",
+    "franchise": "",
+    "category": "other",
+    "version": "v2",
+    "requestType": "",
+    "referenceStatus": "",
+    "references": "",
+    "referenceUrls": [],
+    "referenceImages": [
+      "https://cdn-images.inker.ai/images/e0f93da6395968c7ab4d5160c965aa3d.png"
+    ],
+    "referenceThumbnails": [],
+    "visualDirection": "",
+    "nameLanguages": "",
+    "attribution": "",
+    "duplicateCheck": "",
+    "state": "closed",
+    "status": "completed",
+    "labels": [
+      "type: request",
+      "status: triage",
+      "version: v2",
+      "category: other"
+    ],
+    "author": {
+      "login": "minutemancarlo",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/67291699?v=4",
+      "url": "https://github.com/minutemancarlo"
+    },
+    "assignees": [],
+    "createdAt": "2026-10-31T19:46:15Z",
+    "updatedAt": "2026-11-01T12:00:53Z",
+    "closedAt": "2026-11-01T12:00:53Z",
+    "comments": 0,
+    "reactions": 0,
+    "githubUrl": "https://github.com/legeling/awesome-codex-pet/issues/358"
   },
   {
     "number": 267,
