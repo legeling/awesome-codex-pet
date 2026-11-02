@@ -1,0 +1,32 @@
+{
+  "slug": "kekabu--legeling",
+  "pet_slug": "kekabu",
+  "author_slug": "legeling",
+  "canonical_key": "community-request/352",
+  "name": "可卡布",
+  "localized_names": {
+    "en": "Kekabu",
+    "zh": "可卡布"
+  },
+  "author": "legeling",
+  "author_handle": "legeling",
+  "author_url": "https://github.com/legeling",
+  "primary_category": "Animals",
+  "collections": ["animal-companions"],
+  "tags": ["dog", "fluffy", "community-request", "v2", "ai-generated"],
+  "source_type": "ai-generated",
+  "source_url": "https://github.com/legeling/awesome-codex-pet/issues/352",
+  "source_notes": "Independently AI-generated stylized interpretation prepared by the repository maintainer with AI assistance for community request #352. Requester photograph used only as visual reference, not redistributed in the pet package. Original photograph author and license were not supplied; no ownership or license over the original photograph is asserted. Reference: https://api.codexpet.top/uploads/reference/references/3e8849d4079c93450e2218dce73f694af3f9e7843eee0a8fb45c6eb88dbc5b59.jpg",
+  "license": "Non-commercial use only. Independently AI-generated community interpretation; no rights to the original reference photograph are asserted or granted.",
+  "description": "按社区小狗参考独立 AI 生成的棕白卷毛可卡布，穿黑白条纹衣，包含摇尾、趴下、转圈等九组动作和十六方向注视。",
+  "preview_image": "../../assets/previews/kekabu--legeling/gifs/idle.gif",
+  "codex_install": {
+    "pet_json": "pet.json",
+    "spritesheet": "spritesheet.webp"
+  },
+  "preview_assets": {
+    "contact_sheet": "../../assets/previews/kekabu--legeling/contact-sheet.png",
+    "gifs_dir": "../../assets/previews/kekabu--legeling/gifs"
+  },
+  "spritesheet_sha256": "f00317dd03249fbd3e003fe8b61a184b84ba3c27802cd37566fcfe4e699e3f49"
+}
