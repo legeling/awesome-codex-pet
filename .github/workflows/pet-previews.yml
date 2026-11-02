@@ -31,6 +31,15 @@ jobs:
         with:
           fetch-depth: 2
 
+      - name: Fetch pull request base
+        if: github.event_name == 'pull_request'
+        shell: bash
+        env:
+          BASE_SHA: ${{ github.event.pull_request.base.sha }}
+        run: |
+          git fetch --no-tags --depth=1 origin "$BASE_SHA"
+          git cat-file -e "$BASE_SHA^{commit}"
+
       - name: Setup pnpm
         uses: pnpm/action-setup@v6
         with:
@@ -57,12 +66,14 @@ jobs:
         env:
           BASE_SHA: ${{ github.event.pull_request.base.sha }}
         run: |
+          node --test scripts/test/pet-previews-workflow.test.mjs
           npm run validate:pr
           npm run lint
 
       - name: Find changed pets
         id: changed-pets
         if: github.event_name == 'pull_request'
+        shell: bash
         env:
           BASE_SHA: ${{ github.event.pull_request.base.sha }}
         run: |
