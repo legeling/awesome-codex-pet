@@ -3392,6 +3392,20 @@
     "spriteVersionNumber": 2
   },
   {
+    "slug": "kekabu--legeling",
+    "name": "可卡布",
+    "localized_names": { "en": "Kekabu", "zh": "可卡布" },
+    "author": "legeling",
+    "author_handle": "legeling",
+    "author_url": "https://github.com/legeling",
+    "primary_category": "Animals",
+    "canonical_key": "community-request/352",
+    "collections": ["animal-companions"],
+    "license": "Non-commercial use only. Independently AI-generated community interpretation; no rights to the original reference photograph are asserted or granted.",
+    "description": "按社区小狗参考独立 AI 生成的棕白卷毛可卡布，穿黑白条纹衣，包含摇尾、趴下、转圈等九组动作和十六方向注视。",
+    "spriteVersionNumber": 2
+  },
+  {
     "slug": "ye-shunguang-bangboo--huanghan",
     "name": "叶瞬光邦布",
     "author": "huanghan",
