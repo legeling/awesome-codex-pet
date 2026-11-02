@@ -12,16 +12,8 @@
   "author_handle": "legeling",
   "author_url": "https://github.com/legeling",
   "primary_category": "Animals",
-  "collections": [
-    "animal-companions"
-  ],
-  "tags": [
-    "dog",
-    "fluffy",
-    "community-request",
-    "v2",
-    "ai-generated"
-  ],
+  "collections": ["animal-companions"],
+  "tags": ["dog", "fluffy", "community-request", "v2", "ai-generated"],
   "source_type": "ai-generated",
   "source_url": "https://github.com/legeling/awesome-codex-pet/issues/352",
   "source_notes": "Independently AI-generated stylized interpretation prepared by the repository maintainer with AI assistance for community request #352. Requester photograph used only as visual reference, not redistributed in the pet package. Original photograph author and license were not supplied; no ownership or license over the original photograph is asserted. Reference: https://api.codexpet.top/uploads/reference/references/3e8849d4079c93450e2218dce73f694af3f9e7843eee0a8fb45c6eb88dbc5b59.jpg",
