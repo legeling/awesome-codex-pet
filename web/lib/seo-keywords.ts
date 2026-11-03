@@ -10,7 +10,9 @@ export function buildSeoKeywords(
   const seen = new Set<string>();
   const keywords: string[] = [];
 
-  for (const value of groups.flat()) {
+  // HTML serializes keywords as a comma-separated list. Apply the budget to
+  // those actual terms, including commas inside contributor-provided names.
+  for (const value of groups.flat().flatMap((value) => value?.split(",") ?? [])) {
     const keyword = value?.trim();
     if (!keyword) continue;
     const normalized = keyword.normalize("NFKC").toLowerCase();

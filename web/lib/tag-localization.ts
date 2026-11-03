@@ -75,6 +75,7 @@ const chineseTagLabels: Record<string, string> = {
   sword: "剑",
   tabby: "虎斑猫",
   teal: "青绿色",
+  "teddy-bear-costume": "泰迪熊连体衣",
   theatrical: "舞台风",
   unicorn: "独角兽",
   utility: "工具伙伴",
