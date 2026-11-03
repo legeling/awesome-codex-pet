@@ -3090,6 +3090,17 @@
       "spritesheetWidth": 1536,
       "spritesheetHeight": 2288
     },
+    "kudryavka-noumi--fantasy801": {
+      "name": "库特",
+      "localizedNames": { "en": "Kudryavka Noumi", "zh": "库特" },
+      "spriteVersionNumber": 2,
+      "petJsonSha256": "d261ed1180bce3e820a3e8e6dc84756c81c96273d6d0d5c648c75a594dc67b7f",
+      "petJsonBytes": 252,
+      "spritesheetSha256": "1a53c4a0979f4e34d51bc7af2c7027feeade4da9c26dbc410c940d20ff267ca8",
+      "spritesheetBytes": 978158,
+      "spritesheetWidth": 1536,
+      "spritesheetHeight": 2288
+    },
     "wukong--jorge-cuevas90003": {
       "name": "悟空",
       "localizedNames": { "en": "Wukong", "zh": "悟空" },
