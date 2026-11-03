@@ -1,0 +1,26 @@
+{
+  "slug": "doraemon-16-gaze--4whmmhw4-arch",
+  "pet_slug": "doraemon-16-gaze",
+  "author_slug": "4whmmhw4-arch",
+  "name": "Doraemon: 16 Directions, One Mouse to Avoid",
+  "localized_names": {
+    "en": "Doraemon: 16 Directions, One Mouse to Avoid",
+    "zh": "哆啦A梦：16个方向到处看看"
+  },
+  "author": "洪铭 万.",
+  "author_url": "https://github.com/4whmmhw4-arch",
+  "primary_category": "Anime Characters",
+  "canonical_key": "doraemon/doraemon",
+  "variant_note": "Independently AI-assisted 2D manga fan-art variant, already published as Petdex doraemon-4. Distinct artwork from the existing xueshi package. Its idle gaze is baked into a pre-shuffled looping animated WebP with 20 atlas frames; the running row tells a six-panel pocket, bamboo-copter and dorayaki story. This does not implement live mouse tracking.",
+  "description": "A classic flat 2D manga Doraemon pet with a shuffled 16-direction idle gaze, pocket surprises, a bamboo-copter and dorayaki, plus nine animation states.",
+  "tags": ["anime", "doraemon", "robot-cat", "blue", "2d", "dorayaki"],
+  "collections": ["doraemon"],
+  "source_type": "fan-art",
+  "source_url": "https://github.com/4whmmhw4-arch/doraemon-codex-pet",
+  "license": "Non-commercial use only. AI-assisted fan artwork and animation assembly by 洪铭 万. / 4whmmhw4-arch. Retain attribution when redistributing. Underlying Doraemon character rights remain with their respective rights holders; no commercial character rights are granted.",
+  "preview_image": "../../assets/previews/doraemon-16-gaze--4whmmhw4-arch/gifs/idle.gif",
+  "codex_install": {
+    "pet_json": "pet.json",
+    "spritesheet": "spritesheet.webp"
+  }
+}
