@@ -14,7 +14,7 @@
     "prepare-site": "node scripts/prepare-site.mjs",
     "dev": "npm run clean && npm run prepare-site && next dev",
     "build": "npm run clean:build && npm run prepare-site && next build && npm run localize:export && npm run check:bundle && npm run check:seo",
-    "build:pr": "npm run clean:build && npm run prepare-site && next build && npm run localize:export && npm run check:seo",
+    "build:pr": "node --test ../scripts/test/seo-keywords.test.mjs && npm run clean:build && npm run prepare-site && next build && npm run localize:export && npm run check:seo",
     "start": "next start",
     "lint": "eslint ."
   },
