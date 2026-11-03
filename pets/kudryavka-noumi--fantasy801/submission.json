@@ -1,0 +1,23 @@
+{
+  "slug": "kudryavka-noumi--fantasy801",
+  "pet_slug": "kudryavka-noumi",
+  "author_slug": "fantasy801",
+  "name": "库特",
+  "localized_names": {
+    "en": "Kudryavka Noumi",
+    "zh": "库特"
+  },
+  "author": "fantasy801",
+  "primary_category": "Game Characters",
+  "canonical_key": "fictional/little-busters/kudryavka-noumi",
+  "variant_note": "由 fantasy801 整理适配的非官方 v2 桌宠。左右跑、失败反应、等待、工作中五组复用原游戏精灵表的浏览器截图像素；待机、打招呼、跳跃、检查四组及16方向由AI补画。原截图经过浏览器缩放，并非原生PNG无损提取。",
+  "tags": ["pixel-art", "chibi"],
+  "source_type": "fan-art",
+  "source_url": "https://www.spriters-resource.com/pc_computer/littlebusters/asset/52377/",
+  "license": "Non-commercial use only. Includes reused Little Busters! game-sprite screenshot pixels and AI-generated additions. Original game artwork and character rights remain with their respective rights holders; the submitter claims adaptation/assembly credit only. 仅限非商业使用，禁止商用。",
+  "preview_image": "../../assets/previews/kudryavka-noumi--fantasy801/gifs/idle.gif",
+  "codex_install": {
+    "pet_json": "pet.json",
+    "spritesheet": "spritesheet.webp"
+  }
+}
