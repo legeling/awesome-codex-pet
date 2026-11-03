@@ -1,0 +1,27 @@
+{
+  "slug": "rourou--xiamu1936",
+  "pet_slug": "rourou",
+  "author_slug": "xiamu1936",
+  "name": "肉肉",
+  "localized_names": {
+    "en": "Rourou",
+    "zh": "肉肉"
+  },
+  "author": "xiamu1936",
+  "author_handle": "xiamu1936",
+  "author_url": "https://github.com/xiamu1936",
+  "primary_category": "Animals",
+  "canonical_key": "original/xiamu1936/rourou",
+  "variant_note": "以投稿人自家柯基「肉肉」的实拍照片为外观参考、以其棕色泰迪熊绒连体衣商品照为服装参考，全新独立 AI 生成并适配的毛绒 Q 版 V2。与上游同名宠物 rourou--zhou-jianwen（issue #220 委托的巴哥犬插画版）不是同一只动物，canonical_key 不同；与 corgi-companion--cxian0928-afk 为不同作者的独立柯基制作，未复用任何现有 spritesheet 或照片像素。",
+  "collections": ["animal-companions"],
+  "tags": ["corgi", "dog", "plush", "teddy-bear-costume", "cute"],
+  "source_type": "ai-generated",
+  "source_url": "",
+  "final_asset_provenance": "Independently AI-generated from the author's own private dog photos and the costume product photo; the final spritesheet does not reuse pixels from the reference photos or from any existing pet (including rourou--zhou-jianwen and corgi-companion--cxian0928-afk).",
+  "license": "仅限非商业使用，禁止商用。最终宠物素材由 xiamu1936 使用 AI 独立生成并适配；用户提供的私人实拍照片与服装商品照仅作为外观参考，不随包上传，不授予参考照片的使用权。",
+  "description": "肉肉是一只黄白双色、脸上带白色鼻线的柯基，穿着带熊耳帽兜的棕色泰迪绒连体衣，帽兜和衣摆镶着奶油色毛绒边；以主人提供的实拍照片为参考独立生成，包含九组任务动画和十六个环视方向。",
+  "codex_install": {
+    "pet_json": "pet.json",
+    "spritesheet": "spritesheet.webp"
+  }
+}
