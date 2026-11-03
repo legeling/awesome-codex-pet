@@ -3079,6 +3079,17 @@
       "spritesheetWidth": 1536,
       "spritesheetHeight": 2288
     },
+    "yaotong--xiamu1936": {
+      "name": "幺筒",
+      "localizedNames": { "en": "Yaotong", "zh": "幺筒" },
+      "spriteVersionNumber": 2,
+      "petJsonSha256": "30e71944275436337c6f884a1cea9af125f2ed63c54d359cb62c84daa212a665",
+      "petJsonBytes": 222,
+      "spritesheetSha256": "9e5819592be6317e1ac3d78ffbe65d723ff24348ef4bdf0ae1f4366ea3ee4076",
+      "spritesheetBytes": 2220494,
+      "spritesheetWidth": 1536,
+      "spritesheetHeight": 2288
+    },
     "kuromi--legeling": {
       "name": "库洛米",
       "localizedNames": { "en": "Kuromi", "zh": "库洛米" },
