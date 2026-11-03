@@ -678,6 +678,23 @@
     "spriteVersionNumber": 1
   },
   {
+    "slug": "doraemon-16-gaze--4whmmhw4-arch",
+    "name": "Doraemon: 16 Directions, One Mouse to Avoid",
+    "localized_names": {
+      "en": "Doraemon: 16 Directions, One Mouse to Avoid",
+      "zh": "哆啦A梦：16个方向到处看看"
+    },
+    "author": "洪铭 万.",
+    "author_url": "https://github.com/4whmmhw4-arch",
+    "primary_category": "Anime Characters",
+    "canonical_key": "doraemon/doraemon",
+    "variant_note": "Independently AI-assisted 2D manga fan-art variant, already published as Petdex doraemon-4. Distinct artwork from the existing xueshi package. Its idle gaze is baked into a pre-shuffled looping animated WebP with 20 atlas frames; the running row tells a six-panel pocket, bamboo-copter and dorayaki story. This does not implement live mouse tracking.",
+    "collections": ["doraemon"],
+    "license": "Non-commercial use only. AI-assisted fan artwork and animation assembly by 洪铭 万. / 4whmmhw4-arch. Retain attribution when redistributing. Underlying Doraemon character rights remain with their respective rights holders; no commercial character rights are granted.",
+    "description": "A classic flat 2D manga Doraemon pet with a shuffled 16-direction idle gaze, pocket surprises, a bamboo-copter and dorayaki, plus nine animation states.",
+    "spriteVersionNumber": 2
+  },
+  {
     "slug": "doro--godxxy1229",
     "name": "Doro",
     "author": "godxxy1229",

@@ -567,6 +567,20 @@
       "spritesheetWidth": 1536,
       "spritesheetHeight": 1872
     },
+    "doraemon-16-gaze--4whmmhw4-arch": {
+      "name": "Doraemon: 16 Directions, One Mouse to Avoid",
+      "localizedNames": {
+        "en": "Doraemon: 16 Directions, One Mouse to Avoid",
+        "zh": "哆啦A梦：16个方向到处看看"
+      },
+      "spriteVersionNumber": 2,
+      "petJsonSha256": "4b2f82ca137d600480b5f1f60c5324f2e50b82b7114674637fc9b7bba8cdcc00",
+      "petJsonBytes": 354,
+      "spritesheetSha256": "9de744133fb8fc33279e35cd4e814770fec93878c13e9301a8525a4e02372103",
+      "spritesheetBytes": 3023420,
+      "spritesheetWidth": 1536,
+      "spritesheetHeight": 2288
+    },
     "doro--godxxy1229": {
       "name": "Doro",
       "spriteVersionNumber": 2,
