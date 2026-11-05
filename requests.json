@@ -38,6 +38,50 @@
     "githubUrl": "https://github.com/legeling/awesome-codex-pet/issues/350"
   },
   {
+    "number": 365,
+    "character": "早坂爱",
+    "characterDetails": "早坂爱",
+    "franchise": "辉夜大小姐想让我💌",
+    "category": "other",
+    "version": "v2",
+    "requestType": "",
+    "referenceStatus": "",
+    "references": "",
+    "referenceUrls": [
+      "https://github.com/user-attachments/assets/9a17ee2b-97d4-4c93-9547-ce988258b9e8",
+      "https://github.com/user-attachments/assets/3b0d7f3a-1253-4f8d-88fa-ee3494b9ad43"
+    ],
+    "referenceImages": [
+      "https://github.com/user-attachments/assets/9a17ee2b-97d4-4c93-9547-ce988258b9e8",
+      "https://github.com/user-attachments/assets/3b0d7f3a-1253-4f8d-88fa-ee3494b9ad43"
+    ],
+    "referenceThumbnails": [],
+    "visualDirection": "",
+    "nameLanguages": "",
+    "attribution": "",
+    "duplicateCheck": "",
+    "state": "open",
+    "status": "triage",
+    "labels": [
+      "type: request",
+      "status: triage",
+      "version: v2",
+      "category: other"
+    ],
+    "author": {
+      "login": "xieyifan912-alt",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/266258090?v=4",
+      "url": "https://github.com/xieyifan912-alt"
+    },
+    "assignees": [],
+    "createdAt": "2026-11-05T05:20:28Z",
+    "updatedAt": "2026-11-05T05:20:36Z",
+    "closedAt": null,
+    "comments": 0,
+    "reactions": 0,
+    "githubUrl": "https://github.com/legeling/awesome-codex-pet/issues/365"
+  },
+  {
     "number": 364,
     "character": "爱蜜莉雅",
     "characterDetails": "爱蜜莉雅",
