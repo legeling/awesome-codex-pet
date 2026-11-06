@@ -1,0 +1,23 @@
+{
+  "slug": "klein-meow--hirree",
+  "pet_slug": "klein-meow",
+  "author_slug": "hirree",
+  "name": "Klein meow",
+  "localized_names": { "en": "Klein meow", "zh": "克猫猫" },
+  "author": "Hirree",
+  "author_handle": "Hirree",
+  "author_url": "https://github.com/Hirree",
+  "primary_category": "Animals",
+  "canonical_key": "fan-art/klein-meow",
+  "variant_note": "V2 black-cat interpretation with a crooked top hat, squash-and-stretch directional movement, a hop with a hat-tip at the peak and a settled landing, yellow coin tricks, and quill writing. Submitted and adapted by Hirree from AI-generated artwork and fan stickers.",
+  "tags": ["cat", "black-cat", "top-hat", "fan-art"],
+  "collections": [],
+  "source_type": "fan-art",
+  "source_url": "",
+  "license": "Non-commercial use only.",
+  "description": "A cautious black cat in a crooked top hat, with a peeking greeting, yellow coin tricks, and a quill for writing. AI-generated and adapted from fan-made sticker artwork. The production files also show direct sticker cropping for the peeking animation. Original sticker artists and public source links are unidentified. Hirree is credited as submitter and adapter.",
+  "codex_install": {
+    "pet_json": "pet.json",
+    "spritesheet": "spritesheet.webp"
+  }
+}
