@@ -1282,6 +1282,17 @@
       "spritesheetWidth": 1536,
       "spritesheetHeight": 2288
     },
+    "klein-meow--hirree": {
+      "name": "Klein meow",
+      "localizedNames": { "en": "Klein meow", "zh": "克猫猫" },
+      "spriteVersionNumber": 2,
+      "petJsonSha256": "50874d92747371d19bf857c07dfb704991bf3f541e79a197ba3f8d8604d0cb1f",
+      "petJsonBytes": 266,
+      "spritesheetSha256": "1c56869ac83d964b514a1c1e384299af0f573ab519d00937feb7d0afc6b517d0",
+      "spritesheetBytes": 771326,
+      "spritesheetWidth": 1536,
+      "spritesheetHeight": 2288
+    },
     "kurimanju--legeling": {
       "name": "Kurimanju",
       "localizedNames": { "en": "Kurimanju", "zh": "栗子馒头" },
