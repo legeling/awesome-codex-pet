@@ -1,0 +1,37 @@
+{
+  "slug": "tusk-act1--zaman-emm",
+  "pet_slug": "tusk-act1",
+  "author_slug": "zaman-emm",
+  "name": "Tusk ACT1",
+  "author": "zaman-emm",
+  "author_handle": "zaman-emm",
+  "author_url": "https://github.com/zaman-emm",
+  "primary_category": "Anime Characters",
+  "canonical_key": "jojos-bizarre-adventure/tusk-act1",
+  "tags": [
+    "anime",
+    "jojos-bizarre-adventure",
+    "steel-ball-run",
+    "tusk-act1",
+    "stand",
+    "pixel-art",
+    "codex-v2",
+    "look-directions",
+    "floating"
+  ],
+  "source_type": "fan-art",
+  "source_url": "",
+  "source_notes": "AI-generated pixel-art fan-art adaptation by zaman-emm. Final frames were generated with Krea (GPT Image 2.6) from the submitter's references and assembled, cleaned, and validated with the repository's hatch-pet-v2 scripts. References were used for character fidelity only and are not uploaded: a pixel-art Tusk ACT1 the submitter generated in Figma Make from Hirohiko Araki's official Tusk ACT1 art, a fan-made Tusk ACT1 turnaround sheet, third-party fan art, and official anime stills. Tusk ACT1 is from JoJo's Bizarre Adventure Part 7: Steel Ball Run by Hirohiko Araki.",
+  "license": "Non-commercial use only.",
+  "description": "A timid, plushie-cute Tusk ACT1 pixel-art Codex pet that floats with dangling heart charms, with nine animation states and 16 whole-body look directions.",
+  "preview_image": "../../assets/previews/tusk-act1--zaman-emm/gifs/idle.gif",
+  "codex_install": {
+    "pet_json": "pet.json",
+    "spritesheet": "spritesheet.webp"
+  },
+  "preview_assets": {
+    "contact_sheet": "../../assets/previews/tusk-act1--zaman-emm/contact-sheet.png",
+    "gifs_dir": "../../assets/previews/tusk-act1--zaman-emm/gifs"
+  },
+  "spritesheet_sha256": "a75f4f70673ef8a8437493dab32bccfcb89016846801b6ef502e96ce3372b423"
+}
