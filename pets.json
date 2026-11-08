@@ -3019,6 +3019,19 @@
     "spriteVersionNumber": 2
   },
   {
+    "slug": "tusk-act1--zaman-emm",
+    "name": "Tusk ACT1",
+    "author": "zaman-emm",
+    "author_handle": "zaman-emm",
+    "author_url": "https://github.com/zaman-emm",
+    "primary_category": "Anime Characters",
+    "canonical_key": "jojos-bizarre-adventure/tusk-act1",
+    "collections": [],
+    "license": "Non-commercial use only.",
+    "description": "A timid, plushie-cute Tusk ACT1 pixel-art Codex pet that floats with dangling heart charms, with nine animation states and 16 whole-body look directions.",
+    "spriteVersionNumber": 2
+  },
+  {
     "slug": "vertin--chenxin-dlut",
     "name": "Vertin",
     "localized_names": { "en": "Vertin", "zh": "维尔汀" },
