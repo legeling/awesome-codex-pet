@@ -38,6 +38,50 @@
     "githubUrl": "https://github.com/legeling/awesome-codex-pet/issues/350"
   },
   {
+    "number": 369,
+    "character": "哥伦比娅",
+    "characterDetails": "哥伦比娅",
+    "franchise": "原神",
+    "category": "other",
+    "version": "v2",
+    "requestType": "Create a new community interpretation",
+    "referenceStatus": "",
+    "references": "https://api.codexpet.top/uploads/reference/references/05a13b096f0b97094cedbdb2e0b43e7d1e249d5b06b20c302e4ee9eb7e4da889.jpg",
+    "referenceUrls": [
+      "https://api.codexpet.top/uploads/reference/references/05a13b096f0b97094cedbdb2e0b43e7d1e249d5b06b20c302e4ee9eb7e4da889.jpg"
+    ],
+    "referenceImages": [
+      "https://api.codexpet.top/uploads/reference/references/05a13b096f0b97094cedbdb2e0b43e7d1e249d5b06b20c302e4ee9eb7e4da889.jpg"
+    ],
+    "referenceThumbnails": [
+      "https://api.codexpet.top/uploads/reference/thumbnails/05a13b096f0b97094cedbdb2e0b43e7d1e249d5b06b20c302e4ee9eb7e4da889.webp"
+    ],
+    "visualDirection": "Let the community maker decide.",
+    "nameLanguages": "Let the maker decide",
+    "attribution": "Submitted without a GitHub account. Reference and attribution details should be confirmed during triage. Non-commercial use only.",
+    "duplicateCheck": "Repository automation or a maintainer should complete the duplicate check during triage.",
+    "state": "open",
+    "status": "triage",
+    "labels": [
+      "type: request",
+      "status: triage",
+      "version: v2",
+      "category: other"
+    ],
+    "author": {
+      "login": "github-actions[bot]",
+      "avatarUrl": "https://avatars.githubusercontent.com/in/15368?v=4",
+      "url": "https://github.com/apps/github-actions"
+    },
+    "assignees": [],
+    "createdAt": "2026-11-10T10:58:45Z",
+    "updatedAt": "2026-11-10T10:58:45Z",
+    "closedAt": null,
+    "comments": 0,
+    "reactions": 0,
+    "githubUrl": "https://github.com/legeling/awesome-codex-pet/issues/369"
+  },
+  {
     "number": 157,
     "character": "史迪奇",
     "characterDetails": "史迪奇",
