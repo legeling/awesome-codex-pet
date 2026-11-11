@@ -38,6 +38,94 @@
     "githubUrl": "https://github.com/legeling/awesome-codex-pet/issues/350"
   },
   {
+    "number": 365,
+    "character": "早坂爱",
+    "characterDetails": "早坂爱",
+    "franchise": "辉夜大小姐想让我💌",
+    "category": "other",
+    "version": "v2",
+    "requestType": "",
+    "referenceStatus": "",
+    "references": "",
+    "referenceUrls": [
+      "https://github.com/user-attachments/assets/9a17ee2b-97d4-4c93-9547-ce988258b9e8",
+      "https://github.com/user-attachments/assets/3b0d7f3a-1253-4f8d-88fa-ee3494b9ad43"
+    ],
+    "referenceImages": [
+      "https://github.com/user-attachments/assets/9a17ee2b-97d4-4c93-9547-ce988258b9e8",
+      "https://github.com/user-attachments/assets/3b0d7f3a-1253-4f8d-88fa-ee3494b9ad43"
+    ],
+    "referenceThumbnails": [],
+    "visualDirection": "",
+    "nameLanguages": "",
+    "attribution": "",
+    "duplicateCheck": "",
+    "state": "open",
+    "status": "triage",
+    "labels": [
+      "type: request",
+      "status: triage",
+      "version: v2",
+      "category: other"
+    ],
+    "author": {
+      "login": "xieyifan912-alt",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/266258090?v=4",
+      "url": "https://github.com/xieyifan912-alt"
+    },
+    "assignees": [],
+    "createdAt": "2026-11-05T05:20:28Z",
+    "updatedAt": "2026-11-11T01:22:38Z",
+    "closedAt": null,
+    "comments": 1,
+    "reactions": 0,
+    "githubUrl": "https://github.com/legeling/awesome-codex-pet/issues/365"
+  },
+  {
+    "number": 336,
+    "character": "dfshnni",
+    "characterDetails": "dfshnni",
+    "franchise": "Not provided",
+    "category": "other",
+    "version": "v2",
+    "requestType": "Create a new community interpretation",
+    "referenceStatus": "",
+    "references": "https://api.codexpet.top/uploads/reference/references/82d61b7080d07fee2d59d9eb9133245f3e7fb2c44e6fdc89f39597e85d0cc0c7.png",
+    "referenceUrls": [
+      "https://api.codexpet.top/uploads/reference/references/82d61b7080d07fee2d59d9eb9133245f3e7fb2c44e6fdc89f39597e85d0cc0c7.png"
+    ],
+    "referenceImages": [
+      "https://api.codexpet.top/uploads/reference/references/82d61b7080d07fee2d59d9eb9133245f3e7fb2c44e6fdc89f39597e85d0cc0c7.png"
+    ],
+    "referenceThumbnails": [
+      "https://api.codexpet.top/uploads/reference/thumbnails/82d61b7080d07fee2d59d9eb9133245f3e7fb2c44e6fdc89f39597e85d0cc0c7.webp"
+    ],
+    "visualDirection": "Let the community maker decide.",
+    "nameLanguages": "Let the maker decide",
+    "attribution": "Submitted without a GitHub account. Reference and attribution details should be confirmed during triage. Non-commercial use only.",
+    "duplicateCheck": "Repository automation or a maintainer should complete the duplicate check during triage.",
+    "state": "open",
+    "status": "triage",
+    "labels": [
+      "type: request",
+      "status: triage",
+      "version: v2",
+      "category: other"
+    ],
+    "author": {
+      "login": "github-actions[bot]",
+      "avatarUrl": "https://avatars.githubusercontent.com/in/15368?v=4",
+      "url": "https://github.com/apps/github-actions"
+    },
+    "assignees": [],
+    "createdAt": "2026-10-27T12:31:26Z",
+    "updatedAt": "2026-11-11T01:22:31Z",
+    "closedAt": null,
+    "comments": 1,
+    "reactions": 0,
+    "githubUrl": "https://github.com/legeling/awesome-codex-pet/issues/336"
+  },
+  {
     "number": 369,
     "character": "哥伦比娅",
     "characterDetails": "哥伦比娅",
@@ -246,50 +334,6 @@
     "githubUrl": "https://github.com/legeling/awesome-codex-pet/issues/366"
   },
   {
-    "number": 365,
-    "character": "早坂爱",
-    "characterDetails": "早坂爱",
-    "franchise": "辉夜大小姐想让我💌",
-    "category": "other",
-    "version": "v2",
-    "requestType": "",
-    "referenceStatus": "",
-    "references": "",
-    "referenceUrls": [
-      "https://github.com/user-attachments/assets/9a17ee2b-97d4-4c93-9547-ce988258b9e8",
-      "https://github.com/user-attachments/assets/3b0d7f3a-1253-4f8d-88fa-ee3494b9ad43"
-    ],
-    "referenceImages": [
-      "https://github.com/user-attachments/assets/9a17ee2b-97d4-4c93-9547-ce988258b9e8",
-      "https://github.com/user-attachments/assets/3b0d7f3a-1253-4f8d-88fa-ee3494b9ad43"
-    ],
-    "referenceThumbnails": [],
-    "visualDirection": "",
-    "nameLanguages": "",
-    "attribution": "",
-    "duplicateCheck": "",
-    "state": "open",
-    "status": "triage",
-    "labels": [
-      "type: request",
-      "status: triage",
-      "version: v2",
-      "category: other"
-    ],
-    "author": {
-      "login": "xieyifan912-alt",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/266258090?v=4",
-      "url": "https://github.com/xieyifan912-alt"
-    },
-    "assignees": [],
-    "createdAt": "2026-11-05T05:20:28Z",
-    "updatedAt": "2026-11-05T05:20:36Z",
-    "closedAt": null,
-    "comments": 0,
-    "reactions": 0,
-    "githubUrl": "https://github.com/legeling/awesome-codex-pet/issues/365"
-  },
-  {
     "number": 359,
     "character": "Chibi Anubis with Golden Ankh Staff",
     "characterDetails": "Chibi Anubis with Golden Ankh Staff",
@@ -460,50 +504,6 @@
     "comments": 0,
     "reactions": 0,
     "githubUrl": "https://github.com/legeling/awesome-codex-pet/issues/340"
-  },
-  {
-    "number": 336,
-    "character": "dfshnni",
-    "characterDetails": "dfshnni",
-    "franchise": "Not provided",
-    "category": "other",
-    "version": "v2",
-    "requestType": "Create a new community interpretation",
-    "referenceStatus": "",
-    "references": "https://api.codexpet.top/uploads/reference/references/82d61b7080d07fee2d59d9eb9133245f3e7fb2c44e6fdc89f39597e85d0cc0c7.png",
-    "referenceUrls": [
-      "https://api.codexpet.top/uploads/reference/references/82d61b7080d07fee2d59d9eb9133245f3e7fb2c44e6fdc89f39597e85d0cc0c7.png"
-    ],
-    "referenceImages": [
-      "https://api.codexpet.top/uploads/reference/references/82d61b7080d07fee2d59d9eb9133245f3e7fb2c44e6fdc89f39597e85d0cc0c7.png"
-    ],
-    "referenceThumbnails": [
-      "https://api.codexpet.top/uploads/reference/thumbnails/82d61b7080d07fee2d59d9eb9133245f3e7fb2c44e6fdc89f39597e85d0cc0c7.webp"
-    ],
-    "visualDirection": "Let the community maker decide.",
-    "nameLanguages": "Let the maker decide",
-    "attribution": "Submitted without a GitHub account. Reference and attribution details should be confirmed during triage. Non-commercial use only.",
-    "duplicateCheck": "Repository automation or a maintainer should complete the duplicate check during triage.",
-    "state": "open",
-    "status": "triage",
-    "labels": [
-      "type: request",
-      "status: triage",
-      "version: v2",
-      "category: other"
-    ],
-    "author": {
-      "login": "github-actions[bot]",
-      "avatarUrl": "https://avatars.githubusercontent.com/in/15368?v=4",
-      "url": "https://github.com/apps/github-actions"
-    },
-    "assignees": [],
-    "createdAt": "2026-10-27T12:31:26Z",
-    "updatedAt": "2026-10-27T12:31:26Z",
-    "closedAt": null,
-    "comments": 0,
-    "reactions": 0,
-    "githubUrl": "https://github.com/legeling/awesome-codex-pet/issues/336"
   },
   {
     "number": 327,
