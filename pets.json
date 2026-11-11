@@ -621,6 +621,20 @@
     "spriteVersionNumber": 2
   },
   {
+    "slug": "denia-portrait--zhou-jianwen",
+    "name": "Denia Portrait",
+    "localized_names": { "en": "Denia Portrait", "zh": "达尼娅大头照" },
+    "author": "zhou-jianwen",
+    "author_handle": "zhou-jianwen",
+    "primary_category": "Game Characters",
+    "canonical_key": "wuthering-waves/denia",
+    "variant_note": "An independent V2 animated head-and-hair portrait with expressive task states and sixteen look directions.",
+    "collections": [],
+    "license": "Non-commercial use and redistribution only, with credit to zhou-jianwen as the AI-assisted adapter, to the extent the adapter holds rights. Underlying character and source-art rights remain with their respective owners. No third-party permission is asserted or granted.",
+    "description": "An unofficial animated head-only Denia portrait with expressive task states and sixteen look directions.",
+    "spriteVersionNumber": 2
+  },
+  {
     "slug": "desk-otter--zihualiu1997",
     "name": "Desk Otter",
     "author": "zihualiu1997",

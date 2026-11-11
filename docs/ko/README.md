@@ -12,7 +12,7 @@
 
 <a href="https://codexpet.top"><img src="../../assets/cover/awesome-codex-pet-cover.png" alt="Awesome Codex Pet 갤러리 열기"></a>
 
-![pets: 381](https://img.shields.io/badge/pets-381-2ea44f) ![categories: 11](https://img.shields.io/badge/categories-11-0969da) ![languages: en | zh--CN | ko | ja | es](https://img.shields.io/badge/languages-en%20%7C%20zh--CN%20%7C%20ko%20%7C%20ja%20%7C%20es-8250df) ![code: MIT](https://img.shields.io/badge/code-MIT-111111) ![assets: CC BY--NC 4.0](https://img.shields.io/badge/assets-CC%20BY--NC%204.0-f97316) ![install: one command](https://img.shields.io/badge/install-one%20command-111111) [![Pet previews](https://github.com/legeling/awesome-codex-pet/actions/workflows/pet-previews.yml/badge.svg)](https://github.com/legeling/awesome-codex-pet/actions/workflows/pet-previews.yml)
+![pets: 382](https://img.shields.io/badge/pets-382-2ea44f) ![categories: 11](https://img.shields.io/badge/categories-11-0969da) ![languages: en | zh--CN | ko | ja | es](https://img.shields.io/badge/languages-en%20%7C%20zh--CN%20%7C%20ko%20%7C%20ja%20%7C%20es-8250df) ![code: MIT](https://img.shields.io/badge/code-MIT-111111) ![assets: CC BY--NC 4.0](https://img.shields.io/badge/assets-CC%20BY--NC%204.0-f97316) ![install: one command](https://img.shields.io/badge/install-one%20command-111111) [![Pet previews](https://github.com/legeling/awesome-codex-pet/actions/workflows/pet-previews.yml/badge.svg)](https://github.com/legeling/awesome-codex-pet/actions/workflows/pet-previews.yml)
 
 </div>
 
@@ -105,7 +105,7 @@ npx --yes @legeling/codex-pet list
 </table>
 
 <details>
-<summary>전체 펫 목록 (텍스트) · 381</summary>
+<summary>전체 펫 목록 (텍스트) · 382</summary>
 
 ### 게임 캐릭터
 
@@ -121,6 +121,7 @@ npx --yes @legeling/codex-pet list
 <li><a href="../../pets/citlali--zaytsevzy">Citlali</a> · 제작자 <a href="https://github.com/ZaytsevZY">@ZaytsevZY</a> · v2</li>
 <li><a href="../../pets/columbina--zhou-jianwen">Columbina</a> · 제작자 @zhou-jianwen · v2</li>
 <li><a href="../../pets/cyrene--lingxiaotian">Cyrene</a> · 제작자 <a href="https://github.com/legeling">@legeling</a> · v1</li>
+<li><a href="../../pets/denia-portrait--zhou-jianwen">Denia Portrait</a> · 제작자 @zhou-jianwen · v2</li>
 <li><a href="../../pets/dimo-stand--god-wu">Dimo</a> · 제작자 @god-wu · v1</li>
 <li><a href="../../pets/doro--godxxy1229">Doro</a> · 제작자 <a href="https://github.com/godxxy1229">@godxxy1229</a> · v2</li>
 <li><a href="../../pets/doro--lingxiaotian">Doro</a> · 제작자 <a href="https://github.com/legeling">@legeling</a> · v1</li>
