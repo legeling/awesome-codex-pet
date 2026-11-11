@@ -500,6 +500,19 @@
     "spriteVersionNumber": 2
   },
   {
+    "slug": "columbina--zhou-jianwen",
+    "name": "Columbina",
+    "author": "zhou-jianwen",
+    "author_handle": "zhou-jianwen",
+    "primary_category": "Game Characters",
+    "canonical_key": "genshin-impact/columbina",
+    "variant_note": "An unofficial Columbina fan companion based on the uploaded white-and-blue outfit reference.",
+    "collections": [],
+    "license": "Non-commercial use and redistribution only, with credit to zhou-jianwen as the AI-assisted adapter, to the extent the adapter holds rights. Underlying character and source-art rights remain with their respective owners. No third-party permission is asserted or granted.",
+    "description": "An unofficial Columbina fan companion based on the uploaded white-and-blue outfit reference.",
+    "spriteVersionNumber": 2
+  },
+  {
     "slug": "conan--chenxin-dlut",
     "name": "Conan",
     "localized_names": { "en": "Conan Edogawa", "zh": "江户川柯南" },

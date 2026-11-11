@@ -414,6 +414,16 @@
       "spritesheetWidth": 1536,
       "spritesheetHeight": 2288
     },
+    "columbina--zhou-jianwen": {
+      "name": "Columbina",
+      "spriteVersionNumber": 2,
+      "petJsonSha256": "5c8cfce345fdda74cc8b25fdf7adac86b9e9adf48a31ccbcf089efe1bb305bde",
+      "petJsonBytes": 250,
+      "spritesheetSha256": "f0690c98d1ad9d66064036929aa21b9bfcd4f37db756b0a76e85c9a2c59a1d6d",
+      "spritesheetBytes": 2595330,
+      "spritesheetWidth": 1536,
+      "spritesheetHeight": 2288
+    },
     "conan--chenxin-dlut": {
       "name": "Conan",
       "localizedNames": { "en": "Conan Edogawa", "zh": "江户川柯南" },
