@@ -67,6 +67,17 @@
       "spritesheetWidth": 1536,
       "spritesheetHeight": 2288
     },
+    "ai-hayasaka--zhou-jianwen": {
+      "name": "Ai Hayasaka",
+      "localizedNames": { "en": "Ai Hayasaka", "zh": "早坂爱" },
+      "spriteVersionNumber": 2,
+      "petJsonSha256": "77e646accd3edd426e76b462a38e81884c90987e1cf089617ac04885ffcff295",
+      "petJsonBytes": 271,
+      "spritesheetSha256": "f776e35e08794e04bcb7cdc6a8850f2cbd55d8a82d20e27630b163a313a906b5",
+      "spritesheetBytes": 1538978,
+      "spritesheetWidth": 1536,
+      "spritesheetHeight": 2288
+    },
     "ai-pulse--wxy": {
       "name": "AI Pulse",
       "localizedNames": { "en": "AI Pulse", "zh": "AI Pulse" },

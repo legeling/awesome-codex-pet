@@ -12,7 +12,7 @@
 
 <a href="https://codexpet.top/es"><img src="../../assets/cover/awesome-codex-pet-cover.png" alt="Abrir la galería de Awesome Codex Pet"></a>
 
-![pets: 383](https://img.shields.io/badge/pets-383-2ea44f) ![categories: 11](https://img.shields.io/badge/categories-11-0969da) ![languages: en | zh--CN | ko | ja | es](https://img.shields.io/badge/languages-en%20%7C%20zh--CN%20%7C%20ko%20%7C%20ja%20%7C%20es-8250df) ![code: MIT](https://img.shields.io/badge/code-MIT-111111) ![assets: CC BY--NC 4.0](https://img.shields.io/badge/assets-CC%20BY--NC%204.0-f97316) ![install: one command](https://img.shields.io/badge/install-one%20command-111111) [![Pet previews](https://github.com/legeling/awesome-codex-pet/actions/workflows/pet-previews.yml/badge.svg)](https://github.com/legeling/awesome-codex-pet/actions/workflows/pet-previews.yml)
+![pets: 384](https://img.shields.io/badge/pets-384-2ea44f) ![categories: 11](https://img.shields.io/badge/categories-11-0969da) ![languages: en | zh--CN | ko | ja | es](https://img.shields.io/badge/languages-en%20%7C%20zh--CN%20%7C%20ko%20%7C%20ja%20%7C%20es-8250df) ![code: MIT](https://img.shields.io/badge/code-MIT-111111) ![assets: CC BY--NC 4.0](https://img.shields.io/badge/assets-CC%20BY--NC%204.0-f97316) ![install: one command](https://img.shields.io/badge/install-one%20command-111111) [![Pet previews](https://github.com/legeling/awesome-codex-pet/actions/workflows/pet-previews.yml/badge.svg)](https://github.com/legeling/awesome-codex-pet/actions/workflows/pet-previews.yml)
 
 </div>
 
@@ -69,7 +69,7 @@ npx @legeling/codex-pet
 </table>
 
 <details>
-<summary>Índice completo (solo texto) · 383</summary>
+<summary>Índice completo (solo texto) · 384</summary>
 
 ### Personajes de videojuegos
 
@@ -168,6 +168,7 @@ npx @legeling/codex-pet
 <ul>
 <li><a href="../../pets/zero-two--mingqingmozhao">02</a> · por @mingqingmozhao · v1</li>
 <li><a href="../../pets/agumon--legeling">Agumon</a> · por <a href="https://github.com/legeling">@legeling</a> · v2</li>
+<li><a href="../../pets/ai-hayasaka--zhou-jianwen">Ai Hayasaka</a> · por @zhou-jianwen · v2</li>
 <li><a href="../../pets/amadeus--legeling">Amadeus</a> · por <a href="https://github.com/legeling">@legeling</a> · v2</li>
 <li><a href="../../pets/anya--chenxin-dlut">Anya</a> · por <a href="https://github.com/chenxin-dlut">@chenxin-dlut</a> · v1</li>
 <li><a href="../../pets/asuka--maxg24">Asuka</a> · por <a href="https://codex-pets.net/users/maxg24">@maxg24</a> · v1</li>

@@ -77,6 +77,20 @@
     "spriteVersionNumber": 2
   },
   {
+    "slug": "ai-hayasaka--zhou-jianwen",
+    "name": "Ai Hayasaka",
+    "localized_names": { "en": "Ai Hayasaka", "zh": "早坂爱" },
+    "author": "zhou-jianwen",
+    "author_handle": "zhou-jianwen",
+    "primary_category": "Anime Characters",
+    "canonical_key": "kaguya-sama-love-is-war/ai-hayasaka",
+    "variant_note": "An independent compact chibi maid V2 interpretation for standard request #366, with empty hands, complete shoes and sixteen look directions.",
+    "collections": [],
+    "license": "Non-commercial use and redistribution only, with credit to zhou-jianwen as the AI-assisted adapter, to the extent the adapter holds rights. Underlying character and source-art rights remain with their respective owners. No third-party permission is asserted or granted.",
+    "description": "An unofficial compact Ai Hayasaka maid companion with expressive task animations and sixteen look directions.",
+    "spriteVersionNumber": 2
+  },
+  {
     "slug": "ai-pulse--wxy",
     "name": "AI Pulse",
     "localized_names": { "en": "AI Pulse", "zh": "AI Pulse" },
