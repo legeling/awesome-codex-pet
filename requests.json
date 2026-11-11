@@ -1,5 +1,45 @@
 [
   {
+    "number": 360,
+    "character": "栗山未来",
+    "characterDetails": "栗山未来",
+    "franchise": "境界的彼方",
+    "category": "other",
+    "version": "v2",
+    "requestType": "Create a new community interpretation",
+    "referenceStatus": "",
+    "references": "https://tse4-mm.cn.bing.net/th/id/OIP-C.5YrGKiARe4ETVF5_8PHqHwHaG9?w=198&h=185&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3",
+    "referenceUrls": [
+      "https://tse4-mm.cn.bing.net/th/id/OIP-C.5YrGKiARe4ETVF5_8PHqHwHaG9?w=198&h=185&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3"
+    ],
+    "referenceImages": [],
+    "referenceThumbnails": [],
+    "visualDirection": "冬天快到了，有围巾就更好啦~",
+    "nameLanguages": "Let the maker decide",
+    "attribution": "Submitted without a GitHub account. Reference and attribution details should be confirmed during triage. Non-commercial use only.",
+    "duplicateCheck": "Repository automation or a maintainer should complete the duplicate check during triage.",
+    "state": "open",
+    "status": "in-progress",
+    "labels": [
+      "type: request",
+      "status: in-progress",
+      "version: v2",
+      "category: other"
+    ],
+    "author": {
+      "login": "github-actions[bot]",
+      "avatarUrl": "https://avatars.githubusercontent.com/in/15368?v=4",
+      "url": "https://github.com/apps/github-actions"
+    },
+    "assignees": [],
+    "createdAt": "2026-11-02T09:54:40Z",
+    "updatedAt": "2026-11-11T06:49:29Z",
+    "closedAt": null,
+    "comments": 2,
+    "reactions": 0,
+    "githubUrl": "https://github.com/legeling/awesome-codex-pet/issues/360"
+  },
+  {
     "number": 350,
     "character": "Chika Fujiwara",
     "characterDetails": "Chika Fujiwara",
@@ -36,6 +76,94 @@
     "comments": 2,
     "reactions": 0,
     "githubUrl": "https://github.com/legeling/awesome-codex-pet/issues/350"
+  },
+  {
+    "number": 355,
+    "character": "xjt",
+    "characterDetails": "xjt",
+    "franchise": "Not provided",
+    "category": "other",
+    "version": "v2",
+    "requestType": "Create a new community interpretation",
+    "referenceStatus": "",
+    "references": "https://api.codexpet.top/uploads/reference/references/0f90a64a510f377c9d9ac8e669c088cee92ce9084328a2b962dfdf632620ca15.png",
+    "referenceUrls": [
+      "https://api.codexpet.top/uploads/reference/references/0f90a64a510f377c9d9ac8e669c088cee92ce9084328a2b962dfdf632620ca15.png"
+    ],
+    "referenceImages": [
+      "https://api.codexpet.top/uploads/reference/references/0f90a64a510f377c9d9ac8e669c088cee92ce9084328a2b962dfdf632620ca15.png"
+    ],
+    "referenceThumbnails": [
+      "https://api.codexpet.top/uploads/reference/thumbnails/0f90a64a510f377c9d9ac8e669c088cee92ce9084328a2b962dfdf632620ca15.webp"
+    ],
+    "visualDirection": "画风一致，搞怪",
+    "nameLanguages": "Let the maker decide",
+    "attribution": "Submitted without a GitHub account. Reference and attribution details should be confirmed during triage. Non-commercial use only.",
+    "duplicateCheck": "Repository automation or a maintainer should complete the duplicate check during triage.",
+    "state": "open",
+    "status": "triage",
+    "labels": [
+      "type: request",
+      "status: triage",
+      "version: v2",
+      "category: other"
+    ],
+    "author": {
+      "login": "github-actions[bot]",
+      "avatarUrl": "https://avatars.githubusercontent.com/in/15368?v=4",
+      "url": "https://github.com/apps/github-actions"
+    },
+    "assignees": [],
+    "createdAt": "2026-10-31T08:49:51Z",
+    "updatedAt": "2026-11-11T06:50:45Z",
+    "closedAt": null,
+    "comments": 1,
+    "reactions": 0,
+    "githubUrl": "https://github.com/legeling/awesome-codex-pet/issues/355"
+  },
+  {
+    "number": 340,
+    "character": "达尼娅",
+    "characterDetails": "达尼娅",
+    "franchise": "鸣潮",
+    "category": "other",
+    "version": "v2",
+    "requestType": "Create a new community interpretation",
+    "referenceStatus": "",
+    "references": "https://api.codexpet.top/uploads/reference/references/6cc58213572dd6cae87a8c94f851c0bc6747aedca325b96a91df48951cd2ac80.png",
+    "referenceUrls": [
+      "https://api.codexpet.top/uploads/reference/references/6cc58213572dd6cae87a8c94f851c0bc6747aedca325b96a91df48951cd2ac80.png"
+    ],
+    "referenceImages": [
+      "https://api.codexpet.top/uploads/reference/references/6cc58213572dd6cae87a8c94f851c0bc6747aedca325b96a91df48951cd2ac80.png"
+    ],
+    "referenceThumbnails": [
+      "https://api.codexpet.top/uploads/reference/thumbnails/6cc58213572dd6cae87a8c94f851c0bc6747aedca325b96a91df48951cd2ac80.webp"
+    ],
+    "visualDirection": "生成大头照",
+    "nameLanguages": "Let the maker decide",
+    "attribution": "Submitted without a GitHub account. Reference and attribution details should be confirmed during triage. Non-commercial use only.",
+    "duplicateCheck": "Repository automation or a maintainer should complete the duplicate check during triage.",
+    "state": "open",
+    "status": "triage",
+    "labels": [
+      "type: request",
+      "status: triage",
+      "version: v2",
+      "category: other"
+    ],
+    "author": {
+      "login": "github-actions[bot]",
+      "avatarUrl": "https://avatars.githubusercontent.com/in/15368?v=4",
+      "url": "https://github.com/apps/github-actions"
+    },
+    "assignees": [],
+    "createdAt": "2026-10-27T18:14:54Z",
+    "updatedAt": "2026-11-11T06:50:38Z",
+    "closedAt": null,
+    "comments": 1,
+    "reactions": 0,
+    "githubUrl": "https://github.com/legeling/awesome-codex-pet/issues/340"
   },
   {
     "number": 365,
@@ -210,46 +338,6 @@
     "githubUrl": "https://github.com/legeling/awesome-codex-pet/issues/364"
   },
   {
-    "number": 360,
-    "character": "栗山未来",
-    "characterDetails": "栗山未来",
-    "franchise": "境界的彼方",
-    "category": "other",
-    "version": "v2",
-    "requestType": "Create a new community interpretation",
-    "referenceStatus": "",
-    "references": "https://tse4-mm.cn.bing.net/th/id/OIP-C.5YrGKiARe4ETVF5_8PHqHwHaG9?w=198&h=185&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3",
-    "referenceUrls": [
-      "https://tse4-mm.cn.bing.net/th/id/OIP-C.5YrGKiARe4ETVF5_8PHqHwHaG9?w=198&h=185&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3"
-    ],
-    "referenceImages": [],
-    "referenceThumbnails": [],
-    "visualDirection": "冬天快到了，有围巾就更好啦~",
-    "nameLanguages": "Let the maker decide",
-    "attribution": "Submitted without a GitHub account. Reference and attribution details should be confirmed during triage. Non-commercial use only.",
-    "duplicateCheck": "Repository automation or a maintainer should complete the duplicate check during triage.",
-    "state": "open",
-    "status": "triage",
-    "labels": [
-      "type: request",
-      "status: triage",
-      "version: v2",
-      "category: other"
-    ],
-    "author": {
-      "login": "github-actions[bot]",
-      "avatarUrl": "https://avatars.githubusercontent.com/in/15368?v=4",
-      "url": "https://github.com/apps/github-actions"
-    },
-    "assignees": [],
-    "createdAt": "2026-11-02T09:54:40Z",
-    "updatedAt": "2026-11-11T01:16:45Z",
-    "closedAt": null,
-    "comments": 1,
-    "reactions": 0,
-    "githubUrl": "https://github.com/legeling/awesome-codex-pet/issues/360"
-  },
-  {
     "number": 157,
     "character": "史迪奇",
     "characterDetails": "史迪奇",
@@ -374,50 +462,6 @@
     "githubUrl": "https://github.com/legeling/awesome-codex-pet/issues/359"
   },
   {
-    "number": 355,
-    "character": "xjt",
-    "characterDetails": "xjt",
-    "franchise": "Not provided",
-    "category": "other",
-    "version": "v2",
-    "requestType": "Create a new community interpretation",
-    "referenceStatus": "",
-    "references": "https://api.codexpet.top/uploads/reference/references/0f90a64a510f377c9d9ac8e669c088cee92ce9084328a2b962dfdf632620ca15.png",
-    "referenceUrls": [
-      "https://api.codexpet.top/uploads/reference/references/0f90a64a510f377c9d9ac8e669c088cee92ce9084328a2b962dfdf632620ca15.png"
-    ],
-    "referenceImages": [
-      "https://api.codexpet.top/uploads/reference/references/0f90a64a510f377c9d9ac8e669c088cee92ce9084328a2b962dfdf632620ca15.png"
-    ],
-    "referenceThumbnails": [
-      "https://api.codexpet.top/uploads/reference/thumbnails/0f90a64a510f377c9d9ac8e669c088cee92ce9084328a2b962dfdf632620ca15.webp"
-    ],
-    "visualDirection": "画风一致，搞怪",
-    "nameLanguages": "Let the maker decide",
-    "attribution": "Submitted without a GitHub account. Reference and attribution details should be confirmed during triage. Non-commercial use only.",
-    "duplicateCheck": "Repository automation or a maintainer should complete the duplicate check during triage.",
-    "state": "open",
-    "status": "triage",
-    "labels": [
-      "type: request",
-      "status: triage",
-      "version: v2",
-      "category: other"
-    ],
-    "author": {
-      "login": "github-actions[bot]",
-      "avatarUrl": "https://avatars.githubusercontent.com/in/15368?v=4",
-      "url": "https://github.com/apps/github-actions"
-    },
-    "assignees": [],
-    "createdAt": "2026-10-31T08:49:51Z",
-    "updatedAt": "2026-10-31T08:49:51Z",
-    "closedAt": null,
-    "comments": 0,
-    "reactions": 0,
-    "githubUrl": "https://github.com/legeling/awesome-codex-pet/issues/355"
-  },
-  {
     "number": 341,
     "character": "Joker",
     "characterDetails": "Joker",
@@ -460,50 +504,6 @@
     "comments": 0,
     "reactions": 0,
     "githubUrl": "https://github.com/legeling/awesome-codex-pet/issues/341"
-  },
-  {
-    "number": 340,
-    "character": "达尼娅",
-    "characterDetails": "达尼娅",
-    "franchise": "鸣潮",
-    "category": "other",
-    "version": "v2",
-    "requestType": "Create a new community interpretation",
-    "referenceStatus": "",
-    "references": "https://api.codexpet.top/uploads/reference/references/6cc58213572dd6cae87a8c94f851c0bc6747aedca325b96a91df48951cd2ac80.png",
-    "referenceUrls": [
-      "https://api.codexpet.top/uploads/reference/references/6cc58213572dd6cae87a8c94f851c0bc6747aedca325b96a91df48951cd2ac80.png"
-    ],
-    "referenceImages": [
-      "https://api.codexpet.top/uploads/reference/references/6cc58213572dd6cae87a8c94f851c0bc6747aedca325b96a91df48951cd2ac80.png"
-    ],
-    "referenceThumbnails": [
-      "https://api.codexpet.top/uploads/reference/thumbnails/6cc58213572dd6cae87a8c94f851c0bc6747aedca325b96a91df48951cd2ac80.webp"
-    ],
-    "visualDirection": "生成大头照",
-    "nameLanguages": "Let the maker decide",
-    "attribution": "Submitted without a GitHub account. Reference and attribution details should be confirmed during triage. Non-commercial use only.",
-    "duplicateCheck": "Repository automation or a maintainer should complete the duplicate check during triage.",
-    "state": "open",
-    "status": "triage",
-    "labels": [
-      "type: request",
-      "status: triage",
-      "version: v2",
-      "category: other"
-    ],
-    "author": {
-      "login": "github-actions[bot]",
-      "avatarUrl": "https://avatars.githubusercontent.com/in/15368?v=4",
-      "url": "https://github.com/apps/github-actions"
-    },
-    "assignees": [],
-    "createdAt": "2026-10-27T18:14:54Z",
-    "updatedAt": "2026-10-27T18:14:54Z",
-    "closedAt": null,
-    "comments": 0,
-    "reactions": 0,
-    "githubUrl": "https://github.com/legeling/awesome-codex-pet/issues/340"
   },
   {
     "number": 327,
