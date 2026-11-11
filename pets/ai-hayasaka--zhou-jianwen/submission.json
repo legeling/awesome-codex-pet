@@ -1,0 +1,27 @@
+{
+  "slug": "ai-hayasaka--zhou-jianwen",
+  "pet_slug": "ai-hayasaka",
+  "author_slug": "zhou-jianwen",
+  "author_handle": "zhou-jianwen",
+  "author": "zhou-jianwen",
+  "name": "Ai Hayasaka",
+  "localized_names": {
+    "en": "Ai Hayasaka",
+    "zh": "早坂爱"
+  },
+  "primary_category": "Anime Characters",
+  "canonical_key": "kaguya-sama-love-is-war/ai-hayasaka",
+  "description": "An unofficial compact Ai Hayasaka maid companion with expressive task animations and sixteen look directions.",
+  "variant_note": "An independent compact chibi maid V2 interpretation for standard request #366, with empty hands, complete shoes and sixteen look directions.",
+  "tags": ["community-request", "chibi", "v2"],
+  "collections": [],
+  "source_type": "ai-generated",
+  "source_url": "https://github.com/legeling/awesome-codex-pet/issues/366",
+  "source_notes": "Independently AI-generated fan interpretation of Ai Hayasaka from Kaguya-sama: Love Is War for standard maker-directed request #366. The uploaded reference supplies appearance guidance only. Its original artist, publication and redistribution permission are unverified. Compact chibi proportions, empty hands and complete black shoes adapt the cropped maid reference. Final sprite pixels are generated through the built-in image_gen tool with native transparency, followed by intact-pose extraction, source-grid retiling and deterministic V2 assembly. Visual generation workers are configured as gpt-6-sol with medium reasoning. Blind review workers are configured as gpt-6-luna with medium reasoning, with an independent gpt-6-sol static final review. The image tool does not disclose its backend model. Left and right locomotion are generated independently to preserve the anatomical-left side ponytail. Official identity sources https://kaguya.love/2nd/character/ and https://kaguyasama-anime.com/1st/character/. #365 remains a separate expanded staged multi-runtime brief. zhou-jianwen is the AI-assisted adapter, with no claim to the underlying character or reference art. Non-commercial fan use only.",
+  "license": "Non-commercial use and redistribution only, with credit to zhou-jianwen as the AI-assisted adapter, to the extent the adapter holds rights. Underlying character and source-art rights remain with their respective owners. No third-party permission is asserted or granted.",
+  "preview_image": "../../assets/previews/ai-hayasaka--zhou-jianwen/gifs/idle.gif",
+  "codex_install": {
+    "pet_json": "pet.json",
+    "spritesheet": "spritesheet.webp"
+  }
+}
