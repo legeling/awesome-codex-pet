@@ -2027,6 +2027,19 @@
     "spriteVersionNumber": 2
   },
   {
+    "slug": "mirai-kuriyama--zhou-jianwen",
+    "name": "Mirai Kuriyama",
+    "author": "zhou-jianwen",
+    "author_handle": "zhou-jianwen",
+    "primary_category": "Anime Characters",
+    "canonical_key": "beyond-the-boundary/mirai-kuriyama",
+    "variant_note": "A scarf-wearing Mirai Kuriyama fan companion with gentle expressive task animations.",
+    "collections": [],
+    "license": "Non-commercial use and redistribution only, with credit to zhou-jianwen as the AI-assisted adapter, to the extent the adapter holds rights. Underlying character and source-art rights remain with their respective owners. No third-party permission is asserted or granted.",
+    "description": "A scarf-wearing Mirai Kuriyama fan companion with gentle expressive task animations.",
+    "spriteVersionNumber": 2
+  },
+  {
     "slug": "misaka-network--ldl1234",
     "name": "Misaka Network",
     "localized_names": { "en": "Misaka Network", "zh": "御坂网络" },

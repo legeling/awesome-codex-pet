@@ -1661,6 +1661,16 @@
       "spritesheetWidth": 1536,
       "spritesheetHeight": 2288
     },
+    "mirai-kuriyama--zhou-jianwen": {
+      "name": "Mirai Kuriyama",
+      "spriteVersionNumber": 2,
+      "petJsonSha256": "9e4b861142e5fc5c608164f16ea567021cc22cf82a7da4336014857985b1823c",
+      "petJsonBytes": 252,
+      "spritesheetSha256": "8c1f9a5bc54aa5aa768dac216315f7998523eeb2da3aa81ebb18812d14ecb0d8",
+      "spritesheetBytes": 1504248,
+      "spritesheetWidth": 1536,
+      "spritesheetHeight": 2288
+    },
     "misaka-network--ldl1234": {
       "name": "Misaka Network",
       "localizedNames": { "en": "Misaka Network", "zh": "御坂网络" },
