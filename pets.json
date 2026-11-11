@@ -855,6 +855,19 @@
     "spriteVersionNumber": 1
   },
   {
+    "slug": "emilia--zhou-jianwen",
+    "name": "Emilia",
+    "author": "zhou-jianwen",
+    "author_handle": "zhou-jianwen",
+    "primary_category": "Anime Characters",
+    "canonical_key": "re-zero/emilia",
+    "variant_note": "An unofficial Emilia fan companion with silver hair, purple accents and gentle task animations.",
+    "collections": [],
+    "license": "Non-commercial use and redistribution only, with credit to zhou-jianwen as the AI-assisted adapter, to the extent the adapter holds rights. Underlying character and source-art rights remain with their respective owners. No third-party permission is asserted or granted.",
+    "description": "An unofficial Emilia fan companion with silver hair, purple accents and gentle task animations.",
+    "spriteVersionNumber": 2
+  },
+  {
     "slug": "eren--ash-sw",
     "name": "Eren",
     "localized_names": { "en": "Eren", "zh": "艾伦" },

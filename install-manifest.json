@@ -707,6 +707,16 @@
       "spritesheetWidth": 1536,
       "spritesheetHeight": 1872
     },
+    "emilia--zhou-jianwen": {
+      "name": "Emilia",
+      "spriteVersionNumber": 2,
+      "petJsonSha256": "ec1fec4ff80962721ea474428728ff01b1cbba3bdcae406dc9a5617b5f505de5",
+      "petJsonBytes": 247,
+      "spritesheetSha256": "877304f461028a3d6aca2fba89d3d39ef07fa759804d761472f72abba49af70d",
+      "spritesheetBytes": 2318930,
+      "spritesheetWidth": 1536,
+      "spritesheetHeight": 2288
+    },
     "eren--ash-sw": {
       "name": "Eren",
       "localizedNames": { "en": "Eren", "zh": "艾伦" },
