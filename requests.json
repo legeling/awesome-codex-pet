@@ -44,46 +44,6 @@
     "githubUrl": "https://github.com/legeling/awesome-codex-pet/issues/355"
   },
   {
-    "number": 364,
-    "character": "爱蜜莉雅",
-    "characterDetails": "爱蜜莉雅",
-    "franchise": "从零开始的异世界生活",
-    "category": "other",
-    "version": "v2",
-    "requestType": "Create a new community interpretation",
-    "referenceStatus": "",
-    "references": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQW_X1osHgvZuZ_ef9KDaHDaF11UeSq1_1eJzt3iu1xHA&s=10",
-    "referenceUrls": [
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQW_X1osHgvZuZ_ef9KDaHDaF11UeSq1_1eJzt3iu1xHA&s=10"
-    ],
-    "referenceImages": [],
-    "referenceThumbnails": [],
-    "visualDirection": "Let the community maker decide.",
-    "nameLanguages": "Let the maker decide",
-    "attribution": "Submitted without a GitHub account. Reference and attribution details should be confirmed during triage. Non-commercial use only.",
-    "duplicateCheck": "Repository automation or a maintainer should complete the duplicate check during triage.",
-    "state": "open",
-    "status": "in-progress",
-    "labels": [
-      "type: request",
-      "status: in-progress",
-      "version: v2",
-      "category: other"
-    ],
-    "author": {
-      "login": "github-actions[bot]",
-      "avatarUrl": "https://avatars.githubusercontent.com/in/15368?v=4",
-      "url": "https://github.com/apps/github-actions"
-    },
-    "assignees": [],
-    "createdAt": "2026-11-04T17:50:44Z",
-    "updatedAt": "2026-11-11T07:39:36Z",
-    "closedAt": null,
-    "comments": 2,
-    "reactions": 0,
-    "githubUrl": "https://github.com/legeling/awesome-codex-pet/issues/364"
-  },
-  {
     "number": 350,
     "character": "Chika Fujiwara",
     "characterDetails": "Chika Fujiwara",
@@ -120,6 +80,44 @@
     "comments": 2,
     "reactions": 0,
     "githubUrl": "https://github.com/legeling/awesome-codex-pet/issues/350"
+  },
+  {
+    "number": 311,
+    "character": "大耳狗 - 三丽鸥 - 美乐蒂 Kitty猫",
+    "characterDetails": "大耳狗 - 三丽鸥 - 美乐蒂 Kitty猫",
+    "franchise": "Not provided",
+    "category": "other",
+    "version": "v2",
+    "requestType": "Create a new community interpretation",
+    "referenceStatus": "",
+    "references": "https://sanrio.com.cn/family_details4.html",
+    "referenceUrls": ["https://sanrio.com.cn/family_details4.html"],
+    "referenceImages": [],
+    "referenceThumbnails": [],
+    "visualDirection": "Let the community maker decide.",
+    "nameLanguages": "Let the maker decide",
+    "attribution": "Submitted without a GitHub account. Reference and attribution details should be confirmed during triage. Non-commercial use only.",
+    "duplicateCheck": "Repository automation or a maintainer should complete the duplicate check during triage.",
+    "state": "open",
+    "status": "triage",
+    "labels": [
+      "type: request",
+      "status: triage",
+      "version: v2",
+      "category: other"
+    ],
+    "author": {
+      "login": "github-actions[bot]",
+      "avatarUrl": "https://avatars.githubusercontent.com/in/15368?v=4",
+      "url": "https://github.com/apps/github-actions"
+    },
+    "assignees": [],
+    "createdAt": "2026-10-17T06:14:29Z",
+    "updatedAt": "2026-11-11T08:04:35Z",
+    "closedAt": null,
+    "comments": 3,
+    "reactions": 0,
+    "githubUrl": "https://github.com/legeling/awesome-codex-pet/issues/311"
   },
   {
     "number": 366,
@@ -546,44 +544,6 @@
     "githubUrl": "https://github.com/legeling/awesome-codex-pet/issues/317"
   },
   {
-    "number": 311,
-    "character": "大耳狗 - 三丽鸥 - 美乐蒂 Kitty猫",
-    "characterDetails": "大耳狗 - 三丽鸥 - 美乐蒂 Kitty猫",
-    "franchise": "Not provided",
-    "category": "other",
-    "version": "v2",
-    "requestType": "Create a new community interpretation",
-    "referenceStatus": "",
-    "references": "https://sanrio.com.cn/family_details4.html",
-    "referenceUrls": ["https://sanrio.com.cn/family_details4.html"],
-    "referenceImages": [],
-    "referenceThumbnails": [],
-    "visualDirection": "Let the community maker decide.",
-    "nameLanguages": "Let the maker decide",
-    "attribution": "Submitted without a GitHub account. Reference and attribution details should be confirmed during triage. Non-commercial use only.",
-    "duplicateCheck": "Repository automation or a maintainer should complete the duplicate check during triage.",
-    "state": "open",
-    "status": "triage",
-    "labels": [
-      "type: request",
-      "status: triage",
-      "version: v2",
-      "category: other"
-    ],
-    "author": {
-      "login": "github-actions[bot]",
-      "avatarUrl": "https://avatars.githubusercontent.com/in/15368?v=4",
-      "url": "https://github.com/apps/github-actions"
-    },
-    "assignees": [],
-    "createdAt": "2026-10-17T06:14:29Z",
-    "updatedAt": "2026-10-18T02:35:35Z",
-    "closedAt": null,
-    "comments": 2,
-    "reactions": 0,
-    "githubUrl": "https://github.com/legeling/awesome-codex-pet/issues/311"
-  },
-  {
     "number": 149,
     "character": "Aladdin and the magic lamp",
     "characterDetails": "Someone can make your dream come true",
@@ -909,6 +869,46 @@
     "comments": 1,
     "reactions": 0,
     "githubUrl": "https://github.com/legeling/awesome-codex-pet/issues/91"
+  },
+  {
+    "number": 364,
+    "character": "爱蜜莉雅",
+    "characterDetails": "爱蜜莉雅",
+    "franchise": "从零开始的异世界生活",
+    "category": "other",
+    "version": "v2",
+    "requestType": "Create a new community interpretation",
+    "referenceStatus": "",
+    "references": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQW_X1osHgvZuZ_ef9KDaHDaF11UeSq1_1eJzt3iu1xHA&s=10",
+    "referenceUrls": [
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQW_X1osHgvZuZ_ef9KDaHDaF11UeSq1_1eJzt3iu1xHA&s=10"
+    ],
+    "referenceImages": [],
+    "referenceThumbnails": [],
+    "visualDirection": "Let the community maker decide.",
+    "nameLanguages": "Let the maker decide",
+    "attribution": "Submitted without a GitHub account. Reference and attribution details should be confirmed during triage. Non-commercial use only.",
+    "duplicateCheck": "Repository automation or a maintainer should complete the duplicate check during triage.",
+    "state": "closed",
+    "status": "completed",
+    "labels": [
+      "type: request",
+      "status: in-progress",
+      "version: v2",
+      "category: other"
+    ],
+    "author": {
+      "login": "github-actions[bot]",
+      "avatarUrl": "https://avatars.githubusercontent.com/in/15368?v=4",
+      "url": "https://github.com/apps/github-actions"
+    },
+    "assignees": [],
+    "createdAt": "2026-11-04T17:50:44Z",
+    "updatedAt": "2026-11-11T08:04:59Z",
+    "closedAt": "2026-11-11T08:04:59Z",
+    "comments": 2,
+    "reactions": 0,
+    "githubUrl": "https://github.com/legeling/awesome-codex-pet/issues/364"
   },
   {
     "number": 369,
