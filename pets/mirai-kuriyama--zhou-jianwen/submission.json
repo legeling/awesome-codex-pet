@@ -1,0 +1,23 @@
+{
+  "slug": "mirai-kuriyama--zhou-jianwen",
+  "pet_slug": "mirai-kuriyama",
+  "author_slug": "zhou-jianwen",
+  "name": "Mirai Kuriyama",
+  "author": "zhou-jianwen",
+  "author_handle": "zhou-jianwen",
+  "primary_category": "Anime Characters",
+  "canonical_key": "beyond-the-boundary/mirai-kuriyama",
+  "variant_note": "A scarf-wearing Mirai Kuriyama fan companion with gentle expressive task animations.",
+  "description": "A scarf-wearing Mirai Kuriyama fan companion with gentle expressive task animations.",
+  "tags": ["community-request", "chibi", "anime", "v2"],
+  "collections": [],
+  "source_type": "ai-generated",
+  "source_url": "https://github.com/legeling/awesome-codex-pet/issues/360",
+  "source_notes": "Independently AI-generated fan interpretation for request #360. The request image supplies appearance guidance only. Its original artist, publication and redistribution permission are unverified. No reference pixels are included in the submission. zhou-jianwen is the AI-assisted adapter, with no claim to the original character or reference art. Final sprite pixels are generated through the built-in image_gen tool with native transparency, followed by intact-pose extraction, source-grid retiling and deterministic V2 assembly. Visual workers are configured as gpt-6-luna with medium reasoning. The image tool does not disclose its backend model. The left locomotion row is a framewise mirror of the approved right row, retaining frame order, for this design without handed props or fixed-side identity features. Official identity reference https://tv.anime-kyokai.com/character/mirai/. Underlying character and source-art rights remain with their respective owners. Non-commercial fan use only.",
+  "license": "Non-commercial use and redistribution only, with credit to zhou-jianwen as the AI-assisted adapter, to the extent the adapter holds rights. Underlying character and source-art rights remain with their respective owners. No third-party permission is asserted or granted.",
+  "preview_image": "../../assets/previews/mirai-kuriyama--zhou-jianwen/gifs/idle.gif",
+  "codex_install": {
+    "pet_json": "pet.json",
+    "spritesheet": "spritesheet.webp"
+  }
+}
