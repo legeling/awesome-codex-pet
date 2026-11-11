@@ -1,43 +1,5 @@
 [
   {
-    "number": 311,
-    "character": "大耳狗 - 三丽鸥 - 美乐蒂 Kitty猫",
-    "characterDetails": "大耳狗 - 三丽鸥 - 美乐蒂 Kitty猫",
-    "franchise": "Not provided",
-    "category": "other",
-    "version": "v2",
-    "requestType": "Create a new community interpretation",
-    "referenceStatus": "",
-    "references": "https://sanrio.com.cn/family_details4.html",
-    "referenceUrls": ["https://sanrio.com.cn/family_details4.html"],
-    "referenceImages": [],
-    "referenceThumbnails": [],
-    "visualDirection": "Let the community maker decide.",
-    "nameLanguages": "Let the maker decide",
-    "attribution": "Submitted without a GitHub account. Reference and attribution details should be confirmed during triage. Non-commercial use only.",
-    "duplicateCheck": "Repository automation or a maintainer should complete the duplicate check during triage.",
-    "state": "open",
-    "status": "in-progress",
-    "labels": [
-      "type: request",
-      "status: in-progress",
-      "version: v2",
-      "category: other"
-    ],
-    "author": {
-      "login": "github-actions[bot]",
-      "avatarUrl": "https://avatars.githubusercontent.com/in/15368?v=4",
-      "url": "https://github.com/apps/github-actions"
-    },
-    "assignees": [],
-    "createdAt": "2026-10-17T06:14:29Z",
-    "updatedAt": "2026-11-11T09:07:29Z",
-    "closedAt": null,
-    "comments": 4,
-    "reactions": 0,
-    "githubUrl": "https://github.com/legeling/awesome-codex-pet/issues/311"
-  },
-  {
     "number": 350,
     "character": "Chika Fujiwara",
     "characterDetails": "Chika Fujiwara",
@@ -781,6 +743,44 @@
     "comments": 1,
     "reactions": 0,
     "githubUrl": "https://github.com/legeling/awesome-codex-pet/issues/91"
+  },
+  {
+    "number": 311,
+    "character": "大耳狗 - 三丽鸥 - 美乐蒂 Kitty猫",
+    "characterDetails": "大耳狗 - 三丽鸥 - 美乐蒂 Kitty猫",
+    "franchise": "Not provided",
+    "category": "other",
+    "version": "v2",
+    "requestType": "Create a new community interpretation",
+    "referenceStatus": "",
+    "references": "https://sanrio.com.cn/family_details4.html",
+    "referenceUrls": ["https://sanrio.com.cn/family_details4.html"],
+    "referenceImages": [],
+    "referenceThumbnails": [],
+    "visualDirection": "Let the community maker decide.",
+    "nameLanguages": "Let the maker decide",
+    "attribution": "Submitted without a GitHub account. Reference and attribution details should be confirmed during triage. Non-commercial use only.",
+    "duplicateCheck": "Repository automation or a maintainer should complete the duplicate check during triage.",
+    "state": "closed",
+    "status": "completed",
+    "labels": [
+      "type: request",
+      "status: completed",
+      "version: v2",
+      "category: other"
+    ],
+    "author": {
+      "login": "github-actions[bot]",
+      "avatarUrl": "https://avatars.githubusercontent.com/in/15368?v=4",
+      "url": "https://github.com/apps/github-actions"
+    },
+    "assignees": [],
+    "createdAt": "2026-10-17T06:14:29Z",
+    "updatedAt": "2026-11-11T09:18:20Z",
+    "closedAt": "2026-11-11T09:17:56Z",
+    "comments": 6,
+    "reactions": 0,
+    "githubUrl": "https://github.com/legeling/awesome-codex-pet/issues/311"
   },
   {
     "number": 340,
