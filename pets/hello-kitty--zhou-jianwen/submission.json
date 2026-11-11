@@ -1,0 +1,27 @@
+{
+  "slug": "hello-kitty--zhou-jianwen",
+  "pet_slug": "hello-kitty",
+  "author_slug": "zhou-jianwen",
+  "name": "Hello Kitty",
+  "localized_names": {
+    "en": "Hello Kitty",
+    "zh": "凯蒂猫"
+  },
+  "author": "zhou-jianwen",
+  "author_handle": "zhou-jianwen",
+  "primary_category": "Mascots",
+  "canonical_key": "sanrio/hello-kitty",
+  "variant_note": "An independently generated V2 Hello Kitty interpretation with a simple pink bow, navy polka-dot dress and complete compact body.",
+  "description": "An unofficial Hello Kitty V2 fan companion in a pink bow and navy polka-dot dress, with gentle task gestures.",
+  "tags": ["community-request", "sanrio", "cartoon", "v2"],
+  "collections": [],
+  "source_type": "ai-generated",
+  "source_url": "https://github.com/legeling/awesome-codex-pet/issues/311",
+  "source_notes": "Unofficial independently AI-generated Hello Kitty fan adaptation for mixed request #311, which explicitly names Hello Kitty and leaves visual direction to the community maker. The request originally linked Cinnamoroll, already covered by merged PRs #313/#348; My Melody is covered by merged PR #321. The adapter selected the official Hello Kitty page https://sanrio.com.cn/family_details1.html and gallery image https://sanrio.com.cn/images/family/1/kv1.jpg for this remaining character. The central mouthless white face, black oval eyes, yellow nose, pink anatomical-LEFT ear bow and navy/pink dress palette guide the adaptation. A plain bow knot simplifies the source rose, bold spots simplify the fabric, and complete white legs/feet are inferred where source flowers obscure them. No source pixels, floral scenery or lettering are submitted. Final pixels use the built-in image_gen tool with native alpha, whole-pose extraction/retiling and deterministic V2 assembly. Both locomotion directions are independently generated; no horizontal mirroring is used. Fresh generation and independent review workers are configured as gpt-6-sol with medium reasoning; the image backend is not disclosed by the tool. zhou-jianwen is the AI-assisted adapter only, not Sanrio, the character creator or reference artist. The reference artist and redistribution permission remain unverified. Underlying character/source-art rights remain with their respective owners; no affiliation, ownership or third-party permission is asserted. Non-commercial fan use only.",
+  "license": "Non-commercial fan use and redistribution only, with credit to zhou-jianwen as AI-assisted adapter to the extent the adapter holds rights. Underlying character and source-art rights remain with their respective owners; no third-party permission or license is asserted or granted.",
+  "preview_image": "../../assets/previews/hello-kitty--zhou-jianwen/gifs/idle.gif",
+  "codex_install": {
+    "pet_json": "pet.json",
+    "spritesheet": "spritesheet.webp"
+  }
+}
