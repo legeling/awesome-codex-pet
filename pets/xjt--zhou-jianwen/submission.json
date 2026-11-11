@@ -1,0 +1,23 @@
+{
+  "slug": "xjt--zhou-jianwen",
+  "pet_slug": "xjt",
+  "author_slug": "zhou-jianwen",
+  "name": "xjt",
+  "author": "zhou-jianwen",
+  "author_handle": "zhou-jianwen",
+  "primary_category": "Human Avatars",
+  "canonical_key": "human-avatar/xjt-request-355",
+  "variant_note": "An independently generated V2 compact whole-body adaptation of the request's cartoon portrait, with inferred navy lower-body garments, an abstract unlettered chest shield and playful task expressions.",
+  "description": "A playful reference-guided cartoon boy avatar in a blue polo, with a compact full-body adaptation and mischievous task expressions.",
+  "tags": ["community-request", "cartoon", "human-avatar", "v2"],
+  "collections": [],
+  "source_type": "ai-generated",
+  "source_url": "https://github.com/legeling/awesome-codex-pet/issues/355",
+  "source_notes": "Independently AI-generated compact full-body cartoon-avatar adaptation for request #355. The supplied portrait is appearance guidance only; its original artist, publication and redistribution permission are unverified. No reference pixels are submitted. No real-world identity, school affiliation, franchise, original-character authorship or source-art ownership is inferred. zhou-jianwen is the AI-assisted adapter only. The portrait guides short black hair, rounded cheerful face, blue polo, white collar and side panels. Navy shorts, shoes and white socks are an inferred lower-body adaptation fixed by the canonical generated base. The chest mark is an abstract unlettered shield on anatomical LEFT. Final pixels use the built-in image_gen tool with native alpha; intact-pose extraction, source-grid retiling and deterministic V2 assembly preserve the generated art. Each visual job uses a fresh worker configured as gpt-6-luna or gpt-6-sol with medium reasoning; the image tool does not disclose its backend model. Left and right locomotion rows are independently generated to preserve shirt/badge laterality. Source-art and any underlying rights remain with their respective owners; no third-party permission is asserted or granted. Non-commercial use only.",
+  "license": "Non-commercial use and redistribution only, with credit to zhou-jianwen as the AI-assisted adapter, to the extent the adapter holds rights. Source-art and any other underlying rights remain with their respective owners. No ownership of the represented person's likeness or third-party permission is asserted or granted.",
+  "preview_image": "../../assets/previews/xjt--zhou-jianwen/gifs/idle.gif",
+  "codex_install": {
+    "pet_json": "pet.json",
+    "spritesheet": "spritesheet.webp"
+  }
+}
