@@ -1046,6 +1046,17 @@
       "spritesheetWidth": 1536,
       "spritesheetHeight": 2288
     },
+    "hello-kitty--zhou-jianwen": {
+      "name": "Hello Kitty",
+      "localizedNames": { "en": "Hello Kitty", "zh": "凯蒂猫" },
+      "spriteVersionNumber": 2,
+      "petJsonSha256": "00925794dc3441a39bb575015c7069b9d0e3341be5e3b0ae9997245ea08eea96",
+      "petJsonBytes": 271,
+      "spritesheetSha256": "7f0f2c7fbe16a0d00b881f69fae5fafa5e2881e6c34f313c52478296e4000601",
+      "spritesheetBytes": 2106668,
+      "spritesheetWidth": 1536,
+      "spritesheetHeight": 2288
+    },
     "holo--james991116": {
       "name": "Holo",
       "localizedNames": { "en": "Holo", "zh": "赫萝" },

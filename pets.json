@@ -1282,6 +1282,20 @@
     "spriteVersionNumber": 2
   },
   {
+    "slug": "hello-kitty--zhou-jianwen",
+    "name": "Hello Kitty",
+    "localized_names": { "en": "Hello Kitty", "zh": "凯蒂猫" },
+    "author": "zhou-jianwen",
+    "author_handle": "zhou-jianwen",
+    "primary_category": "Mascots",
+    "canonical_key": "sanrio/hello-kitty",
+    "variant_note": "An independently generated V2 Hello Kitty interpretation with a simple pink bow, navy polka-dot dress and complete compact body.",
+    "collections": [],
+    "license": "Non-commercial fan use and redistribution only, with credit to zhou-jianwen as AI-assisted adapter to the extent the adapter holds rights. Underlying character and source-art rights remain with their respective owners; no third-party permission or license is asserted or granted.",
+    "description": "An unofficial Hello Kitty V2 fan companion in a pink bow and navy polka-dot dress, with gentle task gestures.",
+    "spriteVersionNumber": 2
+  },
+  {
     "slug": "holo--james991116",
     "name": "Holo",
     "localized_names": { "en": "Holo", "zh": "赫萝" },
