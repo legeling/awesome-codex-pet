@@ -38,50 +38,6 @@
     "githubUrl": "https://github.com/legeling/awesome-codex-pet/issues/350"
   },
   {
-    "number": 366,
-    "character": "早坂爱",
-    "characterDetails": "早坂爱",
-    "franchise": "Not provided",
-    "category": "other",
-    "version": "v2",
-    "requestType": "Create a new community interpretation",
-    "referenceStatus": "",
-    "references": "https://api.codexpet.top/uploads/reference/references/1e7cf63269cc1cfa570470dd080f6b4cc9cf1572de3ee60dde5250948013ca7c.jpg",
-    "referenceUrls": [
-      "https://api.codexpet.top/uploads/reference/references/1e7cf63269cc1cfa570470dd080f6b4cc9cf1572de3ee60dde5250948013ca7c.jpg"
-    ],
-    "referenceImages": [
-      "https://api.codexpet.top/uploads/reference/references/1e7cf63269cc1cfa570470dd080f6b4cc9cf1572de3ee60dde5250948013ca7c.jpg"
-    ],
-    "referenceThumbnails": [
-      "https://api.codexpet.top/uploads/reference/thumbnails/1e7cf63269cc1cfa570470dd080f6b4cc9cf1572de3ee60dde5250948013ca7c.webp"
-    ],
-    "visualDirection": "Let the community maker decide.",
-    "nameLanguages": "Let the maker decide",
-    "attribution": "Submitted without a GitHub account. Reference and attribution details should be confirmed during triage. Non-commercial use only.",
-    "duplicateCheck": "Repository automation or a maintainer should complete the duplicate check during triage.",
-    "state": "open",
-    "status": "triage",
-    "labels": [
-      "type: request",
-      "status: triage",
-      "version: v2",
-      "category: other"
-    ],
-    "author": {
-      "login": "github-actions[bot]",
-      "avatarUrl": "https://avatars.githubusercontent.com/in/15368?v=4",
-      "url": "https://github.com/apps/github-actions"
-    },
-    "assignees": [],
-    "createdAt": "2026-11-05T05:23:11Z",
-    "updatedAt": "2026-11-11T07:59:50Z",
-    "closedAt": null,
-    "comments": 1,
-    "reactions": 0,
-    "githubUrl": "https://github.com/legeling/awesome-codex-pet/issues/366"
-  },
-  {
     "number": 365,
     "character": "早坂爱",
     "characterDetails": "早坂爱",
@@ -743,6 +699,50 @@
     "comments": 1,
     "reactions": 0,
     "githubUrl": "https://github.com/legeling/awesome-codex-pet/issues/91"
+  },
+  {
+    "number": 366,
+    "character": "早坂爱",
+    "characterDetails": "早坂爱",
+    "franchise": "Not provided",
+    "category": "other",
+    "version": "v2",
+    "requestType": "Create a new community interpretation",
+    "referenceStatus": "",
+    "references": "https://api.codexpet.top/uploads/reference/references/1e7cf63269cc1cfa570470dd080f6b4cc9cf1572de3ee60dde5250948013ca7c.jpg",
+    "referenceUrls": [
+      "https://api.codexpet.top/uploads/reference/references/1e7cf63269cc1cfa570470dd080f6b4cc9cf1572de3ee60dde5250948013ca7c.jpg"
+    ],
+    "referenceImages": [
+      "https://api.codexpet.top/uploads/reference/references/1e7cf63269cc1cfa570470dd080f6b4cc9cf1572de3ee60dde5250948013ca7c.jpg"
+    ],
+    "referenceThumbnails": [
+      "https://api.codexpet.top/uploads/reference/thumbnails/1e7cf63269cc1cfa570470dd080f6b4cc9cf1572de3ee60dde5250948013ca7c.webp"
+    ],
+    "visualDirection": "Let the community maker decide.",
+    "nameLanguages": "Let the maker decide",
+    "attribution": "Submitted without a GitHub account. Reference and attribution details should be confirmed during triage. Non-commercial use only.",
+    "duplicateCheck": "Repository automation or a maintainer should complete the duplicate check during triage.",
+    "state": "closed",
+    "status": "completed",
+    "labels": [
+      "type: request",
+      "status: completed",
+      "version: v2",
+      "category: other"
+    ],
+    "author": {
+      "login": "github-actions[bot]",
+      "avatarUrl": "https://avatars.githubusercontent.com/in/15368?v=4",
+      "url": "https://github.com/apps/github-actions"
+    },
+    "assignees": [],
+    "createdAt": "2026-11-05T05:23:11Z",
+    "updatedAt": "2026-11-11T09:28:11Z",
+    "closedAt": "2026-11-11T09:27:47Z",
+    "comments": 3,
+    "reactions": 0,
+    "githubUrl": "https://github.com/legeling/awesome-codex-pet/issues/366"
   },
   {
     "number": 311,
