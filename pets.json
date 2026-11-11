@@ -3172,6 +3172,19 @@
     "spriteVersionNumber": 1
   },
   {
+    "slug": "xjt--zhou-jianwen",
+    "name": "xjt",
+    "author": "zhou-jianwen",
+    "author_handle": "zhou-jianwen",
+    "primary_category": "Human Avatars",
+    "canonical_key": "human-avatar/xjt-request-355",
+    "variant_note": "An independently generated V2 compact whole-body adaptation of the request's cartoon portrait, with inferred navy lower-body garments, an abstract unlettered chest shield and playful task expressions.",
+    "collections": [],
+    "license": "Non-commercial use and redistribution only, with credit to zhou-jianwen as the AI-assisted adapter, to the extent the adapter holds rights. Source-art and any other underlying rights remain with their respective owners. No ownership of the represented person's likeness or third-party permission is asserted or granted.",
+    "description": "A playful reference-guided cartoon boy avatar in a blue polo, with a compact full-body adaptation and mischievous task expressions.",
+    "spriteVersionNumber": 2
+  },
+  {
     "slug": "yier--gbn666",
     "name": "Yi Er",
     "author": "Guo Beining",

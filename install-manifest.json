@@ -2591,6 +2591,16 @@
       "spritesheetWidth": 1536,
       "spritesheetHeight": 1872
     },
+    "xjt--zhou-jianwen": {
+      "name": "xjt",
+      "spriteVersionNumber": 2,
+      "petJsonSha256": "ef10543851f2dae6f08cde8cb7f9c20fa181c36670992d5f2cd9f37cc8e27232",
+      "petJsonBytes": 277,
+      "spritesheetSha256": "9ea874bc9830218b15a917759c2ae4f7877e95b10693e2d37dd46f1c34d1f195",
+      "spritesheetBytes": 1668982,
+      "spritesheetWidth": 1536,
+      "spritesheetHeight": 2288
+    },
     "yier--gbn666": {
       "name": "Yi Er",
       "spriteVersionNumber": 1,
