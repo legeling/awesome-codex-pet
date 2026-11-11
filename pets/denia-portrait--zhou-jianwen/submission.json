@@ -1,0 +1,27 @@
+{
+  "slug": "denia-portrait--zhou-jianwen",
+  "pet_slug": "denia-portrait",
+  "author_slug": "zhou-jianwen",
+  "author_handle": "zhou-jianwen",
+  "author": "zhou-jianwen",
+  "name": "Denia Portrait",
+  "localized_names": {
+    "en": "Denia Portrait",
+    "zh": "达尼娅大头照"
+  },
+  "primary_category": "Game Characters",
+  "canonical_key": "wuthering-waves/denia",
+  "description": "An unofficial animated head-only Denia portrait with expressive task states and sixteen look directions.",
+  "variant_note": "An independent V2 animated head-and-hair portrait with expressive task states and sixteen look directions.",
+  "tags": ["community-request", "chibi", "pink", "v2"],
+  "collections": [],
+  "source_type": "ai-generated",
+  "source_url": "https://github.com/legeling/awesome-codex-pet/issues/340",
+  "source_notes": "Independently AI-generated interpretation of Denia from Wuthering Waves for request #340. The requested headshot is interpreted as a complete animated head-and-hair portrait. The requester collage supplies appearance guidance. Its original artist, publication and redistribution permission are unverified. Final sprite pixels are produced with the built-in image_gen tool and native transparency, followed by intact-pose extraction, source-grid retiling and deterministic V2 assembly. Visual generation workers were configured as gpt-6-luna and gpt-6-sol with medium reasoning. Blind review workers were configured as gpt-6-luna with medium reasoning. The image tool backend model is undisclosed. Left and right drag animations are independently generated to preserve the anatomical-left ornament. zhou-jianwen is the AI-assisted adapter. Underlying character and source-art rights remain with their respective owners. Non-commercial fan use only.",
+  "license": "Non-commercial use and redistribution only, with credit to zhou-jianwen as the AI-assisted adapter, to the extent the adapter holds rights. Underlying character and source-art rights remain with their respective owners. No third-party permission is asserted or granted.",
+  "preview_image": "../../assets/previews/denia-portrait--zhou-jianwen/gifs/idle.gif",
+  "codex_install": {
+    "pet_json": "pet.json",
+    "spritesheet": "spritesheet.webp"
+  }
+}
