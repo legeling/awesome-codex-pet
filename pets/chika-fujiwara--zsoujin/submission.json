@@ -1,0 +1,34 @@
+{
+  "slug": "chika-fujiwara--zsoujin",
+  "pet_slug": "chika-fujiwara",
+  "author_slug": "zsoujin",
+  "name": "Chika Fujiwara",
+  "author": "zsoujin",
+  "author_handle": "zsoujin",
+  "author_url": "https://github.com/zsoujin",
+  "primary_category": "Anime Characters",
+  "canonical_key": "kaguya-sama-love-is-war/fujiwara-chika",
+  "variant_note": "An independent V2 interpretation by zsoujin with a newly generated, non-identical spritesheet, nine standard animation states, and a complete 16-direction look loop; visually distinct from the existing fujiwara-chika--klmklmnb entry.",
+  "collections": [],
+  "tags": [
+    "chika-fujiwara",
+    "kaguya-sama-love-is-war",
+    "pink-hair",
+    "twin-buns",
+    "schoolgirl",
+    "ai-generated",
+    "v2",
+    "look-directions"
+  ],
+  "source_type": "ai-generated-community-interpretation",
+  "source_url": "https://github.com/legeling/awesome-codex-pet/issues/350",
+  "asset_note": "The spritesheet is an independently generated community asset. The public reference image was used as visual reference only; no reference-image pixels are included in the package.",
+  "reference_note": "The requester supplied this public visual reference: https://static.wikia.nocookie.net/kaguyasama-wa-kokurasetai/images/d/d3/FujiwaraAnime.png/revision/latest?cb=20190209190348",
+  "license": "Non-commercial use only. Commercial use is prohibited. Chika Fujiwara, Kaguya-sama: Love Is War, and related character and franchise rights remain with their respective rights holders.",
+  "description": "An independent V2 Chika Fujiwara interpretation with pink twin-bun hair, a black bow, a school-uniform silhouette, nine standard animation states, and 16 clockwise look directions.",
+  "preview_image": "../../assets/previews/chika-fujiwara--zsoujin/gifs/idle.gif",
+  "codex_install": {
+    "pet_json": "pet.json",
+    "spritesheet": "spritesheet.webp"
+  }
+}
