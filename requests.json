@@ -38,6 +38,46 @@
     "githubUrl": "https://github.com/legeling/awesome-codex-pet/issues/350"
   },
   {
+    "number": 377,
+    "character": "小熊维尼（Winnie-the-Pooh）",
+    "characterDetails": "小熊维尼（Winnie-the-Pooh）",
+    "franchise": "Not provided",
+    "category": "other",
+    "version": "v2",
+    "requestType": "Create a new community interpretation",
+    "referenceStatus": "",
+    "references": "https://www.google.com/collections/s/list/Ul1BU55o9rpQegNQx4GAFg/N5GRb0qO9_E",
+    "referenceUrls": [
+      "https://www.google.com/collections/s/list/Ul1BU55o9rpQegNQx4GAFg/N5GRb0qO9_E"
+    ],
+    "referenceImages": [],
+    "referenceThumbnails": [],
+    "visualDirection": "希望是可爱风格的，可以有坐姿站姿趴姿等不同姿势，谢谢老师！！",
+    "nameLanguages": "Let the maker decide",
+    "attribution": "Submitted without a GitHub account. Reference and attribution details should be confirmed during triage. Non-commercial use only.",
+    "duplicateCheck": "Repository automation or a maintainer should complete the duplicate check during triage.",
+    "state": "open",
+    "status": "triage",
+    "labels": [
+      "type: request",
+      "status: triage",
+      "version: v2",
+      "category: other"
+    ],
+    "author": {
+      "login": "github-actions[bot]",
+      "avatarUrl": "https://avatars.githubusercontent.com/in/15368?v=4",
+      "url": "https://github.com/apps/github-actions"
+    },
+    "assignees": [],
+    "createdAt": "2026-11-14T21:11:36Z",
+    "updatedAt": "2026-11-14T21:11:36Z",
+    "closedAt": null,
+    "comments": 0,
+    "reactions": 0,
+    "githubUrl": "https://github.com/legeling/awesome-codex-pet/issues/377"
+  },
+  {
     "number": 365,
     "character": "早坂爱",
     "characterDetails": "早坂爱",
