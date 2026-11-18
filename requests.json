@@ -38,50 +38,6 @@
     "githubUrl": "https://github.com/legeling/awesome-codex-pet/issues/350"
   },
   {
-    "number": 378,
-    "character": "光遇白鸟",
-    "characterDetails": "光遇白鸟",
-    "franchise": "游戏",
-    "category": "other",
-    "version": "v2",
-    "requestType": "Create a new community interpretation",
-    "referenceStatus": "",
-    "references": "https://api.codexpet.top/uploads/reference/references/f87ff473563cea2463cf7b6543d0ac1e2bbe38047c707a3cd630ff69e2c97e59.png",
-    "referenceUrls": [
-      "https://api.codexpet.top/uploads/reference/references/f87ff473563cea2463cf7b6543d0ac1e2bbe38047c707a3cd630ff69e2c97e59.png"
-    ],
-    "referenceImages": [
-      "https://api.codexpet.top/uploads/reference/references/f87ff473563cea2463cf7b6543d0ac1e2bbe38047c707a3cd630ff69e2c97e59.png"
-    ],
-    "referenceThumbnails": [
-      "https://api.codexpet.top/uploads/reference/thumbnails/f87ff473563cea2463cf7b6543d0ac1e2bbe38047c707a3cd630ff69e2c97e59.webp"
-    ],
-    "visualDirection": "橡皮人",
-    "nameLanguages": "Let the maker decide",
-    "attribution": "Submitted without a GitHub account. Reference and attribution details should be confirmed during triage. Non-commercial use only.",
-    "duplicateCheck": "Repository automation or a maintainer should complete the duplicate check during triage.",
-    "state": "open",
-    "status": "triage",
-    "labels": [
-      "type: request",
-      "status: triage",
-      "version: v2",
-      "category: other"
-    ],
-    "author": {
-      "login": "github-actions[bot]",
-      "avatarUrl": "https://avatars.githubusercontent.com/in/15368?v=4",
-      "url": "https://github.com/apps/github-actions"
-    },
-    "assignees": [],
-    "createdAt": "2026-11-15T20:23:59Z",
-    "updatedAt": "2026-11-17T17:29:08Z",
-    "closedAt": null,
-    "comments": 1,
-    "reactions": 0,
-    "githubUrl": "https://github.com/legeling/awesome-codex-pet/issues/378"
-  },
-  {
     "number": 379,
     "character": "고라파덕",
     "characterDetails": "고라파덕",
@@ -787,6 +743,50 @@
     "comments": 1,
     "reactions": 0,
     "githubUrl": "https://github.com/legeling/awesome-codex-pet/issues/91"
+  },
+  {
+    "number": 378,
+    "character": "光遇白鸟",
+    "characterDetails": "光遇白鸟",
+    "franchise": "游戏",
+    "category": "other",
+    "version": "v2",
+    "requestType": "Create a new community interpretation",
+    "referenceStatus": "",
+    "references": "https://api.codexpet.top/uploads/reference/references/f87ff473563cea2463cf7b6543d0ac1e2bbe38047c707a3cd630ff69e2c97e59.png",
+    "referenceUrls": [
+      "https://api.codexpet.top/uploads/reference/references/f87ff473563cea2463cf7b6543d0ac1e2bbe38047c707a3cd630ff69e2c97e59.png"
+    ],
+    "referenceImages": [
+      "https://api.codexpet.top/uploads/reference/references/f87ff473563cea2463cf7b6543d0ac1e2bbe38047c707a3cd630ff69e2c97e59.png"
+    ],
+    "referenceThumbnails": [
+      "https://api.codexpet.top/uploads/reference/thumbnails/f87ff473563cea2463cf7b6543d0ac1e2bbe38047c707a3cd630ff69e2c97e59.webp"
+    ],
+    "visualDirection": "橡皮人",
+    "nameLanguages": "Let the maker decide",
+    "attribution": "Submitted without a GitHub account. Reference and attribution details should be confirmed during triage. Non-commercial use only.",
+    "duplicateCheck": "Repository automation or a maintainer should complete the duplicate check during triage.",
+    "state": "closed",
+    "status": "completed",
+    "labels": [
+      "type: request",
+      "status: completed",
+      "version: v2",
+      "category: other"
+    ],
+    "author": {
+      "login": "github-actions[bot]",
+      "avatarUrl": "https://avatars.githubusercontent.com/in/15368?v=4",
+      "url": "https://github.com/apps/github-actions"
+    },
+    "assignees": [],
+    "createdAt": "2026-11-15T20:23:59Z",
+    "updatedAt": "2026-11-18T02:51:00Z",
+    "closedAt": "2026-11-18T02:50:37Z",
+    "comments": 4,
+    "reactions": 0,
+    "githubUrl": "https://github.com/legeling/awesome-codex-pet/issues/378"
   },
   {
     "number": 377,
