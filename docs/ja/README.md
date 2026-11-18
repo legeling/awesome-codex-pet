@@ -12,7 +12,7 @@
 
 <a href="https://codexpet.top/ja"><img src="../../assets/cover/awesome-codex-pet-cover.png" alt="Awesome Codex Pet ギャラリーを開く"></a>
 
-![pets: 384](https://img.shields.io/badge/pets-384-2ea44f) ![categories: 11](https://img.shields.io/badge/categories-11-0969da) ![languages: en | zh--CN | ko | ja | es](https://img.shields.io/badge/languages-en%20%7C%20zh--CN%20%7C%20ko%20%7C%20ja%20%7C%20es-8250df) ![code: MIT](https://img.shields.io/badge/code-MIT-111111) ![assets: CC BY--NC 4.0](https://img.shields.io/badge/assets-CC%20BY--NC%204.0-f97316) ![install: one command](https://img.shields.io/badge/install-one%20command-111111) [![Pet previews](https://github.com/legeling/awesome-codex-pet/actions/workflows/pet-previews.yml/badge.svg)](https://github.com/legeling/awesome-codex-pet/actions/workflows/pet-previews.yml)
+![pets: 385](https://img.shields.io/badge/pets-385-2ea44f) ![categories: 11](https://img.shields.io/badge/categories-11-0969da) ![languages: en | zh--CN | ko | ja | es](https://img.shields.io/badge/languages-en%20%7C%20zh--CN%20%7C%20ko%20%7C%20ja%20%7C%20es-8250df) ![code: MIT](https://img.shields.io/badge/code-MIT-111111) ![assets: CC BY--NC 4.0](https://img.shields.io/badge/assets-CC%20BY--NC%204.0-f97316) ![install: one command](https://img.shields.io/badge/install-one%20command-111111) [![Pet previews](https://github.com/legeling/awesome-codex-pet/actions/workflows/pet-previews.yml/badge.svg)](https://github.com/legeling/awesome-codex-pet/actions/workflows/pet-previews.yml)
 
 </div>
 
@@ -69,7 +69,7 @@ npx @legeling/codex-pet
 </table>
 
 <details>
-<summary>全ペット一覧（テキストのみ） · 384</summary>
+<summary>全ペット一覧（テキストのみ） · 385</summary>
 
 ### ゲームキャラクター
 
@@ -122,6 +122,7 @@ npx @legeling/codex-pet
 <li><a href="../../pets/rosmontis--flovst">Rosmontis</a> · 作者 @flovst · v2</li>
 <li><a href="../../pets/ruan-mei--lingxiaotian">Ruan Mei</a> · 作者 <a href="https://github.com/legeling">@legeling</a> · v1</li>
 <li><a href="../../pets/silver-wolf--lingxiaotian">Silver Wolf</a> · 作者 <a href="https://github.com/legeling">@legeling</a> · v1</li>
+<li><a href="../../pets/sky-whitebird--legeling">Sky White Bird</a> · 作者 @legeling · v2</li>
 <li><a href="../../pets/sonetto--chenxin-dlut">Sonetto</a> · 作者 <a href="https://github.com/chenxin-dlut">@chenxin-dlut</a> · v1</li>
 <li><a href="../../pets/sparkle--lingxiaotian">Sparkle</a> · 作者 <a href="https://github.com/legeling">@legeling</a> · v1</li>
 <li><a href="../../pets/steve--laozhengzaici">Steve</a> · 作者 <a href="https://github.com/laozhengzaici">@laozhengzaici</a> · v2</li>

@@ -2781,6 +2781,19 @@
     "spriteVersionNumber": 1
   },
   {
+    "slug": "sky-whitebird--legeling",
+    "name": "Sky White Bird",
+    "localized_names": { "en": "Sky White Bird", "zh": "光遇白鸟" },
+    "author": "legeling",
+    "primary_category": "Game Characters",
+    "canonical_key": "sky-children-of-the-light/white-bird",
+    "variant_note": "Independent rubber-toy V2 interpretation of request #378, with asymmetric cape markings and an eyeless visor-led gaze.",
+    "collections": [],
+    "license": "Non-commercial use only. Underlying character and reference-art rights remain with their respective owners. No third-party permission is asserted.",
+    "description": "白色羽冠、橙色斗篷的光遇白鸟橡皮人伙伴。",
+    "spriteVersionNumber": 2
+  },
+  {
     "slug": "sleepwing--lttxzmj",
     "name": "Sleepwing",
     "localized_names": { "en": "Sleepwing", "zh": "眠翼鸟" },
