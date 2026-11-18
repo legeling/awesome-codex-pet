@@ -1,0 +1,26 @@
+{
+  "slug": "sky-whitebird--legeling",
+  "pet_slug": "sky-whitebird",
+  "author_slug": "legeling",
+  "author": "legeling",
+  "name": "Sky White Bird",
+  "localized_names": {
+    "en": "Sky White Bird",
+    "zh": "光遇白鸟"
+  },
+  "primary_category": "Game Characters",
+  "canonical_key": "sky-children-of-the-light/white-bird",
+  "description": "白色羽冠、橙色斗篷的光遇白鸟橡皮人伙伴。",
+  "variant_note": "Independent rubber-toy V2 interpretation of request #378, with asymmetric cape markings and an eyeless visor-led gaze.",
+  "tags": ["community-request", "3d-toy", "v2"],
+  "collections": [],
+  "source_type": "ai-generated",
+  "source_url": "https://github.com/legeling/awesome-codex-pet/issues/378",
+  "source_notes": "Independently AI-generated fan interpretation of the White Bird hairstyle from Sky: Children of the Light, using the request image as an appearance reference. Generated base and separate action/look strips are deterministically extracted, registered and assembled. Original reference authorship and third-party permission are not asserted. legeling is credited as AI-assisted adapter, not owner of the underlying character or reference.",
+  "license": "Non-commercial use only. Underlying character and reference-art rights remain with their respective owners. No third-party permission is asserted.",
+  "preview_image": "../../assets/previews/sky-whitebird--legeling/gifs/idle.gif",
+  "codex_install": {
+    "pet_json": "pet.json",
+    "spritesheet": "spritesheet.webp"
+  }
+}
