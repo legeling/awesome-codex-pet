@@ -12,11 +12,7 @@
   "canonical_key": "sky-children-of-the-light/white-bird",
   "description": "白色羽冠、橙色斗篷的光遇白鸟橡皮人伙伴。",
   "variant_note": "Independent rubber-toy V2 interpretation of request #378, with asymmetric cape markings and an eyeless visor-led gaze.",
-  "tags": [
-    "community-request",
-    "3d-toy",
-    "v2"
-  ],
+  "tags": ["community-request", "3d-toy", "v2"],
   "collections": [],
   "source_type": "ai-generated",
   "source_url": "https://github.com/legeling/awesome-codex-pet/issues/378",
