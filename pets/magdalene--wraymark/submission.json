@@ -1,0 +1,25 @@
+{
+  "slug": "magdalene--wraymark",
+  "pet_slug": "magdalene",
+  "author_slug": "wraymark",
+  "name": "Magdalene",
+  "localized_names": {
+    "en": "Magdalene",
+    "zh": "抹大拉"
+  },
+  "author": "WrayMark",
+  "author_handle": "WrayMark",
+  "author_url": "https://github.com/WrayMark",
+  "primary_category": "Game Characters",
+  "canonical_key": "the-binding-of-isaac/magdalene",
+  "tags": ["the-binding-of-isaac", "magdalene", "pixel-art", "game-character"],
+  "source_type": "fan-art",
+  "source_url": "https://store.steampowered.com/app/250900/The_Binding_of_Isaac_Rebirth/",
+  "license": "Non-commercial use only.",
+  "description": "AI-assisted pixel fan art adapted and art-directed by WrayMark. A red-bowed Magdalene raises the Yum Heart while waiting and performs a short spin inspired by The Specialist for Good Items (Steam Workshop 2575911103). The game and mod served as visual and motion references. The release sprite sheet was independently illustrated and edited.",
+  "preview_image": "../../assets/previews/magdalene--wraymark/gifs/idle.gif",
+  "codex_install": {
+    "pet_json": "pet.json",
+    "spritesheet": "spritesheet.webp"
+  }
+}
