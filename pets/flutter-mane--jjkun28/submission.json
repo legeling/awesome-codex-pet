@@ -1,0 +1,22 @@
+{
+  "slug": "flutter-mane--jjkun28",
+  "pet_slug": "flutter-mane",
+  "author_slug": "jjkun28",
+  "name": "振翼发",
+  "localized_names": {
+    "en": "Flutter Mane",
+    "zh": "振翼发"
+  },
+  "author": "JJkun28",
+  "author_handle": "JJkun28",
+  "author_url": "https://github.com/JJkun28",
+  "primary_category": "Game Characters",
+  "canonical_key": "pokemon/flutter-mane",
+  "tags": ["animated", "game-character", "pixel-art", "pokemon", "v1"],
+  "source_type": "fan-art",
+  "source_url": "https://dex.pokemon.cn/play/pokedex/0987",
+  "source_notes": "《宝可梦》振翼发的同人桌宠。以用户提供的 Gemini 像素图为造型参考，使用 AI 辅助制作动作与特效，再选帧、修整透明边缘并组装图集。",
+  "license": "Non-commercial use only.",
+  "description": "振翼发（Flutter Mane，图鉴 No. 0987）是《宝可梦 朱》中的古代种悖谬宝可梦，拥有幽灵和妖精双属性，特性为「古代活性」。图鉴记载，它的部分特征与超自然杂志中描述的翼龙幽灵相似。在像素桌宠里，它会左右飘行、从黑水潭探头、戴着红色圆墨镜翻书，还会凝聚月光发射紫色光球。",
+  "spritesheet_sha256": "73f2cd435ebaa01e4714f47123b2b33bc39cda6b8801436e6390131a6e8c9e72"
+}
