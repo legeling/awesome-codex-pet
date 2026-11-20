@@ -3273,6 +3273,17 @@
       "spritesheetWidth": 1536,
       "spritesheetHeight": 2288
     },
+    "flutter-mane--jjkun28": {
+      "name": "振翼发",
+      "localizedNames": { "en": "Flutter Mane", "zh": "振翼发" },
+      "spriteVersionNumber": 1,
+      "petJsonSha256": "6531db0931d84d7cd6f2a505f3c453a6bcb8eef839dc67626e2ad09df51b432d",
+      "petJsonBytes": 452,
+      "spritesheetSha256": "73f2cd435ebaa01e4714f47123b2b33bc39cda6b8801436e6390131a6e8c9e72",
+      "spritesheetBytes": 989946,
+      "spritesheetWidth": 1536,
+      "spritesheetHeight": 1872
+    },
     "doudizhu-laonongmin--chenyijing131-art": {
       "name": "斗地主老农民",
       "spriteVersionNumber": 2,
