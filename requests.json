@@ -745,6 +745,48 @@
     "githubUrl": "https://github.com/legeling/awesome-codex-pet/issues/91"
   },
   {
+    "number": 384,
+    "character": "蕾米埃尔",
+    "characterDetails": "蕾米埃尔",
+    "franchise": "Not provided",
+    "category": "other",
+    "version": "v2",
+    "requestType": "Create a new community interpretation",
+    "referenceStatus": "",
+    "references": "https://upload-bbs.miyoushe.com/upload/2026/06/21/291110358/ba2349a4076535334cbbe3db53348f29_6056456711636122831.png?x-oss-process=image//resize,s_600/quality,q_80/auto-orient,0/interlace,1/format,png",
+    "referenceUrls": [
+      "https://upload-bbs.miyoushe.com/upload/2026/06/21/291110358/ba2349a4076535334cbbe3db53348f29_6056456711636122831.png?x-oss-process=image//resize,s_600/quality,q_80/auto-orient,0/interlace,1/format,png"
+    ],
+    "referenceImages": [
+      "https://upload-bbs.miyoushe.com/upload/2026/06/21/291110358/ba2349a4076535334cbbe3db53348f29_6056456711636122831.png?x-oss-process=image//resize,s_600/quality,q_80/auto-orient,0/interlace,1/format,png"
+    ],
+    "referenceThumbnails": [],
+    "visualDirection": "Let the community maker decide.",
+    "nameLanguages": "Let the maker decide",
+    "attribution": "Submitted without a GitHub account. Reference and attribution details should be confirmed during triage. Non-commercial use only.",
+    "duplicateCheck": "Repository automation or a maintainer should complete the duplicate check during triage.",
+    "state": "closed",
+    "status": "completed",
+    "labels": [
+      "type: request",
+      "status: completed",
+      "version: v2",
+      "category: other"
+    ],
+    "author": {
+      "login": "github-actions[bot]",
+      "avatarUrl": "https://avatars.githubusercontent.com/in/15368?v=4",
+      "url": "https://github.com/apps/github-actions"
+    },
+    "assignees": [],
+    "createdAt": "2026-11-21T07:38:41Z",
+    "updatedAt": "2026-11-21T17:05:40Z",
+    "closedAt": "2026-11-21T17:05:40Z",
+    "comments": 1,
+    "reactions": 0,
+    "githubUrl": "https://github.com/legeling/awesome-codex-pet/issues/384"
+  },
+  {
     "number": 378,
     "character": "光遇白鸟",
     "characterDetails": "光遇白鸟",
