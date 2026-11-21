@@ -1,0 +1,19 @@
+{
+  "name": "Stitch",
+  "canonical_key": "disney/lilo-and-stitch/stitch",
+  "author": "星辰浩瀚",
+  "author_handle": "wt521lcl",
+  "author_url": "https://github.com/wt521lcl",
+  "primary_category": "Animation Characters",
+  "collections": [],
+  "license": "Non-commercial use only. Fan art based on Disney's Stitch from Lilo & Stitch.",
+  "description": "A fan-art Codex pet based on Disney's Stitch (Experiment 626) from Lilo & Stitch, featuring the iconic blue alien with large ears and playful expression.",
+  "localized_names": {
+    "en": "Stitch",
+    "zh": "史迪奇"
+  },
+  "spriteVersionNumber": 2,
+  "source_url": "",
+  "source_type": "AI-generated fan art based on publicly available character references",
+  "non_commercial": true
+}
