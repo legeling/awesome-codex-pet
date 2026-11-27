@@ -1,0 +1,22 @@
+{
+  "slug": "xiao-gong-gong--legeling",
+  "pet_slug": "xiao-gong-gong",
+  "author_slug": "legeling",
+  "name": "小公公",
+  "localized_names": {
+    "en": "Bonnet Tabby",
+    "zh": "小公公"
+  },
+  "author": "legeling",
+  "author_handle": "legeling",
+  "author_url": "https://github.com/legeling",
+  "primary_category": "Animals",
+  "canonical_key": "domestic-cat/xiao-gong-gong",
+  "tags": ["animated", "community-request", "cat", "sticker", "v2"],
+  "source_type": "ai-generated",
+  "source_url": "https://github.com/legeling/awesome-codex-pet/issues/386",
+  "source_notes": "Independent illustrated adaptation of the anonymous reference photo. No source photo pixels or scene assets are distributed.",
+  "license": "Personal non-commercial use only. Underlying character and reference rights remain with their respective owners.",
+  "description": "戴着薄荷色小帽的银灰猫。它会眨眼、举爪打招呼，也会跟着光标转头。",
+  "spritesheet_sha256": "e8ca8502f914e6a1e8f184675a1783751ffade75eab962296a895e48bf23cd2f"
+}
