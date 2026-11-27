@@ -1,0 +1,28 @@
+{
+  "slug": "elysia--legeling",
+  "pet_slug": "elysia",
+  "author_slug": "legeling",
+  "name": "爱莉希雅",
+  "localized_names": {
+    "en": "Elysia",
+    "zh": "爱莉希雅"
+  },
+  "author": "legeling",
+  "author_handle": "legeling",
+  "author_url": "https://github.com/legeling",
+  "primary_category": "Game Characters",
+  "canonical_key": "honkai-impact-3rd/elysia",
+  "tags": [
+    "animated",
+    "community-request",
+    "honkai-impact-3rd",
+    "sticker",
+    "v2"
+  ],
+  "source_type": "ai-generated",
+  "source_url": "https://github.com/legeling/awesome-codex-pet/issues/387",
+  "source_notes": "Independent fan-made illustration inspired by the issue reference and the Honkai Impact 3rd character; no submitted art or game sprites are redistributed. Character rights remain with the respective rights holders.",
+  "license": "Personal non-commercial use only. Underlying character and reference rights remain with their respective owners.",
+  "description": "《崩坏 3》爱莉希雅的粉发白紫贴纸风桌宠。会招手、跳跃，也能跟随光标转头。",
+  "spritesheet_sha256": "9acca50e78bc01dff74fd16f0384e40f5c0daa3496b48891a71e9596a10f22dc"
+}
