@@ -1,5 +1,93 @@
 [
   {
+    "number": 387,
+    "character": "爱莉希雅",
+    "characterDetails": "爱莉希雅",
+    "franchise": "崩坏三",
+    "category": "other",
+    "version": "v2",
+    "requestType": "Create a new community interpretation",
+    "referenceStatus": "",
+    "references": "https://api.codexpet.top/uploads/reference/references/59a60399eed90fa208b67d300729e8f13462c9e0f02ab8728835bf1397ffbc51.png",
+    "referenceUrls": [
+      "https://api.codexpet.top/uploads/reference/references/59a60399eed90fa208b67d300729e8f13462c9e0f02ab8728835bf1397ffbc51.png"
+    ],
+    "referenceImages": [
+      "https://api.codexpet.top/uploads/reference/references/59a60399eed90fa208b67d300729e8f13462c9e0f02ab8728835bf1397ffbc51.png"
+    ],
+    "referenceThumbnails": [
+      "https://api.codexpet.top/uploads/reference/thumbnails/59a60399eed90fa208b67d300729e8f13462c9e0f02ab8728835bf1397ffbc51.webp"
+    ],
+    "visualDirection": "Let the community maker decide.",
+    "nameLanguages": "Let the maker decide",
+    "attribution": "Submitted without a GitHub account. Reference and attribution details should be confirmed during triage. Non-commercial use only.",
+    "duplicateCheck": "Repository automation or a maintainer should complete the duplicate check during triage.",
+    "state": "open",
+    "status": "in-progress",
+    "labels": [
+      "type: request",
+      "status: in-progress",
+      "version: v2",
+      "category: other"
+    ],
+    "author": {
+      "login": "github-actions[bot]",
+      "avatarUrl": "https://avatars.githubusercontent.com/in/15368?v=4",
+      "url": "https://github.com/apps/github-actions"
+    },
+    "assignees": [],
+    "createdAt": "2026-11-26T12:51:31Z",
+    "updatedAt": "2026-11-27T02:52:15Z",
+    "closedAt": null,
+    "comments": 1,
+    "reactions": 0,
+    "githubUrl": "https://github.com/legeling/awesome-codex-pet/issues/387"
+  },
+  {
+    "number": 386,
+    "character": "小公公",
+    "characterDetails": "小公公",
+    "franchise": "Not provided",
+    "category": "other",
+    "version": "v2",
+    "requestType": "Create a new community interpretation",
+    "referenceStatus": "",
+    "references": "https://api.codexpet.top/uploads/reference/references/eed5c0748393ed29690c4d030ddf62ed45e43989acaf106386fed58ee7bc92bd.jpg",
+    "referenceUrls": [
+      "https://api.codexpet.top/uploads/reference/references/eed5c0748393ed29690c4d030ddf62ed45e43989acaf106386fed58ee7bc92bd.jpg"
+    ],
+    "referenceImages": [
+      "https://api.codexpet.top/uploads/reference/references/eed5c0748393ed29690c4d030ddf62ed45e43989acaf106386fed58ee7bc92bd.jpg"
+    ],
+    "referenceThumbnails": [
+      "https://api.codexpet.top/uploads/reference/thumbnails/eed5c0748393ed29690c4d030ddf62ed45e43989acaf106386fed58ee7bc92bd.webp"
+    ],
+    "visualDirection": "Let the community maker decide.",
+    "nameLanguages": "Let the maker decide",
+    "attribution": "Submitted without a GitHub account. Reference and attribution details should be confirmed during triage. Non-commercial use only.",
+    "duplicateCheck": "Repository automation or a maintainer should complete the duplicate check during triage.",
+    "state": "open",
+    "status": "in-progress",
+    "labels": [
+      "type: request",
+      "status: in-progress",
+      "version: v2",
+      "category: other"
+    ],
+    "author": {
+      "login": "github-actions[bot]",
+      "avatarUrl": "https://avatars.githubusercontent.com/in/15368?v=4",
+      "url": "https://github.com/apps/github-actions"
+    },
+    "assignees": [],
+    "createdAt": "2026-11-26T12:51:29Z",
+    "updatedAt": "2026-11-27T02:52:13Z",
+    "closedAt": null,
+    "comments": 1,
+    "reactions": 0,
+    "githubUrl": "https://github.com/legeling/awesome-codex-pet/issues/386"
+  },
+  {
     "number": 350,
     "character": "Chika Fujiwara",
     "characterDetails": "Chika Fujiwara",
@@ -36,94 +124,6 @@
     "comments": 2,
     "reactions": 0,
     "githubUrl": "https://github.com/legeling/awesome-codex-pet/issues/350"
-  },
-  {
-    "number": 387,
-    "character": "爱莉希雅",
-    "characterDetails": "爱莉希雅",
-    "franchise": "崩坏三",
-    "category": "other",
-    "version": "v2",
-    "requestType": "Create a new community interpretation",
-    "referenceStatus": "",
-    "references": "https://api.codexpet.top/uploads/reference/references/59a60399eed90fa208b67d300729e8f13462c9e0f02ab8728835bf1397ffbc51.png",
-    "referenceUrls": [
-      "https://api.codexpet.top/uploads/reference/references/59a60399eed90fa208b67d300729e8f13462c9e0f02ab8728835bf1397ffbc51.png"
-    ],
-    "referenceImages": [
-      "https://api.codexpet.top/uploads/reference/references/59a60399eed90fa208b67d300729e8f13462c9e0f02ab8728835bf1397ffbc51.png"
-    ],
-    "referenceThumbnails": [
-      "https://api.codexpet.top/uploads/reference/thumbnails/59a60399eed90fa208b67d300729e8f13462c9e0f02ab8728835bf1397ffbc51.webp"
-    ],
-    "visualDirection": "Let the community maker decide.",
-    "nameLanguages": "Let the maker decide",
-    "attribution": "Submitted without a GitHub account. Reference and attribution details should be confirmed during triage. Non-commercial use only.",
-    "duplicateCheck": "Repository automation or a maintainer should complete the duplicate check during triage.",
-    "state": "open",
-    "status": "triage",
-    "labels": [
-      "type: request",
-      "status: triage",
-      "version: v2",
-      "category: other"
-    ],
-    "author": {
-      "login": "github-actions[bot]",
-      "avatarUrl": "https://avatars.githubusercontent.com/in/15368?v=4",
-      "url": "https://github.com/apps/github-actions"
-    },
-    "assignees": [],
-    "createdAt": "2026-11-26T12:51:31Z",
-    "updatedAt": "2026-11-26T12:51:31Z",
-    "closedAt": null,
-    "comments": 0,
-    "reactions": 0,
-    "githubUrl": "https://github.com/legeling/awesome-codex-pet/issues/387"
-  },
-  {
-    "number": 386,
-    "character": "小公公",
-    "characterDetails": "小公公",
-    "franchise": "Not provided",
-    "category": "other",
-    "version": "v2",
-    "requestType": "Create a new community interpretation",
-    "referenceStatus": "",
-    "references": "https://api.codexpet.top/uploads/reference/references/eed5c0748393ed29690c4d030ddf62ed45e43989acaf106386fed58ee7bc92bd.jpg",
-    "referenceUrls": [
-      "https://api.codexpet.top/uploads/reference/references/eed5c0748393ed29690c4d030ddf62ed45e43989acaf106386fed58ee7bc92bd.jpg"
-    ],
-    "referenceImages": [
-      "https://api.codexpet.top/uploads/reference/references/eed5c0748393ed29690c4d030ddf62ed45e43989acaf106386fed58ee7bc92bd.jpg"
-    ],
-    "referenceThumbnails": [
-      "https://api.codexpet.top/uploads/reference/thumbnails/eed5c0748393ed29690c4d030ddf62ed45e43989acaf106386fed58ee7bc92bd.webp"
-    ],
-    "visualDirection": "Let the community maker decide.",
-    "nameLanguages": "Let the maker decide",
-    "attribution": "Submitted without a GitHub account. Reference and attribution details should be confirmed during triage. Non-commercial use only.",
-    "duplicateCheck": "Repository automation or a maintainer should complete the duplicate check during triage.",
-    "state": "open",
-    "status": "triage",
-    "labels": [
-      "type: request",
-      "status: triage",
-      "version: v2",
-      "category: other"
-    ],
-    "author": {
-      "login": "github-actions[bot]",
-      "avatarUrl": "https://avatars.githubusercontent.com/in/15368?v=4",
-      "url": "https://github.com/apps/github-actions"
-    },
-    "assignees": [],
-    "createdAt": "2026-11-26T12:51:29Z",
-    "updatedAt": "2026-11-26T12:51:29Z",
-    "closedAt": null,
-    "comments": 0,
-    "reactions": 0,
-    "githubUrl": "https://github.com/legeling/awesome-codex-pet/issues/386"
   },
   {
     "number": 385,
