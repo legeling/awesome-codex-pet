@@ -1,0 +1,29 @@
+{
+  "slug": "jisoo-blossom--jiangzengyuang-jisoo",
+  "pet_slug": "jisoo-blossom",
+  "author_slug": "jiangzengyuang-jisoo",
+  "name": "Jisoo Blossom",
+  "localized_names": {
+    "en": "Jisoo Blossom",
+    "zh": "花漾智秀"
+  },
+  "author": "jiangzengyuang-jisoo",
+  "author_handle": "jiangzengyuang-jisoo",
+  "author_url": "https://github.com/jiangzengyuang-jisoo",
+  "primary_category": "Human Avatars",
+  "canonical_key": "real-person/blackpink/jisoo",
+  "variant_note": "由 jiangzengyuang-jisoo 独立制作的 JISOO《FLOWER》造型 V2 版本：自然成人比例、黑色抹胸及地花裙、盘发与珍珠项链，针对小尺寸显示优化五官和花纹；包含九种动作及十六个环视方向。",
+  "tags": ["human-avatar", "ai-generated", "codex-v2"],
+  "collections": [],
+  "source_type": "ai-generated-fan-art",
+  "source_url": "",
+  "asset_note": "最终宠物资产由 jiangzengyuang-jisoo 策划和适配，使用 OpenAI Codex 内置图像生成功能独立生成并迭代编辑，再由确定性流程提取、统一缩放、拼接和清理透明边缘。延续的是本人在本次制作中生成的像素；没有把参考照片直接裁剪、描摹或清晰化为 spritesheet。",
+  "reference_note": "角色为 BLACKPINK 成员 JISOO（金智秀），造型参考用户提供的《FLOWER》照片。参考照片仅用于相貌、发型和服装参考，不随包发布；其摄影作者及公开原始链接未提供，不能据此认定投稿人拥有参考照片。人物身份、名称、相关标识和参考照片的权利归各自权利人；本作品为非官方同人创作，无官方关联或背书。",
+  "license": "仅限非商业使用，禁止商用。使用或再分发本宠物资产时须保留 jiangzengyuang-jisoo 的制作与适配署名及来源说明。此使用说明不授予参考照片、人物肖像、名称、商标或其他第三方权利。",
+  "description": "JISOO《FLOWER》造型的非官方 AI 生成 Codex 宠物：自然成人比例、盘发、珍珠项链和遮脚及地花裙。包含九种动作与十六个环视方向；原生 192×208 单帧尺寸限制面部细节，不宣称照片级还原。",
+  "preview_image": "../../assets/previews/jisoo-blossom--jiangzengyuang-jisoo/gifs/idle.gif",
+  "codex_install": {
+    "pet_json": "pet.json",
+    "spritesheet": "spritesheet.webp"
+  }
+}
