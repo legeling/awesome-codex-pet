@@ -1,0 +1,24 @@
+{
+  "slug": "taiji-tuanzi--zgc37359-lang",
+  "pet_slug": "taiji-tuanzi",
+  "author_slug": "zgc37359-lang",
+  "name": "Taiji Tuanzi",
+  "localized_names": {
+    "en": "Taiji Tuanzi",
+    "zh": "太极团子"
+  },
+  "canonical_key": "taiji-tuanzi",
+  "author": "zgc37359-lang",
+  "author_handle": "zgc37359-lang",
+  "author_url": "https://github.com/zgc37359-lang",
+  "primary_category": "Original Characters",
+  "tags": ["taiji", "tai-chi", "jade", "martial-arts", "chinese", "original"],
+  "source_type": "original",
+  "source_url": "",
+  "license": "MIT",
+  "description": "An original taiji-practicing jade dumpling Codex pet. Breathing idle, palm strike while the agent works, review at the end. 1536x2288 v2 atlas with 16 look directions.",
+  "codex_install": {
+    "pet_json": "pet.json",
+    "spritesheet": "spritesheet.webp"
+  }
+}
